@@ -8,4 +8,4 @@ tags:
   - scrape
 published: true
 ---
-Post here.
+This code makes a simple index of all the filings on EDGAR. 
