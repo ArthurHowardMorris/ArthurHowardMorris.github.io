@@ -17,10 +17,13 @@ with Dane Christensen, Beverly Walther, and Laura Wellman.
 
 Here's the abstract:
 
+> We examine whether politically active firms play a role in disseminating political information via their management guidance. We use multiple proxies based on campaign financing activity or the presence of a government affairs office to capture whether a firm is politically active. We find that politically active firms are more likely to issue management guidance overall, and especially when the government is a key customer of the firm. Further, relative to politically inactive firms, the guidance released by politically active firms is more likely to discuss government policies. In addition to using numerous econometric techniques to address self-selection concerns, we examine the timing of when guidance is issued. We find that politically active firms are more likely to issue guidance prior to the public revelation of government policy decisions. Collectively, these findings suggest that the privileged information firms obtain through their political activities is shared with investors through voluntary disclosures.
 
-I know it's pretty widely known that EDGAR is a treasure trove of information that we're just starting to really scratch the surface of. Here we do something that isn't too hard, but really helps us tease out some interesting insights. We simply scrape the edgar files for occurances of words from lists of policy words. If you're interested in doing something simlar the first hurdle is to get an index of the files available on EDGAR. Extracting these files isn't too tricky once you know what to do ... but if you don't know what to do it can be a bit of a headache. I've posted a simple python script that will help you do this, along with the annual indexes for the history of EDGAR.
+We did a couple of things here that others might be interested in using in their own work. 
 
-*talk about getting the word counts here*
+First, we scrape EDGAR to see what language firms are using around the release of guidance. If you're interested in doing something simlar the first hurdle is to get an index of the files available on EDGAR. Extracting these files isn't too tricky once you know what to do ... but if you don't know what to do it can be a bit of a headache. I've posted a simple python script that will help you do this, along with the annual indexes for the history of EDGAR.
+
+Second, we use some nice graphs to show that the timing of guidance around the final vote for important bills (check the paper for details on what's important here).
 
 We think that firms are giving information about political events to their shareholders so we get a list of vote dates (check the paper for the details of how we did this) and then look at the patterns of disclosures around those dates. We've seen tests like this before in the accounting literature, but one of the problems for 
 
