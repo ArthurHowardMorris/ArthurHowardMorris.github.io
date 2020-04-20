@@ -4,9 +4,9 @@ title: story
 published: true
 ---
 
-I teach Managerial Accounting at the Hong Kong University of Science and Technology ([HKUST](https://www.ust.hk/home)), and I research the relationships the form across the boundries of the firm, how stakeholders use contracts to formalize these relationships, and how those contracts shape behavior. 
+I teach Managerial Accounting at the Hong Kong University of Science and Technology ([HKUST](https://www.ust.hk/home)), and I research the relationships that form across the boundries of the firm, how stakeholders use contracts to formalize these relationships, and how those contracts shape behavior. 
 
-Here is a list of y current working papers:
+Here is a list of my current working papers:
 
 ### [Financial shocks and corporate investment activity: The role of financial covenants](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3079996)
 with Hans Christensen, Daniele Macciocchi, and Valeri Nikolaev
@@ -26,5 +26,4 @@ with Scott Dyreng and Elia Ferracuti
 ### Option grants and risky projects: A reputation-based perspective
 - _Best Management Accounting Paper AAA Annual Meeting_, August, 2018
 
-Before taking my current position in Hong Kong, I taught at NYU - Shanghai where I was an Assistant Professor and Faculty Fellow. 
-
+Before taking my current position in Hong Kong, I taught at NYU - Shanghai where I was an Assistant Professor and Faculty Fellow.
