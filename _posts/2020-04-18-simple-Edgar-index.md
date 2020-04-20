@@ -12,7 +12,7 @@ I scrape EDGAR to see what language firms are talking about in lots of my work. 
 
 If you're interested in doing something simlar the first hurdle is to get an index of the files available on EDGAR. Extracting these files isn't too tricky once you know what to do ... but if you don't know what to do working with these index files can be a bit of a headache. [I've posted a simple python script that will help you do this](https://github.com/ArthurHowardMorris/buildEdgarIndex/blob/master/buildEdgarIndex.py). 
 
-The script is slightly edited from what [Kai Chen has posted on his excellent website](http://kaichen.work/?p=59). 
+The script is lightly edited from what [Kai Chen has posted on his excellent website](http://kaichen.work/?p=59). 
 
 ### Workflow:  
 
@@ -22,4 +22,4 @@ The script is slightly edited from what [Kai Chen has posted on his excellent we
 
 3. When I have a particular question in mind, I'll develop a script to conduct what ever analysis I'm interested in and run that script on the server where all the files are located. 
 
-This isn't anything revoloutionary, but working locally substantially reduces the time required to scrape EDGAR, and this simple approach to building and maintaining an EDGAR index is at least an approachable starting point. For a more sophisticated approach to the whole exercise check out [Mac Gaulin's ```pyedgar``` library](https://github.com/gaulinmp/pyedgar)
+This isn't anything revoloutionary, but working locally substantially reduces the time required to scrape EDGAR, and this simple approach to building and maintaining an EDGAR index is at least an approachable starting point. For a more sophisticated approach to the whole exercise check out [Mac Gaulin's ```pyedgar``` library](https://github.com/gaulinmp/pyedgar).
