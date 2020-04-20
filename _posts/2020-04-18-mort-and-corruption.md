@@ -9,7 +9,6 @@ tags:
   - banks
   - working paper
   - political economy
-link: 'https://github.com'
 published: true
 date: 2020-08-04T00:00:00.000Z
 ---
