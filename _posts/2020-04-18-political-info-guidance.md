@@ -23,8 +23,4 @@ We did a couple of things here that others might be interested in using in their
 
 First, we scrape EDGAR to see what language firms are using around the release of guidance. If you're interested in doing something simlar the first hurdle is to get an index of the files available on EDGAR. Extracting these files isn't too tricky once you know what to do ... but if you don't know what to do it can be a bit of a headache. I've posted a simple python script that will help you do this, along with the annual indexes for the history of EDGAR.
 
-Second, we use some nice graphs to show that the timing of guidance around the final vote for important bills (check the paper for details on what's important here).
-
-We think that firms are giving information about political events to their shareholders so we get a list of vote dates (check the paper for the details of how we did this) and then look at the patterns of disclosures around those dates. We've seen tests like this before in the accounting literature, but one of the problems for 
-
-(the bunching stuff, note that Nate has done some cool stuff here)
+Second, we use some nice graphs to show that the timing of guidance around the final vote for important bills (check the paper for details on what's important here). 
