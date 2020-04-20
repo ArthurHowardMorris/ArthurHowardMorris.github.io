@@ -3,10 +3,12 @@ title: >-
   Individual mortgage lending and corruption: Evidence from local corruption
   crack-downs
 categories:
-  - Blog
+  - articles
 tags:
-  - link
-  - Post Formats
+  - mortgages
+  - banks
+  - working paper
+  - political economy
 link: 'https://github.com'
 published: true
 ---
