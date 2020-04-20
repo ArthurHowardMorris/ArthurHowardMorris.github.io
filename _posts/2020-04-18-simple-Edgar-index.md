@@ -8,7 +8,7 @@ tags:
   - scrape
 published: true
 ---
-I find myself scraping EDGAR to see what language firms are using. It turns out that the nuts and bolts of most text analysis (at least as we implement it in Finance and Accounting) are relatively straightforward to implement in Python. 
+Frequently, I find myself scraping EDGAR to see what language firms are using. It turns out that the nuts and bolts of most text analysis (at least as we implement it in Finance and Accounting) are relatively straightforward to implement in Python. 
 
 If you're interested in doing something similar the first hurdle is to get an index of the files available on EDGAR. Extracting these files isn't too tricky once you know what to do ... but if you don't know what to do working with these index files can be a bit of a headache. [I've posted a simple python script that will help you do this](https://github.com/ArthurHowardMorris/buildEdgarIndex/blob/master/buildEdgarIndex.py). 
 
