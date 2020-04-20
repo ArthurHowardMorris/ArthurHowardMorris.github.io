@@ -11,6 +11,7 @@ tags:
   - political economy
 link: 'https://github.com'
 published: true
+date: 2021-08-04T00:00:00.000Z
 ---
 
 Individual mortgage lending and corruption: Evidence from local corruption crack-downs
