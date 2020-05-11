@@ -1,7 +1,7 @@
 ---
 published: false
 ---
-## [_It doesn't have to be crazy at work._](https://basecamp.com/books/calm "Book Link")
+[___It doesn't have to be crazy at work.___](https://basecamp.com/books/calm "Book Link")
 
 Written by the founders of [Basecamp](https://basecamp.com "Basecamp company site"), the book is part manifesto part self-help guide for folks -- the happy few -- who directly control organizational culture. 
 
