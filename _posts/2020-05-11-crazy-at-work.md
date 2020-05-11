@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 [___It doesn't have to be crazy at work.___](https://basecamp.com/books/calm "Book Link")
 
