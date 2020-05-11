@@ -16,4 +16,4 @@ But, for the rest of us, there is the very trenchant argument that quality of ti
 
 It's a quick read and not too irritating on the iPhone during a Shanghai Metro commute. 
 
-[Image at Basecamp]({{site.baseurl}}/https://basecamp.com/assets/books/idhtbcaw-front-c0c6d20f2c1bd59dafca406530a66269e25c836b41132bb31aa3c91b8db600e5.gif)
+![Image at Basecamp]({{site.baseurl}}/https://basecamp.com/assets/books/idhtbcaw-front-c0c6d20f2c1bd59dafca406530a66269e25c836b41132bb31aa3c91b8db600e5.gif)
