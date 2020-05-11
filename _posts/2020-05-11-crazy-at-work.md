@@ -1,9 +1,9 @@
 ---
-title: It doesn't have to be crazy at work
+title: "It doesn't have to be crazy at work"
 categories:
-	- reading
+  - reading
 tags:
-	- books
+  - books
 published: true
 ---
 [___It doesn't have to be crazy at work.___](https://basecamp.com/books/calm "Book Link")
