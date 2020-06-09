@@ -1,6 +1,6 @@
 ---
 title: Political information flow and management guidance
-date: 2020-06-20T00:00:00.000Z
+date: {}
 categories:
   - articles
 tags:
@@ -14,7 +14,7 @@ published: true
 
 [Political information flow and management guidance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3403763)
 with Dane Christensen, Beverly Walther, and Laura Wellman.
-- under rewiew at Management Science.
+- under review at Management Science.
 
 Here's the abstract:
 
