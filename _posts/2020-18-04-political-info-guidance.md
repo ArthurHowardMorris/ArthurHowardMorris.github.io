@@ -23,4 +23,4 @@ Here's the abstract:
 Amoung other more conventional analyses, we are able to show that firms with political collections appear to shift their guidance to just before the final vote on bills that matter to their industry.
 
 
-![]({{site.baseurl}}/https://github.com/ArthurHowardMorris/cmww/blob/master/Tabs/F1_MAIN.pdf)
+![Figure 1]({{site.baseurl}}/https://github.com/ArthurHowardMorris/cmww/blob/master/Tabs/F1_MAIN.pdf)
