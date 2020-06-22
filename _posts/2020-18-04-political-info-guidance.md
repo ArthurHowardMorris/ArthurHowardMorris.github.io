@@ -1,6 +1,7 @@
 ---
 title: Political information flow and management guidance
-date: {}
+date:
+  2020/06/22: null
 categories:
   - articles
 tags:
