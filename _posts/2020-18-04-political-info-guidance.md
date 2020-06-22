@@ -23,7 +23,8 @@ Here's the abstract:
 
 Among other more conventional analyses, we are able to show that firms with political collections appear to shift their guidance to just before the final vote on bills that matter to their industry. Here is figure 1 from our paper, where we plot timing of guidance relative to the final vote date. 
 
-![Figure 1](/assets/img/CMWW_F1_MAIN.pdf)
+
+![Figure 1](/assets/img/CMWW_F1_MAIN.png)
 
 To make this graph we use `kdens` and `twoway` in Stata.
 
