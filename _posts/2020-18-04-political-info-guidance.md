@@ -26,25 +26,56 @@ Among other more conventional analyses, we are able to show that firms with poli
 
 ![Figure 1](/assets/img/CMWW_F1_MAIN.png)
 
-To make this graph we use `kdens` and `twoway` in Stata.
+To make this graph we use `kdens` and `twoway rarea` in Stata.
+The steps for this weren't obvious to me initially.
 
+First load the data and label the variable of interest:
 ```stata
 use "./timeToBillData.dta", clear
 lab var timeToBill "Days from Final Vote to Guidance"
-* ESTIMATE THE CONFIDENCE INTS AND KERNELS
-kdens timeToBill if Connected == 0 & GUIDE == 1 & !mi(lobbycount) & lobbycount>0 & mi(timeToEA) & month < 1 & month > - 2 , /// limits to month -1 and 0
-		ll(-31.5) ul(30) /*kernel(epanechnikov)*/ reflection bw(n) /// bn(n) lets this data define the bins
-		 gen(d1 x1) ci(ci1_1 ci1_2) // saves the vars
-kdens timeToBill if Connected == 1 & GUIDE == 1 & !mi(lobbycount) & lobbycount>0 & mi(timeToEA) & month < 1 & month > - 2 , ///
-		ll(-31.5) ul(30) /*kernel(epanechnikov)*/ reflection bw(5.2560433) /// here we apply the bin from Connected=0 group
-		gen(d0 x0) ci(ci0_1 ci0_2) // 
+```
+Second, estimate the density function for the non-connected group with a confidence interval
+```stata
+* not connected
+kdens timeToBill if Connected == 0 & /// non-connected
+		GUIDE == 1 & /// issue guidance 
+        !mi(lobbycount) & lobbycount>0 & /// peers lobby on this bill
+		mi(timeToEA) & /// not bundled with an earnings announcement
+        month < 1 & month > - 2 , /// limits to month -1 and 0
+		ll(-31.5) ul(30) /// set the limits (+/- 30 days)
+        /*kernel(epanechnikov)*/ /// epanechnikov kernel is the default
+        reflection /// determines the shape at the bounds
+        bw(n) /// bn(n) lets this data define the bins
+		gen(d1 x1) /// saves the line
+        ci(ci1_1 ci1_2) // saves the confidence interval 
+```
 
-// PLOT THE KERNELS AND CONF INTS
+Third, estimate the density function for the connected group with a confidence interval
+
+```stata
+kdens timeToBill if Connected == 1 & /// non-connected
+		GUIDE == 1 & /// issue guidance 
+        !mi(lobbycount) & lobbycount>0 & /// peers lobby on this bill
+		mi(timeToEA) & /// not bundled with an earnings announcement
+        month < 1 & month > - 2 , /// limits to month -1 and 0
+		ll(-31.5) ul(30) /// set the limits (+/- 30 days)
+        /*kernel(epanechnikov)*/ /// epanechnikov kernel is the default
+        reflection bw(5.2560433) /// here we apply the bin from Connected=0 group
+		gen(d0 x0) /// saves the line
+        ci(ci0_1 ci0_2) // saves the confidence interval 
+```
+
+Finally, plot the estimated density functions and their confidence intervals:
+
+```stata
 twoway rarea ci0_1 ci0_2 x0 , color(green*.2) || /// 
 	rarea ci1_1 ci1_2 x1 , color(blue*.2) || ///
 	line d1 x1, lc(blue) || line d0 x0, lc(green) lp(shortdash) /// 
 	legend(order(3 "Not Connected" 4 "Connected") pos(7) ring(0) col(1)) ///
 	xlabel(-30(10)30)  ytitle("Epanechnikov Kernel Density")
-graph export "./Tabs/F1_MAIN.pdf" , replace
+```
+... and save the graph if you like:
 
+```stata
+graph export "./Tabs/F1_MAIN.png" , replace
 ```
