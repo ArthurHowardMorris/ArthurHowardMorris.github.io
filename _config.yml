@@ -26,7 +26,8 @@ search: true
 
 # Build settings
 #markdown: kramdown
-markdown: redcarpet
+#markdown: redcarpet
+markdown: GFM
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
