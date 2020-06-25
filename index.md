@@ -9,22 +9,3 @@ I teach Managerial Accounting at the Hong Kong University of Science and Technol
 Before taking my current position in Hong Kong, I taught at NYU - Shanghai where I was an Assistant Professor and Faculty Fellow.
 
 [Here is a list of my current articles.](https://arthurhowardmorris.github.io/categories/#articles)
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                                                                                                    
-~                                                       
