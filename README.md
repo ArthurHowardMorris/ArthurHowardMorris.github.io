@@ -1,27 +1,7 @@
-# Minimal Mistakes remote theme starter
+I teach Managerial Accounting at the Hong Kong University of Science and Technology (HKUST). I research the relationships that form within and across the boundaries of the firm, how stakeholders use contracts to formalize these relationships, and how those contracts shape behavior.
 
-Fork this repo for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Before taking my current position in Hong Kong, I taught at NYU - Shanghai where I was an Assistant Professor and Faculty Fellow.
 
-Contains basic configuration to get you a site with:
+[Here is a list of my current articles.](https://arthurhowardmorris.github.io/categories/#articles)
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
-
----
-
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
