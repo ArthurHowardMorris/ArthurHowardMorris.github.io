@@ -1,10 +1,10 @@
 ---
 published: true
 tags:
-	- covid
-	- visualization 
+- covid
+- visualization 
 categories:
-	- reference
+- reference
 title: "Pandemic Podcasts"
 ---
 
@@ -20,13 +20,13 @@ There are two that are totally dedicated to the pandemic, which have really impr
 
 The first is from Dr. Sanjay Gupta ([if you don't know him check him out on the Axe Files](https://omny.fm/shows/the-axe-files-with-david-axelrod/ep-378-dr-sanjay-gupta)... also on CNN I guess, if you're the sort of person that watches TV). 
 
-_"Join CNN Chief Medical Correspondent Dr. Sanjay Gupta for the latest news about the coronavirus. He'll make sense of the headlines, speak with the experts and give you all the information you need to stay safe and healthy."_
+>"Join CNN Chief Medical Correspondent Dr. Sanjay Gupta for the latest news about the coronavirus. He'll make sense of the headlines, speak with the experts and give you all the information you need to stay safe and healthy."_
 
 ## [Pandemic Economics](https://bfi.uchicago.edu/podcast/pandemic-economics/)
 
 The second podcast comes from the University of Chicago's Becker-Freedman institute. The hosts are journalists who interview economists.
 
-_"Insights from top economists to help you navigate the economic impact of the COVID-19 crisis. Hosts Tess Vigeland and Eduardo Porter talk to University of Chicago economists about their research, revealing important new ways to make sense of this moment. Economics is at the heart of crucial decisions about how we confront the COVID-19 crisis. Topics range from global trade to the changing meaning of work. Pandemic Economics is produced by the Becker Friedman Institute and Stitcher and is part of the University of Chicago podcast network. Production and original music in this series is by Story Mechanics."_
+>"Insights from top economists to help you navigate the economic impact of the COVID-19 crisis. Hosts Tess Vigeland and Eduardo Porter talk to University of Chicago economists about their research, revealing important new ways to make sense of this moment. Economics is at the heart of crucial decisions about how we confront the COVID-19 crisis. Topics range from global trade to the changing meaning of work. Pandemic Economics is produced by the Becker Friedman Institute and Stitcher and is part of the University of Chicago podcast network. Production and original music in this series is by Story Mechanics."_
 
 ## [America Dissected: Season II - Coronavirus](https://crooked.com/podcast-series/america-dissected/)
 
