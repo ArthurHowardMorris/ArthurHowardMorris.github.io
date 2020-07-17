@@ -4,4 +4,4 @@ Before taking my current position in Hong Kong, I taught at NYU - Shanghai where
 
 [Here is a list of my current articles.](https://arthurhowardmorris.github.io/categories/#articles)
 
-
+[Here is a link to my CV](https://github.com/ArthurHowardMorris/CV/blob/master/AM_CV.pdf)
