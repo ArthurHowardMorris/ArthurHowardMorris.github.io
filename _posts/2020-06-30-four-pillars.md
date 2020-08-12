@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 tags:
 - code
 - writing
@@ -11,9 +11,9 @@ categories:
 title: "Five Pillars: Because I haven't found all seven."
 ---
 
-To me, empiricists are artisans. I see five interconnected pillars, the strength of which determine an empiricist's capability. While some specialization among co-authors is natural, and even advantageous, my view is that a balanced approach to strengthening these pillars will increase any researcher's capability. 
+To me, empiricists are artisans. I see five pillars, the strength of which determine an empiricist's capability. While some specialization among co-authors is natural, and even advantageous, it is my view a balanced artisan is a capable one.
 
-These are in no particular order.
+These are the pillars, in no particular order.
 
 # Mathematics:
 
@@ -28,7 +28,7 @@ Math is tables stakes in this business, but we all have vastly differing backgro
 
 # Economic Theory
 
-- [Microecomoic Analysis](https://wwnorton.com/books/9780393957358), Varian 
+- [Microeconomic Analysis](https://wwnorton.com/books/9780393957358), Varian 
 - [Microeconomic Theory](https://www.amazon.com/Microeconomic-Theory-Andreu-Mas-Colell/dp/0195073401), Mas-Colell, Whinston, and Green
 - [The Theory of Incentives](https://press.princeton.edu/books/paperback/9780691091846/the-theory-of-incentives), Laffont and Martimort
 - [Economics, Organizations, and Management](https://www.pearson.com/us/higher-education/program/Milgrom-Economics-Organization-and-Management/PGM309228.html), Milgrom and Roberts
