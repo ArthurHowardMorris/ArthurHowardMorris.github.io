@@ -11,13 +11,13 @@ categories:
 title: "Five Pillars: Because I haven't found all seven."
 ---
 
-To me, empiricists are artisans. I see five pillars, the strength of which determine an empiricist's capability. While some specialization among co-authors is natural, and even advantageous, it is my view a balanced artisan is a capable one.
+To me, empiricists are artisans. I see five skills which determine an empiricist's capability. While some specialization among co-authors is natural, and even advantageous, it is my view that the balanced artisan is a capable one.
 
-These are the pillars, in no particular order.
+These are the skills, in no particular order.
 
 # Mathematics:
 
-Math is tables stakes in this business, but we all have vastly differing backgrounds. I used the following four books as pre-Ph.D. program review to varying degrees (the Strang text makes Wooldrige quite approachable).
+Math is table stakes in this business, but we all have vastly differing backgrounds. I used the following four books as pre-Ph.D. program review to varying degrees (the Strang text makes Wooldrige quite approachable). No matter what you're writing about, if you're writing in Economics, Finance, or Accounting, you need a good foundation here. 
 
 - Introduction to Linear Algebra, Strang
 - Calculus [Vol 1](https://www.wiley.com/en-us/Calculus%2C+Volume+1%2C+2nd+Edition-p-9780471000051) [Vol 2](https://www.wiley.com/en-us/Calculus%2C+Volume+2%2C+2nd+Edition-p-9780471000075), [Apostol](https://en.wikipedia.org/wiki/Tom_M._Apostol)
