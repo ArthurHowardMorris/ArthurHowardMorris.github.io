@@ -20,9 +20,7 @@ These are the pillars, in no particular order.
 Math is tables stakes in this business, but we all have vastly differing backgrounds. I used the following four books as pre-Ph.D. program review to varying degrees (the Strang text makes Wooldrige quite approachable).
 
 - Introduction to Linear Algebra, Strang
-- Calculus, [Apostol])(https://en.wikipedia.org/wiki/Tom_M._Apostol)
-	- [Vol 1](https://www.wiley.com/en-us/Calculus%2C+Volume+1%2C+2nd+Edition-p-9780471000051)
-	- [Vol 2](https://www.wiley.com/en-us/Calculus%2C+Volume+2%2C+2nd+Edition-p-9780471000075)
+- Calculus [Vol 1](https://www.wiley.com/en-us/Calculus%2C+Volume+1%2C+2nd+Edition-p-9780471000051) [Vol 2](https://www.wiley.com/en-us/Calculus%2C+Volume+2%2C+2nd+Edition-p-9780471000075), [Apostol](https://en.wikipedia.org/wiki/Tom_M._Apostol)
 - Mathematics for Economists, Simon and Blume
 - Discrete Choice Methods with Simulation, Train
 
