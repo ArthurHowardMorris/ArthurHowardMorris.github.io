@@ -37,7 +37,7 @@ Math is table stakes in this business, but we all have vastly differing backgrou
 - [Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com) , Angrist and Pishke
 
 # Code
-- Microeconometrics using Stata, Cameron and Trivedi
+- [Microeconometrics using Stata](https://www.stata.com/bookstore/microeconometrics-stata/), Cameron and Trivedi
 - [Statalist.org](http://statalist.org/)
 - [Python for Data Analysis](https://www.oreilly.com/library/view/python-for-data/9781491957653/)
 - [Stack Exchange](https://stackexchange.com), in particular, [Stack Overflow](https://stackoverflow.com/tour)
