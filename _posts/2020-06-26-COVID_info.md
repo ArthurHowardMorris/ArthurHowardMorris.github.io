@@ -1,20 +1,27 @@
 ---
 published: true
 tags:
-- covid
-- visualization 
+  - covid
+  - visualization
 categories:
-- reference
-title: "Pandemic Podcasts"
+  - reference
+title: COVID Reading List
 ---
+
+[How viruses work.](https://www.nytimes.com/interactive/2020/04/03/science/coronavirus-genome-bad-news-wrapped-in-protein.html) 
 
 As an American living abroad it's been tough to understand what is happening in the US. As one fortunate to be living in Hong Kong, where COVID-19 has been relatively well managed (8 million people, 1,194 cases, 7 deaths) through contact tracing and social distancing (no stay at home orders), I've been hungry -- as we all have I'm sure -- for good information about the virus, its spread, and its effects. 
 
-While this has been a tough time for most folks, economists, epidemiologist, and data scientists have been stunningly productive. I'm going to spend a few posts trying to put together some semblance of a summary/catalog of what I've found interesting, impressive, and informative.
+If you're looking for a well-focused and credible clearinghouse for pandemic information, then start here:
+## [COVID-EXPLAINED](https://explaincovid.org/)
 
-I'll start with podcasts.
+The folks behind this site, [Emily Oster in particular](https://emilyoster.net), have also put together a National COVID-19 School Response Dashboard: [Overview](https://explaincovid.org/kids/nationwide-covid-19-school-dashboard/) [Dashboard](https://statsiq.co1.qualtrics.com/public-dashboard/v0/dashboard/5f62eaee4451ae001535c839#/dashboard/5f62eaee4451ae001535c839?pageId=Page_1ac6a6bc-92b6-423e-9f7a-259a18648318)
 
-There are two that are totally dedicated to the pandemic, which have really impressed me, and then a number of other episodes that I recommend. 
+## [Zeynep Tufekci]
+- [NYT Op Ed](https://www.nytimes.com/2020/03/17/opinion/coronavirus-face-masks.html)
+- [Everything at the Atlantic](https://www.theatlantic.com/author/zeynep-tufekci/)
+
+Now podcasts, there are two that are totally dedicated to the pandemic, which have really impressed me, and then a number of other episodes that I recommend. 
 
 ## [Coronavirus: Fact vs Fiction](https://edition.cnn.com/audio/podcasts/corona-virus)
 
@@ -39,4 +46,3 @@ Next is a series of episodes from Abdul El-Sayed's excellent public health podca
 The problem with getting top researchers together to talk about their work, and the work of their peers, is that this group of well trained minds just end up bending their not-inconsiderable intellects toward the exquisite qualities of the Kool-Aid that they are drinking. These conversations between Luigi Zingales and Kate Waldock are never that. For Coronavirus Education, check out the episodes since about March, but they are all worth a listen.
 
 >"Capitalism is the engine of prosperity. Capitalism sows the seeds of its own demise. Could both be right? Economists Luigi Zingales (University of Chicago) and Kate Waldock (Georgetown) share the sort of irreverent banter you’d hear between economists at a bar, if economists were capable of sarcasm and social enough to go out to bars. Our show is part of the University of Chicago Podcast Network."
-
