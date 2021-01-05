@@ -21,6 +21,9 @@ _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 Pay for Prudence
 (with Salman Arif, John Donovan, Yadav Gopalan)
 
+Individual Mortgage Lending and Corruption: Evidence from Local Corruption Crack-Downs 
+(with Albert Mensah, Han Stice, and Roger White)
+
 ## Code 
 
 - [An adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
