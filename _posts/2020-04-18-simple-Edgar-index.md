@@ -6,7 +6,7 @@ tags:
   - EDGAR
   - python
   - scrape
-published: true
+published: false
 ---
 Frequently, I find myself scraping EDGAR to see what language firms are using on one topic or another. It turns out that the nuts and bolts of most text analysis (at least as we implement it in Finance and Accounting) are relatively straightforward to implement in Python. 
 
