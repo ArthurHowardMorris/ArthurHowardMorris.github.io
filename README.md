@@ -20,3 +20,8 @@ _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 
 Pay for Prudence
 (with Salman Arif, John Donovan, Yadav Gopalan)
+
+## Code
+
+- [An adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
+- [A basic Beamer template for HKUST](https://github.com/ArthurHowardMorris/HKUST_Beamer_Template) (LaTeX)
