@@ -19,7 +19,7 @@ Option Grants and Risky Projects: A Reputation-Based Perspective
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 
 Pay for Prudence
-(with Salman Arif, John Donovan, Yadav Gopalan)
+(with [Salman Arif](https://sites.google.com/view/salmanarif), [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan), [Yadav Gopalan](https://sites.google.com/site/ykgopalan/))
 
 Individual Mortgage Lending and Corruption: Evidence from Local Corruption Crack-Downs 
 (with Albert Mensah, Han Stice, and Roger White)
