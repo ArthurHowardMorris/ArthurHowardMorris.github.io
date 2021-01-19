@@ -8,16 +8,12 @@ tags:
 categories:
   - pillars
   - reference
-title: The Empiricist as Artisan
+title: Tools
 ---
 
-To me, empiricists are artisans. I see five skills which determine an empiricist's capability. While some specialization among co-authors is natural, and even advantageous, it is my view that the balanced artisan is a capable one.
-
-These are the skills, in no particular order.
+Books and other references.
 
 # Mathematics:
-
-Math is table stakes in this business, but we all have vastly differing backgrounds. I used the following four books as pre-Ph.D. program review to varying degrees (the Strang text makes Wooldrige quite approachable). No matter what you're writing about, if you're writing in Economics, Finance, or Accounting, you need a good foundation here. 
 
 - Introduction to Linear Algebra, Strang
 - Calculus [Vol 1](https://www.wiley.com/en-us/Calculus%2C+Volume+1%2C+2nd+Edition-p-9780471000051) [Vol 2](https://www.wiley.com/en-us/Calculus%2C+Volume+2%2C+2nd+Edition-p-9780471000075), [Apostol](https://en.wikipedia.org/wiki/Tom_M._Apostol)
@@ -35,6 +31,7 @@ Math is table stakes in this business, but we all have vastly differing backgrou
 - [Econometric Analysis of Cross Section and Panel Data (2nd ed.)](https://mitpress.mit.edu/books/econometric-analysis-cross-section-and-panel-data-second-edition), Wooldridge
 - [Microeconometrics](https://www.cambridge.org/hk/academic/subjects/economics/econometrics-statistics-and-mathematical-economics/microeconometrics-methods-and-applications?format=HB&isbn=9780521848053), Cameron and Trivedi
 - [Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com) , Angrist and Pishke
+
 # Code
 ## Style
 - [Coding Style Guide](https://github.com/michaelstepner/healthinequality-code/blob/master/code/readme.md), Stepner 
