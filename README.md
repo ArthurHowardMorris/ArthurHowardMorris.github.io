@@ -28,3 +28,7 @@ Pay for Prudence
 
 - [An adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
 - [A basic Beamer template for HKUST](https://github.com/ArthurHowardMorris/HKUST_Beamer_Template) (LaTeX)
+
+## Courses
+
+- HKUST: Managerial Accounting (ACCTG2200) [Syllabus](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)
