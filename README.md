@@ -31,6 +31,14 @@ Pay for Prudence
 
 ## Courses
 
-- HKUST: Managerial Accounting (ACCTG2200) [Syllabus, Spring 2021](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)
-- NYU - Shanghai: Mangerial Accounting
-- The University of Utah: Managerial Accounting, Intro to Stata (Ph.D. Bootcamp), Intro to Python (Ph.D. Bootcamp)
+- HKUST: 
+  - Managerial Accounting (ACCTG2200) [Syllabus, Spring 2021](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)
+  - Managerial Accounting (ACCTG2200) Spring 2020
+  
+- NYU - Shanghai: 
+  - Mangerial Accounting Fall 2018/Spring 2019
+  
+- The University of Utah: 
+  - Managerial Accounting 
+  - Intro to Stata (Ph.D. Bootcamp) 
+  - Intro to Python (Ph.D. Bootcamp)
