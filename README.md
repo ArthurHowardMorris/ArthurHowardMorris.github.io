@@ -22,7 +22,7 @@ Pay for Prudence
 (with [Salman Arif](https://sites.google.com/view/salmanarif), [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan), [Yadav Gopalan](https://sites.google.com/site/ykgopalan/))
 
 [Individual Mortgage Lending and Corruption: Evidence from Local Corruption Crack-Downs](https://arthurhowardmorris.github.io/articles/mort-and-corruption/)  
-(with Albert Mensah, Han Stice, and Roger White)
+(with [Albert Mensah](https://sites.google.com/site/albertmensahkwame/home), [Han Stice](https://www.bschool.cuhk.edu.hk/staff/stice-han/), and [Roger White](https://wpcarey.asu.edu/people/profile/1308641))
 
 ## Code 
 
