@@ -6,7 +6,7 @@ Before taking my current position in Hong Kong, I taught at NYU - Shanghai where
 
 ## Working Papers:
 
-[Financial Shocks to Lenders and the Composition of Financial Covenants](https://dx.doi.org/10.2139/ssrn.3079996)
+[Financial Shocks to Lenders and the Composition of Financial Covenants](https://dx.doi.org/10.2139/ssrn.3079996)  
 (with [Hans Christensen](https://www.chicagobooth.edu/faculty/directory/c/hans-b-christensen),  [Daniele Macciocchi](https://www.bus.miami.edu/thought-leadership/faculty/accounting/macciocchi.html), and [Valeri Nikolaev](https://www.chicagobooth.edu/faculty/directory/n/valeri-nikolaev))
 
 [Renegotiation Costs and Debt Contract Design](https://dx.doi.org/10.2139/ssrn.2981069)
