@@ -18,7 +18,7 @@ Before taking my current position in Hong Kong, I taught at NYU - Shanghai where
 [Option Grants and Risky Projects: A Reputation-Based Perspective](https://arthurhowardmorris.github.io/articles/options-risk/)  
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 
-Pay for Prudence  
+[Pay for Prudence](https://cpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/e/2949/files/2021/02/Gopalan-4.pdf)  
 (with [Salman Arif](https://sites.google.com/view/salmanarif), [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan), [Yadav Gopalan](https://sites.google.com/site/ykgopalan/))
 
 [Individual Mortgage Lending and Corruption: Evidence from Local Corruption Crack-Downs](https://arthurhowardmorris.github.io/articles/mort-and-corruption/)  
