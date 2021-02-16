@@ -10,7 +10,6 @@ tags:
   - government contractors
   - difference-in-differences
 published: true
-date: 2018-08-08T00:00:00.000Z
 ---
 
 Option Grants and Risky Projects: A Reputation-Based Perspective
