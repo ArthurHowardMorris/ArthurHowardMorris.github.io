@@ -30,5 +30,6 @@ updated my strong priors about hayek:
 - this is a far cry from the austrian economics (von mises, ayn rand) i was reading in my teens
 - zhigales on monopoly was also a surprise
 - the tension between the two takes is quite interesting
+- echos of [coase](https://link.springer.com/chapter/10.1007/978-1-349-24002-9_3) 
 
 
