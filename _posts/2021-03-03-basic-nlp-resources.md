@@ -26,6 +26,7 @@ resources for researchers, like me, who have never done nlp work for food
 
 3. find examples similar to what you are trying to do
 	- something like [gow et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3310360) gives a good description of the development process
-  - gow's github `ling_features` repo provides excellent examples of how to conduct a number of useful tasks
+	- gow's [`ling_features`](https://github.com/iangow/ling_features) package provides excellent examples of how to conduct a number of useful tasks
+
 4. set up your own system for interacting with edgar
 	- this depends on your hardware and internet resources
