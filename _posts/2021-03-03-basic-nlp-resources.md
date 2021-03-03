@@ -4,7 +4,7 @@ title: basic nlp resources
 tags:
   - code
   - nlp
-	- python
+  - python
 categories:
   - reference
 ---
