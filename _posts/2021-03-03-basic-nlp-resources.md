@@ -1,5 +1,5 @@
 ---
-published: true
+published: True
 title: basic nlp resources
 tags:
   - code
