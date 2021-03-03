@@ -10,7 +10,7 @@ categories:
 ---
 ## the basics of nlp for accounting and finance with python
 
-resources for researchers, like me, who have never done nlp work for food.
+resources for researchers, like me, who have never done nlp work for food
 
 1. basic understanding of the concepts of natural language processing
 	- recommended reading: [speech and language processing, by jurafsky & martin](https://home.cs.colorado.edu/~martin/slp.html)
@@ -21,10 +21,11 @@ resources for researchers, like me, who have never done nlp work for food.
 	- github is probably worth your time
 2. learn the basics of interacting with edgar, and using regular expressions in python
 	- [anand et al. (2020)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3576098) is a reasonable overview
-  - [Regex 101](https://regex101.com/) is an excellent resource for testing and reference
-  - [sometimes visualizing a complex expression is helpful](https://www.debuggex.com)
+	- [Regex 101](https://regex101.com/) is an excellent resource for testing and reference
+	- [sometimes visualizing a complex expression is helpful](https://www.debuggex.com)
+
 3. find examples similar to what you are trying to do
 	- something like [gow et al. (2021)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3310360) gives a good description of the development process
-    - gow's github `ling_features` repo provides excellent examples of how to conduct a number of useful tasks
+  - gow's github `ling_features` repo provides excellent examples of how to conduct a number of useful tasks
 4. set up your own system for interacting with edgar
 	- this depends on your hardware and internet resources
