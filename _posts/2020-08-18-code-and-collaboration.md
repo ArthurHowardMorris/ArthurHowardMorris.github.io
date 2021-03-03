@@ -1,12 +1,12 @@
 ---
 published: false
 tags:
-- code
-- econometrics
+  - code
+  - econometrics
 categories:
-- pillars
-- reference
-title: An entirely unoriginal simple approach to reproducible research
+  - pillars
+  - reference
+title: 'An entirely unoriginal, simple approach to reproducible research'
 ---
 # The caveat
 
@@ -25,7 +25,7 @@ I've never written software for a living. I'm reasonably adept at Stata and Pyth
   2. process
   3. analyze
   4. create draft
-    - includes the writing step. the keystone in this arch, but doesn't get much attention here.
+    - includes the writing step, which is it's own topic
 - code for 1-3 is managed through github.
   - python, sas, and others for extraction of data
   - stata for processing and analysis
@@ -33,6 +33,7 @@ I've never written software for a living. I'm reasonably adept at Stata and Pyth
 - data is shared through dropbox or somesuch
 - the draft is maintained on overleaf
   - analysis step outputs to an overleaf synced file
+  - e.g. the project's folder in `Dropbox/Apps/Overleaf/project`
 
 ## Details on the approach
 
