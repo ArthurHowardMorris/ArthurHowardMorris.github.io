@@ -1,12 +1,11 @@
 ---
-published: false
+published: true
 tags:
   - code
   - econometrics
 categories:
-  - pillars
   - reference
-title: 'An entirely unoriginal, simple approach to reproducible research'
+title: 'an entirely unoriginal and simple approach to reproducible research'
 ---
 # The caveat
 
