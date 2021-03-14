@@ -17,7 +17,7 @@ resources for researchers, like me, who have never done nlp work for food
     - chapters 1-4 at least, skip the stuff on speech recognition
 1. some basic introduction to python and programming
 	- doesn't matter what it is you just need to be able to set up a development environment and function in python
-    - when i taught this i based my introduction on the indroduction section from [quant-econ](https://quantecon.org) they've since reorganized
+    - when i taught this i based my introduction on the indroduction section from [quant-econ](https://python-programming.quantecon.org/intro.html) they've since reorganized
 	- github is probably worth your time
 2. learn the basics of interacting with edgar, and using regular expressions in python
 	- [anand et al. (2020)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3576098) is a reasonable overview
