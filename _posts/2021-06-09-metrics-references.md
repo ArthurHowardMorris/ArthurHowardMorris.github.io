@@ -31,7 +31,9 @@ Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf)
 
 ### fixed-effects
 
-- [de Haan (2021 SSRN), Using and interpreting fixed effects models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3699777)
 - [`reghdfe`](http://scorreia.com/software/reghdfe/)
+- [de Haan (2021 SSRN), Using and interpreting fixed effects models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3699777)
+- [`sumhdfe`](https://github.com/ed-dehaan/sumhdfe)
+
 
 ### binary outcomes with fe
