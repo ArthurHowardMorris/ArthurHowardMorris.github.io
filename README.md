@@ -2,12 +2,15 @@ I teach Managerial Accounting at the Hong Kong University of Science and Technol
 
 Before taking my current position in Hong Kong, I taught at NYU - Shanghai where I was an Assistant Professor and Faculty Fellow.
 
-[Here is a link to my CV.](https://github.com/ArthurHowardMorris/CV/blob/master/AM_CV.pdf)
+[Download CV.](https://github.com/ArthurHowardMorris/CV/blob/master/AM_CV.pdf)
 
-## Working Papers:
+## Publications:
 
 [Financial Shocks to Lenders and the Composition of Financial Covenants](https://dx.doi.org/10.2139/ssrn.3079996)  
 (with [Hans Christensen](https://www.chicagobooth.edu/faculty/directory/c/hans-b-christensen),  [Daniele Macciocchi](https://www.bus.miami.edu/thought-leadership/faculty/accounting/macciocchi.html), and [Valeri Nikolaev](https://www.chicagobooth.edu/faculty/directory/n/valeri-nikolaev))
+_Journal of Accounting & Economics, 2021, 72(1)_
+
+## Working Papers:
 
 [Renegotiation Costs and Debt Contract Design](https://dx.doi.org/10.2139/ssrn.2981069)  
 (with [Scott Dyreng](https://sites.google.com/site/scottdyreng/), and [Elia Ferracuti](https://sites.google.com/view/eliaferracuti/))
