@@ -8,7 +8,7 @@ Before taking my current position in Hong Kong, I taught at NYU - Shanghai where
 
 [Financial Shocks to Lenders and the Composition of Financial Covenants](https://dx.doi.org/10.2139/ssrn.3079996)  
 (with [Hans Christensen](https://www.chicagobooth.edu/faculty/directory/c/hans-b-christensen),  [Daniele Macciocchi](https://www.bus.miami.edu/thought-leadership/faculty/accounting/macciocchi.html), and [Valeri Nikolaev](https://www.chicagobooth.edu/faculty/directory/n/valeri-nikolaev))
-_Journal of Accounting & Economics, 2021, 72(1)_
+_Journal of Accounting & Economics (JAE), Forthcoming_
 
 ## Working Papers:
 
