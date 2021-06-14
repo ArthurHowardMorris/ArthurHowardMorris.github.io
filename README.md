@@ -29,7 +29,6 @@ _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 
 ## Code 
 
-- [An alternative to `suest` that allows use with `reghdfe`]() (Stata)
 - [An adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
 - [A basic Beamer template for HKUST](https://github.com/ArthurHowardMorris/HKUST_Beamer_Template) (LaTeX)
 
