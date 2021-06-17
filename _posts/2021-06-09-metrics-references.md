@@ -22,6 +22,7 @@ nothing fancy, just a list of resources about how to do simple things right
 
 ### clustered standard errors
 
+- [Cameron & Trivedi](http://cameron.econ.ucdavis.edu/mmabook/mma.html) p. 75, 705-707, 829-845 (esp. 834).
 - [Abadie, Athey, Imbens & Wooldridge (2017 NBER), When should you adjust standard errors for clustering?](https://www.nber.org/papers/w24003)
 - [Petersen (2009 RFS), Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches](https://academic.oup.com/rfs/article/22/1/435/1585940?login=true)
 - [Gow, Ormazabal & Taylor (2010 TAR), Correcting for Cross‐Sectional and Time‐Series Dependence in Accounting Research](https://meridian.allenpress.com/accounting-review/article-abstract/85/2/483/53814/Correcting-for-Cross-Sectional-and-Time-Series)
@@ -29,13 +30,10 @@ nothing fancy, just a list of resources about how to do simple things right
 Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf)
 - [`reghdfe`](http://scorreia.com/software/reghdfe/)
 
-- [Cameron & Trivedi](http://cameron.econ.ucdavis.edu/mmabook/mma.html) p. 75, 705-707, 829-845 (esp. 834).
-
 ### fixed-effects
 
 - [`reghdfe`](http://scorreia.com/software/reghdfe/)
 - [de Haan (2021 SSRN), Using and interpreting fixed effects models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3699777)
 - [`sumhdfe`](https://github.com/ed-dehaan/sumhdfe)
-
 
 ### binary outcomes with fe
