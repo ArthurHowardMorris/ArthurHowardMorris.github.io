@@ -3,7 +3,7 @@ published: true
 ---
 ## useful metrics refs
 
-Nothing fancy, just a list of resources about how to do simple things right.
+nothing fancy, just a list of resources about how to do simple things right.
 
 ### count data
 
@@ -26,19 +26,17 @@ Nothing fancy, just a list of resources about how to do simple things right.
 
 > "In microeconometrics applications the model errors are often conditionally heteroskedastic. ... Microeconometric analysis uses robust standard errors [[(White 1980)]](https://www.jstor.org/stable/1912934) wherever possible." p. 74-75
 
-  1. "Robust standard errors" colloquially refer to standard errors calculated using the heteroskedasticity-consistent covariance matrix estimator presented in [White (1980)](https://www.jstor.org/stable/1912934). Sometime called the "sandwich estimator", because it looks exactly like a sandwich:
+  1. "Robust standard errors" colloquially refer to standard errors calculated using the heteroskedasticity-consistent covariance matrix estimator presented in [White (1980)](https://www.jstor.org/stable/1912934). Sometimes called the "sandwich estimator", because it looks exactly like a sandwich:
 
 ![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png)
 
   2. These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command.
 
-```Stata
-
+```
 sysuse auto, clear
 generate gpmw = ((1/mpg)/weight)*100*1000
 regress gpmw foreign
 regress gpmw foreign, vce(robust)
-
 ```
 
 ### clustered standard errors
@@ -57,7 +55,7 @@ When you have many small clusters, say thousands of firms observed repeatedly ov
 
 2. To continue the example from above, clustering by manufacturer:
 
-```Stata
+```
 split make // make1 is the manufacturer
 regress gpmw foreign, vce(cluster make1)  
 reghdfe gpmw foreign, cluster(make1) noabsorb
