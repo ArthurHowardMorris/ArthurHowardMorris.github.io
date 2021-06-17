@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Changing minds, exposure and persuasion."
+published: false
 ---
 
 The science of how people change their minds is far outside of my area of expertise.
