@@ -29,6 +29,8 @@ nothing fancy, just a list of resources about how to do simple things right
 Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf)
 - [`reghdfe`](http://scorreia.com/software/reghdfe/)
 
+- [Cameron & Trivedi](http://cameron.econ.ucdavis.edu/mmabook/mma.html) p. 75, 705-707, 829-845 (esp. 834).
+
 ### fixed-effects
 
 - [`reghdfe`](http://scorreia.com/software/reghdfe/)
