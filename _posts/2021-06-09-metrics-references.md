@@ -81,7 +81,7 @@ __Reccomendations:__
 
 [__Petersen (2009 RFS), Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches__](https://academic.oup.com/rfs/article/22/1/435/1585940?login=true)
 
-[//]: #
+[//]: # 	matrix vc = vcf+vct-e(V);
 [//]: # 1. few clusters --> bias
 [//]: # 2. how this works - run the first regression then run the second regression then take difference so the small number will inflate the var covar wehen you do it.
 
