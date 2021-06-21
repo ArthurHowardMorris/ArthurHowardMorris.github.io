@@ -86,12 +86,12 @@ The main take-away from Petersen(2009) and Gow et al. (2010) is that clustering 
 
 Peterson also emphasizes the assumption that the number of clusters should be large in Figure 5, which suggests that clustering on panels shorter than 50 periods can introduce bias into estimation of standard errors.
 
-Petersen provides code on his website to estimate two-way clustered standar errors. His code estimates the variance-covariance matrix using the following steps:
+Petersen provides code on his website to estimate two-way clustered standard errors. His code estimates the variance-covariance matrix using the following steps:
 
 1. estimate the variance-covariance matrix, clustering on the first dimension (lets call this the 'firm' dimension -- in his .ado this is `vcf`)
 2. estimate the variance-covariance matrix, clustering on the second dimension (lets call this the 'time' dimension -- in his .ado this is `vct`)
 3. estimate the variance-covariance matrix clustering on the interaction of these two dimensions (lets call this `vci`).
-4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci` 
+4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci`
 
 `reghdfe` provides a relatively general implementation of high-dimensional clustering.
 
