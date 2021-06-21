@@ -98,7 +98,7 @@ Petersen provides code on his website to estimate two-way clustered standar erro
 
 
 
-#### A few notes:
+#### A few additional notes on clustering:
 
   1. When _T_ is not large clustering on time may not be conservative.
   2. When incorporating many dimensions of fixed effects and clusters singletons may result. `reghdfe` removes them, see [Correia (2015 WP), Singletons, Cluster-Robust Standard Errors and Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf) for a discussion.
