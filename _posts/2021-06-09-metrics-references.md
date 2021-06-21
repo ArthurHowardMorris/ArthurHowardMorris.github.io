@@ -80,19 +80,23 @@ __Reccomendations:__
 3. _"This analysis extends to the case where fixed effects are included in the regression at the level of a cluster, with the provision that if there is no heterogeneity in the treatment effects, one need not adjust standard errors for clustering once fixed effects are included."_
 
 [__Petersen (2009 RFS), Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches__](https://academic.oup.com/rfs/article/22/1/435/1585940?login=true)
+[__Gow, Ormazabal & Taylor (2010 TAR), Correcting for Cross‐Sectional and Time‐Series Dependence in Accounting Research__](https://meridian.allenpress.com/accounting-review/article-abstract/85/2/483/53814/Correcting-for-Cross-Sectional-and-Time-Series)
+
+The main take-away from Petersen(2009) and Gow et al. (2010) is that clustering by time in addition to individual often seems to matter in finance and accounting.
+
+Peterson also emphasizes the assumption that the number of clusters should be large in Figure 5, which suggests that clustering on panels shorter than 50 periods can introduce bias into estimation of standard errors.
 
 Petersen provides code on his website to estimate two-way clustered standar errors. His code estimates the variance-covariance matrix using the following steps:
 
 1. estimate the variance-covariance matrix, clustering on the first dimension (lets call this the 'firm' dimension -- in his .ado this is `vcf`)
 2. estimate the variance-covariance matrix, clustering on the second dimension (lets call this the 'time' dimension -- in his .ado this is `vct`)
-3. estimate the variance-covariance matrix clustering on a firm X time interaction (lets call this `vci`).
+3. estimate the variance-covariance matrix clustering on the interaction of these two dimensions (lets call this `vci`).
 4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci` 
 
 `reghdfe` provides a relatively general implementation of high-dimensional clustering.
 
 
 
-[__Gow, Ormazabal & Taylor (2010 TAR), Correcting for Cross‐Sectional and Time‐Series Dependence in Accounting Research__](https://meridian.allenpress.com/accounting-review/article-abstract/85/2/483/53814/Correcting-for-Cross-Sectional-and-Time-Series)
 
 #### A few notes:
 
