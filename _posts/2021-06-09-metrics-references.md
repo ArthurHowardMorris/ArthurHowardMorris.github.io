@@ -5,7 +5,7 @@ published: true
 
 nothing fancy, just a list of resources about how to do simple things right.
 
-### count data
+# count data
 
 - [Cohn, Liu, & Wardlaw (2021 SSRN), Count data in finance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3794859)
 - [`ppmlhdfe`: Poisson pseudo-likelihood regression with multiple levels of fixed effects](http://scorreia.com/software/ppmlhdfe/)
@@ -13,14 +13,14 @@ nothing fancy, just a list of resources about how to do simple things right.
 - [Correia, Guimarães, Zylkin (2019b)](http://scorreia.com/research/separation.pdf)
 - also [@jmwooldridge](https://twitter.com/jmwooldridge/status/1402044602895503363)
 
-### staggared diff-in-diff
+# staggared diff-in-diff
 
 - [Sun & Abraham (2020 JE), Estimating dynamic treatment effects in event studies with heterogeneous treatment effects](https://www.sciencedirect.com/science/article/pii/S030440762030378X), [code on github](https://github.com/lsun20/EventStudyInteract)
 - [Athey & Imbens (2021 JE), Design-based analysis in Difference-In-Differences settings with staggered adoption](https://www.sciencedirect.com/science/article/pii/S0304407621000488)
 - [Goodman- Bacon (2018 NBER)](https://www.nber.org/papers/w25018), stata code `ssc install bacondecomp`.
 - [Barrios (2021 SSRN) Staggeringly Problematic: A Primer on Staggered DiD for Accounting Researchers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3794859), also provides example code for many of the methods.
 
-### robust standard errors
+# robust standard errors
 
 [Cameron & Trivedi](http://cameron.econ.ucdavis.edu/mmabook/mma.html)
 
@@ -39,7 +39,7 @@ regress gpmw foreign
 regress gpmw foreign, vce(robust)
 ```
 
-### clustered standard errors
+# clustered standard errors
 
 [__Cameron & Trivedi (2005)__](http://cameron.econ.ucdavis.edu/mmabook/mma.html) p. 75, 705-707, 829-845 (esp. 834)
 
@@ -81,9 +81,16 @@ __Reccomendations:__
 
 [__Petersen (2009 RFS), Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches__](https://academic.oup.com/rfs/article/22/1/435/1585940?login=true)
 
-[//]: # 	matrix vc = vcf+vct-e(V);
-[//]: # 1. few clusters --> bias
-[//]: # 2. how this works - run the first regression then run the second regression then take difference so the small number will inflate the var covar wehen you do it.
+Petersen provides code on his website to estimate two-way clustered standar errors. His code estimates the variance-covariance matrix using the following steps:
+
+1. estimate the variance-covariance matrix, clustering on the first dimension (lets call this the 'firm' dimension -- in his .ado this is `vcf`)
+2. estimate the variance-covariance matrix, clustering on the second dimension (lets call this the 'time' dimension -- in his .ado this is `vct`)
+3. estimate the variance-covariance matrix clustering on a firm X time interaction (lets call this `vci`).
+4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci` 
+
+`reghdfe` provides a relatively general implementation of high-dimensional clustering.
+
+
 
 [__Gow, Ormazabal & Taylor (2010 TAR), Correcting for Cross‐Sectional and Time‐Series Dependence in Accounting Research__](https://meridian.allenpress.com/accounting-review/article-abstract/85/2/483/53814/Correcting-for-Cross-Sectional-and-Time-Series)
 
