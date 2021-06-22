@@ -7,7 +7,7 @@ nothing fancy, just a list of resources about how to do simple things right.
 
 # count data
 
-- [Cohn, Liu, & Wardlaw (2021 SSRN), Count data in finance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3794859)
+- [Cohn, Liu, & Wardlaw (2021 SSRN), Count data in finance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3800339)
 - [`ppmlhdfe`: Poisson pseudo-likelihood regression with multiple levels of fixed effects](http://scorreia.com/software/ppmlhdfe/)
 - [Correia, Guimarães, Zylkin (2019a)](http://scorreia.com/research/ppmlhdfe.pdf)
 - [Correia, Guimarães, Zylkin (2019b)](http://scorreia.com/research/separation.pdf)
