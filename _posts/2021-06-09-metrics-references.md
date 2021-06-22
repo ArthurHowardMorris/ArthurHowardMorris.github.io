@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## useful metrics refs
+# useful metrics refs
 
 nothing fancy, just a list of resources about how to do simple things right.
 
@@ -30,7 +30,7 @@ nothing fancy, just a list of resources about how to do simple things right.
 
 ![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png){ width=50% }
 
-  2. These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command.
+  2. These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command:
 
 ```
 sysuse auto, clear
@@ -51,7 +51,7 @@ When you have many small clusters, say thousands of firms observed repeatedly ov
 
 ![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png){ width=50% }
 
-1. It is important to note that this estimator _assumes_ that the number of observations within a cluster is small and that the number of clusters is large. Clustering aggregates the clustered observations treats the clusters as ['superobservations'](https://www.stata.com/statalist/archive/2003-05/msg00550.html), thus access to the asymptotic properties of the sandwich estimator relies no longer on the number of observations, but on the number of clusters. As C & T point out, some stats packages know this and correct the degrees of freedom, to my knowledge `reghdfe` is the most careful about this.
+1. It is important to note that this estimator _assumes_ that the number of observations within a cluster is small and that the number of clusters is large. Clustering aggregates the clustered observations treats the clusters as ['superobservations'](https://www.stata.com/statalist/archive/2003-05/msg00550.html), thus access to the asymptotic properties of the sandwich estimator relies no longer on the number of observations, but on the number of clusters. As Cameron & Trivedi point out, some stats packages know this and correct the degrees of freedom, to my knowledge `reghdfe` is the most careful about this.
 
 2. To continue the example from above, clustering by manufacturer:
 
@@ -60,8 +60,8 @@ split make // make1 is the manufacturer
 regress gpmw foreign, vce(cluster make1)  
 reghdfe gpmw foreign, cluster(make1) noabsorb
 ```
-  - NB: this is not an example of clustering in a panel, just of the syntax.
-  - While not formal in any way, this example points out that clustering is not always conservative, _especially_ when the number of clusters is low (more on this below).
+  - NB: this is not intended as an example of clustering in a panel, just of the Stata syntax.
+  - While not formal in any way, this example points out that clustering is not always conservative, _especially_ when the number of clusters is low.
 
 4. Finally:
 
@@ -82,7 +82,7 @@ __Reccomendations:__
 [__Petersen (2009 RFS), Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches__](https://academic.oup.com/rfs/article/22/1/435/1585940?login=true)
 [__Gow, Ormazabal & Taylor (2010 TAR), Correcting for Cross‐Sectional and Time‐Series Dependence in Accounting Research__](https://meridian.allenpress.com/accounting-review/article-abstract/85/2/483/53814/Correcting-for-Cross-Sectional-and-Time-Series)
 
-The main take-away from Petersen(2009) and Gow et al. (2010) is that clustering by time in addition to individual often seems to matter in finance and accounting.
+The main takeaway from Petersen(2009) and Gow et al. (2010) is that clustering by time in addition to individual often seems to matter in Finance and Accounting datasets.
 
 Peterson also emphasizes the assumption that the number of clusters should be large in Figure 5, which suggests that clustering on panels shorter than 50 periods can introduce bias into estimation of standard errors.
 
@@ -93,10 +93,7 @@ Petersen provides code on his website to estimate two-way clustered standard err
 3. estimate the variance-covariance matrix clustering on the interaction of these two dimensions (lets call this `vci`).
 4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci`
 
-`reghdfe` provides a relatively general implementation of high-dimensional clustering.
-
-
-
+`reghdfe` provides a relatively general implementation of high-dimensional clustering, with adjustments for low numbers of clusters. 
 
 #### A few additional notes on clustering:
 
