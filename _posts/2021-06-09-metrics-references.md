@@ -101,10 +101,10 @@ Petersen provides code on his website to estimate two-way clustered standard err
   2. When incorporating many dimensions of fixed effects and clusters singletons may result. `reghdfe` removes them, see [Correia (2015 WP), Singletons, Cluster-Robust Standard Errors and Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf) for a discussion.
 
 
-### fixed-effects
+# fixed-effects
 
 - [`reghdfe`](http://scorreia.com/software/reghdfe/)
 - [de Haan (2021 SSRN), Using and interpreting fixed effects models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3699777)
 - [`sumhdfe`](https://github.com/ed-dehaan/sumhdfe)
 
-### binary outcomes with fe
+# binary outcomes with fe
