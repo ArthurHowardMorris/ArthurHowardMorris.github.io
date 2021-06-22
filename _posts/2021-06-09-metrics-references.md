@@ -28,7 +28,7 @@ nothing fancy, just a list of resources about how to do simple things right.
 
   1. "Robust standard errors" colloquially refer to standard errors calculated using the heteroskedasticity-consistent covariance matrix estimator presented in [White (1980)](https://www.jstor.org/stable/1912934). Sometimes called the "sandwich estimator", because it looks exactly like a sandwich:
 
-![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png)
+![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png){ width=50% }
 
   2. These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command.
 
@@ -49,7 +49,7 @@ regress gpmw foreign, vce(robust)
 
 When you have many small clusters, say thousands of firms observed repeatedly over three to five years, then the meat of the sandwich estimator can be replaced with these clusters, as follows:
 
-![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png)
+![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png){ width=50% }
 
 1. It is important to note that this estimator _assumes_ that the number of observations within a cluster is small and that the number of clusters is large. Clustering aggregates the clustered observations treats the clusters as ['superobservations'](https://www.stata.com/statalist/archive/2003-05/msg00550.html), thus access to the asymptotic properties of the sandwich estimator relies no longer on the number of observations, but on the number of clusters. As C & T point out, some stats packages know this and correct the degrees of freedom, to my knowledge `reghdfe` is the most careful about this.
 
