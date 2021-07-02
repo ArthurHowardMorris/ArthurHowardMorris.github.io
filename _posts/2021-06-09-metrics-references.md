@@ -28,9 +28,9 @@ nothing fancy, just a list of resources about how to do simple things right.
 
   1. "Robust standard errors" colloquially refer to standard errors calculated using the heteroskedasticity-consistent covariance matrix estimator presented in [White (1980)](https://www.jstor.org/stable/1912934). Sometimes called the "sandwich estimator", because it looks exactly like a sandwich:
 
-<img src="https://arthurhowardmorris.github.io/assets/img/EHW.png" width="200">  
+<img src="https://arthurhowardmorris.github.io/assets/img/EHW.png" width="400">  
 
-![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png)
+
 
   2. These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command:
 
