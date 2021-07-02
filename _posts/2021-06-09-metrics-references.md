@@ -49,6 +49,7 @@ regress gpmw foreign, vce(robust)
 
 When you have many small clusters, say thousands of firms observed repeatedly over three to five years, then the meat of the sandwich estimator can be replaced with these clusters, as follows:
 
+<img src="/assets/img/LZ.pn" alt="A modified sandwich, from Adabie et al. (2017 NBER)" width="200"/>
 ![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png)
 
 1. It is important to note that this estimator _assumes_ that the number of observations within a cluster is small and that the number of clusters is large. Clustering aggregates the clustered observations treats the clusters as ['superobservations'](https://www.stata.com/statalist/archive/2003-05/msg00550.html), thus access to the asymptotic properties of the sandwich estimator relies no longer on the number of observations, but on the number of clusters. As Cameron & Trivedi point out, some stats packages know this and correct the degrees of freedom, to my knowledge `reghdfe` is the most careful about this.
