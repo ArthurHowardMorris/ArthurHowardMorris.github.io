@@ -28,6 +28,8 @@ nothing fancy, just a list of resources about how to do simple things right.
 
   1. "Robust standard errors" colloquially refer to standard errors calculated using the heteroskedasticity-consistent covariance matrix estimator presented in [White (1980)](https://www.jstor.org/stable/1912934). Sometimes called the "sandwich estimator", because it looks exactly like a sandwich:
 
+<img src="https://arthurhowardmorris.github.io/assets/img/EHW.png" width="50">  
+
 ![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png)
 
   2. These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command:
@@ -48,8 +50,6 @@ regress gpmw foreign, vce(robust)
 > "In many microeconometrics applications it is reasonable to assume independence over _i_. However, the errors are potentially (1) __serially correlated__ (i.e. correlated over _t_ for a given _i_) and/or __heteroskedastic__. Valid statistical inference requires controlling for both of these factors. The White heteroskedastic consistent estimator ... is easily extended to short panels since for the _i_th observation the error variance matrix is of finite dimension _T x T_ while _N_ [goes to infinity]." p. 705 NB: the _i_ here are individuals, while the _i_ in the notation of Adabie et al. are observations.
 
 When you have many small clusters, say thousands of firms observed repeatedly over three to five years, then the meat of the sandwich estimator can be replaced with these clusters, as follows:
-
-<img src="/assets/img/LZ.png" width="50">  
 
 ![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png)
 
