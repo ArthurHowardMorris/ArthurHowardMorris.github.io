@@ -28,7 +28,7 @@ nothing fancy, just a list of resources about how to do simple things right.
 
   1. "Robust standard errors" colloquially refer to standard errors calculated using the heteroskedasticity-consistent covariance matrix estimator presented in [White (1980)](https://www.jstor.org/stable/1912934). Sometimes called the "sandwich estimator", because it looks exactly like a sandwich:
 
-![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png){ width=50% }
+![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png)
 
   2. These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command:
 
@@ -45,11 +45,11 @@ regress gpmw foreign, vce(robust)
 
 > "Guarding against other misspecifications may also be warranted. In particular, when data are clustered standard errors should be robust to clustering." p. 74-75
 
-> "In many microeconometrics applications it is reasonable to assume independence over _i_. However, the errors are potentially (1) __serially correlated__ (i.e. correlated over _t_ for a given _i_) and/or __heteroskedastic__. Valid statistical inference requires controlling for both of these factors. The White heteroskedastic consistent estimator ... is easily extended to short panels since for the _i_th observartion the error variance matrix is of finite dimension _T x T_ while _N_ [goes to infinity]." p. 705 NB: the _i_ here are individuals, while the _i_ in the notation of Adabie et al. are observations.
+> "In many microeconometrics applications it is reasonable to assume independence over _i_. However, the errors are potentially (1) __serially correlated__ (i.e. correlated over _t_ for a given _i_) and/or __heteroskedastic__. Valid statistical inference requires controlling for both of these factors. The White heteroskedastic consistent estimator ... is easily extended to short panels since for the _i_th observation the error variance matrix is of finite dimension _T x T_ while _N_ [goes to infinity]." p. 705 NB: the _i_ here are individuals, while the _i_ in the notation of Adabie et al. are observations.
 
 When you have many small clusters, say thousands of firms observed repeatedly over three to five years, then the meat of the sandwich estimator can be replaced with these clusters, as follows:
 
-![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png){ width=50% }
+![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png)
 
 1. It is important to note that this estimator _assumes_ that the number of observations within a cluster is small and that the number of clusters is large. Clustering aggregates the clustered observations treats the clusters as ['superobservations'](https://www.stata.com/statalist/archive/2003-05/msg00550.html), thus access to the asymptotic properties of the sandwich estimator relies no longer on the number of observations, but on the number of clusters. As Cameron & Trivedi point out, some stats packages know this and correct the degrees of freedom, to my knowledge `reghdfe` is the most careful about this.
 
