@@ -49,7 +49,7 @@ regress gpmw foreign, vce(robust)
 
 When you have many small clusters, say thousands of firms observed repeatedly over three to five years, then the meat of the sandwich estimator can be replaced with these clusters, as follows:
 
-<img src="/assets/img/LZ.pn" alt="A modified sandwich, from Adabie et al. (2017 NBER)" width="200"/>  
+<img src="/assets/img/LZ.pn" width="50"/>  
 
 ![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png)
 
