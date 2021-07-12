@@ -1,5 +1,6 @@
 ---
 published: true
+title: "Standard Errors"
 ---
 # Standard approach:
 
