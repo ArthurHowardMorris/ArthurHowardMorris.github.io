@@ -1,5 +1,6 @@
 ---
 published: true
+title: "Standard Errors"
 ---
 # useful metrics refs
 
