@@ -71,6 +71,7 @@ __Reccomendations:__
 3. _"This analysis extends to the case where fixed effects are included in the regression at the level of a cluster, with the provision that if there is no heterogeneity in the treatment effects, one need not adjust standard errors for clustering once fixed effects are included."_
 
 ### two-way clustered standard errors
+So, why is clustering by time and individual so common in Finance and Accounting? Two influential and, more or less, simultaneous papers.
 
 [__Petersen (2009 RFS), Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches__](https://academic.oup.com/rfs/article/22/1/435/1585940?login=true)
 [__Gow, Ormazabal & Taylor (2010 TAR), Correcting for Cross‐Sectional and Time‐Series Dependence in Accounting Research__](https://meridian.allenpress.com/accounting-review/article-abstract/85/2/483/53814/Correcting-for-Cross-Sectional-and-Time-Series)
@@ -85,8 +86,6 @@ Petersen provides code on his website to estimate two-way clustered standard err
 2. estimate the variance-covariance matrix, clustering on the second dimension (lets call this the 'time' dimension -- in his .ado this is `vct`). This requires a long panel.
 3. estimate the variance-covariance matrix clustering on the interaction of these two dimensions (lets call this `vci`).
 4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci`
-
-
 
 #### A few final notes notes on clustering:
 
