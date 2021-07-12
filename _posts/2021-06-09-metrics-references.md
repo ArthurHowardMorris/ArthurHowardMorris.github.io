@@ -13,14 +13,14 @@ nothing fancy, just a list of resources about how to do simple things right.
 - [Correia, Guimarães, Zylkin (2019b)](http://scorreia.com/research/separation.pdf)
 - also [@jmwooldridge](https://twitter.com/jmwooldridge/status/1402044602895503363)
 
-# staggared diff-in-diff
+# staggered diff-in-diff
 
 - [Sun & Abraham (2020 JE), Estimating dynamic treatment effects in event studies with heterogeneous treatment effects](https://www.sciencedirect.com/science/article/pii/S030440762030378X), [code on github](https://github.com/lsun20/EventStudyInteract)
 - [Athey & Imbens (2021 JE), Design-based analysis in Difference-In-Differences settings with staggered adoption](https://www.sciencedirect.com/science/article/pii/S0304407621000488)
 - [Goodman- Bacon (2018 NBER)](https://www.nber.org/papers/w25018), stata code `ssc install bacondecomp`.
 - [Barrios (2021 SSRN) Staggeringly Problematic: A Primer on Staggered DiD for Accounting Researchers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3794859), also provides example code for many of the methods.
 
-# robust standard errors
+<!-- # robust standard errors
 
 [Cameron & Trivedi](http://cameron.econ.ucdavis.edu/mmabook/mma.html)
 
@@ -39,9 +39,9 @@ sysuse auto, clear
 generate gpmw = ((1/mpg)/weight)*100*1000
 regress gpmw foreign
 regress gpmw foreign, vce(robust)
-```
+``` -->
 
-# clustered standard errors
+<!-- # clustered standard errors
 
 [__Cameron & Trivedi (2005)__](http://cameron.econ.ucdavis.edu/mmabook/mma.html) p. 75, 705-707, 829-845 (esp. 834)
 
@@ -52,7 +52,6 @@ regress gpmw foreign, vce(robust)
 When you have many small clusters, say thousands of firms observed repeatedly over three to five years, then the meat of the sandwich estimator can be replaced with these clusters, as follows:
 
 <img src="https://arthurhowardmorris.github.io/assets/img/LZ.png" width="400">  
-
 
 1. It is important to note that this estimator _assumes_ that the number of observations within a cluster is small and that the number of clusters is large. Clustering aggregates the clustered observations treats the clusters as ['superobservations'](https://www.stata.com/statalist/archive/2003-05/msg00550.html), thus access to the asymptotic properties of the sandwich estimator relies no longer on the number of observations, but on the number of clusters. As Cameron & Trivedi point out, some stats packages know this and correct the degrees of freedom, to my knowledge `reghdfe` is the most careful about this.
 
@@ -96,13 +95,13 @@ Petersen provides code on his website to estimate two-way clustered standard err
 3. estimate the variance-covariance matrix clustering on the interaction of these two dimensions (lets call this `vci`).
 4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci`
 
-`reghdfe` provides a relatively general implementation of high-dimensional clustering, with adjustments for low numbers of clusters. 
+`reghdfe` provides a relatively general implementation of high-dimensional clustering, with adjustments for low numbers of clusters.
 
 #### A few additional notes on clustering:
 
   1. When _T_ is not large clustering on time may not be conservative.
   2. When incorporating many dimensions of fixed effects and clusters singletons may result. `reghdfe` removes them, see [Correia (2015 WP), Singletons, Cluster-Robust Standard Errors and Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf) for a discussion.
-
+ -->
 
 # fixed-effects
 

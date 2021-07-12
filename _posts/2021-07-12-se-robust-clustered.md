@@ -7,7 +7,7 @@ When working with long panels ($T>50$) in Finance and Accounting, cluster by bot
 
 [`reghdfe`]() handles two-way clustering and singletons efficiently. [`sumhdfe`]() provides a straight-forward way to analyze the impact of singletons on your sample.
 
-__Notate bene:__ In short panels, clustering by time is unlikely to be appropriate. 
+__Notate bene:__ In short panels, clustering by time is unlikely to be appropriate.
 
 [Cameron & Trivedi](http://cameron.econ.ucdavis.edu/mmabook/mma.html) provide and excellent overview of why and how to cluster. This discussion, like all discussions of clustered standard errors, starts with 'robust' standard errors:
 
@@ -17,7 +17,7 @@ __Notate bene:__ In short panels, clustering by time is unlikely to be appropria
 
   1. "Robust standard errors" colloquially refer to standard errors calculated using the heteroskedasticity-consistent covariance matrix estimator presented in [White (1980)](https://www.jstor.org/stable/1912934). Sometimes called the "sandwich estimator", because it looks exactly like a sandwich:
 
-![Obviously a sandwich, from Adabie et al. (2017 NBER)](/assets/img/EHW.png)
+  <img src="https://arthurhowardmorris.github.io/assets/img/EHW.png" width="400">  
 
   2. These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command.
 
@@ -38,7 +38,7 @@ Cameron & Trivedi (2005) p. 75, 705-707, 829-845 (esp. 834)
 
 When you have many small clusters, say thousands of firms observed repeatedly over three to five years, then the meat of the sandwich estimator can be replaced with these clusters, as follows:
 
-![A modified sandwich, from Adabie et al. (2017 NBER)](/assets/img/LZ.png)
+<img src="https://arthurhowardmorris.github.io/assets/img/LZ.png" width="400">  
 
 1. It is important to note that this estimator _assumes_ that the number of observations within a cluster is small and that the number of clusters is large. Clustering aggregates the clustered observations treats the clusters as ['superobservations'](https://www.stata.com/statalist/archive/2003-05/msg00550.html), thus access to the asymptotic properties of the sandwich estimator relies no longer on the number of observations, but on the number of clusters. As C & T point out, some stats packages know this and correct the degrees of freedom, to my knowledge `reghdfe` is the most careful about this.
 
@@ -56,7 +56,7 @@ reghdfe gpmw foreign, cluster(make1) noabsorb
 
 > "Once fixed or random individual-specific effects are included the serial correlation in errors can be greatly reduced, but it may not be completely eliminated."
 
-Abadie, Athey, Imbens & Wooldridge (2017 NBER) put a finer point on this, they show that when there is "no heterogeneity in the treatment effects, one need not adjust standard errors for clustering once fixed effects are included". 
+Abadie, Athey, Imbens & Wooldridge (2017 NBER) put a finer point on this, they show that when there is "no heterogeneity in the treatment effects, one need not adjust standard errors for clustering once fixed effects are included".
 
 [Abadie, Athey, Imbens & Wooldridge (2017 NBER), "When should you adjust standard errors for clustering?"](https://www.nber.org/papers/w24003) in brief:
 
@@ -80,7 +80,7 @@ Peterson also emphasizes the assumption that the number of clusters should be la
 
 Petersen provides code on his website to estimate two-way clustered standard errors. His code estimates the variance-covariance matrix using the following steps:
 
-1. estimate the variance-covariance matrix, clustering on the first dimension (lets call this the 'firm' dimension -- in his .ado this is `vcf`). This requires a wide panel. 
+1. estimate the variance-covariance matrix, clustering on the first dimension (lets call this the 'firm' dimension -- in his .ado this is `vcf`). This requires a wide panel.
 2. estimate the variance-covariance matrix, clustering on the second dimension (lets call this the 'time' dimension -- in his .ado this is `vct`). This requires a long panel.
 3. estimate the variance-covariance matrix clustering on the interaction of these two dimensions (lets call this `vci`).
 4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci`
@@ -91,4 +91,3 @@ Petersen provides code on his website to estimate two-way clustered standard err
 
   1. When _T_ is not large clustering on time may not be conservative.
   2. When incorporating many dimensions of fixed effects and clusters singletons often result. `reghdfe` removes them, see [Correia (2015 WP), Singletons, Cluster-Robust Standard Errors and Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf) for a discussion.
-
