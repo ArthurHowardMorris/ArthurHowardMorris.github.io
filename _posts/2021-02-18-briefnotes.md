@@ -1,10 +1,10 @@
 ---
 published: true
-title: 'listens, reads, and thinks'
+title: 'brief note: hayek, zhingales, and coase'
 tags:
-  - read 
-  - listen 
-  - hayek 
+  - read
+  - listen
+  - hayek
   - zhingales
 ---
 
@@ -14,7 +14,7 @@ tags:
 
 among other things:
 
-- discussion of our framework for thinking big is bad 
+- discussion of our framework for thinking big is bad
 - current antitrust is only consumer welfare
 	- _see [Bork](https://en.wikipedia.org/wiki/The_Antitrust_Paradox) which I read nearly 20 years ago_
 - the founders thought that economic independence was the key to democracy
