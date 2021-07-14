@@ -27,21 +27,25 @@ _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 [Individual Mortgage Lending and Corruption: Evidence from Local Corruption Crack-Downs](https://arthurhowardmorris.github.io/articles/mort-and-corruption/)  
 (with [Albert Mensah](https://sites.google.com/site/albertmensahkwame/home), [Han Stice](https://www.bschool.cuhk.edu.hk/staff/stice-han/), and [Roger White](https://wpcarey.asu.edu/people/profile/1308641))
 
-## Code 
+## Code
 
 - [An adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
 - [A basic Beamer template for HKUST](https://github.com/ArthurHowardMorris/HKUST_Beamer_Template) (LaTeX)
 
+## Notes on Methods
+
+- [Modeling Count Data](https://arthurhowardmorris.github.io/count-data/)
+- [Standard Errors](https://arthurhowardmorris.github.io/se-robust-clustered/)
 ## Courses
 
-- HKUST: 
+- HKUST:
   - Managerial Accounting (ACCTG2200) [Syllabus, Spring 2021](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)
   - Managerial Accounting (ACCTG2200) Spring 2020
-  
-- NYU - Shanghai: 
+
+- NYU - Shanghai:
   - Mangerial Accounting Fall 2018/Spring 2019
-  
-- The University of Utah: 
-  - Managerial Accounting 
-  - Intro to Stata (Ph.D. Bootcamp) 
+
+- The University of Utah:
+  - Managerial Accounting
+  - Intro to Stata (Ph.D. Bootcamp)
   - Intro to Python (Ph.D. Bootcamp)
