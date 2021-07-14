@@ -2,13 +2,15 @@
 published: true
 title: "Standard Errors"
 ---
-# Standard approach:
+# standard approach:
 
 When working with long panels ($T>50$) in Finance and Accounting, cluster by both individual ($i$) and time period ($t$), taking care to drop singletons.
 
-[`reghdfe`]() handles two-way clustering and singletons efficiently. [`sumhdfe`]() provides a straight-forward way to analyze the impact of singletons on your sample.
+When incorporating many dimensions of fixed effects and clusters singletons often result, see [Correia (2015 WP), Singletons, Cluster-Robust Standard Errors and Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf) for a discussion of the problems that arise.
 
-__Notate bene:__ In short panels, clustering by time is unlikely to be appropriate.
+[`reghdfe`](https://github.com/sergiocorreia/reghdfe) handles two-way clustering and singletons efficiently. [`sumhdfe`](https://github.com/ed-dehaan/sumhdfe) provides a straight-forward way to analyze the impact of singletons on your sample.
+
+__Notate bene:__ In short panels, clustering by time is often inappropriate.
 
 [Cameron & Trivedi](http://cameron.econ.ucdavis.edu/mmabook/mma.html) provide and excellent overview of why and how to cluster. This discussion, like all discussions of clustered standard errors, starts with 'robust' standard errors:
 
@@ -51,13 +53,13 @@ regress gpmw foreign, vce(cluster make1)
 reghdfe gpmw foreign, cluster(make1) noabsorb
 ```
   - NB: this is not an example of clustering in a panel, just of the syntax.
-  - While not formal in any way, this example points out that clustering is not always conservative, _especially_ when the number of clusters is low (more on this below).
+  - While not formal in any way, this example points out that clustering is not always conservative.
 
 4. Finally:
 
 > "Once fixed or random individual-specific effects are included the serial correlation in errors can be greatly reduced, but it may not be completely eliminated."
 
-Abadie, Athey, Imbens & Wooldridge (2017 NBER) put a finer point on this, they show that when there is "no heterogeneity in the treatment effects, one need not adjust standard errors for clustering once fixed effects are included".
+Abadie, Athey, Imbens & Wooldridge (2017 NBER) put a finer point on this last point, they show that when there is "no heterogeneity in the treatment effects, one need not adjust standard errors for clustering once fixed effects are included".
 
 [Abadie, Athey, Imbens & Wooldridge (2017 NBER), "When should you adjust standard errors for clustering?"](https://www.nber.org/papers/w24003) in brief:
 
@@ -71,7 +73,8 @@ __Reccomendations:__
 3. _"This analysis extends to the case where fixed effects are included in the regression at the level of a cluster, with the provision that if there is no heterogeneity in the treatment effects, one need not adjust standard errors for clustering once fixed effects are included."_
 
 ### two-way clustered standard errors
-So, why is clustering by time and individual so common in Finance and Accounting? Two influential and, more or less, simultaneous papers.
+
+So, why is clustering by time and individual so common in Finance and Accounting? Two influential and, more or less, simultaneous papers:
 
 [__Petersen (2009 RFS), Estimating Standard Errors in Finance Panel Data Sets: Comparing Approaches__](https://academic.oup.com/rfs/article/22/1/435/1585940?login=true)
 [__Gow, Ormazabal & Taylor (2010 TAR), Correcting for Cross‐Sectional and Time‐Series Dependence in Accounting Research__](https://meridian.allenpress.com/accounting-review/article-abstract/85/2/483/53814/Correcting-for-Cross-Sectional-and-Time-Series)
@@ -82,12 +85,12 @@ Peterson also emphasizes the assumption that the number of clusters should be la
 
 Petersen provides code on his website to estimate two-way clustered standard errors. His code estimates the variance-covariance matrix using the following steps:
 
-1. estimate the variance-covariance matrix, clustering on the first dimension (lets call this the 'firm' dimension -- in his .ado this is `vcf`). This requires a wide panel.
-2. estimate the variance-covariance matrix, clustering on the second dimension (lets call this the 'time' dimension -- in his .ado this is `vct`). This requires a long panel.
+1. estimate the variance-covariance matrix, clustering on the first dimension (lets call this the 'firm' dimension -- in his .ado this is `vcf`). this requires a wide panel.
+2. estimate the variance-covariance matrix, clustering on the second dimension (lets call this the 'time' dimension -- in his .ado this is `vct`). this requires a long panel.
 3. estimate the variance-covariance matrix clustering on the interaction of these two dimensions (lets call this `vci`).
 4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci`
 
-#### A few final notes notes on clustering:
+<!-- #### A few final notes notes on clustering:
 
-  1. When _T_ is not large clustering on time may not be conservative.
-  2. When incorporating many dimensions of fixed effects and clusters singletons often result. `reghdfe` removes them, see [Correia (2015 WP), Singletons, Cluster-Robust Standard Errors and Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf) for a discussion.
+  1. When _T_ is not large clustering on time may not be conservative, and likely inappropriate.
+  2. When incorporating many dimensions of fixed effects and clusters singletons often result. `reghdfe` removes them, see [Correia (2015 WP), Singletons, Cluster-Robust Standard Errors and Fixed Effects: A Bad Mix](http://scorreia.com/research/singletons.pdf) for a discussion. -->
