@@ -4,7 +4,7 @@ categories:
   - reading
 tags:
   - books
-published: true
+published: false
 ---
 Recent books with brief notes. In general I don't confess to reading books that I wouldn't recommend, and these are my confessions:
 

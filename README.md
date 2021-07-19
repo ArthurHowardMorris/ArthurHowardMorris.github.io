@@ -32,10 +32,10 @@ _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 - [An adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
 - [A basic Beamer template for HKUST](https://github.com/ArthurHowardMorris/HKUST_Beamer_Template) (LaTeX)
 
-## Notes on Methods
+<!-- ## Notes on Methods
 
 - [Modeling Count Data](https://arthurhowardmorris.github.io/count-data/)
-- [Standard Errors](https://arthurhowardmorris.github.io/se-robust-clustered/)
+- [Standard Errors](https://arthurhowardmorris.github.io/se-robust-clustered/) -->
 ## Courses
 
 - HKUST:

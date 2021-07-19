@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 tags:
   - covid
   - visualization
@@ -8,9 +8,9 @@ categories:
 title: COVID Reading List
 ---
 
-[How viruses work.](https://www.nytimes.com/interactive/2020/04/03/science/coronavirus-genome-bad-news-wrapped-in-protein.html) 
+[How viruses work.](https://www.nytimes.com/interactive/2020/04/03/science/coronavirus-genome-bad-news-wrapped-in-protein.html)
 
-As an American living abroad it's been tough to understand what is happening in the US. As one fortunate to be living in Hong Kong, where COVID-19 has been relatively well managed (8 million people, 1,194 cases, 7 deaths) through contact tracing and social distancing (no stay at home orders), I've been hungry -- as we all have I'm sure -- for good information about the virus, its spread, and its effects. 
+As an American living abroad it's been tough to understand what is happening in the US. As one fortunate to be living in Hong Kong, where COVID-19 has been relatively well managed (8 million people, 1,194 cases, 7 deaths) through contact tracing and social distancing (no stay at home orders), I've been hungry -- as we all have I'm sure -- for good information about the virus, its spread, and its effects.
 
 If you're looking for a well-focused and credible clearinghouse for pandemic information, then start here:
 ## [COVID-EXPLAINED](https://explaincovid.org/)
@@ -21,11 +21,11 @@ The folks behind this site, [Emily Oster in particular](https://emilyoster.net),
 - [NYT Op Ed](https://www.nytimes.com/2020/03/17/opinion/coronavirus-face-masks.html)
 - [Everything at the Atlantic](https://www.theatlantic.com/author/zeynep-tufekci/)
 
-Now podcasts, there are two that are totally dedicated to the pandemic, which have really impressed me, and then a number of other episodes that I recommend. 
+Now podcasts, there are two that are totally dedicated to the pandemic, which have really impressed me, and then a number of other episodes that I recommend.
 
 ## [Coronavirus: Fact vs Fiction](https://edition.cnn.com/audio/podcasts/corona-virus)
 
-The first is from Dr. Sanjay Gupta ([if you don't know him check him out on the Axe Files](https://omny.fm/shows/the-axe-files-with-david-axelrod/ep-378-dr-sanjay-gupta)... also on CNN I guess, if you're the sort of person that watches TV). 
+The first is from Dr. Sanjay Gupta ([if you don't know him check him out on the Axe Files](https://omny.fm/shows/the-axe-files-with-david-axelrod/ep-378-dr-sanjay-gupta)... also on CNN I guess, if you're the sort of person that watches TV).
 
 >"Join CNN Chief Medical Correspondent Dr. Sanjay Gupta for the latest news about the coronavirus. He'll make sense of the headlines, speak with the experts and give you all the information you need to stay safe and healthy."_
 

@@ -9,7 +9,7 @@ tags:
   - debt contracting
   - incomplete contract theory
   - taxes
-published: true
+published: false
 ---
 
 [Taxation of debt renegotiations and contract design:  Insights for incomplete contract theory](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2981069)

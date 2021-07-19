@@ -8,7 +8,7 @@ tags:
   - working paper
   - debt contracting
   - incomplete contract theory
-published: true
+published: false
 ---
 
 [Financial shocks to lenders and the composition of financial covenants](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3079996)

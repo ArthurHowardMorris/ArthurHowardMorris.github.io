@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: 'brief note: hayek, zhingales, and coase'
 tags:
   - read

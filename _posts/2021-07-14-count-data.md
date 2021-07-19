@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: "Count Data"
 ---
 # Modeling count and other non-negative outcomes.
