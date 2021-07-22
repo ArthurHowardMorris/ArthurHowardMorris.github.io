@@ -12,11 +12,13 @@ _Journal of Accounting & Economics (JAE), Forthcoming_
 
 ## Working Papers:
 
-[Renegotiation Costs and Debt Contract Design](https://dx.doi.org/10.2139/ssrn.2981069)  
-(with [Scott Dyreng](https://sites.google.com/site/scottdyreng/), and [Elia Ferracuti](https://sites.google.com/view/eliaferracuti/))
-
 [Political Information Flow and Management Guidance](https://dx.doi.org/10.2139/ssrn.3403763)  
 (with [Dane Christensen](https://business.uoregon.edu/faculty/dane-christensen), [Beverly Walther](https://www.kellogg.northwestern.edu/faculty/directory/walther_beverly.aspx), and [Laura Wellman](https://directory.smeal.psu.edu/law613))
+_Revise & Resubmit at the Review of Accounting Studies_
+
+
+[Renegotiation Costs and Debt Contract Design](https://dx.doi.org/10.2139/ssrn.2981069)  
+(with [Scott Dyreng](https://sites.google.com/site/scottdyreng/), and [Elia Ferracuti](https://sites.google.com/view/eliaferracuti/))
 
 [Option Grants and Risky Projects: A Reputation-Based Perspective](https://arthurhowardmorris.github.io/articles/options-risk/)  
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
