@@ -10,12 +10,11 @@ Before taking my current position in Hong Kong, I taught at NYU - Shanghai where
 (with [Hans Christensen](https://www.chicagobooth.edu/faculty/directory/c/hans-b-christensen),  [Daniele Macciocchi](https://www.bus.miami.edu/thought-leadership/faculty/accounting/macciocchi.html), and [Valeri Nikolaev](https://www.chicagobooth.edu/faculty/directory/n/valeri-nikolaev))
 _Journal of Accounting & Economics (JAE), Forthcoming_
 
-## Working Papers:
-
 [Political Information Flow and Management Guidance](https://dx.doi.org/10.2139/ssrn.3403763)  
 (with [Dane Christensen](https://business.uoregon.edu/faculty/dane-christensen), [Beverly Walther](https://www.kellogg.northwestern.edu/faculty/directory/walther_beverly.aspx), and [Laura Wellman](https://directory.smeal.psu.edu/law613))
-_Revise & Resubmit at the Review of Accounting Studies_
+_Review of Accounting Studies(RAST), Forthcoming_
 
+## Working Papers:
 
 [Renegotiation Costs and Debt Contract Design](https://dx.doi.org/10.2139/ssrn.2981069)  
 (with [Scott Dyreng](https://sites.google.com/site/scottdyreng/), and [Elia Ferracuti](https://sites.google.com/view/eliaferracuti/))
