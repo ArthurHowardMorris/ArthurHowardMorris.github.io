@@ -12,7 +12,7 @@ _Journal of Accounting & Economics (JAE), Forthcoming_
 
 [Political Information Flow and Management Guidance](https://dx.doi.org/10.2139/ssrn.3403763)  
 (with [Dane Christensen](https://business.uoregon.edu/faculty/dane-christensen), [Beverly Walther](https://www.kellogg.northwestern.edu/faculty/directory/walther_beverly.aspx), and [Laura Wellman](https://directory.smeal.psu.edu/law613))
-_Review of Accounting Studies(RAST), Forthcoming_
+_Review of Accounting Studies (RAST), Forthcoming_
 
 ## Working Papers:
 
