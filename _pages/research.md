@@ -23,7 +23,7 @@ _Review of Accounting Studies (RAST), Forthcoming_
 [Pay for Prudence](https://cpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/e/2949/files/2021/02/Gopalan-4.pdf)  
 (with [Salman Arif](https://sites.google.com/view/salmanarif), [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan), [Yadav Gopalan](https://sites.google.com/site/ykgopalan/))
 
-[Individual Mortgage Lending and Corruption: Evidence from Local Corruption Crack-Downs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
+[Individual Mortgage Lending, Public Corruption, Race and Gender: Evidence from Local Corruption Crack-Downs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
 (with [Albert Mensah](https://sites.google.com/site/albertmensahkwame/home), [Han Stice](https://www.bschool.cuhk.edu.hk/staff/stice-han/), and [Roger White](https://wpcarey.asu.edu/people/profile/1308641))
 
 [Option Grants and Risky Projects: A Reputation-Based Perspective](https://arthurhowardmorris.github.io/articles/options-risk/)  
