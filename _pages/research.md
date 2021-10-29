@@ -1,8 +1,9 @@
-I teach Managerial Accounting at the Hong Kong University of Science and Technology (HKUST). I research the relationships that form within and across the boundaries of the firm, how stakeholders use contracts to formalize these relationships, and how those contracts shape behavior.
-
-Before taking my current position in Hong Kong, I taught at NYU - Shanghai where I was an Assistant Professor and Faculty Fellow.
-
-[Download CV.](https://github.com/ArthurHowardMorris/CV/blob/master/AM_CV.pdf)
+---
+title: "research"
+excerpt: "list of current and published projects"
+sitemap: true
+permalink: /research.html
+---
 
 ## Publications:
 
@@ -27,30 +28,3 @@ _Review of Accounting Studies (RAST), Forthcoming_
 
 [Option Grants and Risky Projects: A Reputation-Based Perspective](https://arthurhowardmorris.github.io/articles/options-risk/)  
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
-
-## Code:
-
-- [An adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
-- [A basic Beamer template for HKUST](https://github.com/ArthurHowardMorris/HKUST_Beamer_Template) (LaTeX)
-
-<!-- ## Notes on Methods
-
-- [Modeling Count Data](https://arthurhowardmorris.github.io/count-data/)
-- [Standard Errors](https://arthurhowardmorris.github.io/se-robust-clustered/)
-- [Modeling Binary Outcome Variables]()
-- [Placebo Tests]()
-- [SUESTHDFE]()
--->
-## Courses
-
-- HKUST:
-  - Managerial Accounting (ACCTG2200) [Syllabus, Spring 2021](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)
-  - Managerial Accounting (ACCTG2200) Spring 2020
-
-- NYU - Shanghai:
-  - Mangerial Accounting Fall 2018/Spring 2019
-
-- The University of Utah:
-  - Managerial Accounting
-  - Intro to Stata (Ph.D. Bootcamp)
-  - Intro to Python (Ph.D. Bootcamp)
