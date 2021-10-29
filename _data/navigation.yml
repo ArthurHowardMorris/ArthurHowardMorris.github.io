@@ -3,7 +3,7 @@ main:
     url: https://github.com/ArthurHowardMorris/CV/raw/master/AM_CV.pdf
   - title: "research"
     url: /research.html
-  - title: "tags"
-    url: /tags/
-  - title: "about"
-    url: /about/
+  - title: "tools"
+    url: /tools.html
+  - title: "courses"
+    url: /courses.html
