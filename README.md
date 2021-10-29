@@ -41,16 +41,16 @@ _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 - [Placebo Tests]()
 - [SUESTHDFE]()
 -->
-## Courses
+<!-- ## Courses -->
 
-- HKUST:
+<!-- - HKUST:
   - Managerial Accounting (ACCTG2200) [Syllabus, Spring 2021](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)
-  - Managerial Accounting (ACCTG2200) Spring 2020
+  - Managerial Accounting (ACCTG2200) Spring 2020 -->
 
-- NYU - Shanghai:
-  - Mangerial Accounting Fall 2018/Spring 2019
+<!-- - NYU - Shanghai:
+  - Mangerial Accounting Fall 2018/Spring 2019 -->
 
-- The University of Utah:
+<!-- - The University of Utah:
   - Managerial Accounting
   - Intro to Stata (Ph.D. Bootcamp)
-  - Intro to Python (Ph.D. Bootcamp) -->
+  - Intro to Python (Ph.D. Bootcamp)  -->
