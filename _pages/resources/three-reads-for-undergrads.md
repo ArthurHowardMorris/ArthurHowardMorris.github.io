@@ -1,6 +1,7 @@
 ---
-published: true
-title: "Three book recommendations for undergrads"
+title: "three reads for undergrads"
+sitemap: true
+permalink: /resources/three-reads-for-undergrads.html
 ---
 
 HKUST has a number of excellent mentorship programs, and my involvement in one of them got me thinking about a list of books I would recommend to undergrads. Here is that list:

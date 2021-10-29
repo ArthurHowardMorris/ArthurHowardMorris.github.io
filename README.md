@@ -4,7 +4,7 @@ Before taking my current position in Hong Kong, I taught at NYU - Shanghai where
 
 [Download CV.](https://github.com/ArthurHowardMorris/CV/blob/master/AM_CV.pdf)
 
-## Publications:
+<!-- ## Publications:
 
 [Financial Shocks to Lenders and the Composition of Financial Covenants](https://doi.org/10.1016/j.jacceco.2021.101426)  
 (with [Hans Christensen](https://www.chicagobooth.edu/faculty/directory/c/hans-b-christensen),  [Daniele Macciocchi](https://www.bus.miami.edu/thought-leadership/faculty/accounting/macciocchi.html), and [Valeri Nikolaev](https://www.chicagobooth.edu/faculty/directory/n/valeri-nikolaev))
@@ -53,4 +53,4 @@ _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
 - The University of Utah:
   - Managerial Accounting
   - Intro to Stata (Ph.D. Bootcamp)
-  - Intro to Python (Ph.D. Bootcamp)
+  - Intro to Python (Ph.D. Bootcamp) -->

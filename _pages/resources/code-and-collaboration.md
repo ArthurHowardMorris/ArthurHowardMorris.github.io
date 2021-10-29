@@ -1,11 +1,7 @@
 ---
-published: true
-tags:
-  - code
-  - econometrics
-categories:
-  - reference
-title: 'an entirely unoriginal and simple approach to reproducible research'
+ title: "code and collaboration"
+ sitemap: true
+ permalink: /resources/code-and-collaboration.html
 ---
 # The caveat
 
@@ -46,3 +42,4 @@ I've never written software for a living. I'm reasonably adept at Stata and Pyth
 - [Statalist.org](http://statalist.org/)
 - [Python for Data Analysis](https://www.oreilly.com/library/view/python-for-data/9781491957653/)
 - [Stack Exchange](https://stackexchange.com), in particular, [Stack Overflow](https://stackoverflow.com/tour)
+- [Regression and Other Stories](https://avehtari.github.io/ROS-Examples/)
