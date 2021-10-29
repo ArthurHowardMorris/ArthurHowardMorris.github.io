@@ -1,5 +1,5 @@
 ---
-title: 2021-06-10 article in press
+title: 2021-06-10
 categories:
   - in press
 published: true
