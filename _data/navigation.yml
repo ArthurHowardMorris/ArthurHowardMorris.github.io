@@ -7,3 +7,5 @@ main:
     url: /tools.html
   - title: "courses"
     url: /courses.html
+  - title: "resources"
+    url: /resources.html
