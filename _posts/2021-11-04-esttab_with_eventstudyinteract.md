@@ -1,5 +1,5 @@
 ---
-title: 'Thu Nov 04 2021 08:00:00 GMT+0800 (Hong Kong Standard Time)'
+title: '2021-11-04'
 categories:
   - code
   - did
