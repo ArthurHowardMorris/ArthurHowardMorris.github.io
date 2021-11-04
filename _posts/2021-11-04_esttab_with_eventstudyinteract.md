@@ -6,7 +6,7 @@ categories:
 published: true
 ---
 
-Using the excellent this morning [`eventstudyinteract`](https://github.com/lsun20/EventStudyInteract) and wanted to pipe the results to `esttab` rather than `coefplot`.
+Using the excellent this morning [`eventstudyinteract`](https://github.com/lsun20/EventStudyInteract) and needed to pipe the results to `esttab` rather than `coefplot`.
 A quick Google lead to [this](https://twitter.com/MaraPadillaR/status/1450547203169263623) which seemed more hassle than it should be.
 
 Here's a quick hack to tack on the end of the example from [`help eventstudyinteract`]():
