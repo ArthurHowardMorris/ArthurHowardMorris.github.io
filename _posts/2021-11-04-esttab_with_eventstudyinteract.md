@@ -12,18 +12,17 @@ A quick Google lead to [this](https://twitter.com/MaraPadillaR/status/1450547203
 Here's a quick hack to tack on the end of the example from [`help eventstudyinteract`]():
 After you estimate:
 
-```Stata
+```
 eventstudyinteract ln_wage g_* g0-g18, cohort(first_union) control_cohort(never_union) covariates(south) absorb(i.idcode i.year) vce(cluster idcode)
 esttab
 ```
 Here `esttab` doesn't give you are after, because the estimates of `g_* g0-g18` you're interested in are stored in `e(b_iw)` and `e(V_iw)` but `esttab` looks in `e(b)` and `e(V)`.
 You can use Ben Jann's `erepost` (`ssc install erepost`) to put the results where `esttab` can find them:
 
-```Stata
+```
 matrix b_iw = e(b_iw)
 matrix V_iw = diag(e(V_iw))
 erepost b = b_iw V = V_iw // ssc install erepost
-
 esttab
 ```
 
