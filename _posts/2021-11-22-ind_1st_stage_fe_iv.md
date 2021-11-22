@@ -6,7 +6,7 @@ categories:
 published: true
 ---
 
-Indicating fixed effects with [`reghdfe`]() is relatively straightforward if you use [`estfe`](). However, when you try to report the first stage of estimates from [`ivreghdfe`](https://github.com/sergiocorreia/ivreghdfe) with the `savefirst` (or `savefprefix`) option you'll incorrectly indicate that you didn't use the fixed effects that you passed to `absorb()`.
+Indicating fixed effects with [`reghdfe`](http://scorreia.com/software/reghdfe/faq.html) is relatively straightforward if you use [`estfe`](http://scorreia.com/software/reghdfe/faq.html#how-can-i-combine-reghdfe-with-esttab-or-estout). However, when you try to report the first stage of estimates from [`ivreghdfe`](https://github.com/sergiocorreia/ivreghdfe) with the `savefirst` (or `savefprefix`) option you'll incorrectly indicate that you didn't use the fixed effects that you passed to `absorb()`.
 
 Here's an example using `saveprefix`:
 
