@@ -12,7 +12,7 @@ permalink: /tools.html
 
 ## Data:
 
-- [State Codes](https://github.com/ArthurHowardMorris/statecodes.git)
+- State Codes: [download](https://raw.githubusercontent.com/ArthurHowardMorris/statecodes/main/statecodes.csv)  [(repo)](https://github.com/ArthurHowardMorris/statecodes.git)
 
 <!-- ## Notes on Methods
 # Still under development
