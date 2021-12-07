@@ -1,18 +1,21 @@
 ---
 title: "tools"
-excerpt: "a few modifications and creations"
+excerpt: "modifications and creations"
 sitemap: true
 permalink: /tools.html
 ---
 
-## Code:
+## code:
 
-- [An adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
-- [A basic Beamer template for HKUST](https://github.com/ArthurHowardMorris/HKUST_Beamer_Template) (LaTeX)
+- [an adaptation of `psacalc` that allows use with `reghdfe`](https://github.com/ArthurHowardMorris/psacalc_supports_reghdfe) (Stata)
+- [a basic beamer template for HKUST](https://github.com/ArthurHowardMorris/HKUST_Beamer_Template) (LaTeX)
 
-## Data:
+## data:
 
-- State Codes: [download](https://raw.githubusercontent.com/ArthurHowardMorris/statecodes/main/statecodes.csv)  [(repo)](https://github.com/ArthurHowardMorris/statecodes.git)
+- state codes:
+  - [download state codes (fips, str2, strL)](https://raw.githubusercontent.com/ArthurHowardMorris/statecodes/main/statecodes.csv)
+  - [download zip-to-state crosswalk (zip5, fips, str2, strL)](https://raw.githubusercontent.com/ArthurHowardMorris/statecodes/main/zipFipsStates2010.dta) 
+  - [repo](https://github.com/ArthurHowardMorris/statecodes.git)
 
 <!-- ## Notes on Methods
 # Still under development
