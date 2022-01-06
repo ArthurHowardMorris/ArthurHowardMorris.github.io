@@ -87,6 +87,7 @@ Petersen provides code on his website to estimate two-way clustered standard err
 
 1. estimate the variance-covariance matrix, clustering on the first dimension (lets call this the 'firm' dimension -- in his .ado this is `vcf`). this requires a wide panel.
 2. estimate the variance-covariance matrix, clustering on the second dimension (lets call this the 'time' dimension -- in his .ado this is `vct`). this requires a long panel.
+  - the attentive reader of Petersen 2009 will notice that the bias he is simulating in Figure 5 is from clustering on too few time periods. in corporate governance research there are _rarely_ enough time periods for clustering on year to be appropriate.
 3. estimate the variance-covariance matrix clustering on the interaction of these two dimensions (lets call this `vci`).
 4. calculate the two-way clustered variance-covariance matrix as `vc2way = vcf + vct - vci`
 
