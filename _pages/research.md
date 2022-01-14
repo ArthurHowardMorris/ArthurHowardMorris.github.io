@@ -26,5 +26,5 @@ _Review of Accounting Studies (RAST), Forthcoming_
 [Individual Mortgage Lending, Public Corruption, Race and Gender: Evidence from Local Corruption Crack-Downs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
 (with [Albert Mensah](https://sites.google.com/site/albertmensahkwame/home), [Han Stice](https://www.bschool.cuhk.edu.hk/staff/stice-han/), and [Roger White](https://wpcarey.asu.edu/people/profile/1308641))
 
-Option Grants and Risky Projects: A Reputation-Based Perspective
+Option Grants and Risky Projects: A Reputation-Based Perspective   
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
