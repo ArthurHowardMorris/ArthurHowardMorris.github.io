@@ -8,7 +8,7 @@ permalink: /courses.html
 # HKUST:
 
 ## Advanced Managerial Accounting (ACCTG4321)
-  - Spring 2022
+  - [Syllabus, Spring 2022](https://github.com/ArthurHowardMorris/ACCT3210/blob/main/ACCT3210_Syl.pdf)
 
 ## Managerial Accounting (ACCTG2200)
   - [Syllabus, Spring 2021](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)
