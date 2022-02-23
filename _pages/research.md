@@ -9,7 +9,7 @@ permalink: /research.html
 
 [Financial Shocks to Lenders and the Composition of Financial Covenants](https://doi.org/10.1016/j.jacceco.2021.101426)  
 (with [Hans Christensen](https://www.chicagobooth.edu/faculty/directory/c/hans-b-christensen),  [Daniele Macciocchi](https://www.bus.miami.edu/thought-leadership/faculty/accounting/macciocchi.html), and [Valeri Nikolaev](https://www.chicagobooth.edu/faculty/directory/n/valeri-nikolaev))
-_Journal of Accounting & Economics (JAE), Forthcoming_
+_Journal of Accounting & Economics, 72(1):101426_
 
 [Political Information Flow and Management Guidance](https://dx.doi.org/10.2139/ssrn.3403763)  
 (with [Dane Christensen](https://business.uoregon.edu/faculty/dane-christensen), [Beverly Walther](https://www.kellogg.northwestern.edu/faculty/directory/walther_beverly.aspx), and [Laura Wellman](https://directory.smeal.psu.edu/law613))
