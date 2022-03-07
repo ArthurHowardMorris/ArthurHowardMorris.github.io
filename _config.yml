@@ -25,9 +25,9 @@ minimal_mistakes_skin: default
 search: true
 
 # Build settings
-#markdown: kramdown
+markdown: kramdown
 #markdown: redcarpet
-markdown: GFM
+# markdown: GFM
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
