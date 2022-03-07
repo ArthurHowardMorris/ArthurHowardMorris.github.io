@@ -116,3 +116,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+url: 'https://ArthurHowardMorris.github.io/' # your main domain
+baseurl: 'ArthurHowardMorris.github.io/' # if you're using custom domain keep this blank example: baseurl: ''
