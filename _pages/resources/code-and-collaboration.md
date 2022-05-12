@@ -1,7 +1,8 @@
 ---
- title: "code and collaboration"
- sitemap: true
- permalink: /resources/code-and-collaboration.html
+title: code and collaboration
+sitemap: true
+permalink: /resources/code-and-collaboration.html
+published: true
 ---
 # The caveat
 
@@ -25,7 +26,10 @@ I've never written software for a living. I'm reasonably adept at Stata and Pyth
   - python, sas, and others for extraction of data
   - stata for processing and analysis
   - the stata project command is key to tracking changes here
-- data is shared through dropbox or somesuch
+- data is shared through dropbox or somesuch. data folders should have some structure, my default structure is:
+	- `/raw/`: this holds everything created by the "extract" step
+    - `/mediumraw/`: this holds intermediate datasets created by the process step. I often save an unlabeled version of the estimation data here
+    - `/final/`: this folder holds the final data for estimation, this is the data that produces the tables in the paper
 - the draft is maintained on overleaf
   - analysis step outputs to an overleaf synced file
   - e.g. the project's folder in `Dropbox/Apps/Overleaf/project`
