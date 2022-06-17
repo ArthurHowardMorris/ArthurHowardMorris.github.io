@@ -1,14 +1,15 @@
 ---
-title: "courses"
-excerpt: "course materials"
+title: courses
+excerpt: course materials
 sitemap: true
 permalink: /courses.html
+published: true
 ---
 
 # HKUST:
 
 ## Advanced Managerial Accounting (ACCTG4321)
-  - [Syllabus, Spring 2022](https://github.com/ArthurHowardMorris/ACCT3210/blob/main/ACCT3210_Syl.pdf)
+  - Spring 2022
 
 ## Managerial Accounting (ACCTG2200)
   - [Syllabus, Spring 2021](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)
