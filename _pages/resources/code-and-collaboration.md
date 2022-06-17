@@ -39,7 +39,7 @@ I've never written software for a living. I'm reasonably adept at Stata and Pyth
 - [Coding Style Guide](https://github.com/michaelstepner/healthinequality-code/blob/master/code/readme.md), Stepner
 - [Code and Data for the Social Sciences: A Practitioner’s Guide](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf), Gentzkow and Shapiro
 - [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
-
+- [Tidy Data](https://www.jstatsoft.org/article/view/v059i10), Wickham
 
 # Other useful resources:
 - [Microeconometrics using Stata](https://www.stata.com/bookstore/microeconometrics-stata/), Cameron and Trivedi
