@@ -1,8 +1,9 @@
 ---
-title: "Research"
-excerpt: "list of current and published projects"
+title: Research
+excerpt: list of current and published projects
 sitemap: true
 permalink: /research.html
+published: true
 ---
 
 ## Publications:
@@ -13,7 +14,7 @@ _Journal of Accounting & Economics, 72(1):101426_
 
 [Political Information Flow and Management Guidance](https://dx.doi.org/10.2139/ssrn.3403763)  
 (with [Dane Christensen](https://business.uoregon.edu/faculty/dane-christensen), [Beverly Walther](https://www.kellogg.northwestern.edu/faculty/directory/walther_beverly.aspx), and [Laura Wellman](https://directory.smeal.psu.edu/law613))
-_Review of Accounting Studies (RAST), Forthcoming_
+_Review of Accounting Studies, 2022_
 
 ## Working Papers:
 
