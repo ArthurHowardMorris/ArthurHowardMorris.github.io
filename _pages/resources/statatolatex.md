@@ -1,5 +1,5 @@
 ---
-title: notes on piping results from stata to latex
+title: notes on stata to latex workflow
 sitemap: true
 permalink: /resources/statatolatex.html
 ---
@@ -9,6 +9,7 @@ permalink: /resources/statatolatex.html
 When I can't find good examples of how to do this on the forums, I usually put together a brief example and post it here. This is as much for my benefit as for yours. Please email if you have questions or thoughts about any of these topics.
 
 - [Using `eventstudyinteract` with esttab](/resources/esttab_with_eventstudyinteract.html)
-
+- [Using `estfe` with `ivreghdfe` to indicate fixed effects](/resources/ind_1st_stage_fe_iv.html)
+- [Using `textdoc` to allow stata to keep sample counts in the draft up to date with the tables](/resources/textdoc_to_latex.html)
 
 [^rep]: In all the important discussions about reproducible research, I think one _astounding_ regularity goes undiscussed. It is that in recent high-profile retractions, the party that ultimately fails to reproduce published results is the _actual authors of the study_. While honest and unnoticed mistakes in tabulation may not explain every such error, I believe that they are entirely preventable, thus my obsession with automating the tabulation step.  
