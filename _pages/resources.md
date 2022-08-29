@@ -9,9 +9,9 @@ permalink: /resources.html
 
 - [natural language processing resources](/resources/nlp.html)
 - [code and collaboration](/resources/code-and-collaboration.html)
-
+- [notes on stata-latex integration](/resources/statatolatex.html)
 <!-- ## methods -->
 
 ## books
 
-- [three reads for undergrads](/resources/three-reads-for-undergrads.html)
+- [three books for undergrads](/resources/three-reads-for-undergrads.html)
