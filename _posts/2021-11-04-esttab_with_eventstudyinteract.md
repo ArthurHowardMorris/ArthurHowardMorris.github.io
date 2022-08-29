@@ -4,6 +4,7 @@ categories:
   - code
   - did
 published: true
+permalink: "/resources/esttab_with_eventstudyinteract.html"
 ---
 
 Using the excellent [`eventstudyinteract`](https://github.com/lsun20/EventStudyInteract) this morning and needed to pipe the results to `esttab` rather than `coefplot`.
@@ -14,15 +15,15 @@ Here's a quick hack to tack on the end of the example from `help eventstudyinter
 After you estimate:
 
 ```
-eventstudyinteract ln_wage g_* g0-g18, /// 
-  cohort(first_union) /// 
+eventstudyinteract ln_wage g_* g0-g18, ///
+  cohort(first_union) ///
   control_cohort(never_union) ///
   covariates(south) ///
   absorb(i.idcode i.year) ///
   vce(cluster idcode)
 esttab
 ```
-Here `esttab` doesn't give you are after, because the estimates of `g_* g0-g18` you're interested in are stored in `e(b_iw)` and `e(V_iw)` but `esttab` looks in `e(b)` and `e(V)`. 
+Here `esttab` doesn't give you are after, because the estimates of `g_* g0-g18` you're interested in are stored in `e(b_iw)` and `e(V_iw)` but `esttab` looks in `e(b)` and `e(V)`.
 Ben Jann's `erepost` (`ssc install erepost`) makes it simple to put to put the results where `esttab` can find them:
 
 ```

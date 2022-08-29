@@ -1,5 +1,5 @@
 ---
-title: "three reads for undergrads"
+title: "three books for undergrads"
 sitemap: true
 permalink: /resources/three-reads-for-undergrads.html
 ---
@@ -20,7 +20,7 @@ Key insights:
 
 1. There are two types of industries/careers
 	- one where success is distributed normally: being good is about as valuable as being the best
-    - one where success is distributed exponentially: being mediocre is about as valuable as being the worst
+	- one where success is distributed exponentially: being mediocre is about as valuable as being the worst
 2. Students need to understand which type of career they are pursuing and be ready to adapt when things change
 
 _Note:_ Taleb's [The Black Swan](https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X) provides some related insights.
