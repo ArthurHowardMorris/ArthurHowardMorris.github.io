@@ -8,6 +8,8 @@ permalink: /resources/statatolatex.html
 
 When I can't find good examples of how to do this on the forums, I usually put together a brief example and post it here. This is as much for my benefit as for yours. Please email if you have questions or thoughts about any of these topics.
 
+- [Keeping `reghdfe` current](/resources/install_reghdfe.html)
+- [Using `estfe` to _automate_ indication of fixed effects]() 
 - [Using `eventstudyinteract` with esttab](/resources/esttab_with_eventstudyinteract.html)
 - [Using `estfe` with `ivreghdfe` to indicate fixed effects](/resources/ind_1st_stage_fe_iv.html)
 - [Using `textdoc` to allow stata to keep sample counts in the draft up to date with the tables](/resources/textdoc_to_latex.html)
