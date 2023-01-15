@@ -85,7 +85,7 @@ All other case materials will be provided via the course website.
 | | |
 |---|---|
 | _Mode of Instruction:_ | The course will be conducted _in-person_ and will involve _extensive class participation_ (random cold calling) which will be graded (see Grading below for details).|
-| _Lectures and Cases:_ | Class discussions will involve both lectures and cases. Case discussions will occur on days when the cases are assigned in the [[Outline and Schedule]].| 
+| _Lectures and Cases:_ | Class discussions will involve both lectures and cases. Case discussions will occur on days when the cases are assigned in the course schedule below.| 
 | _Preparation for Class:_|Students should prepare for class by completing the assigned reading and problems or case. All assignments and cases are due before class.|
 | _Video Recordings:_ | Classes will be recorded, but recordings will only be provided to students that cannot attend due to verified illness. This is to facilitate class participation.|
 | _Canvas:_ | Assignments will be turned in via Canvas, and I will use canvas to send updates. Please note that this website, and _not Canvas_ will host the course materials. Also note that the Canvas gradebook will only track assignments turned in via Canvas and not your final grade.|
@@ -135,3 +135,93 @@ Points on all work will be weighted as shown above and graded as shown here:
 |C- | 70.00% - 72.99%|
 |D 	| 60.00% - 69.99%|
 |F 	| Below 60.00%|
+
+## Course Schedule and Outline:
+
+| | |
+|---|---|
+| 1. 7 Feb.  | Expectations and Conceptual Framework|
+| _Read:_    | Zimmerman, Ch 1 |
+|            | Introduction to Management Accounting |
+|2. 9 Feb.   | The Nature of Costs|
+| _Read:_    | Zimmerman, Chapter 2  |
+| _Problem:_ | Cost in a Multiproduct Firm | %% Demski 2nd: 3–10 %% 
+|3. 14 Feb.  | Constraints and linear programming|
+| _Problem:_ | Cost in a Multiproduct Firm Part 2 |
+|4. 16 Feb.  | Solving LPs |
+| _Problems:_ |  Shadow Prices|
+|             |  Component Searches and Product Cost|
+|             | Ava Catering |
+|             | Builder of Garages and Sheds |
+| 5. 21 Feb. | Cost estimation (regression) |
+| Read:      | Cost behavior (class note) |
+| Problems:  | 10–16 Data collection issues |
+|            | 10–17 Data collection issues |
+|6. 23 Feb.  | Application of Regression and Linear programming |
+|_Case:_     | Bayshore Manufacturing) |
+|7. 28 Feb.  | Capital Budgeting |
+| _Read:_    | Zimmerman, Chapter 3 |
+| _Case:_    |Special Electric Case|
+| 8. 2 Mar.  | Taxation of returns  |
+| _Read:_    | Before- and After-tax Returns (class note) |
+|            | Taxable versus Tax-exempt Bonds (class note) | 
+| _Problem:_ | Alternative Savings Vehicles |
+| 9. 7 Mar.  | Real and Financial Assets | 
+| _Read:_    | Net-of-tax returns on real and financial assets (class note)|
+| _Problems:_| Answer the questions in the class note|
+| 10. 9 Mar. | Organizational Architecture| 
+| _Read:_    | Zimmerman, Chapter 4 | 
+|            | Incentives and Managerial Compensation (class note)|
+|_Problems:_ | 4–20 Gong Fen  |
+|            | 4–18 Rothwell|
+| 13. 9 Mar. | Economics of Agency|
+| _Case_      | Gamblers‘R’Us|
+| 14. 14 Mar  | Responsibility Accounting and Transfer Pricing|
+| _Read:_     | Zimmerman, Chapter 5  |
+|             | Transfer Pricing (class note)  |
+| _Case:_     | Anita Corporation |
+| 15. 16 Mar. | Transfer Pricing: Additional Considerations|
+|_Case:_      | Del Norte Paper Co. (A)|
+| 16 & 18 Mar.| __Mid-term Review__ |
+|             | Optional, via Zoom | 
+| 16. 21 Mar. | __Midterm__ |
+|             | 1800 Location TBA |
+| 16. 23 Mar. | Cost Allocation I|
+| _Read:_     | Zimmerman, Chapter 7|
+| 17. 28 Mar. | Costing Systems and Decision Making|
+| _Case:_     | Bridgeton Industries|
+| 18. 30 Mar. | Cost Allocation II|
+|  _Read:_    | Zimmerman, Chapter 8|
+| 19. 4 Apr.  | Absorption Costing Systems|
+| _Read:_     | Zimmerman, Chapter 9 | 
+| _Problems:_ | 9–9 DeJure Scents  |
+|             | 9–24 Kitchen Rite  |
+|             | __Mid-Term Break__ |
+| 20. 13 Apr.  | Cost Allocation in a Research University |
+| _Case:_      | Stanford University|
+| 21. 18 Apr   | Absorption Costing Problems |
+| _Read:_      | Zimmerman, Chapter 10 |
+| _Problems:_  | 10–8 Aspen View  |
+|              | 10–11 Kothari Inc.|
+|              | 10–17 Navisky |
+| 22. 20 Apr.  | ABC | 
+| _Read:_      | Zimmerman, Chapter 11|
+| _Case:_      | Seligram Inc.: Electronic Testing Operations|
+| 23. 25 Apr.  | Budgeting |
+| _Read:_      | Zimmerman, Chapter 6|
+| 24. 27 Apr.  | Standard Costs and Variances|
+| _Read:_      | Zimmerman, Chapters 12 and 13|
+| _Case:_      | LSP Capsules|
+| 25. 2 May    | Standards and Variances in Practice|
+| _Case_       | Midwest Ice Cream|
+| 26. 4 May    | Standards and Variances in Practice|
+| _Case:_      | Texas Eastman|
+| 27. 9 May    | Internal Control and Risk Management  |
+| _Case:_      | Kidder, Peabody & Co.: Creating Elusive Profits|
+| 10 & 11 May  | __Final Review__ |
+|              | Optional, via Zoom |
+| TBA | __Final Exam__ |
+
+### Acknowledgements:
+
+Like Bob Dylan, this course was born a long way away from where it's from, but the starting point was reading Joel Demski's _Managerial Uses of Accounting Information_, Zimmerman's _Accounting for Decision Making and Control_, and reviewing Steve Huddart's excellent Accounting 440 taught at Penn State. Similarities to those approaches are absolutely intentional, and any shortcomings are my attempts at innovation. 
