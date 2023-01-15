@@ -2,11 +2,11 @@
 title: Spring 2023 Syllabus for ACCTG 3210
 excerpt: Course Syllabus
 sitemap: true
-permalink: /semesters/s2023/ACCTG3210Syl.html
+permalink: /resources/semesters/s2023/ACCTG3210Syl.html
 published: true
 ---
 
-_Preliminary and subject to change due to pandemic regulations:_ [__Follow this link for current version__](/semesters/s2023/ACCTG3210.html)
+_Preliminary and subject to change due to pandemic regulations:_ [__Follow this link for current version__](/resources/semesters/s2023/ACCTG3210.html)
 
 # Spring 2022, Course Syllabus:
 
@@ -45,7 +45,7 @@ Office Hours:
 
 ## A Note on COVID 19:
 
-The evolving pandemic may still impact this course. The schedule, locations, and expectations of this course will change if required in order to comply with University policies. The version of the syllabus posted on [the course website](/semesters/s2023/ACCTG3210.html) and Canvas announcements will communicate changes as they are required.
+The evolving pandemic may still impact this course. The schedule, locations, and expectations of this course will change if required in order to comply with University policies. The version of the syllabus posted on [the course website](/resources/semesters/s2023/ACCTG3210.html) and Canvas announcements will communicate changes as they are required.
 
 ## Course description:
 
