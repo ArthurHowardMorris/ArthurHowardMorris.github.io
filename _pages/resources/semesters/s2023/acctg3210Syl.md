@@ -79,3 +79,59 @@ _Any format. "Connect" not required. Exercises may not match if you use an earli
 _TBA_
 
 All other case materials will be provided via the course website.
+
+### Course Structure and Mode of Instruction:
+
+| | |
+|---|---|
+| _Mode of Instruction:_ | The course will be conducted _in-person_ and will involve _extensive class participation_ (random cold calling) which will be graded (see Grading below for details).|
+| _Lectures and Cases:_ | Class discussions will involve both lectures and cases. Case discussions will occur on days when the cases are assigned in the [[Outline and Schedule]].| 
+| _Preparation for Class:_|Students should prepare for class by completing the assigned reading and problems or case. All assignments and cases are due before class.|
+| _Video Recordings:_ | Classes will be recorded, but recordings will only be provided to students that cannot attend due to verified illness. This is to facilitate class participation.|
+| _Canvas:_ | Assignments will be turned in via Canvas, and I will use canvas to send updates. Please note that this website, and _not Canvas_ will host the course materials. Also note that the Canvas gradebook will only track assignments turned in via Canvas and not your final grade.|
+
+## Grading
+
+### Grading Scheme
+
+|Description          |	Weight|
+| ---                 | ---   |
+| Class Participation |	16% |
+| Cases & Problems    | 16% |
+| Midterm             | 18% |
+| Final Exam          | 50% |  
+| Total	              | 100%|
+
+### Class Participation:
+
+Both lecture and case discussions will rely on random cold calling. Student's names will be randomly selected without replacement until all students have been called on. Answers need not be correct to receive full credit, absentee's will receive no credit for the question. Exception for verified illness, students are required to notify TA & instructor of illness via email in a timely manner.
+
+### Cases & Problems
+
+Cases and problems will be due at 2200 the night before the class in which they are discussed. All assignments should be submitted in .pdf format via Canvas, unless otherwise noted.
+
+### Exams
+
+Exams will be conducted in-person and will be closed book. Times and locations TBA.
+
+ - __Midterm Exam:__ The midterm examination is scheduled from 7:00pm to 9:00pm, Tuesday, 21 March 2022 in person. Location __TBA__. The exam is closed book and communication with others is cheating and not allowed. All students are required to take the midterm exam at this pre-scheduled time, and there will be no make-up exam for it. Students absent from the midterm exam will receive zero mark for this component, except for highly unusual circumstances that cannot be controlled and avoided by the student---in which case the grade weight on the midterm exam will be loaded to the final examination component.
+
+  - __Final Exam:__ The comprehensive final examination is scheduled from TBA to TBA on, TBA. The exam is closed book and communication with others is cheating and not allowed. All students are required to take the final exam at this pre-scheduled time, and there will be no make-up exam for it. Students absent from the final exam will receive zero mark for this component.
+
+### Grading Scale:
+
+Points on all work will be weighted as shown above and graded as shown here:
+
+|Grade|%|
+|---|---|
+|A+ | 97.00% - 100% |
+|A  | 93.00% - 96.99%|
+|A- | 90.00% - 92.99%|
+|B+ | 87.00% - 89.99%|
+|B	| 83.00% - 86.99%|
+|B-	| 80.00% - 82.99%|
+|C+	| 77.00% - 79.99%|
+|C 	| 73.00% - 76.99%|
+|C- | 70.00% - 72.99%|
+|D 	| 60.00% - 69.99%|
+|F 	| Below 60.00%|
