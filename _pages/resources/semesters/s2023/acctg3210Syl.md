@@ -8,7 +8,6 @@ published: true
 
 _Preliminary and subject to change due to pandemic regulations:_ [__Follow this link for current version__](/resources/semesters/s2023/ACCTG3210.html)
 
-# Spring 2022, Course Syllabus:
 
 ### ACCT3210: Advanced Managerial Accounting
 
