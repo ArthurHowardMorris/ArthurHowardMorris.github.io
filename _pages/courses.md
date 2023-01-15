@@ -28,3 +28,5 @@ published: true
   - Managerial Accounting
   - Intro to Stata (Ph.D. Bootcamp)
   - Intro to Python (Ph.D. Bootcamp)
+
+[TEST](/resources/nlp.html)
