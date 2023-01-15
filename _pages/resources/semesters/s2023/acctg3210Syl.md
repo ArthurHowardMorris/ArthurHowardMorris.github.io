@@ -1,5 +1,5 @@
 ---
-title: Spring 2023 Syllabus for ACCTG 3210
+title: Spring 2023 Syllabus
 excerpt: Course Syllabus
 sitemap: true
 permalink: /resources/semesters/s2023/ACCTG3210Syl.html
