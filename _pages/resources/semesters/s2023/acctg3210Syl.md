@@ -145,7 +145,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 |            | Introduction to Management Accounting |
 |2. 9 Feb.   | The Nature of Costs|
 | _Read:_    | Zimmerman, Chapter 2  |
-| _Problem:_ | Cost in a Multiproduct Firm | %% Demski 2nd: 3–10 %% 
+| _Problem:_ | Cost in a Multiproduct Firm |
 |3. 14 Feb.  | Constraints and linear programming|
 | _Problem:_ | Cost in a Multiproduct Firm Part 2 |
 |4. 16 Feb.  | Solving LPs |
