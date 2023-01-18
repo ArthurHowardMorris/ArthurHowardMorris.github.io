@@ -15,17 +15,17 @@ _Preliminary and subject to change due to pandemic regulations:_ [__Follow this 
 
 ## Instructor:
 
-__Dr. Arthur Morris__
-Email: acarthur@ust.hk 
-Office Hours: 
-	- Wednesday 10:00-11:00 [via Zoom]
-	- Wednesday 14:00-15:00 [via Zoom]
+__Dr. Arthur Morris__  
+Email: acarthur@ust.hk  
+Office Hours:  
+- Wednesday 10:00-11:00 [via Zoom]()  
+- Wednesday 14:00-15:00 [via Zoom]()    
 
-## Teaching Assistant:
-__Nicholas Wu__
-Email: jhn.wu@ust.hk
-Office Hours:
-	- TBA
+## Teaching Assistant:  
+__Nicholas Wu__  
+Email: jhn.wu@ust.hk  
+Office Hours:  
+- TBA  
 
 ## Class sessions:
 
@@ -144,23 +144,23 @@ Points on all work will be weighted as shown above and graded as shown here:
 |            | Introduction to Management Accounting |
 |2. 9 Feb.   | The Nature of Costs|
 | _Read:_    | Zimmerman, Chapter 2  |
-| _Problem:_ | Cost in a Multiproduct Firm | %% Demski 2nd: 3–10 %% 
+| _Problem:_ | __P1:__ Cost in a Multiproduct Firm |
 |3. 14 Feb.  | Constraints and linear programming|
-| _Problem:_ | Cost in a Multiproduct Firm Part 2 |
+| _Problem:_ | __P2:__ Cost in a Multiproduct Firm Part 2 |
 |4. 16 Feb.  | Solving LPs |
-| _Problems:_ |  Shadow Prices|
-|             |  Component Searches and Product Cost|
-|             | Ava Catering |
-|             | Builder of Garages and Sheds |
+| _Problems:_ | __P3:__ Shadow Prices|
+|             |         Component Searches and Product Cost|
+|             |         Ava Catering |
+|             |         Builder of Garages and Sheds |
 | 5. 21 Feb. | Cost estimation (regression) |
 | Read:      | Cost behavior (class note) |
-| Problems:  | 10–16 Data collection issues |
-|            | 10–17 Data collection issues |
+| Problems:  | __P4:__ 10–16 Data collection issues |
+|            | __P5:__ 10–17 Data collection issues |
 |6. 23 Feb.  | Application of Regression and Linear programming |
-|_Case:_     | Bayshore Manufacturing) |
+|_Case:_     | __C1:__ Bayshore Manufacturing |
 |7. 28 Feb.  | Capital Budgeting |
 | _Read:_    | Zimmerman, Chapter 3 |
-| _Case:_    |Special Electric Case|
+| _Case:_    | Special Electric Case|
 | 8. 2 Mar.  | Taxation of returns  |
 | _Read:_    | Before- and After-tax Returns (class note) |
 |            | Taxable versus Tax-exempt Bonds (class note) | 
