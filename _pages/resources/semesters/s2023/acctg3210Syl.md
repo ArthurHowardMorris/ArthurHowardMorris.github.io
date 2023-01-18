@@ -160,27 +160,27 @@ Points on all work will be weighted as shown above and graded as shown here:
 |_Case:_     | __C1:__ Bayshore Manufacturing |
 |7. 28 Feb.  | Capital Budgeting |
 | _Read:_    | Zimmerman, Chapter 3 |
-| _Case:_    | Special Electric Case|
+| _Case:_    | __C2:__ Special Electric Case|
 | 8. 2 Mar.  | Taxation of returns  |
 | _Read:_    | Before- and After-tax Returns (class note) |
 |            | Taxable versus Tax-exempt Bonds (class note) | 
-| _Problem:_ | Alternative Savings Vehicles |
+| _Problem:_ | __P6:__ Alternative Savings Vehicles |
 | 9. 7 Mar.  | Real and Financial Assets | 
 | _Read:_    | Net-of-tax returns on real and financial assets (class note)|
-| _Problems:_| Answer the questions in the class note|
+| _Problems:_| __P7:__ Answer the questions in the class note|
 | 10. 9 Mar. | Organizational Architecture| 
 | _Read:_    | Zimmerman, Chapter 4 | 
 |            | Incentives and Managerial Compensation (class note)|
-|_Problems:_ | 4–20 Gong Fen  |
-|            | 4–18 Rothwell|
+|_Problems:_ | __P8:__ 4–20 Gong Fen  |
+|            |         4–18 Rothwell|
 | 13. 9 Mar. | Economics of Agency|
-| _Case_      | Gamblers‘R’Us|
+| _Case_      | __C3:__ Gamblers‘R’Us|
 | 14. 14 Mar  | Responsibility Accounting and Transfer Pricing|
 | _Read:_     | Zimmerman, Chapter 5  |
-|             | Transfer Pricing (class note)  |
-| _Case:_     | Anita Corporation |
+|             | Transfer Pricing |
+| _Case:_     | __C4:__ Anita Corporation |
 | 15. 16 Mar. | Transfer Pricing: Additional Considerations|
-|_Case:_      | Del Norte Paper Co. (A)|
+|_Case:_      | __C5:__ Del Norte Paper Co. (A)|
 | 16 & 18 Mar.| __Mid-term Review__ |
 |             | Optional, via Zoom | 
 | 16. 21 Mar. | __Midterm__ |
@@ -188,35 +188,35 @@ Points on all work will be weighted as shown above and graded as shown here:
 | 16. 23 Mar. | Cost Allocation I|
 | _Read:_     | Zimmerman, Chapter 7|
 | 17. 28 Mar. | Costing Systems and Decision Making|
-| _Case:_     | Bridgeton Industries|
+| _Case:_     | __C6:__ Bridgeton Industries|
 | 18. 30 Mar. | Cost Allocation II|
 |  _Read:_    | Zimmerman, Chapter 8|
 | 19. 4 Apr.  | Absorption Costing Systems|
 | _Read:_     | Zimmerman, Chapter 9 | 
-| _Problems:_ | 9–9 DeJure Scents  |
-|             | 9–24 Kitchen Rite  |
+| _Problems:_ | __P9:__ 9–9 DeJure Scents  |
+|             |         9–24 Kitchen Rite  |
 |             | __Mid-Term Break__ |
 | 20. 13 Apr.  | Cost Allocation in a Research University |
-| _Case:_      | Stanford University|
+| _Case:_      | __C7:__ Stanford University|
 | 21. 18 Apr   | Absorption Costing Problems |
 | _Read:_      | Zimmerman, Chapter 10 |
-| _Problems:_  | 10–8 Aspen View  |
-|              | 10–11 Kothari Inc.|
-|              | 10–17 Navisky |
+| _Problems:_  | __P10__ 10–8 Aspen View  |
+|              |         10–11 Kothari Inc.|
+|              |         10–17 Navisky |
 | 22. 20 Apr.  | ABC | 
 | _Read:_      | Zimmerman, Chapter 11|
-| _Case:_      | Seligram Inc.: Electronic Testing Operations|
+| _Case:_      | __C8:__ Seligram Inc.: Electronic Testing Operations|
 | 23. 25 Apr.  | Budgeting |
 | _Read:_      | Zimmerman, Chapter 6|
 | 24. 27 Apr.  | Standard Costs and Variances|
 | _Read:_      | Zimmerman, Chapters 12 and 13|
-| _Case:_      | LSP Capsules|
+| _Case:_      | __C9:__ LSP Capsules|
 | 25. 2 May    | Standards and Variances in Practice|
-| _Case_       | Midwest Ice Cream|
+| _Case_       | __C10:__ Midwest Ice Cream|
 | 26. 4 May    | Standards and Variances in Practice|
-| _Case:_      | Texas Eastman|
+| _Case:_      | __C11:__ Texas Eastman|
 | 27. 9 May    | Internal Control and Risk Management  |
-| _Case:_      | Kidder, Peabody & Co.: Creating Elusive Profits|
+| _Case:_      | __C12:__ Kidder, Peabody & Co.: Creating Elusive Profits|
 | 10 & 11 May  | __Final Review__ |
 |              | Optional, via Zoom |
 | TBA | __Final Exam__ |
