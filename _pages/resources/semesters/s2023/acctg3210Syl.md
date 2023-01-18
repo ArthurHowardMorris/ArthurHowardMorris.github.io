@@ -1,5 +1,5 @@
 ---
-title: Spring 2023 Syllabus for ACCTG 3210
+title: Spring 2023 Syllabus
 excerpt: Course Syllabus
 sitemap: true
 permalink: /resources/semesters/s2023/ACCTG3210Syl.html
@@ -8,7 +8,6 @@ published: true
 
 _Preliminary and subject to change due to pandemic regulations:_ [__Follow this link for current version__](/resources/semesters/s2023/ACCTG3210.html)
 
-# Spring 2022, Course Syllabus:
 
 ### ACCT3210: Advanced Managerial Accounting
 
@@ -16,17 +15,17 @@ _Preliminary and subject to change due to pandemic regulations:_ [__Follow this 
 
 ## Instructor:
 
-__Dr. Arthur Morris__
-Email: acarthur@ust.hk 
-Office Hours: 
-	- Wednesday 10:00-11:00 [via Zoom]
-	- Wednesday 14:00-15:00 [via Zoom]
+__Dr. Arthur Morris__  
+Email: acarthur@ust.hk  
+Office Hours:  
+- Wednesday 10:00-11:00 [via Zoom]()  
+- Wednesday 14:00-15:00 [via Zoom]()    
 
-## Teaching Assistant:
-__Nicholas Wu__
-Email: jhn.wu@ust.hk
-Office Hours:
-	- TBA
+## Teaching Assistant:  
+__Nicholas Wu__  
+Email: jhn.wu@ust.hk  
+Office Hours:  
+- TBA  
 
 ## Class sessions:
 
@@ -104,7 +103,7 @@ All other case materials will be provided via the course website.
 
 ### Class Participation:
 
-Both lecture and case discussions will rely on random cold calling. Student's names will be randomly selected without replacement until all students have been called on. Answers need not be correct to receive full credit, absentee's will receive no credit for the question. Exception for verified illness, students are required to notify TA & instructor of illness via email in a timely manner.
+Both lecture and case discussions will rely on random cold calling. Student's names will be randomly selected without replacement until all students have been called on. Answers need not be correct to receive full credit, attendees who answer will receive full credit, absentees will receive no credit for the question. Exception for verified illness, students are required to notify TA & instructor of illness via email in a timely manner.
 
 ### Cases & Problems
 
@@ -140,85 +139,84 @@ Points on all work will be weighted as shown above and graded as shown here:
 
 | | |
 |---|---|
-| 1. 7 Feb.  | Expectations and Conceptual Framework|
+| __1. 7 Feb.__  | Expectations and Conceptual Framework|
 | _Read:_    | Zimmerman, Ch 1 |
 |            | Introduction to Management Accounting |
-|2. 9 Feb.   | The Nature of Costs|
+| __2. 9 Feb.__  | The Nature of Costs|
 | _Read:_    | Zimmerman, Chapter 2  |
-| _Problem:_ | Cost in a Multiproduct Firm |
-|3. 14 Feb.  | Constraints and linear programming|
-| _Problem:_ | Cost in a Multiproduct Firm Part 2 |
-|4. 16 Feb.  | Solving LPs |
-| _Problems:_ |  Shadow Prices|
-|             |  Component Searches and Product Cost|
-|             | Ava Catering |
-|             | Builder of Garages and Sheds |
-| 5. 21 Feb. | Cost estimation (regression) |
+| _Problem:_ | __P1:__ Cost in a Multiproduct Firm |
+| __3. 14 Feb.__ | Constraints and linear programming|
+| _Problem:_ | __P2:__ Cost in a Multiproduct Firm Part 2 |
+| __4. 16 Feb.__  | Solving LPs |
+| _Problems:_ | __P3:__ Shadow Prices, Component Searches, and Product Cost|
+|             |         Ava Catering |
+|             |         Builder of Garages and Sheds |
+| __5. 21 Feb.__ | Cost estimation (regression) |
 | Read:      | Cost behavior (class note) |
-| Problems:  | 10–16 Data collection issues |
-|            | 10–17 Data collection issues |
-|6. 23 Feb.  | Application of Regression and Linear programming |
-|_Case:_     | Bayshore Manufacturing) |
-|7. 28 Feb.  | Capital Budgeting |
+| Problems:  | __P4:__ 10–16 Data collection issues |
+|            | __P5:__ 10–17 Data collection issues |
+| __6. 23 Feb.__  | Application of Regression and Linear programming |
+|_Case:_     | __C1:__ Bayshore Manufacturing |
+| __7. 28 Feb.__  | Capital Budgeting |
 | _Read:_    | Zimmerman, Chapter 3 |
-| _Case:_    |Special Electric Case|
-| 8. 2 Mar.  | Taxation of returns  |
+| _Case:_    | __C2:__ Special Electric Case|
+| __8. 2 Mar.__  | Taxation of returns  |
 | _Read:_    | Before- and After-tax Returns (class note) |
 |            | Taxable versus Tax-exempt Bonds (class note) | 
-| _Problem:_ | Alternative Savings Vehicles |
-| 9. 7 Mar.  | Real and Financial Assets | 
+| _Problem:_ | __P6:__ Alternative Savings Vehicles |
+| __9. 7 Mar.__  | Real and Financial Assets | 
 | _Read:_    | Net-of-tax returns on real and financial assets (class note)|
-| _Problems:_| Answer the questions in the class note|
-| 10. 9 Mar. | Organizational Architecture| 
+| _Problems:_| __P7:__ Answer the questions in the class note|
+| __10. 9 Mar.__ | Organizational Architecture| 
 | _Read:_    | Zimmerman, Chapter 4 | 
 |            | Incentives and Managerial Compensation (class note)|
-|_Problems:_ | 4–20 Gong Fen  |
-|            | 4–18 Rothwell|
-| 13. 9 Mar. | Economics of Agency|
-| _Case_      | Gamblers‘R’Us|
-| 14. 14 Mar  | Responsibility Accounting and Transfer Pricing|
+|_Problems:_ | __P8:__ 4–20 Gong Fen  |
+|            |         4–18 Rothwell|
+| __13. 9 Mar.__ | Economics of Agency|
+| _Case_      | __C3:__ Gamblers‘R’Us|
+| __14. 14 Mar.__  | Responsibility Accounting and Transfer Pricing|
 | _Read:_     | Zimmerman, Chapter 5  |
-|             | Transfer Pricing (class note)  |
-| _Case:_     | Anita Corporation |
-| 15. 16 Mar. | Transfer Pricing: Additional Considerations|
-|_Case:_      | Del Norte Paper Co. (A)|
-| 16 & 18 Mar.| __Mid-term Review__ |
+|             | Transfer Pricing |
+| _Case:_     | __C4:__ Anita Corporation |
+| __15. 16 Mar.__ | Transfer Pricing: Additional Considerations|
+|_Case:_      | __C5:__ Del Norte Paper Co. (A)|
+| __16 & 18 Mar.__| __Mid-term Review__ |
 |             | Optional, via Zoom | 
-| 16. 21 Mar. | __Midterm__ |
+| __16. 21 Mar.__ | __Midterm__ |
 |             | 1800 Location TBA |
-| 16. 23 Mar. | Cost Allocation I|
+| __16. 23 Mar.__ | Cost Allocation I|
 | _Read:_     | Zimmerman, Chapter 7|
-| 17. 28 Mar. | Costing Systems and Decision Making|
-| _Case:_     | Bridgeton Industries|
-| 18. 30 Mar. | Cost Allocation II|
+| __17. 28 Mar.__ | Costing Systems and Decision Making|
+| _Case:_     | __C6:__ Bridgeton Industries|
+| __18. 30 Mar.__ | Cost Allocation II|
 |  _Read:_    | Zimmerman, Chapter 8|
-| 19. 4 Apr.  | Absorption Costing Systems|
+| __19. 4 Apr.__  | Absorption Costing Systems|
 | _Read:_     | Zimmerman, Chapter 9 | 
-| _Problems:_ | 9–9 DeJure Scents  |
-|             | 9–24 Kitchen Rite  |
+| _Problems:_ | __P9:__ 9–9 DeJure Scents  |
+|             |         9–24 Kitchen Rite  |
 |             | __Mid-Term Break__ |
-| 20. 13 Apr.  | Cost Allocation in a Research University |
-| _Case:_      | Stanford University|
-| 21. 18 Apr   | Absorption Costing Problems |
+| __20. 13 Apr.__  | Cost Allocation in a Research University |
+| _Case:_      | __C7:__ Stanford University|
+| __21.__ 18 Apr   | Absorption Costing Problems |
 | _Read:_      | Zimmerman, Chapter 10 |
-| _Problems:_  | 10–8 Aspen View  |
-|              | 10–11 Kothari Inc.|
-|              | 10–17 Navisky |
-| 22. 20 Apr.  | ABC | 
+| _Problems:_  | __P10__ 10–8 Aspen View  |
+|              |         10–11 Kothari Inc.|
+|              |         10–17 Navisky |
+| __22. 20 Apr.__  | ABC | 
 | _Read:_      | Zimmerman, Chapter 11|
-| _Case:_      | Seligram Inc.: Electronic Testing Operations|
-| 23. 25 Apr.  | Budgeting |
+| _Case:_      | __C8:__ Seligram Inc.: Electronic Testing Operations|
+| __23. 25 Apr.__  | Budgeting |
 | _Read:_      | Zimmerman, Chapter 6|
-| 24. 27 Apr.  | Standard Costs and Variances|
+| __24. 27 Apr.__  | Standard Costs and Variances|
 | _Read:_      | Zimmerman, Chapters 12 and 13|
-| _Case:_      | LSP Capsules|
-| 25. 2 May    | Standards and Variances in Practice|
-| _Case_       | Midwest Ice Cream|
-| 26. 4 May    | Standards and Variances in Practice|
-| _Case:_      | Texas Eastman|
-| 27. 9 May    | Internal Control and Risk Management  |
-| _Case:_      | Kidder, Peabody & Co.: Creating Elusive Profits|
-| 10 & 11 May  | __Final Review__ |
+| _Case:_      | __C9:__ LSP Capsules|
+| __25. 2 May.__    | Standards and Variances in Practice|
+| _Case_       | __C10:__ Midwest Ice Cream|
+| __26. 4 May.__    | Standards and Variances in Practice|
+| _Case:_      | __C11:__ Texas Eastman|
+| __27. 9 May.__    | Internal Control and Risk Management  |
+| _Case:_      | __C12:__ Kidder, Peabody & Co.: Creating Elusive Profits|
+| __10 & 11 May.__  | __Final Review__ |
 |              | Optional, via Zoom |
 | TBA | __Final Exam__ |
 
