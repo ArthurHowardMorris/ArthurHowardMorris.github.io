@@ -103,7 +103,7 @@ All other case materials will be provided via the course website.
 
 ### Class Participation:
 
-Both lecture and case discussions will rely on random cold calling. Student's names will be randomly selected without replacement until all students have been called on. Answers need not be correct to receive full credit, absentee's will receive no credit for the question. Exception for verified illness, students are required to notify TA & instructor of illness via email in a timely manner.
+Both lecture and case discussions will rely on random cold calling. Student's names will be randomly selected without replacement until all students have been called on. Answers need not be correct to receive full credit, attendees who answer will receive full credit, absentees will receive no credit for the question. Exception for verified illness, students are required to notify TA & instructor of illness via email in a timely manner.
 
 ### Cases & Problems
 
@@ -148,8 +148,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __3. 14 Feb.__ | Constraints and linear programming|
 | _Problem:_ | __P2:__ Cost in a Multiproduct Firm Part 2 |
 | __4. 16 Feb.__  | Solving LPs |
-| _Problems:_ | __P3:__ Shadow Prices|
-|             |         Component Searches and Product Cost|
+| _Problems:_ | __P3:__ Shadow Prices, Component Searches, and Product Cost|
 |             |         Ava Catering |
 |             |         Builder of Garages and Sheds |
 | __5. 21 Feb.__ | Cost estimation (regression) |
