@@ -20,20 +20,16 @@ _Review of Accounting Studies, 2022_
 
 [Renegotiation Costs and Debt Contract Design](https://dx.doi.org/10.2139/ssrn.2981069)  
 (with [Scott Dyreng](https://sites.google.com/site/scottdyreng/), and [Elia Ferracuti](https://sites.google.com/view/eliaferracuti/))  
-
 R&R at the _Journal of Accounting and Economics_
 
 [Pay for Prudence](https://cpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/e/2949/files/2021/02/Gopalan-4.pdf)  
 (with [Salman Arif](https://sites.google.com/view/salmanarif), [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan), [Yadav Gopalan](https://sites.google.com/site/ykgopalan/))
-
 R&R at the _Journal of Accounting and Economics_
 
 
 [Individual Mortgage Lending, Public Corruption, Race and Gender: Evidence from Local Corruption Crack-Downs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
 (with [Albert Mensah](https://sites.google.com/site/albertmensahkwame/home), [Han Stice](https://www.bschool.cuhk.edu.hk/staff/stice-han/), and [Roger White](https://wpcarey.asu.edu/people/profile/1308641))
-
 R&R at the _Accounting Review_
 
 Option Grants and Risky Projects: A Reputation-Based Perspective  
-
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
