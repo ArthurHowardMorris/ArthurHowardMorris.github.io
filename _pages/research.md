@@ -35,4 +35,5 @@ R&R at the _Journal of Accounting and Economics_
 R&R at the _Accounting Review_
 
 Option Grants and Risky Projects: A Reputation-Based Perspective  
+
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_
