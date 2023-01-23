@@ -142,6 +142,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __1. 7 Feb.__  | Expectations and Conceptual Framework|
 | _Read:_    | Zimmerman, Ch 1 |
 |            | Introduction to Management Accounting |
+| _Survey:_  | Pre-class survey (in canvas) |
 | __2. 9 Feb.__  | The Nature of Costs|
 | _Read:_    | Zimmerman, Chapter 2  |
 | _Problem:_ | __P1:__ Cost in a Multiproduct Firm |
