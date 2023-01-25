@@ -154,8 +154,8 @@ Points on all work will be weighted as shown above and graded as shown here:
 |             |         Builder of Garages and Sheds |
 | __5. 21 Feb.__ | Cost estimation (regression) |
 | Read:      | Cost behavior (class note) |
-| Problems:  | __P4:__ 10–16 Data collection issues |
-|            | __P5:__ 10–17 Data collection issues |
+| Problems:  | __P4:__ Zimmerman, 10–16 Milan DiElectrics |
+|            | __P5:__ Zimmerman, 10–17 Navisky |
 | __6. 23 Feb.__  | Application of Regression and Linear programming |
 |_Case:_     | __C1:__ Bayshore Manufacturing |
 | __7. 28 Feb.__  | Capital Budgeting |
