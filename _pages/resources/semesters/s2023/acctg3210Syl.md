@@ -44,26 +44,44 @@ Office Hours:
 
 ## A Note on COVID 19:
 
-The evolving pandemic may still impact this course. The schedule, locations, and expectations of this course will change if required in order to comply with University policies. The version of the syllabus posted on [the course website](/resources/semesters/s2023/ACCTG3210.html) and Canvas announcements will communicate changes as they are required.
+The evolving pandemic may still impact this course. The schedule, locations,
+and expectations of this course will change if required in order to comply with
+University policies. The version of the syllabus posted on [the course
+website](/resources/semesters/s2023/ACCTG3210.html) and Canvas announcements
+will communicate changes as they are required.
 
 ## Course description:
 
-Managers rely on accounting information to guide operations. This course builds on Principles of Accounting II (ACCT 2200) to prepare students to produce and use this information. Topics covered include decision-making techniques, analysis of cost behavior, allocation of common and joint costs, use of cost information in operational and strategic decisions, transfer pricing, and performance measurement, and incentive compensation, with an emphasis on using data science to bring accounting information into the decision process.
+Managers rely on accounting information to guide operations. This course builds
+on Principles of Accounting II (ACCT 2200) to prepare students to produce and
+use this information. Topics covered include decision-making techniques,
+analysis of cost behavior, allocation of common and joint costs, use of cost
+information in operational and strategic decisions, transfer pricing, and
+performance measurement, and incentive compensation, with an emphasis on using
+data science to bring accounting information into the decision process.
 
 ## Course Objectives:
 By the end of this course, you should be able to:
 
 1. Use real data to make business decisions.
-2. Understand both the importance of management accounting for companies’ strategic and operational decisions and the pitfalls of misusing management accounting information and techniques.  
-2. Solve problems arising in business planning, with the aid of mathematical and statistical tools.  
-3. Evaluate various techniques for control and performance evaluation in a decentralized environment, and provide recommendations for an effective control system.  
-4. Understand how managerial and financial accounting relate to data analytics, data science, and business intelligence.  
+2. Understand both the importance of management accounting for companies’
+   strategic and operational decisions and the pitfalls of misusing management
+   accounting information and techniques.  
+2. Solve problems arising in business planning, with the aid of mathematical
+   and statistical tools.  
+3. Evaluate various techniques for control and performance evaluation in a
+   decentralized environment, and provide recommendations for an effective
+   control system.  
+4. Understand how managerial and financial accounting relate to data analytics,
+   data science, and business intelligence.  
 
 The course will also provide you with opportunities to:
 
 5. Think through a variety of business problems.  
-6. Demonstrate team-work and leadership skills in solving operational and strategic planning problems.  
-7. Demonstrate communication skills through class participation and case discussions.  
+6. Demonstrate team-work and leadership skills in solving operational and
+   strategic planning problems.  
+7. Demonstrate communication skills through class participation and case
+   discussions.  
 
 ## Textbook and Cases:
 
@@ -71,7 +89,8 @@ The course will also provide you with opportunities to:
 
 [Accounting For Decision Making and Control 10e](https://www.mheducation.com/highered/product/accounting-decision-making-control-zimmerman/M9781259969492.html)
 
-_Any format. "Connect" not required. Exercises may not match if you use an earlier edition._
+_Any format. "Connect" not required. Exercises may not match if you use an
+earlier edition._
 
 ### Required HBP Cases:
 
@@ -103,19 +122,39 @@ All other case materials will be provided via the course website.
 
 ### Class Participation:
 
-Both lecture and case discussions will rely on random cold calling. Student's names will be randomly selected without replacement until all students have been called on. Answers need not be correct to receive full credit, attendees who answer will receive full credit, absentees will receive no credit for the question. Exception for verified illness, students are required to notify TA & instructor of illness via email in a timely manner.
+Both lecture and case discussions will rely on random cold calling. Student's
+names will be randomly selected without replacement until all students have
+been called on. Answers need not be correct to receive full credit, attendees
+who answer will receive full credit, absentees will receive no credit for the
+question. Exception for verified illness, students are required to notify TA &
+instructor of illness via email in a timely manner.
 
 ### Cases & Problems
 
-Cases and problems will be due at 2200 the night before the class in which they are discussed. All assignments should be submitted in .pdf format via Canvas, unless otherwise noted.
+Cases and problems will be due at 2200 the night before the class in which they
+are discussed. All assignments should be submitted in .pdf format via Canvas,
+unless otherwise noted.
 
 ### Exams
 
 Exams will be conducted in-person and will be closed book. Times and locations TBA.
 
- - __Midterm Exam:__ The midterm examination is scheduled from 7:00pm to 9:00pm, Tuesday, 21 March 2022 in person. Location __TBA__. The exam is closed book and communication with others is cheating and not allowed. All students are required to take the midterm exam at this pre-scheduled time, and there will be no make-up exam for it. Students absent from the midterm exam will receive zero mark for this component, except for highly unusual circumstances that cannot be controlled and avoided by the student---in which case the grade weight on the midterm exam will be loaded to the final examination component.
+ - __Midterm Exam:__ The midterm examination is scheduled from 7:00pm to
+   9:00pm, Tuesday, 21 March 2022 in person. Location __TBA__. The exam is
+   closed book and communication with others is cheating and not allowed. All
+   students are required to take the midterm exam at this pre-scheduled time,
+   and there will be no make-up exam for it. Students absent from the midterm
+   exam will receive zero mark for this component, except for highly unusual
+   circumstances that cannot be controlled and avoided by the student---in
+   which case the grade weight on the midterm exam will be loaded to the final
+   examination component.
 
-  - __Final Exam:__ The comprehensive final examination is scheduled from TBA to TBA on, TBA. The exam is closed book and communication with others is cheating and not allowed. All students are required to take the final exam at this pre-scheduled time, and there will be no make-up exam for it. Students absent from the final exam will receive zero mark for this component.
+  - __Final Exam:__ The comprehensive final examination is scheduled from TBA
+    to TBA on, TBA. The exam is closed book and communication with others is
+    cheating and not allowed. All students are required to take the final exam
+    at this pre-scheduled time, and there will be no make-up exam for it.
+    Students absent from the final exam will receive zero mark for this
+    component.
 
 ### Grading Scale:
 
@@ -150,12 +189,12 @@ Points on all work will be weighted as shown above and graded as shown here:
 | _Problem:_ | __P2:__ Cost in a Multiproduct Firm Part 2 |
 | __4. 16 Feb.__  | Solving LPs |
 | _Problems:_ | __P3:__ Shadow Prices, Component Searches, and Product Cost|
-|             |         Ava Catering |
-|             |         Builder of Garages and Sheds |
+|             | __P4:__ Ava Catering |
+|             | __P5:__ Builder of Garages and Sheds |
 | __5. 21 Feb.__ | Cost estimation (regression) |
 | Read:      | Cost behavior (class note) |
-| Problems:  | __P4:__ Zimmerman, 10–16 Milan DiElectrics |
-|            | __P5:__ Zimmerman, 10–17 Navisky |
+| Problems:  | __P6:__ Zimmerman, 10–16 Milan DiElectrics |
+|            | __P7:__ Zimmerman, 10–17 Navisky |
 | __6. 23 Feb.__  | Application of Regression and Linear programming |
 |_Case:_     | __C1:__ Bayshore Manufacturing |
 | __7. 28 Feb.__  | Capital Budgeting |
@@ -164,15 +203,15 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __8. 2 Mar.__  | Taxation of returns  |
 | _Read:_    | Before- and After-tax Returns (class note) |
 |            | Taxable versus Tax-exempt Bonds (class note) | 
-| _Problem:_ | __P6:__ Alternative Savings Vehicles |
+| _Problem:_ | __P8:__ Alternative Savings Vehicles |
 | __9. 7 Mar.__  | Real and Financial Assets | 
 | _Read:_    | Net-of-tax returns on real and financial assets (class note)|
-| _Problems:_| __P7:__ Answer the questions in the class note|
+| _Problems:_| __P9:__ Answer the questions in the class note|
 | __10. 9 Mar.__ | Organizational Architecture| 
 | _Read:_    | Zimmerman, Chapter 4 | 
 |            | Incentives and Managerial Compensation (class note)|
-|_Problems:_ | __P8:__ 4–20 Gong Fen  |
-|            |         4–18 Rothwell|
+|_Problems:_ | __P10__ 4–20 Gong Fen  |
+|            | __P11__ 4–18 Rothwell|
 | __13. 9 Mar.__ | Economics of Agency|
 | _Case_      | __C3:__ Gamblers‘R’Us|
 | __14. 14 Mar.__  | Responsibility Accounting and Transfer Pricing|
@@ -193,16 +232,16 @@ Points on all work will be weighted as shown above and graded as shown here:
 |  _Read:_    | Zimmerman, Chapter 8|
 | __19. 4 Apr.__  | Absorption Costing Systems|
 | _Read:_     | Zimmerman, Chapter 9 | 
-| _Problems:_ | __P9:__ 9–9 DeJure Scents  |
-|             |         9–24 Kitchen Rite  |
+| _Problems:_ | __P12:__ 9–9 DeJure Scents  |
+|             | __P13:__ 9–24 Kitchen Rite  |
 |             | __Mid-Term Break__ |
 | __20. 13 Apr.__  | Cost Allocation in a Research University |
 | _Case:_      | __C7:__ Stanford University|
 | __21.__ 18 Apr   | Absorption Costing Problems |
 | _Read:_      | Zimmerman, Chapter 10 |
-| _Problems:_  | __P10__ 10–8 Aspen View  |
-|              |         10–11 Kothari Inc.|
-|              |         10–17 Navisky |
+| _Problems:_  | __P14:__ 10–8 Aspen View  |
+|              | __P15:__ 10–11 Kothari Inc.|
+|              | __P16:__ 10–17 Navisky |
 | __22. 20 Apr.__  | ABC | 
 | _Read:_      | Zimmerman, Chapter 11|
 | _Case:_      | __C8:__ Seligram Inc.: Electronic Testing Operations|
@@ -223,4 +262,9 @@ Points on all work will be weighted as shown above and graded as shown here:
 
 ### Acknowledgements:
 
-Like Bob Dylan, this course was born a long way away from where it's from, but the starting point was reading Joel Demski's _Managerial Uses of Accounting Information_, Zimmerman's _Accounting for Decision Making and Control_, and reviewing Steve Huddart's excellent Accounting 440 taught at Penn State. Similarities to those approaches are absolutely intentional, and any shortcomings are my attempts at innovation. 
+Like Bob Dylan, this course was born a long way away from where it's from, but
+the starting point was reading Joel Demski's _Managerial Uses of Accounting
+Information_, Zimmerman's _Accounting for Decision Making and Control_, and
+reviewing Steve Huddart's excellent Accounting 440 taught at Penn State.
+Similarities to those approaches are absolutely intentional, and any
+shortcomings are my attempts at innovation. 
