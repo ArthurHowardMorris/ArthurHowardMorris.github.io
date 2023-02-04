@@ -182,7 +182,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 | _Problems:_      | __P3:__ Shadow Prices, Component Searches, and Product Cost  |
 |                  | __P4:__ Ava Catering                                         |
 |                  | __P5:__ Builder of Garages and Sheds                         |
-| __5. 21 Feb.__   | __Cost estimation (regression) __                            |
+| __5. 21 Feb.__   | __Cost estimation (regression)__                             |
 | Read:            | Cost behavior (class note)                                   |
 | Problems:        | __P6:__ Data Collection Issues I                             |
 |                  | __P7:__ Data Collection Issues II                            |
