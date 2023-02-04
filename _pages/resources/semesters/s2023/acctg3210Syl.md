@@ -1,25 +1,24 @@
 ---
-title: Spring 2023 Syllabus
+title:ACCT3210: Advanced Managerial Accounting
 excerpt: Course Syllabus
 sitemap: true
 permalink: /resources/semesters/s2023/ACCTG3210Syl.html
 published: true
 ---
 
-_Preliminary and subject to change due to pandemic regulations:_ [__Follow this link for current version__](/resources/semesters/s2023/ACCTG3210.html)
-
-
-### ACCT3210: Advanced Managerial Accounting
+<!-- _Preliminary and subject to change due to pandemic regulations:_ [__Follow this link for current version__](/resources/semesters/s2023/ACCTG3210.html) -->
 
 ### HKUST Department of Accounting
+
+###  Spring 2023 Syllabus
 
 ## Instructor:
 
 __Dr. Arthur Morris__  
 Email: acarthur@ust.hk  
 Office Hours:  
-- Wednesday 10:00-11:00 [via Zoom]()  
-- Wednesday 14:00-15:00 [via Zoom]()    
+- Wednesday 10:00-11:00 [via Zoom](https://hkust.zoom.us/j/99144510707?pwd=bVpGU2RXM1cxYWtEdWc0V2crOE5uZz09)  
+- Wednesday 14:00-15:00 [via Zoom](https://hkust.zoom.us/j/95839839016?pwd=Z3IzSkh3d1NZYk1QZE5IYlpWRVZSUT09)    
 
 ## Teaching Assistant:  
 __Nicholas Wu__  
@@ -42,13 +41,9 @@ Office Hours:
 - 10 May: Final Exam Review
 - 11 May: Final Exam Review
 
-## A Note on COVID 19:
+<!-- ## A Note on COVID 19: -->
 
-The evolving pandemic may still impact this course. The schedule, locations,
-and expectations of this course will change if required in order to comply with
-University policies. The version of the syllabus posted on [the course
-website](/resources/semesters/s2023/ACCTG3210.html) and Canvas announcements
-will communicate changes as they are required.
+<!-- The evolving pandemic may still impact this course. The schedule, locations, and expectations of this course will change if required in order to comply with University policies. The version of the syllabus posted on [the course website](/resources/semesters/s2023/ACCTG3210.html) and Canvas announcements will communicate changes as they are required. -->
 
 ## Course description:
 
@@ -89,14 +84,13 @@ The course will also provide you with opportunities to:
 
 [Accounting For Decision Making and Control 10e](https://www.mheducation.com/highered/product/accounting-decision-making-control-zimmerman/M9781259969492.html)
 
-_Any format. "Connect" not required. Exercises may not match if you use an
-earlier edition._
+_Any format. "Connect" is not required. Exercises may not match if you use an earlier edition._
 
-### Required HBP Cases:
+### Cases and Class notes:
 
-_TBA_
-
-All other case materials will be provided via the course website.
+These materials will be provided via the Canvas site. We may also use HBP cases
+later in the semester. These will be available from the publisher at minimal
+cost.
 
 ### Course Structure and Mode of Instruction:
 
@@ -106,7 +100,7 @@ All other case materials will be provided via the course website.
 | _Lectures and Cases:_ | Class discussions will involve both lectures and cases. Case discussions will occur on days when the cases are assigned in the course schedule below.| 
 | _Preparation for Class:_|Students should prepare for class by completing the assigned reading and problems or case. All assignments and cases are due before class.|
 | _Video Recordings:_ | Classes will be recorded, but recordings will only be provided to students that cannot attend due to verified illness. This is to facilitate class participation.|
-| _Canvas:_ | Assignments will be turned in via Canvas, and I will use canvas to send updates. Please note that this website, and _not Canvas_ will host the course materials. Also note that the Canvas gradebook will only track assignments turned in via Canvas and not your final grade.|
+| _Canvas:_ | Assignments will be turned in via Canvas, and I will use canvas to send updates. Please note that this website, and _not Canvas_ will host the slides and syllabus . Also note that the Canvas gradebook will only track assignments turned in via Canvas and not your final grade.|
 
 ## Grading
 
@@ -132,8 +126,7 @@ instructor of illness via email in a timely manner.
 ### Cases & Problems
 
 Cases and problems will be due at 2200 the night before the class in which they
-are discussed. All assignments should be submitted in .pdf format via Canvas,
-unless otherwise noted.
+are discussed. All assignments should be submitted in the formats specified in Canvas.
 
 ### Exams
 
@@ -149,13 +142,11 @@ Exams will be conducted in-person and will be closed book. Times and locations T
    which case the grade weight on the midterm exam will be loaded to the final
    examination component.
 
-  - __Final Exam:__ The comprehensive final examination is scheduled from TBA
-    to TBA on, TBA. The exam is closed book and communication with others is
-    cheating and not allowed. All students are required to take the final exam
-    at this pre-scheduled time, and there will be no make-up exam for it.
-    Students absent from the final exam will receive zero mark for this
-    component.
-
+- __Final Exam:__ The comprehensive final examination is scheduled from TBA to
+  TBA on, TBA. The exam is closed book and communication with others is
+  cheating and not allowed. All students are required to take the final exam at
+  this pre-scheduled time, and there will be no make-up exam for it. Students
+  absent from the final exam will receive zero mark for this component.
 ### Grading Scale:
 
 Points on all work will be weighted as shown above and graded as shown here:
@@ -180,7 +171,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 |---|---|
 | __1. 7 Feb.__  | Expectations and Conceptual Framework|
 | _Read:_    | Zimmerman, Ch 1 |
-|            | Introduction to Management Accounting |
+|            | Introduction to Management Accounting (class note) |
 | _Survey:_  | Pre-class survey (in canvas) |
 | __2. 9 Feb.__  | The Nature of Costs|
 | _Read:_    | Zimmerman, Chapter 2  |
@@ -267,4 +258,5 @@ the starting point was reading Joel Demski's _Managerial Uses of Accounting
 Information_, Zimmerman's _Accounting for Decision Making and Control_, and
 reviewing Steve Huddart's excellent Accounting 440 taught at Penn State.
 Similarities to those approaches are absolutely intentional, and any
-shortcomings are my attempts at innovation. 
+shortcomings are my attempts at innovation.
+
