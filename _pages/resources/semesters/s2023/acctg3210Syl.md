@@ -176,16 +176,16 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __2. 9 Feb.__    | __The Nature of Costs__                                      |
 | _Read:_          | Zimmerman, Chapter 2                                         |
 | _Problem:_       | __P1:__ Cost in a Multiproduct Firm                          |
-| __3. 14 Feb.__   | __Constraints and linear programming__                       |
-| _Problem:_       | __P2:__ Cost in a Multiproduct Firm Part 2                   |
-| __4. 16 Feb.__   | __Solving LPs__                                              |
-| _Problems:_      | __P3:__ Shadow Prices, Component Searches, and Product Cost  |
-|                  | __P4:__ Ava Catering                                         |
-|                  | __P5:__ Builder of Garages and Sheds                         |
-| __5. 21 Feb.__   | __Cost estimation (regression)__                             |
+| __3. 14 Feb.__   | __Cost estimation (regression)__                             |
 | Read:            | Cost behavior (class note)                                   |
-| Problems:        | __P6:__ Data Collection Issues I                             |
-|                  | __P7:__ Data Collection Issues II                            |
+| Problems:        | __P2:__ Data Collection Issues I                             |
+|                  | __P3:__ Data Collection Issues II                            |
+| __3. 16 Feb.__   | __Constraints and linear programming__                       |
+| _Problem:_       | __P4:__ Cost in a Multiproduct Firm Part 2                   |
+| __4. 21 Feb.__   | __Solving LPs__                                              |
+| _Problems:_      | __P5:__ Shadow Prices, Component Searches, and Product Cost  |
+|                  | __P6:__ Ava Catering                                         |
+|                  | __P7:__ Builder of Garages and Sheds                         |
 | __6. 23 Feb.__   | __Application of Regression and Linear programming__         |
 | _Case:_          | __C1:__ Bayshore Manufacturing                               |
 | __7. 28 Feb.__   | __Capital Budgeting__                                        |
