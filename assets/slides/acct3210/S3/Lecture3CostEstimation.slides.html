@@ -15317,10 +15317,10 @@ So the data are telling us something about three cost functions.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># plotting example in excel and here</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># plotting example in excel here</span>
 </pre></div>
 
      </div>
@@ -15335,12 +15335,29 @@ So the data are telling us something about three cost functions.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>What are two factors that could explain the pattern of monthly costs for materials? For each factor you cite explain its implications for examining cost-behavior patterns.</p>
+<ol>
+<li>What are two factors that could explain the pattern of monthly costs for materials? For each factor you cite explain its implications for examining cost-behavior patterns.</li>
+</ol>
 
 </div>
 </div>
 </div>
-</div></section><section>
+</div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>There a many potential factors here. It is worth thinking about what resources we sacrifice when and how this relates to the cost system that we are building here. For example, we know that we sacrifice cash every three months in exchange for materials, but we don't know what we do with those materials. Do we consume them immediately
+? If we consume them immediately then when do they generate revenue? Depending on how this plays out we would want to gather more information to develop more informative data.</p>
+<p>One potential solution would be to aggregate to the quarter. Another solution would be to use a different driver for materials. For example, number of cans seems like an natural alternative.</p>
+<p><em>Please keep in mind that this is an open ended question and I have only provided one potential answer.</em></p>
+
+</div>
+</div>
+</div>
+</div></div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15489,24 +15506,70 @@ the estimated cost functions, and add the cost functions to the plots you create
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>What assumptions does the regression method make?</li>
+<h2 id="Comment-on-the-estimated-cost-functions:">Comment on the estimated cost functions:<a class="anchor-link" href="#Comment-on-the-estimated-cost-functions:">&#182;</a></h2><ol>
+<li><p>Miles seems to yield a reasonable model of operating costs. Most of the data is close to the line and the distribution seems stable over the observations that we have. The September observation is interesting, we should find out what caused this. Do we this this was a one-time event? Or is there potential that this is an underlying pattern?</p>
+</li>
+<li><p>Maintenance costs are decreasing as mile increase. This suggest that there is something missing from our model. Questions that you could consider:</p>
+</li>
 </ol>
 <ul>
-<li>7 classic assumptions: Linearity, Independence, Errors are Mean Zero and Normal (you can see this on the graph), no multi-collinearity (people list this, though it's debatable), no autocorrelation, no correlated omitted variables.</li>
-<li>In our example we have some timing effects that make some costs hard to model.</li>
+<li>What is happening to maintenance <strong>prices</strong> over this time (both within and across years)? </li>
+<li>Is there a mechanical relationship between miles and maintenance? Do increased miles in one month cause maintenance in the next month? Does high maintenance reduce miles?</li>
+<li>What are the actual maintenance schedules? What are they based on? Do those schedules suggest other cost drivers?</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="3.-What-assumptions-does-the-regression-method-make?">3. What assumptions does the regression method make?<a class="anchor-link" href="#3.-What-assumptions-does-the-regression-method-make?">&#182;</a></h2><ul>
+<li>There are between 5 and 7 classic assumptions: </li>
 </ul>
 <ol>
-<li>Outline three limitations of the regression method.</li>
+<li>Linearity - assumes that the relationship between the variables is the same at all points. </li>
+<li>Independence, the independent variables (cost drivers) are not correlated with the quality of predictions from the model. For example if maintenance stops the trains lowering miles.</li>
+<li>Errors are mean zero and normal (graphing can help visualize this problem) </li>
+<li>Variables must only be in the model once, this creates a problem when two measures are highly correlated, or two variables measure the same thing slightly differently.  </li>
+<li>No autocorrelation, this is fine as long as we know about it and model it. </li>
+<li>No correlated omitted variables. </li>
 </ol>
-<ul>
+<p>You don't have to discuss them all, and they don't all apply. Think about which problem are most likely to be active in our setting and how the workflows we discussed can help us address these issues.</p>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="4.-Outline-three-limitations-of-the-regression-method.">4. Outline three limitations of the regression method.<a class="anchor-link" href="#4.-Outline-three-limitations-of-the-regression-method.">&#182;</a></h2><ul>
 <li>In addition to the restrictive assumptions above, we may need lots of data to get good estimates.</li>
+<li>Yields precise estimates, which may be wrong if misapplied.</li>
 </ul>
-<ol>
-<li>What are other options?</li>
-</ol>
-<ul>
-<li>Other statistical methods relax the assumptions above. We should always rely on concrete information about the production process.</li>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="5.-What-are-other-options?">5. What are other options?<a class="anchor-link" href="#5.-What-are-other-options?">&#182;</a></h2><ul>
+<li>Other statistical methods relax the assumptions above. </li>
+<li>Non-linear models, time-series models, multivariate models.</li>
+<li>We should always rely on concrete information about the production process.</li>
 </ul>
 
 </div>
