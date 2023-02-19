@@ -99,7 +99,7 @@ cost.
 | _Mode of Instruction:_ | The course will be conducted _in-person_ and will involve _extensive class participation_ (random cold calling) which will be graded (see Grading below for details).|
 | _Lectures and Cases:_ | Class discussions will involve both lectures and cases. Case discussions will occur on days when the cases are assigned in the course schedule below.| 
 | _Preparation for Class:_|Students should prepare for class by completing the assigned reading and problems or case. All assignments and cases are due before class.|
-| _Video Recordings:_ | Classes will be recorded, but recordings will only be provided to students that cannot attend due to verified illness. This is to facilitate class participation.|
+| _Video Recordings:_ | No recordings of this class will be distributed. This is to facilitate class participation.|
 | _Canvas:_ | Assignments will be turned in via Canvas, and I will use canvas to send updates. Please note that this website, and _not Canvas_ will host the slides and syllabus . Also note that the Canvas gradebook will only track assignments turned in via Canvas and not your final grade.|
 
 ## Grading
