@@ -186,8 +186,10 @@ Points on all work will be weighted as shown above and graded as shown here:
 | _Problems:_      | __P5:__ Shadow Prices, Component Searches, and Product Cost  |
 |                  | __P6:__ Ava Catering                                         |
 |                  | __P7:__ Builder of Garages and Sheds                         |
-| __6. 23 Feb.__   | __Application of Regression and Linear programming__         |
-| _Case:_          | __C1:__ Bayshore Manufacturing                               |
+<!-- | __6. 23 Feb.__   | __Application of Regression and Linear programming__         | -->
+<!-- | _Case:_          | __C1:__ Bayshore Manufacturing                               | -->
+| __6. 23 Feb.__   | __Comprehensive review__                                     |
+| Survey:_         | _Submit review topics for in class discussion_               |
 | __7. 28 Feb.__   | __Capital Budgeting__                                        |
 | _Read:_          | Zimmerman, Chapter 3                                         |
 | _Case:_          | __C2:__ Special Electric Case                                |
