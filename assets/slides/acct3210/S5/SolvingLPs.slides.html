@@ -14688,11 +14688,7 @@ is framed. Let's imagine that your company now produces two products.
 Let $x$ and $y$, respectively, denote the quantities of the two products
 that are produced and sold. Any nonnegative quantities satisfying the
 following constraints can be produced:</p>
-<ol>
-<li>$x+y \leq 400$; and</li>
-<li>$x+2y \leq 500$.</li>
-</ol>
-<p>Your firm's revenue is given by $40x + 42y$, and your cost is given by
+$$x+y\leq 400$$$$x+2y \leq 500$$<p>Your firm's revenue is given by $40x + 42y$, and your cost is given by
 $30x + 30y$. (Though this is clearly a short-run story, as capacity is
 fixed, we suppress the fixed cost and measure "profit" as $10x + 12y$.)</p>
 <h3 id="Do-the-following:">Do the following:<a class="anchor-link" href="#Do-the-following:">&#182;</a></h3><ol>
@@ -14775,7 +14771,7 @@ $$\Pi = 10x + 12y$$
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># and write down the objective function</span>
 <span class="n">m</span><span class="o">.</span><span class="n">Maximize</span><span class="p">(</span><span class="mi">10</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mi">12</span><span class="o">*</span><span class="n">y</span><span class="p">)</span> <span class="c1"># version for gekko </span>
 <span class="k">def</span> <span class="nf">profit</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">):</span>
-    <span class="k">return</span> <span class="mi">10</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mi">12</span><span class="o">*</span><span class="n">y</span> <span class="c1"># version for use to use later</span>
+    <span class="k">return</span> <span class="mi">10</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mi">12</span><span class="o">*</span><span class="n">y</span> <span class="c1"># version for use to use later </span>
 </pre></div>
 
      </div>
@@ -14790,11 +14786,7 @@ $$\Pi = 10x + 12y$$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Step-2:-Constraints">Step 2: Constraints<a class="anchor-link" href="#Step-2:-Constraints">&#182;</a></h2><ol>
-<li>$x+y \leq 400$; and</li>
-<li>$x+2y \leq 500$.</li>
-</ol>
-<p>You may simplify here if needed. Once you've specified everything your set up is complete.</p>
+<h2 id="Step-2:-Constraints">Step 2: Constraints<a class="anchor-link" href="#Step-2:-Constraints">&#182;</a></h2>$$x+y\leq 400$$$$x+2y \leq 500$$<p>You may simplify here if needed. Once you've specified everything your set up is complete.</p>
 
 </div>
 </div>
@@ -15181,9 +15173,9 @@ Benefit of relaxing the second constraint by one unit:  2
 of how many units of the first product, $x$, to produce and sell.
 Clearly we require $0 \leq x \leq 400$. Within this range, it should
 also be clear you would produce as many units of the second product as
-possible. This implies, for any such $x$, the corresponding choice of
-$y$ would be $y = g(x) = min\{400 - x, 0.5(500 - x)\}$. This implies
-profit as a function of $x$ given by
+possible. The constraints imply, for any such $x$, the corresponding choice of
+$y$ would be $y = g(x) = min\{400 - x, 0.5(500 - x)\}$.</p>
+<p>This implies profit as a function of $x$ given by
 $10x + 12g(x) = 10x + 12 \times min\{400 - x, 0.5(500 - x)\}$.</p>
 <h3 id="Do-the-following:">Do the following:<a class="anchor-link" href="#Do-the-following:">&#182;</a></h3><ol>
 <li>Plot this expression, for $0 \leq x \leq 400$. Determine the optimal
@@ -15406,10 +15398,7 @@ less cost of 30 per unit.</li>
 <p>Revenue from $x$ is 40.
 Cost of $x$ is 30. So the first term is clear. If we frame the decision as two independent choices, then this is the marginal cost of $x$.</p>
 <p>When we substitute $(.5(500-x))$ for $y$ we are framing $y$ as a consequence of $x$ not as an independent choice.</p>
-<p>$\Pi=10x+12y$
-$\Pi=10x+12(.5(500-x))$
-$\Pi=10x + 3,000 - 6x$</p>
-<p>Framed this way with $y$ expressed as a function of $x$ our choice of $x$ incurs additional costs through its effect on $y$. $6x$ is change in the cost of $y$ from a unit change in $x$.</p>
+$$\Pi=10x+12y$$$$\Pi=10x+12(.5(500-x))$$$$\Pi=10x + 3,000 - 6x$$<p>Framed this way with $y$ expressed as a function of $x$ our choice of $x$ incurs additional costs through its effect on $y$. $6x$ is change in the cost of $y$ from a unit change in $x$.</p>
 <!-- Framing one way or another varies what is treated explicitly versus implicitly here. For 0 ≤ x ≤ 300, x costs 30 per unit if we also treat y as an explicit choice; otherwise we must burden the cost of x with the effect producing x has on our choice of y. This is why, in the reduced frame, the proper way to think about the cost of x is 36 per unit, not 30 per unit. -->
 
 <!-- You are acquiring managerial sophistication when you recognize (1) cost is used to control for aspects of the payoff or outcome structure not explicitly modeled; and (2) therefore what you mean by cost depends on how you have framed your analyses. -->
