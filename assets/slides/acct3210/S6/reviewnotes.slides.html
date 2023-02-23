@@ -14683,11 +14683,22 @@ div.jp-OutputPrompt {
 <li><em>and the terms are often used interchangeably.</em> </li>
 <li><em>You should clarify in cases where the difference matters (i.e. if the two are meaningfully different).</em></li>
 </ul>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="The-exam-question-on-this-topic-will-be-a-slightly-modified-version-of-P1.1.-In-all-other-cases-I-will-specify.">The exam question on this topic will be a slightly modified version of P1.1. In all other cases I will specify.<a class="anchor-link" href="#The-exam-question-on-this-topic-will-be-a-slightly-modified-version-of-P1.1.-In-all-other-cases-I-will-specify.">&#182;</a></h3>
 </div>
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14732,7 +14743,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div>
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14742,6 +14753,17 @@ div.jp-OutputPrompt {
 <blockquote><p>Would a cheat-sheet be allowed in the exam (both midterm and final)?</p>
 </blockquote>
 <p>No, the exam is closed book. My focus is set-up and interpretation and I have found that allowing cheatsheets leads students to regurgitate formulas rather than answer the questions that I am actually asking.</p>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <blockquote><p>Lecture 5 - you mentioned near the end of the class you do not recommend rounding up values if the solver / python results generate multiple decimal places as it may go over your constraints. In the Ava catering case, I tried to round down one variable and round up one and achieved higher profit without violating constraints. Is there a way to express the best integer pair in python or excel that can help fulfill all constraints thank you :)</p>
 </blockquote>
 <p>This is exactly the correct way to think about this problem, and for the exam you will not need to worry about this.</p>
@@ -15044,8 +15066,12 @@ Optimal y  5
 <p>"MC of separate products in multi-product production firm ( the one covered in lecture 4)"</p>
 <p>"I would like to ask for further explanation regarding the two implication of marginal cost you mentioned today. In the lesson, you have mentioned that the marginal cost's change is related to the capital change and labor change. Also, the number of labor and capital will affect the effeciency of production. However, I am not very clear about their relationship with the marginal cost's change and how it could affect the production efficiency. It would be appreciated if the above concept could be clarified for better learning process."</p>
 </blockquote>
-<p>Recall that $q_1=\sqrt(KL_1)$ this means that the amount of $q$ you get from each additional unit of labor increases with K, but at a decreasing rate (this is because of the square root).</p>
-<p>Looking at the graphs here will help:</p>
+<p>Recall that $q_1=\sqrt(KL_1)$ this means that the amount of $q$ you get from each additional unit of labor increases with K, but at a decreasing rate (this is because of the square root). So there are two factors driving the changes in marginal cost:</p>
+<ol>
+<li>The effect of the marginal unit on the consumption of capital. You can see this in the tables at the end of Lecture 4</li>
+<li>The scale of the firm at the margin.</li>
+</ol>
+<p>Looking at the graphs and the marginal products of labor and capital here will help:</p>
 
 </div>
 </div>
@@ -15256,19 +15282,37 @@ class="
 
 </div>
 
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">l</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">k</span><span class="o">*</span><span class="n">l</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[65]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">k</span><span class="o">=</span><span class="mi">10</span>
 <span class="n">l1</span><span class="o">=</span><span class="mi">10</span> 
-<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">k</span><span class="o">*</span><span class="n">l1</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="n">l1</span><span class="p">),</span><span class="s2">&quot; increment k&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">k</span><span class="o">*</span><span class="p">(</span><span class="n">l1</span><span class="o">+</span><span class="mi">1</span><span class="p">)),</span><span class="s2">&quot; increment l1&quot;</span><span class="p">)</span>
+<span class="n">base</span><span class="o">=</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">l1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="s2">&quot;q1 at &quot;</span><span class="p">,</span><span class="n">k</span><span class="p">,</span><span class="s2">&quot; units of k and &quot;</span><span class="p">,</span><span class="n">l1</span><span class="p">,</span><span class="s2">&quot; units of l1&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">l1</span><span class="p">)</span><span class="o">-</span><span class="n">base</span><span class="p">,</span><span class="s2">&quot; change in q1 from incrementing k&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">l1</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">-</span><span class="n">base</span><span class="p">,</span><span class="s2">&quot; change in q1 from incrementing l1&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15290,9 +15334,9 @@ class="
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>10.0
-10.488088481701515  increment k
-10.488088481701515  increment l1
+<pre>10.0 q1 at  10  units of k and  10  units of l1
+0.4880884817015154  change in q1 from incrementing k
+0.4880884817015154  change in q1 from incrementing l1
 </pre>
 </div>
 </div>
@@ -15301,15 +15345,20 @@ class="
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">k</span><span class="o">=</span><span class="mi">10</span>
+<span class="n">l1</span><span class="o">=</span><span class="mi">100</span> 
+<span class="n">base</span><span class="o">=</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">l1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="s2">&quot;q1 at &quot;</span><span class="p">,</span><span class="n">k</span><span class="p">,</span><span class="s2">&quot; units of k and &quot;</span><span class="p">,</span><span class="n">l1</span><span class="p">,</span><span class="s2">&quot; units of l1&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">l1</span><span class="p">)</span><span class="o">-</span><span class="n">base</span><span class="p">,</span><span class="s2">&quot; change in q1 from incrementing k&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">l1</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">-</span><span class="n">base</span><span class="p">,</span><span class="s2">&quot; change in q1 from incrementing l1&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15317,7 +15366,78 @@ class="
 </div>
 </div>
 
-</div></div></section></section>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>31.622776601683793 q1 at  10  units of k and  100  units of l1
+1.543471301870209  change in q1 from incrementing k
+0.1577205624576159  change in q1 from incrementing l1
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">k</span><span class="o">=</span><span class="mi">100</span>
+<span class="n">l1</span><span class="o">=</span><span class="mi">10</span> 
+<span class="n">base</span><span class="o">=</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">l1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="s2">&quot;q1 at &quot;</span><span class="p">,</span><span class="n">k</span><span class="p">,</span><span class="s2">&quot; units of k and &quot;</span><span class="p">,</span><span class="n">l1</span><span class="p">,</span><span class="s2">&quot; units of l1&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">l1</span><span class="p">)</span><span class="o">-</span><span class="n">base</span><span class="p">,</span><span class="s2">&quot; change in q1 from incrementing k&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">calcOutput</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">l1</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">-</span><span class="n">base</span><span class="p">,</span><span class="s2">&quot; change in q1 from incrementing l1&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>31.622776601683793 q1 at  100  units of k and  10  units of l1
+0.1577205624576159  change in q1 from incrementing k
+1.543471301870209  change in q1 from incrementing l1
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div></section></section>
 </div>
 </div>
 </body>
