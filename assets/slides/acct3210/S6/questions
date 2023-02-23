@@ -1,0 +1,29 @@
+,Questions
+0,
+1,"More about the difference between marginal cost and incremental cost, and how the questions in exam will be asked and how we answer it. If there is some examples to show us that will be better"
+2,Cost in a Multiproduct Firm - is it possible to use excel and go through the assignments once?
+3,"Questions:
+
+1. Would a cheat-sheet be allowed in the exam (both midterm and final) ?
+
+2. Lecture 5 - you mentioned near the end of the class you do not recommend rounding up values if the solver / python results generate multiple decimal places as it may go over your constraints. In the Ava catering case, I tried to round down one variable and round up one and achieved higher profit without violating constraints. Is there a way to express the best integer pair in python or excel that can help fulfill all constraints thank you :)
+
+ 
+
+Thank you for all taking in all our comments and integrating it into the lecture so far, they really made the class more informative and I am learning quite a lot :)"
+4,Lecture 4
+5,"I want to ask what is the syllabus of the Midterm, from your website, it seems that we should be finished Ch.1 to Ch. 5 in the Zimmerman textbook. But so far we only covered about part of the Ch.1 and Ch. 2. Also, do you have recommendations about how to prepare for the Midterm? Like doing the exercise questions in the textbook, do you mind to provide the textbook answer to us?"
+6,"Cost estimation
+
+Constraints and linear programming
+
+ 
+
+In my opinion, you have already illustrated the concepts very well.  I am interested in how will those stuffs be tested.
+
+ 
+
+Thanks!"
+7,MC of separate products in multi-product production firm ( the one covered in lecture 4)
+8,Please cover shadow price and the difference between marginal cost and incremental cost
+9,
