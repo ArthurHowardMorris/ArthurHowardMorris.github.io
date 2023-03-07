@@ -201,14 +201,12 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __10. 9 Mar.__   | __Organizational Architecture__                              |
 | _Read:_          | Zimmerman, Chapter 4                                         |
 |                  | Incentives and Managerial Compensation (class note)          |
-| _Problems:_      | __P10__ 4–18 Rothwell                                        |
 | __11. 14 Mar.__  | __Economics of Agency__                                      |
-| _Case_           | __C3:__ Gamblers‘R’Us  _read before class_                   |
+| _Problems:_      | __P10__ 4–18 Rothwell                                        |
 | __12. 16 Mar.__  | __Mid-term Review__                                          |
-| __16 & 18 Mar.__ | __Mid-term Review__                                          |
-|                  | Optional, via Zoom                                           |
-| __13. 21 Mar.__  | __Midterm__                                                  |
-|                  | 1800 Location TBA                                            |
+|                  | in class.                                                    |
+| __13. 21 Mar.__  | __Midterm__  _No class_                                      |
+|                  | 1800, locations TBA                                          |
 | __14. 23 Mar.__  | __Responsibility Accounting and Transfer Pricing__           |
 | _Read:_          | Zimmerman, Chapter 5                                         |
 |                  | Transfer Pricing   (Class note)                              |
