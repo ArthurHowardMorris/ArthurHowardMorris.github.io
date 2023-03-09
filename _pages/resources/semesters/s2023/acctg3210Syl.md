@@ -180,15 +180,15 @@ Points on all work will be weighted as shown above and graded as shown here:
 | Read:            | Cost behavior (class note)                                   |
 | Problems:        | __P2:__ Data Collection Issues I                             |
 |                  | __P3:__ Data Collection Issues II                            |
-| __3. 16 Feb.__   | __Constraints and linear programming__                       |
+| __3. 16 Feb.__   | __Constraints and (non-)linear programming__                 |
 | _Problem:_       | __P4:__ Cost in a Multiproduct Firm Part 2                   |
-| __4. 21 Feb.__   | __Solving LPs__                                              |
+| __4. 21 Feb.__   | __Solving Linear Programs__                                  |
 | _Problems:_      | __P5:__ Shadow Prices, Component Searches, and Product Cost  |
 |                  | __P6:__ Ava Catering                                         |
 |                  | __P7:__ Builder of Garages and Sheds                         |
 | __6. 23 Feb.__   | __Comprehensive review__                                     |
 | _Survey:_        | _Submit review topics for in class discussion_               |
-| __7. 28 Feb.__   | __Capital Budgeting__                                        |
+| __7. 28 Feb.__   | __Time Value of Money and Capital Budgeting__                |
 | _Read:_          | Zimmerman, Chapter 3                                         |
 | _Case:_          | __C2:__ Special Electric Case _read before class_            |
 | __8. 2 Mar.__    | __Taxation of returns__                                      |
@@ -198,10 +198,10 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __9. 7 Mar.__    | __Real and Financial Assets__                                |
 | _Read:_          | Net-of-tax returns on real and financial assets (class note) |
 |                  | _Note: No problems are due today_                            |
-| __10. 9 Mar.__   | __Organizational Architecture__                              |
+| __10. 9 Mar.__   | __Economics of Agency__                                      |
 | _Read:_          | Zimmerman, Chapter 4                                         |
 |                  | Incentives and Managerial Compensation (class note)          |
-| __11. 14 Mar.__  | __Economics of Agency__                                      |
+| __11. 14 Mar.__  | __Organizational Architecture__                              |
 | _Problems:_      | __P10__ 4–18 Rothwell                                        |
 | __12. 16 Mar.__  | __Mid-term Review__                                          |
 |                  | in class.                                                    |
