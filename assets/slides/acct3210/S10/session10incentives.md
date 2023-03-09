@@ -42,7 +42,7 @@ Let's say that each manager has responsibility for:
 
 How might Jason's and Jackson's priorities differ from Terri's?
 What if Jason is interested in moving from Terri's restaurant, located in Sai Kung, to Lung King Heen. A restaurant in central with three Michelin stars.
-What is Jackson is nearing retirement age?
+What if Jackson is nearing retirement age?
 
 These situations may lead Jason and Jackson to make different choices than Terri would, had she retained control of the restaurants. When owners and managers have different interests, priorities, or incentives we refer to these as _conflicts of interest_. Conflicts of interest can occur at any level of an organization so we need slightly broader language to refer to what is going on here. 
 
@@ -78,23 +78,23 @@ This plays out in a similar way in large companies where shareholders hire a CEO
 ```bash
 └── Shareholders
     └── CEO
-        ├── African Division
+        ├── African Division Manager
         │   ├── Distribution Manager
         │   ├── Plant Manager
         │   └── Sales Manager
-        ├── Asia-Pacific Division
+        ├── Asia-Pacific Division Manager
         │   ├── Distribution Manager
         │   ├── Plant Manager
         │   └── Sales Manager
-        ├── European Division
+        ├── European Division Manager
         │   ├── Distribution Manager
         │   ├── Plant Manager
         │   └── Sales Manager
-        ├── North American Division
+        ├── North American Division Manager
         │   ├── Distribution Manager
         │   ├── Plant Manager
         │   └── Sales Manager
-        └── South American Division
+        └── South American Division Manager
             ├── Distribution Manager
             ├── Plant Manager
             └── Sales Man
