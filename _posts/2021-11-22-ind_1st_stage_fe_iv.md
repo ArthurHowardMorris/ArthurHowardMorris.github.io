@@ -7,7 +7,14 @@ published: true
 permalink: "/resources/ind_1st_stage_fe_iv.html"
 ---
 
-Indicating fixed effects with [`reghdfe`](http://scorreia.com/software/reghdfe/faq.html) is relatively straightforward if you use [`estfe`](http://scorreia.com/software/reghdfe/faq.html#how-can-i-combine-reghdfe-with-esttab-or-estout). However, when you try to report the first stage of estimates from [`ivreghdfe`](https://github.com/sergiocorreia/ivreghdfe) with the `savefirst` (or `savefprefix`) option you'll incorrectly indicate that you didn't use the fixed effects that you passed to `absorb()`.
+Indicating fixed effects with
+[`reghdfe`](http://scorreia.com/software/reghdfe/faq.html) is relatively
+straightforward if you use
+[`estfe`](http://scorreia.com/software/reghdfe/faq.html#how-can-i-combine-reghdfe-with-esttab-or-estout).
+However, when you try to report the first stage of estimates from
+[`ivreghdfe`](https://github.com/sergiocorreia/ivreghdfe) with the `savefirst`
+(or `savefprefix`) option you'll incorrectly indicate that you didn't use the
+fixed effects that you passed to `absorb()`.
 
 Here's an example using `saveprefix`:
 
@@ -51,7 +58,10 @@ t statistics in parentheses
 * p<0.05, ** p<0.01, *** p<0.001
 ```
 
-This is because `savefprefix()` is part of `ivreg2` and so it doesn't actually know about the contents of `absorb()` since they were differenced out of the data before it was passed to `ivreg2`. So you have to use `estadd` to add them in yourself.
+This is because `savefprefix()` is part of `ivreg2` and so it doesn't actually
+know about the contents of `absorb()` since they were differenced out of the
+data before it was passed to `ivreg2`. So you have to use `estadd` to add them
+in yourself.
 
 ```Stata
 clear all
