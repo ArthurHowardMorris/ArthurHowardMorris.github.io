@@ -133,11 +133,12 @@ are discussed. All assignments should be submitted in the formats specified in C
 Exams will be conducted in-person and will be closed book. Times and locations TBA.
 
  - __Midterm Exam:__ The midterm examination is scheduled from 7:00pm to
-   9:00pm, Tuesday, 21 March 2022 in person. Location __TBA__. The exam is
-   closed book and communication with others is cheating and not allowed. All
-   students are required to take the midterm exam at this pre-scheduled time,
-   and there will be no make-up exam for it. Students absent from the midterm
-   exam will receive zero mark for this component, except for highly unusual
+   8:00pm, Tuesday, 21 March 2022 in person. Locations: LTD, LTG, and 1103 (see
+   Canvas for maps, and room assignments). The exam is closed book and
+   communication with others is cheating and not allowed. All students are
+   required to take the midterm exam at this pre-scheduled time, and there will
+   be no make-up exam for it. Students absent from the midterm exam will
+   receive zero mark for this component, except for highly unusual
    circumstances that cannot be controlled and avoided by the student---in
    which case the grade weight on the midterm exam will be loaded to the final
    examination component.
