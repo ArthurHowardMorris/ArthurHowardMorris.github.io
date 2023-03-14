@@ -28,7 +28,7 @@ Ben Jann's `erepost` (`ssc install erepost`) makes it simple to put to put the r
 
 ```
 matrix b_iw = e(b_iw)
-matrix V_iw = diag(e(V_iw))
+matrix V_iw = e(V_iw)
 erepost b = b_iw V = V_iw // ssc install erepost
 esttab
 ```
