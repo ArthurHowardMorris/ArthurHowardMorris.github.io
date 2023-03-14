@@ -207,7 +207,8 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __12. 16 Mar.__  | __Mid-term Review__                                          |
 |                  | in class.                                                    |
 | __13. 21 Mar.__  | __Midterm__  _No class_                                      |
-|                  | 1800, locations TBA                                          |
+|                  | 1900-2000, in rooms LTD, LTG, and 1103.                      |
+|                  | See Canvas for room assignments.                             |
 | __14. 23 Mar.__  | __Responsibility Accounting and Transfer Pricing__           |
 | _Read:_          | Zimmerman, Chapter 5                                         |
 |                  | Transfer Pricing   (Class note)                              |
