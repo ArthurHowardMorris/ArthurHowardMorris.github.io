@@ -36,8 +36,6 @@ Office Hours:
 
 ## Optional Zoom Review Sessions:
 
-- 16 Mar: Midterm Review
-- 18 Mar: Midterm Review
 - 10 May: Final Exam Review
 - 11 May: Final Exam Review
 
