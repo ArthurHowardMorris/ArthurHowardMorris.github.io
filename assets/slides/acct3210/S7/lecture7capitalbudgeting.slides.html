@@ -14741,7 +14741,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14894,7 +14894,7 @@ $$PV=\frac{FV}{r}\Big[1-\frac{1}{(1+r^n)}\Big]$$<p>Notice two things,</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Multiple-Cash-Flows-per-Year">Multiple Cash Flows per Year<a class="anchor-link" href="#Multiple-Cash-Flows-per-Year">&#182;</a></h3><p>We may need to convert annual rates to monthly (or other duration rates). If we assume that a year-long monthly contract and an annual contract should have similar values then we can make the following generalization:</p>
-$$(1+r_m)^{12}=(1+r)$$$$r_m=(1+r)^{1/12}$$<p>This relationship should hold in theory, and the practice of interest rate arbitrage is related to this insight. However it is also common for the difference between a monthly payment plan and an annual one to by higher than the firm's long-term cost of capital suggesting that the law of one interest rate may not hold in every case.</p>
+$$(1+r_m)^{12}=(1+r)$$$$r_m=(1+r)^{1/12}-1$$<p>This relationship should hold in theory, and the practice of interest rate arbitrage is related to this insight. However it is also common for the difference between a monthly payment plan and an annual one to by higher than the firm's long-term cost of capital suggesting that the law of one interest rate may not hold in every case.</p>
 
 </div>
 </div>
@@ -14952,12 +14952,7 @@ $$r=r_f+r_p$$<p>where $r_f$ is the return on the risk free asset and $i$ is the 
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Inflation-also-impacts-how-we-think-about-$r$.">Inflation also impacts how we think about $r$.<a class="anchor-link" href="#Inflation-also-impacts-how-we-think-about-$r$.">&#182;</a></h3><p>If inflation is $i$ percent per year, and \$1 of consumption is delayed for one year, it will take \\$(1 + $i$) at the end of the year to buy the same \$1 bundle of goods as could have been purchased at the beginning of the year.</p>
 <p>If inflation is 7 percent per year, buying the same \$1 bundle costs \\$1.07 at the end of the year. To compensate for delaying consumption for one year when inflation is running at $i$ percent, the nominal interest rate is:</p>
-$$r_{nominal} = r_{real} + i$$<p>A quick note to clarify a question that came up in class:</p>
-<ol>
-<li>This is an approximation of the relationship that is often referred to as the "Fisher Equation"</li>
-<li>The actual relationship is: $(1+r_{real}) = (1+r_{nominal})/(1+i)$ which is approximately $r_{real} = r_{nominal}-i$, which we rearrange to get the formula above.</li>
-<li>The textbook equation, which was in the original version of these slides, is wrong.</li>
-</ol>
+$$r_{nominal} = r_{real} + i$$<p><em>note that this is an approximation that is referred to as the Fisher Equation.</em></p>
 
 </div>
 </div>
