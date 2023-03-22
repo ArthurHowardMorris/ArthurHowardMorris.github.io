@@ -209,7 +209,6 @@ Points on all work will be weighted as shown above and graded as shown here:
 |                  | See Canvas for room assignments.                             |
 | __14. 23 Mar.__  | __Responsibility Accounting and Transfer Pricing__           |
 | _Read:_          | Zimmerman, Chapter 5                                         |
-| _Read:_          | Transfer Pricing   (Class note)                              |
 | __15. 28 Mar.__  | __Transfer Pricing: Additional Considerations__              |
 | _Case:_          | __C4:__ Vik-Giger Corporation   _read before class_          |
 | __16. 30 Mar.__  | __Cost Allocation I__                                        |

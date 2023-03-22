@@ -1,5 +1,5 @@
 ---
-title="Taxes, Profit Repatriation, and Transfer Prices"
+title: "Taxes, Profit Repatriation, and Transfer Prices"
 ---
 
 The next two examples describe additional “exogenous” factors affecting the
