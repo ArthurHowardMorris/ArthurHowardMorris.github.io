@@ -211,8 +211,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 | _Read:_          | Zimmerman, Chapter 5                                         |
 | _Read:_          | Transfer Pricing   (Class note)                              |
 | __15. 28 Mar.__  | __Transfer Pricing: Additional Considerations__              |
-| _Case:_          | __C4:__ Vik-Giger Corporation   _read before class_              |
-| _Case:_          | __C5:__ Del Norte Paper Co. (A)                              |
+| _Case:_          | __C4:__ Vik-Giger Corporation   _read before class_          |
 | __16. 30 Mar.__  | __Cost Allocation I__                                        |
 | _Read:_          | Zimmerman, Chapter 7                                         |
 | __17. 4 Apr.__   | __Costing Systems and Decision Making__                      |
