@@ -180,7 +180,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 | Problems:        | __P2:__ Data Collection Issues I                             |
 |                  | __P3:__ Data Collection Issues II                            |
 | __3. 16 Feb.__   | __Constraints and (non-)linear programming__                 |
-| _Problem:_       | __P4:__ Cost in a Multiproduct Firm Part 2                   |
+| _Problem:_       | __P4:__ Cost in a Multiproduct Firm Part 2                   |     
 | __4. 21 Feb.__   | __Solving Linear Programs__                                  |
 | _Problems:_      | __P5:__ Shadow Prices, Component Searches, and Product Cost  |
 |                  | __P6:__ Ava Catering                                         |
@@ -209,9 +209,9 @@ Points on all work will be weighted as shown above and graded as shown here:
 |                  | See Canvas for room assignments.                             |
 | __14. 23 Mar.__  | __Responsibility Accounting and Transfer Pricing__           |
 | _Read:_          | Zimmerman, Chapter 5                                         |
-|                  | Transfer Pricing   (Class note)                              |
-| _Case:_          | __C4:__ Anita Corporation   _read before class_              |
+| _Read:_          | Transfer Pricing   (Class note)                              |
 | __15. 28 Mar.__  | __Transfer Pricing: Additional Considerations__              |
+| _Case:_          | __C4:__ Vik-Giger Corporation   _read before class_              |
 | _Case:_          | __C5:__ Del Norte Paper Co. (A)                              |
 | __16. 30 Mar.__  | __Cost Allocation I__                                        |
 | _Read:_          | Zimmerman, Chapter 7                                         |

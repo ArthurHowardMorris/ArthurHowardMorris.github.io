@@ -5,3 +5,13 @@
 - pitch the first portion of the course as a "tools and techniques" session this is when we actually learn how to do the things we claimed we could do after accounting 2200
 - then capital budgets, taxes and agency are decisions and the incentives that shape them.
 - then this gives us context for thinking more about why variences might occur.
+- write a tools section that covers
+1. how to get a funtion our of data
+2. how to get a function out of a production plan
+3. how to validate the production plan with the data.
+4. how to optimize what can be chosen 
+5. how to predict the future and choose between different futures
+- all while making them love python.
+
+
+It seems like costing systems should come before transfer pricing and that taxes can wait?
