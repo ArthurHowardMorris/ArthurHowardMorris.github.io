@@ -166,82 +166,78 @@ Points on all work will be weighted as shown above and graded as shown here:
 
 ## Course Schedule and Outline:
 
-|                  |                                                              |
-|------------------|--------------------------------------------------------------|
-| __1. 7 Feb.__    | __Expectations and Conceptual Framework__                    |
-| _Read:_          | Zimmerman, Ch 1                                              |
-|                  | Introduction to Management Accounting (class note)           |
-| _Survey:_        | Pre-class survey (in canvas)                                 |
-| __2. 9 Feb.__    | __The Nature of Costs__                                      |
-| _Read:_          | Zimmerman, Chapter 2                                         |
-| _Problem:_       | __P1:__ Cost in a Multiproduct Firm                          |
-| __3. 14 Feb.__   | __Cost estimation (regression)__                             |
-| Read:            | Cost behavior (class note)                                   |
-| Problems:        | __P2:__ Data Collection Issues I                             |
-|                  | __P3:__ Data Collection Issues II                            |
-| __3. 16 Feb.__   | __Constraints and (non-)linear programming__                 |
-| _Problem:_       | __P4:__ Cost in a Multiproduct Firm Part 2                   |     
-| __4. 21 Feb.__   | __Solving Linear Programs__                                  |
-| _Problems:_      | __P5:__ Shadow Prices, Component Searches, and Product Cost  |
-|                  | __P6:__ Ava Catering                                         |
-|                  | __P7:__ Builder of Garages and Sheds                         |
-| __6. 23 Feb.__   | __Comprehensive review__                                     |
-| _Survey:_        | _Submit review topics for in class discussion_               |
-| __7. 28 Feb.__   | __Time Value of Money and Capital Budgeting__                |
-| _Read:_          | Zimmerman, Chapter 3                                         |
-| _Case:_          | __C2:__ Special Electric Case _read before class_            |
-| __8. 2 Mar.__    | __Taxation of returns__                                      |
-| _Read:_          | Before- and After-tax Returns (class note)                   |
-|                  | Taxable versus Tax-exempt Bonds (class note)                 |
-| _Problem:_       | __P8:__ Alternative Savings Vehicles                         |
-| __9. 7 Mar.__    | __Real and Financial Assets__                                |
-| _Read:_          | Net-of-tax returns on real and financial assets (class note) |
-|                  | _Note: No problems are due today_                            |
-| __10. 9 Mar.__   | __Economics of Agency__                                      |
-| _Read:_          | Zimmerman, Chapter 4                                         |
-|                  | Incentives and Managerial Compensation (class note)          |
-| __11. 14 Mar.__  | __Organizational Architecture__                              |
-| _Problems:_      | __P10__ 4–18 Rothwell                                        |
-| __12. 16 Mar.__  | __Mid-term Review__                                          |
-|                  | in class.                                                    |
-| __13. 21 Mar.__  | __Midterm__  _No class_                                      |
-|                  | 1900-2000, in rooms LTD, LTG, and 1103.                      |
-|                  | See Canvas for room assignments.                             |
-| __14. 23 Mar.__  | __Responsibility Accounting and Transfer Pricing__           |
-| _Read:_          | Zimmerman, Chapter 5                                         |
-| __15. 28 Mar.__  | __Transfer Pricing: Additional Considerations__              |
-| _Case:_          | __C4:__ Vik-Giger Corporation   _read before class_          |
-| __16. 30 Mar.__  | __Cost Allocation I__                                        |
-| _Read:_          | Zimmerman, Chapter 7                                         |
-| __17. 4 Apr.__   | __Costing Systems and Decision Making__                      |
-| _Case:_          | __C6:__ Bridgeton Industries                                 |
-|                  | __Mid-Term Break__                                           |
-| __18. 13 Apr.__  | __Cost Allocation II__                                       |
-| _Read:_          | Zimmerman, Chapter 8                                         |
-| __19. 18 Apr__   | __Absorption Costing Systems__                               |
-| _Read:_          | Zimmerman, Chapter 9                                         |
-| _Problems:_      | __P11:__ 9–9 DeJure Scents                                   |
-|                  | __P12:__ 9–24 Kitchen Rite                                   |
-| __20. 20 Apr.__  | Cost Allocation in a Research University                     |
-| _Case:_          | __C7:__ Stanford University                                  |
-| __21. 25 Apr.__  | Absorption Costing Problems                                  |
-| _Read:_          | Zimmerman, Chapter 10                                        |
-| _Problems:_      | __P13:__ 10–8 Aspen View                                     |
-|                  | __P14:__ 10–11 Kothari Inc.                                  |
-|                  | __P15:__ 10–17 Navisky                                       |
-| __22. 27 Apr.__  | ABC                                                          |
-| _Read:_          | Zimmerman, Chapter 11                                        |
-| _Case:_          | __C8:__ Seligram Inc.: Electronic Testing Operations         |
-| __23. 2 May.__   | Budgeting                                                    |
-| _Read:_          | Zimmerman, Chapter 6                                         |
-| __24. 4 May.__   | Standard Costs and Variances                                 |
-| _Read:_          | Zimmerman, Chapters 12 and 13                                |
-| _Case:_          | __C9:__ LSP Capsules                                         |
-| __25. 9 May.__   | Standards and Variances in Practice                          |
-| _Case:_          | __C10:__ Midwest Ice Cream                                   |
-| __10 & 11 May.__ | __Final Review__                                             |
-|                  | Optional, via Zoom                                           |
-| TBA              | __Final Exam__                                               |
+|                 |                                                              |
+|-----------------|--------------------------------------------------------------|
+| __1. 7 Feb.__   | __Expectations and Conceptual Framework__                    |
+| _Read:_         | Zimmerman, Ch 1                                              |
+|                 | Introduction to Management Accounting (class note)           |
+| _Survey:_       | Pre-class survey (in canvas)                                 |
+| __2. 9 Feb.__   | __The Nature of Costs__                                      |
+| _Read:_         | Zimmerman, Chapter 2                                         |
+| _Problem:_      | __P1:__ Cost in a Multiproduct Firm                          |
+| __3. 14 Feb.__  | __Cost estimation (regression)__                             |
+| Read:           | Cost behavior (class note)                                   |
+| Problems:       | __P2:__ Data Collection Issues I                             |
+|                 | __P3:__ Data Collection Issues II                            |
+| __4. 16 Feb.__  | __Constraints and (non-)linear programming__                 |
+| _Problem:_      | __P4:__ Cost in a Multiproduct Firm Part 2                   |
+| __5. 21 Feb.__  | __Solving Linear Programs__                                  |
+| _Problems:_     | __P5:__ Shadow Prices, Component Searches, and Product Cost  |
+|                 | __P6:__ Ava Catering                                         |
+|                 | __P7:__ Builder of Garages and Sheds                         |
+| __6. 23 Feb.__  | __Comprehensive review__                                     |
+| _Survey:_       | _Submit review topics for in class discussion_               |
+| __7. 28 Feb.__  | __Time Value of Money and Capital Budgeting__                |
+| _Read:_         | Zimmerman, Chapter 3                                         |
+| _Case:_         | __C2:__ Special Electric Case _read before class_            |
+| __8. 2 Mar.__   | __Taxation of returns__                                      |
+| _Read:_         | Before- and After-tax Returns (class note)                   |
+|                 | Taxable versus Tax-exempt Bonds (class note)                 |
+| _Problem:_      | __P8:__ Alternative Savings Vehicles                         |
+| __9. 7 Mar.__   | __Real and Financial Assets__                                |
+| _Read:_         | Net-of-tax returns on real and financial assets (class note) |
+|                 | _Note: No problems are due today_                            |
+| __10. 9 Mar.__  | __Economics of Agency__                                      |
+| _Read:_         | Zimmerman, Chapter 4                                         |
+|                 | Incentives and Managerial Compensation (class note)          |
+| __11. 14 Mar.__ | __Organizational Architecture__                              |
+| _Problems:_     | __P10__ 4–18 Rothwell                                        |
+| __12. 16 Mar.__ | __Mid-term Review__                                          |
+|                 | in class.                                                    |
+| __13. 21 Mar.__ | __Midterm__  _No class_                                      |
+|                 | 1900-2000, in rooms LTD, LTG, and 1103.                      |
+|                 | See Canvas for room assignments.                             |
+| __14. 23 Mar.__ | __Responsibility Accounting and Transfer Pricing__           |
+| _Read:_         | Zimmerman, Chapter 5                                         |
+| __15. 28 Mar.__ | __Transfer Pricing: Additional Considerations__              |
+| _Case:_         | __C4:__ Vik-Giger Corporation   _read before class_          |
+| __16. 30 Mar.__ | __Exam paper review__                                        |
+| __17. 4 Apr.__  | __Cost Allocation I__                                        |
+| _Read:_         | Zimmerman, Chapter 7                                         |
+|                 | __Mid-Term Break__ _No class Thursday and Tuesday._          |
+| __18. 13 Apr.__ | __Cost Allocation II__                                       |
+| _Read:_         | Zimmerman, Chapter 8                                         |
+| __19. 18 Apr__  | __Absorption Costing Systems__                               |
+| _Read:_         | Zimmerman, Chapter 9                                         |
+| _Problems:_     | __P11:__ 9–9 DeJure Scents                                   |
+|                 | __P12:__ 9–24 Kitchen Rite                                   |
+| __20. 20 Apr.__ | __Costing Systems and Decision Making__                      |
+| _Case:_         | __C6:__ Bridgeton Industries                                 |
+| __21. 25 Apr.__ | Absorption Costing Problems                                  |
+| _Read:_         | Zimmerman, Chapter 10                                        |
+| _Problems:_     | __P13:__ 10–8 Aspen View                                     |
+|                 | __P14:__ 10–11 Kothari Inc.                                  |
+|                 | __P15:__ 10–17 Navisky                                       |
+| __22. 27 Apr.__ | ABC                                                          |
+| _Read:_         | Zimmerman, Chapter 11                                        |
+| _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         |
+| __23. 2 May.__  | Budgeting                                                    |
+| _Read:_         | Zimmerman, Chapter 6                                         |
+| __24. 4 May.__  | Standard Costs and Variances                                 |
+| _Read:_         | Zimmerman, Chapters 12 and 13                                |
+| _Case:_         | __C9:__ LSP Capsules                                         |
+| __25. 9 May.__  | __Final Review__                                             |
+| TBA             | __Final Exam__                                               |
 
 ### Acknowledgements:
 

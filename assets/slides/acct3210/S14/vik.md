@@ -1,6 +1,6 @@
 ---
 title: "Vik-Giger Corpotation"
-geometry: margin=2cm
+geometry: margin=3cm
 ---
 ## Multinational transfer pricing and taxation.
 
@@ -22,12 +22,9 @@ maximizing his or her own division’s income.
 
 1. From the viewpoint of Vik-Giger and its subsidiaries taken together, should
    Vik-Giger Corporation manufacture the equipment? 
-   - If it does, where should it sell the equipment to maximize corporate
-     operating income?  
-   - What would the operating income for Vik-Giger and its
-     subsidiaries be from the sale? Ignore any income tax effects.
-2. What range of transfer prices will result in achieving the actions deter-
-mined to be optimal in requirement 1? Explain your answer. 
+   - (a) If it does, where should it sell the equipment to maximize corporate operating income?  
+   - (b) What would the operating income for Vik-Giger and its subsidiaries be from the sale? Ignore any income tax effects.
+2. What range of transfer prices will result in achieving the actions determined to be optimal in requirement 1? Explain your answer. 
 3. The effective income tax rates for this transaction follow: 40\% in the
 United States, 60\% in Brazil, and 15\% in Switzerland. The tax authorities in
 the three countries are uncertain about the cost of the intermediate product
