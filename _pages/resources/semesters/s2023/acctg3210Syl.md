@@ -231,7 +231,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __22. 27 Apr.__ | __ABC__                                                      |
 | _Read:_         | Zimmerman, Chapter 11                                        |
 | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         |
-| __23. 2 May.__  | __Budgeting                                                  |
+| __23. 2 May.__  | __Budgeting__                                                |
 | _Read:_         | Zimmerman, Chapter 6                                         |
 | __24. 4 May.__  | __Standard Costs and Variances__                             |
 | _Read:_         | Zimmerman, Chapters 12 and 13                                |
