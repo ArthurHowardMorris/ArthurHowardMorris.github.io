@@ -223,20 +223,20 @@ Points on all work will be weighted as shown above and graded as shown here:
 |                 | __P12:__ 9–24 Kitchen Rite                                   |
 | __20. 20 Apr.__ | __Costing Systems and Decision Making__                      |
 | _Case:_         | __C6:__ Bridgeton Industries                                 |
-| __21. 25 Apr.__ | Absorption Costing Problems                                  |
+| __21. 25 Apr.__ | __Absorption Costing Problems__                              |
 | _Read:_         | Zimmerman, Chapter 10                                        |
 | _Problems:_     | __P13:__ 10–8 Aspen View                                     |
 |                 | __P14:__ 10–11 Kothari Inc.                                  |
 |                 | __P15:__ 10–17 Navisky                                       |
-| __22. 27 Apr.__ | ABC                                                          |
+| __22. 27 Apr.__ | __ABC__                                                      |
 | _Read:_         | Zimmerman, Chapter 11                                        |
 | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         |
-| __23. 2 May.__  | Budgeting                                                    |
+| __23. 2 May.__  | __Budgeting                                                  |
 | _Read:_         | Zimmerman, Chapter 6                                         |
-| __24. 4 May.__  | Standard Costs and Variances                                 |
+| __24. 4 May.__  | __Standard Costs and Variances__                             |
 | _Read:_         | Zimmerman, Chapters 12 and 13                                |
 | _Case:_         | __C9:__ LSP Capsules                                         |
-| __25. 9 May.__  | __Final Review__                                             |
+| __25. 9 May.__  | __Final Review__ _in class_                                  |
 | TBA             | __Final Exam__                                               |
 
 ### Acknowledgements:
