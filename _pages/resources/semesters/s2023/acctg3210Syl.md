@@ -114,10 +114,11 @@ cost.
 
 ### Class Participation:
 
-Both lecture and case discussions will rely on random cold calling. Student's
-names will be randomly selected without replacement until all students have
-been called on. Answers need not be correct to receive full credit, attendees
-who answer will receive full credit, absentees will receive no credit for the
+Both lecture and case discussions will rely on random cold calling, you are
+expected to attend the session for which you are registered. Student's names
+will be randomly selected without replacement until all students have been
+called on. Answers need not be correct to receive full credit, attendees who
+answer will receive full credit, absentees will receive no credit for the
 question. Exception for verified illness, students are required to notify TA &
 instructor of illness via email in a timely manner.
 
@@ -141,11 +142,12 @@ Exams will be conducted in-person and will be closed book. Times and locations T
    which case the grade weight on the midterm exam will be loaded to the final
    examination component.
 
-- __Final Exam:__ The comprehensive final examination is scheduled from 4:30 PM to 7:30 PM on 18 May 2023 in the S H Ho Sports Hall. The exam is
-  closed book and communication with others is cheating and not allowed. All
-  students are required to take the final exam at this pre-scheduled time, and
-  there will be no make-up exam for it. Students absent from the final exam
-  will receive zero mark for this component. 
+- __Final Exam:__ The comprehensive final examination is scheduled from 4:30 PM
+  to 7:30 PM on 18 May 2023 in the S H Ho Sports Hall. The exam is closed book
+  and communication with others is cheating and not allowed. All students are
+  required to take the final exam at this pre-scheduled time, and there will be
+  no make-up exam for it. Students absent from the final exam will receive zero
+  mark for this component. 
 
 ### Grading Scale:
 
@@ -239,7 +241,7 @@ Points on all work will be weighted as shown above and graded as shown here:
 | _Case:_         | __C9:__ LSP Capsules                                         |
 | __25. 9 May.__  | __Final Review__ _in class_                                  |
 | 18 May 2023     | __Final Exam__                                               |
-|                 | 4:30 PM to 7:30 PM in the S H Ho Sports Hall.
+|                 | 4:30 PM to 7:30 PM in the S H Ho Sports Hall.                |
 
 ### Acknowledgements:
 
