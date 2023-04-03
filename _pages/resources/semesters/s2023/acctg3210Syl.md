@@ -217,6 +217,8 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __16. 30 Mar.__ | __Exam paper review__                                        |
 | __17. 4 Apr.__  | __Cost Allocation I__                                        |
 | _Read:_         | Zimmerman, Chapter 7                                         |
+| __4 Apr.__      | __Supplementary Exam Solution Review__                       |
+|                 | 6:30 PM - 7:30 PM in LSK 1026                                |
 |                 | __Mid-Term Break__ _No class Thursday and Tuesday._          |
 | __18. 13 Apr.__ | __Cost Allocation II__                                       |
 | _Read:_         | Zimmerman, Chapter 8                                         |
