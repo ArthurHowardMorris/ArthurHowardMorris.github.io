@@ -36,7 +36,7 @@ geometry: margin=3cm
 
 - From the viewpoint of Vik-Giger and its subsidiaries taken together, should
    Vik-Giger Corporation manufacture the equipment? 
-   - (a) If it does, where should it sell the equipment to maximize corporate operating income?  
+   - (a) If it does, where should it sell the equipment to maximize corporate operating income?
    - (b) What would the operating income for Vik-Giger and its subsidiaries be from the sale? Ignore any income tax effects.
 
 ## Question 2:
@@ -57,7 +57,7 @@ geometry: margin=3cm
 ## Question 4:
 
 - Now suppose each manager acts autonomously to maximize his or her own
-  subsidiary’s after-tax operating income. The tax authorities will allow
-  transfer prices only between \$500,000 and \$700,000. 
+  subsidiary’s after-tax operating income, and the subsidiaries are given the
+  freedom to negotiate their own transfer price.
   - Which subsidiary will get the product and at what price? 
   - Is your answer the same as your answer in 3? Explain why or why not.
