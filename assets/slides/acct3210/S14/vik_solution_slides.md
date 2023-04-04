@@ -35,11 +35,9 @@ geometry: margin=3cm
 ## Question 1:
 
 - From the viewpoint of Vik-Giger and its subsidiaries taken together, should
-  Vik-Giger Corporation manufacture the equipment? 
-   - (a) If it does, where should it sell the equipment to maximize corporate
-     operating income?
-   - (b) What would the operating income for Vik-Giger and its subsidiaries be
-     from the sale? Ignore any income tax effects.
+   Vik-Giger Corporation manufacture the equipment? 
+   - (a) If it does, where should it sell the equipment to maximize corporate operating income?
+   - (b) What would the operating income for Vik-Giger and its subsidiaries be from the sale? Ignore any income tax effects.
 
 ## Question 1:
 To answer this question just calculate the operating income that Vik-Giger gets in either case. 
@@ -159,18 +157,12 @@ Let's consider our two options.
 | Tax                 | (200,000$\times$.15) |  |                    |           |
 | __V-G ATOI__        | __170,000__          |  |                    |           |
 
-__PTOI: pre-tax operating income, ATOI: after-tax operating income.__
-
 ## Note the following:
 
-1. The Swiss and the headquarters see the same after tax income numbers. The
-   Swiss will prefer lower transfer prices, but the US will not agree, and the
-   tax authorities will not permit it.
+1. The Swiss and the headquarters see the same after tax income numbers. The Swiss will prefer lower transfer prices, but the US will not agree, and the tax authorities will not permit it.
 2. We are ignoring the ability to carry forward tax losses.
-2. The US will agree to produce at this amount (it covers their opportunity
-   cost).
-3. This transfer price moves as much income as possible out of the US into
-   Switzerland.
+2. The US will agree to produce at this amount (it covers their opportunity cost).
+3. This transfer price moves as much income as possible out of the US into Switzerland.
 
 ## Option 2: Sell in the Brazilian Market:
 
@@ -203,16 +195,5 @@ __PTOI: pre-tax operating income, ATOI: after-tax operating income.__
 1. The optimal solution is for the US to get zero income. They will always
    prefer more income than is optimal for the firm.
 2. The Swiss will pay up to 700,000 for the machine, even though it is
-   sub-optimal for the company.
-3. The Brazilians are willing to pay 500,000, and are willing to pay up to 800,000.
-
-## Outcome:
-
-The divisions will choose a price of 700,000. Since this is the price that
-makes the Swiss indifferent and the deal is worth 40,000 to the Brazilians
-we'll assume that the deal goes to the Brazilians.
-
-## Can we remain decentralized?
-
-- Is there a set of rules you can come up with that would get the right outcome?
-
+   sub-optimal for the company. So an auction that is limited to the prices
+   allowed by taxes will not  between 

@@ -3,7 +3,8 @@ output =  vik_slides.html vik_slides_handouts.pdf vik_solution_slides.html vik_s
 all: $(output)
 ## vik_slides.html     : generate html slides
 vik_slides.html: vik_slides.md 
-	pandoc -t revealjs -s vik_slides.md -o vik_slides.html
+	pandoc -t revealjs -s vik_slides.md -o vik_slides.html \
+		-H styles.html --slide-level 3
 	open vik_slides.html
 
 ## vik_slides_handouts : generate pdf handouts 
@@ -12,7 +13,8 @@ vik_slides_handouts.pdf: vik_slides.md
 	open vik_slides_handouts.pdf
 ## vik_solution_slides.html     : generate html slides
 vik_solution_slides.html: vik_solution_slides.md 
-	pandoc -t revealjs -s vik_solution_slides.md -o vik_solution_slides.html
+	pandoc -t revealjs -s vik_solution_slides.md -o vik_solution_slides.html \
+		-H styles.html --slide-level 3
 	open vik_solution_slides.html
 
 ## vik_slides_handouts : generate pdf handouts 
