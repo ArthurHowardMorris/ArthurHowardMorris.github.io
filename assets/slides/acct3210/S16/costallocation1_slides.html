@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Cost Allocation Theory</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+  <style>
+  h3 {
+    font-size: 30px;
+  }
+  tbody {
+    font-size: 15px;
+  }
+  thead {
+    font-size: 25;
+  }
+  </style>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Cost Allocation Theory</h1>
+</section>
+
+<section id="transfer-pricing" class="title-slide slide level2">
+<h2>Transfer pricing</h2>
+<ul>
+<li>Transfer pricing is the process of using a price to facilitate
+decentralized decision making by sharing information and aligning
+incentives within the firm.</li>
+</ul>
+</section>
+
+<section id="transfer-pricing-1" class="title-slide slide level2">
+<h2>Transfer pricing</h2>
+<ul>
+<li>In simple examples like the initial questions in the Vik-Giger case
+it is easy to figure out what the price of a product should be.</li>
+</ul>
+</section>
+
+<section id="transfer-pricing-2" class="title-slide slide level2">
+<h2>Transfer pricing</h2>
+<ul>
+<li>In that case we took for granted that we could easily quantify the
+costs of making the product.</li>
+<li>We also noted that transferring fixed costs (those that do not vary
+with output) is not at all simple.</li>
+</ul>
+</section>
+
+<section id="cost-allocation" class="title-slide slide level2">
+<h2>Cost allocation</h2>
+<ul>
+<li>Cost allocation is the process of connecting the sacrifice of
+resources (often a cash outflow) to the process, product, program, or
+department on behalf of which the resources were sacrificed.</li>
+</ul>
+</section>
+
+<section id="cost-allocation-1" class="title-slide slide level2">
+<h2>Cost allocation</h2>
+<ul>
+<li>We are trying to track who consumed which resources and when.</li>
+<li>We do this for many reasons and in many different contexts, so there
+is no one approach that is better in every situation.</li>
+</ul>
+</section>
+
+<section id="cost-allocation-2" class="title-slide slide level2">
+<h2>Cost allocation</h2>
+<ul>
+<li>Note that transfer pricing requires cost allocation, but not all
+cost allocations are done to support transfer pricing.</li>
+</ul>
+</section>
+
+<section id="which-costs" class="title-slide slide level2">
+<h2>Which costs?</h2>
+<ul>
+<li>We want to track all costs, but cost allocations focus on
+<em>common, indirect, and overhead costs</em> (all related terms)</li>
+<li>We allocate direct costs, well directly to the activities or
+products that consume them.</li>
+</ul>
+</section>
+
+<section id="cost-allocation-3" class="title-slide slide level2">
+<h2>Cost allocation</h2>
+<ul>
+<li>Most costs are direct at some point, and then flow into an area of
+the organization where they become indirect.</li>
+<li>For example, a networking department has many direct costs, but many
+departments access it indirectly.</li>
+</ul>
+</section>
+
+<section>
+<section id="consider-email" class="title-slide slide level2">
+<h2>Consider email</h2>
+<ul>
+<li>we can easily track who uses it.</li>
+<li>we have good information about how much it costs.</li>
+<li>but it is difficult to define the relationship between email use and
+value creation in the design, manufacturing and sales department.</li>
+</ul>
+</section>
+<section id="consider-aspirin" class="slide level3">
+<h3>Consider aspirin</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Cost</th>
+<th style="text-align: right;">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Two aspirin tablets</td>
+<td style="text-align: right;">$ 0.040</td>
+</tr>
+<tr class="even">
+<td>Direct labor</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Physician</td>
+<td style="text-align: right;">$ 1.050</td>
+</tr>
+<tr class="even">
+<td>Pharmacist</td>
+<td style="text-align: right;">$ 1.330</td>
+</tr>
+<tr class="odd">
+<td>Nurse</td>
+<td style="text-align: right;">$ 0.321</td>
+</tr>
+<tr class="even">
+<td>Indirect labor (recordkeeping and orderly)</td>
+<td style="text-align: right;">$ 0.800</td>
+</tr>
+<tr class="odd">
+<td>Cup</td>
+<td style="text-align: right;">$ 0.025</td>
+</tr>
+<tr class="even">
+<td>Shared and shifted costs</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Unreimbursed Medicare</td>
+<td style="text-align: right;">$ 0.450</td>
+</tr>
+<tr class="even">
+<td>Indigent care</td>
+<td style="text-align: right;">$ 0.332</td>
+</tr>
+<tr class="odd">
+<td>Malpractice insurance and uncollectible receivables</td>
+<td style="text-align: right;">$ 0.380</td>
+</tr>
+<tr class="even">
+<td>Excess bed capacity</td>
+<td style="text-align: right;">$ 0.429</td>
+</tr>
+<tr class="odd">
+<td>Other administrative and operating costs</td>
+<td style="text-align: right;">$ 0.688</td>
+</tr>
+<tr class="even">
+<td>Product cost</td>
+<td style="text-align: right;">$ 5.845</td>
+</tr>
+<tr class="odd">
+<td>Hospital overhead costs @ 53.98%</td>
+<td style="text-align: right;">$ 3.16</td>
+</tr>
+<tr class="even">
+<td>Full cost (incl. overhead)</td>
+<td style="text-align: right;">$ 9.000</td>
+</tr>
+<tr class="odd">
+<td>Profit</td>
+<td style="text-align: right;">$ 9.000</td>
+</tr>
+<tr class="even">
+<td>Price (per dose)</td>
+<td style="text-align: right;">$18.000</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="how-to-find-factory-costs" class="slide level3">
+<h3>How to find factory costs</h3>
+<blockquote>
+<p>Indirect expense is one of the most important of all the accounts
+appearing on the books of the manufacturer. Methods of handling its
+[allocation] have given rise to more arguments than the descent of man.
+It is the rock upon which many a ship of industry has been wrecked.</p>
+</blockquote>
+<ul>
+<li>Thompson (1916)</li>
+</ul>
+</section></section>
+<section id="consider-a-manufacturing-firm"
+class="title-slide slide level2">
+<h2>Consider a manufacturing firm</h2>
+<p>May have many different allocation processes for a single
+product.</p>
+<ul>
+<li>Taxes (one set of depreciations, and FC allocations)</li>
+<li>Financial reporting</li>
+<li>Government contracts</li>
+<li>Other contracts</li>
+<li>Internal incentives</li>
+<li>Internal cost control</li>
+</ul>
+</section>
+
+<section id="reasons-to-allocate-costs"
+class="title-slide slide level2">
+<h2>Reasons to allocate costs</h2>
+<ol type="1">
+<li>External reporting</li>
+<li>Taxes</li>
+<li>Cost-based contracts (esp. gov contracting)</li>
+<li>Decision making</li>
+<li>Incentives and accountability (‘control’)</li>
+</ol>
+</section>
+
+<section id="incentiveorganizational-reasons-for-cost-allocations"
+class="title-slide slide level2">
+<h2>Incentive/organizational reasons for cost allocations</h2>
+<ul>
+<li>Cost allocations modify behavior a la <a
+href="https://en.wikipedia.org/wiki/Pigouvian_tax">Pigouvian
+taxes</a></li>
+<li><strong>All cost allocations, like all taxes, modify
+behavior</strong>. They are never neutral.</li>
+</ul>
+</section>
+
+<section id="pigouvian-tax" class="title-slide slide level2">
+<h2>Pigouvian tax</h2>
+<figure>
+<img data-src="pigtax.png" alt="Using a tax to modify behavior" />
+<figcaption aria-hidden="true">Using a tax to modify
+behavior</figcaption>
+</figure>
+</section>
+
+<section id="why-do-we-have-common-costs"
+class="title-slide slide level2">
+<h2>Why do we have common costs?</h2>
+<ul>
+<li>The tax analogy helps us think about why cost allocations might be
+useful.</li>
+<li>But this reasoning doesn’t explain why we are ‘taxing’ aspirin in
+the hospital example.</li>
+<li>Common costs arise when it is less expensive to provide a good or
+service centrally.</li>
+</ul>
+</section>
+
+<section>
+<section id="consider-the-following" class="title-slide slide level2">
+<h2>Consider the following:</h2>
+<ul>
+<li>A firm manufactures spinning hard drives and solid state hard
+drives</li>
+<li>The two divisions share a building but are separate profit
+centers</li>
+<li>Managers are compensated based on profits</li>
+</ul>
+</section>
+<section id="how-do-we-treat-common-costs" class="slide level3">
+<h3>How do we treat common costs?</h3>
+<ul>
+<li>If we deduct common costs from the manager’s profits they will try
+to reduce common costs</li>
+<li>If we do not, then they will demand more of the common
+resources</li>
+<li>What we choose will depend on whether the managers can control their
+consumption of the common costs</li>
+<li>Allocating common costs is widespread, and limits over consumption
+of common resources</li>
+</ul>
+</section></section>
+<section id="what-is-next" class="title-slide slide level2">
+<h2>What is next?</h2>
+<ul>
+<li>For students that missed class on Tuesday there will be a make-up
+solution checking session tonight from 6:30-7:30 in LSK 1026.</li>
+<li>One week from Thursday we will start our discussion of allocation
+methods, starting with insulating vs. non-insulating allocations, and
+moving into chapter 8.</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
