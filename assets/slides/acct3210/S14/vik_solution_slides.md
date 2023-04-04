@@ -51,7 +51,7 @@ To answer this question just calculate the operating income that Vik-Giger gets 
 | Sale in Swiss mkt.              |   950,000   |
 | __Vik-Giger Operating Income:__ | __200,000__ |
 
-_Note that the Swiss department sees this as 750,000 of operating income, and
+_Note that the Swiss department sees this as 700,000 of operating income, and
 the US department sees this as a 500,000 operating loss._
 
 ## __Option 2: Sell to the Brazilians__
@@ -196,4 +196,9 @@ Let's consider our two options.
    prefer more income than is optimal for the firm.
 2. The Swiss will pay up to 700,000 for the machine, even though it is
    sub-optimal for the company. So an auction that is limited to the prices
-   allowed by taxes will not  between 
+   allowed by taxes will not yield the optimal transfer price.
+
+## So what can we do?
+
+- Centralize the choice of transfer price, manufacturing, and sale.
+- Can you think of a set of rules that will produce the correct outcome?
