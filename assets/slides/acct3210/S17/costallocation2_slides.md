@@ -57,7 +57,7 @@ from overconsuming the common resource."_
 A noninsulating method uses a driver that varies with the manager's performance
 measures (e.g. div. operating income)
 
-|                 | Jan. HDD | Jan. SSD | Jan. HHD | Jan. SSD |
+|                 | Jan. HDD | Jan. SSD | Feb. HHD | Feb. SSD |
 |-----------------|----------|----------|----------|----------|
 | Div. Op. Income | \$8,000  | \$8,000  | \$9,000  | \$2,000  |
 | Allocated costs | (800)    | (800)    | (900)    | (200)    |
@@ -70,11 +70,11 @@ This is a tax on operating income.
 An insulating allocation uses a driver that does not vary with the manager's
 performance measures (e.g. floorspace).
 
-|                 | Jan. HDD | Jan. SSD | Jan. HHD | Jan. SSD |
+|                 | Jan. HDD | Jan. SSD | Feb. HHD | Feb. SSD |
 |-----------------|----------|----------|----------|----------|
 | Div. Op. Income | \$8,000  | \$8,000  | \$9,000  | \$2,000  |
 | Allocated costs | (600)    | (400)    | (600)    | (400)    |
-| Net income      | \$7.400  | \$7,600  | \$8,400  | \$1,600  |
+| Net income      | \$7,400  | \$7,600  | \$8,400  | \$1,600  |
 
 ### Allocations in practice
 
@@ -193,16 +193,26 @@ Most firms charge users for depreciation.
 
 ## Cost Allocations at IBM: 
 
-During the 1980s and early 1990s, IBM had the policy of allocating costs from one line of business to another. Managers in those lines of business constantly argued that some of their overhead should be carried by other IBM businesses. 
+During the 1980s and early 1990s, IBM had the policy of allocating costs from
+one line of business to another. Managers in those lines of business constantly
+argued that some of their overhead should be carried by other IBM businesses. 
 
 ## Cost Allocations at IBM: 
-IBM also typically allocated all of the R&D of a new technology to the line of business first using the technology, and subsequent users were able to utilize it for free. 
+
+IBM also typically allocated all of the R&D of a
+new technology to the line of business first using the technology, and
+subsequent users were able to utilize it for free. 
 
 ## Cost Allocations at IBM: 
-This cost allocation system masked the true profitability of many IBM businesses for years. IBM claimed it was making money in its PC business. 
+
+This cost allocation system masked the true profitability of many IBM
+businesses for years. IBM claimed it was making money in its PC business. 
 
 ## Cost Allocations at IBM: 
-But in 1992, "as IBM began to move away from its funny allocation system, IBM disclosed that its PC business was unprofitable." In 2004, IBM sold its PC division to China-based Lenovo Group for \$1.75 billion.
+
+But in 1992, "as IBM began to move away from its funny allocation system, IBM
+disclosed that its PC business was unprofitable." In 2004, IBM sold its PC
+division to China-based Lenovo Group for \$1.75 billion.
 
 ## Allocating service department costs
 
@@ -243,18 +253,22 @@ __Service department costs:__
 
 ### Direct allocation method:
 
-|                                                              | Cars                        | Trucks                      | Total |
-|--------------------------------------------------------------|-----------------------------|-----------------------------|-------|
-| Revised Shares, Direct Allocation Method Telecommunications  | 40%/(40% + 30%) = 4/7       | 30%/(40% + 30%) = 3/7       | 100%  |
-| IT                                                           | 35%/(35% + 25%) = 7/12      | 25%/(35% + 25%) = 5/12      | 100%  |
-| Allocated Costs, Direct Allocation Method Telecommunications | 417 $\times$ \$2 = \$1.143  | 317 $\times$ \$2 = \$0.857  | \$2   |
-| IT                                                           | 7/12 $\times$ \$6 = \$3.500 | 5/12 $\times$ \$6 = \$2.500 | \$6   |
-| Total                                                        | \$4.643                     | \$3.357                     | \$8   |
+| __Revised Shares__ | Cars                   | Trucks                 | Total |
+|--------------------|------------------------|------------------------|-------|
+| Telecoms           | 40%/(40% + 30%) = 4/7  | 30%/(40% + 30%) = 3/7  | 100%  |
+| IT                 | 35%/(35% + 25%) = 7/12 | 25%/(35% + 25%) = 5/12 | 100%  |
+
+ 
+| __Allocated Costs__ | Cars                        | Trucks                      | Total |
+|---------------------|-----------------------------|-----------------------------|-------|
+| IT                  | 7/12 $\times$ \$6 = \$3.500 | 5/12 $\times$ \$6 = \$2.500 | \$6   |
+| Telecoms            | 4/7 $\times$ \$2 = \$1.143  | 3/7 $\times$ \$2 = \$0.857  | \$2   |
+| Total               | \$4.643                     | \$3.357                     | \$8   |
 
 ### Good news, Bad news
 
 - __Good news:__ everything is allocated
-- __Bad news:__ this is not a good estimated of opportunity cost per unit of service
+- __Bad news:__ this is not a good estimate of opportunity cost per unit of service
 
 ### What we know:
 
@@ -299,13 +313,12 @@ It may! In this case the difference in magnitudes is relatively minor.
 |          | Costs to Allocate | IT                          | Cars                            | Trucks                          | Total Alloc. |
 |----------|-------------------|-----------------------------|---------------------------------|---------------------------------|--------------|
 | IT       | \$6               | 5/17 $\times$ \$6 = \$1.765 | 7/17 $\times$ \$6 = \$2.470     | 5/17 $\times$ \$6 = \$ 1.765    | \$4.235      |
-| Telecoms | \$2 + \$1.765     | --                          | 4/7 $\times$ \$3.765 = \$ 2.151 | 317 $\times$ \$3.765 = \$ 1.614 | 3.765        |
+| Telecoms | \$2 + \$1.765     | --                          | 4/7 $\times$ \$3.765 = \$ 2.151 | 317 $\times$ \$3.765 = \$ 1.614 | \$3.765      |
 | Total    |                   |                             | \$4.6210                        | \$3.379                         | \$8.000      |
 
+_costs are in millions._
 
 ## Does the order matter?
-
-### Does the order matter?
 
 ### Does the order matter?
 
@@ -345,9 +358,11 @@ It may! In this case the difference in magnitudes is relatively minor.
 |----------|----------------------------|----------------------------|----------------------------|
 | Telecoms | --                         | --                         | --                         |
 | IT       | --                         | 20% $\times$ 3.000 = 600   | --                         |
-| Cars     | 40% $\times$ 3.000 = 1.200 | 40% $\times$ 3.000 = 1.200 | 40% $\times$ 3.000 = 1.200 |
-| Trucks   | 30% $\times$ 3.000 = 900   | 30% $\times$ 3.000 = 900   | 30% $\times$ 3.000 = 900   |
-| Phones   | 2,100                      | 2.700                      | 2,100                      |
+| Cars     | 40% $\times$ 3,000 = 1,200 | 40% $\times$ 3,000 = 1,200 | 40% $\times$ 3,000 = 1,200 |
+| Trucks   | 30% $\times$ 3,000 = 900   | 30% $\times$ 3,000 = 900   | 30% $\times$ 3,000 = 900   |
+| Phones   | 2,100                      | 2,700                      | 2,100                      |
+
+- _Note: that telecom is always '--' here because we are considering how to allocate it's costs. The in the 'IT first' column the telecom costs already include IT costs._
 
 ### Cost allocated per phone
 
@@ -372,6 +387,16 @@ The order can lead to large changes in the 'tax' on the allocation base!
 | Cars     | 35% $\times$ 12 = 4.2 | 35% $\times$ 12 = 4.2 | 35% $\times$ 12 = 4.2 |
 | Trucks   | 25% $\times$ 12 = 3.0 | 25% $\times$ 12 = 3.0 | 25% $\times$ 12 = 3.0 |
 | Gigs     | 7.2                   | 7.2                   | 10.2                  |
+
+- _Note: that IT is always '--' here because we are considering how to allocate it's costs. The in the 'Telecom first' column the IT costs already include Telecom costs._
+
+### Cost allocated per Gigabyte of Storage
+
+|                        | Direct          | Step, Telecomm first | Step, IT first   |
+|------------------------|-----------------|----------------------|------------------|
+| Cost per gig           | $6/7.2 = $0.833 | $6.44/7.2 = $0.895   | $6/10.2 = $0.588 |
+| Number of gigs in Cars | 4.2             | 4.2                  | 4.2              |
+| IT charged to Cars     | $3.5            | $3.759               | $2.470           |
 
 ##### Cost allocated per Giga of storage (Millions except cost per Gb)
 
