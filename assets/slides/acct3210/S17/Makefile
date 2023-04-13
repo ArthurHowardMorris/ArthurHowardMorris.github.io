@@ -20,7 +20,7 @@ costallocation2_slides_handouts.pdf: costallocation2_slides.md
 .PHONY : push
 push: $(output) costallocation2_slides.md styles.html
 	git add . ; \
-	gc -am "added lecture 17" ; \
+	git commit -am "added lecture 17" ; \
 	git push
 
 ## clean                           : removes output files $(output)
