@@ -18,7 +18,7 @@ costallocation2_slides_handouts.pdf: costallocation2_slides.md
 
 ## push                            : commits changes and pushes to github
 .PHONY : push
-push: $(output) # all # $(output) costallocation2_slides.md styles.html
+push: $(output) $(input) # costallocation2_slides.md styles.html
 	git add . ; \
 	git commit -am "added lecture 17" ; \
 	git push
