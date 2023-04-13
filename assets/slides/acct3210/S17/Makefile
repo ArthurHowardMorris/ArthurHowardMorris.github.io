@@ -4,13 +4,20 @@ all: $(output)
 ## costallocation2_slides.html     : generate html slides
 costallocation2_slides.html: costallocation2_slides.md styles.html
 	pandoc -t revealjs -s costallocation2_slides.md -o costallocation2_slides.html \
-		-H styles.html  --slide-level 3
+		-H styles.html  --slide-level 3 ; \
 	open costallocation2_slides.html
 
 ## costallocation2_slides_handouts : generate pdf handouts 
 costallocation2_slides_handouts.pdf: costallocation2_slides.md 
-	pandoc costallocation2_slides.md -o costallocation2_slides_handouts.pdf 
+	pandoc costallocation2_slides.md -o costallocation2_slides_handouts.pdf ; \
 	open costallocation2_slides_handouts.pdf
+
+## push                            : commits changes and pushes to github
+.PHONY : push
+push: $(output) costallocation2_slides.md styles.html
+	git add . ; \
+	gc -am "added lecture 17" ; \
+	git push
 
 ## clean                           : removes output files $(output)
 .PHONY : clean
