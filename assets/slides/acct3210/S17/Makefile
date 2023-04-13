@@ -3,7 +3,7 @@ output =  costallocation2_slides.html costallocation2_slides_handouts.pdf
 input = costallocation2_slides.md styles.html
 
 .PHONY : all
-all: $(output) $(input) 
+all: $(output) $(input) push
 
 ## costallocation2_slides.html     : generate html slides
 costallocation2_slides.html: costallocation2_slides.md styles.html
