@@ -4,11 +4,12 @@ title: "Cost Allocation in Practice"
 
 # Insulating and non-insulating allocations
 
-### Insulating and non-insulating allocations
+### Allocating common costs
 
-- __Common costs:__ arise when it is less expensive to provide an internal product or service centrally.
-
-- __Consider:__ the two divisions of the hard drive manufacturer (SSD and HHD) share:
+- __Common costs:__ arise when it is less expensive to provide an internal
+  product or service centrally.
+- __Consider:__ the two divisions of the hard drive manufacturer (SSD and HHD)
+  share:
 
 1. building maintenance
 2. grounds
@@ -19,108 +20,226 @@ title: "Cost Allocation in Practice"
 
 1. Should the common costs be allocated to the manufacturing divisions?
 2. If so, how?
-Both profit center managers' compensation is based on accounting profit 1) of their profit center, after deducting any allocated common cost. Hence, cost allocations affect the managers' welfare, and their behavior. If common costs are not allocated, the managers in the two divisions have less incentive to invest in the specialized knowledge necessary to determine the optimum level of the common costs. If the decision rights over the level of common costs do not reside with the managers of the two divisions and the common costs are not allocated back to the two divisions, the division managers will demand more common resources. If these managers individually or collectively have the decision rights over the common resources but are not charged for the common costs, these costs will grow rapidly as the managers invent ways to substitute off-budget common costs for currently consumed inputs included in their budget. For example, security guards are a common cost. Suppose security costs are not charged to either division. The division managers have an incentive to use security guards to perform maintenance or even operate machines, thereby reducing the amount of direct labor charged to each division's budget.
-Most firms allocate common costs, presumably to prevent individual divisions from overconsuming the common resource. The next question becomes choosing an allocation base. Choosing an allocation base causes base to be taxed and, as demonstrated earlier, managers will reduce their consumption of the taxed item. But this creates other incentives. Consider the following illustration.
+
+### Considerations:
+
+1. division managers get paid for their division's accounting profit
+2. cost allocations act like taxes and affect the managers' welfare, and their
+   behavior. 
+3. if allocated, managers will seek to reduce costs by improving processes,
+   cutting corners, or claiming not to need or use the common resource
+4. if not allocated, managers will seek to maximize use of the common resources
+
+### How should we interpret the _status quo_?
+
+_"Most firms allocate common costs, presumably to prevent individual divisions
+from overconsuming the common resource."_
+
+- and yet, forcing firms to adopt cost accounting systems improves their
+  performance, suggesting that _some_ firms may just be using allocations from
+  financial or tax accounting.
+
+### To allocate we need an allocation base:
+
+- Choosing an allocation base is one of the most important topics in all of
+  accounting.
+- To do it you need to analyze processes, data, and incentives.
+- This focus on this critical aspect of accounting is missing from most texts
+  and this course.
+- In this lecture we will consider the consequences of these choices.
+
+## Insulating and non-insulating allocations
+
+- the choice of driver can either insulate the manager's pay from the cost or not.
 
 ### __A. Noninsulating method__
 
-A noninsulating method uses a driver that varies with the manager's performance measures (e.g. div. operating income)
+A noninsulating method uses a driver that varies with the manager's performance
+measures (e.g. div. operating income)
 
 |                 | Jan. HDD | Jan. SSD | Jan. HHD | Jan. SSD |
 |-----------------|----------|----------|----------|----------|
-| Div. Op. Income | \$8,000   | \$8,000   | \$8,000   | \$2,000   |
-| Allocated costs | (500)    | (500)    | (800)    | (200)    |
-| Net income      | \$7.500   | \$7.500   | \$7,200   | \$1,800   |
+| Div. Op. Income | \$8,000  | \$8,000  | \$9,000  | \$2,000  |
+| Allocated costs | (800)    | (800)    | (900)    | (200)    |
+| Net income      | \$7,200  | \$7,200  | \$8,100  | \$1,800  |
 
 This is a tax on operating income. 
 
 ### __B. Insulating method__ 
 
-An insulating allocation uses a driver that does not vary with the manager's performance measures (e.g. floorspace).
+An insulating allocation uses a driver that does not vary with the manager's
+performance measures (e.g. floorspace).
 
 |                 | Jan. HDD | Jan. SSD | Jan. HHD | Jan. SSD |
 |-----------------|----------|----------|----------|----------|
-| Div. Op. Income | \$8,000   | \$8,000   | \$8,000   | \$2,000   |
+| Div. Op. Income | \$8,000  | \$8,000  | \$9,000  | \$2,000  |
 | Allocated costs | (600)    | (400)    | (600)    | (400)    |
-| Net income      | \$7.400   | \$7,600   | \$7,400   | \$1,600   |
+| Net income      | \$7.400  | \$7,600  | \$8,400  | \$1,600  |
 
-# Allocations in practice
+### Allocations in practice
 
-The previous chapter introduced the topic of cost allocations. Cost allocations are pervasive- most organizations, including profit,
-nonbront. service. and manutacturing mrms. allocate costs. cost allocations serve numerous ends such as taxes. inventor nonprofit, service, and manufacturing firms, allocate costs. Cost allocations serve numerous ends such as taxes, inventory valuation, cost-based reimbursements, and decision management and control.
-In terms of creating incentives, cost allocations are like internal tax systems that cause decision makers to use less of the allocation base.
-Thus, the allocation bases chosen (what to tax) affect the consumption of resources inside the firm. Cost allocations also create incentives to cooperate. Finally, noninsulating allocation methods help diversify the risk that managers bear. However, cost allocations can distort the reported performance of managers, divisions, products, and services being allocated the costs.
+- the allocation bases chosen (what to tax) affect the use of
+  resources inside the firm. 
+- cost allocations also create incentives to cooperate.
+- cost allocations can distort reported performance
 
-# Death spiral
+## Death spiral
+- can occur when common costs consist primarily of fixed costs and users have
+  discretion over their use of the product or service
 
-The death spiral results when utilization of a common resource (with significant fixed costs) falls, creating excess capacity. Average (full)
-cost transter pricing charges the users for the common resource. The tixed costs are borne hv the remaining lisers who have incentive to cost transfer pricing charges the users for the common resource. The fixed costs are borne by the remaining users who have incentive to reduce utilization, further raising the average cost and causing additional defections.
-Notice that the death spiral can occur whenever full-cost transfer pricing is used, there are significant fixed costs, and the user has some discretion over the quantity of the common resource to use. As discussed in L Chapter 5, one of the problems with full-cost
-Page 321
-transfer pricing is underutilization of the common resource. Too few units are transferred.
+### Steps in the death spiral:
 
-Managerial Application: Death Spiral in Corporate Jets
-The annual operating cost of a corporate jet ranges between \$40 and \$50 million. Corporate flight departments routinely charge part or all of these costs to those internal departments using the aircraft. Allocating operating costs to internal users allows flight departments to justify the expense of the aircraft to top management, to apportion operating costs according to usage patterns, and to prevent overscheduling. Initially, only the direct operating costs (fuel and landing fees) were charged back to departments using the aircraft, while fixed costs were not (pilot salaries, maintenance costs, hangar rental, and insurance). When firms faced downturns in their business, a popular expense reduction target was to cut corporate jet usage by allocating the fixed costs along with the direct costs of operating the aircraft. Since fixed costs accounted for about 50 percent of the total cost at full utilization, usage rapidly shrank to the point where fixed costs rose to 85 percent of the total allocated cost. Jet usage dropped further, and each flight hour allocated became even more costly, sometimes approaching the cost of chartering a jumbo jet. This example illustrates how the
-"death spiral" arises when substantial fixed costs exist and utilization falls. Fortunately, the term death spiral applies figuratively, and not literally, to corporate jets.
-
-## solution
-
-There are several solutions to the death spiral. When excess capacity exists, users should be charged for only the variable cost of the resource. Alternatively, some of the fixed costs could be excluded from the transfer price. For example, the \$600,000 in fixed costs (accounting depreciation of existing equipment) should be excluded because with excess capacity the opportunity cost of this equipment is zero.
-
-Using practical capacity instead of actual utilization in calculating the overhead rate offers another way to resolve the death spiral. Practical capacity represents the amount of capacity the common resource (e.g., the telephone system) was expected to provide when it was purchased and used under normal operating circumstances. If the phone system was purchased to provide 2.500 phone lines, then 2.500 is the practical capacity.
-
-A caution: if you are not careful, you might use arithmetic to convince yourself that adding new products or services may __decrease fixed costs__. No production decision, other than actually changing the fixed costs themselves, can change fixed costs.
-
-# Allocating capacity cost: depreciation
-
-As seen in the previous section, a death spiral results when a common resource with significant fixed costs and excess capacity is allocated to users who have discretion over utilization of the resource. In the telecommunications example, depreciation of the existing phone system is the principal fixed cost. Not allocating some (or all) of the fixed cost offers one way to reduce the death spiral. For example, allocate only the fixed cost of the capacity actually being used. If 40 percent excess capacity exists, allocate only 60 percent of the depreciation. However, this solution to the death spiral creates other concerns.
-Notice that the death spiral, or underutilization of the common resource, is really a problem of how to use an existing resource. How much of the existing common resource should each user use? If excess capacity exists, any charge discourages its use. However, prior to deciding how to allocate the available capacity among existing users, the firm had to decide how much capacity to acquire. In the previous example, the firm had to decide how large a phone system to buy (how much phone-mail capacity, how many lines, how fast a switch, and so forth).
-The current fixed costs of the phone system (including depreciation) were "variable" costs prior to acquiring the capacity. Accounting depreciation (such as straight line) represents the annual historical cost of acquired capacity. Depreciation is the allocation of the asset's historical cost over time.
-How much capacity should the firm acquire? The future users of that capacity usually have private knowledge of how intensively they will use the common resource. If these users know they will not be charged for their future use because fixed costs are not allocated when excess capacity exists, they will overstate their future use. Therefore, charging accounting depreciation is a commitment device.? Future users, knowing they will be charged for the historical cost of a durable asset, have less incentive to overstate their expected future utilization.
-Allocating accounting depreciation to users commits them to recovering at least the historical cost of the asset.
-In deciding whether to allocate depreciation on the common resource to its users, the firm makes a trade-off between the efficient investment in the common resource and its efficient utilization after acquisition. Charging depreciation helps control the overinvestment problem, but at the expense of underutilizing the asset after acquisition. Most firms charge users for depreciation. Thus, control of the overinvestment problem tends to dominate decision-making errors involving asset utilization (the death spiral). This is another example of how accounting systems tend to favor control when confronted with a choice between control and decision making.
-
-# Allocating service department costs
-
-We now examine a more realistic situation in which a number of service departments exist whose costs are allocated to several operating divisions. L Figure 8-1 illustrates the general case of N service
-Page 326
-departments and M operating divisions. In a manufacturing plant, the service departments consist of purchasing, human resources, security, maintenance, information technology, engineering, and so forth. The operating divisions might be separate product lines or manufacturing functions such as parts manufacturing and assembly lines. In order to compute the manufacturing cost of the final products for inventory valuation, the cost of the service departments must be allocated to the operating divisions. The service departments are like buckets of water that must be emptied into the operating divisions. The arrows indicate the direction of the service flows.
-
-![Allocations from N service departments to M production departments.](/assets/slides/acct3210/S17/alloc.png)
+1. The death spiral occurs when cost allocation reduces utilization of a
+   common resource (with significant fixed costs).
+2. This creates excess capacity.
+3. This increases the allocation rate for the remaining users (increasing
+   the 'tax' rate), which further reduces utilization.
 
 
-### Gettintg this right matters!
+### Death Spiral (not literal) in Corporate Jets
 
-Managerial Application: Cost Allocations at IBM
-During the 1980s and early 1990s, IBM had the policy of allocating costs from one line of business to another. Managers in those lines of business constantly argued that some of their overhead should be carried by other IBM businesses. IBM also typically allocated all of the R&D of a new technology to the line of business first using the technology, and subsequent users were able to utilize it for free. The cost allocation system masked the true profitability of many IBM businesses for years. IBM claimed it was making money in its PC business. But in 1992, "as IBM began to move away from its funny allocation system, IBM disclosed that its PC business was unprofitable." In 2004, IBM sold its PC division to China-based Lenovo Group for \$1.75 billion.
+- The annual operating cost of a corporate jet ranges between \$40 and \$50
+  million. 
+- Corporate flight departments routinely charge part or all of these costs to
+  those internal departments using the aircraft. 
+- Allocating operating costs to internal users allows flight departments to
+  justify the expense of the aircraft to top management, to apportion operating
+  costs according to usage patterns, and to prevent overscheduling. 
+
+### Death Spiral (not literal) in Corporate Jets
+
+- Initially, only the direct operating costs (fuel and landing fees) were
+  charged back to departments using the aircraft, while fixed costs were not
+  (pilot salaries, maintenance costs, hangar rental, and insurance).
+
+These costs are all variable, so no danger (figurative)
+
+### Death Spiral (not literal) in Corporate Jets
+
+- When firms faced downturns in their business, a popular expense reduction
+  target was to cut corporate jet usage by allocating the fixed costs along
+  with the direct costs of operating the aircraft. 
+
+This makes sense, but not we are allocating fixed costs, and managers can
+choose how much to use!
+
+
+### Death Spiral (not literal) in Corporate Jets
+
+- Since fixed costs accounted for about 50 percent of the total cost at __full
+  utilization__, usage rapidly shrank to the point where fixed costs rose to 85
+  percent of the total allocated cost. 
+
+What happens when taxes go up?
+
+### Death Spiral (not literal) in Corporate Jets
+
+
+- Jet usage dropped further, and each flight hour allocated became even more
+  costly, sometimes approaching the cost of chartering a jet. 
+- At this point there is no economy of scale and no reason to produce the
+  service internally!
+
+### Can we avoid this?
+
+- When there is excess capacity only allocate the variable cost of the resource.
+- Alternatively, some of the fixed costs could be excluded from the transfer price.
+- Using practical capacity instead of actual utilization in calculating the overhead rate.
+
+### A caution: 
+
+If you are not careful, you might use arithmetic to convince yourself that adding new products or services may __decrease fixed costs__.
+
+No production decision, other than actually changing the fixed costs themselves, can change fixed costs.
+
+### Allocating capacity cost: depreciation
+
+- Not allocating some (or all) of the fixed cost can reduce the death spiral.
+- For example, allocate only the fixed cost of the capacity actually being used. 
+- If 40 percent excess capacity exists, allocate only 60 percent of the depreciation. 
+- However, this solution to the death spiral creates other concerns.
+
+
+### Allocating capacity cost: depreciation
+
+- How much of the existing common resource should each user use? 
+- The current capacity level was chosen for some reason!
+- If excess capacity exists, any charge discourages its use. 
+- Allocating accounting depreciation to users commits them to recovering at least the historical cost of the asset.
+
+### The trade-off 
+
+When allocating depreciation the firm trades off:
+
+- the efficient investment in the common resource and
+- its efficient utilization after acquisition.
+
+### On one hand... on the other hand:
+
+Charging depreciation helps control the overinvestment problem, but at the
+expense of underutilizing the asset after acquisition. 
+
+Most firms charge users for depreciation.
+
+### Control is the habit of financial accounting systems
+
+- Control of the overinvestment problem tends to dominate decision-making
+  errors involving asset utilization (the death spiral). 
+- This is another example of how accounting systems tend to favor control when
+  confronted with a choice between control and decision making.
+- This doesn't mean that it is the optimal decision.
+
+## Getting this right matters!
+
+## Cost Allocations at IBM: 
+
+During the 1980s and early 1990s, IBM had the policy of allocating costs from one line of business to another. Managers in those lines of business constantly argued that some of their overhead should be carried by other IBM businesses. 
+
+## Cost Allocations at IBM: 
+IBM also typically allocated all of the R&D of a new technology to the line of business first using the technology, and subsequent users were able to utilize it for free. 
+
+## Cost Allocations at IBM: 
+This cost allocation system masked the true profitability of many IBM businesses for years. IBM claimed it was making money in its PC business. 
+
+## Cost Allocations at IBM: 
+But in 1992, "as IBM began to move away from its funny allocation system, IBM disclosed that its PC business was unprofitable." In 2004, IBM sold its PC division to China-based Lenovo Group for \$1.75 billion.
+
+## Allocating service department costs
+
+Now that we're clear on all the things that can go wrong, lets try to do it!
+
+
+### Allocating service department costs
+![Usage flows among N service departments and M production departments.](alloc.png)
 
 ## Example:
 
 __Capacity of service departments used:__
 
-|                    | Telecommunications | IT  | Cars | Trucks | Total |
-|--------------------|--------------------|-----|------|--------|-------|
-| Telecommunications | 10%                | 20% | 40%  | 30%    | 100%  |
-| IT                 | 25%                | 15% | 35%  | 25%    | 100%  |
+|          | Telecoms | IT  | Cars | Trucks | Total |
+|----------|----------|-----|------|--------|-------|
+| Telecoms | 10%      | 20% | 40%  | 30%    | 100%  |
+| IT       | 25%      | 15% | 35%  | 25%    | 100%  |
 
 __Service department costs:__
 
-|--------------------|-----------|
-| Telecommunications | 2,000,000 |
-| IT                 | 6,000,000 |
-| __Total__          | 8,000,000 |
+|           | Cost      |
+|-----------|-----------|
+| Telecoms  | 2,000,000 |
+| IT        | 6,000,000 |
+| __Total__ | 8,000,000 |
 
 ## Direct method
 
-### Service department actual useage allocation:
+### Service dept actual usage allocation:
 
-|                    | Cars               | Trucks             | Total Allocated | Total Cost Incurred | Total Unallocated |
-|--------------------|--------------------|--------------------|-----------------|---------------------|-------------------|
-| Telecommunications | \$O.8              | \$0.6              | \$1.4           | \$2.0               | \$0.6             |
-|                    | (40% $\times$ \$2) | (30% $\times$ \$2) |                 |                     |                   |
-| IT                 | \$2.1              | \$1.5              | \$3.6           | \$6.0               | \$2.4             |
-|                    | (35% $\times$ \$6) | (25% $\times$ \$6) |                 |                     |                   |
-| Total              |                    |                    | \$5.0           | \$8.0               | \$3.0             |
+|          | Cars               | Trucks             | Tot Alloc | Tot Incur | Tot Unalc |
+|----------|--------------------|--------------------|-----------|-----------|-----------|
+| Telecoms | \$O.8              | \$0.6              | \$1.4     | \$2.0     | \$0.6     |
+|          | (40% $\times$ \$2) | (30% $\times$ \$2) |           |           |           |
+| IT       | \$2.1              | \$1.5              | \$3.6     | \$6.0     | \$2.4     |
+|          | (35% $\times$ \$6) | (25% $\times$ \$6) |           |           |           |
+| Total    |                    |                    | \$5.0     | \$8.0     | \$3.0     |
 
 ### Direct allocation method:
 
@@ -134,32 +253,35 @@ __Service department costs:__
 
 ### Good news, Bad news
 
-- __Good news:__ everythin is allocated
-- __Bad news:__ this is not a gooc estimated of opportunity cost per unit of service
+- __Good news:__ everything is allocated
+- __Bad news:__ this is not a good estimated of opportunity cost per unit of service
+
+### What we know:
+
+While we do not know the correct opportunity cost, we do know that the direct
+allocation method excludes the service departments' use of other service
+departments and therefore incorrectly states the opportunity cost of each
+service department.
 
 
+### Step-down method
 
-While we do not know the correct opportunity cost, we do know that the direct allocation method excludes the service departments' use of other service departments and therefore incorrectly states the opportunity cost of each service department.
-
-
-## Step-down method
-
-![The step-down method](/assets/slides/acct3210/S17/step.png)
+![The step-down method](step.png)
 
 ### Step-down shares (start w/ Tele)
 
-|                    | Information Technology      | Cars           | Trucks         | Total |
-|--------------------|-----------------------------|----------------|----------------|-------|
-| Telecommunications | 20%/(20% + 40% + 30%) = 2/9 | 40%/90% = 4/9  | 30%/90% = 1/3  | 100%  |
-| IT                 | --                          | 35%/60% = 7/12 | 25%/60% = 5/12 | 100%  |
+|          | IT                          | Cars           | Trucks         | Total |
+|----------|-----------------------------|----------------|----------------|-------|
+| Telecoms | 20%/(20% + 40% + 30%) = 2/9 | 40%/90% = 4/9  | 30%/90% = 1/3  | 100%  |
+| IT       | --                          | 35%/60% = 7/12 | 25%/60% = 5/12 | 100%  |
 
 ### Step-down allocations
 
-|                    | Costs to Allocate | IT                         | Cars                            | Trucks                          | Total Alloc. |
-|--------------------|-------------------|----------------------------|---------------------------------|---------------------------------|--------------|
-| Telecommunications | \$2               | 2/9 $\times$ \$2 = \$0.444 | 4/9 $\times$ \$2 = \$0.889      | 1/3 $\times$ \$2 = \$0.667      | \$1.556      |
-| IT                 | \$6 + \$0.444     | --                         | 7/12 $\times$ \$6.444 = \$3.759 | 5/12 $\times$ \$6.444 = \$2.685 | \$6.444      |
-| Total              |                   |                            | \$4.648                         | \$3.352                         | \$8.000      |
+|          | Costs to Allocate | IT                         | Cars                            | Trucks                          | Total Alloc. |
+|----------|-------------------|----------------------------|---------------------------------|---------------------------------|--------------|
+| Telecoms | \$2               | 2/9 $\times$ \$2 = \$0.444 | 4/9 $\times$ \$2 = \$0.889      | 1/3 $\times$ \$2 = \$0.667      | \$1.556      |
+| IT       | \$6 + \$0.444     | --                         | 7/12 $\times$ \$6.444 = \$3.759 | 5/12 $\times$ \$6.444 = \$2.685 | \$6.444      |
+| Total    |                   |                            | \$4.648                         | \$3.352                         | \$8.000      |
 
 ### Does the order matter?
 
@@ -167,29 +289,50 @@ It may! In this case the difference in magnitudes is relatively minor.
 
 ### Step-down shares (start w/ IT)
 
-|                    | Telecommunications            | Cars           | Trucks         | Total |
-|--------------------|-------------------------------|----------------|----------------|-------|
-| IT                 | 25%+/(25% + 35% + 25%) = 5/17 | 35%/85% = 7/17 | 25%/85% = 5/17 | 100%  |
-| Telecommunications | --                            | 4/7            | 3/7            | 100%  |
+|          | Telecoms                      | Cars           | Trucks         | Total |
+|----------|-------------------------------|----------------|----------------|-------|
+| IT       | 25%+/(25% + 35% + 25%) = 5/17 | 35%/85% = 7/17 | 25%/85% = 5/17 | 100%  |
+| Telecoms | --                            | 4/7            | 3/7            | 100%  |
 
 ### Step-down allocations
 
-|                    | Costs to Allocate | IT                          | Cars                            | Trucks                          | Total Alloc. |
-|--------------------|-------------------|-----------------------------|---------------------------------|---------------------------------|--------------|
-| IT                 | \$6               | 5/17 $\times$ \$6 = \$1.765 | 7/17 $\times$ \$6 = \$2.470     | 5/17 $\times$ \$6 = \$ 1.765    | \$4.235      |
-| Telecommunications | \$2 + \$1.765     | --                          | 4/7 $\times$ \$3.765 = \$ 2.151 | 317 $\times$ \$3.765 = \$ 1.614 | 3.765        |
-| Total              |                   |                             | \$4.6210                        | \$3.379                         | \$8.000      |
+|          | Costs to Allocate | IT                          | Cars                            | Trucks                          | Total Alloc. |
+|----------|-------------------|-----------------------------|---------------------------------|---------------------------------|--------------|
+| IT       | \$6               | 5/17 $\times$ \$6 = \$1.765 | 7/17 $\times$ \$6 = \$2.470     | 5/17 $\times$ \$6 = \$ 1.765    | \$4.235      |
+| Telecoms | \$2 + \$1.765     | --                          | 4/7 $\times$ \$3.765 = \$ 2.151 | 317 $\times$ \$3.765 = \$ 1.614 | 3.765        |
+| Total    |                   |                             | \$4.6210                        | \$3.379                         | \$8.000      |
 
-### Managerial Application: Hospitals Use Step-Down Allocations
 
-The U.S. Medicare system requires each hospital to file a Medicare Cost Report to get reimbursed for providing health care Page 331 to Medicare patients. To file this report, all cost centers in the hospital (administration, finance, human resources) that supply services to other cost centers and major functional services, such as the emergency department, surgery, and maternity, are ordered in a step-down sequence. Each cost center allocates its cost using an allocation base. For example, nursing administration costs might be allocated using nursing hours or nursing salaries in each functional service. The Medicare Cost Report defines the order of the cost centers to be used in the step-down method but allows each hospital some discretion. For example, administration and general costs are usually allocated last. However, some hospitals move it up in the list. The step-down method allocates the cost of each service center, as well as the costs stepped down to it, to the major functional services. Many hospitals use the data generated by the Medicare Cost Report to set prices and to negotiate third-party contracts.
-SOURCE: M. Muse and B. Amoia, "Step Up to the Step-Down Method," Healthcare Financial Management, May 2006.
+## Does the order matter?
 
-### Transfer pricing
-The costs allocated to Cars and Trucks differ by only \$27,000 depending on whether telecommunications ( Table 8-4) or IT ( Table 8-5) is chosen first. In L Table 8-4, the Cars division is allocated \$4.648 million, and in L Table 8-5 the allocation is \$4.621 million. The difference of \$27,000 is less than 1 percent of the total costs allocated. Therefore, it would appear inconsequential as to whether telecommunications or IT is chosen over the direct allocation method. However, very different incentives result depending on which method is used. Allocated costs represent transfer prices. As we saw in L Chapter 5, transfer pricing affects the quantity of the internal service demanded. If too high a transfer price is set, a death spiral can result when substantial fixed costs exist in the service department.
-To illustrate the effect of the cost allocation method on transfer prices, we expand the telecommunications and IT example. Suppose the allocation base in telecommunications is the number of telephones in each department, and in IT the allocation base is the number of gigabytes of disk space used. Transfer prices are to be established for telephones and gigabytes. Allocated costs will be used to compute the transfer prices. The number of phones and gigabytes are as follows:
+### Does the order matter?
+
+### Does the order matter?
+
+- The costs allocated to Cars and Trucks differ by only \$27,000 depending on whether telecommunications or IT  is chosen first.  
+- The difference of \$27,000 is less than 1 percent of the total costs allocated. 
+
+### Does the order matter?
+
+- However, very different incentives result depending on which method is used. 
+- Allocated costs are taxes, and taxes effect behavior.
+- And these can lead to the __Death Spiral__ if the tax is too high!
+
+### Illustration:
+
+- To illustrate lets expand the telecommunications and IT example. 
+- Suppose the allocation base in telecommunications is the number of telephones in each department, and 
+- in IT the allocation base is the number of gigabytes of disk space used. 
+
+### Illustration:
+
+- Transfer prices are to be established for telephones and gigabytes. 
+- Allocated costs will be used to compute the transfer prices.
+
+### The allocation bases:
 
 |          | Allocation base      |
+|----------|----------------------|
 | Telecomm | 3,000 Telephones     |
 | IT       | 12 million gigabytes |
 
@@ -198,21 +341,21 @@ To illustrate the effect of the cost allocation method on transfer prices, we ex
 ### Cost allocated per phone
 #### Number of phones
 
-|                               | Direct                     | Step, Telecomm first       | Step, IT first             |
-|-------------------------------|----------------------------|----------------------------|----------------------------|
-| Telecommunications            | --                         | --                         | --                         |
-| IT                            | --                         | 20% $\times$ 3.000 = 600   | --                         |
-| Cars                          | 40% $\times$ 3.000 = 1.200 | 40% $\times$ 3.000 = 1.200 | 40% $\times$ 3.000 = 1.200 |
-| Trucks                        | 30% $\times$ 3.000 = 900   | 30% $\times$ 3.000 = 900   | 30% $\times$ 3.000 = 900   |
-| Phones used to allocate costs | 2,100                      | 2.700                      | 2,100                      |
+|          | Direct                     | Step, Telecomm first       | Step, IT first             |
+|----------|----------------------------|----------------------------|----------------------------|
+| Telecoms | --                         | --                         | --                         |
+| IT       | --                         | 20% $\times$ 3.000 = 600   | --                         |
+| Cars     | 40% $\times$ 3.000 = 1.200 | 40% $\times$ 3.000 = 1.200 | 40% $\times$ 3.000 = 1.200 |
+| Trucks   | 30% $\times$ 3.000 = 900   | 30% $\times$ 3.000 = 900   | 30% $\times$ 3.000 = 900   |
+| Phones   | 2,100                      | 2.700                      | 2,100                      |
 
 ### Cost allocated per phone
 
-|                                    | Direct              | Step, Telecomm first | Step, IT first           |
-|------------------------------------|---------------------|----------------------|--------------------------|
-| Cost per phone                     | \$2M/2.100 = \$ 952 | \$2M/2.700 = \$ 741  | \$3.765M/2.100 = \$1.793 |
-| Number of phones in Cars           | 1,200               | 1,200                | 1,200                    |
-| Telecommunications charged to Cars | \$1.143             | \$0.889              | \$ 2.151                 |
+|                          | Direct              | Step, Telecomm first | Step, IT first           |
+|--------------------------|---------------------|----------------------|--------------------------|
+| Cost per phone           | \$2M/2.100 = \$ 952 | \$2M/2.700 = \$ 741  | \$3.765M/2.100 = \$1.793 |
+| Number of phones: Cars   | 1,200               | 1,200                | 1,200                    |
+| Telecoms charged to Cars | \$1.143             | \$0.889              | \$ 2.151                 |
 
 
 ### Does the order matter?
@@ -222,46 +365,73 @@ The order can lead to large changes in the 'tax' on the allocation base!
 ### Cost allocated per Gigabyte of Storage
 #### Number of Gigabytes of Storage
 
-|                             | Direct                | Step, Telecomm first  | Step, IT first        |
-|-----------------------------|-----------------------|-----------------------|-----------------------|
-| Telecommunications          | --                    | --                    | 25% $\times$ 12 = 3.0 |
-| IT                          | --                    | --                    | --                    |
-| Cars                        | 35% $\times$ 12 = 4.2 | 35% $\times$ 12 = 4.2 | 35% $\times$ 12 = 4.2 |
-| Trucks                      | 25% $\times$ 12 = 3.0 | 25% $\times$ 12 = 3.0 | 25% $\times$ 12 = 3.0 |
-| Gigs used to allocate costs | 7.2                   | 7.2                   | 10.2                  |
+|          | Direct                | Step, Telecomm first  | Step, IT first        |
+|----------|-----------------------|-----------------------|-----------------------|
+| Telecoms | --                    | --                    | 25% $\times$ 12 = 3.0 |
+| IT       | --                    | --                    | --                    |
+| Cars     | 35% $\times$ 12 = 4.2 | 35% $\times$ 12 = 4.2 | 35% $\times$ 12 = 4.2 |
+| Trucks   | 25% $\times$ 12 = 3.0 | 25% $\times$ 12 = 3.0 | 25% $\times$ 12 = 3.0 |
+| Gigs     | 7.2                   | 7.2                   | 10.2                  |
 
+##### Cost allocated per Giga of storage (Millions except cost per Gb)
 
+### Consider the impact on behavior:
 
-### Cost allocated per Giga of storage (Millions except cost per Gb)
+- The sequence of service departments in the step-down method changes the costs of each service.
+- Because the cost per phone (which represents the transfer price) varies depending whether or  not it includes IT costs,
+- the cost allocation scheme affects the decision of each department to add or drop phones.
+- The same conclusions hold for the information technology department.
 
-Because the cost per phone (which represents the transfer price) varies depending on the choice of allocation method, the cost allocation scheme affects the decision of each department to add or drop phones. The sequence of service departments in the step-down method affects decision making because the last service department in the sequence reports a larger cost per unit of service. Remember that cost allocations are effectively internal tax schemes. How the taxes are applied affect the "price" decision makers face in deciding to add or drop phones.
-The same conclusions hold for the information technology department. I Table 8-7 presents the equivalent computations for the Page 333
-IT department, including the cost per gigabyte of storage across the various allocation methods. Again, note the wide variation in cost per gigabyte. The cost varies from $0.588 per gigabyte under the step-down method with IT chosen first to $0.895 under the step-down method with telecommunications chosen first. Also, note that the total charged to Cars (the last line) agrees with the previous calculations in L Tables 8-3, L2 8-4, and L 8-5.
-We saw earlier that the various methods of allocating service department costs result in a difference of less than 1 percent of the total costs.
-However, these same methods cause the cost-based transfer prices to vary by more than 140 percent for telephones (I $1,793 ÷ $741] ÷ $741) and more than 50 percent for gigabytes ([$0.895 ÷ $0.5881 ÷ $0.588). Why the discrepancy? Refer back to L Table 8-1. In this example, the Cars division uses roughly equal fractions of the two service departments (57 percent and 58 percent), and the Trucks division uses roughly equal fractions of the service departments (43 percent and 42 percent). Because these fractions are roughly the same in both departments, the total costs allocated to the divisions vary little across the various methods. However, the transfer prices per phone and gigabyte vary dramatically. In general, the allocation methods can yield substantial differences in amounts allocated. The numbers chosen for this example illustrate that transfer prices can vary greatly even when the cost allocation methods have little effect on the total amounts allocated.
+### Does the order matter?
 
+- Note the wide variation in cost per gigabyte. 
+- The cost varies from $0.588 per gigabyte under the step-down method with IT chosen first 
+- to $0.895 under the step-down method with telecommunications chosen first. 
 
+<!-- However, these same methods cause the cost-based transfer prices to vary by more than 140 percent for telephones (I $1,793 ÷ $741] ÷ $741) and more than 50 percent for gigabytes ([$0.895 ÷ $0.5881 ÷ $0.588). Why the discrepancy? Refer back to L Table 8-1. In this example, the Cars division uses roughly equal fractions of the two service departments (57 percent and 58 percent), and the Trucks division uses roughly equal fractions of the service departments (43 percent and 42 percent). Because these fractions are roughly the same in both departments, the total costs allocated to the divisions vary little across the various methods. However, the transfer prices per phone and gigabyte vary dramatically. In general, the allocation methods can yield substantial differences in amounts allocated. The numbers chosen for this example illustrate that transfer prices can vary greatly even when the cost allocation methods have little effect on the total amounts allocated. -->
 
+### The central issues with the step-down method:
 
+- The sequence used is arbitrary and large differences can result in the cost per unit of service using different sequences. 
+- Also, the step-down method ignores the fact that although departments earlier in the sequence use service departments later in the sequence, earlier departments are not allocated these costs.
+- Get this wrong and risk the death spiral.
 
+## Step-Down Allocations and Medicare
 
+### Step-Down Allocations and Medicare
 
+- The U.S. Medicare system requires each hospital to file a Medicare Cost Report to get reimbursed for providing health care to Medicare patients. 
+- To file this report, all cost centers in the hospital (administration, finance, human resources) that supply services to other cost centers and major functional services, such as the emergency department, surgery, and maternity, are ordered in a step-down sequence. 
 
+### Step-Down Allocations and Medicare
 
+- Each cost center allocates its cost using an allocation base. 
+- For example, nursing administration costs might be allocated using nursing hours or nursing salaries in each functional service. 
 
-One criticism of the step-down method is that the sequence used is arbitrary and large differences can result in the cost per unit of service using different sequences. Also, the step-down method ignores the fact that although departments earlier in the sequence use service departments later in the sequence, earlier departments are not allocated these costs.
-The death spiral, described in I section A, can be a significant problem with step-down allocations if the service departments contain
-signiticant amounts ot tixed costs. It transter prices are established for these service denartment costs. then users have incentives to use less significant amounts of fixed costs. If transfer prices are established for these service department costs, then users have incentives to use less of the high-cost service departments. (The high-cost departments are those last in the step-down chain.) As usage falls, total costs do not fall proportionately because of the fixed costs. This causes the costs allocated to the remaining users to rise further, and these users will seek to replace the inside service with outside vendors that offer lower costs.
+### Step-Down Allocations and Medicare
 
+- The Medicare Cost Report defines the order of the cost centers to be used in the step-down method but allows each hospital some discretion.
+- For example, administration and general costs are usually allocated last.
+-However, some hospitals move it up in the list. 
 
-## Reciprocal allocations
+### Step-Down Allocations and Medicare
 
-# Joint costs
+- The step-down method allocates the cost of each service center, as well as the costs stepped down to it, to the major functional services. 
+- Many hospitals use the data generated by the Medicare Cost Report to set prices and to negotiate third-party contracts.
+- __Note that the Medicare system is one of the few parts of the US health system that actually works!__
 
-## Joint costs and the death spiral
+SOURCE: M. Muse and B. Amoia, "Step Up to the Step-Down Method," Healthcare Financial Management, May 2006.
 
-## Net realizable value
+## Next class
 
-## Decision making and control
+We will try to improve on the step-down method. 
+
+<!-- - Reciprocal allocations -->
+<!-- # Joint costs -->
+<!-- ## Joint costs and the death spiral -->
+<!---->
+<!-- ## Net realizable value -->
+<!---->
+<!-- ## Decision making and control -->
 
 
