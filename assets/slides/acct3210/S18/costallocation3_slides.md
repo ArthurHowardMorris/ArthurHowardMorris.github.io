@@ -198,13 +198,13 @@ yields:
 | Total overhead allocated        | 0.000                      | 0.000                      | \$4.629                    | \$3.371                    | \$8.000   |
 
 ### Cost per phone:
-|                              | Telecoms    | IT          | Cars       | Trucks     | Total       |
-| Allocated Telecoms costs (M) | $ 0.448     | $ 0.448     | $1.790     | $1.343     | $ 4.475     |
-| ÷ Number of phones           | 300         | 300         | 1,200      | 900        | 3,000       |
-| __Cost per phone (M)__       | __$ 1,492__ | __$ 1,492__ | __$1,492__ | __$1,492__ | __$ 1.492__ |
-| Allocated IT costs           | $ 2.028     | $ 1.217     | $2.839     | $2.028     | $ 8.111     |
-| - Number of gigabytes (M)    | 3.0         | 1.8         | 4.2        | 3.0        | 12.0        |
-| Cost per gigabyte            | __$ 0.676__ | __$ 0.676__ | __$0.676__ | __$0.676__ | __$ 0.676__ |
+|                              | Telecoms     | IT           | Cars        | Trucks      | Total        |
+| Allocated Telecoms costs (M) | \$ 0.448     | \$ 0.448     | \$1.790     | \$1.343     | \$ 4.475     |
+| ÷ Number of phones           | 300          | 300          | 1,200       | 900         | 3,000        |
+| __Cost per phone (M)__       | __\$ 1,492__ | __\$ 1,492__ | __\$1,492__ | __\$1,492__ | __\$ 1.492__ |
+| Allocated IT costs           | \$ 2.028     | \$ 1.217     | \$2.839     | \$2.028     | \$ 8.111     |
+| - Number of gigabytes (M)    | 3.0          | 1.8          | 4.2         | 3.0         | 12.0         |
+| Cost per gigabyte            | __\$ 0.676__ | __\$ 0.676__ | __\$0.676__ | __\$0.676__ | __\$ 0.676__ |
 
 
 
