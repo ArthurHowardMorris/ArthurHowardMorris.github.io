@@ -247,7 +247,19 @@ To illustrate the analysis of joint products, consider a chicken processor who b
 Management decides to drop chicken wings.
 
 
+### Chickens in the death spiral
 
+|                              | Total  | Fillets | Drumsticks |
+|------------------------------|--------|---------|------------|
+| Cost alloc. on weight        |        |         |
+| Weight                       | 28 oz  | 16 oz   | 12 oz      |
+| %                            | 100%   | 50%     | 37.5%      |
+| Alloc'd cost                 | $2.00  | $1.00   | $0.75      |
+| _Profit_                     |        |         |            |
+| Sales                        | $3.20  | $2.40   | $0.80      |
+| Costs beyond split-off point | (0.84) | (0.80)  | (0.04)     |
+| Joint costs (from above)     | (2.00) | (1.00)  | (0.75)     |
+| Profit (loss) per chicken    | $0.36  | $0.j0   | $0.01      |
 
 
 
