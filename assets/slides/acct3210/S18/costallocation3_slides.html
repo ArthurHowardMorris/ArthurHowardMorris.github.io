@@ -403,8 +403,9 @@ department.</li>
 with IT chosen first</li>
 <li>to $0.895 under the step-down method with telecommunications chosen
 first.</li>
+<li><strong>The step-down method is an example of a sub-optimal status
+quo.</strong></li>
 </ul>
-<!-- However, these same methods cause the cost-based transfer prices to vary by more than 140 percent for telephones (I $1,793 ÷ $741] ÷ $741) and more than 50 percent for gigabytes ([$0.895 ÷ $0.5881 ÷ $0.588). Why the discrepancy? Refer back to L Table 8-1. In this example, the Cars division uses roughly equal fractions of the two service departments (57 percent and 58 percent), and the Trucks division uses roughly equal fractions of the service departments (43 percent and 42 percent). Because these fractions are roughly the same in both departments, the total costs allocated to the divisions vary little across the various methods. However, the transfer prices per phone and gigabyte vary dramatically. In general, the allocation methods can yield substantial differences in amounts allocated. The numbers chosen for this example illustrate that transfer prices can vary greatly even when the cost allocation methods have little effect on the total amounts allocated. -->
 </section>
 <section id="the-central-issues-with-the-step-down-method"
 class="slide level3">
@@ -423,12 +424,12 @@ artificially high tax on the second department.</li>
 <section>
 <section id="the-reciprocal-method" class="title-slide slide level2">
 <h2>The reciprocal method:</h2>
-
-</section>
-<h4
-id="solves-the-problem-by-making-the-allocation-simultaneously">Solves
-the problem by making the allocation simultaneously</h4>
+<ul>
+<li><strong>Solves the problem by making the allocation
+simultaneously</strong></li>
+</ul>
 <p>Start by setting up the equations</p>
+</section>
 <section id="costs-before-allocation" class="slide level3">
 <h3>Costs before allocation:</h3>
 <table>
@@ -542,21 +543,132 @@ class="slide level3">
 class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load symbolic python</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sympy <span class="im">as</span> sp</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># initialize I and T</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>I, T <span class="op">=</span> sp.symbols(<span class="st">&#39;I, T&#39;</span>) </span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># now write the equations</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># - use the comma for &#39;=&#39;</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># - and simplify as little as you like </span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>tel_eq <span class="op">=</span> sp.Eq(</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span> <span class="op">+</span> <span class="fl">.25</span> <span class="op">*</span> I , <span class="fl">.9</span> <span class="op">*</span> T</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>it_eq <span class="op">=</span> sp.Eq(</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span> <span class="op">+</span> <span class="fl">.2</span> <span class="op">*</span> T , <span class="fl">.85</span> <span class="op">*</span> I</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># now ask for a solution</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>solution <span class="op">=</span> sp.solve((tel_eq, it_eq),(I,T))</span></code></pre></div>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>I, T <span class="op">=</span> sp.symbols(<span class="st">&#39;I, T&#39;</span>)</span></code></pre></div>
+</section>
+<section id="now-define-the-equations" class="slide level3">
+<h3>Now define the equations</h3>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># - use the comma for &#39;=&#39;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># - and simplify as little as you like </span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>tel_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span> <span class="op">+</span> <span class="fl">.25</span> <span class="op">*</span> I , <span class="fl">.9</span> <span class="op">*</span> T</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>it_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span> <span class="op">+</span> <span class="fl">.2</span> <span class="op">*</span> T , <span class="fl">.85</span> <span class="op">*</span> I</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</section>
+<section id="now-ask-for-a-solution" class="slide level3">
+<h3>Now ask for a solution</h3>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>solution <span class="op">=</span> sp.solve((tel_eq, it_eq),(I,T))</span></code></pre></div>
 <p>yields:</p>
 <p><code>{I: 8.11188811188811, T: 4.47552447552448}</code></p>
-<!-- - Reciprocal allocations -->
+<ul>
+<li>This approach scales until google starts charging you! And after
+that until you run out of cash :)</li>
+<li>If we really wanted to have fun we could load weights and costs from
+a spreadsheet and do the calculation with matrix notation for hundreds
+of departments.</li>
+</ul>
+</section>
+<section id="service-department-cost-allocation" class="slide level3">
+<h3>Service department cost allocation:</h3>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Consumer:</em></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Provider:</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Costs before allocation</td>
+<td>$2M</td>
+<td>$6M</td>
+<td></td>
+<td></td>
+<td>$8M</td>
+</tr>
+<tr class="odd">
+<td>Telecoms tot. to alloc.</td>
+<td>$(4.475)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>$(4.475)</td>
+</tr>
+<tr class="even">
+<td>Amount allocated from Telecoms:</td>
+<td><span class="math inline">$4.475 × .10 = $.448</span></td>
+<td><span class="math inline">$4.475 × .20 = $.895</span></td>
+<td><span class="math inline">$4.475 × .40 = $1.790</span></td>
+<td><span class="math inline">$4.475 × .30 = $1.34.</span></td>
+<td>$4.475</td>
+</tr>
+<tr class="odd">
+<td>IT tot. to alloc</td>
+<td></td>
+<td>$(8.112)</td>
+<td></td>
+<td></td>
+<td>$(8.112)</td>
+</tr>
+<tr class="even">
+<td>Amount allocated from IT:</td>
+<td><span class="math inline">$8.112 × .25 = $2.028</span></td>
+<td><span class="math inline">$8.112 × .15 = $1.217</span></td>
+<td><span class="math inline">$8.112 × .35 = $2.839</span></td>
+<td><span class="math inline">$8.112 × .25 = $2.028</span></td>
+<td>$8.112</td>
+</tr>
+<tr class="odd">
+<td>Total overhead allocated</td>
+<td>0.000</td>
+<td>0.000</td>
+<td>$4.629</td>
+<td>$3.371</td>
+<td>$8.000</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cost-per-phone" class="slide level3">
+<h3>Cost per phone:</h3>
+<div class="line-block">                             | Telecoms | IT |
+Cars | Trucks | Total |<br />
+Allocated Telecoms costs (M) | $ 0.448 | $ 0.448 | $1.790 | $1.343 | $
+4.475 |<br />
+÷ Number of phones | 300 | 300 | 1,200 | 900 | 3,000 |<br />
+<strong>Cost per phone (M)</strong> | <strong>$ 1,492</strong> |
+<strong>$ 1,492</strong> | <strong>$1,492</strong> | <strong><span
+class="math inline">$1,492__ | __$</span> 1.492</strong> |<br />
+Allocated IT costs | $ 2.028 | $ 1.217 | $2.839 | $2.028 | $ 8.111
+|<br />
+- Number of gigabytes (M) | 3.0 | 1.8 | 4.2 | 3.0 | 12.0 |<br />
+Cost per gigabyte | <strong>$ 0.676</strong> | <strong>$ 0.676</strong>
+| <strong>$0.676</strong> | <strong><span class="math inline">$0.676__ |
+__$</span> 0.676</strong> |</div>
+<div class="line-block"></div>
 <!-- # Joint costs -->
 <!-- ## Joint costs and the death spiral -->
 <!---->

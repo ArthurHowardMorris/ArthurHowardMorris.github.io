@@ -96,8 +96,7 @@ The order can lead to large changes in the 'tax' on the allocation base!
 - Note the wide variation in cost per gigabyte. 
 - The cost varies from $0.588 per gigabyte under the step-down method with IT chosen first 
 - to $0.895 under the step-down method with telecommunications chosen first. 
-
-<!-- However, these same methods cause the cost-based transfer prices to vary by more than 140 percent for telephones (I $1,793 ÷ $741] ÷ $741) and more than 50 percent for gigabytes ([$0.895 ÷ $0.5881 ÷ $0.588). Why the discrepancy? Refer back to L Table 8-1. In this example, the Cars division uses roughly equal fractions of the two service departments (57 percent and 58 percent), and the Trucks division uses roughly equal fractions of the service departments (43 percent and 42 percent). Because these fractions are roughly the same in both departments, the total costs allocated to the divisions vary little across the various methods. However, the transfer prices per phone and gigabyte vary dramatically. In general, the allocation methods can yield substantial differences in amounts allocated. The numbers chosen for this example illustrate that transfer prices can vary greatly even when the cost allocation methods have little effect on the total amounts allocated. -->
+- __The step-down method is an example of a sub-optimal status quo.__
 
 ### The central issues with the step-down method:
 
@@ -108,7 +107,7 @@ The order can lead to large changes in the 'tax' on the allocation base!
 
 ## The reciprocal method:
 
-#### Solves the problem by making the allocation simultaneously 
+- __Solves the problem by making the allocation simultaneously__
 
 Start by setting up the equations
 
@@ -155,8 +154,12 @@ $$ .85I=\$6.0+.20\times T$$
 # load symbolic python
 import sympy as sp
 # initialize I and T
-I, T = sp.symbols('I, T') 
-# now write the equations
+I, T = sp.symbols('I, T')
+```
+
+### Now define the equations
+
+``` python 
 # - use the comma for '='
 # - and simplify as little as you like 
 tel_eq = sp.Eq(
@@ -165,7 +168,12 @@ tel_eq = sp.Eq(
 it_eq = sp.Eq(
     6 + .2 * T , .85 * I
 )
-# now ask for a solution
+```
+
+
+### Now ask for a solution
+
+``` python
 solution = sp.solve((tel_eq, it_eq),(I,T))
 ```
 
@@ -173,7 +181,39 @@ yields:
 
 `{I: 8.11188811188811, T: 4.47552447552448}`
 
-<!-- - Reciprocal allocations -->
+- This approach scales until google starts charging you! And after that until you run out of cash :)
+- If we really wanted to have fun we could load weights and costs from a spreadsheet and do the calculation with matrix notation for hundreds of departments.
+
+
+### Service department cost allocation:
+
+| _Consumer:_                     | Telecoms                   | IT                         | Cars                       | Trucks                     | Total     |
+|---------------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------|
+| _Provider:_                     |                            |                            |                            |                            |           |
+| Costs before allocation         | \$2M                       | \$6M                       |                            |                            | \$8M      |
+| Telecoms tot. to alloc.         | \$(4.475)                  |                            |                            |                            | \$(4.475) |
+| Amount allocated from Telecoms: | $\$4.475\times.10=\$.448$  | $\$4.475\times.20=\$.895$  | $\$4.475\times.40=\$1.790$ | $\$4.475\times.30=\$1.34.$ | \$4.475   |
+| IT  tot. to alloc               |                            | \$(8.112)                  |                            |                            | \$(8.112) |
+| Amount allocated from IT:       | $\$8.112\times.25=\$2.028$ | $\$8.112\times.15=\$1.217$ | $\$8.112\times.35=\$2.839$ | $\$8.112\times.25=\$2.028$ | \$8.112   |
+| Total overhead allocated        | 0.000                      | 0.000                      | \$4.629                    | \$3.371                    | \$8.000   |
+
+### Cost per phone:
+|                              | Telecoms    | IT          | Cars       | Trucks     | Total       |
+| Allocated Telecoms costs (M) | $ 0.448     | $ 0.448     | $1.790     | $1.343     | $ 4.475     |
+| ÷ Number of phones           | 300         | 300         | 1,200      | 900        | 3,000       |
+| __Cost per phone (M)__       | __$ 1,492__ | __$ 1,492__ | __$1,492__ | __$1,492__ | __$ 1.492__ |
+| Allocated IT costs           | $ 2.028     | $ 1.217     | $2.839     | $2.028     | $ 8.111     |
+| - Number of gigabytes (M)    | 3.0         | 1.8         | 4.2        | 3.0        | 12.0        |
+| Cost per gigabyte            | __$ 0.676__ | __$ 0.676__ | __$0.676__ | __$0.676__ | __$ 0.676__ |
+
+
+
+
+
+
+|
+
+
 <!-- # Joint costs -->
 <!-- ## Joint costs and the death spiral -->
 <!---->
