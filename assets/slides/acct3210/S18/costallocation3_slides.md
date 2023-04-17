@@ -129,8 +129,49 @@ $I$ and $T$ are unknown because they include unallocated costs. We need to set u
 - $T$ = Telecom Cost incurred, plus the portion of those costs that Telecom incurred, and the portion of IT that Telecom incurred.
 - The equation is:
 
-$$T = \$ 2M +  2M + 0.10 \times T + 0.25 \times I$$
+$$T = \$ 2M + 0.10 \times T + 0.25 \times I$$
 
+- Notice that the $0.10 \times T$ term is decreasing the amount of $T$ to allocate, and $0.25 \times I$$ is increasing it.
+- The equation simplifies to:
+$$ 0.9\times T =  \$ 2M + 0.25 \times I$$
+$$ T =  \$ 2M/.9 + 0.25/.9 \times I $$
+
+### IT equation:
+
+- $I$ = IT cost incurred, plus the portion of those costs that IT itself incurred, and  the portion of Telecom that IT incurred.
+- The equation is:
+$$ I = \$6.0 + .20\times T + .15 \times I $$
+$$ .85I=\$6.0+.20\times T$$
+- Notice that the  $.15 \times I$ term is decreasing the amount of I to allocate.
+
+### Now algebra :)
+
+- Now we have two equations and two unknowns and we can solve by hand.
+- As a proof of concept now we will use [Google's Colab](https://colab.research.google.com/) platform to solve this
+
+### Pass the following to the colab notebook:
+
+``` python 
+# load symbolic python
+import sympy as sp
+# initialize I and T
+I, T = sp.symbols('I, T') 
+# now write the equations
+# - use the comma for '='
+# - and simplify as little as you like 
+tel_eq = sp.Eq(
+    2 + .25 * I , .9 * T
+)
+it_eq = sp.Eq(
+    6 + .2 * T , .85 * I
+)
+# now ask for a solution
+solution = sp.solve((tel_eq, it_eq),(I,T))
+```
+
+yields:
+
+`{I: 8.11188811188811, T: 4.47552447552448}`
 
 <!-- - Reciprocal allocations -->
 <!-- # Joint costs -->
