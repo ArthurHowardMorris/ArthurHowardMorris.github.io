@@ -34,11 +34,6 @@ Office Hours:
 | L3 | Tue & Thu | 13:30-14:50 | LSK1010 |
 | L1 | Tue & Thu | 16:30-17:50 | LSK1034 |
 
-## Optional Zoom Review Sessions:
-
-- 10 May: Final Exam Review
-- 11 May: Final Exam Review
-
 <!-- ## A Note on COVID 19: -->
 
 <!-- The evolving pandemic may still impact this course. The schedule, locations, and expectations of this course will change if required in order to comply with University policies. The version of the syllabus posted on [the course website](/resources/semesters/s2023/ACCTG3210.html) and Canvas announcements will communicate changes as they are required. -->
@@ -215,19 +210,19 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __15. 28 Mar.__ | __Transfer Pricing: Additional Considerations__              |
 | _Case:_         | __C4:__ Vik-Giger Corporation   _read before class_          |
 | __16. 30 Mar.__ | __Exam paper review__                                        |
-| __17. 4 Apr.__  | __Cost Allocation I__                                        |
+| __17. 4 Apr.__  | __Cost Allocation: Theory                                    |
 | _Read:_         | Zimmerman, Chapter 7                                         |
 | __4 Apr.__      | __Supplementary Exam Solution Review__                       |
 |                 | 6:30 PM - 7:30 PM in LSK 1026                                |
 |                 | __Mid-Term Break__ _No class Thursday and Tuesday._          |
-| __18. 13 Apr.__ | __Cost Allocation II__                                       |
+| __18. 13 Apr.__ | __Cost Allocation: Traditional Practice                      |
 | _Read:_         | Zimmerman, Chapter 8                                         |
-| __19. 18 Apr__  | __Absorption Costing Systems__                               |
+| __19. 18 Apr__  | __Modern Cost Allocation__                                   |
+| _Read:_         | Chapter 8 Appendix A                                         |
+| __20. 20 Apr.__ | __Absorption Costing Systems__                               |
 | _Read:_         | Zimmerman, Chapter 9                                         |
 | _Problems:_     | __P11:__ 9–9 DeJure Scents                                   |
 |                 | __P12:__ 9–24 Kitchen Rite                                   |
-| __20. 20 Apr.__ | __Costing Systems and Decision Making__                      |
-| _Case:_         | __C6:__ Bridgeton Industries                                 |
 | __21. 25 Apr.__ | __Absorption Costing Problems__                              |
 | _Read:_         | Zimmerman, Chapter 10                                        |
 | _Problems:_     | __P13:__ 10–8 Aspen View                                     |
