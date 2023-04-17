@@ -101,9 +101,9 @@ The order can lead to large changes in the 'tax' on the allocation base!
 ### The central issues with the step-down method:
 
 - The sequence used is arbitrary and large differences can result in the cost per unit of service using different sequences. 
-- Also, the step-down method ignores the fact that although departments earlier in the sequence use service departments later in the sequence, earlier departments are not allocated these costs.
 - This creates an artificially low tax on the first department and an artificially high tax on the second department.
 - Get this wrong and risk the death spiral.
+- If you see the step-down method, find out why.
 
 ## The reciprocal method:
 
@@ -207,19 +207,25 @@ yields:
 | ÷ Number of gigabytes (M)    | 3.0          | 1.8          | 4.2         | 3.0         | 12.0         |
 | Cost per gigabyte            | __\$ 0.676__ | __\$ 0.676__ | __\$0.676__ | __\$0.676__ | __\$ 0.676__ |
 
+### Ask why!
 
+> The fact that we observe infrequent use of the reciprocal method suggests
+> that accounting's primary focus is not decision making, but rather some other
+> purpose such as decision control, financial reporting, or taxes. For example,
+> using the step-down method affords managers considerable discretion in the
+> resulting allocated costs because they can select the order of the
+> departments. This discretion can be useful for strategic reasons, for
+> financial reporting, to maximize cost-based reimbursements, or to minimize
+> taxes.
 
+# Joint costs
 
+### Joint costs
 
+![Joint costs](joint.png)
 
-|
+## Joint costs and the death spiral
 
+## Net realizable value
 
-<!-- # Joint costs -->
-<!-- ## Joint costs and the death spiral -->
-<!---->
-<!-- ## Net realizable value -->
-<!---->
-<!-- ## Decision making and control -->
-
-
+## Decision making and control
