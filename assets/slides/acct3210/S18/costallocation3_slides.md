@@ -226,6 +226,34 @@ yields:
 
 ## Joint costs and the death spiral
 
+### Chickens in the death spiral
+
+To illustrate the analysis of joint products, consider a chicken processor who buys live chickens and disassembles them into fillets, wings, and drumsticks. Suppose live chickens cost $1.60 each. The variable cost to process the live chicken into parts is $0.40 per chicken. The joint cost per chicken is then $2. Once the parts are obtained, separate processing is necessary to obtain marketable fillets, drumsticks, and wings. Each separate part must be cleaned, inspected, and packaged, at a cost of $0.80 for fillets, $0.16 for wings, and $0.04 for drumsticks. The split-off point occurs where all joint costs have been incurred. These data and selling prices are displayed in L Table 8-9 along with the joint cost allocations based on weight.
+
+### Chickens in the death spiral
+
+|                              | Total  | Fillets | Drumsticks | Wings   |
+|------------------------------|--------|---------|------------|---------|
+| Cost alloc. on weight        |        |         |            |         |
+| Weight                       | 32 oz  | 16 oz   | 12 oz      | 4 oz    |
+| %                            | 100%   | 50%     | 37.5%      | 12.5%   |
+| Alloc'd cost                 | $2.00  | $1.00   | $0.75      | $ 0.25  |
+| _Profit_                     |        |         |            |         |
+| Sales                        | $3.50  | $2.40   | $0.80      | $ 0.30  |
+| Costs beyond split-off point | (1.00) | (0.80)  | (0.04)     | (0.16)  |
+| Joint costs (from above)     | (2.00) | (1.00)  | (0.75)     | (0.25)  |
+| Profit (loss) per chicken    | $0.50  | $0.60   | $0.01      | $(0.11) |
+
+Management decides to drop chicken wings.
+
+
+
+
+
+
+
+
+kkk
 ## Net realizable value
 
 ## Decision making and control
