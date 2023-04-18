@@ -253,17 +253,17 @@ To illustrate the analysis of joint products, consider a chicken processor who b
 
 ### Chickens in the death spiral
 
-|                              | Total  | Fillets | Drumsticks | Wings   |
-|------------------------------|--------|---------|------------|---------|
-| Cost alloc. on weight        |        |         |            |         |
-| Weight                       | 32 oz  | 16 oz   | 12 oz      | 4 oz    |
-| %                            | 100%   | 50%     | 37.5%      | 12.5%   |
-| Alloc'd cost                 | $2.00  | $1.00   | $0.75      | $ 0.25  |
-| _Profit_                     |        |         |            |         |
-| Sales                        | $3.50  | $2.40   | $0.80      | $ 0.30  |
-| Costs beyond split-off point | (1.00) | (0.80)  | (0.04)     | (0.16)  |
-| Joint costs (from above)     | (2.00) | (1.00)  | (0.75)     | (0.25)  |
-| Profit (loss) per chicken    | $0.50  | $0.60   | $0.01      | $(0.11) |
+|                              | Total  | Fillets | Drumsticks | Wings    |
+|------------------------------|--------|---------|------------|----------|
+| Cost alloc. on weight        |        |         |            |          |
+| Weight                       | 32 oz  | 16 oz   | 12 oz      | 4 oz     |
+| %                            | 100%   | 50%     | 37.5%      | 12.5%    |
+| Alloc'd cost                 | \$2.00 | \$1.00  | \$0.75     | \$ 0.25  |
+| _Profit_                     |        |         |            |          |
+| Sales                        | \$3.50 | \$2.40  | \$0.80     | \$ 0.30  |
+| Costs beyond split-off point | (1.00) | (0.80)  | (0.04)     | (0.16)   |
+| Joint costs (from above)     | (2.00) | (1.00)  | (0.75)     | (0.25)   |
+| Profit (loss) per chicken    | \$0.50 | \$0.60  | \$0.01     | \$(0.11) |
 
 Management decides to drop chicken wings.
 
@@ -275,25 +275,25 @@ Management decides to drop chicken wings.
 | Cost alloc. on weight        |        |         |
 | Weight                       | 28 oz  | 16 oz   | 12 oz      |
 | %                            | 100%   | 57.14%  | 42.9%      |
-| Alloc'd cost                 | $2.00  | $1.14   | $0.86      |
+| Alloc'd cost                 | \$2.00 | \$1.14  | \$0.86     |
 | _Profit_                     |        |         |            |
-| Sales                        | $3.20  | $2.40   | $0.80      |
+| Sales                        | \$3.20 | \$2.40  | \$0.80     |
 | Costs beyond split-off point | (0.84) | (0.80)  | (0.04)     |
 | Joint costs (from above)     | (2.00) | (1.14)  | (0.86)     |
-| Profit (loss) per chicken    | $0.36  | $0.46   | $(0.10)    |
+| Profit (loss) per chicken    | \$0.36 | \$0.46  | \$(0.10)   |
 
 ### Chickens in the death spiral
 
-|                              | Fillets |
-|------------------------------|---------|
-| Weight                       | 16 oz   |
-| %                            | 100%    |
-| Alloc'd cost                 | $2.00   |
-| _Profit_                     |         |
-| Sales                        | $2.40   |
-| Costs beyond split-off point | (0.80)  |
-| Joint costs (from above)     | (2.00)  |
-| Profit (loss) per chicken    | $(0.40) |
+|                              | Fillets  |
+|------------------------------|----------|
+| Weight                       | 16 oz    |
+| %                            | 100%     |
+| Alloc'd cost                 | \$2.00   |
+| _Profit_                     |          |
+| Sales                        | \$2.40   |
+| Costs beyond split-off point | (0.80)   |
+| Joint costs (from above)     | (2.00)   |
+| Profit (loss) per chicken    | \$(0.40) |
 
 ### So what's wrong?
 
