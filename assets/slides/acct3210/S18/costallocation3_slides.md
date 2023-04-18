@@ -130,7 +130,7 @@ $I$ and $T$ are unknown because they include unallocated costs. We need to set u
 
 $$T = \$ 2M + 0.10 \times T + 0.25 \times I$$
 
-- Notice that the $0.10 \times T$ term is decreasing the amount of $T$ to allocate, and $0.25 \times I$$ is increasing it.
+- Notice that the $0.10 \times T$ term is decreasing the amount of $T$ to allocate, and $0.25 \times I$ is increasing it.
 
 ### Now we algebra:
 
