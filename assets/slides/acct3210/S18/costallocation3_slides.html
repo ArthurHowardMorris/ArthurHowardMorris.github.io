@@ -504,6 +504,11 @@ class="math display"><em>T</em> = $2<em>M</em> + 0.10 × <em>T</em>�
 term is decreasing the amount of <span
 class="math inline"><em>T</em></span> to allocate, and <span
 class="math inline">0.25 × <em>I</em></span>$ is increasing it.</li>
+</ul>
+</section>
+<section id="now-we-algebra" class="slide level3">
+<h3>Now we algebra:</h3>
+<ul>
 <li>The equation simplifies to: <span
 class="math display">0.9 × <em>T</em> = $2<em>M</em> + 0.25 × <em>I</em></span>
 <span
@@ -568,6 +573,21 @@ that until you run out of cash :)</li>
 a spreadsheet and do the calculation with matrix notation for hundreds
 of departments.</li>
 </ul>
+</section>
+<section id="add-an-equation-to-illustrate" class="slide level3">
+<h3>add an equation to illustrate:</h3>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>I,T,J <span class="op">=</span> sp.symbols(<span class="st">&#39;I,T,J&#39;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>tel_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span> <span class="op">+</span> <span class="fl">.25</span> <span class="op">*</span> I <span class="op">+</span> <span class="fl">.12</span> <span class="op">*</span> J , <span class="fl">.9</span> <span class="op">*</span> T</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>it_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span> <span class="op">+</span> <span class="fl">.2</span> <span class="op">*</span> T <span class="op">+</span> <span class="fl">.38</span> <span class="op">*</span> J , <span class="fl">.85</span> <span class="op">*</span> I</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>jt_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="fl">.1</span> <span class="op">+</span> <span class="fl">.05</span> <span class="op">*</span> I <span class="op">+</span> <span class="fl">.01</span> <span class="op">*</span> T ,   J</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>solution <span class="op">=</span> sp.solve((tel_eq, it_eq, jt_eq),(I,T,J))</span></code></pre></div>
 </section>
 <section id="service-department-cost-allocation" class="slide level3">
 <h3>Service department cost allocation:</h3>

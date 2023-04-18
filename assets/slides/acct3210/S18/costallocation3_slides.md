@@ -131,6 +131,9 @@ $I$ and $T$ are unknown because they include unallocated costs. We need to set u
 $$T = \$ 2M + 0.10 \times T + 0.25 \times I$$
 
 - Notice that the $0.10 \times T$ term is decreasing the amount of $T$ to allocate, and $0.25 \times I$$ is increasing it.
+
+### Now we algebra:
+
 - The equation simplifies to:
 $$ 0.9\times T =  \$ 2M + 0.25 \times I$$
 $$ T =  \$ 2M/.9 + 0.25/.9 \times I $$
@@ -184,6 +187,21 @@ yields:
 - This approach scales until google starts charging you! And after that until you run out of cash :)
 - If we really wanted to have fun we could load weights and costs from a spreadsheet and do the calculation with matrix notation for hundreds of departments.
 
+### add an equation to illustrate:
+
+``` python
+I,T,J = sp.symbols('I,T,J')
+tel_eq = sp.Eq(
+    2 + .25 * I + .12 * J , .9 * T
+)
+it_eq = sp.Eq(
+    6 + .2 * T + .38 * J , .85 * I
+)
+jt_eq = sp.Eq(
+    .1 + .05 * I + .01 * T ,   J
+)
+solution = sp.solve((tel_eq, it_eq, jt_eq),(I,T,J))
+```
 
 ### Service department cost allocation:
 
