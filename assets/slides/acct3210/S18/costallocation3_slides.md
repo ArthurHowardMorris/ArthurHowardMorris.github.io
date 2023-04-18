@@ -298,7 +298,16 @@ solution = sp.solve((tel_eq, it_eq, jt_eq),(I,T,J))
 
 ### Chickens in the death spiral
 
-To illustrate the analysis of joint products, consider a chicken processor who buys live chickens and disassembles them into fillets, wings, and drumsticks. Suppose live chickens cost $1.60 each. The variable cost to process the live chicken into parts is $0.40 per chicken. The joint cost per chicken is then $2. Once the parts are obtained, separate processing is necessary to obtain marketable fillets, drumsticks, and wings. Each separate part must be cleaned, inspected, and packaged, at a cost of $0.80 for fillets, $0.16 for wings, and $0.04 for drumsticks. The split-off point occurs where all joint costs have been incurred. These data and selling prices are displayed in L Table 8-9 along with the joint cost allocations based on weight.
+- a chicken processor who buys live chickens and disassembles them into fillets, wings, and drumsticks.
+- chickens cost $1.60 each.
+- variable cost to process the chicken into parts is $0.40 per chicken. 
+- The joint cost per chicken is then $2.
+
+### Chickens in the death spiral
+
+- separate processing is necessary to obtain marketable fillets, drumsticks, and wings.
+- cost of $0.80 for fillets, $0.16 for wings, and $0.04 for drumsticks.
+- the split-off point occurs where all joint costs have been incurred.
 
 ### Chickens in the death spiral
 
@@ -331,6 +340,8 @@ Management decides to drop chicken wings.
 | Joint costs (from above)     | (2.00) | (1.14)  | (0.86)     |
 | Profit (loss) per chicken    | \$0.36 | \$0.46  | \$(0.10)   |
 
+Management decides to drop chicken drumsticks.
+
 ### Chickens in the death spiral
 
 |                              | Fillets  |
@@ -343,6 +354,8 @@ Management decides to drop chicken wings.
 | Costs beyond split-off point | (0.80)   |
 | Joint costs (from above)     | (2.00)   |
 | Profit (loss) per chicken    | \$(0.40) |
+
+Management decides that they were vegan all along and start selling cans of air from exotic locations.
 
 ### So what's wrong?
 
