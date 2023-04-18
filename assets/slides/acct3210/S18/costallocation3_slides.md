@@ -206,6 +206,27 @@ jt_eq = sp.Eq(
 solution = sp.solve((tel_eq, it_eq, jt_eq),(I,T,J))
 ```
 
+### `numpy` version that scales
+
+_for this we need a little more organization:_
+
+$$ .25 \times I + .12 \times J - .9 \times T = -2$$
+$$-.85 \times I + .38 \times J + .2 \times T = -6$$
+$$ .05 \times I - J + .01 \times T = -.1$$
+
+_get the constants on the rhs then:_
+``` python
+import numpy as np
+lhs = np.array([
+    [.25,.12,-.9],
+    [-.85,.38,.2],
+    [.05,-1,.01]
+               ])
+rhs = np.array(
+    [-2,-6,-.1]
+)
+```
+
 ### Service department cost allocation:
 
 | _Consumer:_               | Telecoms                   | IT                         | Cars                       | Trucks                     | Total   |
