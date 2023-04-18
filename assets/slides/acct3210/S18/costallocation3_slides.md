@@ -225,6 +225,7 @@ lhs = np.array([
 rhs = np.array(
     [-2,-6,-.1]
 )
+np.linalg.solve(lhs,rhs)
 ```
 
 ### Service department cost allocation:
