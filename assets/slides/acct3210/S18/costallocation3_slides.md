@@ -213,8 +213,7 @@ _for this we need a little more organization:_
 $$ .25 \times I + .12 \times J - .9 \times T = -2$$
 $$-.85 \times I + .38 \times J + .2 \times T = -6$$
 $$ .05 \times I - J + .01 \times T = -.1$$
-
-_get the constants on the rhs then:_
+### then we can load this from a csv, or type the following 
 ``` python
 import numpy as np
 lhs = np.array([
