@@ -184,8 +184,11 @@ yields:
 
 `{I: 8.11188811188811, T: 4.47552447552448}`
 
+### This approach is massively scalable
+
 - This approach scales until google starts charging you! And after that until you run out of cash :)
 - If we really wanted to have fun we could load weights and costs from a spreadsheet and do the calculation with matrix notation for hundreds of departments.
+- Whatever the practice at a company, not knowing the reciprocal allocation is unwise.
 
 ### add an equation to illustrate:
 
