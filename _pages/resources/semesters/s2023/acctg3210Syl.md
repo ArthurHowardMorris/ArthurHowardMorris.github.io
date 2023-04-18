@@ -210,12 +210,12 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __15. 28 Mar.__ | __Transfer Pricing: Additional Considerations__              |
 | _Case:_         | __C4:__ Vik-Giger Corporation   _read before class_          |
 | __16. 30 Mar.__ | __Exam paper review__                                        |
-| __17. 4 Apr.__  | __Cost Allocation: Theory                                    |
+| __17. 4 Apr.__  | __Cost Allocation: Theory__                                  |
 | _Read:_         | Zimmerman, Chapter 7                                         |
 | __4 Apr.__      | __Supplementary Exam Solution Review__                       |
 |                 | 6:30 PM - 7:30 PM in LSK 1026                                |
 |                 | __Mid-Term Break__ _No class Thursday and Tuesday._          |
-| __18. 13 Apr.__ | __Cost Allocation: Traditional Practice                      |
+| __18. 13 Apr.__ | __Cost Allocation: Traditional Practice__                    |
 | _Read:_         | Zimmerman, Chapter 8                                         |
 | __19. 18 Apr__  | __Modern Cost Allocation__                                   |
 | _Read:_         | Chapter 8 Appendix A                                         |
