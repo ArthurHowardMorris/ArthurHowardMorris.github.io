@@ -208,6 +208,51 @@ solution = sp.solve((tel_eq, it_eq, jt_eq),(I,T,J))
 
 ### Service department cost allocation:
 
+| _Consumer:_               | Telecoms                   | IT                         | Cars                       | Trucks                     | Total   |
+|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|---------|
+| _Provider:_               |                            |                            |                            |                            |         |
+| Costs before allocation   | \$2M                       | \$6M                       |                            |                            | \$8M    |
+
+### Service department cost allocation:
+
+| _Consumer:_               | Telecoms                   | IT                         | Cars                       | Trucks                     | Total     |
+|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------|
+| _Provider:_               |                            |                            |                            |                            |           |
+| Costs before allocation   | \$2M                       | \$6M                       |                            |                            | \$8M      |
+| Telecoms tot. to alloc.   | \$(4.475)                  |                            |                            |                            | \$(4.475) |
+
+### Service department cost allocation:
+
+| _Consumer:_                     | Telecoms                   | IT                         | Cars                       | Trucks                     | Total     |
+|---------------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------|
+| _Provider:_                     |                            |                            |                            |                            |           |
+| Costs before allocation         | \$2M                       | \$6M                       |                            |                            | \$8M      |
+| Telecoms tot. to alloc.         | \$(4.475)                  |                            |                            |                            | \$(4.475) |
+| Amount allocated from Telecoms: | $\$4.475\times.10=\$.448$  | $\$4.475\times.20=\$.895$  | $\$4.475\times.40=\$1.790$ | $\$4.475\times.30=\$1.34.$ | \$4.475   |
+
+### Service department cost allocation:
+
+| _Consumer:_                     | Telecoms                   | IT                         | Cars                       | Trucks                     | Total     |
+|---------------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------|
+| _Provider:_                     |                            |                            |                            |                            |           |
+| Costs before allocation         | \$2M                       | \$6M                       |                            |                            | \$8M      |
+| Telecoms tot. to alloc.         | \$(4.475)                  |                            |                            |                            | \$(4.475) |
+| Amount allocated from Telecoms: | $\$4.475\times.10=\$.448$  | $\$4.475\times.20=\$.895$  | $\$4.475\times.40=\$1.790$ | $\$4.475\times.30=\$1.34.$ | \$4.475   |
+| IT  tot. to alloc               |                            | \$(8.112)                  |                            |                            | \$(8.112) |
+
+### Service department cost allocation:
+
+| _Consumer:_                     | Telecoms                   | IT                         | Cars                       | Trucks                     | Total     |
+|---------------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------|
+| _Provider:_                     |                            |                            |                            |                            |           |
+| Costs before allocation         | \$2M                       | \$6M                       |                            |                            | \$8M      |
+| Telecoms tot. to alloc.         | \$(4.475)                  |                            |                            |                            | \$(4.475) |
+| Amount allocated from Telecoms: | $\$4.475\times.10=\$.448$  | $\$4.475\times.20=\$.895$  | $\$4.475\times.40=\$1.790$ | $\$4.475\times.30=\$1.34.$ | \$4.475   |
+| IT  tot. to alloc               |                            | \$(8.112)                  |                            |                            | \$(8.112) |
+| Amount allocated from IT:       | $\$8.112\times.25=\$2.028$ | $\$8.112\times.15=\$1.217$ | $\$8.112\times.35=\$2.839$ | $\$8.112\times.25=\$2.028$ | \$8.112   |
+
+### Service department cost allocation:
+
 | _Consumer:_                     | Telecoms                   | IT                         | Cars                       | Trucks                     | Total     |
 |---------------------------------|----------------------------|----------------------------|----------------------------|----------------------------|-----------|
 | _Provider:_                     |                            |                            |                            |                            |           |
@@ -224,9 +269,13 @@ solution = sp.solve((tel_eq, it_eq, jt_eq),(I,T,J))
 | Allocated Telecoms costs (M) | \$ 0.448     | \$ 0.448     | \$1.790     | \$1.343     | \$ 4.475     |
 | ÷ Number of phones           | 300          | 300          | 1,200       | 900         | 3,000        |
 | __Cost per phone (M)__       | __\$ 1,492__ | __\$ 1,492__ | __\$1,492__ | __\$1,492__ | __\$ 1.492__ |
-| Allocated IT costs           | \$ 2.028     | \$ 1.217     | \$2.839     | \$2.028     | \$ 8.111     |
-| ÷ Number of gigabytes (M)    | 3.0          | 1.8          | 4.2         | 3.0         | 12.0         |
-| Cost per gigabyte            | __\$ 0.676__ | __\$ 0.676__ | __\$0.676__ | __\$0.676__ | __\$ 0.676__ |
+
+### Cost per gig:
+|                           | Telecoms     | IT           | Cars        | Trucks      | Total        |
+|---------------------------|--------------|--------------|-------------|-------------|--------------|
+| Allocated IT costs        | \$ 2.028     | \$ 1.217     | \$2.839     | \$2.028     | \$ 8.111     |
+| ÷ Number of gigabytes (M) | 3.0          | 1.8          | 4.2         | 3.0         | 12.0         |
+| Cost per gigabyte         | __\$ 0.676__ | __\$ 0.676__ | __\$0.676__ | __\$0.676__ | __\$ 0.676__ |
 
 ### Ask why!
 
