@@ -253,19 +253,41 @@ Management decides to drop chicken wings.
 |------------------------------|--------|---------|------------|
 | Cost alloc. on weight        |        |         |
 | Weight                       | 28 oz  | 16 oz   | 12 oz      |
-| %                            | 100%   | 50%     | 37.5%      |
-| Alloc'd cost                 | $2.00  | $1.00   | $0.75      |
+| %                            | 100%   | 57.14%  | 42.9%      |
+| Alloc'd cost                 | $2.00  | $1.14   | $0.86      |
 | _Profit_                     |        |         |            |
 | Sales                        | $3.20  | $2.40   | $0.80      |
 | Costs beyond split-off point | (0.84) | (0.80)  | (0.04)     |
-| Joint costs (from above)     | (2.00) | (1.00)  | (0.75)     |
-| Profit (loss) per chicken    | $0.36  | $0.j0   | $0.01      |
+| Joint costs (from above)     | (2.00) | (1.14)  | (0.86)     |
+| Profit (loss) per chicken    | $0.36  | $0.46   | $(0.10)    |
 
+### Chickens in the death spiral
 
+|                              | Fillets |
+|------------------------------|---------|
+| Weight                       | 16 oz   |
+| %                            | 100%    |
+| Alloc'd cost                 | $2.00   |
+| _Profit_                     |         |
+| Sales                        | $2.40   |
+| Costs beyond split-off point | (0.80)  |
+| Joint costs (from above)     | (2.00)  |
+| Profit (loss) per chicken    | $(0.40) |
 
+### So what's wrong?
 
+- the transfer of 25 cents to wings makes us think that we can avoid these costs if we stop making wings but we cannot
+- the only costs and benefits considered in the decision to process further should be the actual costs and benefits that occur after we process further.
+- consider the opportunity costs! What are the benefits foregone?
 
-kkk
 ## Net realizable value
+- the benefit foregone if we do no process further
+- this is the only metric we should use __when considering elimination of joint products__.
+- other transfer prices may be used to align decisions with company goals.
 
-## Decision making and control
+### Net realizable value
+
+![Cost flow around the split-off point](nrv.png)
+
+The NRV of chicken wings is $\$0.30-\$0.16=\$0.14$
+
