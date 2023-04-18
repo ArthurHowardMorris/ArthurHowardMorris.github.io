@@ -132,7 +132,7 @@ $$T = \$ 2M + 0.10 \times T + 0.25 \times I$$
 
 - Notice that the $0.10 \times T$ term is decreasing the amount of $T$ to allocate, and $0.25 \times I$ is increasing it.
 
-### Now we algebra:
+### Now we algebra a little:
 
 - The equation simplifies to:
 $$ 0.9\times T =  \$ 2M + 0.25 \times I$$
@@ -146,7 +146,7 @@ $$ I = \$6.0 + .20\times T + .15 \times I $$
 $$ .85I=\$6.0+.20\times T$$
 - Notice that the  $.15 \times I$ term is decreasing the amount of I to allocate.
 
-### Now algebra :)
+### Now algebra a little more:
 
 - Now we have two equations and two unknowns and we can solve by hand.
 - As a proof of concept now we will use [Google's Colab](https://colab.research.google.com/) platform to solve this
