@@ -281,12 +281,7 @@ solution = sp.solve((tel_eq, it_eq, jt_eq),(I,T,J))
 
 > _The fact that we observe infrequent use of the reciprocal method suggests
 > that accounting's primary focus is not decision making, but rather some other
-> purpose such as decision control, financial reporting, or taxes. For example,
-> using the step-down method affords managers considerable discretion in the
-> resulting allocated costs because they can select the order of the
-> departments. This discretion can be useful for strategic reasons, for
-> financial reporting, to maximize cost-based reimbursements, or to minimize
-> taxes._ 
+> purpose such as decision control, financial reporting, or taxes.
 
 # Joint costs
 
