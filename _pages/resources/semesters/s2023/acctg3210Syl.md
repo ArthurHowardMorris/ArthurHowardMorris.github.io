@@ -202,41 +202,41 @@ Points on all work will be weighted as shown above and graded as shown here:
 | _Problems:_     | __P10__ 4–18 Rothwell                                        |
 | __12. 16 Mar.__ | __Mid-term Review__                                          |
 |                 | in class.                                                    |
-| __13. 21 Mar.__ | __Midterm__  _No class_                                      |
+| __21 Mar.__     | __Midterm__  _No class_                                      |
 |                 | 1900-2000, in rooms LTD, LTG, and 1103.                      |
 |                 | See Canvas for room assignments.                             |
-| __14. 23 Mar.__ | __Responsibility Accounting and Transfer Pricing__           |
+| __13. 23 Mar.__ | __Responsibility Accounting and Transfer Pricing__           |
 | _Read:_         | Zimmerman, Chapter 5                                         |
-| __15. 28 Mar.__ | __Transfer Pricing: Additional Considerations__              |
+| __14. 28 Mar.__ | __Transfer Pricing: Additional Considerations__              |
 | _Case:_         | __C4:__ Vik-Giger Corporation   _read before class_          |
-| __16. 30 Mar.__ | __Exam paper review__                                        |
-| __17. 4 Apr.__  | __Cost Allocation: Theory__                                  |
+| __15. 30 Mar.__ | __Exam paper review__                                        |
+| __16. 4 Apr.__  | __Cost Allocation: Theory__                                  |
 | _Read:_         | Zimmerman, Chapter 7                                         |
 | __4 Apr.__      | __Supplementary Exam Solution Review__                       |
 |                 | 6:30 PM - 7:30 PM in LSK 1026                                |
 |                 | __Mid-Term Break__ _No class Thursday and Tuesday._          |
-| __18. 13 Apr.__ | __Cost Allocation: Traditional Practice__                    |
+| __17. 13 Apr.__ | __Cost Allocation: Traditional Practice__                    |
 | _Read:_         | Zimmerman, Chapter 8                                         |
-| __19. 18 Apr__  | __Modern Cost Allocation__                                   |
+| __18. 18 Apr__  | __Modern Cost Allocation__                                   |
 | _Read:_         | Chapter 8 Appendix A                                         |
-| __20. 20 Apr.__ | __Absorption Costing Systems__                               |
+| __19. 20 Apr.__ | __Absorption Costing Systems__                               |
 | _Read:_         | Zimmerman, Chapter 9                                         |
 | _Problems:_     | __P11:__ 9–9 DeJure Scents                                   |
 |                 | __P12:__ 9–24 Kitchen Rite                                   |
-| __21. 25 Apr.__ | __Absorption Costing Problems__                              |
+| __20. 25 Apr.__ | __Absorption Costing Problems__                              |
 | _Read:_         | Zimmerman, Chapter 10                                        |
 | _Problems:_     | __P13:__ 10–8 Aspen View                                     |
 |                 | __P14:__ 10–11 Kothari Inc.                                  |
 |                 | __P15:__ 10–17 Navisky                                       |
-| __22. 27 Apr.__ | __ABC__                                                      |
+| __21. 27 Apr.__ | __ABC__                                                      |
 | _Read:_         | Zimmerman, Chapter 11                                        |
 | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         |
-| __23. 2 May.__  | __Budgeting__                                                |
+| __22. 2 May.__  | __Budgeting__                                                |
 | _Read:_         | Zimmerman, Chapter 6                                         |
-| __24. 4 May.__  | __Standard Costs and Variances__                             |
+| __23. 4 May.__  | __Standard Costs and Variances__                             |
 | _Read:_         | Zimmerman, Chapters 12 and 13                                |
 | _Case:_         | __C9:__ LSP Capsules                                         |
-| __25. 9 May.__  | __Final Review__ _in class_                                  |
+| __24. 9 May.__  | __Final Review__ _in class_                                  |
 | 18 May 2023     | __Final Exam__                                               |
 |                 | 4:30 PM to 7:30 PM in the S H Ho Sports Hall.                |
 
