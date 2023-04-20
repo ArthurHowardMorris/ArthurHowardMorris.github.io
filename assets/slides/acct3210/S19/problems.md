@@ -131,6 +131,18 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 |                          |          | $(\$2\times13,000)$ | $(\$3\times13,000)$ |
 | Total costs              | \$73,000 | \$28,000            | \$45,000            |
 
+### Did we learn anything interesting here?
+
+- The technique is relatively straightforward.
+- But what are the \$2.00 and \$3.00 amounts doing?
+
+### But what are the \$2.00 and \$3.00 amounts doing?
+
+- If we are doing tax or financial accounting then they just track the flow of costs through the firm, and link them to revenue. (important but not interesting)
+- What if we are trying to use these numbers to communicate information to internal decision makers?
+- Can we use these numbers to align incentives?
+- What does a cost number communicate if you use it internally?
+- _It should capture the marginal cost of the decision to produce._ Does it?
 
 
 ## Kitchen Rite: Outsourcing and job order costing
