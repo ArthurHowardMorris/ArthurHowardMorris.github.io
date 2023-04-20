@@ -233,6 +233,12 @@ The current cash flows of manufacturing the chassis per unit are:
 | Welding (\$4,300 ÷ 2,000) | 2.15    |
 | Total                     | \$11.00 |
 
+### Are these numbers that we can use?
+
+- For taxes, reporting, and contracting: YES.
+- For the outsourcing decision: NO!
+- These numbers do not communicate information correctly.
+
 ### Cash flows if we outsource
 
 |                                                   |          |
