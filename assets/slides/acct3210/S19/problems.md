@@ -237,7 +237,7 @@ The current cash flows of manufacturing the chassis per unit are:
 
 - For taxes, reporting, and contracting: YES.
 - For the outsourcing decision: NO!
-- These numbers do not communicate information correctly.
+- These numbers do not capture the effect of production choices on cost.
 
 ### Cash flows if we outsource
 
