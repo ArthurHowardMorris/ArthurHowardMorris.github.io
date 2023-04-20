@@ -3,9 +3,27 @@ title: "Absorption costing problems"
 ---
 ## Absorption costing
 
-_link to prev topic_
+### Absorption costing
+
+We allocate costs for several reasons:
+
+- decision management
+- decision control
+- cost-based contracts
+- financial reporting
+- taxes
+
+<!-- note for the future, we need to emphasize that the point of this course is to get people to stop using external numbers for internal decisions. -->
+### Absorption costing: key features
+
+- either directly traces or allocates __all manufacturing costs__ to products
+- differentiates costs for products still in process, finished and sold
+- inherently backward looking
+- useful (and required) for financial accounting
+- inclusion of fix costs requires care if used for decision making
 
 ## DeJure Scents
+
 
 ### Problem details:
 
@@ -28,6 +46,27 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 1. Process costing 
 2. Conversion costs
 3. Equivalent units
+
+
+### Process costing 
+
+- Useful when production is a _process_ that produces identical units.
+- Liquids like petrol, aftershave, perfume, and orange juice are classic examples.
+- We track three batches of product: 
+1. beginning work-in-process inventory, 
+2. units started and finished this period, and 
+3. ending work-in-process inventory.
+
+### Conversion costs
+
+- these are the cost we need to _allocate_
+- capture the cost of __converting__ direct materials into finished goods
+- labor and overhead (these may or may not be fixed)
+
+### Equivalent units
+
+- we use equivalent units to state the amount of completed work in terms of finished units
+- e.g. if three units are one third complete then we have one equivalent unit
 
 ### Setup:
 
@@ -76,6 +115,11 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 | Costs          | \$73,000 | \$28,000        | \$45,000       |
 | per equi. unit |          | \$2.00          | \$3.00         |
 
+### Overhead rate:
+
+- the conversion cost per equivalent unit is where the overhead allocation occurs.
+- adjusting this rate in response to short-term changes in production can cause a death spiral! 
+
 ### Cost of inventory and transfer to finished goods
 
 |                          | Gallons  | E.U Conversion      | E.U. Materials      |
@@ -87,6 +131,8 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 | Total costs              | \$73,000 | \$28,000            | \$45,000            |
 
 
+
+## Kitchen Rite: Outsourcing and job order costing
 
 ### Kitchen Rite
 
