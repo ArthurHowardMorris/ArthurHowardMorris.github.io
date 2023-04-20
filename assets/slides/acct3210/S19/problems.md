@@ -1,6 +1,7 @@
 ---
 title: "Absorption costing problems"
 ---
+
 ## Absorption costing
 
 ### Absorption costing
@@ -212,15 +213,15 @@ The current cash flows of manufacturing the chassis per unit are:
 |                           |         |
 |---------------------------|---------|
 | Direct material           | \$ 4.75 |
-| Direct labor              |         |
+| Direct labor:             |         |
 | Stamping                  | 1.60    |
 | Welding                   | 2.50    |
-| Overhead                  |         |
+| Overhead:                 |         |
 | Stamping                  | 0       |
 | Welding (\$4,300 ÷ 2,000) | 2.15    |
 | Total                     | \$11.00 |
 
-### Cash flows if we out source
+### Cash flows if we outsource
 
 |                                                   |          |
 |---------------------------------------------------|----------|
