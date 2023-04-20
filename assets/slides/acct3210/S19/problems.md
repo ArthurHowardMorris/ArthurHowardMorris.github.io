@@ -134,6 +134,11 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 
 ## Kitchen Rite: Outsourcing and job order costing
 
+### Job order costing
+
+- classic example is shipbuilding
+- products are produced in batches which each require different raw materials and classes of labor
+
 ### Kitchen Rite
 
 Kitchen Rite is considering outsourcing the production of a steel chassis that
