@@ -233,11 +233,6 @@ The current cash flows of manufacturing the chassis per unit are:
 | Welding (\$4,300 ÷ 2,000) | 2.15    |
 | Total                     | \$11.00 |
 
-### Are these numbers that we can use?
-
-- For taxes, reporting, and contracting: YES.
-- For the outsourcing decision: NO!
-- These numbers do not capture the effect of production choices on cost.
 
 ### Cash flows if we outsource
 
@@ -251,3 +246,9 @@ The current cash flows of manufacturing the chassis per unit are:
 ### Recommendation:
 
 __Do not outsource because the net cash flows of outsourcing are lower than continuing to manufacture the chassis internally.__
+
+### Are these numbers that we can use?
+
+- For taxes, reporting, and contracting: YES.
+- For the outsourcing decision: NO!
+- These numbers do not capture the effect of production choices on cost.
