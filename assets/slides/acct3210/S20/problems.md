@@ -305,8 +305,10 @@ conglomerate.
 - He receives a fixed salary and a bonus based on reported accounting earnings. 
 - The bonus is 5 percent of earnings in excess of €850,000 for actual earnings
   between €850,000 and €1,400,000.
-- If actual earnings exceed €1,400,000, the bonus is capped at $27,500 [5\%
-  \times  (1,400,000 - 850,000)]$.
+- If actual earnings exceed €1,400,000, the bonus is capped at: 
+
+$$27,500 [5\% \times  (1,400,000 - 850,000)]$$
+
 - (Earnings, both actual and target, are before taxes.)
 
 ### Navisky: Data
