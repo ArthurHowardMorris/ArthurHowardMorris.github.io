@@ -163,17 +163,20 @@ of producing 5,300 pairs of Peak 32s instead of 4,900 pairs?
 - Assuming that they can sell the 400 pairs of sunglasses in inventory, the
   cost of overproducing is the sum of:
   1. the additional warehousing costs plus
-  2. $400 \times  \$15.50 \times 20\% \times \xi$ where $\xi$ is the fraction of the year the glasses are held until being sold. 
+  2. $400 \times  \$15.50 \times 20\% \times \xi$ where $\xi$ is the fraction
+  of the year the glasses are held until being sold. 
 - This calculation assumes that all of the variable advertising, distribution,
   and selling expenses are incurred when the sunglasses are sold, not
   manufactured. 
+- This illustrates both the overproduction incentive from full absorption
+  costing and the improvement from variable costing.
 
 ## Kothari Inc.
 
-Kothari Inc. The telecom division of Kothari Inc. produces and sells 100,000
+The telecom division of Kothari Inc. produces and sells 100,000
 line modulators. Half of the modulators are sold externally at $150 per unit,
-and the other half are sold internally at variable manufacturing costs plus 10
-percent. Kothari uses variable costing to evaluate the telecom division. The
+and the other half are sold internally at __variable manufacturing costs plus 10
+percent__. Kothari uses variable costing to evaluate the telecom division. The
 following summarizes the cost structure of the telecom division.
 
 |                                   | Var. Cost   |
@@ -191,13 +194,7 @@ following summarizes the cost structure of the telecom division.
 - Calculate the net income of the telecom division (before taxes) using
   variable costing.
 
-### Define Variable Costing:
-
-The key to variable costing is the careful separation of costs that vary with production and those that do not.
-
 ### Q1 Solution (Revenue):
-
-<!--TODO: break out the internal sales rate and external sales rate-->
 
 |                                                 |             |
 |-------------------------------------------------|-------------|
@@ -210,34 +207,33 @@ The key to variable costing is the careful separation of costs that vary with pr
 
 <!-- TODO: break out the variable manu and overhead -->
 
-|                              |             |
-|------------------------------|-------------|
-| Total revenue                | \$9,865,000 |
-| Less:                        |             |
-| Variable manufacturing cost  | \$4,300,000 |
-| Fixed manufacturing overhead | 1,700,000   |
-| Variable period cost         | 1,800,000   |
-| Fixed period cost            | 1,900,000   |
-| Net income                   | \$165,000   |
+|                              |               |
+|------------------------------|---------------|
+| Total revenue                | \$9,865,000   |
+| Less:                        |               |
+| Variable manufacturing cost  | \$4,300,000   |
+| Fixed manufacturing overhead | 1,700,000     |
+| Variable period cost         | 1,800,000     |
+| Fixed period cost            | 1,900,000     |
+| Net income                   | __\$165,000__ |
 	
 ### Q2:
 
 - Telcom can outsource the final assembly of all 100,000 modulators for \$9.00
   per modulator. If it does this, it can reduce variable manufacturing cost by
-  \$1.00 per unit and fixed manufacturing overhead by $700,000. If the managers
+  \$1.00 per unit and fixed manufacturing overhead by \$700,000. If the managers
   of the telecom unit are compensated based on telecom's net income before
   taxes, do you expect them to outsource the final assembly of the modulators?
   Show calculations.
 
 ### Q2: Solution
 
-<!-- TODO: understand each line -->
 
 |                                                             |               |
 |-------------------------------------------------------------|---------------|
 | Revenues:                                                   |               |
 | Internal sales $(50,000 \times  1.1 \times  \$51)$          | \$  2,805,000 |
-| $\$51=\$43+\$9+\$1$                                         |               |
+| $\;\;\$51=\$43+\$9-\$1$                                     |               |
 | External sales $(50,000 \times  \$150)$                     | 7,500,000     |
 | Total revenue                                               | \$10,305,000  |
 | Less:                                                       |               |
