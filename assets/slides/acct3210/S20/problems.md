@@ -66,11 +66,16 @@ Always ask:
 
 
 ## Fourth, The answers are easy, it's the questions that are hard.
--  We have inherited an education system from a world where computers were people (and not nearly as well paid as they should have been).
-- We (educators) used ability to solve complex problems as a measure of ability.
-- You will need to unlearn complexity, this is something that we all get trained for incorrectly.
+-  We have inherited an education system from a world where computers were
+   people (and not nearly as well paid as they should have been).
+- We (educators) used ability to solve complex problems as a measure of
+  ability.
+- You will need to unlearn complexity, this is something that we all get
+  trained for incorrectly.
 
-_The minds that did that work and that will do the work you need to do are not different, but the training, and habits of mind that that you need in order to succeed at it are very different._
+_The minds that did that work and that will do the work you need to do are not
+different, but the training, and habits of mind that that you need in order to
+succeed at it are very different._
 
 ### 10-8 Aspen View
 
@@ -90,6 +95,18 @@ Peak 32 sunglasses. Aspen View uses variable costing to value its ending invento
 | Selling                | 1.20       | 0.90          | 2.10       |
 | Total cost             | \$6.30     | \$18.35       | \$24.65    |
 
+### Variable costing overview:
+
+- _Motivation:_ Solve some of the problems with full absorbtion costsing.
+- Problem 1: Death Spiral (effective)
+- Problem 2: Incentive to overproduce (helps, but doesn't solve)
+
+### Variable costing overview:
+
+- All fixed costs hit income in the year that they are incurred.
+- Fixed costs do not get absorbed into inventory.
+
+
 ### Q1:
 What is Aspen View's ending inventory value of Peak 32 sunglasses?
 
@@ -98,17 +115,17 @@ What is Aspen View's ending inventory value of Peak 32 sunglasses?
 Ending inventory value using variable costing:
 
 Variable costing product cost:
-|                                 |         |
-|---------------------------------|---------|
-| Direct labor                    | \$3.50  |
-| Direct material                 | 7.50    |
-| Variable manufacturing overhead | 4.50    |
-| Total variable cost of product  | \$15.50 |
-| Units produced                  | 5,300   |
-| Units sold                      | 4,900   |
-| Ending inventory                | 400     |
-| × Unit manufacturing cost       | \$15.50 |
-| Ending inventory value          | \$6,200  |
+|                                   |         |
+|-----------------------------------|---------|
+| Direct labor                      | \$3.50  |
+| Direct material                   | 7.50    |
+| Variable manufacturing overhead   | 4.50    |
+| Total variable cost of product    | \$15.50 |
+| Units produced                    | 5,300   |
+| Units sold                        | 4,900   |
+| Ending inventory                  | 400     |
+| $\times$  Unit manufacturing cost | \$15.50 |
+| Ending inventory value            | \$6,200 |
 
 ### Q2:
 
@@ -118,10 +135,10 @@ lower using absorption costing? Explain.
 
 ### Q2: Solution
 
-Income would have been higher had Aspen View used absorption costing.  Under
-absorption costing, some of the fixed manufacturing costs would have been
-allocated to the ending inventory rather than all of them being written off to
-cost of goods sold.
+- Income would have been __higher__ had Aspen View used absorption costing. 
+- Under absorption costing, some of the fixed manufacturing costs would have
+  been allocated to the ending inventory rather than all of them being written
+  off to cost of goods sold.
 
 ### Q3:
 
@@ -132,10 +149,10 @@ larger production? Explain.
 
 ### Q3: Solution
 
-Assuming constant variable cost per unit, income would have been lower.  With
-fewer units produced, less fixed costs would have been allocated to the ending
-inventory under absorption costing.  The preceding statement assumes variable
-cost per unit is constant.
+- Assuming constant variable cost per unit, income would have been lower.
+- With fewer units produced, less fixed costs would have been allocated to the
+  ending inventory under absorption costing. 
+- The preceding statement assumes variable cost per unit is constant.
 
 ### Q4:
 
@@ -144,11 +161,15 @@ of producing 5,300 pairs of Peak 32s instead of 4,900 pairs?
 
 ### Q4: Solution
 
-Assuming that they can sell the 400 pairs of sunglasses in inventory, the cost
-of overproducing is the additional warehousing costs plus 400 × \$15.50 x 20% x
-fraction of the year the glasses are held until being sold.  This calculation
-assumes that all of the variable advertising, distribution, and selling
-expenses are incurred when the sunglasses are sold, not manufactured.
+- Assuming that they can sell the 400 pairs of sunglasses in inventory, the
+  cost of overproducing is the sum of:
+  1. the additional warehousing costs plus
+  2. $400 \times  \$15.50
+  x 20% x fraction of the year the glasses are held until being sold. 
+- This calculation assumes that all of the variable advertising, distribution,
+  and selling expenses are incurred when the sunglasses are sold, not
+  manufactured. 
+
 ## Kothari Inc.
 
 Kothari Inc. The telecom division of Kothari Inc. produces and sells 100,000
@@ -183,8 +204,8 @@ The key to variable costing is the careful separation of costs that vary with pr
 |                                   |             |
 |-----------------------------------|-------------|
 | Revenues:                         |             |
-| Internal sales (50,000 ×1.1×\$43) | \$2,365,000 |
-| External sales (50,000 × \$150)   | 7,500,000   |
+| Internal sales (50,000 \times 1.1\times \$43) | \$2,365,000 |
+| External sales (50,000 \times  \$150)   | 7,500,000   |
 | Total revenue                     | \$9,865,000 |
 
 ### Q1 Solution (Cost):
@@ -217,13 +238,13 @@ The key to variable costing is the careful separation of costs that vary with pr
 |                                                     |               |
 |-----------------------------------------------------|---------------|
 | Revenues:                                           |               |
-| Internal sales (50,000 × 1.1 × \$51)                | \$  2,805,000 |
+| Internal sales (50,000 \times  1.1 \times  \$51)                | \$  2,805,000 |
 | $\$51=\$43+\$9+\$1$                                 |               |
-| External sales (50,000 × \$150)                     | 7,500,000     |
+| External sales (50,000 \times  \$150)                     | 7,500,000     |
 | Total revenue                                       | \$10,305,000  |
 | Less:                                               |               |
-| Outsourcing (100,000 × \$9)                         | \$    900,000 |
-| Variable manufacturing cost (100,00 × (\$43 - \$1)) | 4,200,000     |
+| Outsourcing (100,000 \times  \$9)                         | \$    900,000 |
+| Variable manufacturing cost (100,00 \times  (\$43 - \$1)) | 4,200,000     |
 | Fixed manufacturing overhead                        | 1,000,000     |
 | Variable period cost                                | 1,800,000     |
 | Fixed period cost                                   | 1,900,000     |
@@ -241,9 +262,9 @@ income increases from $165,000 to $505,000.
 
 |                                  |          |
 |----------------------------------|----------|
-| Outsourcing costs ($9 × 100,000) | $900,000 |
+| Outsourcing costs ($9 \times  100,000) | $900,000 |
 | Savings:                         |          |
-| Variable cost ($1 × 100,000)     | -100,000 |
+| Variable cost ($1 \times  100,000)     | -100,000 |
 | Fixed manufacturing overhead     | -700,000 |
 | Net loss from outsourcing        | $100,000 |
 
@@ -273,7 +294,7 @@ conglomerate. Andreas Hoffman, president of Navisky, expects to retire next
 year. He receives a fixed salary and a bonus based on reported accounting
 earnings. The bonus is 5 percent of earnings in excess of €850,000 for actual
 earnings between €850,000 and €1,400,000. If actual earnings exceed €1,400,000,
-the bonus is capped at €27,500 [5% × (€1,400,000 - €850,000)]. (Earnings, both
+the bonus is capped at €27,500 [5% \times  (€1,400,000 - €850,000)]. (Earnings, both
 actual and target, are before taxes.)
 
 The following data summarize Navisky's current operations (in euros).
