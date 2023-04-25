@@ -261,13 +261,13 @@ income increases from $165,000 to $505,000.
 
 ### Q4: Solution
 
-|                                          |          |
-|------------------------------------------|----------|
-| Outsourcing costs $($9 \times  100,000)$ | $900,000 |
-| Savings:                                 |          |
-| Variable cost $($1 \times  100,000)$     | -100,000 |
-| Fixed manufacturing overhead             | -700,000 |
-| Net loss from outsourcing                | $100,000 |
+|                                           |           |
+|-------------------------------------------|-----------|
+| Outsourcing costs $(\$9 \times  100,000)$ | \$900,000 |
+| Savings:                                  |           |
+| Variable cost $(\$1 \times  100,000)$     | -100,000  |
+| Fixed manufacturing overhead              | -700,000  |
+| Net loss from outsourcing                 | \$100,000 |
 
 ### Are there alternatives?
 
@@ -278,25 +278,38 @@ income increases from $165,000 to $505,000.
 ## Naviski
 
 Navisky designs, manufactures, and sells specialized GPS (global positioning
-system) devices for commercial applications. For example, Navisky currently
-sells a system for environmental studies and is planning systems for private
-aviation and fleet management. The firm has a design team that identifies
-potential commercial GPS applications and then designs and develops prototypes.
-Once a prototype is deemed successful and senior management determines that a
-market exists for the new application, the new design is put into production,
-and the firm markets the new product through independent salespeople, direct
-marketing, trade shows, or whatever channel is most appropriate for that
-market.
+system) devices for commercial applications.
+
+### Navisky
+
+- For example, Navisky currently sells a system for environmental studies and
+  is planning systems for private aviation and fleet management. The firm has a
+  design team that identifies potential commercial GPS applications and then
+  designs and develops prototypes.
+- Once a prototype is deemed successful and senior management determines that a
+  market exists for the new application, the new design is put into production,
+  and the firm markets the new product through independent salespeople, direct
+  marketing, trade shows, or whatever channel is most appropriate for that
+  market.
+
+### Navisky
 
 Currently, Navisky has one very successful system in production (for
 environmental studies) and several others in development. Navisky, located in
 Austria, is one of nine wholly owned subsidiaries of a large Swiss
-conglomerate. Andreas Hoffman, president of Navisky, expects to retire next
-year. He receives a fixed salary and a bonus based on reported accounting
-earnings. The bonus is 5 percent of earnings in excess of €850,000 for actual
-earnings between €850,000 and €1,400,000. If actual earnings exceed €1,400,000,
-the bonus is capped at $€27,500 [5% \times  (€1,400,000 - €850,000)]$. (Earnings, both
-actual and target, are before taxes.)
+conglomerate.
+
+### Navisky: Incentives
+
+- Andreas Hoffman, president of Navisky, expects to retire next year. 
+- He receives a fixed salary and a bonus based on reported accounting earnings. 
+- The bonus is 5 percent of earnings in excess of €850,000 for actual earnings
+  between €850,000 and €1,400,000.
+- If actual earnings exceed €1,400,000, the bonus is capped at $€27,500 [5%
+  \times  (€1,400,000 - €850,000)]$.
+- (Earnings, both actual and target, are before taxes.)
+
+### Navisky: Data
 
 The following data summarize Navisky's current operations (in euros).
 
