@@ -230,15 +230,16 @@ Points on all work will be weighted as shown above and graded as shown here:
 |                 | __P15:__ 10–17 Navisky                                       |
 | __21. 27 Apr.__ | __ABC__                                                      |
 | _Read:_         | Zimmerman, Chapter 11                                        |
-| _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         |
 | __22. 2 May.__  | __Budgeting__                                                |
 | _Read:_         | Zimmerman, Chapter 6                                         |
 | __23. 4 May.__  | __Standard Costs and Variances__                             |
 | _Read:_         | Zimmerman, Chapters 12 and 13                                |
-| _Case:_         | __C9:__ LSP Capsules                                         |
 | __24. 9 May.__  | __Final Review__ _in class_                                  |
 | 18 May 2023     | __Final Exam__                                               |
 |                 | 4:30 PM to 7:30 PM in the S H Ho Sports Hall.                |
+
+<!-- | _Case:_         | __C9:__ LSP Capsules                                         | -->
+<!-- | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         | -->
 
 ### Acknowledgements:
 
