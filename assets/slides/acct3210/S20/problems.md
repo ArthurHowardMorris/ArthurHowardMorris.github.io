@@ -199,12 +199,12 @@ The key to variable costing is the careful separation of costs that vary with pr
 
 <!--TODO: break out the internal sales rate and external sales rate-->
 
-|                                   |             |
-|-----------------------------------|-------------|
-| Revenues:                         |             |
-| Internal sales (50,000 \times 1.1\times \$43) | \$2,365,000 |
-| External sales (50,000 \times  \$150)   | 7,500,000   |
-| Total revenue                     | \$9,865,000 |
+|                                                 |             |
+|-------------------------------------------------|-------------|
+| Revenues:                                       |             |
+| Internal sales $(50,000 \times 1.1\times \$43)$ | \$2,365,000 |
+| External sales $(50,000 \times  \$150)$         | 7,500,000   |
+| Total revenue                                   | \$9,865,000 |
 
 ### Q1 Solution (Cost):
 
@@ -233,20 +233,20 @@ The key to variable costing is the careful separation of costs that vary with pr
 
 <!-- TODO: understand each line -->
 
-|                                                     |               |
-|-----------------------------------------------------|---------------|
-| Revenues:                                           |               |
-| Internal sales (50,000 \times  1.1 \times  \$51)                | \$  2,805,000 |
-| $\$51=\$43+\$9+\$1$                                 |               |
-| External sales (50,000 \times  \$150)                     | 7,500,000     |
-| Total revenue                                       | \$10,305,000  |
-| Less:                                               |               |
-| Outsourcing (100,000 \times  \$9)                         | \$    900,000 |
-| Variable manufacturing cost (100,00 \times  (\$43 - \$1)) | 4,200,000     |
-| Fixed manufacturing overhead                        | 1,000,000     |
-| Variable period cost                                | 1,800,000     |
-| Fixed period cost                                   | 1,900,000     |
-| Net income                                          | \$   505,000  |
+|                                                             |               |
+|-------------------------------------------------------------|---------------|
+| Revenues:                                                   |               |
+| Internal sales $(50,000 \times  1.1 \times  \$51)$          | \$  2,805,000 |
+| $\$51=\$43+\$9+\$1$                                         |               |
+| External sales $(50,000 \times  \$150)$                     | 7,500,000     |
+| Total revenue                                               | \$10,305,000  |
+| Less:                                                       |               |
+| Outsourcing $(100,000 \times  \$9)$                         | \$    900,000 |
+| Variable manufacturing cost $(100,00 \times  (\$43 - \$1))$ | 4,200,000     |
+| Fixed manufacturing overhead                                | 1,000,000     |
+| Variable period cost                                        | 1,800,000     |
+| Fixed period cost                                           | 1,900,000     |
+| Net income                                                  | \$   505,000  |
 
 The Telecom managers face a strong incentive to outsource because their net
 income increases from $165,000 to $505,000.
@@ -258,13 +258,13 @@ income increases from $165,000 to $505,000.
 
 ### Q4: Solution
 
-|                                  |          |
-|----------------------------------|----------|
-| Outsourcing costs ($9 \times  100,000) | $900,000 |
-| Savings:                         |          |
-| Variable cost ($1 \times  100,000)     | -100,000 |
-| Fixed manufacturing overhead     | -700,000 |
-| Net loss from outsourcing        | $100,000 |
+|                                          |          |
+|------------------------------------------|----------|
+| Outsourcing costs $($9 \times  100,000)$ | $900,000 |
+| Savings:                                 |          |
+| Variable cost $($1 \times  100,000)$     | -100,000 |
+| Fixed manufacturing overhead             | -700,000 |
+| Net loss from outsourcing                | $100,000 |
 
 ### Are there alternatives?
 
@@ -292,7 +292,7 @@ conglomerate. Andreas Hoffman, president of Navisky, expects to retire next
 year. He receives a fixed salary and a bonus based on reported accounting
 earnings. The bonus is 5 percent of earnings in excess of €850,000 for actual
 earnings between €850,000 and €1,400,000. If actual earnings exceed €1,400,000,
-the bonus is capped at €27,500 [5% \times  (€1,400,000 - €850,000)]. (Earnings, both
+the bonus is capped at $€27,500 [5% \times  (€1,400,000 - €850,000)]$. (Earnings, both
 actual and target, are before taxes.)
 
 The following data summarize Navisky's current operations (in euros).
