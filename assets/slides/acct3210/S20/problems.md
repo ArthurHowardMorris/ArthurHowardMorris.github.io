@@ -54,7 +54,7 @@ Always ask:
   that has different needs and thus might trick us?
 - This is the point of the current discussion of decision making.
 
-## Third, The answers are easy, it's the questions that are hard.
+## Fourth, The answers are easy, it's the questions that are hard.
 
 - You've been trained to answer questions, but that is the easy part, the part
   that can be automated. 
@@ -65,7 +65,7 @@ Always ask:
   trivially solve any well structured problem.
 
 
-## Third, The answers are easy, it's the questions that are hard.
+## Fourth, The answers are easy, it's the questions that are hard.
 -  We have inherited an education system from a world where computers were people (and not nearly as well paid as they should have been).
 - We (educators) used ability to solve complex problems as a measure of ability.
 - You will need to unlearn complexity, this is something that we all get trained for incorrectly.
