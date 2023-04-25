@@ -164,7 +164,10 @@ of producing 5,300 pairs of Peak 32s instead of 4,900 pairs?
   cost of overproducing is the sum of:
   1. the additional warehousing costs plus
   2. $400 \times  \$15.50 \times 20\% \times \xi$ where $\xi$ is the fraction
-  of the year the glasses are held until being sold. 
+  of the year the glasses are held until being sold.
+
+### Q4: Solution 
+
 - This calculation assumes that all of the variable advertising, distribution,
   and selling expenses are incurred when the sunglasses are sold, not
   manufactured. 
@@ -325,13 +328,17 @@ The following data summarize Navisky's current operations (in euros).
 | Total                             | 4,700,000          | 680                 |
 | Selling price unit                | 5,500              |                     |
 
+### Navisky: Data
+
 Senior management at Navisky, including Mr. Hoffman, expects to sell about
 1,200 units of the environmental GPS device this year. However, they have
-considerable discretion in setting production levels. Their plant has excess
+considerable discretion in setting production levels. __Their plant has excess
 capacity and can produce up to 1,500 environmental devices without seeing any
-increase in the variable manufacturing costs per unit.
+increase in the variable manufacturing costs per unit.__
 
-Navisky uses a traditional absorption costing system to absorb manufacturing
+### Navisky: Data
+
+Navisky uses a __traditional absorption costing system__ to absorb manufacturing
 overhead into product costs for inventory valuation and to calculate earnings
 for internal compensation purposes as well as external reporting. At the
 beginning of the current fiscal year, there was no beginning inventory of the
@@ -343,6 +350,7 @@ How many units of the environmental GPS device would Mr. Hoffman like to see
 Navisky produce if he expects to sell 1,200 devices this year?
 
 ### Q1: Solution
+
 |                                        |             |             |             |             |
 |----------------------------------------|-------------|-------------|-------------|-------------|
 | Production                             | 1200        | 1300        | 1350        | 1360        |
@@ -350,6 +358,13 @@ Navisky produce if he expects to sell 1,200 devices this year?
 | Cost of goods sold:                    |             |             |             |             |
 | Variable mfg cost                      | (456,000)   | (456,000)   | (456,000)   | (456,000)   |
 | Fixed mfg overhead                     | (2,700,000) | (2,492,308) | (2,400,000) | (2,382,353) |
+
+_this is the classic absorption costing problem_
+
+### Q1: Solution
+
+|                                        |             |             |             |             |
+|----------------------------------------|-------------|-------------|-------------|-------------|
 | Period costs:                          |             |             |             |             |
 | Development costs                      | (900,000)   | (900,000)   | (900,000)   | (900,000)   |
 | Fixed Selling and administration costs | (1,100,000) | (1,100,000) | (1,100,000) | (1,100,000) |
@@ -358,8 +373,10 @@ Navisky produce if he expects to sell 1,200 devices this year?
 |                                        |             |             |             |             |
 | Bonus                                  | €11,700     | €22,084     | €26,700     | €27,500     |
 
+### Q1: Solution
+
 Mr. Hoffman, because he expects to retire next year and hence will not have to
-deal with any excess inventory, has an incentive to over produce.  The table
+deal with any excess inventory, has an __incentive to over produce__.  The table
 below indicates that given sales of 1200 units Mr. Hoffman would like to
 produce about 1,360 units.  At 1,360 units, expected earnings are about
 €1,401,647, or just above the bonus cap of €1,400,000.  So to maximize his
@@ -368,8 +385,8 @@ expects to sell.
 
 ### Q2:
 
-Suppose Mr. Hoffman's bonus calculation was based on net income after including
-a charge for inventory holding costs at 20 percent of the ending inventory
+Suppose Mr. Hoffman's bonus calculation was __based on net income after including
+a charge for inventory holding__ costs at 20 percent of the ending inventory
 value. In other words, his bonus is 5 percent of net income in excess of
 \$850,000 up to \$1,400,000 where net income includes a 20 percent inventory
 holding cost. How many units of the environmental GPS device would Mr. Hoffman
@@ -384,22 +401,33 @@ like to see produced if he expects to sell 1,200 devices this year?
 | Cost of goods sold:                    |             |             |             |             |
 | Variable mfg cost                      | (456,000)   | (456,000)   | (456,000)   | (456,000)   |
 | Fixed mfg overhead                     | (2,700,000) | (2,400,000) | (2,314,286) | (2,281,690) |
+
+### Q2: Solution
+
+|                                        |             |             |             |             |
+|----------------------------------------|-------------|-------------|-------------|-------------|
 | Period costs:                          |             |             |             |             |
 | Development costs                      | (900,000)   | (900,000)   | (900,000)   | (900,000)   |
 | Fixed Selling and administration costs | (1,100,000) | (1,100,000) | (1,100,000) | (1,100,000) |
 | Variable selling and admin costs       | (360,000)   | (360,000)   | (360,000)   | (360,000)   |
 | Actual earnings before inventory costs | €1,084,000  | €1,384,000  | €1,469,714  | €1,502,310  |
-|                                        |             |             |             |             |
-| Ending inventory                       | 0           | 150         | 200         | 220         |
-| Cost per unit of inventory             | €2630       | €2380       | €2309       | €2281       |
-| Ending inventory cost                  | 0           | 357,000     | 461,800     | 501,820     |
-|                                        |             |             |             |             |
-| Weighted average cost of capital       | 0.2         | 0.2         | 0.2         | 0.2         |
-| Holding cost of inventory              | 0           | (71,400)    | (92,360)    | (100,364)   |
-|                                        |             |             |             |             |
-| Earnings after inventory cost          | €1,084,000  | €1,312,600  | €1,377,354  | €1,401,946  |
-| Bonus                                  | €11,700     | €23,130     | €26,368     | €27,500     |
-|                                        |             |             |             |             |
+
+### Q2: Solution
+
+|                                  |            |            |            |            |
+|----------------------------------|------------|------------|------------|------------|
+| Ending inventory                 | 0          | 150        | 200        | 220        |
+| Cost per unit of inventory       | €2630      | €2380      | €2309      | €2281      |
+| Ending inventory cost            | 0          | 357,000    | 461,800    | 501,820    |
+|                                  |            |            |            |            |
+| Weighted average cost of capital | 0.2        | 0.2        | 0.2        | 0.2        |
+| Holding cost of inventory        | 0          | (71,400)   | (92,360)   | (100,364)  |
+|                                  |            |            |            |            |
+| Earnings after inventory cost    | €1,084,000 | €1,312,600 | €1,377,354 | €1,401,946 |
+| Bonus                            | €11,700    | €23,130    | €26,368    | €27,500    |
+|                                  |            |            |            |            |
+
+### Q2: Solution
 
 With an inventory holding cost of 20 percent deducted from earnings, Mr.
 Hoffman will prefer to produce 1,420 units because at this production level
