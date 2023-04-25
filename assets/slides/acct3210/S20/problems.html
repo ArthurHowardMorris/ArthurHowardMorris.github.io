@@ -222,7 +222,8 @@ costing to value its ending inventory.</p>
 <li><em>Motivation:</em> Solve some of the problems with full absorption
 costing.</li>
 <li>Problem 1: Death Spiral (effective)</li>
-<li>Problem 2: Incentive to overproduce (helps, but doesn’t solve)</li>
+<li>Problem 2: Incentive to overproduce (effective, if we correctly
+separate fixed and variable costs).</li>
 </ul>
 </section>
 <section id="variable-costing-overview-1" class="slide level3">
@@ -860,36 +861,38 @@ he expects to sell 1,200 devices this year?</p>
 <col style="width: 14%" />
 <col style="width: 14%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th>Production</th>
+<th>1200</th>
+<th>1350</th>
+<th>1400</th>
+<th>1420</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td>Production</td>
-<td>1200</td>
-<td>1350</td>
-<td>1400</td>
-<td>1420</td>
-</tr>
-<tr class="even">
 <td>Revenue (assuming sales of 1200 units)</td>
 <td>€6,600,000</td>
 <td>€6,600,000</td>
 <td>€6,600,000</td>
 <td>€6,600,000</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cost of goods sold:</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Variable mfg cost</td>
 <td>(456,000)</td>
 <td>(456,000)</td>
 <td>(456,000)</td>
 <td>(456,000)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Fixed mfg overhead</td>
 <td>(2,700,000)</td>
 <td>(2,400,000)</td>
@@ -909,6 +912,15 @@ he expects to sell 1,200 devices this year?</p>
 <col style="width: 14%" />
 <col style="width: 14%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th>Production</th>
+<th>1200</th>
+<th>1350</th>
+<th>1400</th>
+<th>1420</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
 <td>Period costs:</td>
@@ -958,6 +970,15 @@ he expects to sell 1,200 devices this year?</p>
 <col style="width: 14%" />
 <col style="width: 14%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th>Production</th>
+<th>1200</th>
+<th>1350</th>
+<th>1400</th>
+<th>1420</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
 <td>Ending inventory</td>
@@ -995,34 +1016,41 @@ he expects to sell 1,200 devices this year?</p>
 <td>0.2</td>
 </tr>
 <tr class="even">
+<td>(<em>holding charge</em>)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>Holding cost of inventory</td>
 <td>0</td>
 <td>(71,400)</td>
 <td>(92,360)</td>
 <td>(100,364)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Earnings after inventory cost</td>
 <td>€1,084,000</td>
 <td>€1,312,600</td>
 <td>€1,377,354</td>
 <td>€1,401,946</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Bonus</td>
 <td>€11,700</td>
 <td>€23,130</td>
 <td>€26,368</td>
 <td>€27,500</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -1045,17 +1073,27 @@ the bonus cap of €27,500.</p>
 </section>
 <section id="q3-solution-1" class="slide level3">
 <h3>Q3: Solution</h3>
-<p>Interestingly, charging Mr. Hoffman an inventory holding cost of 20
-percent actually causes him to over produce even more. Without the 20
-percent inventory charge Mr. Hoffman only has to produce about 1,360
-units (or 160 more than he expects to sell) to reach the €1.4 million
-earnings cap. But with the 20 percent inventory charge, Mr. Hoffman
-needs to produce about 1,420 (or 220 more than he expects to sell) to
-reach the cap. Hence, including the inventory holding charge has the
-perverse incentive of actually causing Mr. Hoffman to over produce even
-more. The reason for this is the existence of the bonus cap, and the
-fact that the 20 percent charge on inventory is less than the reduction
-in average fixed costs charged to cost of goods sold.</p>
+<ul>
+<li>Interestingly, charging Mr. Hoffman an inventory holding cost of 20
+percent actually causes him to over produce even more.</li>
+<li>Without the 20 percent inventory charge Mr. Hoffman only has to
+produce about 1,360 units (or 160 more than he expects to sell) to reach
+the €1.4 million earnings cap.</li>
+<li>But with the 20 percent inventory charge, Mr. Hoffman needs to
+produce about 1,420 (or 220 more than he expects to sell) to reach the
+cap.</li>
+</ul>
+</section>
+<section id="q3-solution-2" class="slide level3">
+<h3>Q3: Solution</h3>
+<ul>
+<li>Hence, including the inventory holding charge has the perverse
+incentive of actually causing Mr. Hoffman to over produce even
+more.</li>
+<li>The reason for this is the existence of the bonus cap, and the fact
+that the 20 percent charge on inventory is less than the reduction in
+average fixed costs charged to cost of goods sold.</li>
+</ul>
 </section>
 <section id="q4-1" class="slide level3">
 <h3>Q4:</h3>
@@ -1074,141 +1112,191 @@ includes a 20 percent inventory holding cost?</p>
 <col style="width: 14%" />
 <col style="width: 14%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th>Production</th>
+<th>1200</th>
+<th>1350</th>
+<th>1390</th>
+<th>1400</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td>Production</td>
-<td>1200</td>
-<td>1350</td>
-<td>1390</td>
-<td>1400</td>
-</tr>
-<tr class="even">
 <td>Revenue (assuming sales of 1200 units)</td>
 <td>€6,600,000</td>
 <td>€6,600,000</td>
 <td>€6,600,000</td>
 <td>€6,600,000</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cost of goods sold:</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Variable mfg cost</td>
 <td>(456,000)</td>
 <td>(456,000)</td>
 <td>(456,000)</td>
 <td>(456,000)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Fixed mfg overhead</td>
 <td>(2,700,000)</td>
 <td>(2,700,000)</td>
 <td>(2,700,000)</td>
 <td>(2,700,000)</td>
 </tr>
-<tr class="even">
+</tbody>
+</table>
+</section>
+<section id="q4-solution-4" class="slide level3">
+<h3>Q4: Solution</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 43%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Production</th>
+<th>1200</th>
+<th>1350</th>
+<th>1390</th>
+<th>1400</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
 <td>Period costs:</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Development costs</td>
 <td>(900,000)</td>
 <td>(900,000)</td>
 <td>(900,000)</td>
 <td>(900,000)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Fixed Selling and administration costs</td>
 <td>(1,100,000)</td>
 <td>(1,100,000)</td>
 <td>(1,100,000)</td>
 <td>(1,100,000)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Variable selling and admin costs</td>
 <td>(360,000)</td>
 <td>(360,000)</td>
 <td>(360,000)</td>
 <td>(360,000)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Actual earnings before inventory cost</td>
 <td>€1,084,000</td>
 <td>€1,084,000</td>
 <td>€1,084,000</td>
 <td>€1,084,000</td>
 </tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+</tbody>
+</table>
+</section>
+<section id="q4-solution-5" class="slide level3">
+<h3>Q4: Solution</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Production</th>
+<th>1200</th>
+<th>1350</th>
+<th>1390</th>
+<th>1400</th>
 </tr>
-<tr class="even">
+</thead>
+<tbody>
+<tr class="odd">
 <td>Ending inventory</td>
 <td>0</td>
 <td>150</td>
 <td>190</td>
 <td>200</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cost per unit of inventory</td>
 <td>380</td>
 <td>380</td>
 <td>380</td>
 <td>380</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Ending inventory cost</td>
 <td>0</td>
 <td>57,000</td>
 <td>72,200</td>
 <td>76,000</td>
 </tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+</tbody>
+</table>
+</section>
+<section id="q4-solution-6" class="slide level3">
+<h3>Q4: Solution</h3>
+<table>
+<colgroup>
+<col style="width: 41%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Production</th>
+<th>1200</th>
+<th>1350</th>
+<th>1390</th>
+<th>1400</th>
 </tr>
-<tr class="even">
+</thead>
+<tbody>
+<tr class="odd">
 <td>Weighted average cost of capital</td>
 <td>0.2</td>
 <td>0.2</td>
 <td>0.2</td>
 <td>0.2</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Holding cost of inventory</td>
 <td>0</td>
 <td>(11,400)</td>
 <td>(14,440)</td>
 <td>(15,200)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Earnings after inventory cost</td>
 <td>€1,084,000</td>
 <td>€1,072,600</td>
 <td>€1,069,560</td>
 <td>€1,068,800</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Bonus</td>
 <td>€11,700</td>
 <td>€11,130</td>
@@ -1217,6 +1305,9 @@ includes a 20 percent inventory holding cost?</p>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="q4-solution-7" class="slide level3">
+<h3>Q4: Solution</h3>
 <p>Under variable costing and a 20 percent inventory holding cost,
 Mr. Hoffman will not over produce. He will produce exactly what he
 intends to sell, 1,200 devices. If he over produces under variable

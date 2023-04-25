@@ -99,7 +99,7 @@ Peak 32 sunglasses. Aspen View uses variable costing to value its ending invento
 
 - _Motivation:_ Solve some of the problems with full absorption costing.
 - Problem 1: Death Spiral (effective)
-- Problem 2: Incentive to overproduce (helps, but doesn't solve)
+- Problem 2: Incentive to overproduce (effective,  if we correctly separate fixed and variable costs).
 
 ### Variable costing overview:
 
@@ -394,9 +394,8 @@ like to see produced if he expects to sell 1,200 devices this year?
 
 ### Q2: Solution
 
-|                                        |             |             |             |             |
-|----------------------------------------|-------------|-------------|-------------|-------------|
 | Production                             | 1200        | 1350        | 1400        | 1420        |
+|----------------------------------------|-------------|-------------|-------------|-------------|
 | Revenue (assuming sales of 1200 units) | €6,600,000  | €6,600,000  | €6,600,000  | €6,600,000  |
 | Cost of goods sold:                    |             |             |             |             |
 | Variable mfg cost                      | (456,000)   | (456,000)   | (456,000)   | (456,000)   |
@@ -404,7 +403,7 @@ like to see produced if he expects to sell 1,200 devices this year?
 
 ### Q2: Solution
 
-|                                        |             |             |             |             |
+| Production                             | 1200        | 1350        | 1400        | 1420        |
 |----------------------------------------|-------------|-------------|-------------|-------------|
 | Period costs:                          |             |             |             |             |
 | Development costs                      | (900,000)   | (900,000)   | (900,000)   | (900,000)   |
@@ -414,13 +413,14 @@ like to see produced if he expects to sell 1,200 devices this year?
 
 ### Q2: Solution
 
-|                                  |            |            |            |            |
+| Production                       | 1200       | 1350       | 1400       | 1420       |
 |----------------------------------|------------|------------|------------|------------|
 | Ending inventory                 | 0          | 150        | 200        | 220        |
 | Cost per unit of inventory       | €2630      | €2380      | €2309      | €2281      |
 | Ending inventory cost            | 0          | 357,000    | 461,800    | 501,820    |
 |                                  |            |            |            |            |
 | Weighted average cost of capital | 0.2        | 0.2        | 0.2        | 0.2        |
+| (_holding charge_)               |            |            |            |            |
 | Holding cost of inventory        | 0          | (71,400)   | (92,360)   | (100,364)  |
 |                                  |            |            |            |            |
 | Earnings after inventory cost    | €1,084,000 | €1,312,600 | €1,377,354 | €1,401,946 |
@@ -440,16 +440,21 @@ Explain why your answers in parts (a) and (b) differ, if they do.
 
 ### Q3: Solution
 
-Interestingly, charging Mr. Hoffman an inventory holding cost of 20 percent
-actually causes him to over produce even more.  Without the 20 percent
-inventory charge Mr. Hoffman only has to produce about 1,360 units (or 160 more
-than he expects to sell) to reach the €1.4 million earnings cap.  But with the
-20 percent inventory charge, Mr. Hoffman needs to produce about 1,420 (or 220
-more than he expects to sell) to reach the cap. Hence, including the inventory
-holding charge has the perverse incentive of actually causing Mr. Hoffman to
-over produce even more.  The reason for this is the existence of the bonus cap,
-and the fact that the 20 percent charge on inventory is less than the reduction
-in average fixed costs charged to cost of goods sold.
+- Interestingly, charging Mr. Hoffman an inventory holding cost of 20 percent
+  actually causes him to over produce even more. 
+- Without the 20 percent inventory charge Mr. Hoffman only has to produce about
+  1,360 units (or 160 more than he expects to sell) to reach the €1.4 million
+  earnings cap. 
+- But with the 20 percent inventory charge, Mr. Hoffman needs to produce about
+  1,420 (or 220 more than he expects to sell) to reach the cap. 
+
+### Q3: Solution
+
+- Hence, including the inventory holding charge has the perverse incentive of
+  actually causing Mr. Hoffman to over produce even more. 
+- The reason for this is the existence of the bonus cap, and the fact that the
+  20 percent charge on inventory is less than the reduction in average fixed
+  costs charged to cost of goods sold.
 
 ### Q4:
 
@@ -460,29 +465,42 @@ percent inventory holding cost?
 
 ### Q4: Solution
 
-|                                        |             |             |             |             |
-|----------------------------------------|-------------|-------------|-------------|-------------|
 | Production                             | 1200        | 1350        | 1390        | 1400        |
+|----------------------------------------|-------------|-------------|-------------|-------------|
 | Revenue (assuming sales of 1200 units) | €6,600,000  | €6,600,000  | €6,600,000  | €6,600,000  |
 | Cost of goods sold:                    |             |             |             |             |
 | Variable mfg cost                      | (456,000)   | (456,000)   | (456,000)   | (456,000)   |
 | Fixed mfg overhead                     | (2,700,000) | (2,700,000) | (2,700,000) | (2,700,000) |
+
+### Q4: Solution
+
+| Production                             | 1200        | 1350        | 1390        | 1400        |
+|----------------------------------------|-------------|-------------|-------------|-------------|
 | Period costs:                          |             |             |             |             |
 | Development costs                      | (900,000)   | (900,000)   | (900,000)   | (900,000)   |
 | Fixed Selling and administration costs | (1,100,000) | (1,100,000) | (1,100,000) | (1,100,000) |
 | Variable selling and admin costs       | (360,000)   | (360,000)   | (360,000)   | (360,000)   |
 | Actual earnings before inventory cost  | €1,084,000  | €1,084,000  | €1,084,000  | €1,084,000  |
-|                                        |             |             |             |             |
-| Ending inventory                       | 0           | 150         | 190         | 200         |
-| Cost per unit of inventory             | 380         | 380         | 380         | 380         |
-| Ending inventory cost                  | 0           | 57,000      | 72,200      | 76,000      |
-|                                        |             |             |             |             |
-| Weighted average cost of capital       | 0.2         | 0.2         | 0.2         | 0.2         |
-| Holding cost of inventory              | 0           | (11,400)    | (14,440)    | (15,200)    |
-|                                        |             |             |             |             |
-| Earnings after inventory cost          | €1,084,000  | €1,072,600  | €1,069,560  | €1,068,800  |
-| Bonus                                  | €11,700     | €11,130     | €10,978     | €10,940     |
 
+### Q4: Solution
+
+| Production                 | 1200 | 1350   | 1390   | 1400   |
+|----------------------------|------|--------|--------|--------|
+| Ending inventory           | 0    | 150    | 190    | 200    |
+| Cost per unit of inventory | 380  | 380    | 380    | 380    |
+| Ending inventory cost      | 0    | 57,000 | 72,200 | 76,000 |
+
+### Q4: Solution
+
+| Production                       | 1200       | 1350       | 1390       | 1400       |
+|----------------------------------|------------|------------|------------|------------|
+| Weighted average cost of capital | 0.2        | 0.2        | 0.2        | 0.2        |
+| Holding cost of inventory        | 0          | (11,400)   | (14,440)   | (15,200)   |
+|                                  |            |            |            |            |
+| Earnings after inventory cost    | €1,084,000 | €1,072,600 | €1,069,560 | €1,068,800 |
+| Bonus                            | €11,700    | €11,130    | €10,978    | €10,940    |
+
+### Q4: Solution
 
 Under variable costing and a 20 percent inventory holding cost, Mr. Hoffman
 will not over produce.  He will produce exactly what he intends to sell, 1,200
