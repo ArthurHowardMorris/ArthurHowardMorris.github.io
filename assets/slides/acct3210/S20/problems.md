@@ -179,6 +179,8 @@ and the other half are sold internally at __variable manufacturing costs plus 10
 percent__. Kothari uses variable costing to evaluate the telecom division. The
 following summarizes the cost structure of the telecom division.
 
+## Kothari Inc.
+
 |                                   | Var. Cost   |
 |-----------------------------------|-------------|
 | Materials                         | 27.00       |
@@ -205,8 +207,6 @@ following summarizes the cost structure of the telecom division.
 
 ### Q1 Solution (Cost):
 
-<!-- TODO: break out the variable manu and overhead -->
-
 |                              |               |
 |------------------------------|---------------|
 | Total revenue                | \$9,865,000   |
@@ -226,15 +226,20 @@ following summarizes the cost structure of the telecom division.
   taxes, do you expect them to outsource the final assembly of the modulators?
   Show calculations.
 
-### Q2: Solution
+### Q2: Solution (Rev)
 
+|                                                    |               |
+|----------------------------------------------------|---------------|
+| Revenues:                                          |               |
+| Internal sales $(50,000 \times  1.1 \times  \$51)$ | \$  2,805,000 |
+| $\;\;\$51=\$43+\$9-\$1$                            |               |
+| External sales $(50,000 \times  \$150)$            | 7,500,000     |
+| Total revenue                                      | \$10,305,000  |
+
+### Q2: Solution (Cost)
 
 |                                                             |               |
 |-------------------------------------------------------------|---------------|
-| Revenues:                                                   |               |
-| Internal sales $(50,000 \times  1.1 \times  \$51)$          | \$  2,805,000 |
-| $\;\;\$51=\$43+\$9-\$1$                                     |               |
-| External sales $(50,000 \times  \$150)$                     | 7,500,000     |
 | Total revenue                                               | \$10,305,000  |
 | Less:                                                       |               |
 | Outsourcing $(100,000 \times  \$9)$                         | \$    900,000 |
@@ -243,6 +248,8 @@ following summarizes the cost structure of the telecom division.
 | Variable period cost                                        | 1,800,000     |
 | Fixed period cost                                           | 1,900,000     |
 | Net income                                                  | \$   505,000  |
+
+### Q2: Solution
 
 The Telecom managers face a strong incentive to outsource because their net
 income increases from $165,000 to $505,000.
