@@ -113,9 +113,68 @@ Examples:
 | ABC cost per unit        | $157     | $162    | $164  | $234  | $242  |
 | Difference               | -3%      | -4%     | -5%   | +14%  | +12%  |
 
-### Also review Self-Study problem.
+### Kiddo Inc Example <!-- from ch 10 --> 
 
-<!-- TODO: add the self study problem here -->
+Kiddo Incorporated manufactures running shoes. Recently, it added a new line of
+pump sneakers. Over the past two years, sales of both the Runner and the Pump
+have been flat at 5,000,000 and 2,400,000 pairs, respectively. However, in
+anticipation of increased sales, production was increased from 5,140,000 to
+5,200,000 for the Runner and from 3,000,000 to 3,564,000 for the Pump from year
+1 to year 2.
+
+### Kiddo Inc Example
+
+Production costs for the two sneakers are very different. Materials cost
+\$14.00 per Runner and \$17.75 per Pump. Labor costs are \$4.60 and \$5.00 and
+variable overhead costs are \$6.60 and \$7.30 for the Runner and the Pump,
+respectively. Fixed overhead costs are \$50 million and are allocated based on
+direct labor cost. Kiddo uses LIFO.
+
+### The Abs Costing example should go here
+
+### Kiddo Inc Example
+<!-- from ch 11 -->
+
+Further analysis of Kiddo's production process has allowed it to allocate costs
+using activity-based costing. Engineering costs, rework expenses, and equipment
+maintenance and depreciation were estimated for each production line.
+Product-line costs for the Runner and Pump sneakers are $5 million and $12
+million, respectively. Setup costs for each batch are $2,500. The batch size
+for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
+1 is 500 pairs and 600 pairs for year 2. Remaining fixed overhead costs total
+$5,150,000 and were allocated based on direct labor cost.
+
+### Kiddo Inc Example: Year 1 ABC Income statement
+
+|                     | Runner        | Pump         | Total |
+|---------------------|---------------|--------------|-------|
+| Revenue             | \$160,000,000 | $110,400,000 |
+| Expenses:           |               |              |
+| Material            | 70,000,000    | 42,600,000   |
+| Labor               | 23,000,000    | 12,000,000   |
+| Variable overhead   | 33,000,000    | 17,520,000   |
+| Gross margin        | $ 34,000,000  | $ 38,280,000 |
+| Batch costs*        | 12,500,000    | 12,000,000   |
+| Product-line costs™ | 4,863,813     | 9,600,000    |
+| Fixed overhead      | 3,065,159     | 1,599,213    |
+| Net profit          | $ 13,571,028  | $ 15,080,787 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### ABC and Decision Making
 
@@ -135,31 +194,28 @@ Examples:
 - ABC shifts decision rights over activity drivers to lower-level managers with specialized knowledge of the relation between costs and activities.
 - Departmental managers could pick cost drivers that maximize their performance rewards.
 
-### What is the Optimal Number of Cost Drivers?
+<!-- ### What is the Optimal Number of Cost Drivers? -->
+<!-- ## Consider Figure 11-4 -->
+<!-- _The optimal number of drivers is less for decision management and control than it is for decision management only._ -->
 
-## Consider Figure 11-4
+<!-- Why is this? -->
 
-_The optimal number of drivers is less for decision management and control than it is for decision management only._
+<!-- 3K. Merchant and M. Shields, “When and Why to Measure Costs Less Accurately to Improve Decision Making,” Accounting Horizons, June 1993, pp․ 76–81 -->
 
-Why is this?
+<!-- TODO: consider modernizing this discussion in both the literature and the text. This is the sort of paper that would be fun to run and gun with Matt, possibly a PhD student as well. -->
+<!-- I'm, in general, skeptical of this assumption and paper, AOS might be a nice place to land this sort of thing -->
 
 ### ABC Measures Costs,  Not Benefits
 
-ABC does not measure the benefits of producing/selling multiple products.
-
-Firms offer multiple products because of economies of scale and scope.
-
-ABC allocates common costs -- not the common or joint benefits of multiple products.
+- ABC does not measure the benefits of producing/selling multiple products.
+- Firms offer multiple products because of economies of scale and scope.
+- ABC allocates common costs -- not the common or joint benefits of multiple products.
 
 ### History of ABC
 
-Pre-cursors of ABC were efforts to improve cost allocations in 19th century businesses.
-
-(See side-bar examples).
-
-Activity-based costing terminology was invented and popularized in the late 1980s to early 1990s.
-
-In the later 1990s and up to the present, the success of ABC systems has been mixed and alternative strategies have been successfully applied to achieve some of the same benefits of ABC with less cost.
+- Pre-cursors of ABC were efforts to improve cost allocations in 19th century businesses.
+- Activity-based costing terminology was invented and popularized in the late 1980s to early 1990s.
+- In the later 1990s and up to the present, the success of ABC systems has been mixed and alternative strategies have been successfully applied to achieve some of the same benefits of ABC with less cost.
 
 ### ABC Cost Accumulation and Allocation
 
@@ -203,3 +259,27 @@ Cost allocations are an internal tax system that motivate mangers to use less of
 Cycle time: Zytec uses total time to manufacture the product as its allocation base to motivate managers to reduce cycle time. 
 
 Direct labor: Hitachi allocates overhead on direct labor hours so that managers improve automation as a way to eliminate costly direct labor.
+
+### How does ABC relate to the cost functions we were writing in the beginning of the course?
+ cost systems can be related back to the discussion of cost curves in [ Chapter 2. L Chapter 2 presented a linear cost curve of the form
+TC = VC × 0 + FC
+where
+TC = Total cost
+VC = Variable cost per unit
+0 = Number of units produced
+FC = Fixed cost
+That is, total cost, TC, can be disaggregated into variable costs, VC × Q, and fixed cost, FC. Fixed costs, by definition, do not vary with Q, units produced.
+Activity-based costing assumes a more complex cost function-namely,
+TC = VCx 0 + BC X B + PC XL + OC
+where
+TC = Total cost
+VC = Variable cost ver unit
+0 = Number of units produced
+BC = Cost per batch
+B = Number of batches
+PC = Cost per product line
+L = Number of product lines
+OC = All other costs that do not vary with some activity measure
+In addition.
+FC = BC X B+ PCXL + OC
+That is, some fixed costs, FC, that do not vary with units produced do vary with the number of batches and product lines.
