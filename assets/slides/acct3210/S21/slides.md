@@ -58,108 +58,90 @@ Classify cost drivers into one of four categories:
 
 ![ABC](elevenone.png)
 
-
-## fig 11-1
-
 ### Unit-level Costs
 
-Defined: activities performed at least once for each unit of product
-
-Total amount of unit-level costs is a linear function of the quantity produced.
+- __Unit-level costs__: activities that are performed at least once for each unit of product
+- Total amount of unit-level costs is a linear function of the quantity produced.
 
 Examples:
-
-Direct labor and direct material
-
-Machine servicing related to number of units produced
+- Direct labor and direct material
+- Machine servicing related to number of units produced
 
 ### Batch-level Costs
 
-Defined: activities performed once for each batch of products
-
-Batch-level costs are independent of the number of units in the batch.
+- __Batch-level costs__: activities that are performed once for each batch of products
+- Batch-level costs are independent of the number of units in the batch.
 
 Examples:
 
-Indirect labor, such as production supervisors
-
-Machine set-ups
-
-Moving batches
+- Indirect labor, such as production supervisors
+- Machine set-ups
+- Moving batches
 
 ### Product-level Costs
 
-Defined: activities that support production of a product type or model
-
-Product-level costs do not vary with the number of batches produced.
+- __Product-level costs__: activities that support production of a product type or model
+- Product-level costs do not vary with the number of batches produced.
 
 Examples:
 
-Engineering support
-
-Equipment usable for only one product line
+- Engineering support
+- Equipment usable for only one product line
 
 ### Production-sustaining Costs
 
-Defined: all remaining activities required for overall operation of production facility
-
-Production-sustaining costs do not depend on number of units, batches, or product lines.
+- __Production-sustaining costs:__ all remaining activities required for
+  overall operation of production facility
+- Production-sustaining costs do not depend on number of units, batches, or product lines.
 
 Examples:
 
-Plant security, insurance, general maintenance
-
-Plant accounting and administration
+- Plant security, insurance, general maintenance
+- Plant accounting and administration
 
 ### Example: ABC vs. Absorption
 
-Similarities: Direct and unit-level costs are allocated the same.
+- Similarities: Direct and unit-level costs are allocated the same.
+- Differences: ABC allocates more indirect costs to products with smaller
+  production volume and more complex set-up (models 801 and 901).
 
-Differences: ABC allocates more indirect costs to products with smaller production volume and more complex set-up (models 801 and 901).
-
-Model number   105   205   305   801   901
-
-Batches per year   800      1,000   600   400   200
-
-  (100 units/batch)
-
-Absorption cost per unit $162 $169 $173 $206 $217
-
-ABC cost per unit $157 $162 $164 $234 $242
-
-Difference -3% -4% -5%  +14% +12%
+| Model number             |   105    |   205   |   305 |   801 |   901 |
+|--------------------------|----------|---------|-------|-------|-------|
+| Batches per year         | 800      | 1,000   | 600   | 400   | 200   |
+|   (100 units/batch)      |          |         |       |       |       |
+| Absorption cost per unit | $162     | $169    | $173  | $206  | $217  |
+| ABC cost per unit        | $157     | $162    | $164  | $234  | $242  |
+| Difference               | -3%      | -4%     | -5%   | +14%  | +12%  |
 
 ### Also review Self-Study problem.
 
+<!-- TODO: add the self study problem here -->
+
 ### ABC and Decision Making
 
-ABC improves pricing decisions because product costs are presumably more accurate estimates of opportunity cost. 
-
-Low-volume high-complexity products should get higher prices or be dropped.
-
-ABC focuses attention on reducing use of activities that are most associated with costs.
+- ABC improves pricing decisions because product costs are presumably more accurate estimates of opportunity cost. 
+- Low-volume high-complexity products should get higher prices or be dropped.
+- ABC focuses attention on reducing use of activities that are most associated with costs.
 
 ## Review the Insteel Industries example.
 
+<!-- TODO: add the insteel industries example here -->
+
 ### ABC and Decision Control
 
-ABC requires more monitoring.
-
-Time to identify and measure activities
-
-Meetings to resolve disputes over activity drivers
-
-ABC shifts decision rights over activity drivers to lower-level managers with specialized knowledge of the relation between costs and activities.
-
-Departmental managers could pick cost drivers that maximize their performance rewards.
+- ABC requires more monitoring.
+- Time to identify and measure activities
+- Meetings to resolve disputes over activity drivers
+- ABC shifts decision rights over activity drivers to lower-level managers with specialized knowledge of the relation between costs and activities.
+- Departmental managers could pick cost drivers that maximize their performance rewards.
 
 ### What is the Optimal Number of Cost Drivers?
 
 ## Consider Figure 11-4
 
-The optimal number of drivers is less for decision management and control than it is for decision management only.
+_The optimal number of drivers is less for decision management and control than it is for decision management only._
 
-Explain this.
+Why is this?
 
 ### ABC Measures Costs,  Not Benefits
 
