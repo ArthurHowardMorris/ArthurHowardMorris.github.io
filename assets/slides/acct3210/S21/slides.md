@@ -1,7 +1,8 @@
 ---
-title: "Addressing the Criticisms of Absorption Cost Systems with Activity Based Costing (ABC)"
+title: "Activity-Based Costing (ABC)"
 ---
 
+## Addressing the Criticisms of Absorption Cost Systems with Activity Based Costing (ABC)
 ### Outline of our discussion of absorption costing:
 
 - In this lecture we will introduce activity-based costing (ABC) and compare it
