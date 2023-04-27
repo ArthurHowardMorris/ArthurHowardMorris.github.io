@@ -333,7 +333,7 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 - When data collection, management and analysis were expensive and difficult ABC was also expensive and difficult.
 - So, although many controllers were interested in ABC, adoption was slow.
 - Now, however, most companies already gather much of the needed information as a part of other systems.
-- Today, implementing ABC requires management and analysis of data generated throughout the organization.
+- Today, implementing ABC requires management and analysis of data generated throughout the organization. (ATK example)
 
 ### ABC for strategic analysis rather than to replace absorption costing:
 
