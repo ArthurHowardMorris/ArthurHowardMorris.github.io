@@ -3,12 +3,16 @@ title: "Activity-Based Costing (ABC)"
 ---
 
 ## Addressing the Criticisms of Absorption Cost Systems with Activity Based Costing (ABC)
+
 ### Outline of our discussion of absorption costing:
 
 - In this lecture we will introduce activity-based costing (ABC) and compare it
   to traditional absorption costing.
 - The last several lectures began the discussion of absorption costing, and
   it's discontents.
+
+### Outline of our discussion of absorption costing:
+
 - We also discussed how changes in performance measurement require changes in
   other parts of organizational architecture (performance measurement and
   decision rights partitioning).
@@ -26,6 +30,9 @@ title: "Activity-Based Costing (ABC)"
   accurately represent the opportunity costs of different products.
 - Absorption costing uses few input factors, such as
   direct labor hours or machine hours, to allocate overhead costs
+
+### One more problem: Inaccurate Product Costs
+
 - Absorption costing does not clearly show how costs are influenced by the
   diversity and complexity of production processes.
 - Absorption cost systems assign too few costs to small batches and complex
@@ -36,7 +43,10 @@ title: "Activity-Based Costing (ABC)"
 - Better identifies activities that drive costs
 - Tracks set-up costs associated with each batch and product line
 - Analyzes activities rather than input resources
-- Allows cost drivers to vary across the firm.
+- Allows cost drivers to vary across the firm. 
+
+### ABC’s Major Features
+
 - Cost analysts attempt to identify cause-and-effect cost drivers for
   allocating overhead costs.
 - Reduces overhead cost pools that are allocated with an arbitrary allocation
@@ -68,6 +78,7 @@ Classify cost drivers into one of four categories:
   produced.
 
 Examples:
+
 - Direct labor and direct material
 - Machine servicing related to number of units produced
 
@@ -108,8 +119,7 @@ Examples:
 
 - __Similarities:__ Direct and unit-level costs are allocated the same.
 - __Differences:__ ABC allocates more indirect costs to products with smaller
-  production volume and more complex set-up. This is _more accurate_. models
-  801 and 901).
+  production volume and more complex set-up. This is _more accurate_.
 
 ### Absorption costing schematic
 
