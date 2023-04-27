@@ -95,7 +95,8 @@ Examples:
 
 - __Production-sustaining costs:__ all remaining activities required for
   overall operation of production facility
-- Production-sustaining costs do not depend on number of units, batches, or product lines.
+- Production-sustaining costs do not depend on number of units, batches, or
+  product lines.
 
 Examples:
 
@@ -104,16 +105,37 @@ Examples:
 
 ### Example: ABC vs. Absorption
 
-- Similarities: Direct and unit-level costs are allocated the same.
-- Differences: ABC allocates more indirect costs to products with smaller
-  production volume and more complex set-up (models 801 and 901).
+- __Similarities:__ Direct and unit-level costs are allocated the same.
+- __Differences:__ ABC allocates more indirect costs to products with smaller
+  production volume and more complex set-up. This is _more accurate_. models
+  801 and 901).
+
+### Absorption costing schematic
+
+![Absorption costing](eleventwo.png)
+
+### ABC costing schematic
+
+![ABC](eleventhree.png)
+
+### Two questions:
+
+- Is this simple?
+- Is this transparent?
+
+When we answer these questions, we also have to make sure that we are accurately comparing the two methods. We want to achieve our goals with methods that are simple and transparent, but the methods we choose between must _actually achieve our goals_.
+
+### Example: ABC vs. Absorption
+
+Consider the following example where models 801 and 901 are more complex/lower
+volume products.
 
 | Model number             |   105    |   205   |   305 |   801 |   901 |
 |--------------------------|----------|---------|-------|-------|-------|
 | Batches per year         | 800      | 1,000   | 600   | 400   | 200   |
 |   (100 units/batch)      |          |         |       |       |       |
-| Absorption cost per unit | $162     | $169    | $173  | $206  | $217  |
-| ABC cost per unit        | $157     | $162    | $164  | $234  | $242  |
+| Absorption cost per unit | \$162    | \$169   | \$173 | \$206 | \$217 |
+| ABC cost per unit        | \$157    | \$162   | \$164 | \$234 | \$242 |
 | Difference               | -3%      | -4%     | -5%   | +14%  | +12%  |
 
 ### Kiddo Inc Example <!-- from ch 10 --> 
@@ -133,7 +155,42 @@ variable overhead costs are \$6.60 and \$7.30 for the Runner and the Pump,
 respectively. Fixed overhead costs are \$50 million and are allocated based on
 direct labor cost. Kiddo uses LIFO.
 
-### The Abs Costing example should go here
+### Kiddo Inc Example: Year 1 Absorption Income statement 
+
+|                    | Runner        | Pump          | Total         |
+|--------------------|---------------|---------------|---------------|
+| Revenue            | \$160,000,000 | \$110,400,000 | \$270,400,000 |
+| Expenses:          |               |               |               |
+| Material           | 70,000,000    | 42,600,000    | 112,600,000   |
+| Labor              | 23,000,000    | 12,000,000    | 35,000,000    |
+| Variable overhead  | 33,000,000    | 17,520,000    | 50,520,000    |
+| __Fixed overhead__ | 29,650,000    | 15,480,000    | 45,130,000    |
+| Net income         | \$ 4,350,000  | \$ 22,800,000 | \$ 27,150,000 |
+
+### Kiddo Inc Example: Year 1 Fixed Overhead rate 
+
+First, find the fixed overhead rate per unit of the allocation base (direct labor dollars): 
+
+|                       | Runner       | Pump         | Total            |
+|-----------------------|--------------|--------------|------------------|
+| Direct labor per pair | \$ 4.60      | \$5.00       |                  |
+| × Units produced      | 5,140,000    | 3,000,000    |                  |
+| Direct labor cost     | \$23,644,000 | \$15,000,000 | __\$38,644,000__ |
+
+- Fixed overhead: 
+$$\frac{50,000,000}{\$38,644,000}=\$1.29$$
+
+### Kiddo Inc Example: Year 1 FOH allocation
+
+
+|                               | Runner       | Pump         | Total        |
+|-------------------------------|--------------|--------------|--------------|
+| Direct labor per pair         | \$4.60       | \$5.00       |              |
+| $\times$ FOH rate             | \$1.29       | \$1.29       |              |
+| FOH per pair                  | \$5.93       | \$6.45       |              |
+| $\times$ Number of pairs sold | 5,000,000    | 2,400,000    |              |
+| FOH Allocated                 | \$29,650,000 | \$15,480,000 | \$45,130,000 |
+
 
 ### Kiddo Inc Example
 <!-- from ch 11 -->
@@ -141,11 +198,11 @@ direct labor cost. Kiddo uses LIFO.
 Further analysis of Kiddo's production process has allowed it to allocate costs
 using activity-based costing. Engineering costs, rework expenses, and equipment
 maintenance and depreciation were estimated for each production line.
-Product-line costs for the Runner and Pump sneakers are $5 million and $12
-million, respectively. Setup costs for each batch are $2,500. The batch size
+Product-line costs for the Runner and Pump sneakers are \$5 million and \$12
+million, respectively. Setup costs for each batch are \$2,500. The batch size
 for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 1 is 500 pairs and 600 pairs for year 2. Remaining fixed overhead costs total
-$5,150,000 and were allocated based on direct labor cost.
+\$5,150,000 and were allocated based on direct labor cost.
 
 ### Kiddo Inc Example: Year 1 ABC Income statement
 
@@ -153,13 +210,13 @@ $5,150,000 and were allocated based on direct labor cost.
 |------------------------|---------------|---------------|---------------|
 | Revenue                | \$160,000,000 | \$110,400,000 | \$270,400,000 |
 | Expenses:              |               |               |               |
-| Material               | 70,000,000    | 42,600,000    | 112,600,000   |
-| Labor                  | 23,000,000    | 12,000,000    | 35,000,000    |
-| Variable overhead      | 33,000,000    | 17,520,000    | 50,520,000    |
+| Material               | \$70,000,000  | \$42,600,000  | \$112,600,000 |
+| Labor                  | \$23,000,000  | \$12,000,000  | \$35,000,000  |
+| Variable overhead      | \$33,000,000  | \$17,520,000  | \$50,520,000  |
 | Gross margin           | \$ 34,000,000 | \$ 38,280,000 | \$ 72,280,000 |
-| __Batch costs__        | 12,500,000    | 12,000,000    | 24,500,000    |
-| __Product-line costs__ | 4,863,813     | 9,600,000     | 14,463,813    |
-| __Fixed overhead__     | 3,065,159     | 1,599,213     | 4,664,372     |
+| __Batch costs__        | \$12,500,000  | \$12,000,000  | \$24,500,000  |
+| __Product-line costs__ | \$4,863,813   | \$9,600,000   | \$14,463,813  |
+| __Fixed overhead__     | \$3,065,159   | \$1,599,213   | \$4,664,372   |
 | Net profit             | \$ 13,571,028 | \$ 15,080,787 | \$ 28,651,815 |
 
 ### Kiddo batch costs
@@ -182,34 +239,40 @@ $5,150,000 and were allocated based on direct labor cost.
 
 ### Kiddo Fixed Overhead Costs 
  
-|                                    | Runner      | Pump        | Total       |
-|------------------------------------|-------------|-------------|-------------|
-| Remaining fixed overhead           |             |             | $ 5,150,000 |
-| Units produced                     | 5,140,000   | 3,000,000   |             |
-| × Direct labor per pair            | $4.60       | $5.00       |             |
-| Total labor cost                   | $23,644,000 | $15,000,000 | $38,644,000 |
-| Fixed overhead per direct labor \$ |             |             | $ 0.1333    |
-| Direct labor of units sold         | $23,000,000 | $12,000,000 |             |
-| Fixed overhead allocated           |             |             |             |
-| (× \$0.1333)                       | $ 3,065,159 | $ 1,599,213 |             |
+|                                    | Runner       | Pump         | Total        |
+|------------------------------------|--------------|--------------|--------------|
+| Remaining fixed overhead           |              |              | \$ 5,150,000 |
+| Units produced                     | 5,140,000    | 3,000,000    |              |
+| × Direct labor per pair            | \$4.60       | \$5.00       |              |
+| Total labor cost                   | \$23,644,000 | \$15,000,000 | \$38,644,000 |
+| Fixed overhead per direct labor \$ |              |              | \$ 0.1333    |
+| Direct labor of units sold         | \$23,000,000 | \$12,000,000 |              |
+| Fixed overhead allocated           |              |              |              |
+| (× \$0.1333)                       | \$ 3,065,159 | \$ 1,599,213 |              |
 
 ### ABC and Decision Making
 
-- ABC improves pricing decisions because product costs are presumably more accurate estimates of opportunity cost. 
+- ABC improves pricing decisions because product costs are presumably more
+  accurate estimates of opportunity cost. 
 - Low-volume high-complexity products should get higher prices or be dropped.
-- ABC focuses attention on reducing use of activities that are most associated with costs.
+  The benefit here is that this decision will be based on the actual avoidable
+  costs.
+- ABC focuses attention on reducing use of activities that are most associated
+  with costs.
 
-## Review the Insteel Industries example.
+<!-- ## Review the Insteel Industries example. -->
 
 <!-- TODO: add the insteel industries example here -->
 
 ### ABC and Decision Control
 
 - ABC requires more monitoring.
-- Time to identify and measure activities
+- Time to identify and measure activities.
 - Meetings to resolve disputes over activity drivers
-- ABC shifts decision rights over activity drivers to lower-level managers with specialized knowledge of the relation between costs and activities.
-- Departmental managers could pick cost drivers that maximize their performance rewards.
+- ABC shifts decision rights over activity drivers to lower-level managers with
+  specialized knowledge of the relation between costs and activities.
+- Departmental managers could opportunistically pick cost drivers that maximize
+  their performance rewards.
 
 <!-- ### What is the Optimal Number of Cost Drivers? -->
 <!-- ## Consider Figure 11-4 -->
@@ -246,7 +309,7 @@ Figure 9-4.
 
 3. Indirect costs are allocated from the activity cost pools using the batch, product, and production-sustaining cost drivers.
 
-### Acceptance of ABC
+### Acceptance of ABC is evolving with internal information systems
 
 Although many controllers are interested in ABC, most are skeptical that the benefits of ABC outweigh its implementation costs. 
 
