@@ -178,7 +178,8 @@ First, find the fixed overhead rate per unit of the allocation base (direct labo
 | Direct labor cost     | \$23,644,000 | \$15,000,000 | __\$38,644,000__ |
 
 - Fixed overhead: 
-$$\frac{50,000,000}{\$38,644,000}=\$1.29$$
+$$50,000,000 / \$38,644,000 =\$1.29$$
+<!-- $$\frac{50,000,000}{\$38,644,000}=\$1.29$$ -->
 
 ### Kiddo Inc Example: Year 1 FOH allocation
 
