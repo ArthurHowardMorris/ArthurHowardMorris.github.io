@@ -52,7 +52,8 @@ Classify cost drivers into one of four categories:
   
 ### ABC allows us to isolate costs from production decisions
 
-- This is core to overproduction, death spirals, and incorrect outsourcing choices.
+- This is core to overproduction, death spirals, and incorrect outsourcing
+  choices.
 
 ### ABC allows us to isolate costs from production decisions
 
@@ -60,8 +61,10 @@ Classify cost drivers into one of four categories:
 
 ### Unit-level Costs
 
-- __Unit-level costs__: activities that are performed at least once for each unit of product
-- Total amount of unit-level costs is a linear function of the quantity produced.
+- __Unit-level costs__: activities that are performed at least once for each
+  unit of product
+- Total amount of unit-level costs is a linear function of the quantity
+  produced.
 
 Examples:
 - Direct labor and direct material
@@ -146,35 +149,49 @@ $5,150,000 and were allocated based on direct labor cost.
 
 ### Kiddo Inc Example: Year 1 ABC Income statement
 
-|                     | Runner        | Pump         | Total |
-|---------------------|---------------|--------------|-------|
-| Revenue             | \$160,000,000 | $110,400,000 |
-| Expenses:           |               |              |
-| Material            | 70,000,000    | 42,600,000   |
-| Labor               | 23,000,000    | 12,000,000   |
-| Variable overhead   | 33,000,000    | 17,520,000   |
-| Gross margin        | $ 34,000,000  | $ 38,280,000 |
-| Batch costs*        | 12,500,000    | 12,000,000   |
-| Product-line costs™ | 4,863,813     | 9,600,000    |
-| Fixed overhead      | 3,065,159     | 1,599,213    |
-| Net profit          | $ 13,571,028  | $ 15,080,787 |
+|                        | Runner        | Pump          | Total         |
+|------------------------|---------------|---------------|---------------|
+| Revenue                | \$160,000,000 | \$110,400,000 | \$270,400,000 |
+| Expenses:              |               |               |               |
+| Material               | 70,000,000    | 42,600,000    | 112,600,000   |
+| Labor                  | 23,000,000    | 12,000,000    | 35,000,000    |
+| Variable overhead      | 33,000,000    | 17,520,000    | 50,520,000    |
+| Gross margin           | \$ 34,000,000 | \$ 38,280,000 | \$ 72,280,000 |
+| __Batch costs__        | 12,500,000    | 12,000,000    | 24,500,000    |
+| __Product-line costs__ | 4,863,813     | 9,600,000     | 14,463,813    |
+| __Fixed overhead__     | 3,065,159     | 1,599,213     | 4,664,372     |
+| Net profit             | \$ 13,571,028 | \$ 15,080,787 | \$ 28,651,815 |
 
+### Kiddo batch costs
 
+|                       | Runner       | Pump         |
+|-----------------------|--------------|--------------|
+| Cost per batch        | \$ 2,500     | \$ 2,500     |
+| × Units sold          | 5,000,000    | 2,400,000    |
+| ÷ Units per batch     | 1,000        | 500          |
+| Allocated batch costs | \$12,500,000 | \$12,000,000 |
 
+### Kiddo product-line costs
 
+ |                          | Runner       | Pump         |
+ |--------------------------|--------------|--------------|
+ | Total product-line costs | \$5,000,000  | \$12,000,000 |
+ | ÷ Units produced         | 5,140,000    | 5,000,000    |
+ | × Units sold             | 3,000,000    | 2,400,000    |
+ | Allocated line costs     | \$ 4,863,813 | \$ 9,600,000 |
 
-
-
-
-
-
-
-
-
-
-
-
-
+### Kiddo Fixed Overhead Costs 
+ 
+|                                    | Runner      | Pump        | Total       |
+|------------------------------------|-------------|-------------|-------------|
+| Remaining fixed overhead           |             |             | $ 5,150,000 |
+| Units produced                     | 5,140,000   | 3,000,000   |             |
+| × Direct labor per pair            | $4.60       | $5.00       |             |
+| Total labor cost                   | $23,644,000 | $15,000,000 | $38,644,000 |
+| Fixed overhead per direct labor \$ |             |             | $ 0.1333    |
+| Direct labor of units sold         | $23,000,000 | $12,000,000 |             |
+| Fixed overhead allocated           |             |             |             |
+| (× \$0.1333)                       | $ 3,065,159 | $ 1,599,213 |             |
 
 ### ABC and Decision Making
 
