@@ -134,7 +134,12 @@ Examples:
 - Is this simple?
 - Is this transparent?
 
-When we answer these questions, we also have to make sure that we are accurately comparing the two methods. We want to achieve our goals with methods that are simple and transparent, but the methods we choose between must _actually achieve our goals_.
+### Two questions:
+
+When we answer these questions, we also have to make sure that we are
+accurately comparing the two methods. We want to achieve our goals with methods
+that are simple and transparent, but the methods we choose between must
+_actually achieve our goals_.
 
 ### Example: ABC vs. Absorption
 
@@ -168,15 +173,15 @@ direct labor cost. Kiddo uses LIFO.
 
 ### Kiddo Inc Example: Year 1 Absorption Income statement 
 
-|                    | Runner        | Pump          | Total         |
-|--------------------|---------------|---------------|---------------|
-| Revenue            | \$160,000,000 | \$110,400,000 | \$270,400,000 |
-| Expenses:          |               |               |               |
-| Material           | 70,000,000    | 42,600,000    | 112,600,000   |
-| Labor              | 23,000,000    | 12,000,000    | 35,000,000    |
-| Variable overhead  | 33,000,000    | 17,520,000    | 50,520,000    |
-| __Fixed overhead__ | 29,650,000    | 15,480,000    | 45,130,000    |
-| Net income         | \$ 4,350,000  | \$ 22,800,000 | \$ 27,150,000 |
+|                          | Runner        | Pump          | Total         |
+|--------------------------|---------------|---------------|---------------|
+| Revenue                  | \$160,000,000 | \$110,400,000 | \$270,400,000 |
+| Expenses:                |               |               |               |
+| Material                 | 70,000,000    | 42,600,000    | 112,600,000   |
+| Labor                    | 23,000,000    | 12,000,000    | 35,000,000    |
+| Variable overhead        | 33,000,000    | 17,520,000    | 50,520,000    |
+| __Fixed overhead$^{*}$__ | 29,650,000    | 15,480,000    | 45,130,000    |
+| Net income               | \$ 4,350,000  | \$ 22,800,000 | \$ 27,150,000 |
 
 ### Kiddo Inc Example: Year 1 Fixed Overhead rate 
 
@@ -210,6 +215,9 @@ $$50,000,000 / \$38,644,000 =\$1.29$$
 Further analysis of Kiddo's production process has allowed it to allocate costs
 using activity-based costing. Engineering costs, rework expenses, and equipment
 maintenance and depreciation were estimated for each production line.
+
+### Kiddo Inc Example
+
 Product-line costs for the Runner and Pump sneakers are \$5 million and \$12
 million, respectively. Setup costs for each batch are \$2,500. The batch size
 for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
@@ -218,18 +226,18 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 
 ### Kiddo Inc Example: Year 1 ABC Income statement
 
-|                        | Runner        | Pump          | Total         |
-|------------------------|---------------|---------------|---------------|
-| Revenue                | \$160,000,000 | \$110,400,000 | \$270,400,000 |
-| Expenses:              |               |               |               |
-| Material               | \$70,000,000  | \$42,600,000  | \$112,600,000 |
-| Labor                  | \$23,000,000  | \$12,000,000  | \$35,000,000  |
-| Variable overhead      | \$33,000,000  | \$17,520,000  | \$50,520,000  |
-| Gross margin           | \$ 34,000,000 | \$ 38,280,000 | \$ 72,280,000 |
-| __Batch costs__        | \$12,500,000  | \$12,000,000  | \$24,500,000  |
-| __Product-line costs__ | \$4,863,813   | \$9,600,000   | \$14,463,813  |
-| __Fixed overhead__     | \$3,065,159   | \$1,599,213   | \$4,664,372   |
-| Net profit             | \$ 13,571,028 | \$ 15,080,787 | \$ 28,651,815 |
+|                              | Runner        | Pump          | Total         |
+|------------------------------|---------------|---------------|---------------|
+| Revenue                      | \$160,000,000 | \$110,400,000 | \$270,400,000 |
+| Expenses:                    |               |               |               |
+| Material                     | \$70,000,000  | \$42,600,000  | \$112,600,000 |
+| Labor                        | \$23,000,000  | \$12,000,000  | \$35,000,000  |
+| Variable overhead            | \$33,000,000  | \$17,520,000  | \$50,520,000  |
+| Gross margin                 | \$ 34,000,000 | \$ 38,280,000 | \$ 72,280,000 |
+| __Batch costs$^{*}$__        | \$12,500,000  | \$12,000,000  | \$24,500,000  |
+| __Product-line costs$^{*}$__ | \$4,863,813   | \$9,600,000   | \$14,463,813  |
+| __Fixed overhead$^{*}$__     | \$3,065,159   | \$1,599,213   | \$4,664,372   |
+| Net profit                   | \$ 13,571,028 | \$ 15,080,787 | \$ 28,651,815 |
 
 ### Kiddo batch costs
 
@@ -311,67 +319,62 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 
 ### ABC Cost Accumulation and Allocation
 
-The bookkeeping for ABC is similar to the two-stage allocation procedure in 
+<!-- The bookkeeping for ABC is similar to the two-stage allocation procedure in  -->
 
-Figure 9-4.
+<!-- Figure 9-4. -->
 
 1. Unit-level costs are directly assigned to products.
-
 2. Indirect costs are accumulated in the appropriate activity cost pools.
-
-3. Indirect costs are allocated from the activity cost pools using the batch, product, and production-sustaining cost drivers.
+3. Indirect costs are allocated from the activity cost pools using the batch,
+   product, and production-sustaining cost drivers.
 
 ### Acceptance of ABC is evolving with internal information systems
 
-Although many controllers are interested in ABC, most are skeptical that the benefits of ABC outweigh its implementation costs. 
+- When data collection, management and analysis were expensive and difficult ABC was also expensive and difficult.
+- So, although many controllers were interested in ABC, adoption was slow.
+- Now, however, most companies already gather much of the needed information as a part of other systems.
+- Today, implementing ABC requires management and analysis of data generated throughout the organization.
 
-ABC for strategic analysis rather than replace absorption costing:
+### ABC for strategic analysis rather than to replace absorption costing:
 
-Absorption required for external reporting
-
-ABC for strategic analysis and special studies
-
-ABC is most likely to be adopted by:
-
-Manufacturers in price-sensitive competitive markets
-
-Large plants with many different products and processes
+- Absorption required for external reporting
+- ABC for strategic analysis and special studies
+- ABC is most likely to be adopted by:
+- Manufacturers in price-sensitive competitive markets
+- Large plants with many different products and processes
 
 ### Cost Allocation and Automation
 
-In highly automated plants where direct labor costs are a small share of total costs, using machine hours as an activity base gives more accurate cost than direct labor.
-
-Automation improves efficiency and eliminates bottlenecks so that less indirect labor is needed for moving, inspecting, and expediting products.
+- In highly automated plants where direct labor costs are a small share of total costs, using machine hours as an activity base gives more accurate cost than direct labor.
+- Automation improves efficiency and eliminates bottlenecks so that less indirect labor is needed for moving, inspecting, and expediting products.
 
 ### Cost Allocation as a Tax System  
 (Motivation versus Accuracy)
 
-Cost allocations are an internal tax system that motivate mangers to use less of resources with high cost allocations. (Chapter 7).
+- Cost allocations are an internal tax system that motivate mangers to use less of resources with high cost allocations. (Chapter 7).
+- Cycle time: Zytec uses total time to manufacture the product as its allocation base to motivate managers to reduce cycle time. 
+- Direct labor: Hitachi allocates overhead on direct labor hours so that managers improve automation as a way to eliminate costly direct labor.
 
-Cycle time: Zytec uses total time to manufacture the product as its allocation base to motivate managers to reduce cycle time. 
-
-Direct labor: Hitachi allocates overhead on direct labor hours so that managers improve automation as a way to eliminate costly direct labor.
-
-### How does ABC relate to the cost functions we were writing in the beginning of the course?
- cost systems can be related back to the discussion of cost curves in [ Chapter 2. L Chapter 2 presented a linear cost curve of the form
-TC = VC × 0 + FC
-where
-TC = Total cost
-VC = Variable cost per unit
-0 = Number of units produced
-FC = Fixed cost
-That is, total cost, TC, can be disaggregated into variable costs, VC × Q, and fixed cost, FC. Fixed costs, by definition, do not vary with Q, units produced.
-Activity-based costing assumes a more complex cost function-namely,
-TC = VCx 0 + BC X B + PC XL + OC
-where
-TC = Total cost
-VC = Variable cost ver unit
-0 = Number of units produced
-BC = Cost per batch
-B = Number of batches
-PC = Cost per product line
-L = Number of product lines
-OC = All other costs that do not vary with some activity measure
-In addition.
-FC = BC X B+ PCXL + OC
-That is, some fixed costs, FC, that do not vary with units produced do vary with the number of batches and product lines.
+<!-- ### How does ABC relate to the cost functions we were writing in the beginning of the course? -->
+<!--  cost systems can be related back to the discussion of cost curves in [ Chapter 2. L Chapter 2 presented a linear cost curve of the form -->
+<!-- TC = VC × 0 + FC -->
+<!-- where -->
+<!-- TC = Total cost -->
+<!-- VC = Variable cost per unit -->
+<!-- 0 = Number of units produced -->
+<!-- FC = Fixed cost -->
+<!-- That is, total cost, TC, can be disaggregated into variable costs, VC × Q, and fixed cost, FC. Fixed costs, by definition, do not vary with Q, units produced. -->
+<!-- Activity-based costing assumes a more complex cost function-namely, -->
+<!-- TC = VCx 0 + BC X B + PC XL + OC -->
+<!-- where -->
+<!-- TC = Total cost -->
+<!-- VC = Variable cost ver unit -->
+<!-- 0 = Number of units produced -->
+<!-- BC = Cost per batch -->
+<!-- B = Number of batches -->
+<!-- PC = Cost per product line -->
+<!-- L = Number of product lines -->
+<!-- OC = All other costs that do not vary with some activity measure -->
+<!-- In addition. -->
+<!-- FC = BC X B+ PCXL + OC -->
+<!-- That is, some fixed costs, FC, that do not vary with units produced do vary with the number of batches and product lines. -->
