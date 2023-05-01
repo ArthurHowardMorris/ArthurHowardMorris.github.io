@@ -29,7 +29,9 @@ title: "Budgeting"
 
 - Responsibility Centers: 1 profit center and 2 cost centers
 - Measurement: Monthly reports compare actual revenues and expenses to budget.
-- Budget process separates decision rights. Initiation and implementation by professional managers. Ratification and monitoring by Board of Directors and members.
+- Budget process separates decision rights. 
+  - Initiation and implementation by professional managers.
+  - Ratification and monitoring by Board of Directors and members.
 
 ### Example: Private University
 
