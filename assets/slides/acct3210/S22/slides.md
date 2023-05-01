@@ -202,62 +202,57 @@ cannot be carried over to the following year.__
 
 ### Static Budgets
 
-Do not vary with volume, such as costs that should be fixed
-
-Volume changes may create budget variances
-
-Since managers are not insulated from volume changes, they have incentives to mitigate impact of adverse volume changes
-
+- Do not vary with volume, such as costs that should be fixed
+- Volume changes may create budget variances
+- Since managers are not insulated from volume changes, they have incentives to mitigate impact of adverse volume changes
 
 ### Flexible Budgets
 
-Do adjust for changes in volume, such as semivariable costs that include a fixed and variable component
-
-Evaluate performance after adjusting for volume effects
-
-Manager is not held responsible for volume changes
-
+- Do adjust for changes in volume, such as semivariable costs that include a fixed and variable component
+- Evaluate performance after adjusting for volume effects
+- Manager is not held responsible for volume changes
 __See Self-Study Problems.__
 
+<!-- TODO: put in the self study problem here  -->
 
 ### Incremental vs. Zero-Based Budgets
 
-Incremental budgeting:
-Begin with current year’s core budget and make incremental changes
-Review focuses on incremental changes and may ignore inefficiencies in core budget
+- __Incremental budgeting:__
+  - Begin with current year’s core budget and make incremental changes
+  - Review focuses on incremental changes and may ignore inefficiencies in core budget
 
-Zero-based budgeting (ZBB):
-Mandates each line item in total must be justified each year
-Motivates managers to eliminate inefficient expenses
-Useful when firm is changing strategic direction
-Becomes less useful when same justifications are used each year
+- __Zero-based budgeting (ZBB):__
+  - Mandates each line item in total must be justified each year
+  - Motivates managers to eliminate inefficient expenses
+  - Useful when firm is changing strategic direction
+  - Becomes less useful when same justifications are used each year
 
 ### Appendix: Master Budget Example
 
 __Study Figure 6-3.__
 
-Logical relationships
-Sales budget drives production and purchasing
-Production drives materials and labor budget
-Production and sales drive inventory and cost of goods sold
+- Logical relationships
+  - Sales budget drives production and purchasing
+  - Production drives materials and labor budget
+  - Production and sales drive inventory and cost of goods sold
 
-Master budget statements
-Budgeted income statement
-Budgeted balance sheet
-Budgeted cash flows
+- Master budget statements
+  - Budgeted income statement
+  - Budgeted balance sheet
+  - Budgeted cash flows
 
 
 ### Budgets and Economic Darwinism
 
-Budgets may result in suboptimal performance because:
-Too much emphasis on financial rather than nonfinancial measures
-Short-term rather long-term results
-Maximizing incentive bonuses for manager rather than firm value
-Too much time analyzing budget variances
+- Budgets may result in suboptimal performance because:
+  - Too much emphasis on financial rather than nonfinancial measures
+  - Short-term rather long-term results
+  - Maximizing incentive bonuses for manager rather than firm value
+  - Too much time analyzing budget variances
 
-Despite all these problems, budgets persist in firms.
+- Despite all these problems, budgets persist in firms.
 
-The economic Darwinism principle implies budgeting must be yielding benefits at least as large as their costs.
+- The economic Darwinism principle implies budgeting must be yielding benefits at least as large as their costs.
 
 
 
