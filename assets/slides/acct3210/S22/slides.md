@@ -230,6 +230,7 @@ __See Self-Study Problems.__
 ### Appendix: Master Budget Example
 
 __Study Figure 6-3.__
+<!-- TODO: put the figure here -->
 
 - Logical relationships
   - Sales budget drives production and purchasing
