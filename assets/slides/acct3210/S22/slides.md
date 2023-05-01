@@ -249,13 +249,13 @@ cannot be carried over to the following year.__
 - Expected new demand for fixed-rate, five-vear loans and the new supply of
   fixed-rate, five-year savings accounts at various interest rates.
 
-| Loan Rate | Loan Demand | Savings Rate | Savings Supply |
-|-----------|-------------|--------------|----------------|
-| 6%        | $12,100,000 | 2            | $ 4,700,000%   |
-| 7%        | 10,000,000  | 3            | 5,420,000      |
-| 8%        | 8,070,000   | 4            | 8,630,000      |
-| 9%        | 6,030,000   | 5            | 9,830,000      |
-| 10%       | 4,420,000   | 6            | 11,800,000     |
+| Loan Rate | Loan Demand  | Savings Rate | Savings Supply |
+|-----------|--------------|--------------|----------------|
+| 6%        | \$12,100,000 | 2            | \$ 4,700,000%  |
+| 7%        | 10,000,000   | 3            | 5,420,000      |
+| 8%        | 8,070,000    | 4            | 8,630,000      |
+| 9%        | 6,030,000    | 5            | 9,830,000      |
+| 10%       | 4,420,000    | 6            | 11,800,000     |
 
 - There are no loans from previous years. Note that the department maintains a
   4 percent spread between loan and savings rates to cover processing, loan
@@ -276,7 +276,7 @@ cannot be carried over to the following year.__
   accounts. 
 - Default expense is budgeted at 1 percent of the amount loaned per year.
 - Again, loans and savings would ideally be the same.
-- Overhead expenses are estimated to be $30,000 for the year, regardless of the
+- Overhead expenses are estimated to be \$30,000 for the year, regardless of the
   amount loaned.
 
 ### SCB Question 1
@@ -309,7 +309,7 @@ cannot be carried over to the following year.__
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses | Default Exp |
 |-----------|-------------|--------------|----------------|-----------|---------------------|-------------|
-| 6%        | \$12.1 M    | 2%           | \$ 4.7 M       | \$ 4.7 M  | \$70,500            | $47,000     |
+| 6%        | \$12.1 M    | 2%           | \$ 4.7 M       | \$ 4.7 M  | \$70,500            | \$47,000    |
 | 7%        | 10          | 3%           | 5.42           | 5.42      | 81,300              | 54,200      |
 | 8%        | 8.07        | 4%           | 8.63           | 8.07      | 121,050             | 80,700      |
 | 9%        | 6.03        | 5%           | 9.83           | 6.03      | 90,450              | 60,300      |
@@ -322,7 +322,7 @@ cannot be carried over to the following year.__
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses | Default Exp | Overhead Expenses |
 |-----------|-------------|--------------|----------------|-----------|---------------------|-------------|-------------------|
-| 6%        | \$12.1 M    | 2%           | \$ 4.7 M       | \$ 4.7 M  | \$70,500            | $47,000     | $30,000           |
+| 6%        | \$12.1 M    | 2%           | \$ 4.7 M       | \$ 4.7 M  | \$70,500            | \$47,000    | \$30,000          |
 | 7%        | 10          | 3%           | 5.42           | 5.42      | 81,300              | 54,200      | 30,000            |
 | 8%        | 8.07        | 4%           | 8.63           | 8.07      | 121,050             | 80,700      | 30,000            |
 | 9%        | 6.03        | 5%           | 9.83           | 6.03      | 90,450              | 60,300      | 30,000            |
@@ -334,9 +334,92 @@ cannot be carried over to the following year.__
 
 2. Create an annual budgeted income statement for five-year loans and deposits for the Boat and Car Loan Department given a savings interest rate of 4 percent. Remember to match supply and demand.
 
+|                     |                   |           |
+|---------------------|-------------------|-----------|
+| Interest income     | \$8,070,000 × 8%= | \$645,600 |
+| Interest expense    | \$8,070,000 × 4%= | 322,800   |
+| Net interest income |                   | \$322,800 |
+| Fixed overhead      |                   | 30,000    |
+| Processing expense  |                   | 121,050   |
+| Default expense     |                   | 80,700    |
+| Net income          |                   | \$ 91,050 |
 
+### SCB Question 3
 
 3. Table 2 shows the actual income statement for the Boat and Car Loan Department. Included are the actual loans and savings for the same period. Calculate the variances and provide a possible explanation.
+
+|                     | Budget    | Actual      |
+|---------------------|-----------|-------------|
+| Interest income     | \$645,600 | \$ 645,766  |
+| Interest expense    | 322,800   | 314,360     |
+| Net interest income | \$322,800 | \$ 331,406  |
+| Fixed overhead      | 30,000    | 30,200      |
+| Processing expense  | 121,050   | 130,522     |
+| Default expense     | 80,700    | 77,800      |
+| Net income          | \$ 91,050 | \$ 92,884   |
+| Loans               | 8,070,000 | \$8,062,000 |
+| Deposits            | 8,070,000 | \$8,123,000 |
+
+### SCB Solution 3
+
+|                     | Budget    | Actual      | Fav. (Unfav.) Variance |
+|---------------------|-----------|-------------|------------------------|
+| Interest income     | \$645,600 | \$ 645,766  | \$ 166                 |
+| Interest expense    | 322,800   | 314,360     | 8,440                  |
+| Net interest income | \$322,800 | \$ 331,406  | \$ 8,606               |
+| Fixed overhead      | 30,000    | 30,200      | (200)                  |
+| Processing expense  | 121,050   | 130,522     | (9,472)                |
+| Default expense     | 80,700    | 77,800      | 2,900                  |
+| Net income          | \$ 91,050 | \$ 92,884   | 1,834                  |
+| Loans               | 8,070,000 | \$8,062,000 | \$ (8,000)             |
+| Deposits            | 8,070,000 | \$8,123,000 | \$(53,000)             |
+
+### SCB Solution 3
+
+- Even though loans were lower and deposits were higher than expected, interest
+  income was higher and interest expense was lower than expected.
+- The answer can be obtained by calculating the average interest rates earned
+  and paid.
+- On \$8,062,000 worth of loans, Sandy Cove earned \$645,766 interest, or 8.01
+  percent (0.01 percent more than expected).
+- Similarly, it paid only 3.87 percent (0.13 percent less) on deposits.
+- Therefore, the net interest income variance of \$8,606 is a combination of
+  two effects: the variance in the actual loans and deposits (quantity) and the
+  variance in the interest rates (price).
+- The combined effects are a favorable interest income variance, a favorable
+  interest expense variance, and an overall favorable net interest income
+  variance.
+- At a savings interest rate of 4 percent, there is an excess supply of
+  deposits over demand for loans.
+- The Boat and Car Loan Department lowered the interest rate on deposits to
+  stem additional deposits.
+- The increase in the interest rate on loans can be attributed only to an
+  increase in the demand for loans, which resulted in the department charging a
+  slightly higher average interest rate.
+- The higher processing expense could be related to the higher number of
+  accounts processed and improvements in the default rate.
+- That is, the favorable default expense could be attributed to an improved
+  screening process-related to spending more on processing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Incremental vs. Zero-Based Budgets
 
