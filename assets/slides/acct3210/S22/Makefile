@@ -1,26 +1,26 @@
-## all                             : makes slides and handouts from problems.md
-output =  problems.html problems_handouts.pdf 
-input = problems.md styles.html
+## all                             : makes slides and handouts from slides.md
+output =  slides.html slides_handouts.pdf 
+input = slides.md styles.html
 
 .PHONY : all
 all: $(output) $(input) push
 
-## problems.html     : generate html slides
-problems.html: problems.md styles.html
-	pandoc -t revealjs -s problems.md -o problems.html \
+## slides.html     : generate html slides
+slides.html: slides.md styles.html
+	pandoc -t revealjs -s slides.md -o slides.html \
 		-H styles.html  --slide-level 3 ; \
-	open problems.html
+	open slides.html
 
-## problems_handouts : generate pdf handouts 
-problems_handouts.pdf: problems.md 
-	pandoc problems.md -o problems_handouts.pdf ; \
-	open problems_handouts.pdf
+## slides_handouts : generate pdf handouts 
+slides_handouts.pdf: slides.md 
+	pandoc slides.md -o slides_handouts.pdf ; \
+	open slides_handouts.pdf
 
 ## push                            : commits changes and pushes to github
 .PHONY : push
-push: $(output) $(input) # problems.md styles.html
+push: $(output) $(input) # slides.md styles.html
 	git add . ; \
-	git commit -am "added lecture 20" ; \
+	git commit -am "added lecture 22" ; \
 	git push
 
 ## clean                           : removes output files $(output)
