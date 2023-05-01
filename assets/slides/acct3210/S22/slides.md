@@ -401,26 +401,6 @@ cannot be carried over to the following year.__
 - That is, the favorable default expense could be attributed to an improved
   screening process-related to spending more on processing.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Incremental vs. Zero-Based Budgets
 
 - __Incremental budgeting:__
