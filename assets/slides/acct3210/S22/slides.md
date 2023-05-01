@@ -18,11 +18,17 @@ title: "Budgeting"
 
 ### Variances:
 
-- Variances are termed 'favorable' and 'unfavorable' based on their impact on income.
-- Keep in mind that budgets are plans, so any variance is evidence that things did not go according to plan.
+- Variances are termed 'favorable' and 'unfavorable' based on their impact on
+  income.
+- Keep in mind that budgets are plans, so any variance is evidence that things
+  did not go according to plan.
 
-- Favorable (F) variance:  actual revenue > budgeted revenue actual expense < budgeted expense
-- Unfavorable (U) variance: actual revenue < budgeted revenue actual expense > budgeted expense
+### Variances:
+
+- Favorable (F) variance:  actual revenue > budgeted revenue actual expense <
+  budgeted expense
+- Unfavorable (U) variance: actual revenue < budgeted revenue actual expense >
+  budgeted expense
 
 
 ### Example: Country Club
@@ -35,148 +41,163 @@ title: "Budgeting"
 
 ### Example: Private University
 
-Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.
-Knowledge: 
-Number of students drives revenue forecasts.
-Faculty market drives faculty salary expense.
-Decision rights:    
-Lower levels prepare initial budgets.
-Higher levels review and ratify budget.
-Agency problems:  
-Empire building: request “too large” a budget.
-Externalities: Cost centers are more likely to add unprofitable programs than profit centers.
+__Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
 
-Is Auxiliary Services a responsibility center? How should it be evaluated?
+- Knowledge: 
+  - Number of students drives revenue forecasts.
+  - Faculty market drives faculty salary expense.
+
+- Decision rights:    
+  - Lower levels prepare initial budgets.
+  - Higher levels review and ratify budget.
+  
+- Agency problems:  
+  - Empire building: request “too large” a budget.
+  - Externalities: Cost centers are more likely to add unprofitable programs
+    than profit centers.
+
+_Is Auxiliary Services a responsibility center? How should it be evaluated?_
 
 
 ### Example: Large Corporation
 
-Responsibility centers:	2 cost  (manufacturing and marketing)
-				        	1 profit (paper and toner supplies)
+- Responsibility centers:
+  - 2 cost  (manufacturing and marketing)
+  - 1 profit (paper and toner supplies)
 
-Knowledge:  
-Vertical transfers (lower to higher levels)
-Horizontal transfers (marketing to manufacturing)
-Identify potential bottlenecks in production
-Identify financing needs
+- Knowledge:  
+  - Vertical transfers (lower to higher levels)
+  - Horizontal transfers (marketing to manufacturing)
+  - Identify potential bottlenecks in production
+  - Identify financing needs
 
-Contracting: 
-Budgets are internal contracts between operating segments
-Divisional managers negotiate budgets
-Executive managers negotiate disputes and review budgets for consistency with corporate strategy
+- Contracting: 
+  - Budgets are internal contracts between operating segments
+  - Divisional managers negotiate budgets
+  - Executive managers negotiate disputes and review budgets for consistency
+    with corporate strategy
 
 
 ### Trade-off: Communication vs. Evaluation
 
-Budgets are used for both decision management and decision control.
-
-Optimal decision making requires managers fully reveal private knowledge about production and market conditions during   budget negotiations.
-
-When budgets are also used for performance evaluation, managers have an incentive to make biased budget forecasts so that their actual performance will look good relative to budget.
-
+- Budgets are used for both decision management and decision control.
+- Optimal decision making requires managers fully reveal private knowledge
+  about production and market conditions during   budget negotiations.
+- When budgets are also used for performance evaluation, managers have an
+  incentive to make biased budget forecasts so that their actual performance
+  will look good relative to budget.
 
 ### Budget Ratcheting
 
-Ratchet effect: Basing next year’s standard of performance on this year’s actual performance.
+- Ratchet effect: Basing next year’s standard of performance on this year’s actual performance.
+- Disadvantages:
+  - Performance targets usually adjusted upward
+  - Employees reduce output to avoid being held to higher standards in the future
 
-Disadvantages:
-Performance targets usually adjusted upward
-Employees reduce output to avoid being held to higher standards in the future
+- Possible Solution:
+  - Eliminate budget targets
+  - Estimate next year’s sales
+  - More frequent job rotation
 
-Possible Solution:
-Eliminate budget targets
-Estimate next year’s sales
-More frequent job rotation
-
-Summary: While the ratchet effect creates dysfunctional behavior, the alternatives might produce even greater problems.
+- Summary: While the ratchet effect creates dysfunctional behavior, the
+  alternatives might produce even greater problems.
 
 
 ### Trade-off: Bottom-up vs. Top-down
 
-Top-down budgets:
-Knowledge: Top management can make accurate aggregate forecasts
-Decision rights: Begin with aggregate forecasts for firm, and then disaggregate down to lower levels
-Decision control more important than decision management
+- Top-down budgets:
+  - Knowledge: Top management can make accurate aggregate forecasts
+  - Decision rights: Begin with aggregate forecasts for firm, and then disaggregate down to lower levels
+  - Decision control more important than decision management
 
-Bottom-up budgets (participative budgeting):
-Knowledge: Lower levels have more knowledge than top
-Decision rights: Person being held responsible for meeting the target makes the initial budget forecast
-Decision management more important than decision control
+### Trade-off: Bottom-up vs. Top-down
+
+- Bottom-up budgets (participative budgeting):
+  - Knowledge: Lower levels have more knowledge than top
+  - Decision rights: Person being held responsible for meeting the target makes the initial budget forecast
+  - Decision management more important than decision control
 
 
-### New Approaches to Budgeting
+### Modern Approaches to Budgeting
 
-Building the budget in two distinct steps
-Step 1:  Construct budgets in operational terms (Lowest levels of the organization)
-Step 2:  Developing a financial plan based on the operational plans from Step 1.
+- Building the budget in two distinct steps
+  - Step 1:  Construct budgets in operational terms (Lowest levels of the
+    organization)
+  - Step 2:  Developing a financial plan based on the operational plans from
+    Step 1.
 
-Constructing budgets for financial planning (decision management), but not using budgets as performance targets (decision control)
-Units are judged by comparing their actual performance with the actual performance of defined “peer units”.
-Actual rewards can include consideration of both financial and non-financial performance measures.
+### Modern Approaches to Budgeting
+
+- Constructing budgets for financial planning (decision management), but not
+  using budgets as performance targets (decision control)
+- Units are judged by comparing their actual performance with the actual
+  performance of defined “peer units”.
+- Actual rewards can include consideration of both financial and non-financial
+  performance measures.
 
 
 ### Discuss the Following Assertions
 
-No simple “one-size-fits-all” panacea exists for resolving the conflict between decision management versus decision control when it comes to budgeting.
+- No simple “one-size-fits-all” panacea exists for resolving the conflict
+  between decision management versus decision control when it comes to
+  budgeting.
   
-Nor is such a solution ever likely to be found. 
+- Nor is such a solution ever likely to be found. 
 
 
 ### Trade-off: Resolving Disagreements
 
-Top executive officers of firms have final decision rights over the entire budget process.
-
-Top executives resolve disputes among lower levels.
-
-After adoption, the budget is an informal set of contracts among the various units of the firm.
+- Top executive officers of firms have final decision rights over the entire budget process.
+- Top executives resolve disputes among lower levels.
+- After adoption, the budget is an informal set of contracts among the various units of the firm.
 
 
 ### Short-run vs. Long-run
 
-Firms that use only short-term (annual) budgets do not create adequate incentives for long-term maintenance and responding to new opportunities.
-
-Strategic planning requires long-term budgets (2, 5, or 10 years).
-
-Financial lending institutions often require cash flow projections for the length of any proposed borrowing.
-
-Many firms require managers to prepare both short-term and long-term budgets as part of the periodic budget review.
-
+- Firms that use only short-term (annual) budgets do not create adequate
+  incentives for long-term maintenance and responding to new opportunities.
+- Strategic planning requires long-term budgets (2, 5, or 10 years).
+- Financial lending institutions often require cash flow projections for the
+  length of any proposed borrowing.
+- Many firms require managers to prepare both short-term and long-term budgets
+  as part of the periodic budget review.
 
 ### Line-Item Budgets
 
-Line-item budgets authorize managers to spend only up to the specified amount on each line item.
+- Line-item budgets authorize managers to spend only up to the specified amount on each line item.
+- Advantages:
+  - Tight control reduces opportunities for managers to take actions inconsistent with firm goals
 
-Advantages:
-Tight control reduces opportunities for managers to take actions inconsistent with firm goals
-
-Disadvantages:
-Inflexible in responding to unanticipated needs
-Little incentive for cost savings
+- Disadvantages:
+  - Inflexible in responding to unanticipated needs
+  - Little incentive for cost savings
 
 
 ### Facilitating Rolling Budgets
 
-Cisco uses an 18-month rolling budget versus a static budget.  
+- Cisco uses an 18-month rolling budget versus a static budget.  
 
-Advantages:
-Keeps budget more current in a changing environment
-Managers may react in a more timely manner by better integrating planning and execution.
+- Advantages:
+  - Keeps budget more current in a changing environment
+  - Managers may react in a more timely manner by better integrating planning and execution.
 
-Disadvantages:
-Costs of software and management time
-Key Solution:  Use a single standardized web page for data entry and automatic roll up to the company-wide budget.
+- Disadvantages:
+  - Costs of software and management time
+  - Key Solution:  Use a single standardized web page for data entry and
+    automatic roll up to the company-wide budget.
 
 
 ### Budget Lapsing
 
-Budget lapsing is a requirement that funds allocated for a particular year cannot be carried over to the following year.
+__Budget lapsing is a requirement that funds allocated for a particular year
+cannot be carried over to the following year.__
 
-Advantages:
-Tighter control than budgets that do not lapse
-Prevents risk-averse managers from accumulating funds
+- Advantages:
+  - Tighter control than budgets that do not lapse
+  - Prevents risk-averse managers from accumulating funds
 
-Disadvantages:
-Encourages wasteful spending near end of fiscal year
+- Disadvantages:
+  - Encourages wasteful spending near end of fiscal year
 
 
 ### Static Budgets
