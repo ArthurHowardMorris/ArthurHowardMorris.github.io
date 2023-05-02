@@ -487,7 +487,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 ### SCB Solution 3
 
-- The increase in the interest rate on loans can be attributed only to an
+- The increase in the interest rate on loans can be attributed only to an 
   increase in the demand for loans, which resulted in the department charging a
   slightly higher average interest rate.
 - The higher processing expense could be related to the higher number of
@@ -495,35 +495,179 @@ The static and flexible budgets will be used in the next lecture to decompose va
 - That is, the favorable default expense could be attributed to an improved
   screening process-related to spending more on processing.
 
+## Master Budget
 
-### Appendix: Master Budget Example
+### NaturApples data
 
-__Study Figure 6-3.__
-<!-- TODO: put the figure here -->
+- NaturApples is an upstate New York apple processor with two products: applesauce and apple pie filling.
+- The applesauce is eaten as is, and the pie filling is used to make apple pies.
+- Two types of apples are purchased from local growers, McCouns and Grannys.
+- They are processed and packed in tin cans as either applesauce or pie filling.
+- Principal markets are institutional buyers, such as hospitals, public schools, Page 236 military bases, and universities.
+- NaturApples is a small processor.
+- Its market is regional and is serviced by four sales reps who call on customers in a four-state area.
+- A fifth salesperson markets the products to food distributors, who then sell them directly to restaurants.
+
+### NaturApples data
+
+- The firm is organized into two departments: processing and marketing.
+- Each is headed by a vice president who reports directly to the president.
+- The vice president of finance is responsible for all financial aspects of the firm, including preparing budgets.
+- The three vice presidents and the president make up NaturApples's executive committee, which oversees the budgeting process.
+
+### NaturApples data
+
+- Apples are harvested in the fall of each year.
+- The firm has long-term contracts with a number of local apple growers for their crops.
+- If the local harvest is smaller than expected, additional apples can be purchased in the spot market.
+- Likewise, if more apples are delivered than NaturApples wants to process, the extra apples can be sold in the spot market.
+- Long-term contracts with local farmers and spot-market purchases and sales are the responsibility of the president and the vice president of finance.
+
+### NaturApples data
+
+- Once harvested, the apples are stored either in coolers at NaturApples or in third-party warehouses until NaturApples processes them.
+- Processing takes nine months.
+- In October, the plant starts up after a three-month shutdown.
+- Workers first thoroughly clean and inspect all equipment.
+
+### NaturApples data
+
+- The apples begin arriving in the middle of October.
+- By the end of November, the apple harvest is in warehouses or started in production.
+- By June, all of the apples have been processed and the plant shuts down for July, August, and September.
+- NaturApples has a fiscal year starting October 1 and ending September 30.
+
+### NaturApples data
+
+- Each of the two products (applesauce and pie filling) uses a combination of the two types of apples (McCouns and Grannys).
+- The production process consists of inspection, washing, peeling, and coring.
+- The apples are either mashed for applesauce or diced for pie filling and then are combined with other ingredients such as spices and chemical stabilizers and cooked in vats.
+- Both products are immediately canned on a single canning line in five-pound tins and packed in cases of 12 cans per case.
+- The product has a two-year shelf life and is inventoried until ordered by the customer.
+- Independent truckers deliver apples to NaturApples and deliver finished product to customers.
+
+### NaturApples budgeting process
+
+- The budgeting process begins in August for the next fiscal year's budget, which will begin in 14 months.
+- That is, even though the current fiscal year beginning in October has not yet started, the preparation of next year's budget begins in August.
+- In August, the coming fall harvest is reasonably well known.
+
+### NaturApples budgeting process
+
+- The president and the vice president of finance forecast the following year's crop harvest under long-term contract.
+- The vice president of marketing begins forecasting sales that will be made from the harvest a year from this fall.
+- Likewise, the processing vice president forecasts production costs and capacity.
+
+### NaturApples budgeting process
+
+- Every 2 months for the next 14 months, these budgets are revised with regard to marketing, processing, and apple procurement in light of any new information, and all three vice presidents and the president meet for a morning to discuss their revisions.
+ 
+
+### NaturApples budgeting process
+
+- In June of each year, the final master budget for the next fiscal year, which begins October 1, is adopted by the executive committee and approved by the board of directors.
+- The executive committee also meets weekly to review current-year operations as compared with budget and to discuss other operational issues.
+ 
+
+### NaturApples budgeting process
+
+- The figure on the next slide is a schematic that illustrates the relations among component budgets and the NaturApples master budget.
+- The master budget encompasses the budgeted income statement, budgeted balance sheet, and budgeted cash flows at the bottom of the figure. 
+- All the other budgets provide the supporting detail, including the various key planning assumptions underlying the master budget.
+
+## Logical flow
+### NaturApples budgeting process
+
+![Logical flow](apples.png)
+
+### NaturApples budgeting process
 
 - Logical relationships
   - Sales budget drives production and purchasing
   - Production drives materials and labor budget
   - Production and sales drive inventory and cost of goods sold
 
+### NaturApples budgeting process
+
 - Master budget statements
   - Budgeted income statement
   - Budgeted balance sheet
   - Budgeted cash flows
 
+### Three key processes:
 
-### Budgets and Economic Darwinism
+1. procurement
+2. sales
+3. production
 
-- Budgets may result in suboptimal performance because:
-  - Too much emphasis on financial rather than nonfinancial measures
-  - Short-term rather long-term results
-  - Maximizing incentive bonuses for manager rather than firm value
-  - Too much time analyzing budget variances
+- These must all be internally consistent so that the volumes produced match the volumes procured and sold.
+- These also determine ending inventory, and flow through the rest of the system.
 
-- Despite all these problems, budgets persist in firms.
+### NaturApples budgeting process
 
-- The economic Darwinism principle implies budgeting must be yielding benefits
-  at least as large as their costs.
+- Given the production budget, the direct labor and factory overhead budgets can be generated.
+- These last two budgets and the direct materials budget (from the apple procurement estimates) determine the cost-of-goods-sold budget.
+ 
+
+### NaturApples budgeting process
+
+- The budgeted income statement can then be prepared using these budgets and the budget for administration, which includes senior officer salaries and other administrative expenses not included elsewhere.
+
+### NaturApples budgeting process
+
+- Toward the bottom of the figure is the capital investment budget, which is based on an analysis of investment proposals.
+- All profitable projects are in the capital investment budget, including those projects started in previous years but not yet completed.
+- The capital investment budget and budgeted income statement are used to prepare NaturApples's budgeted balance sheet and then the cash flow budget.
+- The remainder of this appendix illustrates the preparation of these various component budgets.
+
+### NaturApples budgeting process
+
+- NaturApples uses the following accounting conventions:
+1. FIFO is used for inventory accounting.
+2. Factory overhead is estimated using a flexible budget.
+
+### NaturApples budgeting process
+
+- Variable overhead varies with the number of direct labor hours in the plant.
+- Total overhead is then assigned to product costs using the number of hours of direct labor in the product.
+- The table on the next slide provides the basic data for the budgeting illustration.
+
+### NaturApples budgeting process
+
+- This table contains some primary operating data, such as the beginning inventory figures.
+- The bottom half of the table also shows the amount of each type of apple required to make a case of applesauce and a case of pie filling.
+
+### Basic data:
+
+Basic Data for Budgeting Example for Fiscal Year Beginning 10/1/19:
+|                       | Cases  | Cost/Case |
+|-----------------------|--------|-----------|-----------|
+| Beginning Inventory   | 13,500 | \$57.96   | \$782,460 |
+| Sauce                 | 2,300  | \$48.81   | \$112,263 |
+| Pie filling           | McCoun | Granny    |           |
+| Pounds of Apples/Case |        |           |           |
+| Sauce                 | 60     | 40        |           |
+| Pie filling           | 50     | 30        |           |
+
+### Departmental budgets:
+
+- By June, the executive committee has agreed on next year's volumes.
+- The sales budget for the next fiscal year is given in the next table.
+
+### Departmental budgets:
+
+- The executive committee agrees that the firm should be able to sell 140,000 cases of sauce at $68.95 per case and 60,000 cases of pie filling at $53.95 per case.
+- These quantities and prices were derived after exploring alternative price-quantity combinations.
 
 
+### Departmental budgets (sales):
+
+- In particular, these price-quantity points represent the managers' best judgment of where profits are maximized.
+- Presumably, higher prices (and thus lower sales) or lower prices (and higher sales) would both result in lower profits than the combinations in the next table.
+
+|             | Budgeted Cases | Budgeted Price/Case | Budgeted Revenue |
+|-------------|----------------|---------------------|------------------|
+| Sauce       | 140,000        | \$68.95             | \$ 9,653,000     |
+| Pie filling | 60,000         | 53.95               | 3,237,000        |
+| Total       |                |                     | \$12,890,000     |
 
