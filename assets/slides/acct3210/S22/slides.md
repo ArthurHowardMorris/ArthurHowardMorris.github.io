@@ -407,6 +407,10 @@ The static and flexible budgets will be used in the next lecture to decompose va
   make sure that these resources are in place when they are needed.
 - In this case it is the deposits that need to be in place for the lending to
   happen.
+  
+### Logical flow
+
+![Logical flow](apples.png)
 
 ### SCB Question 2
 
