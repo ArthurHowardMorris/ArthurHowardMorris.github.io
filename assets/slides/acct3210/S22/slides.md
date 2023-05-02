@@ -20,12 +20,12 @@ title: "Budgeting"
 
 ### Variances:
 
-- [A statistic that describes the differences between the observations and the
+- In statistics: [A measure of the differences between the observations and the
   predictions.](https://en.wikipedia.org/wiki/Variance)
-- A managerial accounting term: the difference between the budgeted and actual
-  amount.
+- In managerial accounting: The difference between the budgeted and actual
+  amounts.
 - Related, but distinct. Managerial accounting variances are more closely
-  related to 'errors' in statistics.
+  related to 'errors' in statistics, this makes sense as they are errors in prediction.
 
 
 ### Variances:
@@ -42,6 +42,7 @@ title: "Budgeting"
 - Unfavorable (U) variance: actual revenue < budgeted revenue actual expense >
   budgeted expense
 
+## Examples
 
 ### Example: Country Club
 
@@ -59,24 +60,30 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
   - Number of students drives revenue forecasts.
   - Faculty market drives faculty salary expense.
 
+### Example: Private University
+
 - Decision rights:    
   - Lower levels prepare initial budgets.
   - Higher levels review and ratify budget.
   - _This process passes knowledge up the organization._ 
   
+### Example: Private University
+
 - Agency problems:  
   - Empire building: request “too large” a budget.
   - Externalities: Cost centers are more likely to add unprofitable programs
     than profit centers.
 
-_Is Auxiliary Services a responsibility center? How should it be evaluated?_
+<!-- _Is Auxiliary Services a responsibility center? How should it be evaluated?_ -->
 
 
 ### Example: Large Corporation
 
 - Responsibility centers:
   - 2 cost  (manufacturing and marketing)
-  - 1 profit (paper and toner supplies)
+  - 1 revenue (sales)
+
+### Example: Large Corporation
 
 - Knowledge:  
   - Vertical transfers (lower to higher levels)
@@ -84,18 +91,24 @@ _Is Auxiliary Services a responsibility center? How should it be evaluated?_
   - Identify potential bottlenecks in production
   - Identify financing needs
 
+### Example: Large Corporation
+
 - Contracting: 
   - Budgets are internal contracts between operating segments
   - Divisional managers negotiate budgets
   - Executive managers negotiate disputes and review budgets for consistency
     with corporate strategy
 
+## Trade-offs
 
 ### Trade-off: Communication vs. Evaluation
 
 - Budgets are used for both decision management and decision control.
 - Optimal decision making requires managers fully reveal private knowledge
   about production and market conditions during   budget negotiations.
+
+### Trade-off: Communication vs. Evaluation
+
 - When budgets are also used for performance evaluation, managers have an
   incentive to make biased budget forecasts so that their actual performance
   will look good relative to budget.
@@ -107,10 +120,14 @@ _Is Auxiliary Services a responsibility center? How should it be evaluated?_
   - Performance targets usually adjusted upward
   - Employees reduce output to avoid being held to higher standards in the future
 
+### Budget Ratcheting
+
 - Possible Solution:
   - Eliminate budget targets
   - Estimate next year’s sales
   - More frequent job rotation
+
+### Budget Ratcheting
 
 - Summary: While the ratchet effect creates dysfunctional behavior, the
   alternatives might produce even greater problems.
@@ -120,16 +137,25 @@ _Is Auxiliary Services a responsibility center? How should it be evaluated?_
 
 - Top-down budgets:
   - Knowledge: Top management can make accurate aggregate forecasts
-  - Decision rights: Begin with aggregate forecasts for firm, and then disaggregate down to lower levels
+  - Decision rights: Begin with aggregate forecasts for firm, and then
+    disaggregate down to lower levels
   - Decision control more important than decision management
 
 ### Trade-off: Bottom-up vs. Top-down
 
 - Bottom-up budgets (participative budgeting):
   - Knowledge: Lower levels have more knowledge than top
-  - Decision rights: Person being held responsible for meeting the target makes the initial budget forecast
+  - Decision rights: Person being held responsible for meeting the target makes
+    the initial budget forecast
   - Decision management more important than decision control
 
+### Trade-off: Resolving Disagreements
+
+- Top executive officers of firms have final decision rights over the entire budget process.
+- Top executives resolve disputes among lower levels.
+- After adoption, the budget is an informal set of contracts among the various units of the firm.
+
+## Modern budgeting
 
 ### Modern Approaches to Budgeting
 
@@ -145,25 +171,21 @@ _Is Auxiliary Services a responsibility center? How should it be evaluated?_
   using budgets as performance targets (decision control)
 - Units are judged by comparing their actual performance with the actual
   performance of defined “peer units”.
+
+### Modern Approaches to Budgeting
+
 - Actual rewards can include consideration of both financial and non-financial
   performance measures.
+- Data come directly from the design and function of the production process.
 
-
-### Discuss the Following Assertions
+### What do you think of the Following Assertions?
 
 - No simple “one-size-fits-all” panacea exists for resolving the conflict
   between decision management versus decision control when it comes to
   budgeting.
-  
 - Nor is such a solution ever likely to be found. 
 
-
-### Trade-off: Resolving Disagreements
-
-- Top executive officers of firms have final decision rights over the entire budget process.
-- Top executives resolve disputes among lower levels.
-- After adoption, the budget is an informal set of contracts among the various units of the firm.
-
+## Horizon
 
 ### Short-run vs. Long-run
 
@@ -175,43 +197,67 @@ _Is Auxiliary Services a responsibility center? How should it be evaluated?_
 - Many firms require managers to prepare both short-term and long-term budgets
   as part of the periodic budget review.
 
+## Budget Types/Terms/Policies
+_Modern firms use a mix of all of these types._
+
 ### Line-Item Budgets
 
 - Line-item budgets authorize managers to spend only up to the specified amount on each line item.
 - Advantages:
   - Tight control reduces opportunities for managers to take actions inconsistent with firm goals
 
+### Line-Item Budgets
+
 - Disadvantages:
   - Inflexible in responding to unanticipated needs
   - Little incentive for cost savings
 
+### Rolling Budgets
 
-### Facilitating Rolling Budgets
+- A rolling budget is set each month over some time-period
+- For example: Each month Cisco revises their budget for the next 18-months.
 
-- Cisco uses an 18-month rolling budget versus a static budget.  
+### Rolling Budgets
 
 - Advantages:
   - Keeps budget more current in a changing environment
   - Managers may react in a more timely manner by better integrating planning and execution.
+
+### Rolling Budgets
 
 - Disadvantages:
   - Costs of software and management time
   - Key Solution:  Use a single standardized web page for data entry and
     automatic roll up to the company-wide budget.
 
-
 ### Budget Lapsing
 
 __Budget lapsing is a requirement that funds allocated for a particular year
 cannot be carried over to the following year.__
 
+### Budget Lapsing
+
 - Advantages:
   - Tighter control than budgets that do not lapse
   - Prevents risk-averse managers from accumulating funds
 
+### Budget Lapsing
+
 - Disadvantages:
   - Encourages wasteful spending near end of fiscal year
 
+### Incremental vs. Zero-Based Budgets
+
+- __Incremental budgeting:__
+  - Begin with current year’s core budget and make incremental changes
+  - Review focuses on incremental changes and may ignore inefficiencies in core
+    budget
+
+- __Zero-based budgeting (ZBB):__
+  - Mandates each line item in total must be justified each year
+  - Motivates managers to eliminate inefficient expenses
+  - Useful when firm is changing strategic direction
+  - Becomes less useful when same justifications are used each year
 
 ### Static Budgets
 
@@ -227,11 +273,19 @@ cannot be carried over to the following year.__
 - Evaluate performance after adjusting for volume effects
 - Manager is not held responsible for volume changes
 
+### Note:
+
+The static and flexible budgets will be used in the next lecture to decompose variances!
+
 <!-- ### Example: GAMESS Inc. -->
+
 <!-- TODO: this is an embarassingly out of date version of the book. -->
 <!-- GAMESS Inc. develops, markets, packages, and distributes multimedia computer games. GAMES has outsourced production because it does not believe it can manufacture the games competitively. Its most recent development is an interactive adventure game. Because its multimedia games are different from other computer games in both the physical size of the package and price, GAMESS established a new profit center for the adventure game and future Blu-ray computer games. -->
 <!-- GAMESS is in the process of selecting the profit-maximizing price for the new adventure game. Management estimates demand for the new game at various wholesale prices. The retail stores then set the retail price of the same sold to the public. Estimated demand is shown in L Table I. -->
 <!-- __See Self-Study Problems.__ -->
+
+
+## Example: Sandy Cove Bank
 
 ### Sandy Cove Bank
 
@@ -279,15 +333,25 @@ cannot be carried over to the following year.__
 - The amount of new loans granted is always the lesser of the loan demand and
   loan supply.
 - For simplicity, this bank may lend 100 percent of deposits.
+- In practice, this rate is set by policy makers and regulators not the bank itself.
+
+### Sandy Cove Bank
+
 - Although rates are set nationally, the bank may pay or charge slightly
   different rates to limit demand or boost supply as needed in its local
   market.
 - The Boat and Car Loan Department incurs processing, loan default, and
   overhead expenses related to these accounts.
+
+### Sandy Cove Bank
+
 - The first two expenses vary, depending on the dollar amount of the accounts.
 - The annual processing expense is budgeted to be 1.5 percent of the loan
   accounts. 
 - Default expense is budgeted at 1 percent of the amount loaned per year.
+
+### Sandy Cove Bank
+
 - Again, loans and savings would ideally be the same.
 - Overhead expenses are estimated to be \$30,000 for the year, regardless of the
   amount loaned.
@@ -304,9 +368,7 @@ cannot be carried over to the following year.__
 | 9%        | 6.03        | 5%           | 9.83           | 6.03      |
 | 10%       | 4.42        | 6%           | 11.8           | 4.42      |
 
-
 ### SCB Solution 1
-
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses |
 |-----------|-------------|--------------|----------------|-----------|---------------------|
@@ -341,11 +403,16 @@ cannot be carried over to the following year.__
 | 9%        | 6.03        | 5%           | 9.83           | 6.03      | 90,450              | 60,300      | 30,000            |
 | 10%       | 4.42        | 6%           | 11.8           | 4.42      | 66,300              | 44,200      | 30,000            |
 
-- These are the budgeted expenses, this is the foundation of financing plans to make sure that these resources are inplace when they are needed.
+- These are the budgeted expenses, this is the foundation of financing plans to
+  make sure that these resources are in place when they are needed.
+- In this case it is the deposits that need to be in place for the lending to
+  happen.
 
 ### SCB Question 2
 
-2. Create an annual budgeted income statement for five-year loans and deposits for the Boat and Car Loan Department given a savings interest rate of 4 percent. Remember to match supply and demand.
+2. Create an annual budgeted income statement for five-year loans and deposits
+   for the Boat and Car Loan Department given a savings interest rate of 4
+   percent. Remember to match supply and demand.
 
 |                     |                   |           |
 |---------------------|-------------------|-----------|
@@ -359,7 +426,9 @@ cannot be carried over to the following year.__
 
 ### SCB Question 3
 
-3. Table 2 shows the actual income statement for the Boat and Car Loan Department. Included are the actual loans and savings for the same period. Calculate the variances and provide a possible explanation.
+3. Table 2 shows the actual income statement for the Boat and Car Loan
+   Department. Included are the actual loans and savings for the same period.
+   Calculate the variances and provide a possible explanation.
 
 |                     | Budget    | Actual      |
 |---------------------|-----------|-------------|
@@ -393,19 +462,31 @@ cannot be carried over to the following year.__
   income was higher and interest expense was lower than expected.
 - The answer can be obtained by calculating the average interest rates earned
   and paid.
+
+### SCB Solution 3
+
 - On \$8,062,000 worth of loans, Sandy Cove earned \$645,766 interest, or 8.01
   percent (0.01 percent more than expected).
 - Similarly, it paid only 3.87 percent (0.13 percent less) on deposits.
+
+### SCB Solution 3
+
 - Therefore, the net interest income variance of \$8,606 is a combination of
   two effects: the variance in the actual loans and deposits (quantity) and the
   variance in the interest rates (price).
 - The combined effects are a favorable interest income variance, a favorable
   interest expense variance, and an overall favorable net interest income
   variance.
+
+### SCB Solution 3
+
 - At a savings interest rate of 4 percent, there is an excess supply of
   deposits over demand for loans.
 - The Boat and Car Loan Department lowered the interest rate on deposits to
   stem additional deposits.
+
+### SCB Solution 3
+
 - The increase in the interest rate on loans can be attributed only to an
   increase in the demand for loans, which resulted in the department charging a
   slightly higher average interest rate.
@@ -414,18 +495,6 @@ cannot be carried over to the following year.__
 - That is, the favorable default expense could be attributed to an improved
   screening process-related to spending more on processing.
 
-### Incremental vs. Zero-Based Budgets
-
-- __Incremental budgeting:__
-  - Begin with current year’s core budget and make incremental changes
-  - Review focuses on incremental changes and may ignore inefficiencies in core
-    budget
-
-- __Zero-based budgeting (ZBB):__
-  - Mandates each line item in total must be justified each year
-  - Motivates managers to eliminate inefficient expenses
-  - Useful when firm is changing strategic direction
-  - Becomes less useful when same justifications are used each year
 
 ### Appendix: Master Budget Example
 
