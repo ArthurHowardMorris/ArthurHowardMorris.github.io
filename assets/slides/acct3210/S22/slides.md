@@ -4,16 +4,28 @@ title: "Budgeting"
 
 ### Budgets and Organizational Architecture
 
-- A budget is management’s forecast of revenues, expenses, or profits in a future time period.
-- Knowledge: Budgets communicate key planning assumptions such as product prices, units sales, and input prices.
-- Partition Decision Rights:  Budget sets guidelines on resources available for each segment.
-- Performance Evaluation: Responsibility center’s actual performance is compared to budget.
+- A budget is management’s forecast of revenues, expenses, or profits in a
+  future time period.
+- Budgets are plans not aspirations.
+- Deviations, even income-increasing ones, are not innocuous.
+
+### Budgets and Organizational Architecture
+
+- Knowledge: Budgets communicate key planning assumptions such as product
+  prices, units sales, and input prices.
+- Partition Decision Rights:  Budget sets guidelines on resources available for
+  each segment.
+- Performance Evaluation: Responsibility center’s actual performance is
+  compared to budget.
 
 ### Variances:
 
-- [A statistic that describes the differences between the observations and the predictions.](https://en.wikipedia.org/wiki/Variance)
-- A managerial accounting term: the difference between the budgeted and actual amount.
-- Related, but distinct. Managerial accounting variances are more closely related to 'errors' in statistics.
+- [A statistic that describes the differences between the observations and the
+  predictions.](https://en.wikipedia.org/wiki/Variance)
+- A managerial accounting term: the difference between the budgeted and actual
+  amount.
+- Related, but distinct. Managerial accounting variances are more closely
+  related to 'errors' in statistics.
 
 
 ### Variances:
@@ -50,6 +62,7 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
 - Decision rights:    
   - Lower levels prepare initial budgets.
   - Higher levels review and ratify budget.
+  - _This process passes knowledge up the organization._ 
   
 - Agency problems:  
   - Empire building: request “too large” a budget.
