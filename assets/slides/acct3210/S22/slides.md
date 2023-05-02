@@ -576,18 +576,18 @@ The static and flexible budgets will be used in the next lecture to decompose va
 - All the other budgets provide the supporting detail, including the various key planning assumptions underlying the master budget.
 
 ## Logical flow
-### NaturApples budgeting process
+### Logical flow
 
 ![Logical flow](apples.png)
 
-### NaturApples budgeting process
+### Logical flow
 
 - Logical relationships
   - Sales budget drives production and purchasing
   - Production drives materials and labor budget
   - Production and sales drive inventory and cost of goods sold
 
-### NaturApples budgeting process
+### Logical flow
 
 - Master budget statements
   - Budgeted income statement
