@@ -373,16 +373,101 @@ __For materials we stick with the term "Price" and "Quantity"
 | $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a - P_a \times Q_s$ | $P_a \times Q_s - P_s \times Q_s$ |
 | $[Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$  | $Q_a(P_a-P_s)$                    | $P_s(Q_a-Q_s)$                    |
 
-### Incentive Effects of Direct Materials Variances:
+### Incentive Effects of Variances:
 
 - Rewarding purchasing managers for favorable direct materials price variances creates an incentive for them to buy large quantities when price discounts are offered for high-volume purchases. 
 - Penalizing production managers for unfavorable labor efficiency variances encourages keeping labor busy producing more.
 - Mitigation of inventory building incentive
   - Charge purchasing department for cost of holding inventory.
   - Just-in-time (JIT) purchasing and production policies
-- JIT after 2018 looks less rosy. Though whatever we do with inventory we should do on purpose. (Stories)
 
-### Overhead Variance
+### A note on JIT:
+
+- Mangerial accountants and consultants love JIT
+- Toyota (and the whole Japanese Auto industry) is an often cited example.
+- The 2011 Tohoku and Miyagi Earthquakes disrupted supply chains which lead to careful restructuring, and decreased reliance on pure just-in-time production.
+- Nonetheless, JIT was still widely used and COVID 2019 disrupted these supply chains.
+- The Invasion of Ukraine by the Russian military also disrupted supply chains.
+- In all of these cases excess inventory proved immensely valuable. 
+
+## Overhead Variance
+
+### Overhead Variance: Terms
+
+- Overhead variances are slightly more complex, because in addition to predicting price and quantity we also have to predict overhead consumption (the overhead rate).
+- This is a 'meta' prediction in the sense that it depends on several other predictions:
+  - Consumption of the overhead
+  - Use of the underlying driver
+- So when we observe an overhead variance, there are more things to explore.
+
+### Overhead Variance: Volume
+
+- BV: Budgeted volume 
+  - (also known as denominator volume)
+  - Estimated at the beginning of the year and used for calculating the overhead rate
+- SV: Standard volume 
+  - (also known as earned or allowed volume)
+  - (Output units completed) $\times$ (Standard input hours per output unit)
+  - Volume used to apply overhead to work-in-process inventory
+- AV: Actual volume
+- Actual hours or other input resource used during period
+
+### Overhead Variance: Volume Estimates
+
+- Estimated budget volume influences overhead rate.
+  - Increasing budgeted volume (denominator) while holding total budgeted
+    dollars constant (numerator) decreases the overhead rate.
+- Expected volume to set budget
+  - Adjust expectation based on number of units forecast for next year.
+  - Rises and falls with business cycle
+- Normal volume to set budget
+  - Forecast of long-run average annual production
+  - Does not change over business cycle
+
+### Flexible and Static Overhead Budgets:
+
+For the sake of a simple example assume a firm with the following attributes:
+
+|                         | Forecast     |
+|-------------------------|--------------|
+| Fixed Overhead (FOH)    | \$1,350,000  |
+| Variable Overhead (VOH) | \$14         |
+| Budgeted Volume (BV)    |              |
+| _(the driver is DLH)_   | 67,500 hours |
+
+_Remember that this "budgeted volume" is different than the "standard volume" though this distinction isn't particularly clear given the way that we named things in the direct variances._ 
+
+### Flexible Overhead Budget ($BOH_{Flex}$)
+
+- __Flexible overhead budget is the formula for budget forecast.__
+- $BOH_{Flex} = FOH + (VOH \times BV)
+- $BOH_{Flex} = \$1,350,000 + (\$14 \times  BV)$
+
+_Remember that Flexible Budgets are always formulas._
+
+
+### (Static) Overhead Budget 
+
+- Estimate budgeted overhead (BOH) dollars using a specific forecasted volume number (BV) and the flexible overhead budget formula.
+- $BOH = FOH + (VOH \times BV)$ 
+- $BOH =  \$1,350,000  + (\$14 \times 67,500 hours)$
+- $BOH =  \$2,295,000$
+
+### Overhead Rate:
+
+- This is the same sort of overhead rate that we've been thinking about with all of our allocations.
+- Overhead rate is the total budgeted overhead dollars for the year divided by the budgeted volume for the year.
+
+$$OHR = (BOH  / BV) = (FOH / BV) + VOH$$
+$$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 
+
+
+
+The overhead rate consists of the estimated:
+
+fixed overhead $ per input hour (FOH  \times BV), and
+
+variable overhead $ per input hour (VOH)
 
 
 
