@@ -459,15 +459,98 @@ _Remember that Flexible Budgets are always formulas._
 - Overhead rate is the total budgeted overhead dollars for the year divided by the budgeted volume for the year.
 
 $$OHR = (BOH  / BV) = (FOH / BV) + VOH$$
-$$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 
+$$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 67,000 hours + \$14
+
+### The Overhead Rate Consists of Estimated:
+
+
+- Fixed overhead $ per input hour (FOH  / BV), and
+- Variable overhead $ per input hour (VOH)
+
+### Allocated or Absorbed Overhead
+
+Overhead absorbed = Overhead rate  Standard volume = OHR  SV
+
+Standard Volume    = Units of output  Standard input per output
+
+SV = 67,400 machine hours for 96,000 blocks
+
+   Overhead absorbed = $34  67,400 machine hours
+
+## Total Overhead Variance
+
+### Total Overhead Variance
+
+Overhead variances occur when the actual overhead incurred does not equal the overhead absorbed or allocated.
+
+
+Actual overhead			        Overhead absorbed
+
+cost incurred				        (applied to product)
+
+   AOH		 	       		                    (OHR  SV)
+
+      |_________________________________________|
+
+			      AOH - (OHR  SV)
+
+			Total overhead variance
+
+			Underabsorbed, if actual > absorbed
+
+			Overabsorbed, if actual < absorbed
+
+## Decompose Overhead Variance
+
+Actual overhead	     Flex. budget at              Flex. budget at     	Overhead absorbed
+
+at actual volume          actual volume    	           standard volume  	(applied to product)
+
+AOH	        	[FOH + (VOH AV)]           [FOH + (VOH SV)]        (OHR  SV)
+
+	|________________|         |_____________________|     |________________|
+
+		Overhead	       	     	 Overhead     	          Overhead
+
+		Spending	                              Efficiency	          Volume
+
+		Variance	            	                Variance	                         Variance
+
+	|______________________________________________________ __________|
+
+			                 Total overhead variance
+
+			             Over/underabsorbed overhead
 
 
 
-The overhead rate consists of the estimated:
 
-fixed overhead $ per input hour (FOH  \times BV), and
 
-variable overhead $ per input hour (VOH)
+<!-- See Table 13-5 example and Self-Study Problem. -->
+
+### Overhead Efficiency Variance
+
+Flexible budget at			     Flexible budget at
+
+actual volume				     standard volume
+
+[FOH + (VOH AV)]	 		     [FOH + (VOH SV)]
+
+		      | __________________________________ |
+
+			Overhead Efficiency Variance
+
+			 [FOH + (VOH AV)]  - [(FOH + (VOH SV)]
+
+			= VOH AV - SV)
+
+			Unfavorable (U) when AV > SV				Favorable (F) when AV < SV
+
+
+
+- When overhead is allocated with the same base as direct labor, the overhead
+  efficiency and labor efficiency variances will be in the same direction.
+
 
 
 
