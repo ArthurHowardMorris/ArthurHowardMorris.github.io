@@ -325,6 +325,20 @@ __We have other terms for the price and quantity of labor!:__
 - Price ($P) $\to$ Wage ($W$)
 - Quantity $\to$ Hours
 
+### Direct Labor Variance
+
+| Total Variance                      | Actual DL Cost   | Flexible Budget  | Standard DL Cost |
+|-------------------------------------|------------------|------------------|------------------|
+| $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a$ | $W_a \times H_s$ | $W_s \times H_s$ |
+
+
+| Total Variance                      | Wage Variance                     | Efficiency Variance               |
+|-------------------------------------|-----------------------------------|-----------------------------------|
+| $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a - W_a \times H_s$ | $W_a \times H_s - W_s \times H_s$ |
+
+
+
+
 ### Direct Materials Variance
 
 ### Overhead Variance
