@@ -3,6 +3,14 @@ title: "Standard Costs and Variances"
 ---
 ### Everything starts with a budget
 
+- We can conduct variance analysis at any level of the organization.
+- We can use decomposition of variances to isolate the causes.
+- This tells us which parts of our forecasts were wrong.
+
+### Logical flow
+
+![Logical flow](apples.png)
+
 ## Example: Sandy Cove Bank
 
 ### Sandy Cove Bank
@@ -126,9 +134,6 @@ title: "Standard Costs and Variances"
 - In this case it is the deposits that need to be in place for the lending to
   happen.
   
-### Logical flow
-
-![Logical flow](apples.png)
 
 ### SCB Question 2
 
@@ -460,12 +465,12 @@ _Remember that Flexible Budgets are always formulas._
 
 $$OHR = (BOH  / BV) = (FOH / BV) + VOH$$
 $$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 67,000 hours + \$14
+$$OHR = 34.25$$
 
 ### The Overhead Rate Consists of Estimated:
 
-
-- Fixed overhead $ per input hour (FOH  / BV), and
-- Variable overhead $ per input hour (VOH)
+- Fixed overhead \$ per input hour (FOH  / BV), and
+- Variable overhead \$ per input hour (VOH)
 
 ### Allocated or Absorbed Overhead
 
