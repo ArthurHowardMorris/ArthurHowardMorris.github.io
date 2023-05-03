@@ -797,6 +797,171 @@ class="slide level3">
 <li><em>This is all we need to decompose any variance into it’s price
 and volume components.</em></li>
 </ul>
+</section>
+<section id="total-var.-into-price-quantity-vars-2"
+class="slide level3">
+<h3>Total Var. into Price &amp; Quantity Vars</h3>
+<ul>
+<li>Now we can rewrite this:
+<ul>
+<li>Total Variance = Actual Cost - Standard Cost</li>
+</ul></li>
+<li>In terms of prices and quantities as this:
+<ul>
+<li><span
+class="math inline"><em>T</em><em>V</em> = (<em>Q</em><sub><em>a</em></sub>×<em>P</em><sub><em>a</em></sub>) − (<em>Q</em><sub><em>s</em></sub>×<em>P</em><sub><em>s</em></sub>)</span></li>
+</ul></li>
+<li>and do a little bit of algebra to do the decomposition.</li>
+</ul>
+<p><em>Note: I’ll give you the relationship above, and you can either
+memorize or derive the other forms.</em></p>
+</section>
+<section id="the-algebra" class="slide level3">
+<h3>The algebra:</h3>
+<ul>
+<li>Goal: Write the rhs. so that one term includes the change error in
+<span class="math inline"><em>P</em></span> and the other includes the
+error in <span class="math inline"><em>Q</em></span>.
+<ul>
+<li><span
+class="math inline"><em>T</em><em>V</em> = (<em>Q</em><sub><em>a</em></sub>×<em>P</em><sub><em>a</em></sub>) − (<em>Q</em><sub><em>s</em></sub>×<em>P</em><sub><em>s</em></sub>)</span></li>
+</ul></li>
+<li>Start by adding and subtracting <span
+class="math inline">(<em>P</em><sub><em>s</em></sub>×<em>Q</em><sub><em>a</em></sub>)</span>
+<ul>
+<li><span
+class="math inline"><em>T</em><em>V</em> = (<em>Q</em><sub><em>a</em></sub>×<em>P</em><sub><em>a</em></sub>) + [(<em>P</em><sub><em>s</em></sub>×<em>Q</em><sub><em>a</em></sub>)−(<em>P</em><sub><em>s</em></sub>×<em>Q</em><sub><em>a</em></sub>)] + (<em>Q</em><sub><em>s</em></sub>×<em>P</em><sub><em>s</em></sub>)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="does-p_s-times-q_a-have-real-world-meaning"
+class="slide level3">
+<h3>Does <span
+class="math inline">(<em>P</em><sub><em>s</em></sub>×<em>Q</em><sub><em>a</em></sub>)</span>
+have real world meaning?</h3>
+<ul>
+<li><span class="math inline"><em>P</em><sub><em>s</em></sub></span> is
+the standard or budgeted price.</li>
+<li><span class="math inline"><em>Q</em><sub><em>a</em></sub></span> is
+the actual quantity.</li>
+<li>So <span
+class="math inline"><em>P</em><sub><em>s</em></sub> × <em>Q</em><sub><em>a</em></sub></span>
+is the <em>standard budget</em>!
+<ul>
+<li>(Or at least it’s one line from a standard budget.)
+<!-- TODO: rewrite this whole section using the +/- the flexible budget notion --></li>
+</ul></li>
+</ul>
+</section>
+<section id="the-algebra-1" class="slide level3">
+<h3>The algebra:</h3>
+<ul>
+<li><span
+class="math inline"><em>T</em><em>V</em> = [(<em>Q</em><sub><em>a</em></sub>×<em>P</em><sub><em>a</em></sub>)−(<em>P</em><sub><em>s</em></sub>×<em>Q</em><sub><em>a</em></sub>)] + [(<em>P</em><sub><em>s</em></sub>×<em>Q</em><sub><em>a</em></sub>) − (<em>Q</em><sub><em>s</em></sub>×<em>P</em><sub><em>s</em></sub>)</span></li>
+<li><span
+class="math inline"><em>T</em><em>V</em> = [<em>Q</em><sub><em>a</em></sub>(<em>P</em><sub><em>a</em></sub>−<em>P</em><sub><em>s</em></sub>)] + [<em>P</em><sub><em>s</em></sub>(<em>Q</em><sub><em>a</em></sub>−<em>Q</em><sub><em>s</em></sub>)]</span></li>
+</ul>
+</section></section>
+<section>
+<section id="the-price-and-quantity-variances"
+class="title-slide slide level2">
+<h2>The Price and Quantity Variances</h2>
+
+</section>
+<section id="the-price-and-quantity-variances-1" class="slide level3">
+<h3>The Price and Quantity Variances</h3>
+<p><span
+class="math display"><em>T</em><em>V</em> = [<em>Q</em><sub><em>a</em></sub>(<em>P</em><sub><em>a</em></sub>−<em>P</em><sub><em>s</em></sub>)] + [<em>P</em><sub><em>s</em></sub>(<em>Q</em><sub><em>a</em></sub>−<em>Q</em><sub><em>s</em></sub>)]</span></p>
+<ul>
+<li>Now we have TV as a function of the error in P <span
+class="math inline">(<em>P</em><sub><em>a</em></sub>−<em>P</em><sub><em>s</em></sub>)</span>
+and the error in Q <span
+class="math inline">(<em>Q</em><sub><em>a</em></sub>−<em>Q</em><sub><em>s</em></sub>)</span>.</li>
+<li>Multiplying the error in <span class="math inline"><em>P</em></span>
+by the actual quantity gives us the portion of TV that is due to the
+error in <span class="math inline"><em>P</em></span>.</li>
+<li>Multiplying the error in <span class="math inline"><em>Q</em></span>
+by the forecasted (budgeted, or standard) quantity gives us the portion
+of TV that is due to the error in <span
+class="math inline"><em>Q</em></span>.</li>
+</ul>
+<p><em>The intuition behind this decomposition is critical.</em></p>
+</section>
+<section id="the-price-and-quantity-variances-2" class="slide level3">
+<h3>The Price and Quantity Variances</h3>
+<p><span
+class="math display"><em>T</em><em>V</em> = [<em>Q</em><sub><em>a</em></sub>(<em>P</em><sub><em>a</em></sub>−<em>P</em><sub><em>s</em></sub>)] + [<em>P</em><sub><em>s</em></sub>(<em>Q</em><sub><em>a</em></sub>−<em>Q</em><sub><em>s</em></sub>)]</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>Total Variance</th>
+<th>Price Variance</th>
+<th>Volume Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline"><em>T</em><em>V</em></span></td>
+<td><span
+class="math inline">[<em>Q</em><sub><em>a</em></sub>(<em>P</em><sub><em>a</em></sub>−<em>P</em><sub><em>s</em></sub>)]</span></td>
+<td><span
+class="math inline">[<em>P</em><sub><em>s</em></sub>(<em>Q</em><sub><em>a</em></sub>−<em>Q</em><sub><em>s</em></sub>)]</span></td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section id="example" class="title-slide slide level2">
+<h2>Example</h2>
+
+</section>
+
+<section>
+<section id="three-variance-decompositions"
+class="title-slide slide level2">
+<h2>Three variance decompositions</h2>
+<p>This is the general form: <span
+class="math inline"><em>T</em><em>V</em> = [<em>Q</em><sub><em>a</em></sub>(<em>P</em><sub><em>a</em></sub>−<em>P</em><sub><em>s</em></sub>)] + [<em>P</em><sub><em>s</em></sub>(<em>Q</em><sub><em>a</em></sub>−<em>Q</em><sub><em>s</em></sub>)]</span>
+now we’ll consider specific versions.</p>
+</section>
+<section id="direct-labor-variance" class="slide level3">
+<h3>Direct Labor Variance</h3>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 26%" />
+<col style="width: 26%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Actual DL Cost</th>
+<th>Flexible Budget</th>
+<th>Standard DL Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>General Form</td>
+<td><span
+class="math inline"><em>P</em><sub><em>a</em></sub> × <em>Q</em><sub><em>a</em></sub></span></td>
+<td><span
+class="math inline"><em>P</em><sub><em>a</em></sub> × <em>Q</em><sub><em>s</em></sub></span></td>
+<td><span
+class="math inline"><em>P</em><sub><em>s</em></sub> × <em>Q</em><sub><em>s</em></sub></span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>We have other terms for the price and quantity of
+labor!:</strong> - Price ($P) <span class="math inline">→</span> Wage
+(<span class="math inline"><em>W</em></span>) - Quantity <span
+class="math inline">→</span> Hours</p>
+</section>
+<section id="direct-materials-variance" class="slide level3">
+<h3>Direct Materials Variance</h3>
+</section>
+<section id="overhead-variance" class="slide level3">
+<h3>Overhead Variance</h3>
 </section></section>
     </div>
   </div>

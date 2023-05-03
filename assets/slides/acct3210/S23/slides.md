@@ -258,3 +258,75 @@ Total Variance = Actual Cost - Standard Cost
 | Price          | $P$    |          |           |
 
 - _This is all we need to decompose any variance into it's price and volume components._
+
+### Total Var. into Price & Quantity Vars
+
+- Now we can rewrite this:
+  - Total Variance = Actual Cost - Standard Cost
+- In terms of prices and quantities as this:
+  - $TV = (Q_a \times P_a) - (Q_s \times P_s)$ 
+- and do a little bit of algebra to do the decomposition.
+
+_Note: I'll give you the relationship above, and you can either memorize or derive the other forms._
+
+### The algebra:
+
+- Goal: Write the rhs. so that one term includes the change error in $P$ and the other includes the error in $Q$.
+  - $TV = (Q_a \times P_a) - (Q_s \times P_s)$
+- Start by adding and subtracting $(P_s \times Q_a)$
+  - $TV = (Q_a \times P_a) + [(P_s \times Q_a)-(P_s \times Q_a)] + (Q_s \times P_s)$ 
+
+### Does $(P_s \times Q_a)$ have real world meaning?
+
+- $P_s$ is the standard or budgeted price.
+- $Q_a$ is the actual quantity.
+- So $P_s \times Q_a$ is the _standard budget_! 
+  - (Or at least it's one line from a standard budget.)
+<!-- TODO: rewrite this whole section using the +/- the flexible budget notion -->
+
+### The algebra:
+
+- $TV = [(Q_a \times P_a)-(P_s \times Q_a)] +  [(P_s \times Q_a)-(Q_s \times P_s)$ 
+- $TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$
+
+## The Price and Quantity Variances
+
+### The Price and Quantity Variances
+
+$$TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$$
+
+- Now we have TV as a function of the error in P $(P_a-P_s)$ and the error in Q $(Q_a-Q_s)$.
+- Multiplying the error in $P$ by the actual quantity gives us the portion of TV that is due to the error in $P$.
+- Multiplying the error in $Q$ by the forecasted (budgeted, or standard) quantity gives us the portion of TV that is due to the error in $Q$.
+
+_The intuition behind this decomposition is critical._
+
+### The Price and Quantity Variances
+
+$$TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$$
+
+| Total Variance | Price Variance   | Volume Variance  |
+|----------------|------------------|------------------|
+| $TV$           | $[Q_a(P_a-P_s)]$ | $[P_s(Q_a-Q_s)]$ |
+
+## Example
+
+## Three variance decompositions
+
+This is the general form: $TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$ now we'll consider specific versions.
+
+### Direct Labor Variance
+
+|              | Actual DL Cost   | Flexible Budget  | Standard DL Cost |
+|--------------|------------------|------------------|------------------|
+| General Form | $P_a \times Q_a$ | $P_a \times Q_s$ | $P_s \times Q_s$ |
+
+__We have other terms for the price and quantity of labor!:__
+- Price ($P) $\to$ Wage ($W$)
+- Quantity $\to$ Hours
+
+### Direct Materials Variance
+
+### Overhead Variance
+
+
