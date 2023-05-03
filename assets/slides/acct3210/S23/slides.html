@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Standard Costs and Variances</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+  <style>
+  h3 {
+    font-size: 30px;
+  }
+  tbody {
+    font-size: 20px;
+  }
+  thead {
+    font-size: 25px;
+  }
+  </style>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Standard Costs and Variances</h1>
+</section>
+
+<section id="everything-starts-with-a-budget" class="slide level3">
+<h3>Everything starts with a budget</h3>
+</section>
+<section>
+<section id="example-sandy-cove-bank" class="title-slide slide level2">
+<h2>Example: Sandy Cove Bank</h2>
+
+</section>
+<section id="sandy-cove-bank" class="slide level3">
+<h3>Sandy Cove Bank</h3>
+<ul>
+<li>Sandy Cove is a new small commercial bank in Sandy Cove,
+Michigan.</li>
+<li>The bank limits interest rate risk by matching the maturity of its
+assets to the maturity of its liabilities.</li>
+<li>By maintaining a spread between interest rates charged and interest
+rates paid, the bank plans to earn a small income.</li>
+</ul>
+</section>
+<section id="sandy-cove-bank-1" class="slide level3">
+<h3>Sandy Cove Bank</h3>
+<ul>
+<li>Management establishes a flexible budget based on interest rates for
+each department.</li>
+<li>The Boat and Car Loan Department offers five-year loans.</li>
+<li>It matches certificates of deposit (CDs) against car and boat
+loans.</li>
+</ul>
+</section>
+<section id="sandy-cove-bank-2" class="slide level3">
+<h3>Sandy Cove Bank</h3>
+<ul>
+<li>Given all the uncertainty about interest rates, management believes
+that five-year savings interest rates could vary between 2 percent and
+16 percent for the coming year. (<em>Note: ‘Given’ in this sentence
+embeds a critical management accounting activity:
+forecasting.</em>)</li>
+<li>The savings rate is the rate paid on CD savings accounts.</li>
+<li>The loan rate is the rate charged on auto and boat loans.</li>
+</ul>
+</section>
+<section id="sandy-cove-bank-3" class="slide level3">
+<h3>Sandy Cove Bank</h3>
+<ul>
+<li>Expected new demand for fixed-rate, five-vear loans and the new
+supply of fixed-rate, five-year savings accounts at various interest
+rates.</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Loan Rate</th>
+<th>Loan Demand</th>
+<th>Savings Rate</th>
+<th>Savings Supply</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6%</td>
+<td>$12,100,000</td>
+<td>2</td>
+<td>$ 4,700,000%</td>
+</tr>
+<tr class="even">
+<td>7%</td>
+<td>10,000,000</td>
+<td>3</td>
+<td>5,420,000</td>
+</tr>
+<tr class="odd">
+<td>8%</td>
+<td>8,070,000</td>
+<td>4</td>
+<td>8,630,000</td>
+</tr>
+<tr class="even">
+<td>9%</td>
+<td>6,030,000</td>
+<td>5</td>
+<td>9,830,000</td>
+</tr>
+<tr class="odd">
+<td>10%</td>
+<td>4,420,000</td>
+<td>6</td>
+<td>11,800,000</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>There are no loans from previous years. Note that the department
+maintains a 4 percent spread between loan and savings rates to cover
+processing, loan default, and overhead.</li>
+</ul>
+</section>
+<section id="sandy-cove-bank-4" class="slide level3">
+<h3>Sandy Cove Bank</h3>
+<ul>
+<li>The amount of new loans granted is always the lesser of the loan
+demand and loan supply.</li>
+<li>For simplicity, this bank may lend 100 percent of deposits.</li>
+<li>In practice, this rate is set by policy makers and regulators not
+the bank itself.</li>
+</ul>
+</section>
+<section id="sandy-cove-bank-5" class="slide level3">
+<h3>Sandy Cove Bank</h3>
+<ul>
+<li>Although rates are set nationally, the bank may pay or charge
+slightly different rates to limit demand or boost supply as needed in
+its local market.</li>
+<li>The Boat and Car Loan Department incurs processing, loan default,
+and overhead expenses related to these accounts.</li>
+</ul>
+</section>
+<section id="sandy-cove-bank-6" class="slide level3">
+<h3>Sandy Cove Bank</h3>
+<ul>
+<li>The first two expenses vary, depending on the dollar amount of the
+accounts.</li>
+<li>The annual processing expense is budgeted to be 1.5 percent of the
+loan accounts.</li>
+<li>Default expense is budgeted at 1 percent of the amount loaned per
+year.</li>
+</ul>
+</section>
+<section id="sandy-cove-bank-7" class="slide level3">
+<h3>Sandy Cove Bank</h3>
+<ul>
+<li>Again, loans and savings would ideally be the same.</li>
+<li>Overhead expenses are estimated to be $30,000 for the year,
+regardless of the amount loaned.</li>
+</ul>
+</section>
+<section id="scb-question-1" class="slide level3">
+<h3>SCB Question 1</h3>
+<ol type="1">
+<li>Calculate the processing, loan default, and overhead expenses for
+each possible interest rate.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>Loan Rate</th>
+<th>Loan Demand</th>
+<th>Savings Rate</th>
+<th>Savings Supply</th>
+<th>New Loans</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6%</td>
+<td>$12.1 M</td>
+<td>2%</td>
+<td>$ 4.7 M</td>
+<td>$ 4.7 M</td>
+</tr>
+<tr class="even">
+<td>7%</td>
+<td>10</td>
+<td>3%</td>
+<td>5.42</td>
+<td>5.42</td>
+</tr>
+<tr class="odd">
+<td>8%</td>
+<td>8.07</td>
+<td>4%</td>
+<td>8.63</td>
+<td>8.07</td>
+</tr>
+<tr class="even">
+<td>9%</td>
+<td>6.03</td>
+<td>5%</td>
+<td>9.83</td>
+<td>6.03</td>
+</tr>
+<tr class="odd">
+<td>10%</td>
+<td>4.42</td>
+<td>6%</td>
+<td>11.8</td>
+<td>4.42</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="scb-solution-1" class="slide level3">
+<h3>SCB Solution 1</h3>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 15%" />
+<col style="width: 16%" />
+<col style="width: 18%" />
+<col style="width: 12%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Loan Rate</th>
+<th>Loan Demand</th>
+<th>Savings Rate</th>
+<th>Savings Supply</th>
+<th>New Loans</th>
+<th>Processing Expenses</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6%</td>
+<td>$12.1 M</td>
+<td>2%</td>
+<td>$ 4.7 M</td>
+<td>$ 4.7 M</td>
+<td>$70,500</td>
+</tr>
+<tr class="even">
+<td>7%</td>
+<td>10</td>
+<td>3%</td>
+<td>5.42</td>
+<td>5.42</td>
+<td>81,300</td>
+</tr>
+<tr class="odd">
+<td>8%</td>
+<td>8.07</td>
+<td>4%</td>
+<td>8.63</td>
+<td>8.07</td>
+<td>121,050</td>
+</tr>
+<tr class="even">
+<td>9%</td>
+<td>6.03</td>
+<td>5%</td>
+<td>9.83</td>
+<td>6.03</td>
+<td>90,450</td>
+</tr>
+<tr class="odd">
+<td>10%</td>
+<td>4.42</td>
+<td>6%</td>
+<td>11.8</td>
+<td>4.42</td>
+<td>66,300</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Processing is 1.5% of loan accounts</li>
+</ul>
+</section>
+<section id="scb-solution-1-1" class="slide level3">
+<h3>SCB Solution 1</h3>
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 14%" />
+<col style="width: 16%" />
+<col style="width: 11%" />
+<col style="width: 21%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Loan Rate</th>
+<th>Loan Demand</th>
+<th>Savings Rate</th>
+<th>Savings Supply</th>
+<th>New Loans</th>
+<th>Processing Expenses</th>
+<th>Default Exp</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6%</td>
+<td>$12.1 M</td>
+<td>2%</td>
+<td>$ 4.7 M</td>
+<td>$ 4.7 M</td>
+<td>$70,500</td>
+<td>$47,000</td>
+</tr>
+<tr class="even">
+<td>7%</td>
+<td>10</td>
+<td>3%</td>
+<td>5.42</td>
+<td>5.42</td>
+<td>81,300</td>
+<td>54,200</td>
+</tr>
+<tr class="odd">
+<td>8%</td>
+<td>8.07</td>
+<td>4%</td>
+<td>8.63</td>
+<td>8.07</td>
+<td>121,050</td>
+<td>80,700</td>
+</tr>
+<tr class="even">
+<td>9%</td>
+<td>6.03</td>
+<td>5%</td>
+<td>9.83</td>
+<td>6.03</td>
+<td>90,450</td>
+<td>60,300</td>
+</tr>
+<tr class="odd">
+<td>10%</td>
+<td>4.42</td>
+<td>6%</td>
+<td>11.8</td>
+<td>4.42</td>
+<td>66,300</td>
+<td>44,200</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Default expense is budgeted at 1 percent of the amount loaned per
+year.</li>
+</ul>
+</section>
+<section id="scb-solution-1-2" class="slide level3">
+<h3>SCB Solution 1</h3>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 9%" />
+<col style="width: 17%" />
+<col style="width: 11%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Loan Rate</th>
+<th>Loan Demand</th>
+<th>Savings Rate</th>
+<th>Savings Supply</th>
+<th>New Loans</th>
+<th>Processing Expenses</th>
+<th>Default Exp</th>
+<th>Overhead Expenses</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>6%</td>
+<td>$12.1 M</td>
+<td>2%</td>
+<td>$ 4.7 M</td>
+<td>$ 4.7 M</td>
+<td>$70,500</td>
+<td>$47,000</td>
+<td>$30,000</td>
+</tr>
+<tr class="even">
+<td>7%</td>
+<td>10</td>
+<td>3%</td>
+<td>5.42</td>
+<td>5.42</td>
+<td>81,300</td>
+<td>54,200</td>
+<td>30,000</td>
+</tr>
+<tr class="odd">
+<td>8%</td>
+<td>8.07</td>
+<td>4%</td>
+<td>8.63</td>
+<td>8.07</td>
+<td>121,050</td>
+<td>80,700</td>
+<td>30,000</td>
+</tr>
+<tr class="even">
+<td>9%</td>
+<td>6.03</td>
+<td>5%</td>
+<td>9.83</td>
+<td>6.03</td>
+<td>90,450</td>
+<td>60,300</td>
+<td>30,000</td>
+</tr>
+<tr class="odd">
+<td>10%</td>
+<td>4.42</td>
+<td>6%</td>
+<td>11.8</td>
+<td>4.42</td>
+<td>66,300</td>
+<td>44,200</td>
+<td>30,000</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>These are the budgeted expenses, this is the foundation of financing
+plans to make sure that these resources are in place when they are
+needed.</li>
+<li>In this case it is the deposits that need to be in place for the
+lending to happen.</li>
+</ul>
+</section>
+<section id="logical-flow" class="slide level3">
+<h3>Logical flow</h3>
+<figure>
+<img data-src="apples.png" alt="Logical flow" />
+<figcaption aria-hidden="true">Logical flow</figcaption>
+</figure>
+</section>
+<section id="scb-question-2" class="slide level3">
+<h3>SCB Question 2</h3>
+<ol start="2" type="1">
+<li>Create an annual budgeted income statement for five-year loans and
+deposits for the Boat and Car Loan Department given a savings interest
+rate of 4 percent. Remember to match supply and demand.</li>
+</ol>
+<table>
+<tbody>
+<tr class="odd">
+<td>Interest income</td>
+<td>$8,070,000 × 8%=</td>
+<td>$645,600</td>
+</tr>
+<tr class="even">
+<td>Interest expense</td>
+<td>$8,070,000 × 4%=</td>
+<td>322,800</td>
+</tr>
+<tr class="odd">
+<td>Net interest income</td>
+<td></td>
+<td>$322,800</td>
+</tr>
+<tr class="even">
+<td>Fixed overhead</td>
+<td></td>
+<td>30,000</td>
+</tr>
+<tr class="odd">
+<td>Processing expense</td>
+<td></td>
+<td>121,050</td>
+</tr>
+<tr class="even">
+<td>Default expense</td>
+<td></td>
+<td>80,700</td>
+</tr>
+<tr class="odd">
+<td>Net income</td>
+<td></td>
+<td>$ 91,050</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="scb-question-3" class="slide level3">
+<h3>SCB Question 3</h3>
+<ol start="3" type="1">
+<li>Table 2 shows the actual income statement for the Boat and Car Loan
+Department. Included are the actual loans and savings for the same
+period. Calculate the variances and provide a possible explanation.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Budget</th>
+<th>Actual</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Interest income</td>
+<td>$645,600</td>
+<td>$ 645,766</td>
+</tr>
+<tr class="even">
+<td>Interest expense</td>
+<td>322,800</td>
+<td>314,360</td>
+</tr>
+<tr class="odd">
+<td>Net interest income</td>
+<td>$322,800</td>
+<td>$ 331,406</td>
+</tr>
+<tr class="even">
+<td>Fixed overhead</td>
+<td>30,000</td>
+<td>30,200</td>
+</tr>
+<tr class="odd">
+<td>Processing expense</td>
+<td>121,050</td>
+<td>130,522</td>
+</tr>
+<tr class="even">
+<td>Default expense</td>
+<td>80,700</td>
+<td>77,800</td>
+</tr>
+<tr class="odd">
+<td>Net income</td>
+<td>$ 91,050</td>
+<td>$ 92,884</td>
+</tr>
+<tr class="even">
+<td>Loans</td>
+<td>8,070,000</td>
+<td>$8,062,000</td>
+</tr>
+<tr class="odd">
+<td>Deposits</td>
+<td>8,070,000</td>
+<td>$8,123,000</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="scb-solution-3" class="slide level3">
+<h3>SCB Solution 3</h3>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 15%" />
+<col style="width: 18%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Budget</th>
+<th>Actual</th>
+<th>Fav. (Unfav.) Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Interest income</td>
+<td>$645,600</td>
+<td>$ 645,766</td>
+<td>$ 166</td>
+</tr>
+<tr class="even">
+<td>Interest expense</td>
+<td>322,800</td>
+<td>314,360</td>
+<td>8,440</td>
+</tr>
+<tr class="odd">
+<td>Net interest income</td>
+<td>$322,800</td>
+<td>$ 331,406</td>
+<td>$ 8,606</td>
+</tr>
+<tr class="even">
+<td>Fixed overhead</td>
+<td>30,000</td>
+<td>30,200</td>
+<td>(200)</td>
+</tr>
+<tr class="odd">
+<td>Processing expense</td>
+<td>121,050</td>
+<td>130,522</td>
+<td>(9,472)</td>
+</tr>
+<tr class="even">
+<td>Default expense</td>
+<td>80,700</td>
+<td>77,800</td>
+<td>2,900</td>
+</tr>
+<tr class="odd">
+<td>Net income</td>
+<td>$ 91,050</td>
+<td>$ 92,884</td>
+<td>1,834</td>
+</tr>
+<tr class="even">
+<td>Loans</td>
+<td>8,070,000</td>
+<td>$8,062,000</td>
+<td>$ (8,000)</td>
+</tr>
+<tr class="odd">
+<td>Deposits</td>
+<td>8,070,000</td>
+<td>$8,123,000</td>
+<td>$(53,000)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="scb-solution-3-1" class="slide level3">
+<h3>SCB Solution 3</h3>
+<ul>
+<li>Even though loans were lower and deposits were higher than expected,
+interest income was higher and interest expense was lower than
+expected.</li>
+<li>The answer can be obtained by calculating the average interest rates
+earned and paid.</li>
+</ul>
+</section>
+<section id="scb-solution-3-2" class="slide level3">
+<h3>SCB Solution 3</h3>
+<ul>
+<li>On $8,062,000 worth of loans, Sandy Cove earned $645,766 interest,
+or 8.01 percent (0.01 percent more than expected).</li>
+<li>Similarly, it paid only 3.87 percent (0.13 percent less) on
+deposits.</li>
+</ul>
+</section>
+<section id="scb-solution-3-3" class="slide level3">
+<h3>SCB Solution 3</h3>
+<ul>
+<li>Therefore, the net interest income variance of $8,606 is a
+combination of two effects: the variance in the actual loans and
+deposits (quantity) and the variance in the interest rates (price).</li>
+<li>The combined effects are a favorable interest income variance, a
+favorable interest expense variance, and an overall favorable net
+interest income variance.</li>
+</ul>
+</section>
+<section id="scb-solution-3-4" class="slide level3">
+<h3>SCB Solution 3</h3>
+<ul>
+<li>At a savings interest rate of 4 percent, there is an excess supply
+of deposits over demand for loans.</li>
+<li>The Boat and Car Loan Department lowered the interest rate on
+deposits to stem additional deposits.</li>
+</ul>
+</section>
+<section id="scb-solution-3-5" class="slide level3">
+<h3>SCB Solution 3</h3>
+<ul>
+<li>The increase in the interest rate on loans can be attributed only to
+an increase in the demand for loans, which resulted in the department
+charging a slightly higher average interest rate.</li>
+<li>The higher processing expense could be related to the higher number
+of accounts processed and improvements in the default rate.</li>
+<li>That is, the favorable default expense could be attributed to an
+improved screening process-related to spending more on processing.</li>
+</ul>
+</section></section>
+<section>
+<section id="terminology" class="title-slide slide level2">
+<h2>Terminology</h2>
+<p>Before we dig into understanding variances, we need to define a
+couple of terms.</p>
+</section>
+<section id="standards-vs.-budgets" class="slide level3">
+<h3>Standards vs. Budgets</h3>
+<ul>
+<li>Budgeted costs and standard costs are the same thing.</li>
+<li>You can think of a ‘budget’ as the entire financial and operational
+plan.</li>
+<li>You can think of the ‘standards’ as all of the individual forecasts
+that go into the budget.</li>
+<li>Though the words are used interchangeably.</li>
+</ul>
+</section>
+<section id="standards-vs.-actuals" class="slide level3">
+<h3>Standards vs. Actuals</h3>
+<ul>
+<li>Standards are our predictions (generated from our model of
+costs)</li>
+<li>Actuals are what we observe (generated by reality)</li>
+</ul>
+<p>Note that this definition is related to the data selection issue on
+the mid-term.</p>
+</section>
+<section id="variance" class="slide level3">
+<h3>Variance:</h3>
+<p>Total Variance = Actual Cost - Standard Cost</p>
+</section></section>
+<section>
+<section id="decomposing-variances" class="title-slide slide level2">
+<h2>Decomposing Variances</h2>
+
+</section>
+<section id="total-var.-into-price-quantity-vars" class="slide level3">
+<h3>Total Var. into Price &amp; Quantity Vars</h3>
+<ul>
+<li>Start with this:</li>
+</ul>
+<blockquote>
+<p>Total variance is equal to actual cost minus standard cost.</p>
+</blockquote>
+</section>
+<section id="total-var.-into-price-quantity-vars-1"
+class="slide level3">
+<h3>Total Var. into Price &amp; Quantity Vars</h3>
+<ul>
+<li>Define a few variables:</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Symbol</th>
+<th></th>
+<th>Subscript</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Total Variance</td>
+<td><span class="math inline"><em>T</em><em>V</em></span></td>
+<td>Actual</td>
+<td><span class="math inline"><em>a</em></span></td>
+</tr>
+<tr class="even">
+<td>Quantity</td>
+<td><span class="math inline"><em>Q</em></span></td>
+<td>Standard</td>
+<td><span class="math inline"><em>s</em></span></td>
+</tr>
+<tr class="odd">
+<td>Price</td>
+<td><span class="math inline"><em>P</em></span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><em>This is all we need to decompose any variance into it’s price
+and volume components.</em></li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
