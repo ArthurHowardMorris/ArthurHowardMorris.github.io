@@ -332,15 +332,57 @@ __We have other terms for the price and quantity of labor!:__
 | $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a$ | $W_a \times H_s$ | $W_s \times H_s$ |
 
 
+### Direct Labor Variance
+
 | Total Variance                      | Wage Variance                     | Efficiency Variance               |
 |-------------------------------------|-----------------------------------|-----------------------------------|
 | $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a - W_a \times H_s$ | $W_a \times H_s - W_s \times H_s$ |
+| $[H_a(W_a-W_s)] +  [W_s(H_a-H_s)]$  | $H_a(W_a-W_s)$                    | $W_s(H_a-H_s)$                    |
 
+Why is the "Volume Variance" called the "Efficiency Variance" when we are talking about labor?
 
+### What might DLVs mean?
 
+_Large variances in either direction indicate performance is not as planned,
+due to either poor planning, poor management, or random fluctuation._
+
+- Unfavorable wage variance
+  - Workers were not available at lower rates
+- Unfavorable wage variance with favorable efficiency variance
+  - Higher-paid workers performed work more efficiently
+- Favorable wage variance with unfavorable efficiency variance
+  - Lower-paid workers performed work less efficiently
 
 ### Direct Materials Variance
 
+|              | Actual DM Cost   | Flexible Budget  | Standard DM Cost |
+|--------------|------------------|------------------|------------------|
+| General Form | $P_a \times Q_a$ | $P_a \times Q_s$ | $P_s \times Q_s$ |
+
+__For materials we stick with the term "Price" and "Quantity"
+
+### Direct Materials Variance
+
+| Total Variance                      | Actual DM Cost   | Flexible Budget  | Standard DM Cost |
+|-------------------------------------|------------------|------------------|------------------|
+| $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a$ | $P_a \times Q_s$ | $P_s \times Q_s$ |
+
+
+| Total Variance                      | Price Variance                    | Quantity Variance                 |
+|-------------------------------------|-----------------------------------|-----------------------------------|
+| $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a - P_a \times Q_s$ | $P_a \times Q_s - P_s \times Q_s$ |
+| $[Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$  | $Q_a(P_a-P_s)$                    | $P_s(Q_a-Q_s)$                    |
+
+### Incentive Effects of Direct Materials Variances:
+
+- Rewarding purchasing managers for favorable direct materials price variances creates an incentive for them to buy large quantities when price discounts are offered for high-volume purchases. 
+- Penalizing production managers for unfavorable labor efficiency variances encourages keeping labor busy producing more.
+- Mitigation of inventory building incentive
+  - Charge purchasing department for cost of holding inventory.
+  - Just-in-time (JIT) purchasing and production policies
+- JIT after 2018 looks less rosy. Though whatever we do with inventory we should do on purpose. (Stories)
+
 ### Overhead Variance
+
 
 
