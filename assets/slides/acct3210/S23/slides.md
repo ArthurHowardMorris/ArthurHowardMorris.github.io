@@ -431,7 +431,8 @@ __For materials we stick with the term "Price" and "Quantity"
 
 ### Flexible and Static Overhead Budgets:
 
-For the sake of a simple example assume a firm with the following attributes:
+For the sake of a simple example assume that the Toronto Engine Plant exists
+and has the following attributes:
 
 |                         | Forecast     |
 |-------------------------|--------------|
@@ -440,7 +441,9 @@ For the sake of a simple example assume a firm with the following attributes:
 | Budgeted Volume (BV)    |              |
 | _(the driver is DLH)_   | 67,500 hours |
 
-_Remember that this "budgeted volume" is different than the "standard volume" though this distinction isn't particularly clear given the way that we named things in the direct variances._ 
+_Remember that this "budgeted volume" is different than the "standard volume"
+though this distinction isn't particularly clear given the way that we named
+things in the direct variances._ 
 
 ### Flexible Overhead Budget ($BOH_{Flex}$)
 
@@ -453,7 +456,8 @@ _Remember that Flexible Budgets are always formulas._
 
 ### (Static) Overhead Budget 
 
-- Estimate budgeted overhead (BOH) dollars using a specific forecasted volume number (BV) and the flexible overhead budget formula.
+- Estimate budgeted overhead (BOH) dollars using a specific forecasted volume
+  number (BV) and the flexible overhead budget formula.
 - $BOH = FOH + (VOH \times BV)$ 
 - $BOH =  \$1,350,000  + (\$14 \times 67,500 hours)$
 - $BOH =  \$2,295,000$
@@ -465,53 +469,96 @@ _Remember that Flexible Budgets are always formulas._
 
 $$OHR = (BOH  / BV) = (FOH / BV) + VOH$$
 $$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 67,000 hours + \$14
-$$OHR = 34.25$$
+$$OHR = 34$$
 
 ### The Overhead Rate Consists of Estimated:
 
 - Fixed overhead \$ per input hour (FOH  / BV), and
 - Variable overhead \$ per input hour (VOH)
 
-### Allocated or Absorbed Overhead
+## We need volume information!
 
-Overhead absorbed = Overhead rate  Standard volume = OHR  SV
+### Budgeted Volume
 
-Standard Volume    = Units of output  Standard input per output
+__Budgeted Volume (Using Expected Volume)-Toronto Engine Plant's Cylinder Boring Department__
 
-SV = 67,400 machine hours for 96,000 blocks
+| Product           | Expected Production | Standard Hours per Block | Budgeted Volume |
+|-------------------|---------------------|--------------------------|-----------------|
+| 4-cylinder blocks | 25,000 blocks       | 0.50                     | 12,500          |
+| 6-cylinder blocks | 40,000 blocks       | 0.70                     | 28,000          |
+| 8-cylinder blocks | 30,000 blocks       | 0.90                     | 27,000          |
+| Total             | 95,000 blocks       |                          |                 |
+| Budgeted volume   |                     |                          | 67,500          |
 
-   Overhead absorbed = $34  67,400 machine hours
+### __Actual and standard volumes:__
+
+| Product              | Actual Production | Standard Hours per Block | Standard Volume | Actual Volume |
+|----------------------|-------------------|--------------------------|-----------------|---------------|
+| 4-cylinder blocks    | 27,000 blocks     | 0.50                     | 13,500          | 14,200        |
+| 6-cylinder blocks    | 41,000 blocks     | 0.70                     | 28,700          | 29,000        |
+| 8-cylinder blocks    | 28,000 blocks     | 0.90                     | 25,200          | 25,000        |
+| Total                | 96,000 blocks     |                          |                 |               |
+| Standard volume (SV) |                   |                          | 67,400          |               |
+| Actual volume (AV)   |                   |                          |                 | 68,200        |
+
+### Volumes:
+
+| Budgeted             | Standard                                 | Actual |
+|----------------------|------------------------------------------|--------|
+| 67,500               | 67,400                                   | 68,200 |
+
+### Overhead Allocated or Absorbed 
+
+- To allocate overhead we use the overhead rate and the standard volume.
+- Standard Volume    = Units of output $\times$ Standard input per output
+  - SV = 67,400 machine hours for 96,000 blocks
+- Overhead absorbed = Overhead rate $\times$ Standard volume = OHR $\times$ SV
+  - Overhead absorbed = $34 $\times$ 67,400 machine hours = \$2,291,600
+
+### Actual Overhead Cost:
+
+__\$2,300,000__
 
 ## Total Overhead Variance
 
+- Overhead variances occur when the actual overhead incurred does not equal the overhead absorbed or allocated.
+
 ### Total Overhead Variance
 
-Overhead variances occur when the actual overhead incurred does not equal the overhead absorbed or allocated.
+__Total Overhead Variance = Actual Overhead Costs - Overhead Absorbed__
+$$AOH - (OHR \times SV) = AOH - (OHR \times SV)
+$$\$2,300,000 - \$2,291,600 = \$8,400
 
-
-Actual overhead			        Overhead absorbed
-
-cost incurred				        (applied to product)
-
-   AOH		 	       		                    (OHR  SV)
-
-      |_________________________________________|
-
-			      AOH - (OHR  SV)
-
-			Total overhead variance
-
-			Underabsorbed, if actual > absorbed
-
-			Overabsorbed, if actual < absorbed
+__Interpretation:__
+- Overhead is 'Underabsorbed', if actual > absorbed
+- Overhead is 'Overabsorbed', if actual < absorbed
 
 ## Decompose Overhead Variance
 
+### Decompose Overhead Variance
+
+__Total Overhead Variance = Actual Overhead - Overhead Absorbed__
+
+- Overhead spending variance = Actual overhead - Flexible budget at actual volume
+- OSV = AOH - FB@AV
+- Overhead efficiency variance = Flexible budget at actual volume - Flexible budget at standard volume
+- OEV = FB@AV - FB@SV
+- Overhead volume variance =  Flexible budget at standard volume - Overhead Absorbed
+- OVV = FB@SV - OA
+
+### 
+Flexible budget
+Flexible budget
+at actual volume standard volume
+Flexible budget at
+Overhead
+standard volume
+absorbed
 Actual overhead	     Flex. budget at              Flex. budget at     	Overhead absorbed
 
 at actual volume          actual volume    	           standard volume  	(applied to product)
 
-AOH	        	[FOH + (VOH AV)]           [FOH + (VOH SV)]        (OHR  SV)
+AOH	        	[FOH + (VOH AV)]           [FOH + (VOH SV)]        (OHR $\times$ SV)
 
 	|________________|         |_____________________|     |________________|
 
