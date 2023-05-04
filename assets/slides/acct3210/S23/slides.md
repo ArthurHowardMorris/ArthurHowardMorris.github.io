@@ -320,7 +320,6 @@ $$TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$$
 |----------------|------------------|------------------|
 | $TV$           | $[Q_a(P_a-P_s)]$ | $[P_s(Q_a-Q_s)]$ |
 
-## Example
 
 ## Three variance decompositions
 
