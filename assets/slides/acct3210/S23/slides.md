@@ -559,6 +559,6 @@ __Total Overhead Variance = Actual Overhead - Overhead Absorbed__
 | TOV | = | AOH |   |                     | - |                     |   | $OHR \times SV$ |
 |-----|---|-----|---|---------------------|---|---------------------|---|-----------------|
 | OSV | = | AOH | - | FOH+(VOH$\times$AV) |   |                     |   |                 |
-| OEV | = |     |   | FOH+(VOH$\times$AV) | - | $FOH+(VOH\timesSV)$ |   |                 |
-| OVV | = |     |   |                     |   | $FOH+(VOH\timesSV)$ | - | $OHR \times SV$ |
+| OEV | = |     |   | FOH+(VOH$\times$AV) | - | FOH+(VOH$\times$SV) |   |                 |
+| OVV | = |     |   |                     |   | FOH+(VOH$\times$SV) | - | $OHR \times SV$ |
 
