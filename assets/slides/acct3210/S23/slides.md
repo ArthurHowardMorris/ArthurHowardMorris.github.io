@@ -9,7 +9,9 @@ title: "Standard Costs and Variances"
 
 ### Logical flow
 
-![Logical flow](apples.png)
+<img src="apples.png" alt="Logical Flow" height="350" />
+
+<!-- ![Logical flow](apples.png) -->
 
 ## Example: Sandy Cove Bank
 
