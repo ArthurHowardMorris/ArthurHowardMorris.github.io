@@ -308,13 +308,16 @@ $$TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$$
 
 - Now we have TV as a function of the error in P $(P_a-P_s)$ and the error in Q $(Q_a-Q_s)$.
 - Multiplying the error in $P$ by the actual quantity gives us the portion of TV that is due to the error in $P$.
+
+### The Price and Quantity Variances
+
 - Multiplying the error in $Q$ by the forecasted (budgeted, or standard) quantity gives us the portion of TV that is due to the error in $Q$.
 
 _The intuition behind this decomposition is critical._
 
 ### The Price and Quantity Variances
 
-$$TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$$
+$$TV = Q_a(P_a-P_s) +  P_s(Q_a-Q_s)$$
 
 | Total Variance | Price Variance   | Volume Variance  |
 |----------------|------------------|------------------|
@@ -332,6 +335,7 @@ This is the general form: $TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$ now we'll cons
 | General Form | $P_a \times Q_a$ | $P_s \times Q_a$ | $P_s \times Q_s$ |
 
 __We have other terms for the price and quantity of labor!:__
+
 - Price ($P) $\to$ Wage ($W$)
 - Quantity $\to$ Hours
 
@@ -356,6 +360,8 @@ Why is the "Volume Variance" called the "Efficiency Variance" when we are talkin
 _Large variances in either direction indicate performance is not as planned,
 due to either poor planning, poor management, or random fluctuation._
 
+### What might DLVs mean?
+
 - Unfavorable wage variance
   - Workers were not available at lower rates
 - Unfavorable wage variance with favorable efficiency variance
@@ -369,7 +375,7 @@ due to either poor planning, poor management, or random fluctuation._
 |--------------|------------------|------------------|------------------|
 | General Form | $P_a \times Q_a$ | $P_s \times Q_a$ | $P_s \times Q_s$ |
 
-__For materials we stick with the term "Price" and "Quantity"
+__For materials we stick with the term "Price" and "Quantity"__
 
 ### Direct Materials Variance
 
@@ -385,8 +391,14 @@ __For materials we stick with the term "Price" and "Quantity"
 
 ### Incentive Effects of Variances:
 
-- Rewarding purchasing managers for favorable direct materials price variances creates an incentive for them to buy large quantities when price discounts are offered for high-volume purchases. 
-- Penalizing production managers for unfavorable labor efficiency variances encourages keeping labor busy producing more.
+- Rewarding purchasing managers for favorable direct materials price variances
+  creates an incentive for them to buy large quantities when price discounts
+  are offered for high-volume purchases. 
+- Penalizing production managers for unfavorable labor efficiency variances
+  encourages keeping labor busy producing more.
+
+### Incentive Effects of Variances:
+
 - Mitigation of inventory building incentive
   - Charge purchasing department for cost of holding inventory.
   - Just-in-time (JIT) purchasing and production policies
@@ -395,8 +407,14 @@ __For materials we stick with the term "Price" and "Quantity"
 
 - Mangerial accountants and consultants love JIT
 - Toyota (and the whole Japanese Auto industry) is an often cited example.
-- The 2011 Tohoku and Miyagi Earthquakes disrupted supply chains which lead to careful restructuring, and decreased reliance on pure just-in-time production.
-- Nonetheless, JIT was still widely used and COVID 2019 disrupted these supply chains.
+- The 2011 Tohoku and Miyagi Earthquakes disrupted supply chains which lead to
+  careful restructuring, and decreased reliance on pure just-in-time
+  production.
+
+### A note on JIT:
+
+- Nonetheless, JIT was still widely used and COVID 2019 disrupted these supply
+  chains.
 - The Invasion of Ukraine by the Russian military also disrupted supply chains.
 - In all of these cases excess inventory proved immensely valuable. 
 
@@ -404,8 +422,11 @@ __For materials we stick with the term "Price" and "Quantity"
 
 ### Overhead Variance: Terms
 
-- Overhead variances are slightly more complex, because in addition to predicting price and quantity we also have to predict overhead consumption (the overhead rate).
-- This is a 'meta' prediction in the sense that it depends on several other predictions:
+- Overhead variances are slightly more complex, because in addition to
+  predicting price and quantity we also have to predict overhead consumption
+  (the overhead rate).
+- This is a 'meta' prediction in the sense that it depends on several other
+  predictions:
   - Consumption of the overhead
   - Use of the underlying driver
 - So when we observe an overhead variance, there are more things to explore.
