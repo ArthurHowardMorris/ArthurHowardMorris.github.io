@@ -274,6 +274,10 @@ Total Variance = Actual Cost - Standard Cost
 
 _Note: I'll give you the relationship above, and you can either memorize or derive the other forms._
 
+### Decomposition:
+
+<img src="dmv.png" alt="Composition" width="200"/>
+
 ### The algebra:
 
 - Goal: Write the rhs. so that one term includes the change error in $P$ and the other includes the error in $Q$.
@@ -324,7 +328,7 @@ This is the general form: $TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$ now we'll cons
 
 |              | Actual DL Cost   | Flexible Budget  | Standard DL Cost |
 |--------------|------------------|------------------|------------------|
-| General Form | $P_a \times Q_a$ | $P_a \times Q_s$ | $P_s \times Q_s$ |
+| General Form | $P_a \times Q_a$ | $P_s \times Q_a$ | $P_s \times Q_s$ |
 
 __We have other terms for the price and quantity of labor!:__
 - Price ($P) $\to$ Wage ($W$)
@@ -334,14 +338,14 @@ __We have other terms for the price and quantity of labor!:__
 
 | Total Variance                      | Actual DL Cost   | Flexible Budget  | Standard DL Cost |
 |-------------------------------------|------------------|------------------|------------------|
-| $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a$ | $W_a \times H_s$ | $W_s \times H_s$ |
+| $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a$ | $W_s \times H_a$ | $W_s \times H_s$ |
 
 
 ### Direct Labor Variance
 
 | Total Variance                      | Wage Variance                     | Efficiency Variance               |
 |-------------------------------------|-----------------------------------|-----------------------------------|
-| $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a - W_a \times H_s$ | $W_a \times H_s - W_s \times H_s$ |
+| $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a - W_s \times H_a$ | $W_s \times H_a - W_s \times H_s$ |
 | $[H_a(W_a-W_s)] +  [W_s(H_a-H_s)]$  | $H_a(W_a-W_s)$                    | $W_s(H_a-H_s)$                    |
 
 Why is the "Volume Variance" called the "Efficiency Variance" when we are talking about labor?
@@ -362,7 +366,7 @@ due to either poor planning, poor management, or random fluctuation._
 
 |              | Actual DM Cost   | Flexible Budget  | Standard DM Cost |
 |--------------|------------------|------------------|------------------|
-| General Form | $P_a \times Q_a$ | $P_a \times Q_s$ | $P_s \times Q_s$ |
+| General Form | $P_a \times Q_a$ | $P_s \times Q_a$ | $P_s \times Q_s$ |
 
 __For materials we stick with the term "Price" and "Quantity"
 
@@ -370,12 +374,12 @@ __For materials we stick with the term "Price" and "Quantity"
 
 | Total Variance                      | Actual DM Cost   | Flexible Budget  | Standard DM Cost |
 |-------------------------------------|------------------|------------------|------------------|
-| $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a$ | $P_a \times Q_s$ | $P_s \times Q_s$ |
+| $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a$ | $P_s \times Q_a$ | $P_s \times Q_s$ |
 
 
 | Total Variance                      | Price Variance                    | Quantity Variance                 |
 |-------------------------------------|-----------------------------------|-----------------------------------|
-| $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a - P_a \times Q_s$ | $P_a \times Q_s - P_s \times Q_s$ |
+| $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a - P_s \times Q_a$ | $P_s \times Q_a- P_s \times Q_s$ |
 | $[Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$  | $Q_a(P_a-P_s)$                    | $P_s(Q_a-Q_s)$                    |
 
 ### Incentive Effects of Variances:
