@@ -546,63 +546,19 @@ __Total Overhead Variance = Actual Overhead - Overhead Absorbed__
 - Overhead volume variance =  Flexible budget at standard volume - Overhead Absorbed
 - OVV = FB@SV - OA
 
-### 
-Flexible budget
-Flexible budget
-at actual volume standard volume
-Flexible budget at
-Overhead
-standard volume
-absorbed
-Actual overhead	     Flex. budget at              Flex. budget at     	Overhead absorbed
+### Decompose Overhead Variance
 
-at actual volume          actual volume    	           standard volume  	(applied to product)
+| TOV | = | AOH |   |       | - |       |   | OA |
+|-----|---|-----|---|-------|---|-------|---|----|
+| OSV | = | AOH | - | FB@AV |   |       |   |    |
+| OEV | = |     |   | FB@AV | - | FB@SV |   |    |
+| OVV | = |     |   |       |   | FB@SV | - | OA |
 
-AOH	        	[FOH + (VOH AV)]           [FOH + (VOH SV)]        (OHR $\times$ SV)
+### More detailed definitions:
 
-	|________________|         |_____________________|     |________________|
-
-		Overhead	       	     	 Overhead     	          Overhead
-
-		Spending	                              Efficiency	          Volume
-
-		Variance	            	                Variance	                         Variance
-
-	|______________________________________________________ __________|
-
-			                 Total overhead variance
-
-			             Over/underabsorbed overhead
-
-
-
-
-
-<!-- See Table 13-5 example and Self-Study Problem. -->
-
-### Overhead Efficiency Variance
-
-Flexible budget at			     Flexible budget at
-
-actual volume				     standard volume
-
-[FOH + (VOH AV)]	 		     [FOH + (VOH SV)]
-
-		      | __________________________________ |
-
-			Overhead Efficiency Variance
-
-			 [FOH + (VOH AV)]  - [(FOH + (VOH SV)]
-
-			= VOH AV - SV)
-
-			Unfavorable (U) when AV > SV				Favorable (F) when AV < SV
-
-
-
-- When overhead is allocated with the same base as direct labor, the overhead
-  efficiency and labor efficiency variances will be in the same direction.
-
-
-
+| TOV | = | AOH |   |                     | - |                     |   | $OHR \times SV |
+|-----|---|-----|---|---------------------|---|---------------------|---|----------------|
+| OSV | = | AOH | - | $FOH+(VOH\timesAV)$ |   |                     |   |                |
+| OEV | = |     |   | $FOH+(VOH\timesAV)$ | - | $FOH+(VOH\timesSV)$ |   |                |
+| OVV | = |     |   |                     |   | $FOH+(VOH\timesSV)$ | - | $OHR \times SV |
 
