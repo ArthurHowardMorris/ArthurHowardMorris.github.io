@@ -285,8 +285,8 @@ _Note: I'll give you the relationship above, and you can either memorize or deri
 
 - $P_s$ is the standard or budgeted price.
 - $Q_a$ is the actual quantity.
-- So $P_s \times Q_a$ is the _standard budget_! 
-  - (Or at least it's one line from a standard budget.)
+- So $P_s \times Q_a$ is a flexible budget! 
+  - (Or at least it's one line from a flexible budget.)
 <!-- TODO: rewrite this whole section using the +/- the flexible budget notion -->
 
 ### The algebra:
