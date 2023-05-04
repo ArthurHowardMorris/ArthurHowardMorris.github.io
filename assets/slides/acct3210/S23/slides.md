@@ -448,7 +448,7 @@ things in the direct variances._
 ### Flexible Overhead Budget ($BOH_{Flex}$)
 
 - __Flexible overhead budget is the formula for budget forecast.__
-- $BOH_{Flex} = FOH + (VOH \times BV)
+- $BOH_{Flex} = FOH + (VOH \times BV)$
 - $BOH_{Flex} = \$1,350,000 + (\$14 \times  BV)$
 
 _Remember that Flexible Budgets are always formulas._
