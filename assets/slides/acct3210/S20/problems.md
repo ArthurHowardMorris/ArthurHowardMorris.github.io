@@ -398,6 +398,8 @@ You can think of the formula for fixed manufacturing overhead applied to cost of
 $$FMO=OHR \times Q_{sold}$$
 
 - OHR is the overhead rate: $OHR=OH/Q_{made}$
+- OH is the total overhead incurred, 2.7 million in this case
+- $Q_{made}$ is the number of units produced, and $Q_{sold}$ is the number of units sold.
 
 
 ::: {#q1-solution-2 .section .slide .level3}

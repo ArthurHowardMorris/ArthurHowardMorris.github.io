@@ -19,24 +19,24 @@ title: "Review Session"
 
 <!-- ### PUT THE NOTE HERE -->
 
-### Section 1:
+## Section 1:
 
 - This will cover the information that was on the mid-term.
 - The original five parts will be repeated with minor edits.
 - There will be one additional question.
 
-#### Section 1 Part 1: Cost functions
+### Cost functions
     - Average cost,  marginal cost, incremental costs.
     - When do they exist, when do they differ, when do the differences matter.
 
-#### Section 1 Part 2: Regression and Plotting
+### Regression and Plotting
 
 - [Cost Estimation Lecture](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html)
 - [Cost Estimation Excel Example](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Problem2and3.xlsx)
 
 Practice plotting data and adding a trend line using your tool of choice. 
 
-#### Section 1 Part 3: Interpret Plots of Data and Trends
+### Interpret Plots of Data and Trends
 
 - Review the characteristics of good model fit.
 - Consider both how to use intuition to interpret the model, and how to use the
@@ -45,7 +45,7 @@ Practice plotting data and adding a trend line using your tool of choice.
   be using it.
 - The details of this question will come from the homework assignment in the excel example.
 
-#### Section 1 Part 4: Constrained Maximization
+### Constrained Maximization
 
 - Be able to set up an objective function.
 - Identify the choice variables.
@@ -54,7 +54,7 @@ Practice plotting data and adding a trend line using your tool of choice.
 - Understand shadow constraints, and explain their real world meaning. 
 - The details from this question will come from the [Non-linear programming lecture](https://arthurhowardmorris.github.io/assets/slides/acct3210/S4/lecture4nonlinearProgramming.slides.html)
 
-#### Section 1 Part 5: Multiple Choice questions about taxes.
+### Multiple Choice questions about taxes.
 
 ### Key tax concepts:
 
@@ -63,25 +63,30 @@ Practice plotting data and adding a trend line using your tool of choice.
 3. pre-tax returns $r$ correspond to post tax returns $r(1-t)$ 
 4. When preferential tax treatment increases demand for a tax favored asset it's price increases and/or the return to holding it decreases. This price change is an _implicit_ tax.
 5. When tax payers use organizational forms like pensions and insurance policies to avoid taxes it is called _organizational form arbitrage_.
+
+### Key tax concepts:
+
 6. When high-tax tax payers issue taxable debt to finance the purchase of tax free debt (e.g. municipal bonds in the US) issued by low-tax tax payers (e.g. US non-profit universities) it is called _clientele arbitrage_.
 7. The depreciation _tax shield_ is the present value of the reduction in tax payments afforded by the depreciation deduction.
 8. The value of the tax shield $TS$ is a function of the investment $x$, the cash flow it generates $k$, the risk-free rate of return $r$, the tax rate $t$, and the depreciation rate $d$.
 $$TS=f(x,k,t,d,r)$$
 9.  $TS$ is increasing in both  $d$ and $t$.
 
-#### Section 1 Part 6: Data Science work flow
+### Data Science work flow
 
 - Review the "A 'Data Science' Workflow" Section of the [Cost Estimation Lecture](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/1/1)
 - You should have a sense for the flow of the "management accounting" data work flow.
 
-### Section 2 - What we've covered since the midterm
+## Section 2 - What we've covered since the midterm
 
-#### Economics of agency
+### Economics of agency
 
 - The following issues will be covered:
   - Separation of ownership and control
   - The nature of the principal agent problem.
   - Risk aversion and incentives
+
+### Economics of agency
 
 - These will be questions about the concepts from:
   - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html) and 
@@ -89,30 +94,52 @@ $$TS=f(x,k,t,d,r)$$
 
   Note that the details of the Rothwell problem will not be tested.
 
-#### Section 2 Part 2: Transfer Pricing
+### Section 2 Part 2: Transfer Pricing
 
 - Vik-Giger
 - Why do we need transfer prices?
   - Overconsumption of common resources.
   - Transmit information and incentives within a decentralized firm.
 
-#### Section 2 Part 3: Cost Allocation
+### Cost Allocation
 
 - The key concept here is that cost allocations (including transfer prices) function as 'Pigouvian' taxes
   - Taxes reduce the taxed activity
   - Negative taxes are subsidies, and increase the subsidised activity
 
-#### Section 2 Part 4: Absorption Costing
+### Absorption Costing
 
 - Navisky, Aspen, Kothari problems (don't worry, I won't ask all of them)
 - add the breakdowns to navisky TODO
 
-#### Section 2 Part 5: Activity Based Costing
+### Navisky notes:
 
-Conceptual understanding of how activity based costing improves on simple aborption costing 
+- [Application of fixed overhead](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.html#/q1-solution-1)
 
-#### Section 2 Part 6: Budgets/Standard Costs
+- You can think of the formula for fixed manufacturing overhead applied to cost of goods sold as:
 
-Concept on budgets
+$$FMO=OHR \times Q_{sold}$$
 
-Line up the breakdown of the variances
+- OHR is the overhead rate: $OHR=OH/Q_{made}$
+- OH is the total overhead incurred, 2.7 million in this case
+- $Q_{made}$ is the number of units produced, and $Q_{sold}$ is the number of units sold.
+
+### Navisky notes:
+
+- [The cost per unit of inventory](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.html#/q2-solution-4) is the sum of the overhead applied to the inventory and the [variable manufacturing costs](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.html#/navisky-data)
+
+- $VC/unit=380$
+- The fixed overhead applied to each unit of inventory is just the overhead rate: $OHR=
+### Activity Based Costing
+
+Conceptual understanding of how activity based costing improves on simple absorption costing.
+
+1. More granular information leads to more accurate cost allocations.
+2. More accurate allocations provide better information via transfer prices.
+3. More accurate allocations connect incentives (a la Pigou) to the actual costs that the firm incurs.
+
+### Budgets/Standard Costs/Variances
+
+The only terms you need are the ones used in the following slides. I will cover these with multiple choice questions.
+
+
