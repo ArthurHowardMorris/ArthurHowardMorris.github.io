@@ -26,8 +26,9 @@ title: "Review Session"
 - There will be one additional question.
 
 ### Cost functions
-    - Average cost,  marginal cost, incremental costs.
-    - When do they exist, when do they differ, when do the differences matter.
+
+- Average cost,  marginal cost, incremental costs.
+- When do they exist, when do they differ, when do the differences matter.
 
 ### Regression and Plotting
 
