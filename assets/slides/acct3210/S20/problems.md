@@ -389,6 +389,15 @@ see Navisky produce if he expects to sell 1,200 devices this year?
 *this is the classic absorption costing problem*
 :::
 
+### Note:
+
+You can think of the formula for fixed manufacturing overhead applied to cost of goods sold as:
+
+$$FMO=OHR \times Q_{sold}$$
+
+- OHR is the overhead rate: $OHR=OH/Q_{made}$
+
+
 ::: {#q1-solution-2 .section .slide .level3}
 ### Q1: Solution
 
