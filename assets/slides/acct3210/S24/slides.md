@@ -52,7 +52,7 @@ Practice plotting data and adding a trend line using your tool of choice.
 - Identify the choice variables.
 - Identify the constraints.
 - Understand what it means for a constraint to bind, or to be slack.
-- Understand shadow constraints, and explain their real world meaning. 
+- Understand shadow price, and explain their real world meaning. 
 - The details from this question will come from the [Non-linear programming lecture](https://arthurhowardmorris.github.io/assets/slides/acct3210/S4/lecture4nonlinearProgramming.slides.html)
 
 ### Multiple Choice questions about taxes.
