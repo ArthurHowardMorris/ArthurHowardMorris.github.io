@@ -1,7 +1,6 @@
 ---
 title: "Absorption costing problems"
 ---
-::: reveal
 
 ::: slides
 ::: {#title-slide .section}
@@ -64,7 +63,7 @@ Ending inventory value using variable costing:
   Units produced                               5,300
   Units sold                                   4,900
   Ending inventory                             400
-  [×]{.math .inline} Unit manufacturing cost   \$15.50
+  $\times$ Unit manufacturing cost             \$15.50
   Ending inventory value                       \$6,200
   -------------------------------------------- ---------
 :::
