@@ -80,6 +80,8 @@ $$TS=f(x,k,t,d,r)$$
 
 ## Section 2 - What we've covered since the midterm
 
+I will write six questions based on the following topics, you should answer at least six of them.
+
 ### Economics of agency
 
 - The following issues will be covered:
@@ -93,7 +95,7 @@ $$TS=f(x,k,t,d,r)$$
   - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html) and 
   - [Examples](https://arthurhowardmorris.github.io/assets/slides/acct3210/S11/MoreIncentives.slides.html)
 
-  Note that the details of the Rothwell problem will not be tested.
+  <!-- Note that the details of the Rothwell problem will not be tested. -->
 
 ### Section 2 Part 2: Transfer Pricing
 
@@ -111,7 +113,6 @@ $$TS=f(x,k,t,d,r)$$
 ### Absorption Costing
 
 - Navisky, Aspen, Kothari problems (don't worry, I won't ask all of them)
-- add the breakdowns to navisky TODO
 
 ### Navisky notes:
 
@@ -121,8 +122,8 @@ $$TS=f(x,k,t,d,r)$$
 
 $$FMO=OHR \times Q_{sold}$$
 
-- OHR is the overhead rate: $OHR=OH/Q_{made}$
-- OH is the total overhead incurred, 2.7 million in this case
+- OHR is the overhead rate: $OHR=TOH/Q_{made}$
+- OH is the total overhead, 2.7 million in this case
 - $Q_{made}$ is the number of units produced, and $Q_{sold}$ is the number of units sold.
 
 ### Navisky notes:
@@ -130,7 +131,8 @@ $$FMO=OHR \times Q_{sold}$$
 - [The cost per unit of inventory](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.html#/q2-solution-4) is the sum of the overhead applied to the inventory and the [variable manufacturing costs](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.html#/navisky-data)
 
 - $VC/unit=380$
-- The fixed overhead applied to each unit of inventory is just the overhead rate: $OHR=
+- The fixed overhead applied to each unit of inventory is just the overhead rate: $OHR=TOH/Q_{made}$
+ 
 ### Activity Based Costing
 
 Conceptual understanding of how activity based costing improves on simple absorption costing.
@@ -171,6 +173,7 @@ $$AOH - (OHR \times SV) = AOH - (OHR \times SV)
 $$\$2,300,000 - \$2,291,600 = \$8,400
 
 __Interpretation:__
+
 - Overhead is 'Underabsorbed', if actual > absorbed
 - Overhead is 'Overabsorbed', if actual < absorbed
 
