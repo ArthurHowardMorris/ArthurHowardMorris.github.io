@@ -142,4 +142,69 @@ Conceptual understanding of how activity based costing improves on simple absorp
 
 The only terms you need are the ones used in the following slides. I will cover these with multiple choice questions.
 
+### Variance:
 
+Total Variance = Actual Cost - Standard Cost
+
+### Disaggregation of direct cost variances
+
+Direct cost (labor and materials) can be disaggregated into Price and Quantity variances using the flexible budget.
+
+### Disaggregation of direct cost variances
+
+
+| Total Variance                      | Actual DM Cost   | Flexible Budget  | Standard DM Cost |
+|-------------------------------------|------------------|------------------|------------------|
+| $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a$ | $P_s \times Q_a$ | $P_s \times Q_s$ |
+
+
+| Total Variance                      | Price Variance                    | Quantity Variance                |
+|-------------------------------------|-----------------------------------|----------------------------------|
+| $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a - P_s \times Q_a$ | $P_s \times Q_a- P_s \times Q_s$ |
+| $[Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$  | $Q_a(P_a-P_s)$                    | $P_s(Q_a-Q_s)$                   |
+
+### Disaggregation of overhead cost variances
+
+__Total Overhead Variance = Actual Overhead Costs - Overhead Absorbed__
+$$AOH - (OHR \times SV) = AOH - (OHR \times SV)
+$$\$2,300,000 - \$2,291,600 = \$8,400
+
+__Interpretation:__
+- Overhead is 'Underabsorbed', if actual > absorbed
+- Overhead is 'Overabsorbed', if actual < absorbed
+
+### Disaggregation  Overhead Variance
+
+__Total Overhead Variance = Actual Overhead - Overhead Absorbed__
+
+- Overhead spending variance = Actual overhead - Flexible budget at actual volume
+- OSV = AOH - FB@AV
+- Overhead efficiency variance = Flexible budget at actual volume - Flexible budget at standard volume
+- OEV = FB@AV - FB@SV
+- Overhead volume variance =  Flexible budget at standard volume - Overhead Absorbed
+- OVV = FB@SV - OA
+
+### Disaggregation  Overhead Variance
+
+| TOV | = | AOH |     |       | -   |       |     | OA |
+|-----|---|-----|-----|-------|-----|-------|-----|----|
+| OSV | = | AOH | -   | FB@AV |     |       |     |    |
+| OEV | = |     |     | FB@AV | -   | FB@SV |     |    |
+| OVV | = |     |     |       |     | FB@SV | -   | OA |
+
+### More detailed definitions:
+
+| TOV | = | AOH |     |                     | -   |                     |     | $OHR \times SV$ |
+|-----|---|-----|-----|---------------------|-----|---------------------|-----|-----------------|
+| OSV | = | AOH | -   | FOH+(VOH$\times$AV) |     |                     |     |                 |
+| OEV | = |     |     | FOH+(VOH$\times$AV) | -   | FOH+(VOH$\times$SV) |     |                 |
+| OVV | = |     |     |                     |     | FOH+(VOH$\times$SV) | -   | $OHR \times SV$ |
+
+### Disaggregation  Overhead Variance
+
+- Overhead spending variance: OSV = AOH - FB@AV
+  - This is the variance due to change in the cost of the overhead itself.
+- Overhead efficiency variance: OEV = FB@AV - FB@SV
+  - This is the variance due to differences in how efficiently we used the overhead.
+- Overhead volume variance: OVV = FB@SV - OA
+  - This is the variance due to the effect of volume on the overhead allocation.
