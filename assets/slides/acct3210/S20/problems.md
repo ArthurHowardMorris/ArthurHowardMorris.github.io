@@ -118,7 +118,7 @@ cost of producing 5,300 pairs of Peak 32s instead of 4,900 pairs?
 -   Assuming that they can sell the 400 pairs of sunglasses in inventory, the
     cost of overproducing is the sum of:
     1.  the additional warehousing costs plus
-    2.  $400 \times \$15.50 \times 20% \times \xi$ where $\xi$ is the fraction
+    2.  $400 \times \$15.50 \times 20\% \times \xi$ where $\xi$ is the fraction
     of the year the glasses are held until being sold.
 :::
 
