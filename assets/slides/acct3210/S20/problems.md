@@ -1,4 +1,8 @@
+---
+title: "Absorption costing problems"
+---
 ::: reveal
+
 ::: slides
 ::: {#title-slide .section}
 # Absorption costing problems {#absorption-costing-problems .title}
