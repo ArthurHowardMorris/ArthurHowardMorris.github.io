@@ -8,17 +8,15 @@ published: true
 
 ## Publications:
 
-[__Pay for Prudence__](https://doi.org/10.1016/j.jacceco.2023.101619) 
-
+[__Pay for Prudence__](https://doi.org/10.1016/j.jacceco.2023.101619)   
 (with [Salman Arif](https://sites.google.com/view/salmanarif), [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan), [Yadav Gopalan](https://sites.google.com/site/ykgopalan/))  
 _Journal of Accounting and Economics, 2023_ 
 
-[__Financial Shocks to Lenders and the Composition of Financial Covenants__](https://doi.org/10.1016/j.jacceco.2021.101426)  
+[__Financial Shocks to Lenders and the Composition of Financial Covenants__](https://doi.org/10.1016/j.jacceco.2021.101426)   
 (with [Hans Christensen](https://www.chicagobooth.edu/faculty/directory/c/hans-b-christensen),  [Daniele Macciocchi](https://www.bus.miami.edu/thought-leadership/faculty/accounting/macciocchi.html), and [Valeri Nikolaev](https://www.chicagobooth.edu/faculty/directory/n/valeri-nikolaev))  
 _Journal of Accounting & Economics, 2022_
 
-[__Political Information Flow and Management Guidance__](https://doi.org/10.1007/s11142-022-09671-7)  
-
+[__Political Information Flow and Management Guidance__](https://doi.org/10.1007/s11142-022-09671-7)   
 (with [Dane Christensen](https://business.uoregon.edu/faculty/dane-christensen), [Beverly Walther](https://www.kellogg.northwestern.edu/faculty/directory/walther_beverly.aspx), and [Laura Wellman](https://directory.smeal.psu.edu/law613))  
 _Review of Accounting Studies, 2022_  
 
