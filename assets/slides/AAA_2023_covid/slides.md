@@ -52,11 +52,11 @@ aspectratio: "1610"
 > controlled ... can distort these mappings and lead to unintended consequences
 > associated with ex post inefficiencies. ... Specifically, we explore how
 > lenders and borrowers use debt contract terms to allocate risks arising from
-> uncontrollable events and whether such terms impact corporate policies. (Song et al., 2023)
+> __uncontrollable__ events and whether such terms impact corporate policies. (Song et al., 2023)
 
 - __This sounds like the justification for incomplete contracts!__ 
 
-- See Hiemann (2020) for an interesting treatment of the relationship between uncontrollable risks, interest rates, and covenants.
+- See [Hiemann (2020)](https://www0.gsb.columbia.edu/mygsb/faculty/research/pubfiles/26305/Debtcovenantsv7.pdf) for an interesting treatment of the relationship between uncontrollable risks, interest rates, and covenants.
 
 
 # Theoretical Foundation: What is the underlying model?
@@ -81,7 +81,7 @@ aspectratio: "1610"
 > Incomplete contract theory suggests that contracts are inherently incomplete
   because the future state is uncertain, and contracts cannot specify the
   course of action in every future contingency. As we discussed before, the MAE
-  clause serves as a key tool to limit uncertainty for the lender. (Song et al., 2023)
+  clause serves as a key tool to limit uncertainty for the lender. (Song et al., 2023)  
 
 
 # Theoretical Foundation: What is the underlying model?
@@ -96,13 +96,23 @@ aspectratio: "1610"
 
 # Theoretical Foundation: What is the underlying model?
 
+### The current theoretical foundation is intuitive: MAEs make sense in an uncertain world.  
+
+- The current theoretical/intuitive foundation is not unique to MAEs.
+- Motivation seems to overlap with covenants in general and performance covenants in particular.
+
+# Theoretical Foundation: What is the underlying model?
+
 - What is the unique problem that MAEs are solving? 
 - Why is this not solved by performance covenants? 
 - What can MAEs teach us about performance covenants?
-- What do we learn about the MAE from the exceptions?
-- The current theoretical/intuitive foundation is not unique to MAEs (i.e. Similar to the covenant literature) but MAEs are unique contract terms.
+- What do we learn about the MAE from the exceptions?  
 
-# Theoretical Foundation: Jensen & Meckling & Propability
+# Theoretical Foundation: Jensen & Meckling & Probability
+
+Clarifying the sort of uncontrollable or uncertain events that you have in mind may help develop this motivation.
+
+# Theoretical Foundation: Jensen & Meckling & Probability
 
 > Jensen and Meckling (1976) argue that post-contractual moral hazard arises
 > because the lender and owner-manager have asymmetric payoff functions, which
@@ -111,34 +121,30 @@ aspectratio: "1610"
 > clause addresses the information asymmetry issue and moral hazard problem by
 > creating a threat of lenders calling default on loans even in the absence of
 > covenant violations, prompting the owner-manager to behave in the lender’s
-> interest and not engage in excessive risk-taking.
+> interest and not engage in excessive risk-taking. (Song et al., 2023 p. 10)  
 
-(Song et al., 2023 p. 10)
+What sort of uncertainty did Jensen and Meckling have in mind?
 
-# Theoretical Foundation: Jensen & Meckling & Propability
+# Theoretical Foundation: Jensen & Meckling & Probability
 
 > An apt analogy is the way one would play poker on money borrowed at a fixed
 > interest rate, with one’s own liability limited to some very small stake.
 > Fama and Miller (1972, pp. 179-180) also discuss and provide a numerical
 > example of an investment decision which illustrates very nicely the potential
-> inconsistency between the interests of bondholders and stockholders.
+> inconsistency between the interests of bondholders and stockholders. (Jensen & Meckling 1976)
 
-(Jensen & Meckling 1976)
-
-# Theoretical Foundation: Jensen & Meckling & Propability
+# Theoretical Foundation: Jensen & Meckling & Probability
 
 - This view of uncertainty as quantifiable like poker goes back to the 17th century when European aristocrats were trying to understand their games of chance. 
 - J.M. Keynes and Frank Knight did not believe that this approach was applicable to real economic activity.
 - Frank Ramsey disagreed and won the debate.
-- Friedman, Fama, and the field of financial economics largely inherits this view. This is a strong orthodoxy.
-- I consider the incomplete contracting literature to be a quiet heresy, which is why I like it so much.
+- Friedman, Fama, and the field of financial economics largely inherits the view as articulated in Jensen and Meckling (1978) this view.
+- However, the incomplete contracting literature seems much closer to the sort of uncertainty that Keynes and Knight had in mind in their work on probability.
 
-# Theoretical Foundation: Jensen & Meckling & Propability
+# Theoretical Foundation: Jensen & Meckling & Probability
 
 - How do MAEs fit into the traditional quantifiable probability framework? 
 - How do MAEs fit into the incomplete contracting framework (unique from covenants)?
-- MAEs may be an opportunity to think about the _radical uncertainty_ of Keynes and Knight instead of the quantifiable uncertainty of Ramsey, Jensen, Meckling, Fama, Miller, and, to some extent, all of us.
-
 
 # Institutional Question: What is the context of the exceptions?
 
@@ -171,10 +177,8 @@ __An example from the draft:__
 # The Second Exclusion:
 
 - The second is in "SECTION 8. Representations, Warranties and Agreements"
-
-> In order to induce the Lenders to enter into this Agreement and to make the Loans as provided for herein, the Borrower makes the following representations and warranties to, and agreements with, the Lenders, all of which shall survive the execution and delivery of this Agreement and the making of the Loans:
-
-> All historical financial statements relating to the Credit Parties and their Subsidiaries that have been delivered by the Borrower to Administrative Agent in connection with this Agreement have been prepared in accordance with GAAP (except, in the case of unaudited financial statements, for the lack of footnotes and being subject to year-end audit adjustments) and present fairly in all material respects, the Credit Parties’ and their Subsidiaries’ consolidated financial condition as of the date thereof and results of operations for the period then ended. Since December 31, 2019, no Material Adverse Effect has occurred; provided that in determining whether a Material Adverse Effect has occurred for purposes of this Section 8.9, current financial and market conditions engendered by COVID-19 shall not be given effect and the direct impacts of COVID-19 on the business, operations or financial condition of Credit Parties __that occurred and were disclosed__ in any Form 10-K, Form 10-Q or Form 8-K filed by the Credit Parties prior to the Closing Date, shall be disregarded.
+- "In order to induce the Lenders to enter into this Agreement and to make the Loans as provided for herein, the Borrower makes the following representations and warranties to, and agreements with, the Lenders, all of which shall survive the execution and delivery of this Agreement and the making of the Loans: ..."
+- "All historical financial statements relating to the Credit Parties and their Subsidiaries that have been delivered by the Borrower to Administrative Agent in connection with this Agreement have been prepared in accordance with GAAP (except, in the case of unaudited financial statements, for the lack of footnotes and being subject to year-end audit adjustments) and present fairly in all material respects, the Credit Parties’ and their Subsidiaries’ consolidated financial condition as of the date thereof and results of operations for the period then ended. Since December 31, 2019, no Material Adverse Effect has occurred; provided that in determining whether a Material Adverse Effect has occurred for purposes of this Section 8.9, current financial and market conditions engendered by COVID-19 shall not be given effect and the direct impacts of COVID-19 on the business, operations or financial condition of Credit Parties __that occurred and were disclosed__ in any Form 10-K, Form 10-Q or Form 8-K filed by the Credit Parties prior to the Closing Date, shall be disregarded."
 
 # Institutional Question 1:
 
@@ -185,14 +189,14 @@ __An example from the draft:__
 # Institutional Question 2:
 
 - How do MAE defaults actually work?
-
+- Song et al., (2023) write:
 > "After loan initiation, the occurrence of an MAE often constitutes an event of default for the borrower, which allows the lender to void the contract and cease its lending obligation (Koff and Singer, 2021)." (Song et al., 2023)
-
+- Erkins et al., (2014) seem to have something similar in mind:
 > "These renegotiations could occur either in anticipation of future covenant violations (Roberts and Sufi 2009b), or without reference to covenant violations, either through invoking the Material Adverse Change (MAC) clause or through relational contracts that can exist when there are strong ties between lenders and borrowers (Gibbons and Henderson 2012)." (Erkins et al., 2014)
 
 # Institutional Question 2:
 
-- [But Koff and Singer actually wrote:](https://www.abfjournal.com/articles/the-evolution-of-material-adverse-effect-provisions-in-credit-agreements/#:~:text=In%20other%20words%2C%20the%20standing%20of%20borrowers%20today,to%20make%20subjective%20determinations%20that%20MAEs%20had%20occurred.)
+- [But Koff and Singer seem to have something different in mind:](https://www.abfjournal.com/articles/the-evolution-of-material-adverse-effect-provisions-in-credit-agreements/#:~:text=In%20other%20words%2C%20the%20standing%20of%20borrowers%20today,to%20make%20subjective%20determinations%20that%20MAEs%20had%20occurred.)
 
 > "Even when the market allowed a free-standing MAE event of default, it was a dangerous default upon which to rely as a lender."
 
@@ -200,7 +204,7 @@ __An example from the draft:__
 
 - We need more detail about how MAE defaults work.
 - [The LSTA's Complete Credit Agreement Guide.](https://www.lsta.org/content/the-lstas-complete-credit-agreement-guide-second-edition/)
-- The law literature.
+- The law literature has a lot of detail about enforcement MAEs in debt and M&As.
 
 # Empirical Focus
 
@@ -213,9 +217,6 @@ __An example from the draft:__
 # Minor points
 
 - Separate measurement and interpretation.
-    - esp. in naming variables (i.e. 'exposure')
+    - esp. in naming variables (i.e. 'COVID exposure')
 - Plain English variable names where possible.
-- FF5 is probably too aggregated for the descriptives.
-- Connect dots on plots over time but not across industry.
-- Ability to bare risk at systemically important banks is a very interesting construct.
-
+    - esp. the COVID exposure variable
