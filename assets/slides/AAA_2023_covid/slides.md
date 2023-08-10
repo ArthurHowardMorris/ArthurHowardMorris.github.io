@@ -81,8 +81,7 @@ aspectratio: "1610"
 > Incomplete contract theory suggests that contracts are inherently incomplete
   because the future state is uncertain, and contracts cannot specify the
   course of action in every future contingency. As we discussed before, the MAE
-  clause serves as a key tool to limit uncertainty for the lender. (Song et al., 2023)  
-
+  clause serves as a key tool to limit uncertainty for the lender. (Song et al., 2023)
 
 # Theoretical Foundation: What is the underlying model?
 
@@ -96,23 +95,19 @@ aspectratio: "1610"
 
 # Theoretical Foundation: What is the underlying model?
 
-### The current theoretical foundation is intuitive: MAEs make sense in an uncertain world.  
+__The current theoretical foundation is intuitive: MAEs make sense in an uncertain world.__ 
 
-- The current theoretical/intuitive foundation is not unique to MAEs.
+- The current theoretical/intuitive foundation is not unique to MAEs, but M.
 - Motivation seems to overlap with covenants in general and performance covenants in particular.
-
+- MAEs are unique contract terms.
 # Theoretical Foundation: What is the underlying model?
 
 - What is the unique problem that MAEs are solving? 
 - Why is this not solved by performance covenants? 
 - What can MAEs teach us about performance covenants?
-- What do we learn about the MAE from the exceptions?  
+- What do we learn about the MAE from the exceptions?
 
-# Theoretical Foundation: Jensen & Meckling & Probability
-
-Clarifying the sort of uncontrollable or uncertain events that you have in mind may help develop this motivation.
-
-# Theoretical Foundation: Jensen & Meckling & Probability
+# Theoretical Foundation: Jensen & Meckling & Propability
 
 > Jensen and Meckling (1976) argue that post-contractual moral hazard arises
 > because the lender and owner-manager have asymmetric payoff functions, which
@@ -121,25 +116,32 @@ Clarifying the sort of uncontrollable or uncertain events that you have in mind 
 > clause addresses the information asymmetry issue and moral hazard problem by
 > creating a threat of lenders calling default on loans even in the absence of
 > covenant violations, prompting the owner-manager to behave in the lender’s
-> interest and not engage in excessive risk-taking. (Song et al., 2023 p. 10)  
+> interest and not engage in excessive risk-taking.
 
-What sort of uncertainty did Jensen and Meckling have in mind?
+(Song et al., 2023 p. 10)
 
-# Theoretical Foundation: Jensen & Meckling & Probability
+# Theoretical Foundation: Jensen & Meckling & Propability
 
 > An apt analogy is the way one would play poker on money borrowed at a fixed
 > interest rate, with one’s own liability limited to some very small stake.
 > Fama and Miller (1972, pp. 179-180) also discuss and provide a numerical
 > example of an investment decision which illustrates very nicely the potential
-> inconsistency between the interests of bondholders and stockholders. (Jensen & Meckling 1976)
+> inconsistency between the interests of bondholders and stockholders.
 
-# Theoretical Foundation: Jensen & Meckling & Probability
+(Jensen & Meckling 1976)
+
+# Theoretical Foundation: Jensen & Meckling & Propability
 
 - This view of uncertainty as quantifiable like poker goes back to the 17th century when European aristocrats were trying to understand their games of chance. 
 - J.M. Keynes and Frank Knight did not believe that this approach was applicable to real economic activity.
 - Frank Ramsey disagreed and won the debate.
-- Friedman, Fama, and the field of financial economics largely inherits the view as articulated in Jensen and Meckling (1978) this view.
-- However, the incomplete contracting literature seems much closer to the sort of uncertainty that Keynes and Knight had in mind in their work on probability.
+- Friedman, Fama, and the field of financial economics largely inherits this view. This is a strong orthodoxy.
+- I consider the incomplete contracting literature to be a quiet heresy, which is why I like it so much.
+
+# Theoretical Foundation: Jensen & Meckling & Propability
+
+- How do MAEs fit into the traditional quantifiable probability framework? 
+- How do MAEs fit into the incomplete contracting framework (unique from covenants)?
 
 # Theoretical Foundation: Jensen & Meckling & Probability
 
@@ -190,8 +192,11 @@ __An example from the draft:__
 
 - How do MAE defaults actually work?
 - Song et al., (2023) write:
+
 > "After loan initiation, the occurrence of an MAE often constitutes an event of default for the borrower, which allows the lender to void the contract and cease its lending obligation (Koff and Singer, 2021)." (Song et al., 2023)
+
 - Erkins et al., (2014) seem to have something similar in mind:
+
 > "These renegotiations could occur either in anticipation of future covenant violations (Roberts and Sufi 2009b), or without reference to covenant violations, either through invoking the Material Adverse Change (MAC) clause or through relational contracts that can exist when there are strong ties between lenders and borrowers (Gibbons and Henderson 2012)." (Erkins et al., 2014)
 
 # Institutional Question 2:
