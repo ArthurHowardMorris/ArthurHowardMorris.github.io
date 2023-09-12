@@ -1,7 +1,7 @@
 ---
 title: 2021-10-27
 categories:
-  - talks
+  - talking
 tags:
   - conference presentation
   - slides

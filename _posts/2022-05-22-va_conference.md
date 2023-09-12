@@ -1,7 +1,7 @@
 ---
 title: '2202-06-02'
 categories:
-  - talks
+  - talking
 tags:
   - conference presentation
 published: true

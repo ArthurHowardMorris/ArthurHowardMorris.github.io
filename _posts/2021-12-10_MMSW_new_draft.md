@@ -1,6 +1,8 @@
 ---
 title: 2021-12-10
 categories:
+  - writing
+tags:
   - working paper
 published: true
 ---

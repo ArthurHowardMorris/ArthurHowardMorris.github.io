@@ -1,6 +1,9 @@
 ---
 title: 2021-06-10
 categories:
+  - writing
+tags:
+  - publication
   - in press
 published: true
 ---

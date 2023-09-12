@@ -1,7 +1,7 @@
 ---
 title: 2021-02-26
 categories:
-  - talks    
+  - talking    
 ---
 
 My co-author [Yadav Gopalan](https://sites.google.com/site/ykgopalan/) will be presenting our paper "Pay for Prudence", written with [Salman Arif](https://sites.google.com/view/salmanarif), [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan), at the [33rd Annual Accounting Research Conference in Memory of Nicholas Dopuch](https://sites.wustl.edu/acctconf/schedule/).
