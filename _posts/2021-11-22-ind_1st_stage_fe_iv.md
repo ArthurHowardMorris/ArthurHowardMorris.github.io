@@ -1,7 +1,9 @@
 ---
 title: '2021-11-22'
 categories:
-  - code
+  - coding
+tags:
+  - stata 
   - iv
 published: true
 permalink: "/resources/ind_1st_stage_fe_iv.html"

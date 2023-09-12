@@ -1,7 +1,8 @@
 ---
 title: '2023-01-15'
 categories:
-  - code
+  - coding
+tags:
   - esttab
   - tables
   - stata

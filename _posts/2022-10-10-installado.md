@@ -1,7 +1,9 @@
 ---
 title: '2022-10-10'
 categories:
-  - code
+  - coding
+tags: 
+  - install
   - stata
   - psacalc
 published: true

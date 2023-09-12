@@ -1,7 +1,10 @@
 ---
 title: '2021-11-04'
 categories:
-  - code
+  - coding
+tags:
+  - stata
+  - esttab 
   - did
 published: true
 permalink: "/resources/esttab_with_eventstudyinteract.html"
