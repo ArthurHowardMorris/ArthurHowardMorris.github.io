@@ -1,5 +1,9 @@
 ---
 title: 2021-03-13
+categories:
+  - coding
+tags:
+  - stata
 published: false
 ---
 

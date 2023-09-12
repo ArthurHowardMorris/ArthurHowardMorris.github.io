@@ -1,9 +1,11 @@
 ---
 title: '2021-02-16'
 categories:
-  - code
+  - coding
+tags:
   - fe
   - stata
+  - safe workflow
 published: true
 permalink: "/resources/indicate_fe_safely.html"
 ---
