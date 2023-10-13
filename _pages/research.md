@@ -28,7 +28,7 @@ R&R at the _Accounting Review_
 
 [__Renegotiation Costs and Debt Contract Design__](https://dx.doi.org/10.2139/ssrn.2981069)  
 (with [Scott Dyreng](https://sites.google.com/site/scottdyreng/), and [Elia Ferracuti](https://sites.google.com/view/eliaferracuti/))  
-<!-- R&R at the _Journal of Accounting and Economics_   -->
+R&R at the _Accounting Review_  
 
 __Option Grants and Risky Projects: A Reputation-Based Perspective__  
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_  
