@@ -10,6 +10,7 @@ published: true
 
 ## Advanced Managerial Accounting (ACCTG3210)
   <!-- - [Spring 2023]({{< ref "/semesters/s2023/ACCTG3210.html">}}) -->
+- [Spring 2024](/resources/semesters/s2024/ACCTG3210.html)
 - [Spring 2023](/resources/semesters/s2023/ACCTG3210.html)
 - Spring 2022 
 
