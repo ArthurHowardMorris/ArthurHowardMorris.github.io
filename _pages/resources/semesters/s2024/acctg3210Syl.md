@@ -10,6 +10,8 @@ published: true
 
 ###  Spring 2024 Syllabus
 
+<!-- _Preliminary until the semester begins, and the registrar confirms exam dates and locations. Pleas follow __[this link](https://arthurhowardmorris.github.io/resources/semesters/s2024/ACCTG3210Syl.html)__ for the current version._ -->
+
 ## Instructor:
 
 __Dr. Arthur Morris__  
@@ -19,10 +21,8 @@ Office Hours:
 - Tuesday 14:00-15:00 [via Zoom](https://hkust.zoom.us/j/94917363902?pwd=Ym1ldTV4WDJHOVYxbFRUY2ljMjZrZz09)    
 
 ## Teaching Assistant:  
-__To be assigned__  
-Email:
-Office Hours:  
-- TBA  
+__Mr. Leon Lai__  
+Email: acleon@ust.hk
 
 ## Class sessions:
 
@@ -82,15 +82,16 @@ course canvas site.
 
 ## Course Structure and Mode of Instruction:
 
-|                          |                                                                                                                                                                                                                                                                                      |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| _Mode of Instruction:_   | The course will be conducted _in-person_ and will involve _extensive class participation_ (random cold calling) which will be graded (see Grading below for details).                                                                                                                |
+<!-- note that the width of the tables in the doc is controlled by the width of the header row, so don't let table mode move the top row -->
+
+| | | 
+|--------------------------|-------------------------------------------------------|
+| _Mode&nbsp;of Instruction:_   | The course will be conducted _in-person_ and will involve class participation.| 
 | _Lectures and Cases:_    | Class discussions will involve both lectures and cases. Case discussions will occur on days when the cases are assigned in the course schedule below.                                                                                                                                |
 | _Preparation for Class:_ | Students should prepare for class by completing the assigned reading and problems or case. All assignments and cases are due before class.                                                                                                                                           |
 | _Video Recordings:_      | No recordings of this class will be distributed. This is to facilitate class participation.                                                                                                                                                                                          |
 | _Canvas:_                | Assignments will be turned in via Canvas, and I will use canvas to send updates. Please note that this website, and _not Canvas_ will host the slides and syllabus . Also note that the Canvas gradebook will only track assignments turned in via Canvas and not your final grade.  |
 | _Communication:_         | All questions about lecture content should be submitted in the canvas forum for the lecture, and will be addressed either in review sessions or in the forum posts. Other questions should be addressed to the T.A. via email with "ACCT 3210" and your section in the subject line. |
-
 
 ## Grading
 
@@ -108,7 +109,7 @@ course canvas site.
 
 Class participation scores will be based on attendance, you are expected to
 attend the section for which you are registered. Attendance will be take using
-_TBA_, supplemented by in-person cold calling. Please note that indicating that
+_iPRS_, supplemented by in-person cold calling. Please note that indicating that
 you are in attendance when you are not physically in the classroom is
 dishonest, and will be treated as [academic
 misconduct](https://registry.hkust.edu.hk/resource-library/regulations-student-conduct-and-academic-integrity).
@@ -116,7 +117,8 @@ misconduct](https://registry.hkust.edu.hk/resource-library/regulations-student-c
 I will begin counting attendance on the 19th of February (i.e. after the end of
 the add/drop period), but we will use the attendance app in class each day to
 ensure that all students understand how the app works. In the grading scheme
-above, the 16% will be allocated as follows: 
+above, the 16% awarded based on class participation will be allocated as follows: 
+
 
 | Classes Missed | Percent Awarded |
 |----------------|-----------------|
@@ -146,7 +148,7 @@ Exams will be conducted in-person and will be closed book. Times and locations T
      exam will receive zero mark for this component, except for highly unusual
      circumstances that cannot be controlled and avoided by the student---in which
      case the grade weight on the midterm exam will be loaded to the final
-     examination component.
+     examination component. Solutions to the midterm exam will be reviewed in class.
 
 - __Final Exam:__ The comprehensive final examination is scheduled from _TBA_
     to _TBA_ on _TBA_  in _TBA_. The exam is closed book and communication with
@@ -174,7 +176,21 @@ Points on all work will be weighted as shown above and graded as shown here:
 
 ## Course Schedule and Outline:
 
-|                 |                                                              |
+The contents of this course are divided into three sections: (1) Tools, (2)
+Theory, (3) Cost Allocation. The midterm will cover sections (1) and (2), while
+the final exam will cover all three sections.
+
+Section 1 will cover the fundamentals of data and analytical analysis needed to
+apply the ideas of managerial accounting to actual business data and decisions.
+Section 2 will cover classic ideas like the time value of money, and tax
+strategy, with an emphasis on how incentives and strategies vary across
+individuals and over time. This section will also emphasize the incentive
+conflicts that arise throughout organizations, and how organizations can be
+designed to manage these problems. Finally, Section 3 will present cost
+allocation as a way to either solve or cause the incentive problems introduced
+in Section 2, and as an application of the tools presented in Section 1.
+
+|                 | __Section 1: Tools__                                         |
 |-----------------|--------------------------------------------------------------|
 | __1. 31 Jan.__  | __Expectations and Conceptual Framework__                    |
 | _Read:_         | Zimmerman, Ch 1                                              |
@@ -195,6 +211,10 @@ Points on all work will be weighted as shown above and graded as shown here:
 |                 | __P6:__ Ava Catering                                         |
 |                 | __P7:__ Builder of Garages and Sheds                         |
 | __6. 21 Feb.__  | __Comprehensive review__                                     |
+
+
+|                 | __Section 2: Theory__                                        |
+|-----------------|--------------------------------------------------------------|
 | _Survey:_       | _Submit review topics for in-class discussion_               |
 | __7. 26 Feb.__  | __Time Value of Money and Capital Budgeting__                |
 | _Read:_         | Zimmerman, Chapter 3                                         |
@@ -216,36 +236,40 @@ Points on all work will be weighted as shown above and graded as shown here:
 | __18 Mar.__     | __Midterm__  _No class_                                      |
 |                 | 1800-1900, location TBA.                                     |
 |                 | See Canvas for room assignments.                             |
-| __13. 20 Mar.__ | __Responsibility Accounting and Transfer Pricing__           |
-| _Read:_         | Zimmerman, Chapter 5                                         |
-| __14. 25 Mar.__ | __Transfer Pricing: Additional Considerations__              |
-| _Case:_         | __C4:__ Vik-Giger Corporation   _read before class_          |
-| __15. 27 Mar.__ | __Exam paper review__  _In class only.                       |
-|                 | __Mid-Term Break__ _No class Monday and Wednesday._          |
-| __16. 8 Apr.__  | __Cost Allocation: Theory__                                  |
-| _Read:_         | Zimmerman, Chapter 7                                         |
-| _Read:_         | Zimmerman, Chapter 8                                         |
-| __18. 10 Apr__  | __Modern Cost Allocation__                                   |
-| _Read:_         | Chapter 8 Appendix A                                         |
-| __19. 15 Apr.__ | __Absorption Costing Systems__                               |
-| _Read:_         | Zimmerman, Chapter 9                                         |
-| _Problems:_     | __P11:__ 9–9 DeJure Scents                                   |
-|                 | __P12:__ 9–24 Kitchen Rite                                   |
-| __20. 17 Apr.__ | __Absorption Costing Problems__                              |
-| _Read:_         | Zimmerman, Chapter 10                                        |
-| _Problems:_     | __P13:__ 10–8 Aspen View                                     |
-|                 | __P14:__ 10–11 Kothari Inc.                                  |
-|                 | __P15:__ 10–17 Navisky                                       |
-| __21. 22 Apr.__ | __ABC__                                                      |
-| _Read:_         | Zimmerman, Chapter 11                                        |
-| __22. 24 Apr.__ | __Budgeting__                                                |
-| _Read:_         | Zimmerman, Chapter 6                                         |
-| __23. 29 Apr.__ | __Standard Costs and Variances__                             |
-| _Read:_         | Zimmerman, Chapters 12 and 13                                |
+
+
+|                 | __Section 3: Cost Allocation__                      |
+|-----------------|-----------------------------------------------------|
+| __13. 20 Mar.__ | __Responsibility Accounting and Transfer Pricing__  |
+| _Read:_         | Zimmerman, Chapter 5                                |
+| __14. 25 Mar.__ | __Transfer Pricing: Additional Considerations__     |
+| _Case:_         | __C4:__ Vik-Giger Corporation   _read before class_ |
+| __15. 27 Mar.__ | __Exam paper review__  _In class only.              |
+|                 | __Mid-Term Break__ _No class Monday and Wednesday._ |
+| __16. 8 Apr.__  | __Cost Allocation: Theory__                         |
+| _Read:_         | Zimmerman, Chapter 7                                |
+| _Read:_         | Zimmerman, Chapter 8                                |
+| __18. 10 Apr__  | __Modern Cost Allocation__                          |
+| _Read:_         | Chapter 8 Appendix A                                |
+| __19. 15 Apr.__ | __Absorption Costing Systems__                      |
+| _Read:_         | Zimmerman, Chapter 9                                |
+| _Problems:_     | __P11:__ 9–9 DeJure Scents                          |
+|                 | __P12:__ 9–24 Kitchen Rite                          |
+| __20. 17 Apr.__ | __Absorption Costing Problems__                     |
+| _Read:_         | Zimmerman, Chapter 10                               |
+| _Problems:_     | __P13:__ 10–8 Aspen View                            |
+|                 | __P14:__ 10–11 Kothari Inc.                         |
+|                 | __P15:__ 10–17 Navisky                              |
+| __21. 22 Apr.__ | __ABC__                                             |
+| _Read:_         | Zimmerman, Chapter 11                               |
+| __22. 24 Apr.__ | __Budgeting__                                       |
+| _Read:_         | Zimmerman, Chapter 6                                |
+| __23. 29 Apr.__ | __Standard Costs and Variances__                    |
+| _Read:_         | Zimmerman, Chapters 12 and 13                       |
 |                 | _No Class on May 1_
-| __24. 6 May.__  | _TBA_                                                        |
-| __24. 8 May.__  | __Final Review__ _in class_                                  |
-| _TBA_           | __Final Exam__                                               |
+| __24. 6 May.__  | _TBA_                                               |
+| __24. 8 May.__  | __Final Review__ _in class_                         |
+| _TBA_           | __Final Exam__                                      |
 
 <!-- | _Case:_         | __C9:__ LSP Capsules                                         | -->
 <!-- | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         | -->
