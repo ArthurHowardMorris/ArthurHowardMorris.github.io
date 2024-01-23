@@ -35,12 +35,13 @@ Email: acleon@ust.hk
 ## Course description:
 
 Managers rely on accounting information to guide operations. This course builds
-on Principles of Accounting II (ACCT 2200) to prepare students to produce and
-use this information. Topics covered include decision-making techniques,
-analysis of cost behavior, allocation of common and joint costs, use of cost
-information in operational and strategic decisions, transfer pricing, and
-performance measurement, and incentive compensation, with an emphasis on using
-data science to bring accounting information into the decision process.
+on Principles of Accounting II (ACCT 2200) to prepare students to produce,
+evaluate, and use this information. Topics covered include decision-making
+techniques, analysis of cost behavior, allocation of common and joint costs,
+use of cost information in operational and strategic decisions, transfer
+pricing, and performance measurement, and incentive compensation, with an
+emphasis on using data science to bring accounting information into the
+decision process.
 
 ## Course Objectives:
 By the end of this course, you should be able to:
@@ -65,9 +66,7 @@ The course will also provide you with opportunities to:
 7. Demonstrate communication skills through class participation and case
    discussions.  
 
-
 ## Course Materials:
-
 The materials that you need to prepare for each session will be provided via
 the Canvas site. Presentation slides, and resources, will be posted on the
 course website.
@@ -108,7 +107,7 @@ course canvas site.
 ### Class Participation:
 
 Class participation scores will be based on attendance, you are expected to
-attend the section for which you are registered. Attendance will be take using
+attend the section for which you are registered. Attendance will be taken using
 _iPRS_, supplemented by in-person cold calling. Please note that indicating that
 you are in attendance when you are not physically in the classroom is
 dishonest, and will be treated as [academic
@@ -136,6 +135,12 @@ Canvas, and are graded on completion only. Students who miss assignments
 because they add the course after the start of the semester may turn in any of
 the assignments they miss until the first exam without penalty.
 
+__Feedback on Cases and Problems:__ I will provide detailed discussion of the
+problems in class after they are due, this feedback will help you prepare for
+the examination. Please raise questions in the class discussion, or via the
+canvas discussion. This ensures that all students have access to the same
+information as they prepare for the exam.
+
 ### Exams
 
 Exams will be conducted in-person and will be closed book. Times and locations TBA.
@@ -149,6 +154,10 @@ Exams will be conducted in-person and will be closed book. Times and locations T
      circumstances that cannot be controlled and avoided by the student---in which
      case the grade weight on the midterm exam will be loaded to the final
      examination component. Solutions to the midterm exam will be reviewed in class.
+
+    - __Feedback on Midterm Exam:__ I will discuss each problem from the
+        midterm exam, as scheduled below, so that you have a chance to prepare for
+        the final exam.
 
 - __Final Exam:__ The comprehensive final examination is scheduled from _TBA_
     to _TBA_ on _TBA_  in _TBA_. The exam is closed book and communication with
@@ -249,25 +258,25 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __16. 8 Apr.__  | __Cost Allocation: Theory__                         |
 | _Read:_         | Zimmerman, Chapter 7                                |
 | _Read:_         | Zimmerman, Chapter 8                                |
-| __18. 10 Apr__  | __Modern Cost Allocation__                          |
+| __17. 10 Apr__  | __Modern Cost Allocation__                          |
 | _Read:_         | Chapter 8 Appendix A                                |
-| __19. 15 Apr.__ | __Absorption Costing Systems__                      |
+| __18. 15 Apr.__ | __Absorption Costing Systems__                      |
 | _Read:_         | Zimmerman, Chapter 9                                |
 | _Problems:_     | __P11:__ 9–9 DeJure Scents                          |
 |                 | __P12:__ 9–24 Kitchen Rite                          |
-| __20. 17 Apr.__ | __Absorption Costing Problems__                     |
+| __19. 17 Apr.__ | __Absorption Costing Problems__                     |
 | _Read:_         | Zimmerman, Chapter 10                               |
 | _Problems:_     | __P13:__ 10–8 Aspen View                            |
 |                 | __P14:__ 10–11 Kothari Inc.                         |
 |                 | __P15:__ 10–17 Navisky                              |
-| __21. 22 Apr.__ | __ABC__                                             |
+| __20. 22 Apr.__ | __ABC__                                             |
 | _Read:_         | Zimmerman, Chapter 11                               |
-| __22. 24 Apr.__ | __Budgeting__                                       |
+| __21. 24 Apr.__ | __Budgeting__                                       |
 | _Read:_         | Zimmerman, Chapter 6                                |
-| __23. 29 Apr.__ | __Standard Costs and Variances__                    |
+| __22. 29 Apr.__ | __Standard Costs and Variances__                    |
 | _Read:_         | Zimmerman, Chapters 12 and 13                       |
 |                 | _No Class on May 1_
-| __24. 6 May.__  | _TBA_                                               |
+| __23. 6 May.__  | _TBA_                                               |
 | __24. 8 May.__  | __Final Review__ _in class_                         |
 | _TBA_           | __Final Exam__                                      |
 
