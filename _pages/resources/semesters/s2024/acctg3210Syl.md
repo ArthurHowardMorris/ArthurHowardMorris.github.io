@@ -220,11 +220,11 @@ in Section 2, and as an application of the tools presented in Section 1.
 |                 | __P6:__ Ava Catering                                         |
 |                 | __P7:__ Builder of Garages and Sheds                         |
 | __6. 21 Feb.__  | __Comprehensive review__                                     |
+| _Survey:_       | _Submit review topics for in-class discussion_               |
 
 
 |                 | __Section 2: Theory__                                        |
 |-----------------|--------------------------------------------------------------|
-| _Survey:_       | _Submit review topics for in-class discussion_               |
 | __7. 26 Feb.__  | __Time Value of Money and Capital Budgeting__                |
 | _Read:_         | Zimmerman, Chapter 3                                         |
 | _Case:_         | __C2:__ Special Electric Case _read before class_            |
@@ -240,6 +240,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 |                 | Incentives and Managerial Compensation (class note)          |
 | __11. 11 Mar.__ | __Organizational Architecture__                              |
 | _Problems:_     | __P10__ 4–18 Rothwell                                        |
+| _Survey:_       | _Submit review topics for in-class discussion_               |
 | __12. 13 Mar.__ | __Mid-term Review__                                          |
 |                 | in class.                                                    |
 | __18 Mar.__     | __Midterm__  _No class_                                      |
@@ -278,6 +279,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 |                 | _No Class on May 1_
 | __23. 6 May.__  | _TBA_                                               |
 | __24. 8 May.__  | __Final Review__ _in class_                         |
+| _Survey:_       | _Submit review topics for in-class discussion_               |
 | _TBA_           | __Final Exam__                                      |
 
 <!-- | _Case:_         | __C9:__ LSP Capsules                                         | -->
