@@ -114,9 +114,10 @@ dishonest, and will be treated as [academic
 misconduct](https://registry.hkust.edu.hk/resource-library/regulations-student-conduct-and-academic-integrity).
 
 I will begin counting attendance on the 19th of February (i.e. after the end of
-the add/drop period), but we will use the attendance app in class each day to
-ensure that all students understand how the app works. In the grading scheme
-above, the 16% awarded based on class participation will be allocated as follows: 
+the add/drop period), but we will use iPRS in class each day to ensure that all
+students understand how it works, and to facilitate interactive learning. In
+the grading scheme above, the 16% awarded based on class participation will be
+allocated as follows: 
 
 
 | Classes Missed | Percent Awarded |
@@ -227,7 +228,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 |-----------------|--------------------------------------------------------------|
 | __7. 26 Feb.__  | __Time Value of Money and Capital Budgeting__                |
 | _Read:_         | Zimmerman, Chapter 3                                         |
-| _Case:_         | __C2:__ Special Electric Case _read before class_            |
+| _Case:_         | __Case:__ Special Electric Case _read before class_            |
 | __8. 28 Feb.__  | __Taxation of returns__                                      |
 | _Read:_         | Before- and After-tax Returns (class note)                   |
 |                 | Taxable versus Tax-exempt Bonds (class note)                 |
@@ -253,7 +254,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __13. 20 Mar.__ | __Responsibility Accounting and Transfer Pricing__  |
 | _Read:_         | Zimmerman, Chapter 5                                |
 | __14. 25 Mar.__ | __Transfer Pricing: Additional Considerations__     |
-| _Case:_         | __C4:__ Vik-Giger Corporation   _read before class_ |
+| _Case:_         | __Case:__ Vik-Giger Corporation   _read before class_ |
 | __15. 27 Mar.__ | __Exam paper review__  _In class only.              |
 |                 | __Mid-Term Break__ _No class Monday and Wednesday._ |
 | __16. 8 Apr.__  | __Cost Allocation: Theory__                         |
