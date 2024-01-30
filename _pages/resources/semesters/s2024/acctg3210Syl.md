@@ -108,7 +108,7 @@ course canvas site.
 
 Class participation scores will be based on attendance, you are expected to
 attend the section for which you are registered. Attendance will be taken using
-_iPRS_, supplemented by in-person cold calling. Please note that indicating that
+[_iPRS_](https://iprs.ust.hk/), supplemented by in-person cold calling. Please note that indicating that
 you are in attendance when you are not physically in the classroom is
 dishonest, and will be treated as [academic
 misconduct](https://registry.hkust.edu.hk/resource-library/regulations-student-conduct-and-academic-integrity).
