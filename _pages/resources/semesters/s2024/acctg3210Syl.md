@@ -154,11 +154,14 @@ Exams will be conducted in-person and will be closed book. Times and locations T
      exam will receive zero mark for this component, except for highly unusual
      circumstances that cannot be controlled and avoided by the student---in which
      case the grade weight on the midterm exam will be loaded to the final
-     examination component. Solutions to the midterm exam will be reviewed in class.
+     examination component. Solutions to the midterm exam will be reviewed _in class_.
 
     - __Feedback on Midterm Exam:__ I will discuss each problem from the
-        midterm exam, as scheduled below, so that you have a chance to prepare for
-        the final exam.
+       midterm exam, as scheduled below, so that you have a chance to prepare for
+       the final exam.
+   - __Mid-term Exam Conflicts:__ Every semester a few students have conflicting
+      mid-term exams. Once the mid-term exam is confirmed by the University, please
+      let the TA know if you have a conflict and we will make arrangements.
 
 - __Final Exam:__ The comprehensive final examination is scheduled from _TBA_
     to _TBA_ on _TBA_  in _TBA_. The exam is closed book and communication with
