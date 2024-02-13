@@ -1,0 +1,36 @@
+S5/SolvingLPs.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S5/SolvingLPs.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S2/Session 2 Slides.slides.html:9955: * TODO: come up with non css-hack solution for showing the busy icon on top
+S2/Session 2 Slides.slides.html:9983:* TODO: come up with non css-hack solution for showing the busy icon on top
+S2/Session2Slides.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S2/Session2Slides.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S3/Lecture3CostEstimation.slides.html:9955: * TODO: come up with non css-hack solution for showing the busy icon on top
+S3/Lecture3CostEstimation.slides.html:9983:* TODO: come up with non css-hack solution for showing the busy icon on top
+S21/slides.md:285:<!-- TODO: add the insteel industries example here -->
+S21/slides.md:305:<!-- TODO: consider modernizing this discussion in both the literature and the text. This is the sort of paper that would be fun to run and gun with Matt, possibly a PhD student as well. -->
+S21/slides.html:748:<!-- TODO: add the insteel industries example here -->
+S21/slides.html:767:<!-- TODO: consider modernizing this discussion in both the literature and the text. This is the sort of paper that would be fun to run and gun with Matt, possibly a PhD student as well. -->
+S4/lecture4nonlinearProgramming.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S4/lecture4nonlinearProgramming.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S10/session10incentives.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S10/session10incentives.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S11/MoreIncentives.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S11/MoreIncentives.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S8/lecture8taxes.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S8/lecture8taxes.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S1/Lecture1SlidesIntroductiontoMA.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S1/Lecture1SlidesIntroductiontoMA.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S6/reviewnotes.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S6/reviewnotes.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S7/lecture7capitalbudgeting.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S7/lecture7capitalbudgeting.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S22/slides.md:282:<!-- TODO: this is an embarassingly out of date version of the book. -->
+S9/session9realvsfinan.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S9/session9realvsfinan.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S22/slides.html:470:<!-- TODO: this is an embarassingly out of date version of the book. -->
+S13/transferpricing.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S13/transferpricing.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S12/review.slides.html:9954: * TODO: come up with non css-hack solution for showing the busy icon on top
+S12/review.slides.html:9982:* TODO: come up with non css-hack solution for showing the busy icon on top
+S23/slides.md:296:<!-- TODO: rewrite this whole section using the +/- the flexible budget notion -->
+S23/slides.html:860:<!-- TODO: rewrite this whole section using the +/- the flexible budget notion --></li>
