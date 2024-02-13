@@ -1,0 +1,72 @@
+Error:  
+Logging at level: 
+debug Configuration file: /github/workspace/./_config.yml 
+GitHub Pages: github-pages v229 GitHub Pages: jekyll v3.9.4 
+Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 
+Requiring: jekyll-github-metadata 
+Requiring: jekyll-seo-tag 
+Requiring: jekyll-paginate 
+Requiring: jekyll-sitemap 
+Requiring: jekyll-gist 
+Requiring: jekyll-feed 
+Requiring: jemoji 
+Requiring: jekyll-include-cache 
+Requiring: jekyll-coffeescript 
+Requiring: jekyll-commonmark-ghpages 
+Requiring: jekyll-github-metadata 
+Requiring: jekyll-relative-links 
+Requiring: jekyll-optional-front-matter 
+Requiring: jekyll-readme-index 
+Requiring: jekyll-default-layout 
+Requiring: jekyll-titles-from-headings 
+Requiring: jekyll-remote-theme 
+GitHub Metadata: Initializing... 
+Source: /github/workspace/. 
+Destination: /github/workspace/./_site 
+Incremental build: disabled. 
+Enable with --incremental Generating... 
+Theme: mmistakes/minimal-mistakes 
+Theme source: /tmp/jekyll-remote-theme-20240213-8-1gfwfix 
+Remote Theme: Using theme mmistakes/minimal-mistakes 
+Remote Theme: Downloading https://codeload.github.com/mmistakes/minimal-mistakes/zip/HEAD to /tmp/jekyll-remote-theme-20240213-8-jw2b8f.zip 
+Remote Theme: Unzipping /tmp/jekyll-remote-theme-20240213-8-jw2b8f.zip to /tmp/jekyll-remote-theme-20240213-8-1gfwfix EntryFilter: excluded /Gemfile 
+Reading: _posts/2023-10-24-sutva.md 
+Reading: _posts/2022-12-10-rise.md 
+Reading: _posts/2022-01-13-ops.md 
+Reading: _posts/2022-05-23-co_conf.md 
+Reading: _posts/2023-04-19-batch_rename.md 
+Reading: _posts/2022-03-07-omicron.md 
+Reading: _posts/2022-02-15-kdens.md 
+Reading: _posts/2021-02-16-indicate_fe_safely.md 
+Reading: _posts/2022-10-10-installado.md 
+Reading: _posts/2022-08-31-install_reghdfe.md 
+Reading: _posts/2021-04-13-box.md 
+Reading: _posts/2021-11-04-esttab_with_eventstudyinteract.md 
+Reading: _posts/2022-05-22-va_conference.md 
+Reading: _posts/2023-04-05-ohio.md 
+Reading: _posts/2022-09-02-hkjf_conf.md 
+Reading: _posts/2023-07-04-PFP_at_JAE.md 
+Reading: _posts/2022-07-19-pass_out.md 
+Reading: _posts/2024-01-18-fars.md 
+Reading: _posts/2021-06-08-ops_unzip.md 
+Reading: _posts/2023-08-06-aaa.md 
+Reading: _posts/2020-12-23-victory_at_c.md 
+Reading: _posts/2021-11-22-ind_1st_stage_fe_iv.md 
+Reading: _posts/2021-05-07-M_at_SMU.md 
+Reading: _posts/2022-11-01-kaz.md 
+Reading: _posts/2021-06-10-CMMN_inpress_online.md 
+Reading: _posts/2023-10-31-hkbu.md 
+Reading: _posts/2021-01-08-todo_list.md 
+Reading: _posts/2021-10-27-MMSW_at_Yale.md 
+Reading: _posts/2022-03-11-biztalk.md 
+Reading: _posts/2021-02-26-pay_for_prudence_at_dopuch.md 
+Reading: _posts/2021-03-26-stata_sharp_edges.md 
+Generating: JekyllOptionalFrontMatter::
+Generator finished in 0.000814838 seconds. 
+Generating: JekyllReadmeIndex::
+Generator finished in 0.006824756 seconds. 
+Generating: Jekyll::Paginate::Pagination finished in 0.000525309 seconds. 
+Generating: Jekyll::JekyllSitemap finished in 0.00071405 seconds. Jekyll Feed: 
+Generating feed for posts Generating: JekyllFeed::Generator finished in 0.000824136 seconds. 
+GitHub Metadata: Generating for ArthurHowardMorris/ArthurHowardMorris.github.io 
+GitHub Metadata: Calling @client.pages("ArthurHowardMorris/ArthurHowardMorris.github.io", {}) github-pages 229 | Error: undefined method `excerpt_separator' for #<Jekyll::Page @name="404.md"> Remote Theme: Cleaning up /tmp/jekyll-remote-theme-20240213-8-1gfwfix 

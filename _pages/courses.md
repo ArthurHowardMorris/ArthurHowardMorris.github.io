@@ -1,6 +1,5 @@
 ---
 title: courses
-excerpt: course materials
 sitemap: true
 permalink: /courses.html
 published: true
