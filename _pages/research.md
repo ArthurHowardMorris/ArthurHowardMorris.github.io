@@ -1,6 +1,5 @@
 ---
 title: Research
-excerpt: list of current and published projects
 sitemap: true
 permalink: /research.html
 published: true

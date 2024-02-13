@@ -1,6 +1,5 @@
 ---
 title: "ACCT3210: Advanced Managerial Accounting"
-excerpt: Course Syllabus
 sitemap: true
 permalink: /resources/semesters/s2023/ACCTG3210Syl.html
 published: true
