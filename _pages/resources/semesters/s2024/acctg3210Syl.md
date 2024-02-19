@@ -162,8 +162,8 @@ Exams will be conducted in-person and will be closed book. Times and locations T
       mid-term exams. Once the mid-term exam is confirmed by the University, please
       let the TA know if you have a conflict and we will make arrangements.
 
-- __Final Exam:__ The comprehensive final examination is scheduled from _TBA_
-    to _TBA_ on _TBA_  in _TBA_. The exam is closed book and communication with
+- __Final Exam:__ The comprehensive final examination is scheduled from __1800__
+    to __1900__ on __18 March 2024__  in 1103 and LTB. The exam is closed book and communication with
     others is cheating and not allowed. All students are required to take the final
     exam at this pre-scheduled time, and there will be no make-up exam for it.
     Students absent from the final exam will receive zero mark for this component. 
@@ -247,7 +247,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __12. 13 Mar.__ | __Mid-term Review__                                          |
 |                 | in class.                                                    |
 | __18 Mar.__     | __Midterm__  _No class_                                      |
-|                 | 1800-1900, location TBA.                                     |
+|                 | 1800-1900, in 1103 and LTB.                                     |
 |                 | See Canvas for room assignments.                             |
 
 
