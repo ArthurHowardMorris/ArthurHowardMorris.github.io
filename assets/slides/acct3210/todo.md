@@ -15,3 +15,12 @@
 
 
 It seems like costing systems should come before transfer pricing and that taxes can wait?
+
+## Add this to the syl:
+
+- Excel or Python is essential to the course. If you are comfortable with one, try the other. Use this course to develop your abilities.
+- I am passionate about this aspect of the course, but this is also the direction that the accounting profession is moving. The approach I am taking with this course is implementing the direction of the HKUST SBM Accounting Advisory Board.
+
+> "Finally, I would like to note that the increased emphasis of data analytics in our UG program reflects the feedback from our accounting advisory board members -- the accounting education should go beyond training our students to take CPA exams and incorporate more data analytics and soft skill training.  As our board members are leaders of major current and potential employers of our graduates, the department has been working hard to design our course offering to meet the changing business needs. I believe that it will do students a disservice to offer advanced managerial accounting in an “old way” without excel or Python."
+
+(from Mingyi)
