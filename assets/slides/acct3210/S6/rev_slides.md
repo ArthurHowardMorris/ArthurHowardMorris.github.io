@@ -3,7 +3,8 @@ title: "Review of ACCT3210 Part I: Tools"
 author: "Dr. Arthur Morris"
 ---
 
-# Topic Outline:
+# Review Outline:
+## Key Topics by Lecture:
 
 1. Lecture 2:
     - Key terms: ATC, MC, IC.
@@ -21,6 +22,7 @@ author: "Dr. Arthur Morris"
 
 
 # Lecture 2:
+## Lecture 2 Topics:
 
 1. Average total cost.
 2. Marginal cost.
@@ -37,14 +39,17 @@ author: "Dr. Arthur Morris"
 - The __marginal cost__ is the rate of change of cost at a particular point.
     This is the slope of the line tangent to the cost curve at the point you are
     making the calculation.
-- _These terms are often equivalent_
-    1. When the cost curve is linear. 
-    2. When a linear approximation is appropriate (i.e. useful).
+
+## Marginal Cost and Incremental Cost:
+
+- _These terms are equivalent_
+    1. When the cost curve is linear, 
+    2. When a linear approximation is appropriate (i.e. useful),
 - _and the terms are often used interchangeably._ 
 - _You should clarify in cases where the difference matters (i.e. if the two are meaningfully different)._
 - The exam question will be a version of P1.1 and will not treat the two as interchangeable. __I.e. on the exam MC $\neq$ IC__.
 
-## Note:
+## Why am I emphasizing this?
 
 In introductory microeconomics marginal cost is often defined as the incremental cost. For example:
 
@@ -55,8 +60,15 @@ In introductory microeconomics marginal cost is often defined as the incremental
 
 [^well]: In a footnote Perloff mentions the precise definition referencing infinitesimals, but does not discuss when these two definitions are interchangeable and when they are not.
 
-However the role of marginal cost in microeconomic theory depends on the mathematical attributes of the derivative of the cost function, attributes which the incremental cost only shares when the two are interchangeable.
+## Why am I emphasizing this?
 
+The role of marginal cost in microeconomic theory depends on the mathematical attributes of the __derivative of the cost function__, attributes which the incremental cost only shares when the two are interchangeable.
+
+- Price theory.
+- Aggregation to macroeconomic theory.
+- Monopoly definition and pricing.
+
+Particularly important when 'increments' are large (e.g. aircraft) or hard to define (e.g. social media).
 
 ## Average Cost (AC):
 
@@ -67,8 +79,11 @@ Total Cost of producing the output over the number of units of output.
     1. Interfere with each other,
     2. Share capital,
     3. Exhibit any synergy.
+
+## Average Cost (AC):
+
 - Synergy is the reason why products are grouped within firms, and grouping products within firms is costly so it is unlikely that AC is ever useful in practice.
-- This is at odds with the common use of the concept of average total cost in microeconomic theory, where the decision to enter or exit a product market is made based on average total cost.
+- This is at odds with the common use of the concept of average total cost in microeconomic theory, where the decision to enter or exit a product market is made based on expected average total cost.
 
 ## Links to Relevant Slides and Examples:
 
@@ -80,6 +95,7 @@ Total Cost of producing the output over the number of units of output.
 - [Excel Example](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Problem1.xlsx)
 
 # Lecture 3:
+## Lecture 3 Topics:
 
 - Data Analysis Workflow.
 - Bad (esp. Missing) Data.
@@ -88,17 +104,29 @@ Total Cost of producing the output over the number of units of output.
 ## Data Analysis Workflow.
 
 1. Obtain data.
-    - The data you gather should be informed by the question you are asking, if you are modeling cost then you should consider the input of those who designed the products as processes as well as those who conduct them.
-    - The model you intend to fit is implicit in this step. If you think _x_ causes _y_ you will collect measures of _x_ and _y_.
 2. Plot data.
-    - This should be a test of your intuition, and the quality of the data.
 3. Model data and evaluate.
-    - Start with simple functional forms (i.e. linear regression).
-    - Evaluate fit by plotting data and the model, as well as formal statistical tests.
 4. Interpret data.
-    - What does the estimated relationship mean?
-    - Does it make sense? Is it physically possible?
-    - What is the level of uncertainty inherent in the data? This is both what you see in the graph and what you know about the data generating process.
+
+## 1. Obtain data.
+
+- The data you gather should be informed by the question you are asking, if you are modeling cost then you should consider the input of those who designed the products as processes as well as those who conduct them.
+- The model you intend to fit is implicit in this step. If you think _x_ causes _y_ you will collect measures of _x_ and _y_.
+
+## 2. Plot data.
+
+- This should be a test of your intuition, and the quality of the data.
+
+## 3. Model data and evaluate.
+
+- Start with simple functional forms (i.e. linear regression).
+- Evaluate fit by plotting data and the model, as well as formal statistical tests.
+
+## 4. Interpret data.
+
+- What does the estimated relationship mean?
+- Does it make sense? Is it physically possible?
+- What is the level of uncertainty inherent in the data? This is both what you see in the graph and what you know about the data generating process.
 
 ## Bad (esp. Missing) Data.
 
@@ -112,6 +140,7 @@ Total Cost of producing the output over the number of units of output.
 
 
 # Lecture 4:
+## Lecture 4 Topics
 
 - Optimization Workflow. 
 - What does it mean for a constraint to 'bind'?
