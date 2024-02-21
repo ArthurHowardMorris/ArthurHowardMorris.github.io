@@ -138,6 +138,13 @@ Total Cost of producing the output over the number of units of output.
 - Can you explain the steps to create a plot of a dataset using Excel or Python (or something else)?
 - The names of the commands do not need to be precise, you can assume that the tool has been set up and that the person you are explaining it to has a general knowledge of the tools.
 
+## Links to Relevant Slides and Examples:
+
+- [Data Workflow (Data Science)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/1/1)
+- [Data Workflow (Statistics)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/1/4)
+- [Data Workflow (Accountant)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/1/5)
+- [Python Example](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/3/2)
+- [Excel Example](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Problem1.xlsx)
 
 # Lecture 4:
 ## Lecture 4 Topics
