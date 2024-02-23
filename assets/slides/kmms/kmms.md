@@ -42,7 +42,7 @@ This is one fundamental tension in all studies of regulation.
 
 - Specialization vs. diversification.
 - Spreads vs. covenants.
-- Regulatory capture vs. regulatory. 
+- Regulatory capture vs. regulatory enfeeblement. 
 
 We build on recent work in finance that attempts to measure regulatory
 exposure, and shows that it is a meaningful source of uncertainty for firms
