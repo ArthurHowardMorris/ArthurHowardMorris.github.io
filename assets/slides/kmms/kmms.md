@@ -106,10 +106,15 @@ This is the foundation of our predictions for RQ 1.
 - Validates this measure of observable paperwork burden as a proxy, for
   unobservable burden of regulation.
 
+## Note on uncertainty:
+
+- The argument that this burden is a straightforward cost, rather than a source of uncertainty, gives us a credible null.
+- Traditional performance measures would be sufficient statistics for this effect. I.e.: MTB, Profitability, Z-Score, and Cash Flow Volatility.
+
 ## RQ 1: Preview of Results
 
 1. Positive and significant relation between regulatory exposure and spreads.
-    - 3.60 bp or 1.59% 
+    - 4.10 bp or 1.8% 
 2. Negative and insignificant relation between regulatory exposure and covenants. 
 
 Spread results are consistent with _low borrower influence_, covenant results
@@ -147,9 +152,8 @@ We create an indicator equal to 1 if the bank has lent to the borrower's peers i
 1. Lenders are more likely to lend within regulatory peer groups. 
     - Borrowers are 24% more likely to obtain a loan from a bank that lends to
       their regulatory peers than from other active banks in the market.
-2. When banks do lend to regulatory peers, they require lower interest spreads
-(7.23% lower spread), also more favorable non-price terms (evidence of
-specialization)
+2. When banks do lend to regulatory peers, they require lower interest spreads,
+    also more favorable non-price terms (evidence of specialization).
 
 # Contribution: Regulatory Uncertainty and Bank Specialization
 
@@ -182,11 +186,11 @@ specialization)
 
 | Description                                                                               | Observations |
 |-------------------------------------------------------------------------------------------|--------------|
-| Dealscan loan facilities with financial data available from US non fic/ute Compustat.     | 63,821       |
-| __H1:__ with regulatory exposure data (Kalmenovitz 2023) and no missing control variables | 30,011       |
-| __H3:__ with regulatory similarity scores (Kalmenovitz and Chen 2023).                    | 12,655       |
-| __H4:__ with both regulatory exposure and regulatory similarity scores.                   | 12,275       |
-| __H2:__ Bank-firm-year level regressions for lending probability tests.                   | 510,550      |
+| Dealscan loan facilities with financial data available from US non fic/ute Compustat.     | 61,884       |
+| __H1:__ with regulatory exposure data (Kalmenovitz 2023) and no missing control variables | 30,533       |
+| __H3:__ with regulatory similarity scores (Kalmenovitz and Chen 2023).                    | 14,242       |
+| __H4:__ with both regulatory exposure and regulatory similarity scores.                   | 13,247       |
+| __H2:__ Bank-firm-year level regressions for lending probability tests.                   | 490,250      |
 
 # Tests of Hypotheses 
 
@@ -212,16 +216,16 @@ $$
 
 |            | Spread   | Spread   | Spread   | Spread   | F-Cov     | PVIOL     |
 |------------|----------|----------|----------|----------|-----------|-----------|
-| Reg.Exp.   | 36\*\*\* | 33\*\*   | 32\*\*   | 30\*\*   | -0.037    | -0.029    |
-|            | $(2.65)$ | $(2.04)$ | $(2.48)$ | $(2.24)$ | $(-0.27)$ | $(-0.42)$ |
+| Reg.Exp.   | 41\*\*\* | 37\*\*   | 40\*\*\* | 36\*\*\* | -0.116    | -0.039    |
+|            | $(3.01)$ | $(2.23)$ | $(3.01)$ | $(2.67)$ | $(-0.76)$ | $(-0.58)$ |
 | Controls   | Yes      | Yes      | Yes      | Yes      | Yes       | Yes       |
 | Year       | Yes      | Yes      | Yes      | No       | Yes       | Yes       |
 | Ind.       | Yes      | No       | No       | No       | Yes       | Yes       |
 | Firm       | No       | Yes      | No       | No       | No        | No        |
 | Bank       | No       | No       | Yes      | No       | No        | No        |
 | Bank×Yr    | No       | No       | No       | Yes      | No        | No        |
-| _N_        | 30,011   | 30,011   | 30,011   | 30,011   | 30,011    | 15,905    |
-| Adj. $R^2$ | 0.519    | 0.637    | 0.596    | 0.627    | 0.366     | 0.291     |
+| _N_        | 30,553   | 30,553   | 30,553   | 30,553   | 30,553    | 16,092    |
+| Adj. $R^2$ | 0.514    | 0.629    | 0.592    | 0.623    | 0.366     | 0.291     |
 
 <!-- # Tests of H2 -->
 
@@ -253,19 +257,19 @@ Lender-Borrower pairwise combinations of the top-50 banks by market share (prior
 
 ## Lending Results (H2):
 
-|           | Lending     | Lending     | Lending     | Lending     | Lending     |
-|-----------|-------------|-------------|-------------|-------------|-------------|
-| Reg.Peer  | 0.240\*\*\* | 0.242\*\*\* | 0.240\*\*\* | 0.216\*\*\* | 0.214\*\*\* |
-|           | $(15.18)$   | $(15.31)$   | $(15.22)$   | $(16.34)$   | $(16.41)$   |
-| Controls  | Yes         | Yes         | Yes         | Yes         | Yes         |
-| Year      | Yes         | Yes         | No          | Yes         | No          |
-| Ind.      | Yes         | No          | No          | Yes         | Yes         |
-| Firm      | No          | Yes         | No          | No          | No          |
-| Firm×Yr   | No          | No          | Yes         | No          | No          |
-| Bank      | No          | No          | No          | Yes         | No          |
-| Bank×Yr   | No          | No          | No          | No          | Yes         |
-| _N_       | 510,550     | 510,550     | 510,550     | 510,550     | 510,550     |
-| Adj $R^2$ | 0.267       | 0.269       | 0.284       | 0.279       | 0.297       |
+|          | Lending     | Lending     | Lending     | Lending     | Lending     | Lending     |
+|----------|-------------|-------------|-------------|-------------|-------------|-------------|
+| Reg.Peer | 0.238\*\*\* | 0.240\*\*\* | 0.238\*\*\* | 0.215\*\*\* | 0.213\*\*\* | 0.216\*\*\* |
+|          | $(15.37)$   | $(15.52)$   | $(15.38)$   | $(16.66)$   | $(16.76)$   | $(16.91)$   |
+| Controls | Yes         | Yes         | Yes         | Yes         | Yes         | Yes         |
+| Year     | Yes         | Yes         | No          | Yes         | No          | Yes         |
+| Ind.     | Yes         | No          | No          | Yes         | Yes         | No          |
+| Firm     | No          | Yes         | No          | No          | No          | No          |
+| Frm×Yr   | No          | No          | Yes         | No          | No          | Yes         |
+| Bank     | No          | No          | No          | Yes         | No          | No          |
+| Bnk×Yr   | No          | No          | No          | No          | Yes         | Yes         |
+| _N_      | 490,250     | 490,250     | 490,250     | 490,250     | 490,250     | 490,250     |
+| A $R^2$  | 0.266       | 0.268       | 0.283       | 0.278       | 0.297       | 0.280       |
 
 <!-- # Tests of H3  -->
 
@@ -284,33 +288,40 @@ As in tests of H1.
 ## Loan Terms Results (H3):
 
 
-|             | Spread      | Spread      | Spread    | Spread     | Spread     |
-|-------------|-------------|-------------|-----------|------------|------------|
-| Reg.Peer    | $-12\*\*\*$ | $-11\*\*\*$ | $-13\*\*$ | $-8\*\*\*$ | $-8\*\*\*$ |
-|             | $(-4.84)$   | $(-4.42)$   | $(-2.25)$ | $(-3.60)$  | $(-3.33)$  |
-| Controls    | Yes         | Yes         | Yes       | Yes        | Yes        |
-| Firm        | No          | Yes         | No        | No         | No         |
-| Firm×Yr     | No          | No          | Yes       | No         | No         |
-| Bank        | No          | No          | No        | Yes        | No         |
-| Bank×Yr     | No          | No          | No        | No         | Yes        |
-| _N_         | 12,955      | 12,955      | 12,955    | 12,955     | 12,955     |
-| Adjusted R2 | 0.620       | 0.702       | 0.813     | 0.661      | 0.687      |
- 
+|          | Spread    | Spread    | Spread  | Spread    | Spread    | Spread    |
+|----------|-----------|-----------|---------|-----------|-----------|-----------|
+| Reg.Peer | -15\*\*\* | -13\*\*\* | -11\*\* | -11\*\*\* | -11\*\*\* | -11\*\*\* |
+|          | (-6.07)   | (-5.21)   | (-3.56) | (-4.48)   | (-4.25)   | (-4.56)   |
+| Controls | Yes       | Yes       | Yes     | Yes       | Yes       | Yes       |
+| Year     | Yes       | Yes       | No      | Yes       | No        | Yes       |
+| Ind      | Yes       | No        | No      | No        | Yes       | No        |
+| Firm     | No        | Yes       | No      | No        | No        | Yes       |
+| Frm×Yr   | No        | No        | Yes     | No        | No        | No        |
+| Bank     | No        | No        | No      | Yes       | No        | Yes       |
+| Bnk×Yr   | No        | No        | No      | No        | Yes       | No        |
+| _N_      | 14,242    | 14,242    | 14,242  | 14,242    | 14,242    | 14,242    |
+| A $R^2$  | 0.602     | 0.669     | 0.752   | 0.643     | 0.666     | 0.698     |
+
+
+
+
+
+
 ## Loan Terms Results (H3):
 
-|             | F-Cov     | PVIOL     |
-|-------------|-----------|-----------|
-| Reg.Peer    | $-0.010$  | -0.019    |
-|             | $(-0.36)$ | $(-1.53)$ |
-| Controls    | Yes       | Yes       |
-| Year        | Yes       | Yes       |
-| Ind         | Yes       | Yes       |
-| Firm        | No        | No        |
-| Firm×Yr     | No        | No        |
-| Bank        | No        | No        |
-| Bank×Yr     | No        | No        |
-| _N_         | 12,955    | 7,081     |
-| Adjusted R2 | 0.408     | 0.308     |
+|          | F-Cov     | PVIOL     |
+|----------|-----------|-----------|
+| Reg.Peer | $-0.015$  | -0.019    |
+|          | $(-0.55)$ | $(-0.23)$ |
+| Controls | Yes       | Yes       |
+| Year     | Yes       | Yes       |
+| Ind      | Yes       | Yes       |
+| Firm     | No        | No        |
+| Firm×Yr  | No        | No        |
+| Bank     | No        | No        |
+| Bank×Yr  | No        | No        |
+| _N_      | 14,242    | 7,514     |
+| Adj R2   | 0.431     | 0.290     |
 
 <!-- # Tests of H4: -->
 
@@ -327,21 +338,21 @@ $$
 
 ## Results (H4):
 
-|                   | Loan Spread   |
-|-------------------|---------------|
-| Reg.Peer×Reg.Exp. | -79.595\*\*\* |
-|                   | $(-4.72)$     |
-| Reg.Peer          | 65.932\*\*\*  |
-|                   | (4.15)        |
-| Reg.Exp.          | 38.908\*\*    |
-|                   | (2.19)        |
-| Controls          | Yes           |
-| Loan Type FE      | Yes           |
-| Loan Purpose FE   | Yes           |
-| Year FE           | Yes           |
-| Industry FE       | Yes           |
-| Observations      | 12,275        |
-| Adjusted R2       | 0.623         |
+ |                   | Loan Spread   |
+ |-------------------|---------------|
+ | Reg.Peer×Reg.Exp. | -90.915\*\*\* |
+ |                   | (-3.63)       |
+ | Reg.Peer          | 75.239\*\*\*  |
+ |                   | (3.06)        |
+ | Reg.Exp.          | 71.069\*\*\*  |
+ |                   | (3.12)        |
+ | Controls          | Yes           |
+ | Loan Type FE      | Yes           |
+ | Loan Purpose FE   | Yes           |
+ | Year FE           | Yes           |
+ | Industry FE       | Yes           |
+ | Observations      | 13,247        |
+ | Adjusted R2       | 0.602         |
 
 # Additional Analysis
 
@@ -350,29 +361,29 @@ $$
 |                 | Spread                   | Spread        |
 |-----------------|--------------------------|---------------|
 | _Factor_        | _Discretionary Accruals_ | _Restatement_ |
-| Reg.Peer×Factor | -8.457\*\*\*             | -11.263\*     |
-|                 | $(-2.94)$                | $(-1.84)$     |
-| Reg.Peer        | -7.556\*\*\*             | -10.188\*\*\* |
-|                 | $(-3.44)$                | $(-4.05)$     |
-| Factor          | 7.271\*\*\*              | 15.107\*\*\*  |
-|                 | $(2.99)$                 | $(2.82)$      |
+| Reg.Peer×Factor | -17.202\*\*\*            | -13.500\*\*   |
+|                 | $(-3.68)$                | $(-2.55)$     |
+| Reg Peer        | -7.560\*\*               | -11.734\*\*\* |
+|                 | $(-2.36)$                | $(-4.38)$     |
+| Factor          | 9.405\*\*                | 18.232\*\*\*  |
+|                 | $(2.04)$                 | $(3.70)$      |
 | Controls        | Yes                      | Yes           |
 | Year FE         | Yes                      | Yes           |
 | Industry FE     | Yes                      | Yes           |
-| Observations    | 12,421                   | 12,955        |
-| Adjusted R2     | 0.623                    | 0.621         |
+| Observations    | 12,796                   | 14,242        |
+| Adjusted R2     | 0.608                    | 0.603         |
 
 ## Other Forms of Uncertainty: Political, Economy
 
 |                 | Spread                  | Spread                        |
 |-----------------|-------------------------|-------------------------------|
 | _Factor_        | _Political Uncertainty_ | _Economic Policy Uncertainty_ |
-| Reg.Peer×Factor | -12.586\*\*             | -8.978\*\*                    |
-|                 | $(-2.17)$               | $(-2.24)$                     |
-| Reg Peer        | -11.119\*\*             | -7.733\*\*\*                  |
-|                 | $(-2.42)$               | $(-2.65)$                     |
-| Factor          | 13.823\*\*              | 9.067\*\*                     |
-|                 | $(2.53)$                | $(2.12)$                      |
+| Reg.Peer×Factor | -17.375\*\*             | -23.725\*\*\*                 |
+|                 | (-2.57)                 | (-5.25)                       |
+| Reg Peer        | -16.998\*\*\*           | -4.999\*                      |
+|                 | (-3.61)                 | (-1.83)                       |
+| Factor          | 16.602\*\*\*            | 11.551\*\*                    |
+|                 | (2.70)                  | (2.30)                        |
 | Controls        | Yes                     | Yes                           |
 | Year FE         | Yes                     | Yes                           |
 | Industry FE     | Yes                     | Yes                           |
@@ -381,31 +392,45 @@ $$
 
 ## Other contract terms:
 
-|                 | Loan Size   | Maturity  | Collateral   | Lenders     |
-|-----------------|-------------|-----------|--------------|-------------|
-| Reg Peer        | 0.298\*\*\* | 0.889\*\* | -0.049\*\*\* | 1.527\*\*\* |
-|                 | $(10.33)$   | $(2.27)$  | $(-4.23)$    | $(7.91)$    |
-| Loan Type FE    | Yes         | Yes       | Yes          | Yes         |
-| Loan Purpose FE | Yes         | Yes       | Yes          | Yes         |
-| Year FE         | Yes         | Yes       | Yes          | Yes         |
-| Industry FE     | Yes         | Yes       | Yes          | Yes         |
-| Observations    | 12,955      | 12,955    | 12,955       | 12,955      |
-| Adjusted R2     | 0.593       | 0.572     | 0.359        | 0.394       |
+|                 | Loan Size   | Maturity    | Collateral   | Lenders     |
+|-----------------|-------------|-------------|--------------|-------------|
+| Reg Peer        | 0.354\*\*\* | 1.442\*\*\* | -0.032\*\*\* | 1.324\*\*\* |
+|                 | $(11.06)$   | $(3.38)$    | $(-2.82)$    | $(6.65)$    |
+| Loan Type FE    | Yes         | Yes         | Yes          | Yes         |
+| Loan Purpose FE | Yes         | Yes         | Yes          | Yes         |
+| Year FE         | Yes         | Yes         | Yes          | Yes         |
+| Industry FE     | Yes         | Yes         | Yes          | Yes         |
+| Observations    | 12,955      | 12,955      | 12,955       | 12,955      |
+| Adjusted R2     | 0.593       | 0.572       | 0.359        | 0.394       |
 
 ## Matching
 
-|                      | Spread      | Spread      |
-|----------------------|-------------|-------------|
-| _Matching Proc._     | __PSM__     | __EB__      |
-| High Regulatory Exp. | 9.086\*\*\* | 9.205\*\*\* |
-|                      | $(3.12)$    | $(3.33)$    |
-| Controls             | Yes         | Yes         |
-| Year                 | Yes         | Yes         |
-| Ind.                 | Yes         | Yes         |
-| _N_                  | 13,882      | 30,011      |
-| Adj. $R^2$           | 0.514       | 0.518       |
+|                      | Spread       | Spread      |
+|----------------------|--------------|-------------|
+| _Matching Proc._     | __PSM__      | __EB__      |
+| High Regulatory Exp. | 10.432\*\*\* | 9.436\*\*\* |
+|                      | $(3.50)$     | $(3.37)$    |
+| Controls             | Yes          | Yes         |
+| Year                 | Yes          | Yes         |
+| Ind.                 | Yes          | Yes         |
+| _N_                  | 14,038       | 30,533      |
+| Adj. $R^2$           | 0.501        | 0.503       |
 
 
 
+## Kalmenovitz (2023) on Uncertainty:
 
+> _"Third, crosssectional tests highlight two possible mechanisms: budget
+> constraints and uncertainty. Compliance costs could create budget pressures,
+> forcing companies to prioritize compliance over other business activities
+> (Giroud and Mueller (2017)). Moreover, the expansion of regulatory burden
+> increases the legal uncertainty, incentivizing managers to postpone projects
+> until the uncertainty would be resolved (McDonald and Siegel (1986); Bernanke
+> (1983); Julio and Yook (2012); Gulen and Ion (2015)). Indeed, I find that the
+> decline in capital investment is concentrated among financially constrained
+> firms, which have little slack and must repurpose resources toward
+> compliance, and among companies with irreversible investment opportunities,
+> which are especially sensitive to uncertainty."_ 
+
+While more can be done on this topic, we do not think this is a gap in the literature that we are well positioned to fill.
 
