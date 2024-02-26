@@ -50,6 +50,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .m { color: var(--jp-mirror-editor-number-color) } /* Literal.Number */
 .highlight .s { color: var(--jp-mirror-editor-string-color) } /* Literal.String */
 .highlight .ow { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator.Word */
+.highlight .pm { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation.Marker */
 .highlight .w { color: var(--jp-mirror-editor-variable-color) } /* Text.Whitespace */
 .highlight .mb { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Bin */
 .highlight .mf { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Float */
@@ -14495,6 +14496,9 @@ a.anchor-link {
 .reveal {
   font-size: 160%;
 }
+.reveal table {
+  font-size: var(--jp-ui-font-size1);
+}
 .reveal pre {
   width: inherit;
   padding: 0.4em;
@@ -14538,6 +14542,23 @@ div.jp-OutputPrompt {
   margin: 5px 5px 0 0;
 }
 
+.reveal div.highlight {
+  margin: 0;
+}
+
+.reveal div.highlight > pre {
+  margin: 0;
+  width: 100%;
+  font-size: var(--jp-code-font-size);
+}
+
+.reveal div.jp-OutputArea-output > pre {
+  margin: 0;
+  width: 90%;
+  font-size: var(--jp-code-font-size);
+  box-shadow: none;
+}
+
 /* Reveal navigation controls */
 
 .reveal .controls .navigate-left,
@@ -14578,17 +14599,14 @@ div.jp-OutputPrompt {
 
 /* Scrollbars */
 
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
-::-webkit-scrollbar *
-{
-  background:transparent;
+::-webkit-scrollbar * {
+  background: transparent;
 }
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
   background: #727272 !important;
 }
 </style>
@@ -14615,12 +14633,12 @@ div.jp-OutputPrompt {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: { 
-                    automatic: true 
+                    linebreaks: {
+                    automatic: true
                     }
                 }
             });
-        
+
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -14688,7 +14706,9 @@ div.jp-OutputPrompt {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Example">Example<a class="anchor-link" href="#Example">&#182;</a></h2><p>If you have an account that earns 5% per year and \$1000 then you should never do anything with that money that earns less than $50 per year.</p>
 <ul>
-<li>Keep in mind that textbooks often refer to savings accounts that have 5% returns, this is because they were all written in the 70s and 80s when such things existed. We'll keep this rate, because firms will often have options that can earn returns in this range. So while we call this an "account" you can think of this as an investment opportunity.</li>
+<li>Keep in mind that textbooks often refer to savings accounts that have 5% returns, this is because they were all written in the 70s and 80s when such things existed </li>
+<li>Note: I originally wrote this sentence in 2023, of course, now I have an account with 5% apr. </li>
+<li>We'll keep this rate, because firms will often have options that can earn returns in this range. So while we call this an "account" you can think of this as an investment opportunity.</li>
 </ul>
 
 </div>
@@ -14754,9 +14774,9 @@ div.jp-OutputPrompt {
 <span class="n">return_in_your_account</span> <span class="o">=</span> <span class="mf">.05</span>
 <span class="n">future_value</span> <span class="o">=</span> <span class="n">futureValue</span><span class="p">(</span><span class="n">return_in_your_account</span><span class="p">,</span><span class="n">years_to_sell</span><span class="p">,</span><span class="n">initial_price</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;value of account in ten years &quot;</span><span class="p">,</span> <span class="n">future_value</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;value of watch in ten years &quot;</span><span class="p">,</span><span class="n">initial_price</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;the opportunity cost of having the watch for ten years is &quot;</span><span class="p">,</span> <span class="n">future_value</span> <span class="o">-</span> <span class="n">initial_price</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"value of account in ten years "</span><span class="p">,</span> <span class="n">future_value</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"value of watch in ten years "</span><span class="p">,</span><span class="n">initial_price</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"the opportunity cost of having the watch for ten years is "</span><span class="p">,</span> <span class="n">future_value</span> <span class="o">-</span> <span class="n">initial_price</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14796,7 +14816,11 @@ the opportunity cost of having the watch for ten years is  3773.3677606646525
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>As you can see, the value of "holding value" is not high if you have a productive investment opportunity! However, you may choose to mix the risk profile of your investments in order to avoid embarrasing situations like FTX. A second thing that we should keep in mind is that our opportunity cost of any investment is going to be the market return or our next best project. Beating the market is hard, especially over very long timelines.</p>
+<p>As you can see, the value of "holding value" is not high if you have a productive investment opportunity!</p>
+<ul>
+<li>However, you may choose to mix the risk profile of your investments in order to avoid embarrasing situations like FTX, or SVB. This is idea behind bank reserves, it's not easy to get right.<br>
+A second thing that we should keep in mind is that our opportunity cost of any investment is going to be the market return or our next best project. Beating the market is hard, especially over very long timelines.</li>
+</ul>
 
 </div>
 </div>
@@ -14882,7 +14906,7 @@ $$PV=\frac{FV}{r}\Big[1-\frac{1}{(1+r^n)}\Big]$$<p>Notice two things,</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="While-financial-assets-may-have-characteristics-of-annuities-and-perpetuities-real-investment-opportunities-are-unlikely-to-especially-in-the-long-term.">While financial assets may have characteristics of annuities and perpetuities real investment opportunities are unlikely to especially in the long term.<a class="anchor-link" href="#While-financial-assets-may-have-characteristics-of-annuities-and-perpetuities-real-investment-opportunities-are-unlikely-to-especially-in-the-long-term.">&#182;</a></h5>
+<h5 id="While-financial-assets-may-have-characteristics-of-annuities-and-perpetuities,-real-investment-opportunities-are-unlikely-to-especially-in-the-long-term.">While financial assets may have characteristics of annuities and perpetuities, real investment opportunities are unlikely to especially in the long term.<a class="anchor-link" href="#While-financial-assets-may-have-characteristics-of-annuities-and-perpetuities,-real-investment-opportunities-are-unlikely-to-especially-in-the-long-term.">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -14938,7 +14962,7 @@ $$(1+r_m)^{12}=(1+r)$$$$r_m=(1+r)^{1/12}-1$$<p>This relationship should hold in 
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Risk.">Risk.<a class="anchor-link" href="#Risk.">&#182;</a></h3><p>The higher the risk you won't get paid in the future the higher $r$ you will require to not get paid until the future. Getting the right rate of return is essential, and hard. Any investment decision based on $r$ is both a bet on the investment and a bet on the rate of return.</p>
 <p>If there are risk free assets available (like some government's debt) then we can think of $r$ as:</p>
-$$r=r_f+r_p$$<p>where $r_f$ is the return on the risk free asset and $i$ is the risk premium.</p>
+$$r=r_f+r_p$$<p>where $r_f$ is the return on the risk free asset and $r_p$ is the risk premium.</p>
 
 </div>
 </div>
@@ -14952,7 +14976,7 @@ $$r=r_f+r_p$$<p>where $r_f$ is the return on the risk free asset and $i$ is the 
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Inflation-also-impacts-how-we-think-about-$r$.">Inflation also impacts how we think about $r$.<a class="anchor-link" href="#Inflation-also-impacts-how-we-think-about-$r$.">&#182;</a></h3><p>If inflation is $i$ percent per year, and \$1 of consumption is delayed for one year, it will take \\$(1 + $i$) at the end of the year to buy the same \$1 bundle of goods as could have been purchased at the beginning of the year.</p>
 <p>If inflation is 7 percent per year, buying the same \$1 bundle costs \\$1.07 at the end of the year. To compensate for delaying consumption for one year when inflation is running at $i$ percent, the nominal interest rate is:</p>
-$$r_{nominal} = r_{real} + i$$<p><em>note that this is an approximation that is referred to as the Fisher Equation.</em></p>
+$$r_{nominal} \approx r_{real} + i$$$$r_{real} \approx r_{nominal} - i$$<p>_note that this is an approximation that is referred to as the <a href="https://en.wikipedia.org/wiki/Fisher_equation">Fisher Equation</a>._</p>
 
 </div>
 </div>
@@ -14978,6 +15002,7 @@ $$r_{nominal} = r_{real} + i$$<p><em>note that this is an approximation that is 
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="We-will-now-work-through-the-case-in-Excel">We will now work through the case in Excel<a class="anchor-link" href="#We-will-now-work-through-the-case-in-Excel">&#182;</a></h2><p>Please work along with the discussion so that you are ready to participate.</p>
 <p>I will post an example for you to reference after all the lectures are done for the day.</p>
+<p><a href="">iPRS</a></p>
 
 </div>
 </div>
