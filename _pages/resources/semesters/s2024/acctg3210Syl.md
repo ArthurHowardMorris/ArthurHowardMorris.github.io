@@ -157,13 +157,15 @@ Exams will be conducted in-person and will be closed book. Times and locations T
 
     - __Feedback on Midterm Exam:__ I will discuss each problem from the
        midterm exam, as scheduled below, so that you have a chance to prepare for
-       the final exam.
+       the final exam. The midterm exam is scheduled from __1800__ to __1900__ on 
+       __18 March 2024__  in 1103 and LTB.
    - __Mid-term Exam Conflicts:__ Every semester a few students have conflicting
-      mid-term exams. Once the mid-term exam is confirmed by the University, please
-      let the TA know if you have a conflict and we will make arrangements.
+      mid-term exams. 
+      <!-- Once the mid-term exam is confirmed by the University,  -->
+      Please let the TA know if you have a conflict and we will make arrangements.
 
-- __Final Exam:__ The comprehensive final examination is scheduled from __1800__
-    to __1900__ on __18 March 2024__  in 1103 and LTB. The exam is closed book and communication with
+- __Final Exam:__ <!-- The comprehensive final examination is scheduled from-->
+    The exam is closed book and communication with
     others is cheating and not allowed. All students are required to take the final
     exam at this pre-scheduled time, and there will be no make-up exam for it.
     Students absent from the final exam will receive zero mark for this component. 
