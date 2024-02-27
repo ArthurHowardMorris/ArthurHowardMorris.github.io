@@ -50,4 +50,5 @@ In 2024 I have a number of projects that I hope to have drafts of by the end of 
 - M 
 
 These are all at various stages, but I would like to have them in the review process by the end of the year. As well as two/three exciting new projects that I'd like to see develop.
+I also have several tools that I've developed for my own use, which might be of use to others so if I have the time I'd like to publish them. 
 
