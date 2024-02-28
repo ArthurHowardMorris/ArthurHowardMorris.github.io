@@ -50,6 +50,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .m { color: var(--jp-mirror-editor-number-color) } /* Literal.Number */
 .highlight .s { color: var(--jp-mirror-editor-string-color) } /* Literal.String */
 .highlight .ow { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator.Word */
+.highlight .pm { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation.Marker */
 .highlight .w { color: var(--jp-mirror-editor-variable-color) } /* Text.Whitespace */
 .highlight .mb { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Bin */
 .highlight .mf { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Float */
@@ -14495,6 +14496,9 @@ a.anchor-link {
 .reveal {
   font-size: 160%;
 }
+.reveal table {
+  font-size: var(--jp-ui-font-size1);
+}
 .reveal pre {
   width: inherit;
   padding: 0.4em;
@@ -14538,6 +14542,23 @@ div.jp-OutputPrompt {
   margin: 5px 5px 0 0;
 }
 
+.reveal div.highlight {
+  margin: 0;
+}
+
+.reveal div.highlight > pre {
+  margin: 0;
+  width: 100%;
+  font-size: var(--jp-code-font-size);
+}
+
+.reveal div.jp-OutputArea-output > pre {
+  margin: 0;
+  width: 90%;
+  font-size: var(--jp-code-font-size);
+  box-shadow: none;
+}
+
 /* Reveal navigation controls */
 
 .reveal .controls .navigate-left,
@@ -14578,17 +14599,14 @@ div.jp-OutputPrompt {
 
 /* Scrollbars */
 
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
-::-webkit-scrollbar *
-{
-  background:transparent;
+::-webkit-scrollbar * {
+  background: transparent;
 }
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
   background: #727272 !important;
 }
 </style>
@@ -14615,12 +14633,12 @@ div.jp-OutputPrompt {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: { 
-                    automatic: true 
+                    linebreaks: {
+                    automatic: true
                     }
                 }
             });
-        
+
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -14655,7 +14673,8 @@ div.jp-OutputPrompt {
 <p><strong>Two things that I'd like to acknowledge:</strong></p>
 <ol>
 <li>The assignment focuses on personal finance examples with relatively complex formulae that are not the point of the exercise.</li>
-<li>The examples are U.S. focused. More interesting examples would also include jurisdiction choices, like the choice to operate in Hong Kong rather than the U.S. or Europe.</li>
+<li>The examples are U.S. focused.</li>
+<li>More interesting examples would also include jurisdiction choices, like the choice to operate in Hong Kong rather than the U.S. or Europe. </li>
 </ol>
 
 </div>
@@ -14670,8 +14689,11 @@ div.jp-OutputPrompt {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>High-level insights from the lecture:</strong></p>
 <ol>
-<li>Tax rates impact returns.</li>
-<li>Tax rates vary across individuals, jurisdictions, and investments.</li>
+<li>Tax rates impact returns.<ul>
+<li>Not just net-of-tax returns, but <strong>returns themselves</strong>.</li>
+</ul>
+</li>
+<li>Tax rates vary across individuals, jurisdictions, and investments. These differences change choices, and demand for assets.</li>
 <li>This creates variation in demand, and yield, for investments and jurisdictions. These are implicit taxes.</li>
 </ol>
 
@@ -14685,7 +14707,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Taxes shape behavior explicitly by decreasing demand for investments that are taxed relative to those that are not, and implicitly by increasing the cost (lowering yield) of those investments that are not taxed.</p>
+<p>Taxes shape behavior <em>explicitly</em> by decreasing demand for investments that are taxed relative to those that are not, and <em>implicitly</em> by increasing the cost (lowering yield) of those investments that are not taxed.</p>
 <p>In addition to investment choices, <strong>organizational form arbitrage</strong> and <strong>clientele-based arbitrage</strong> are ways that taxes shape behavior.</p>
 
 </div>
@@ -14698,14 +14720,152 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1.-Tax-rates-and-implicit-taxes">1. Tax rates and implicit taxes<a class="anchor-link" href="#1.-Tax-rates-and-implicit-taxes">&#182;</a></h2><p>$r_b$ pretax yield on taxable bonds.
-$r_t$ pretax yield on U.S. Treasury securities of similar duration.
-Which security is preferred by an investor facing tax rates $t_fed$ and $t_{state}$ ?</p>
-$$r_t(1 - t_{fed}) &gt; r_{b}(1 - t_{fed} - t_{state}(1 - t_{fed}))$$$$r_t(1 - t_{fed}) &gt; r_{b}(1 - t_{fed})(1 - t_{state})$$<p>The higher are state taxes, the more attractive Treasury securities become.
+<h2 id="1.-Tax-rates-and-implicit-taxes">1. Tax rates and implicit taxes<a class="anchor-link" href="#1.-Tax-rates-and-implicit-taxes">&#182;</a></h2><p>Let's think about the following situation:</p>
+<ul>
+<li>Companies issue bonds to raise capital, the interest rate ($r_B$) (base rate + credit spread) on these bonds is called 'bond yield'. Bond yield is income for the holder of the bond. <ul>
+<li>This income is taxed by U.S. States ($t_{S}$) and the U.S. Federal Government ($t_{F}$).</li>
+</ul>
+</li>
+<li>The U.S. Treasury issues bonds to raise capital, the yield on these bonds ($r_{T}$) is also income for the holder of the bond.<ul>
+<li>This income is <em>only</em> taxed by the U.S. Federal Government ($t_{F}$ but not by U.S. States.</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="An-aside-on-tax-rates">An aside on tax rates<a class="anchor-link" href="#An-aside-on-tax-rates">&#182;</a></h2><p>Yes, you read that right. If you lend money to the U.S. Government, they tax the interest that they pay you, but they do not let the states tax you (that makes sense, you didn't earn that money <em>in</em> the state where you live).</p>
+<p>The reverse is also true, socv:</p>
+<ul>
+<li>State and Local Bonds only pay state tax: $t_{S}$</li>
+<li>Federal Bonds only pay Federal Tax: $t_{F}$</li>
+</ul>
+<p>Now, what is important here is that we have a real example with different tax rates on similar investments. <em>Not the details of the U.S. tax system, which is <strong>insane</strong>.</em> Examples like this are harder to come by in more sensible tax regimes like Hong Kong :)</p>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="1.-Tax-rates-and-implicit-taxes">1. Tax rates and implicit taxes<a class="anchor-link" href="#1.-Tax-rates-and-implicit-taxes">&#182;</a></h2><p>So we have two bonds (corporate, and US Federal) with two yields, taxed at two rates.</p>
+<ul>
+<li><p>Corp. Bond Pretax Yield: $r_{B}$ Taxed at $t_{F}$ then $t_{S}$.</p>
+<ul>
+<li>Corp. After Tax Yield: 
+$$r_{B'}=r_{B}(1-t_{F}-t_{S}(1-t_{F}))$$
+$$r_{B'}=r_{B}(1 - t_{F})(1 - t_{S})$$</li>
+</ul>
+</li>
+<li><p>US Treas. Bond Pretax Yield: $r_{T}$. Taxed at $t_{F}$.</p>
+<ul>
+<li>US Treas. After Tax Yield:
+$$r<em>{T'}=r</em>{T}(1 - t_{F})</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="1.-Tax-rates-and-implicit-taxes">1. Tax rates and implicit taxes<a class="anchor-link" href="#1.-Tax-rates-and-implicit-taxes">&#182;</a></h2><p>So if $r_B=r_T$ which do you prefer?</p>
+$$r_{B'}=r_{B}(1 - t_{F})(1 - t_{S})$$<p>or</p>
+$$r_{T'}=r_{T}(1 - t_{F})$$<p>It depends on $t_S$.</p>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="US-Tax-Rates-by-State"><a href="https://en.wikipedia.org/wiki/State_income_tax#/media/File:Top_Marginal_State_Income_Tax_Rate.svg">US Tax Rates by State</a><a class="anchor-link" href="#US-Tax-Rates-by-State">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="1.-Tax-rates-and-implicit-taxes">1. Tax rates and implicit taxes<a class="anchor-link" href="#1.-Tax-rates-and-implicit-taxes">&#182;</a></h2><p>If $r_B=r_T$ and $t_S=0$ then $r_{B'}=r_{T'}$</p>
+<p>So for investors that are located in Alaska, Florida, Nevada, South Dakota, Tennessee, Texas, Washington, and Wyoming there is no difference between the two.</p>
+<p>But for most of the population of the US $t_S&gt;0$ so $r_{B'}&lt;r_{T'}$!</p>
+<ul>
+<li>Given what we know about markets, what does this suggest about the relationship between corporate bond yields ($r_B$) and US Treasury yields ($r_T$) on average? I.e. which is higher on average?</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="1.-Tax-rates-and-implicit-taxes">1. Tax rates and implicit taxes<a class="anchor-link" href="#1.-Tax-rates-and-implicit-taxes">&#182;</a></h2><ul>
+<li>Tax favored status increases demand for assets, increased demand decreases yields.</li>
+<li>So on average $r_B&gt;r_T$ because there is more demand for Treasury bonds. </li>
+<li>You can think of this as companies having to pay higher rates to get people to lend to them (i.e. buy their bonds).</li>
+</ul>
+<p>This difference in yields caused by the impact of tax-favored status is called an <strong>implicit tax</strong>.</p>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="1.-Tax-rates-and-implicit-taxes">1. Tax rates and implicit taxes<a class="anchor-link" href="#1.-Tax-rates-and-implicit-taxes">&#182;</a></h2><ul>
+<li><strong>Explicit Taxes</strong> reduce after tax yields directly.</li>
+<li><strong>Implicit Taxes</strong> reduce pre-tax yields through demand pressure.</li>
+</ul>
+$$ Implicit Tax Rate = \frac{Benchmark Return - Asset Return}{Benchmark Return}$$<p>where the benchmark is an investment with the same risk.</p>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="1.-Tax-rates-and-implicit-taxes">1. Tax rates and implicit taxes<a class="anchor-link" href="#1.-Tax-rates-and-implicit-taxes">&#182;</a></h2><p>The higher are state taxes, the more attractive Treasury securities become.
 Demand for Treasuries pushes their yield down. This example is an illustration
 of tax clienteles. It also shows that ignoring implicit taxes leads to
 overestimation of the risk premium applicable to corporate debt.</p>
-$$ Implicit Tax Rate = \frac{Benchmark Return - Asset Return}{Benchmark Return}$$<p>where the benchmark is an investment with the same risk.</p>
 
 </div>
 </div>
