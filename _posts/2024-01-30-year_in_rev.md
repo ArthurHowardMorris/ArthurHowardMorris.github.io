@@ -1,4 +1,5 @@
 ---
+published: true
 title: 2024-01-30
 category: writing
 tags:
