@@ -93,7 +93,7 @@ course canvas site.
 
 ## Grading
 
-### Grading Scheme
+### Grading Scheme:
 
 |Description          |	Weight|
 | ---                 | ---   |
@@ -126,6 +126,14 @@ allocated as follows:
 | 3              | 73%             |
 | 4              | 36%             |
 | 5              | 0%              |
+
+#### Support for Interviews and Internships:
+
+Many students will have to miss class in order to pursue valuable opportunities, such as job interviews and internships. The following policy is intended to support students progress while maintaining the integrity of this course as an in-person synchronous exercise.
+
+Students may get participation credit for one absence missed due to interviews, internships, and similar opportunities, by submitting a short essay (500-750) words discussing how one of the lectures relates to the work you are doing or will do. Please note that while this essay is short and will be graded based on completion, I expect concrete detail about both the lecture and the organization that you are describing. If the essay is overly general (i.e. the discussion could apply to any organization or lecture) I may ask for a more detailed revision of the essay. These essays are to be submitted to the TA via email with me in CC by the 29th of April.
+
+_Note on the use of LLM/GPT output for this assignment: You may prepare this assignment however you wish; however, my expectations for the level of detail about this course and the opportunity you are pursuing are unlikely to be amenable to generation by any model trained on the general corpora used in the production of current widely used tools, without carefully engineered prompts. If you do use these resources I would like to know for my own enlightenment._
 
 ### Cases & Problems
 
