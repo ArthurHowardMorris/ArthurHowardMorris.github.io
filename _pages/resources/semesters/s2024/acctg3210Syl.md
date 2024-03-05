@@ -212,88 +212,88 @@ designed to manage these problems. Finally, Section 3 will present cost
 allocation as a way to either solve or cause the incentive problems introduced
 in Section 2, and as an application of the tools presented in Section 1.
 
-|                 | __Section 1: Tools__                                         |
-|-----------------|--------------------------------------------------------------|
-| __1. 31 Jan.__  | __Expectations and Conceptual Framework__                    |
-| _Read:_         | Zimmerman, Ch 1                                              |
-|                 | Introduction to Management Accounting (class note)           |
-| _Survey:_       | Pre-class survey (in canvas)                                 |
-| __2. 5 Feb.__   | __The Nature of Costs__                                      |
-| _Read:_         | Zimmerman, Chapter 2                                         |
-| _Problem:_      | __P1:__ Cost in a Multiproduct Firm                          |
-| __3. 7 Feb.__   | __Cost estimation (regression)__                             |
-| Read:           | Cost behavior (class note)                                   |
-| Problems:       | __P2:__ Data Collection Issues I                             |
-|                 | __P3:__ Data Collection Issues II                            |
-|                 | _No Class 12 Feb._
-| __4. 14 Feb.__  | __Constraints and (non-)linear programming__                 |
-| _Problem:_      | __P4:__ Cost in a Multiproduct Firm Part 2                   |
-| __5. 19 Feb.__  | __Solving Linear Programs__                                  |
-| _Problems:_     | __P5:__ Shadow Prices, Component Searches, and Product Cost  |
-|                 | __P6:__ Ava Catering                                         |
-|                 | __P7:__ Builder of Garages and Sheds                         |
-| __6. 21 Feb.__  | __Comprehensive review__                                     |
-| _Survey:_       | _Submit review topics for in-class discussion_               |
+|                | __Section 1: Tools__                                        |
+|----------------|-------------------------------------------------------------|
+| __1. 31 Jan.__ | __Expectations and Conceptual Framework__                   |
+| _Read:_        | Zimmerman, Ch 1                                             |
+|                | Introduction to Management Accounting (class note)          |
+| _Survey:_      | Pre-class survey (in canvas)                                |
+| __2. 5 Feb.__  | __The Nature of Costs__                                     |
+| _Read:_        | Zimmerman, Chapter 2                                        |
+| _Problem:_     | __P1:__ Cost in a Multiproduct Firm                         |
+| __3. 7 Feb.__  | __Cost estimation (regression)__                            |
+| Read:          | Cost behavior (class note)                                  |
+| Problems:      | __P2:__ Data Collection Issues I                            |
+|                | __P3:__ Data Collection Issues II                           |
+|                | _No Class 12 Feb._                                          |
+| __4. 14 Feb.__ | __Constraints and (non-)linear programming__                |
+| _Problem:_     | __P4:__ Cost in a Multiproduct Firm Part 2                  |
+| __5. 19 Feb.__ | __Solving Linear Programs__                                 |
+| _Problems:_    | __P5:__ Shadow Prices, Component Searches, and Product Cost |
+|                | __P6:__ Ava Catering                                        |
+|                | __P7:__ Builder of Garages and Sheds                        |
+| __6. 21 Feb.__ | __Comprehensive review__                                    |
+| _Survey:_      | _Submit review topics for in-class discussion_              |
 
 
 |                 | __Section 2: Theory__                                        |
 |-----------------|--------------------------------------------------------------|
 | __7. 26 Feb.__  | __Time Value of Money and Capital Budgeting__                |
 | _Read:_         | Zimmerman, Chapter 3                                         |
-| _Case:_         | __Case:__ Special Electric Case _read before class_            |
+| _Case:_         | __Case:__ Special Electric Case _read before class_          |
 | __8. 28 Feb.__  | __Taxation of returns__                                      |
 | _Read:_         | Before- and After-tax Returns (class note)                   |
 |                 | Taxable versus Tax-exempt Bonds (class note)                 |
 | _Problem:_      | __P8:__ Alternative Savings Vehicles                         |
-| __9. 4 Mar.__   | __Real and Financial Assets__                                |
+| __9. 4 Mar.__   | __Tax Shields and Real and Financial Assets__                |
 | _Read:_         | Net-of-tax returns on real and financial assets (class note) |
 |                 | _Note: No problems are due today_                            |
 | __10. 6 Mar.__  | __Economics of Agency__                                      |
 | _Read:_         | Zimmerman, Chapter 4                                         |
 |                 | Incentives and Managerial Compensation (class note)          |
 | __11. 11 Mar.__ | __Organizational Architecture__                              |
-| _Problems:_     | __P10__ 4–18 Rothwell                                        |
+| _Problems:_     | __P10:__ 4–18 Rothwell                                        |
 | _Survey:_       | _Submit review topics for in-class discussion_               |
 | __12. 13 Mar.__ | __Mid-term Review__                                          |
 |                 | in class.                                                    |
 | __18 Mar.__     | __Midterm__  _No class_                                      |
-|                 | 1800-1900, in 1103 and LTB.                                     |
+|                 | 1800-1900, in 1103 and LTB.                                  |
 |                 | See Canvas for room assignments.                             |
 
 
-|                 | __Section 3: Cost Allocation__                      |
-|-----------------|-----------------------------------------------------|
-| __13. 20 Mar.__ | __Responsibility Accounting and Transfer Pricing__  |
-| _Read:_         | Zimmerman, Chapter 5                                |
-| __14. 25 Mar.__ | __Transfer Pricing: Additional Considerations__     |
+|                 | __Section 3: Cost Allocation__                        |
+|-----------------|-------------------------------------------------------|
+| __13. 20 Mar.__ | __Responsibility Accounting and Transfer Pricing__    |
+| _Read:_         | Zimmerman, Chapter 5                                  |
+| __14. 25 Mar.__ | __Transfer Pricing: Additional Considerations__       |
 | _Case:_         | __Case:__ Vik-Giger Corporation   _read before class_ |
-| __15. 27 Mar.__ | __Exam paper review__  _In class only.              |
-|                 | __Mid-Term Break__ _No class Monday and Wednesday._ |
-| __16. 8 Apr.__  | __Cost Allocation: Theory__                         |
-| _Read:_         | Zimmerman, Chapter 7                                |
-| _Read:_         | Zimmerman, Chapter 8                                |
-| __17. 10 Apr__  | __Modern Cost Allocation__                          |
-| _Read:_         | Chapter 8 Appendix A                                |
-| __18. 15 Apr.__ | __Absorption Costing Systems__                      |
-| _Read:_         | Zimmerman, Chapter 9                                |
-| _Problems:_     | __P11:__ 9–9 DeJure Scents                          |
-|                 | __P12:__ 9–24 Kitchen Rite                          |
-| __19. 17 Apr.__ | __Absorption Costing Problems__                     |
-| _Read:_         | Zimmerman, Chapter 10                               |
-| _Problems:_     | __P13:__ 10–8 Aspen View                            |
-|                 | __P14:__ 10–11 Kothari Inc.                         |
-|                 | __P15:__ 10–17 Navisky                              |
-| __20. 22 Apr.__ | __ABC__                                             |
-| _Read:_         | Zimmerman, Chapter 11                               |
-| __21. 24 Apr.__ | __Budgeting__                                       |
-| _Read:_         | Zimmerman, Chapter 6                                |
-| __22. 29 Apr.__ | __Standard Costs and Variances__                    |
-| _Read:_         | Zimmerman, Chapters 12 and 13                       |
+| __15. 27 Mar.__ | __Exam paper review__  _In class only.                |
+|                 | __Mid-Term Break__ _No class Monday and Wednesday._   |
+| __16. 8 Apr.__  | __Cost Allocation: Theory__                           |
+| _Read:_         | Zimmerman, Chapter 7                                  |
+| _Read:_         | Zimmerman, Chapter 8                                  |
+| __17. 10 Apr__  | __Modern Cost Allocation__                            |
+| _Read:_         | Chapter 8 Appendix A                                  |
+| __18. 15 Apr.__ | __Absorption Costing Systems__                        |
+| _Read:_         | Zimmerman, Chapter 9                                  |
+| _Problems:_     | __P11:__ 9–9 DeJure Scents                            |
+|                 | __P12:__ 9–24 Kitchen Rite                            |
+| __19. 17 Apr.__ | __Absorption Costing Problems__                       |
+| _Read:_         | Zimmerman, Chapter 10                                 |
+| _Problems:_     | __P13:__ 10–8 Aspen View                              |
+|                 | __P14:__ 10–11 Kothari Inc.                           |
+|                 | __P15:__ 10–17 Navisky                                |
+| __20. 22 Apr.__ | __ABC__                                               |
+| _Read:_         | Zimmerman, Chapter 11                                 |
+| __21. 24 Apr.__ | __Budgeting__                                         |
+| _Read:_         | Zimmerman, Chapter 6                                  |
+| __22. 29 Apr.__ | __Standard Costs and Variances__                      |
+| _Read:_         | Zimmerman, Chapters 12 and 13                         |
 |                 | _No Class on May 1_
-| __23. 6 May.__  | _TBA_                                               |
-| __24. 8 May.__  | __Final Review__ _in class_                         |
-| _Survey:_       | _Submit review topics for in-class discussion_               |
-| _TBA_           | __Final Exam__                                      |
+| __23. 6 May.__  | _TBA_                                                 |
+| __24. 8 May.__  | __Final Review__ _in class_                           |
+| _Survey:_       | _Submit review topics for in-class discussion_        |
+| _TBA_           | __Final Exam__                                        |
 
 <!-- | _Case:_         | __C9:__ LSP Capsules                                         | -->
 <!-- | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         | -->
