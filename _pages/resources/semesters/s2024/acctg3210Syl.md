@@ -151,7 +151,7 @@ information as they prepare for the exam.
 
 ### Exams
 
-Exams will be conducted in-person and will be closed book. Times and locations TBA.
+Exams will be conducted in-person and will be closed book.
 
  - __Midterm Exam:__ 
    - The midterm exam is scheduled from __1800__ to __1900__ on 
