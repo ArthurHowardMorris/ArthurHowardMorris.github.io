@@ -50,6 +50,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .m { color: var(--jp-mirror-editor-number-color) } /* Literal.Number */
 .highlight .s { color: var(--jp-mirror-editor-string-color) } /* Literal.String */
 .highlight .ow { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator.Word */
+.highlight .pm { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation.Marker */
 .highlight .w { color: var(--jp-mirror-editor-variable-color) } /* Text.Whitespace */
 .highlight .mb { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Bin */
 .highlight .mf { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Float */
@@ -14495,6 +14496,9 @@ a.anchor-link {
 .reveal {
   font-size: 160%;
 }
+.reveal table {
+  font-size: var(--jp-ui-font-size1);
+}
 .reveal pre {
   width: inherit;
   padding: 0.4em;
@@ -14538,6 +14542,23 @@ div.jp-OutputPrompt {
   margin: 5px 5px 0 0;
 }
 
+.reveal div.highlight {
+  margin: 0;
+}
+
+.reveal div.highlight > pre {
+  margin: 0;
+  width: 100%;
+  font-size: var(--jp-code-font-size);
+}
+
+.reveal div.jp-OutputArea-output > pre {
+  margin: 0;
+  width: 90%;
+  font-size: var(--jp-code-font-size);
+  box-shadow: none;
+}
+
 /* Reveal navigation controls */
 
 .reveal .controls .navigate-left,
@@ -14578,17 +14599,14 @@ div.jp-OutputPrompt {
 
 /* Scrollbars */
 
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
-::-webkit-scrollbar *
-{
-  background:transparent;
+::-webkit-scrollbar * {
+  background: transparent;
 }
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
   background: #727272 !important;
 }
 </style>
@@ -14615,12 +14633,12 @@ div.jp-OutputPrompt {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: { 
-                    automatic: true 
+                    linebreaks: {
+                    automatic: true
                     }
                 }
             });
-        
+
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -14641,7 +14659,34 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Incentives:-Rothwell-Inc.">Incentives: Rothwell Inc.<a class="anchor-link" href="#Incentives:-Rothwell-Inc.">&#182;</a></h1>
+<h2 id="Incentives:-Paid-to-Fail">Incentives: Paid to Fail<a class="anchor-link" href="#Incentives:-Paid-to-Fail">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Incentives:-Paid-to-Fail">Incentives: Paid to Fail<a class="anchor-link" href="#Incentives:-Paid-to-Fail">&#182;</a></h2><ul>
+<li>In the last lecture we discussed agency problems and how we can use bonuses and ownership to solve them. </li>
+<li>In this lecture we look at examples of how things can go wrong.</li>
+<li>In the words of my PhD Advisor: "Don't be surprised when people do exactly what you paid them to do."</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Example:-Rothwell-Inc.">Example: Rothwell Inc.<a class="anchor-link" href="#Example:-Rothwell-Inc.">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14771,8 +14816,7 @@ awarded record bonuses. Profits, however, were lackluster. L. L. was befuddled!<
 <li>$\pi = R - C$</li>
 <li>Sales are high. So it must be cost.</li>
 <li>Why don't sales people get paid based on costs?<ul>
-<li>Controllability   </li>
-<li>This leads to lots of problems</li>
+<li>Controllability must be applied with care.</li>
 </ul>
 </li>
 </ul>
@@ -14806,8 +14850,8 @@ Suggest improvements.</li>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>Notice that you don't need 'bad' behavior to get a bad outcome here.</li>
-<li>If you are giving incentives for selling low contribution margin items (or in low CM areas) then you are causing this.</li>
+<li><em>Notice that you don't need 'bad' behavior to get a bad outcome here.</em></li>
+<li>If you are giving incentives for selling low contribution margin items (or in low CM areas) then you are causing this. (CM=R-VC)</li>
 <li>You also may simply be paying too much of profits in bonuses.</li>
 <li>There are costs that sales people control.</li>
 <li>Travel costs. </li>
@@ -14894,23 +14938,6 @@ Suggest improvements.</li>
 <li>By 2007 AIG had insured \$500 billion (US) worth of assets and provided stability to US financial markets</li>
 <li>Another bet that the housing market would never decline</li>
 <li>BUT when the housing market declined AIG was unable to provide the insurance they had promised, and had to be bailed out</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Silicon-Valley-Bank:">Silicon Valley Bank:<a class="anchor-link" href="#Silicon-Valley-Bank:">&#182;</a></h3><ul>
-<li>Huge bet that interest rates would stay low.</li>
-<li>No CRO</li>
-<li>Interest rates were at historically low levels and had to rise at some point.</li>
-<li>Taken over by regulators last Friday.</li>
 </ul>
 
 </div>
