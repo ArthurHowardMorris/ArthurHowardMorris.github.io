@@ -1,0 +1,10 @@
+- "I am good."
+- "/" <--- This was the whole question. I assume that this is in support of my distaste for Windows
+- "sample exam questions"
+- "Can we cite Python or Excel when structuring our answers?" 
+- " " <--- This was also the whole question.
+- "." <--- This was also the whole question... you know that this is optional right?
+- "Every topics. Please tell more about what will be examinated and how's the format. Thank you."
+- "Can you provide a few more BUDGETING questions for us to practice?"
+- "taxation returns and tax shield"
+- "Would like to do more exercises on the question that related to tax like the assignment 8."
