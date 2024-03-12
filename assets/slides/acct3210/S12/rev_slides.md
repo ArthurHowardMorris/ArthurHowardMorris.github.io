@@ -65,7 +65,25 @@ See slides from [Session 10](https://arthurhowardmorris.github.io/assets/slides/
 6. Lectures on Incentives:
     - __Not covered by the Mid-term.__
 
+# Location, Time, & Format:
+## Location & Time:
 
+- __Time__: The midterm exam is scheduled from __1800__ to __1900__ on __18 March 2024__.
+- __Locations__: 1103 and LTB, room assignments will be posted on Canvas.
+
+## Format:
+
+- You have up to one hour for the exam.
+- The exam has five numbered sections worth 30 points per section.
+- The final section of the exam is multiple choice and covers the tax portion of the course.
+- We will only consider your best four sections, and the maximum number of points possible will be 120. 
+- You may skip one section without penalty.
+- Please limit yourself to the space provided for each answer, you may use the back of each page for any scratch work you need.
+- Read each question carefully. These questions come from the homework and lectures, please review them carefully as the questions have been modified to the constraints of the exam. 
+- This exam is closed book and notes. No aids or assistance of any kind are allowed.
+- Mere suspicion of cheating, sharing answers, or using any unfair means of aid is enough to get your test withdrawn.
+- When you are done, turn in the examination. Failure to do so will result in an automatic failing grade.
+- The exam proctors are not able to answer questions.
 
 # Lecture 2:
 ## Lecture 2 Topics:
@@ -269,4 +287,64 @@ This the marginal cost in the direct sense that you will have to obtain \$30 of 
 No. Because the amount of $y$ you produce depends on $x$, so we are also giving up \$2 per unit of $y$ that is displaced.
 
 # Tax Terms 
+
+- These will be covered with multiple choice questions.
+- The focus here is on terminology, not calculations, and this portion of the
+    exam will be easy. 
+
+## Full list of terms:
+
+1. Assets, investments, and projects all have different pre-tax returns ($r$).
+2. Tax rates $t$ vary across individuals, jurisdictions, organizations, and
+   assets.
+3. pre-tax returns $r$ correspond to post tax returns $r(1-t)$ 
+4. When preferential tax treatment increases demand for a tax favored asset
+   it's price increases. This price change is an _implicit_ tax.
+5. When tax payers use organizational forms like pensions and insurance
+   policies to avoid taxes it is called _organizational form arbitrage_.
+6. When high-tax tax payers issue taxable debt to finance the purchase of tax
+   free debt (e.g. municipal bonds in the US) issued by low-tax tax payers
+(e.g. US non-profit universities) it is called _clientele arbitrage_.
+7. The depreciation tax shield is the present value of the reduction in tax
+   payments afforded by the depreciation deduction.
+8. The value of the tax shield $TS$ is a function of the investment $x$, the
+   risk-free rate of return $r$, the tax rate $t$, and the depreciation rate
+$d$. $$TS=f(x,t,d,r)$$
+9.  $TS$ is increasing in both  $d$ and $t$. 
+
+## Basics of Time Value and Taxes:
+
+1. Assets, investments, and projects all have different pre-tax returns ($r$).
+2. Tax rates $t$ vary across individuals, jurisdictions, organizations, and
+   assets.
+3. pre-tax returns $r$ correspond to post tax returns $r(1-t)$ 
+
+## Implicit Taxes:
+
+4. When preferential tax treatment increases demand for a tax favored asset
+   it's price increases. This price change is an _implicit_ tax.
+
+## Org. Form Arbitrage:
+
+5. When tax payers use organizational forms like pensions and insurance
+   policies to avoid taxes it is called _organizational form arbitrage_.
+
+Most individuals will do this during their lifetimes, as this is what happens
+when you have debt and save for retirement. In HK retirement saving is
+mandatory, so anyone with __any debt__ and income is doing this!
+
+## Clientele Arbitrage:
+
+6. When high-tax tax payers issue taxable debt to finance the purchase of tax
+   free debt (e.g. municipal bonds in the US) issued by low-tax tax payers
+   (e.g. US non-profit universities) it is called _clientele arbitrage_.
+
+## Depreciation Tax Shield:
+
+7. The depreciation tax shield is the present value of the reduction in tax
+   payments afforded by the depreciation deduction.
+8. The value of the tax shield $TS$ is a function of the investment $x$, the
+   risk-free rate of return $r$, the tax rate $t$, and the depreciation rate
+$d$. $$TS=f(x,t,d,r)$$
+9.  $TS$ is increasing in both  $d$ and $t$. 
 
