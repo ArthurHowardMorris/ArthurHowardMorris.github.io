@@ -91,10 +91,11 @@ Vik-Giger prefers to sell in Brazil.
 
 ## What we need from the transfer price:
 
-Vik-Giger must centralize the decision, or choose a transfer price at which (1)
-the US division agrees to produce, (2) the Brazilian division is willing to
-transport and market the machine, and (3) the Swiss division prefers not to
-transport and market the machine.
+Vik-Giger must __centralize the decision__, or __choose a transfer price__ at which: 
+
+1. the US division agrees to produce,
+2. the Brazilian division is willing to transport and market the machine, and 
+3. the Swiss division prefers not to transport and market the machine.
 
 ## We can use a negotiation to solve this problem:
 
