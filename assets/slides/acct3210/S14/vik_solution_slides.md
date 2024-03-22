@@ -1,8 +1,7 @@
 ---
 title: "Vik-Giger Corporation"
+author: "Multinational transfer pricing and taxation."
 ---
-<!-- geometry: margin=3cm -->
-## Multinational transfer pricing and taxation.
 
 ## US subsidiary
 
@@ -75,18 +74,18 @@ Vik-Giger prefers to sell in Brazil.
 
 ## Consider the following _status quo_:
 
-## 1. Brazil 
+### 1. Brazil 
 - The Brazilian department wants to sell the machine in their market, and
   capture 800,000 of operating income. This is what shareholders of the
   combined entity also prefer as they get 300,000 operating income.
 
-## 2. Switzerland
+### 2. Switzerland
 - The Swiss department also wants to sell the machine in their market, and
   capture 750,000 of operating income. This is sub-optimal from the perspective
   of the combined entity as they can capture more operating income by selling
   in the Brazilian market.
 
-## 3. US
+### 3. US
 - The manufacturing division in the US would prefer not to produce the product
   in either case as they only stand to loose 500,000.
 
