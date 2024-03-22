@@ -50,6 +50,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .m { color: var(--jp-mirror-editor-number-color) } /* Literal.Number */
 .highlight .s { color: var(--jp-mirror-editor-string-color) } /* Literal.String */
 .highlight .ow { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator.Word */
+.highlight .pm { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation.Marker */
 .highlight .w { color: var(--jp-mirror-editor-variable-color) } /* Text.Whitespace */
 .highlight .mb { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Bin */
 .highlight .mf { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Float */
@@ -14495,6 +14496,9 @@ a.anchor-link {
 .reveal {
   font-size: 160%;
 }
+.reveal table {
+  font-size: var(--jp-ui-font-size1);
+}
 .reveal pre {
   width: inherit;
   padding: 0.4em;
@@ -14538,6 +14542,23 @@ div.jp-OutputPrompt {
   margin: 5px 5px 0 0;
 }
 
+.reveal div.highlight {
+  margin: 0;
+}
+
+.reveal div.highlight > pre {
+  margin: 0;
+  width: 100%;
+  font-size: var(--jp-code-font-size);
+}
+
+.reveal div.jp-OutputArea-output > pre {
+  margin: 0;
+  width: 90%;
+  font-size: var(--jp-code-font-size);
+  box-shadow: none;
+}
+
 /* Reveal navigation controls */
 
 .reveal .controls .navigate-left,
@@ -14578,17 +14599,14 @@ div.jp-OutputPrompt {
 
 /* Scrollbars */
 
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
-::-webkit-scrollbar *
-{
-  background:transparent;
+::-webkit-scrollbar * {
+  background: transparent;
 }
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
   background: #727272 !important;
 }
 </style>
@@ -14615,12 +14633,12 @@ div.jp-OutputPrompt {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: { 
-                    automatic: true 
+                    linebreaks: {
+                    automatic: true
                     }
                 }
             });
-        
+
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -14641,9 +14659,21 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Lecture-12:-Transfer-Pricing-and-Responsibility-Accounting">Lecture 12: Transfer Pricing and Responsibility Accounting<a class="anchor-link" href="#Lecture-12:-Transfer-Pricing-and-Responsibility-Accounting">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Lecture-12:-Transfer-Pricing-and-Responsibility-Accounting">Lecture 12: Transfer Pricing and Responsibility Accounting<a class="anchor-link" href="#Lecture-12:-Transfer-Pricing-and-Responsibility-Accounting">&#182;</a></h1><ul>
 <li>Great work on the exam!</li>
-<li>Next Thursday will be an exam review session (<a href="https://arthurhowardmorris.github.io/resources/semesters/s2023/ACCTG3210Syl.html#course-schedule-and-outline">Let's look at the schedule</a>)</li>
+<li>We are working to have the exams graded by next Wednesday; however, we may need more time. If so I will make an announcement. (<a href="https://arthurhowardmorris.github.io/resources/semesters/s2024/ACCTG3210Syl.html#course-schedule-and-outline">Let's look at the schedule</a>)</li>
+<li>If I bring the next lecture forward, the assignment due date will stay the same.</li>
 </ul>
 
 </div>
@@ -14657,7 +14687,7 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Brief-review-of-the-Rothwell-case:">Brief review of the <a href="https://arthurhowardmorris.github.io/assets/slides/acct3210/S11/MoreIncentives.slides.html#/">Rothwell case</a>:<a class="anchor-link" href="#Brief-review-of-the-Rothwell-case:">&#182;</a></h3><ul>
-<li>On the exam I will:</li>
+<li>On the exam I will:  </li>
 </ul>
 <ol>
 <li>provide an edited version of the case</li>
@@ -14692,7 +14722,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Concluding-caveat">Concluding caveat<a class="anchor-link" href="#Concluding-caveat">&#182;</a></h3><ul>
+<h3 id="Concluding-caveat-from-the-previous-lecture:">Concluding caveat from the previous lecture:<a class="anchor-link" href="#Concluding-caveat-from-the-previous-lecture:">&#182;</a></h3><ul>
 <li>Basing pay on the firm’s performance is sensible only if this performance is influenced by the manager’s actions, and these actions are not directly observed by the principal. </li>
 <li>Then the manager must be induced indirectly to choose desirable actions: </li>
 <li>this is achieved by basing the manager’s pay on whatever variables permit some inference about the manager’s actions. </li>
@@ -14712,7 +14742,7 @@ div.jp-OutputPrompt {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Responsibility-Accounting">Responsibility Accounting<a class="anchor-link" href="#Responsibility-Accounting">&#182;</a></h1><ul>
 <li>To implement incentive schemes, organizational performance must be decomposed into components that reflect, as nearly as possible, individual contributions.</li>
-<li>Responsibility accounting is a system of accounting that recognizes various responsibility centers throughout the organization.</li>
+<li><strong>Responsibility accounting</strong> is a system of accounting that recognizes various responsibility centers throughout the organization.</li>
 <li>Such an accounting system reflects the plans and actions of each of these centers by allocating particular revenues and costs to those having the pertinent responsibilities (also called profitability accounting and activity accounting). </li>
 </ul>
 
@@ -14727,10 +14757,10 @@ div.jp-OutputPrompt {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="The-most-common-types-of-responsibility-centers-are:">The most common types of responsibility centers are:<a class="anchor-link" href="#The-most-common-types-of-responsibility-centers-are:">&#182;</a></h3><ul>
-<li>Cost center: responsible for <strong>own</strong> costs.</li>
-<li>Profit center: responsible for <strong>own</strong> profit.</li>
-<li>Revenue center: responsible for <strong>own</strong> revenue.</li>
-<li>Investment center: responsible for return on  <strong>own</strong> investment.</li>
+<li><strong>Cost center</strong>: responsible for <strong>own</strong> costs.</li>
+<li><strong>Profit center</strong>: responsible for <strong>own</strong> profit.</li>
+<li><strong>Revenue center</strong>: responsible for <strong>own</strong> revenue.</li>
+<li><strong>Investment center</strong>: responsible for return on  <strong>own</strong> investment.</li>
 </ul>
 
 </div>
@@ -14792,6 +14822,51 @@ div.jp-OutputPrompt {
         ├── Food
         ├── Menu
         └── Staff</code></pre>
+
+</div>
+</div>
+</div>
+</div></div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="de/centralization-refers-to-the-location-of-decision-rights-within-the-firm.">de/centralization refers to the location of decision rights within the firm.<a class="anchor-link" href="#de/centralization-refers-to-the-location-of-decision-rights-within-the-firm.">&#182;</a></h3>
+<pre><code>└── Terri (Owner of Terri's Amazing Restaurant) &lt;--- CENTRALIZED
+    ├── Jackson (Manages Location 1)
+    │   ├── Food
+    │   ├── Menu
+    │   └── Staff
+    └── Jason (Manages Location 2)
+        ├── Food
+        ├── Menu
+        └── Staff</code></pre>
+<ul>
+<li><strong>If Terri makes all the decisions, then decision rights are centralized.</strong></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="de/centralization-refers-to-the-location-of-decision-rights-within-the-firm.">de/centralization refers to the location of decision rights within the firm.<a class="anchor-link" href="#de/centralization-refers-to-the-location-of-decision-rights-within-the-firm.">&#182;</a></h3>
+<pre><code>└── Terri (Owner of Terri's Amazing Restaurant)
+    ├── Jackson (Manages Location 1) &lt;--- DECENTRALIZED
+    │   ├── Food
+    │   ├── Menu
+    │   └── Staff
+    └── Jason (Manages Location 2)   &lt;--- DECENTRALIZED
+        ├── Food
+        ├── Menu
+        └── Staff</code></pre>
 <ul>
 <li><strong>If Terri makes all the decisions, then decision rights are centralized.</strong></li>
 <li>The extent to which she delegates authority to Jason and Jackson is the extent to which the firm is <em>decentralized</em>.</li>
@@ -14800,7 +14875,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></div></section><section>
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14869,6 +14944,7 @@ various accounting numbers, such as:</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
 <li>standard cost</li>
+<li>actual cost</li>
 <li>divisional profit</li>
 <li>return on investment</li>
 <li>market share</li>
@@ -14876,12 +14952,51 @@ various accounting numbers, such as:</p>
 <li>sales </li>
 <li>customer satisfaction</li>
 </ul>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>In each case there is an incentive to shift costs to other departments.</p>
 
 </div>
 </div>
 </div>
 </div></div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Examples:">Examples:<a class="anchor-link" href="#Examples:">&#182;</a></h3><ul>
+<li>Sales division, IT division, and travel division. <ul>
+<li>Sales division can cut costs by:<ol>
+<li>Never coming to office, always working from hotels.</li>
+<li>Tricking the travel division and IT divisions into doing all of Sales support work.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Lunch shift and dinner shift:<ul>
+<li>Convince management to buy extra dishes.</li>
+<li>Lunch shift fires dish washers.</li>
+<li>Doesn't clean restaurant at the end of the shift.</li>
+</ul>
+</li>
+<li>HKUST EMBA program stores supplies in common stairwell.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14917,9 +15032,30 @@ the two divisions.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Purpose-of-Transfer-Pricing">Purpose of Transfer Pricing<a class="anchor-link" href="#Purpose-of-Transfer-Pricing">&#182;</a></h2><p>The basic purpose of transfer pricing is to induce optimal decision making in a
-decentralized organization (i.e., in most cases, to maximize the profit of the
-organization as a whole).</p>
+<h2 id="What-is-a-price?">What is a price?<a class="anchor-link" href="#What-is-a-price?">&#182;</a></h2><ul>
+<li>In an efficient market the price should summarize all information public and private about the present value of an asset (product, service, etc.)</li>
+<li>When they are working well, markets generate <strong>prices which communicate information about value, which drive the allocation of capital.</strong></li>
+<li>This is, incidentally the <em>entire</em> justification for the finance industry.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Purpose-of-Transfer-Pricing">Purpose of Transfer Pricing<a class="anchor-link" href="#Purpose-of-Transfer-Pricing">&#182;</a></h2><ul>
+<li>In a decentralized firm, transfer prices communicate information.</li>
+<li>The basic purpose of transfer pricing is to induce optimal decision making in a decentralized organization <ul>
+<li>(i.e., in most cases, to maximize the profit of the organization as a whole)</li>
+<li>'optimal decision making' means solving agency problems (principal-agent), and inter-departmental incentive conflicts.</li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -15027,7 +15163,7 @@ obtaining detailed information.</li>
 <ul>
 <li><em>Performance measurement</em>: Use the transfer price to separate profit figures
 for each division and thereby evaluate the performance of each division
-separately.</li>
+separately. (This improves the <em>information</em> captured by division profit.)</li>
 </ul>
 
 </div>
@@ -15041,10 +15177,21 @@ separately.</li>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li><em>Coordination</em>: Provide information to coordinate production, sales and
-pricing decisions of the different divisions (via an appropriate choice of
-transfer prices).</li>
+<li><em>Coordination</em>: Provide <em>information</em> to coordinate production, sales and
+pricing decisions of the different divisions.</li>
 </ul>
+
+</div>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>In both cases the price is <em>communicating information</em>, just as it does in competitive markets.</p>
 
 </div>
 </div>
@@ -15110,11 +15257,13 @@ include:</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Methods-of-Transfer-Pricing">Methods of Transfer Pricing<a class="anchor-link" href="#Methods-of-Transfer-Pricing">&#182;</a></h2><p>A transfer pricing policy defines rules for calculating the transfer price. In
-addition, a transfer price policy has to specify sourcing rules (i.e., either
-mandate internal transactions or allow divisions discretion in choosing whether
-to buy/sell externally). The most common transfer pricing methods are described
-below.</p>
+<h2 id="Methods-of-Transfer-Pricing">Methods of Transfer Pricing<a class="anchor-link" href="#Methods-of-Transfer-Pricing">&#182;</a></h2><ul>
+<li>A transfer pricing policy defines rules for calculating the transfer price. </li>
+<li>In addition, a transfer price policy has to specify sourcing rules.<ul>
+<li>i.e., either mandate internal transactions or allow divisions discretion in choosing whether to buy/sell externally. </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -15126,20 +15275,31 @@ below.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Market-based-Transfer-Pricing">Market-based Transfer Pricing<a class="anchor-link" href="#Market-based-Transfer-Pricing">&#182;</a></h3><p>When the outside market for the good is <em>well-defined</em>, <em>competitive</em>, and <em>stable</em>,
+<h1 id="Common-Transfer-Pricing-Methods:">Common Transfer Pricing Methods:<a class="anchor-link" href="#Common-Transfer-Pricing-Methods:">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Method-1:-Market-based-Transfer-Pricing">Method 1: Market-based Transfer Pricing<a class="anchor-link" href="#Method-1:-Market-based-Transfer-Pricing">&#182;</a></h3><p>When the outside market for the good is <em>well-defined</em>, <em>competitive</em>, and <em>stable</em>,
 firms often use the market price as an upper bound for the transfer price.</p>
 
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><em>Terms:</em></p>
+<p><em>Market-Based Transfer Pricing Terms:</em></p>
 <ul>
 <li>what is a well defined market?</li>
 <li>what is a competitive market?</li>
@@ -15156,10 +15316,10 @@ firms often use the market price as an upper bound for the transfer price.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><em>Terms:</em></p>
+<p><em>Market-Based Transfer Pricing Terms:</em></p>
 <ul>
 <li>what is a well defined market?<ul>
-<li>it is easy to predict what customers will do if the price changes</li>
+<li>it is easy to predict what customers will do if the price changes?</li>
 <li>if it is easy to define what the substitutes for a product are (or if there are none) then the market is well defined.</li>
 </ul>
 </li>
@@ -15178,7 +15338,7 @@ firms often use the market price as an upper bound for the transfer price.</p>
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15197,45 +15357,31 @@ firms often use the market price as an upper bound for the transfer price.</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>the prices need to be informative in order to measure effort (remember Huck Finn)</li>
+<li>the prices need to be informative in order to measure effort <ul>
+<li><em>remember Huck Finn doesn't like risk</em></li>
+</ul>
+</li>
 <li>the prices need to be informative for future planning </li>
 </ul>
 
 </div>
 </div>
 </div>
-</div></div></section></section><section><section>
+</div></div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Concerns-with-market-based-Transfer-Pricing">Concerns with market-based Transfer Pricing<a class="anchor-link" href="#Concerns-with-market-based-Transfer-Pricing">&#182;</a></h3><p>When the outside market is neither <em>competitive</em> nor stable, internal decision
-making may be distorted by reliance on market-based transfer prices</p>
-<p>e.g. if competitors are selling at distress prices or are engaged in any of a
-variety of “special” pricing strategies (e.g., price discrimination, product
-tie-ins, or entry deterrence).</p>
-<p>Also, when entering a new product market the firm may opt to provide an internal
-subsidy to the new business segment.</p>
-
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Negotiated-Transfer-Pricing">Negotiated Transfer Pricing<a class="anchor-link" href="#Negotiated-Transfer-Pricing">&#182;</a></h3><p>Here, the firm does not specify rules for the determination of transfer prices.</p>
+<h3 id="Concerns-with-market-based-Transfer-Pricing">Concerns with market-based Transfer Pricing<a class="anchor-link" href="#Concerns-with-market-based-Transfer-Pricing">&#182;</a></h3><p><strong>External prices may not have the information we need.</strong></p>
 <ul>
-<li>Divisional managers are encouraged to negotiate a mutually agreeable transfer
-price. </li>
-<li>Negotiated transfer pricing is typically combined with free sourcing. </li>
-<li>In some companies, though, headquarters reserves the right to mediate the
-negotiation process and impose an “arbitrated” solution.</li>
+<li>When the outside market is neither <em>competitive</em> nor stable, internal decision making may be distorted by reliance on market-based transfer prices (external information problem):<ul>
+<li>e.g. if competitors are selling at distress prices or are engaged in any of a variety of “special” pricing strategies. </li>
+<li>e.g., price discrimination, product tie-ins, or entry deterrence. </li>
+</ul>
+</li>
+<li>Also, when entering a new product market the firm may opt to provide an internal subsidy to the new business segment (internal information problem).</li>
 </ul>
 
 </div>
@@ -15248,7 +15394,27 @@ negotiation process and impose an “arbitrated” solution.</li>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Cost-based-Transfer-Pricing">Cost-based Transfer Pricing<a class="anchor-link" href="#Cost-based-Transfer-Pricing">&#182;</a></h3><p>In the absence of an established market price many companies base the transfer
+<h3 id="Method-2:-Negotiated-Transfer-Pricing">Method 2: Negotiated Transfer Pricing<a class="anchor-link" href="#Method-2:-Negotiated-Transfer-Pricing">&#182;</a></h3><p>Here, the firm does not specify rules for the determination of transfer prices.</p>
+<ul>
+<li>Divisional managers negotiate the transfer price. </li>
+<li>Negotiated transfer pricing can be combined with free sourcing.<ul>
+<li>i.e. The consuming department has an outside option.</li>
+</ul>
+</li>
+<li>In some companies, though, headquarters reserves the right to mediate the negotiation process and impose an “arbitrated” solution.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Method-3:-Cost-based-Transfer-Pricing">Method 3: Cost-based Transfer Pricing<a class="anchor-link" href="#Method-3:-Cost-based-Transfer-Pricing">&#182;</a></h3><p>In the absence of an established market price many companies base the transfer
 price on the production cost of the supplying division.</p>
 <p>The most common methods are:</p>
 <ul>
@@ -15270,11 +15436,16 @@ price on the production cost of the supplying division.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Full-Cost">Full Cost<a class="anchor-link" href="#Full-Cost">&#182;</a></h3><p>A popular transfer price because of its clarity and convenience and because it
-is often viewed as a satisfactory approximation of outside market prices.</p>
+<h3 id="Cost-based-Transfer-Pricing-Method-1:-Full-Cost">Cost-based Transfer Pricing Method 1: Full Cost<a class="anchor-link" href="#Cost-based-Transfer-Pricing-Method-1:-Full-Cost">&#182;</a></h3><p><strong>The transfer price is equal to the <em>full cost</em> of producing the good or service by the supplying department.</strong></p>
 <ul>
+<li>Full Cost = Variable Cost + Fixed Cost, may include lifecycle costs.</li>
+<li>A popular transfer price because of its clarity and convenience.  </li>
+<li>An approximation of outside market prices.</li>
 <li>Full <em>actual costs</em> can include inefficiencies; thus its usage for transfer pricing often fails to provide an incentive to control such inefficiencies.</li>
-<li>Use of full <em>standard costs</em> may minimize the inefficiencies mentioned above.</li>
+<li>Use of full <em>standard costs</em> may minimize this problem <ul>
+<li>i.e. you get paid what you budget, if you come in under (over) budget your division gets profit (loss).</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -15287,10 +15458,11 @@ is often viewed as a satisfactory approximation of outside market prices.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Cost-plus">Cost-plus<a class="anchor-link" href="#Cost-plus">&#182;</a></h3><ul>
+<h3 id="Cost-based-Transfer-Pricing-Method-2:-Cost-plus">Cost-based Transfer Pricing Method 2: Cost-plus<a class="anchor-link" href="#Cost-based-Transfer-Pricing-Method-2:-Cost-plus">&#182;</a></h3><p><strong>Transfer Price = (Full Cost)x</strong></p>
+<ul>
 <li>When transfers are made at full cost, the buying division takes all the gains from trade while the supplying division receives none</li>
 <li>To overcome this problem the supplying division is frequently allowed to add a mark-up in order to make a "reasonable" profit</li>
-<li>The transfer price may then be viewed as an approximate market price.</li>
+<li>The transfer price may then be viewed as an approximate market price, or rate of return.</li>
 </ul>
 
 </div>
@@ -15303,10 +15475,12 @@ is often viewed as a satisfactory approximation of outside market prices.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Variable-Cost-plus-a-Lump-Sum-Charge">Variable Cost plus a Lump Sum Charge<a class="anchor-link" href="#Variable-Cost-plus-a-Lump-Sum-Charge">&#182;</a></h3><p>In order to motivate the buying division to make appropriate purchasing
+<h3 id="Cost-based-Transfer-Pricing-Method-3:-Variable-Cost-plus-a-Lump-Sum-Charge">Cost-based Transfer Pricing Method 3: Variable Cost plus a Lump Sum Charge<a class="anchor-link" href="#Cost-based-Transfer-Pricing-Method-3:-Variable-Cost-plus-a-Lump-Sum-Charge">&#182;</a></h3><p><strong>Transfer Price = VC + X</strong></p>
+<p>In order to motivate the buying division to make appropriate purchasing
 decisions, the transfer price could be set equal to (standard) variable cost
 plus a lump-sum periodical charge covering the supplying division's related
 fixed costs.</p>
+<p><em>Why this is important will be a topic of a whole lecture later in the semester.</em></p>
 
 </div>
 </div>
@@ -15318,13 +15492,14 @@ fixed costs.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Variable-Cost-plus-Opportunity-Cost">Variable Cost plus Opportunity Cost<a class="anchor-link" href="#Variable-Cost-plus-Opportunity-Cost">&#182;</a></h3><p>Also know as the Minimum Transfer Price:</p>
-<p>Minimum Transfer Price = Incremental Cost + Opportunity Cost.</p>
+<h3 id="Cost-based-Transfer-Pricing-Method-4:-Variable-Cost-plus-Opportunity-Cost">Cost-based Transfer Pricing Method 4: Variable Cost plus Opportunity Cost<a class="anchor-link" href="#Cost-based-Transfer-Pricing-Method-4:-Variable-Cost-plus-Opportunity-Cost">&#182;</a></h3><p>Also know as the Minimum Transfer Price:</p>
+<p><strong>Minimum Transfer Price = Incremental Cost + Opportunity Cost.</strong></p>
+<p>Requires the consuming department to be at least as productive as the supplier's outside option.</p>
 
 </div>
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15350,7 +15525,7 @@ transferred internally.</li>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Transfer-Costs-may-obscure-the-fixed/variable-cost-distinction!">Transfer Costs may obscure the fixed/variable cost distinction!<a class="anchor-link" href="#Transfer-Costs-may-obscure-the-fixed/variable-cost-distinction!">&#182;</a></h3><p>Sub-optimal decisions can result from the natural inclination of the manager of
+<h3 id="CAUTION:-Transfer-Costs-may-obscure-the-fixed/variable-cost-distinction!">CAUTION: Transfer Costs may obscure the fixed/variable cost distinction!<a class="anchor-link" href="#CAUTION:-Transfer-Costs-may-obscure-the-fixed/variable-cost-distinction!">&#182;</a></h3><p>Sub-optimal decisions can result from the natural inclination of the manager of
 an autonomous buying division to view a <em>mix of variable and fixed costs</em> of a
 selling division plus, possibly, a mark-up <em>as variable costs</em> of his buying
 division.</p>
