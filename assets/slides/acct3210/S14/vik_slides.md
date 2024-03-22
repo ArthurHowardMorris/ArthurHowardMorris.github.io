@@ -1,9 +1,7 @@
 ---
-title: "Vik-Giger Corpotation"
-geometry: margin=3cm
+title: "Vik-Giger Corporation"
+author: " Multinational transfer pricing and taxation."
 ---
-## Multinational transfer pricing and taxation.
-
 ## US subsidiary
 
 - Vik-Giger Corporation, headquartered in the U.S., manufactures

@@ -1,5 +1,5 @@
 ---
-title: "Vik-Giger Corpotation"
+title: "Vik-Giger Corporation"
 geometry: margin=3cm
 ---
 ## Multinational transfer pricing and taxation.

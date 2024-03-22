@@ -1,7 +1,7 @@
 ---
-title: "Vik-Giger Corpotation"
-geometry: margin=3cm
+title: "Vik-Giger Corporation"
 ---
+<!-- geometry: margin=3cm -->
 ## Multinational transfer pricing and taxation.
 
 ## US subsidiary
