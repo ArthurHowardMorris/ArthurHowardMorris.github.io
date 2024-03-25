@@ -81,13 +81,23 @@ Vik-Giger prefers to sell in Brazil.
 
 ### 2. Switzerland
 - The Swiss department also wants to sell the machine in their market, and
-  capture 750,000 of operating income. This is sub-optimal from the perspective
+  capture 700,000 of operating income. This is sub-optimal from the perspective
   of the combined entity as they can capture more operating income by selling
   in the Brazilian market.
 
 ### 3. US
 - The manufacturing division in the US would prefer not to produce the product
   in either case as they only stand to loose 500,000.
+
+## Operating income by option and division:
+
+|           | Option 0    | Option 1      | Option 2       |
+|-----------|-------------|---------------|----------------|
+| Action:   | Do nothing. | Sell to Swiss | Sell in Brazil |
+| U.S. OI   | 0           | (500,000)     | (500,000)      |
+| Swiss OI  | 0           | 700,000       | 0              |
+| Brazil OI | 0           | 0             | 800,000        |
+| Corp OI   | 0           | 200,000       | 300,000        |
 
 ## What we need from the transfer price:
 
@@ -176,6 +186,18 @@ Let's consider our two options.
 | __Brazilian ATOI__     | __40,000__          |  |                    |                     |
 |                        |                     |  |                    |                     |
 | __V-G ATOI__           | __160,000__         |  |                    |                     |
+
+## After-tax operating income: 
+
+|           | Option 0    | Option 1      | Option 2       |
+|-----------|-------------|---------------|----------------|
+| Action:   | Do nothing. | Sell to Swiss | Sell in Brazil |
+| US OI     | 0           | 0             | 120,000        |
+| Swiss OI  | 0           | 170,000       | 0              |
+| Brazil OI | 0           | 0             | 40,000         |
+| Corp OI   | 0           | 170,000       | 160,000        |
+
+_Using the transfer price that minimizes taxes._ 
 
 ## Now we can answer 3
 
