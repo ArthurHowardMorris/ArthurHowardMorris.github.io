@@ -65,7 +65,13 @@ the US department sees this as a 500,000 operating loss._
 _Note that the Brazilian department see this as 800,000 operating income, and
 the US department sees this as a 500,000 operating loss._ 
 
-Vik-Giger prefers to sell in Brazil.
+## Answer to Question 1:
+
+- Vik-Giger should produce the machine because OI>0.
+- Sell in Brazil because 300k > 200k 
+- 300k for Vik-Giger, 800k for Brazil subsidiary, 500k loss for US subsidiary.
+
+_Notice that this implies that _if compensated on subsidiary-level operating income_ the managers of the two subsidiaries will have conflicting incentives, and that these incentives do not match the incentives of the company as a whole_.
 
 ## Question 2:
 
@@ -135,9 +141,14 @@ Vik-Giger must __centralize the decision__, or __choose a transfer price__ at wh
   US pushing for higher transfer prices and Brazil pushing for lower prices.
 - We don't know enough to predict what the departments will actually agree to,
   though if they use an auction the transfer price will be very close to the
-  price at which the Swiss drop out.
+  price at which the Swiss drop out. The actual outcome depends on company
+  dynamics, which we are ignoring in this problem.
 - Brazil will drop out of the bidding at 800,000 so this is the top of the
   range.
+
+## Answer to Question 2:
+
+The range is 700k to 800k. 
 
 ## Question 3:
 
@@ -152,7 +163,7 @@ Vik-Giger must __centralize the decision__, or __choose a transfer price__ at wh
 ## Optimal Transfer Pricing In the Presence of Taxes
 
 1. Now the transfer price is no longer being used primarily for information and incentives.
-2. The transfer price is now used to locate income in low tax regimes.
+2. The transfer price is now used to locate income to low tax regimes.
 
 Let's consider our two options.
 
