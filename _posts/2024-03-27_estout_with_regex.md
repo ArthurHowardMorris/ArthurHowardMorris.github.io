@@ -1,3 +1,13 @@
+---
+title: '2024-03-27'
+categories:
+  - code
+tags: 
+  - estout
+  - stata
+  - regex
+published: true
+---
 
 Adding regex to `estout`/`esttab`. 
 
