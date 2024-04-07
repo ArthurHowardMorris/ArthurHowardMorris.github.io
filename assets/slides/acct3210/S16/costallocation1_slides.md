@@ -47,31 +47,42 @@ title: "Cost Allocation Theory"
   creation in the design, manufacturing and sales department.
 
 
-### Consider aspirin
+## Consider aspirin administered in an American Hospital
 
-| Cost                                                | Amount    |
+| Direct Costs              | Amount    |
+| ------                    | --------: |
+| Two aspirin tablets       | \$ 0.040  |
+| Physician (Direct Labor)  | \$ 1.050  |
+| Pharmacist (Direct Labor) | \$ 1.330  |
+| Nurse (Direct Labor)      | \$ 0.321  |
+| Cup                       | \$ 0.025  |
+
+## Continued
+
+| Indirect Costs                                      | Amount    |
 | ------                                              | --------: |
-| Two aspirin tablets                                 | \$ 0.040  |
-| Direct labor                                        |           |
-| Physician                                           | \$ 1.050  |
-| Pharmacist                                          | \$ 1.330  |
-| Nurse                                               | \$ 0.321  |
 | Indirect labor (recordkeeping and orderly)          | \$ 0.800  |
-| Cup                                                 | \$ 0.025  |
-| Shared and shifted costs                            |           |
+| Shared and shifted costs:                           |           |
 | Unreimbursed Medicare                               | \$ 0.450  |
 | Indigent care                                       | \$ 0.332  |
 | Malpractice insurance and uncollectible receivables | \$ 0.380  |
 | Excess bed capacity                                 | \$ 0.429  |
 | Other administrative and operating costs            | \$ 0.688  |
 | Product cost                                        | \$ 5.845  |
-| Hospital overhead costs @ 53.98\%                   | \$ 3.16   |
-| Full cost (incl. overhead)                          | \$ 9.000  |
-| Profit                                              | \$ 9.000  |
-| Price (per dose)                                    | \$18.000  |
 
-### How to find factory costs
+## Continued 
 
+| Hopital Overhead Costs            | Amount    |
+| ------                            | --------: |
+| Product cost                      | \$ 5.845  |
+| Hospital overhead costs @ 53.98\% | \$ 3.16   |
+| Full cost (incl. overhead)        | \$ 9.00   |
+| Profit                            | \$ 9.00   |
+| Price (per dose)                  | \$18.00   |
+
+Is this an informative price?
+
+## Cost allocation is an old question
 
 > Indirect expense is one of the most important of all the accounts appearing
 > on the books of the manufacturer. Methods of handling its \[allocation\] have
@@ -93,7 +104,7 @@ May have many different allocation processes for a single product.
 
 ## Reasons to allocate costs
 
-1. External reporting 
+1. External reporting (IFRS, GAAP, also fraud)
 2. Taxes
 3. Cost-based contracts (esp. gov contracting)
 4. Decision making
@@ -120,14 +131,14 @@ May have many different allocation processes for a single product.
 - The two divisions share a building but are separate profit centers
 - Managers are compensated based on profits
 
-### How do we treat common costs?
+## How do we treat common costs?
 
 - If we deduct common costs from the manager's profits they will try to reduce common costs
 - If we do not, then they will demand more of the common resources
 - What we choose will depend on whether the managers can control their consumption of the common costs
 - Allocating common costs is widespread, and limits over consumption of common resources
 
-## What is next?
+<!-- ## What is next? -->
 
-- For students that missed class on Tuesday there will be a make-up solution checking session tonight from 6:30-7:30 in LSK 1026.
-- One week from Thursday we will start our discussion of  allocation methods, starting with insulating vs. non-insulating allocations, and moving into chapter 8.
+<!-- - For students that did not attend the in-class exam paper checking session I will be available next class on Tuesday there will be a make-up solution checking session tonight from 6:30-7:30 in LSK 1026. -->
+<!-- - One week from Thursday we will start our discussion of  allocation methods, starting with insulating vs. non-insulating allocations, and moving into chapter 8. -->
