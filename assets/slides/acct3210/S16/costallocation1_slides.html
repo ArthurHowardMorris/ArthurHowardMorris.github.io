@@ -18,8 +18,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -121,7 +124,6 @@ departments access it indirectly.</li>
 </ul>
 </section>
 
-<section>
 <section id="consider-email" class="title-slide slide level2">
 <h2>Consider email</h2>
 <ul>
@@ -131,12 +133,14 @@ departments access it indirectly.</li>
 value creation in the design, manufacturing and sales department.</li>
 </ul>
 </section>
-<section id="consider-aspirin" class="slide level3">
-<h3>Consider aspirin</h3>
+
+<section id="consider-aspirin-administered-in-an-american-hospital"
+class="title-slide slide level2">
+<h2>Consider aspirin administered in an American Hospital</h2>
 <table>
 <thead>
 <tr class="header">
-<th>Cost</th>
+<th>Direct Costs</th>
 <th style="text-align: right;">Amount</th>
 </tr>
 </thead>
@@ -146,31 +150,41 @@ value creation in the design, manufacturing and sales department.</li>
 <td style="text-align: right;">$ 0.040</td>
 </tr>
 <tr class="even">
-<td>Direct labor</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="odd">
-<td>Physician</td>
+<td>Physician (Direct Labor)</td>
 <td style="text-align: right;">$ 1.050</td>
 </tr>
-<tr class="even">
-<td>Pharmacist</td>
+<tr class="odd">
+<td>Pharmacist (Direct Labor)</td>
 <td style="text-align: right;">$ 1.330</td>
 </tr>
-<tr class="odd">
-<td>Nurse</td>
-<td style="text-align: right;">$ 0.321</td>
-</tr>
 <tr class="even">
-<td>Indirect labor (recordkeeping and orderly)</td>
-<td style="text-align: right;">$ 0.800</td>
+<td>Nurse (Direct Labor)</td>
+<td style="text-align: right;">$ 0.321</td>
 </tr>
 <tr class="odd">
 <td>Cup</td>
 <td style="text-align: right;">$ 0.025</td>
 </tr>
+</tbody>
+</table>
+</section>
+
+<section id="continued" class="title-slide slide level2">
+<h2>Continued</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Indirect Costs</th>
+<th style="text-align: right;">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Indirect labor (recordkeeping and orderly)</td>
+<td style="text-align: right;">$ 0.800</td>
+</tr>
 <tr class="even">
-<td>Shared and shifted costs</td>
+<td>Shared and shifted costs:</td>
 <td style="text-align: right;"></td>
 </tr>
 <tr class="odd">
@@ -197,27 +211,48 @@ value creation in the design, manufacturing and sales department.</li>
 <td>Product cost</td>
 <td style="text-align: right;">$ 5.845</td>
 </tr>
-<tr class="odd">
-<td>Hospital overhead costs @ 53.98%</td>
-<td style="text-align: right;">$ 3.16</td>
-</tr>
-<tr class="even">
-<td>Full cost (incl. overhead)</td>
-<td style="text-align: right;">$ 9.000</td>
-</tr>
-<tr class="odd">
-<td>Profit</td>
-<td style="text-align: right;">$ 9.000</td>
-</tr>
-<tr class="even">
-<td>Price (per dose)</td>
-<td style="text-align: right;">$18.000</td>
-</tr>
 </tbody>
 </table>
 </section>
-<section id="how-to-find-factory-costs" class="slide level3">
-<h3>How to find factory costs</h3>
+
+<section id="continued-1" class="title-slide slide level2">
+<h2>Continued</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Hopital Overhead Costs</th>
+<th style="text-align: right;">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Product cost</td>
+<td style="text-align: right;">$ 5.845</td>
+</tr>
+<tr class="even">
+<td>Hospital overhead costs @ 53.98%</td>
+<td style="text-align: right;">$ 3.16</td>
+</tr>
+<tr class="odd">
+<td>Full cost (incl. overhead)</td>
+<td style="text-align: right;">$ 9.00</td>
+</tr>
+<tr class="even">
+<td>Profit</td>
+<td style="text-align: right;">$ 9.00</td>
+</tr>
+<tr class="odd">
+<td>Price (per dose)</td>
+<td style="text-align: right;">$18.00</td>
+</tr>
+</tbody>
+</table>
+<p>Is this an informative price?</p>
+</section>
+
+<section id="cost-allocation-is-an-old-question"
+class="title-slide slide level2">
+<h2>Cost allocation is an old question</h2>
 <blockquote>
 <p>Indirect expense is one of the most important of all the accounts
 appearing on the books of the manufacturer. Methods of handling its
@@ -227,7 +262,8 @@ It is the rock upon which many a ship of industry has been wrecked.</p>
 <ul>
 <li>Thompson (1916)</li>
 </ul>
-</section></section>
+</section>
+
 <section id="consider-a-manufacturing-firm"
 class="title-slide slide level2">
 <h2>Consider a manufacturing firm</h2>
@@ -247,7 +283,7 @@ product.</p>
 class="title-slide slide level2">
 <h2>Reasons to allocate costs</h2>
 <ol type="1">
-<li>External reporting</li>
+<li>External reporting (IFRS, GAAP, also fraud)</li>
 <li>Taxes</li>
 <li>Cost-based contracts (esp. gov contracting)</li>
 <li>Decision making</li>
@@ -289,7 +325,6 @@ service centrally.</li>
 </ul>
 </section>
 
-<section>
 <section id="consider-the-following" class="title-slide slide level2">
 <h2>Consider the following:</h2>
 <ul>
@@ -300,8 +335,10 @@ centers</li>
 <li>Managers are compensated based on profits</li>
 </ul>
 </section>
-<section id="how-do-we-treat-common-costs" class="slide level3">
-<h3>How do we treat common costs?</h3>
+
+<section id="how-do-we-treat-common-costs"
+class="title-slide slide level2">
+<h2>How do we treat common costs?</h2>
 <ul>
 <li>If we deduct common costs from the manager’s profits they will try
 to reduce common costs</li>
@@ -312,16 +349,9 @@ consumption of the common costs</li>
 <li>Allocating common costs is widespread, and limits over consumption
 of common resources</li>
 </ul>
-</section></section>
-<section id="what-is-next" class="title-slide slide level2">
-<h2>What is next?</h2>
-<ul>
-<li>For students that missed class on Tuesday there will be a make-up
-solution checking session tonight from 6:30-7:30 in LSK 1026.</li>
-<li>One week from Thursday we will start our discussion of allocation
-methods, starting with insulating vs. non-insulating allocations, and
-moving into chapter 8.</li>
-</ul>
+<!-- ## What is next? -->
+<!-- - For students that did not attend the in-class exam paper checking session I will be available next class on Tuesday there will be a make-up solution checking session tonight from 6:30-7:30 in LSK 1026. -->
+<!-- - One week from Thursday we will start our discussion of  allocation methods, starting with insulating vs. non-insulating allocations, and moving into chapter 8. -->
 </section>
     </div>
   </div>

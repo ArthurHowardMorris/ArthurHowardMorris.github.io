@@ -1,7 +1,7 @@
 ---
 title: '2022-10-10'
 categories:
-  - coding
+  - code
 tags: 
   - install
   - stata
