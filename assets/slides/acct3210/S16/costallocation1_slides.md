@@ -30,7 +30,7 @@ title: "Cost Allocation Theory"
 
 - We want to track all costs, but cost allocations focus on _common, indirect,
   and overhead costs_ (all related terms)
-- We allocate direct costs, well directly to the activities or products that
+- We allocate direct costs __directly__ to the activities or products that
   consume them.
 
 ## Cost allocation
