@@ -4,6 +4,8 @@ title: "Cost Allocation in Practice"
 
 # Insulating and non-insulating allocations
 
+- Key distinction: Is the manager's pay impacted by the allocation?
+
 ### Allocating common costs
 
 - __Common costs:__ arise when it is less expensive to provide an internal
