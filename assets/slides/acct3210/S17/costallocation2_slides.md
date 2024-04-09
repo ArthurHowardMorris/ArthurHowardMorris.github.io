@@ -249,11 +249,13 @@ __Service department costs:__
 
 |          | Cars               | Trucks             | Tot Alloc | Tot Incur | Tot Unalc |
 |----------|--------------------|--------------------|-----------|-----------|-----------|
-| Telecoms | \$O.8              | \$0.6              | \$1.4     | \$2.0     | \$0.6     |
+| Telecoms | \$0.8              | \$0.6              | \$1.4     | \$2.0     | \$0.6     |
 |          | (40% $\times$ \$2) | (30% $\times$ \$2) |           |           |           |
 | IT       | \$2.1              | \$1.5              | \$3.6     | \$6.0     | \$2.4     |
 |          | (35% $\times$ \$6) | (25% $\times$ \$6) |           |           |           |
 | Total    |                    |                    | \$5.0     | \$8.0     | \$3.0     |
+
+_(Dollars are in millions)_ 
 
 ### Direct allocation method:
 
@@ -284,7 +286,7 @@ service department.
 
 ### Step-down method
 
-![The step-down method](step.png)
+![The step-down method](step.png){width=75%}
 
 ### Step-down shares (start w/ Tele)
 
