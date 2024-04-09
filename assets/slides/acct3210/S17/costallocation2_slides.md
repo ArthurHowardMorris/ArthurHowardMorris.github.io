@@ -286,7 +286,7 @@ service department.
 
 ### Step-down method
 
-![The step-down method](step.png){width=75%}
+![The step-down method](step.png){width=50%}
 
 ### Step-down shares (start w/ Tele)
 
