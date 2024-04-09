@@ -53,7 +53,7 @@ An allocation base or cost driver is the metric used to allocate costs (like the
 
 - the choice of driver can either insulate the manager's pay from the cost or not.
 
-### __A. Noninsulating method__
+### __A. Non-insulating method__
 
 A noninsulating method uses a driver that varies with the manager's performance
 measures (e.g. div. operating income)
@@ -64,7 +64,7 @@ measures (e.g. div. operating income)
 | Allocated costs | (800)    | (800)    | (900)    | (200)    |
 | Net income      | \$7,200  | \$7,200  | \$8,100  | \$1,800  |
 
-This is a tax on operating income. 
+This is a tax on operating income.
 
 ### __B. Insulating method__ 
 
@@ -77,6 +77,8 @@ performance measures (e.g. floorspace).
 | Allocated costs | (600)    | (400)    | (600)    | (400)    |
 | Net income      | \$7,400  | \$7,600  | \$8,400  | \$1,600  |
 
+This is a tax on floorspace.
+
 ### Allocations in practice
 
 - the allocation bases chosen (what to tax) affect the use of
@@ -86,13 +88,14 @@ performance measures (e.g. floorspace).
 
 ## Death spiral
 - can occur when common costs consist primarily of fixed costs and users have
-  discretion over their use of the product or service
+  discretion over their use of the common product or service.
 
 ### Steps in the death spiral:
 
 1. The death spiral occurs when cost allocation reduces utilization of a
    common resource (with significant fixed costs).
-2. This creates excess capacity.
+   - i.e. the common cost is taxed, so it's utilization falls.
+2. This creates excess capacity. Now the fixed cost is spread over fewer units of the allocation base.
 3. This increases the allocation rate for the remaining users (increasing
    the 'tax' rate), which further reduces utilization.
 
@@ -113,7 +116,7 @@ performance measures (e.g. floorspace).
   charged back to departments using the aircraft, while fixed costs were not
   (pilot salaries, maintenance costs, hangar rental, and insurance).
 
-These costs are all variable, so no danger (figurative)
+These costs are all variable, so no (figurative) danger
 
 ### Death Spiral (not literal) in Corporate Jets
 
@@ -121,8 +124,8 @@ These costs are all variable, so no danger (figurative)
   target was to cut corporate jet usage by allocating the fixed costs along
   with the direct costs of operating the aircraft. 
 
-This makes sense, but not we are allocating fixed costs, and managers can
-choose how much to use!
+This makes sense, but now we are allocating fixed costs, and managers can
+choose how much to use! __But their choice does not change the fixed costs.__ 
 
 
 ### Death Spiral (not literal) in Corporate Jets
@@ -182,7 +185,7 @@ expense of underutilizing the asset after acquisition.
 
 Most firms charge users for depreciation.
 
-### Control is the habit of financial accounting systems
+### Control of overinvestment is the habit of financial accounting systems
 
 - Control of the overinvestment problem tends to dominate decision-making
   errors involving asset utilization (the death spiral). 
@@ -221,7 +224,7 @@ Now that we're clear on all the things that can go wrong, lets try to do it!
 
 
 ### Allocating service department costs
-![Usage flows among N service departments and M production departments.](alloc.png)
+![Usage flows among N service departments and M production departments.](alloc.png){width=75%}
 
 ## Example:
 
