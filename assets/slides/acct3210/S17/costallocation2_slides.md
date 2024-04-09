@@ -33,17 +33,18 @@ title: "Cost Allocation in Practice"
 ### How should we interpret the _status quo_?
 
 _"Most firms allocate common costs, presumably to prevent individual divisions
-from overconsuming the common resource."_
+from overconsuming the common resource."_ (Zimmerman Textbook)
 
 - and yet, forcing firms to adopt cost accounting systems improves their
   performance, suggesting that _some_ firms may just be using allocations from
-  financial or tax accounting.
+  financial or tax accounting. ([Samuels, 2021](https://publications.aaahq.org/accounting-review/article/96/1/401/4242/Government-Procurement-and-Changes-in-Firm))
 
-### To allocate we need an allocation base:
+### To allocate we need an _allocation base/cost driver_:
+
+An allocation base or cost driver is the metric used to allocate costs (like the aspirin in the hospital example).
 
 - Choosing an allocation base is one of the most important topics in all of
-  accounting.
-- To do it you need to analyze processes, data, and incentives.
+  accounting. Choosing correctly requires analysis of processes, data, and incentives.
 - This focus on this critical aspect of accounting is missing from most texts
   and this course.
 - In this lecture we will consider the consequences of these choices.
