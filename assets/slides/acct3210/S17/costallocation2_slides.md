@@ -2,11 +2,11 @@
 title: "Cost Allocation in Practice"
 ---
 
-# Insulating and non-insulating allocations
+<!-- # Insulating and non-insulating allocations -->
 
-- Key distinction: Is the manager's pay impacted by the allocation?
+<!-- - Key distinction: Is the manager's pay impacted by the allocation? -->
 
-### Allocating common costs
+## Allocating common costs
 
 - __Common costs:__ arise when it is less expensive to provide an internal
   product or service centrally.
@@ -53,7 +53,7 @@ An allocation base or cost driver is the metric used to allocate costs (like the
 
 ## Insulating and non-insulating allocations
 
-- the choice of driver can either insulate the manager's pay from the cost or not.
+- the choice of driver can either _insulate_ the manager's pay from the cost or not.
 
 ### __A. Non-insulating method__
 
@@ -88,11 +88,11 @@ This is a tax on floorspace.
 - cost allocations also create incentives to cooperate.
 - cost allocations can distort reported performance
 
-## Death spiral
+# Death spiral
 - can occur when common costs consist primarily of fixed costs and users have
   discretion over their use of the common product or service.
 
-### Steps in the death spiral:
+## Steps in the death spiral:
 
 1. The death spiral occurs when cost allocation reduces utilization of a
    common resource (with significant fixed costs).
@@ -158,7 +158,7 @@ If you are not careful, you might use arithmetic to convince yourself that addin
 
 No production decision, other than actually changing the fixed costs themselves, can change fixed costs.
 
-### Allocating capacity cost: depreciation
+# Allocating capacity cost: depreciation
 
 - Not allocating some (or all) of the fixed cost can reduce the death spiral.
 - For example, allocate only the fixed cost of the capacity actually being used. 
@@ -166,28 +166,28 @@ No production decision, other than actually changing the fixed costs themselves,
 - However, this solution to the death spiral creates other concerns.
 
 
-### Allocating capacity cost: depreciation
+## Allocating capacity cost: depreciation
 
 - How much of the existing common resource should each user use? 
 - The current capacity level was chosen for some reason!
 - If excess capacity exists, any charge discourages its use. 
 - Allocating accounting depreciation to users commits them to recovering at least the historical cost of the asset.
 
-### The trade-off 
+## The trade-off 
 
 When allocating depreciation the firm trades off:
 
 - the efficient investment in the common resource and
 - its efficient utilization after acquisition.
 
-### On one hand... on the other hand:
+## On one hand... on the other hand:
 
 Charging depreciation helps control the overinvestment problem, but at the
 expense of underutilizing the asset after acquisition. 
 
 Most firms charge users for depreciation.
 
-### Control of overinvestment is the habit of financial accounting systems
+## Control of overinvestment is the habit of financial accounting systems
 
 - Control of the overinvestment problem tends to dominate decision-making
   errors involving asset utilization (the death spiral). 
@@ -195,7 +195,7 @@ Most firms charge users for depreciation.
   confronted with a choice between control and decision making.
 - This doesn't mean that it is the optimal decision.
 
-## Getting this right matters!
+# Getting this right matters!
 
 ## Cost Allocations at IBM: 
 
@@ -220,7 +220,7 @@ But in 1992, "as IBM began to move away from its funny allocation system, IBM
 disclosed that its PC business was unprofitable." In 2004, IBM sold its PC
 division to China-based Lenovo Group for \$1.75 billion.
 
-## Allocating service department costs
+# Allocating service department costs
 
 Now that we're clear on all the things that can go wrong, lets try to do it!
 
@@ -228,7 +228,7 @@ Now that we're clear on all the things that can go wrong, lets try to do it!
 ### Allocating service department costs
 ![Usage flows among N service departments and M production departments.](alloc.png){width=75%}
 
-## Example:
+# Example:
 
 __Capacity of service departments used:__
 
@@ -286,7 +286,7 @@ departments and therefore incorrectly states the opportunity cost of each
 service department.
 
 
-### Step-down method
+## Step-down method
 
 ![The step-down method](step.png){width=50%}
 
