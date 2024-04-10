@@ -89,10 +89,13 @@ This is a tax on floorspace.
 - cost allocations can distort reported performance
 
 # Death spiral
-- can occur when common costs consist primarily of fixed costs and users have
+
+- A feedback loop leading to inefficient outcomes, sometimes bankruptcy.
+- Result of 'cost' reduction incentives, which do not actually reduce costs.
+- Arise when common costs consist primarily of fixed costs and users have
   discretion over their use of the common product or service.
 
-## Steps in the death spiral:
+### Steps in the death spiral:
 
 1. The death spiral occurs when cost allocation reduces utilization of a
    common resource (with significant fixed costs).
@@ -180,7 +183,7 @@ When allocating depreciation the firm trades off:
 - the efficient investment in the common resource and
 - its efficient utilization after acquisition.
 
-## On one hand... on the other hand:
+### On one hand... on the other hand:
 
 Charging depreciation helps control the overinvestment problem, but at the
 expense of underutilizing the asset after acquisition. 
@@ -189,11 +192,13 @@ Most firms charge users for depreciation.
 
 ## Control of overinvestment is the habit of financial accounting systems
 
-- Control of the overinvestment problem tends to dominate decision-making
-  errors involving asset utilization (the death spiral). 
-- This is another example of how accounting systems tend to favor control when
-  confronted with a choice between control and decision making.
-- This doesn't mean that it is the optimal decision.
+- Full absorption costing allocates fixed costs, and is the default accounting system.
+<!-- - Allocation of fixed costs addresses the overinvestment problem. -->
+- Control of the overinvestment problem dominates decision-making by default.
+- Thus, errors involving asset under-utilization (the death spiral) are the probable failure mode. 
+<!-- - This is another example of how accounting systems tend to favor control when -->
+  <!-- confronted with a choice between control and decision making. -->
+<!-- - This doesn't mean that it is the optimal decision. -->
 
 # Getting this right matters!
 
