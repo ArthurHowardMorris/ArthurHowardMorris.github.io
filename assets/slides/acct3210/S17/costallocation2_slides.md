@@ -306,6 +306,8 @@ service department.
 | IT       |                  None | 35%/60% | 25%/60% |       |
 |          |                       |  = 7/12 |  = 5/12 | 100%  |
 
+_In this step we allocate the cost of Telecoms to __IT__, Cars, and Trucks. So IT includes the cost of Telecoms when we allocate it to Cars and Trucks._
+
 ### Step-down allocations
 
 |          | Costs to Allocate |               IT |                  Cars |                Trucks | Total Alloc. |
