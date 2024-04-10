@@ -202,24 +202,26 @@ Most firms charge users for depreciation.
 
 # Getting this right matters!
 
-## Cost Allocations at IBM: 
+- Who has used a Lenovo ThinkPad?
+
+## Example: Cost Allocations at IBM: 
 
 During the 1980s and early 1990s, IBM had the policy of allocating costs from
 one line of business to another. Managers in those lines of business constantly
 argued that some of their overhead should be carried by other IBM businesses. 
 
-## Cost Allocations at IBM: 
+### Example: Cost Allocations at IBM: 
 
 IBM also typically allocated all of the R&D of a
 new technology to the line of business first using the technology, and
 subsequent users were able to utilize it for free. 
 
-## Cost Allocations at IBM: 
+### Example: Cost Allocations at IBM: 
 
 This cost allocation system masked the true profitability of many IBM
 businesses for years. IBM claimed it was making money in its PC business. 
 
-## Cost Allocations at IBM: 
+### Example: Cost Allocations at IBM: 
 
 But in 1992, "as IBM began to move away from its funny allocation system, IBM
 disclosed that its PC business was unprofitable." In 2004, IBM sold its PC
