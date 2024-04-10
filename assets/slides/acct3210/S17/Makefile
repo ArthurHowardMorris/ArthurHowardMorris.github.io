@@ -1,15 +1,15 @@
 ## all                             : makes slides and handouts from costallocation2_slides.md
-output =  costallocation2_slides.html costallocation2_slides.pdf costallocation2_slides_handouts.pdf 
+output =  costallocation2_slides.pdf costallocation2_slides_handouts.pdf # costallocation2_slides.html 
 input = costallocation2_slides.md styles.html
 
 .PHONY : all
 all: $(output) $(input) push
 
 ## costallocation2_slides.html     : generate html slides
-costallocation2_slides.html: costallocation2_slides.md styles.html
-	pandoc -t revealjs -s costallocation2_slides.md -o costallocation2_slides.html \
-		-H styles.html  --slide-level 3 ; \
-	open costallocation2_slides.html
+# costallocation2_slides.html: costallocation2_slides.md styles.html
+# 	pandoc -t revealjs -s costallocation2_slides.md -o costallocation2_slides.html \
+# 		-H styles.html  --slide-level 3 ; \
+# 	open costallocation2_slides.html
 
 ## costallocation2_slides.pdf	  : generate pdf slides 
 costallocation2_slides.pdf: costallocation2_slides.md 
