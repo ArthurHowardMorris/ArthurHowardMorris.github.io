@@ -383,7 +383,7 @@ Management decides that they were vegan all along and start selling cans of air 
 - consider the opportunity costs! What are the benefits foregone?
 
 ## Net realizable value
-- the benefit foregone if we do no process further
+- the benefit foregone if we do not process further
 - this is the only metric we should use __when considering elimination of joint products__.
 - other transfer prices may be used to align decisions with company goals.
 
