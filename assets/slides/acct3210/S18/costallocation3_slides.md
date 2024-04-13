@@ -50,11 +50,12 @@ title: "Proper cost allocation of support departments."
 
 ### Cost allocated per phone
 
-|                          | Direct              | Step, Telecomm first | Step, IT first           |
-|--------------------------|---------------------|----------------------|--------------------------|
-| Cost per phone           | \$2M/2,100 = \$ 952 | \$2M/2,700 = \$ 741  | \$3.765M/2,100 = \$1,793 |
-| Number of phones: Cars   | 1,200               | 1,200                | 1,200                    |
-| Telecoms charged to Cars | \$1.143             | \$0.889              | \$ 2.151                 |
+|                          | Direct       | Step, Telecomm first | Step, IT first   |
+|--------------------------|--------------|----------------------|------------------|
+| Cost per phone           | \$2M/2,100 = | \$2M/2,700 =         | \$3.765M/2,100 = |
+|                          | \$ 952       | \$ 741               | \$1,793          |
+| Number of phones: Cars   | 1,200        | 1,200                | 1,200            |
+| Telecoms charged to Cars | \$1.143      | \$0.889              | \$ 2.151         |
 
 
 ### Does the order matter?
@@ -304,7 +305,7 @@ np.linalg.solve(lhs,rhs)
 
 > _The fact that we observe infrequent use of the reciprocal method suggests
 > that accounting's primary focus is not decision making, but rather some other
-> purpose such as decision control, financial reporting, or taxes.
+> purpose such as decision control, financial reporting, or taxes._ 
 
 # Joint costs
 
