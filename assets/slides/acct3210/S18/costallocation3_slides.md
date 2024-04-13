@@ -50,12 +50,12 @@ title: "Proper cost allocation of support departments."
 
 ### Cost allocated per phone
 
-|                          | Direct       | Step, Telecomm first | Step, IT first   |
-|--------------------------|--------------|----------------------|------------------|
-| Cost per phone           | \$2M/2,100 = | \$2M/2,700 =         | \$3.765M/2,100 = |
-|                          | \$ 952       | \$ 741               | \$1,793          |
-| Number of phones: Cars   | 1,200        | 1,200                | 1,200            |
-| Telecoms charged to Cars | \$1.143      | \$0.889              | \$ 2.151         |
+|                          |       Direct | Step, Telecomm first |   Step, IT first |
+|--------------------------|-------------:|---------------------:|-----------------:|
+| Cost per phone           | \$2M/2,100 = |         \$2M/2,700 = | \$3.765M/2,100 = |
+|                          |       \$ 952 |               \$ 741 |          \$1,793 |
+| Number of phones: Cars   |        1,200 |                1,200 |            1,200 |
+| Telecoms charged to Cars |      \$1.143 |              \$0.889 |         \$ 2.151 |
 
 
 ### Does the order matter?
