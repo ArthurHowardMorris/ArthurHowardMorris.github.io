@@ -15,6 +15,7 @@ We allocate costs for several reasons:
 - taxes
 
 If you take one thing from this course it is the following:
+
 - __Do not assume that numbers produced for external reporting are useful for internal decisions.__
 <!-- note for the future, we need to emphasize that the point of this course is to get people to stop using external numbers for internal decisions. -->
 ### Absorption costing: key features
