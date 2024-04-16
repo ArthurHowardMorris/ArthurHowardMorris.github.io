@@ -53,16 +53,16 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 
 - Useful when production is a _process_ that produces identical units.
 - Liquids like petrol, aftershave, perfume, and orange juice are classic examples.
-- We track three batches of product: 
+- We track product in three places:
 1. beginning work-in-process inventory, 
 2. units started and finished this period, and 
 3. ending work-in-process inventory.
 
 ### Conversion costs
 
-- these are the cost we need to _allocate_
 - capture the cost of __converting__ direct materials into finished goods
 - labor and overhead (these may or may not be fixed)
+- these are the cost we need to _allocate_
 
 ### Equivalent units
 
@@ -77,11 +77,15 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 | Units started        | 15,000  |                |                |
 | Units to account for | 15,000  |                |                |
 
+_Note: E.U. is 'equivalent units.'
+
 ### WIP-Effective Units
 
 |                               | Gallons | E.U Conversion | E.U. Materials |
 |-------------------------------|---------|----------------|----------------|
 | Work-In-Process, ending (50%) | 2,000   | ?              | ?              |
+
+_What information do we have to help us fill in this table?_
 
 ### WIP-Effective Units
 
@@ -97,7 +101,7 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 |-------------------------------|---------|-------------------|----------------|
 | Work-In-Process, ending (50%) | 2,000   | .5 $\times$ 2,000 | 2,000          |
 
-> conversion costs are incurred uniformly over time.
+> Conversion costs are incurred uniformly over time.
 
 
 ### Units accounted for 
@@ -118,8 +122,15 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 
 ### Overhead rate:
 
-- the conversion cost per equivalent unit is where the overhead allocation occurs.
-- adjusting this rate in response to short-term changes in production can cause a death spiral! 
+- The conversion cost per equivalent unit is where the overhead allocation
+   occurs.
+- Adjusting this rate in response to short-term changes in production can cause
+   a death spiral! 
+   - For example: Imagine that your machinery breaks and you end up incurring
+      that same conversion costs (labor and overhead) such that only 7,000
+      effective units have been converted, but for the same cost. Now the
+      conversion cost is \$4.00 per unit. Should you use this number for future
+      planning? Or should you continue using \$2.00.
 
 ### Cost of inventory and transfer to finished goods
 
@@ -138,8 +149,11 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 
 ### But what are the \$2.00 and \$3.00 amounts doing?
 
-- If we are doing tax or financial accounting then they just track the flow of costs through the firm, and link them to revenue. (important but not interesting)
-- What if we are trying to use these numbers to communicate information to internal decision makers?
+- If we are doing tax or financial accounting then they just track the flow of
+   costs through the firm, and link them to revenue. (important but not
+   interesting)
+- What if we are trying to use these numbers to communicate information to
+   internal decision makers?
 - Can we use these numbers to align incentives?
 - What does a cost number communicate if you use it internally?
 - _It should capture the marginal cost of the decision to produce._ Does it?
@@ -149,8 +163,9 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 
 ### Job order costing
 
-- classic example is shipbuilding
-- products are produced in batches which each require different raw materials and classes of labor
+- Classic example is shipbuilding.
+- Products are produced in batches which each require different raw materials
+   and classes of labor.
 
 ### Kitchen Rite
 
@@ -164,8 +179,8 @@ used to produce only this one chassis model.
 
 ### Job cost sheet
 
-The following job order cost
-sheet summarizes the costs of producing a single chassis.
+The following job order cost sheet summarizes the costs of producing a single
+chassis.
 
 |                           | Cost per Unit |
 |---------------------------|---------------|
@@ -220,7 +235,7 @@ This problem illustrates that not all direct labor costs are incremental and not
 
 ### Current cash flows
 
-The current cash flows of manufacturing the chassis per unit are:
+The current cash outflows of manufacturing the chassis per unit are:
 
 |                           |         |
 |---------------------------|---------|
@@ -234,7 +249,7 @@ The current cash flows of manufacturing the chassis per unit are:
 | Total                     | \$11.00 |
 
 
-### Cash flows if we outsource
+### Cash outflows if we outsource
 
 |                                                   |          |
 |---------------------------------------------------|----------|
@@ -245,10 +260,16 @@ The current cash flows of manufacturing the chassis per unit are:
 
 ### Recommendation:
 
-__Do not outsource because the net cash flows of outsourcing are lower than continuing to manufacture the chassis internally.__
+__Do not outsource because the net cash flows of outsourcing are lower than
+continuing to manufacture the chassis internally.__
 
 ### Are these numbers that we can use?
 
 - For taxes, reporting, and contracting: YES.
 - For the outsourcing decision: NO!
-- These numbers do not capture the effect of production choices on cost.
+- Absorption costing (i.e. financial accounting) does not capture the effect of production choices on cost.
+- In general absorption costing is _inappropriate_ for the following decisions:
+   - Choice to process further.
+   - Discontinuing a product line (closing a division).
+   - Outsourcing a process.
+
