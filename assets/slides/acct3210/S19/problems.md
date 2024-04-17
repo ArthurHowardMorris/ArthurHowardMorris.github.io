@@ -25,7 +25,7 @@ If you take one thing from this course it is the following:
 - differentiates costs for products still in process, finished and sold
 - inherently backward looking
 - useful (and required) for financial accounting
-- inclusion of fix costs requires care if used for decision making
+- inclusion of fixed costs requires care if used for decision making
 
 ## DeJure Scents
 
@@ -81,7 +81,7 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 | Units started        | 15,000  |                |                |
 | Units to account for | 15,000  |                |                |
 
-_Note: E.U. is 'equivalent units.'
+_Note: E.U. is 'equivalent units.'_
 
 ### WIP-Effective Units
 
