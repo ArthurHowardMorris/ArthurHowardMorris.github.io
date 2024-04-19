@@ -32,6 +32,7 @@ Peak 32 sunglasses. Aspen View uses variable costing to value its ending invento
 - Fixed costs do not get absorbed into inventory.
 
 ### Q1:
+
 What is Aspen View's ending inventory value of Peak 32 sunglasses?
 
 ### Q1: Solution
@@ -202,7 +203,7 @@ income increases from $165,000 to $505,000.
 - Contract allocation of fixed costs internally (managers must forecast and pay no matter what happens in the future).
 - Other alternatives?
 
-## Naviski
+## Navisky
 
 Navisky designs, manufactures, and sells specialized GPS (global positioning
 system) devices for commercial applications.
