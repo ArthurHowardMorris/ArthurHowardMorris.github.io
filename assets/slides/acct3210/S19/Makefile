@@ -16,7 +16,7 @@ problems.pdf: problems.md
 	pandoc problems.md --dpi=300 --slide-level 3 -V \
 		classoption:aspectratio=169 -t beamer -o \
 		problems.pdf 
-	open problems.pdf                                                       
+	open problems.pdf
 
 ## problems_handouts : generate pdf handouts 
 problems_handouts.pdf: problems.md 
