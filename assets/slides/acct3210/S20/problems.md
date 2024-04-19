@@ -1,5 +1,5 @@
 ---
-title: "Absorption costing problems"
+title: "Absorption vs. Variable costing problems"
 ---
 
 ### 10-8 Aspen View
