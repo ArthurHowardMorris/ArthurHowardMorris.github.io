@@ -439,9 +439,9 @@ his bonus is lower.
   left.
 
 ## Looking backward, looking forward.
-- We may look back on this semester as an inflection point in the history of education for two reasons:
+- We may look back on this period as an inflection point in the history of education for two reasons:
 
-1. Return to in-person teaching.
+1. Post-COVID return to in-person teaching.
 2. Beginning the A.I. Conversation.
 
 - So I want to start the talk today by looking back at what I think is important.
