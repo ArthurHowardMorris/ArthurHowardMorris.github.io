@@ -76,7 +76,6 @@ larger production? Explain.
 - Assuming constant variable cost per unit, income would have been lower.
 - With fewer units produced, less fixed costs would have been allocated to the
   ending inventory under absorption costing. 
-- The preceding statement assumes variable cost per unit is constant.
 
 ### Q4:
 
