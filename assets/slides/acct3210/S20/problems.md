@@ -118,6 +118,8 @@ following summarizes the cost structure of the telecom division.
 | Variable period costs (per units) | \$18.00     |
 | Fixed period costs                | \$1,900,000 |
 
+- Period costs are paid periodically (i.e. monthly), but can be fixed or variable.
+
 ### Q1:
 
 - Calculate the net income of the telecom division (before taxes) using
@@ -143,6 +145,8 @@ following summarizes the cost structure of the telecom division.
 | Variable period cost         | 1,800,000     |
 | Fixed period cost            | 1,900,000     |
 | Net income                   | __\$165,000__ |
+
+Notice that we are tracking fixed cost, but not on a unit basis. 
 	
 ### Q2:
 
