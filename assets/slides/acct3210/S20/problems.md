@@ -463,6 +463,8 @@ A topic that we have not covered explicitly in this course.
    responsibility!
 3. Our task is to find simple expression of complex systems.
 
+- Note that simplicity need not be reductive; the sufficient number of dimensions of controls for a train is one, two for a car, three for an airplane. 
+
 ## Second, Transparency.
 
 1. Being able to show your work is, at this stage, a form of communication. To
