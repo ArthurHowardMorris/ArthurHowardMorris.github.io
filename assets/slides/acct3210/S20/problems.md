@@ -202,8 +202,12 @@ income increases from $165,000 to $505,000.
 
 ### Are there alternatives?
 
+- What creates the problem here?
+  - The division is able to pass off through internal sales (make sure that you can see this transfer).
 - Simply centralize outsourcing decisions!
-- Contract allocation of fixed costs internally (managers must forecast and pay no matter what happens in the future).
+- Contract allocation of costs internally. 
+  - Managers must forecast and pay no matter what happens in the future). 
+  - Managers only get to pass off planned costs.
 - Other alternatives?
 
 ## Navisky
