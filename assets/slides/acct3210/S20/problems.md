@@ -289,9 +289,9 @@ Navisky produce if he expects to sell 1,200 devices this year?
 | Revenue (assuming sales of 1200 units) | €6,600,000  | €6,600,000  | €6,600,000  | €6,600,000  |
 | Cost of goods sold:                    |             |             |             |             |
 | Variable mfg cost                      | (456,000)   | (456,000)   | (456,000)   | (456,000)   |
-| Fixed mfg overhead                     | (2,700,000) | (2,492,308) | (2,400,000) | (2,382,353) |
+| Fixed mfg overhead                     | __(2,700,000)__ | __(2,492,308)__ | __(2,400,000)__ | __(2,382,353)__ |
 
-_this is the classic absorption costing problem_
+_This is the classic absorption costing problem._
 
 ### Q1: Solution
 
