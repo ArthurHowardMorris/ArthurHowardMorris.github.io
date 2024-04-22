@@ -242,7 +242,7 @@ conglomerate.
   between €850,000 and €1,400,000.
 - If actual earnings exceed €1,400,000, the bonus is capped at: 
 
-$$27,500 [5\% \times  (1,400,000 - 850,000)]$$
+$$27,500 = [5\% \times  (1,400,000 - 850,000)]$$
 
 - (Earnings, both actual and target, are before taxes.)
 
