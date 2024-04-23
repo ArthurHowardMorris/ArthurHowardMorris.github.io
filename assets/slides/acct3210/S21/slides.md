@@ -123,11 +123,11 @@ Examples:
 
 ### Absorption costing schematic
 
-![Absorption costing](eleventwo.png){ width=50%}
+![Absorption costing](eleventwo.png){ width=50% }
 
 ### ABC costing schematic
 
-![ABC](eleventhree.png)
+![ABC](eleventhree.png){ width=50% }
 
 ### Two questions:
 
