@@ -24,6 +24,17 @@ title: "Activity-Based Costing (ABC)"
     - Bad outsourcing choices
 2. Incentive to overproduce.
 
+### Alternatives have problems too:
+
+- Ignoring (i.e. not allocating) fixed costs leads to incentives to over invest.
+  - Not allocating makes the fixed costs seem free (_gratis_ not _libre_). May need to centralize investment decisions with this method as well.
+- Allocating fixed costs all at once (i.e. variable costing) may lead to underinvestment:
+  - The manager's horizon (i.e. planned career with the company) may not match the horizon of the company.
+  - Off-setting the reputation effects of reduced earnings may be hard.
+  - This leads to specialist managers (i.e. who specialize in executing large investments/restructuring).
+  - Also leads to direct incentives to invest. Executive compensation plans often specifically mention investments. This is a hybrid approach to centralizing the investment decision.
+
+
 ### One more problem: Inaccurate Product Costs
 
 - __multiple products__, absorption costing often does not
