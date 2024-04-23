@@ -23,7 +23,7 @@ title: "Activity-Based Costing (ABC)"
     - The death spiral
     - Bad outsourcing choices
 2. Incentive to overproduce.
-
+    - Earnings manipulation.
 ### Alternatives have problems too:
 
 - Ignoring (i.e. not allocating) fixed costs leads to incentives to over invest.
@@ -61,7 +61,7 @@ title: "Activity-Based Costing (ABC)"
 - Cost analysts attempt to identify cause-and-effect cost drivers for
   allocating overhead costs.
 - Reduces overhead cost pools that are allocated with an arbitrary allocation
-  base
+  base.
 
 ### Classifying ABC Cost Drivers
 
@@ -71,6 +71,17 @@ Classify cost drivers into one of four categories:
 2. Batch-level
 3. Product-level
 4. Production-sustaining
+
+
+### ABC isn't really anything new:
+
+- Indirect costs are classified as 'indirect' not because they are __impossible__ to directly track, but because they are __difficult__ to directly track. 
+- ABC is essentially the decision to track costs _more_ directly.
+- This has several effects:
+  - Some fixed overheads are not truely fixed (or overheads).
+  - Can reduce the portion of fixed costs in any one allocation, diffusing the perverse incentives we've been discussing.
+  - Most importantly, ABC can help isolate costs from production decisions.
+
   
 ### ABC allows us to isolate costs from production decisions
 
