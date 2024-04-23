@@ -95,7 +95,7 @@ Classify cost drivers into one of four categories:
 
 ### ABC allows us to isolate costs from production decisions
 
-- _Notice the separation of unit-level costs (and decisions) from batch, and product level decisions.__ 
+- _Notice the separation of unit-level costs (and decisions) from batch, and product level decisions._ 
 - More detailed cost allocation allows us to ignore fixed costs when we make _unit-level_ decisions and then consider them when we make decisions at other levels.
 - This allows us to consider the costs of investment decisions (i.e. fixed costs) when we make them, and set them aside when we do not.
 - Can help avoid the death spiral, and outsourcing mistakes.
