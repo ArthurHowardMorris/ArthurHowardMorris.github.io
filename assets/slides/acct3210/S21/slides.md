@@ -109,17 +109,24 @@ Classify cost drivers into one of four categories:
 
 Examples:
 
-- Direct labor and direct material
+- _Direct_ labor and _direct_ material
 - Machine servicing related to number of units produced
+
+### Unit-level Costs 
+
+- Very little fixed-cost is allocated to each unit!
+- What are the implications for:
+  - the death spiral?
+  - the overproduction (earnings manipulation) problem. 
 
 ### Batch-level Costs
 
-- __Batch-level costs__: activities that are performed once for each batch of products
+- __Batch-level costs__: activities that are performed once for each batch of products.
 - Batch-level costs are independent of the number of units in the batch.
 
 Examples:
 
-- Indirect labor, such as production supervisors
+- Indirect labor, such as production supervisors 
 - Machine set-ups
 - Moving batches
 
@@ -147,7 +154,7 @@ Examples:
 
 ### Example: ABC vs. Absorption
 
-- __Similarities:__ Direct and unit-level costs are allocated the same.
+- __Similarities:__ Direct and unit-level costs are allocated similarly.
 - __Differences:__ ABC allocates more indirect costs to products with smaller
   production volume and more complex set-up. This is _more accurate_.
 
@@ -170,6 +177,9 @@ When we answer these questions, we also have to make sure that we are
 accurately comparing the two methods. We want to achieve our goals with methods
 that are simple and transparent, but the methods we choose between must
 _actually achieve our goals_.
+
+- The minimum number of dimensions of control required to operate a system, __is determined by the system itself__.
+- Remember, planes, trains, and automobiles!
 
 ### Example: ABC vs. Absorption
 
@@ -212,6 +222,8 @@ direct labor cost. Kiddo uses LIFO.
 | Variable overhead        | 33,000,000    | 17,520,000    | 50,520,000    |
 | __Fixed overhead$^{*}$__ | 29,650,000    | 15,480,000    | 45,130,000    |
 | Net income               | \$ 4,350,000  | \$ 22,800,000 | \$ 27,150,000 |
+
+_Note: We will allocate FOH on the next few slides._
 
 ### Kiddo Inc Example: Year 1 Fixed Overhead rate 
 
@@ -269,6 +281,7 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 | __Fixed overhead$^{*}$__     | \$3,065,159   | \$1,599,213   | \$4,664,372   |
 | Net profit                   | \$ 13,571,028 | \$ 15,080,787 | \$ 28,651,815 |
 
+_Note: We will do these allocations on the following slides._ 
 ### Kiddo batch costs
 
 |                       | Runner       | Pump         |
@@ -278,6 +291,8 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 | ÷ Units per batch     | 1,000        | 500          |
 | Allocated batch costs | \$12,500,000 | \$12,000,000 |
 
+_Notice that we aren't estimating or deriving this rate, we are __observing__ it._ 
+
 ### Kiddo product-line costs
 
  |                          | Runner       | Pump         |
@@ -286,6 +301,8 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
  | ÷ Units produced         | 5,140,000    | 5,000,000    |
  | × Units sold             | 3,000,000    | 2,400,000    |
  | Allocated line costs     | \$ 4,863,813 | \$ 9,600,000 |
+
+_Notice that we aren't estimating or deriving this rate, we are __observing__ it._ 
 
 ### Kiddo Fixed Overhead Costs 
  
@@ -305,8 +322,8 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 - ABC improves pricing decisions because product costs are presumably more
   accurate estimates of opportunity cost. 
 - Low-volume high-complexity products should get higher prices or be dropped.
-  The benefit here is that this decision will be based on the actual avoidable
-  costs.
+  The benefit here is that this decision will be based on the actual __avoidable
+  costs__.
 - ABC focuses attention on reducing use of activities that are most associated
   with costs.
 
@@ -363,7 +380,8 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 - When data collection, management and analysis were expensive and difficult ABC was also expensive and difficult.
 - So, although many controllers were interested in ABC, adoption was slow.
 - Now, however, most companies already gather much of the needed information as a part of other systems.
-- Today, implementing ABC requires management and analysis of data generated throughout the organization. [ATK](https://www.google.com/maps/dir/Northrop+Grumman+Innovation+Systems,+9160+UT-83,+Corinne,+UT+84307,+United+States/Thiokol+Airport,+Howell,+UT,+USA/South+Jordan,+UT,+USA/@41.1309497,-113.4849556,8z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x8753600f58990353:0x7fe5d3fd145c71bd!2m2!1d-112.4410895!2d41.6595695!1m5!1m1!1s0x8754b06ca20133f5:0xb8e5325871588433!2m2!1d-112.4466328!2d41.7138145!1m5!1m1!1s0x875285898dabc993:0xf566008fdec9b355!2m2!1d-111.929658!2d40.5621704!3e0)
+- Today, implementing ABC requires management and analysis of data generated throughout the organization.
+- Much of the writing in textbooks and on the internet references old information systems. [__ Consider ATK (link).__](https://www.google.com/maps/dir/Northrop+Grumman+Innovation+Systems,+9160+UT-83,+Corinne,+UT+84307,+United+States/Thiokol+Airport,+Howell,+UT,+USA/South+Jordan,+UT,+USA/@41.1309497,-113.4849556,8z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x8753600f58990353:0x7fe5d3fd145c71bd!2m2!1d-112.4410895!2d41.6595695!1m5!1m1!1s0x8754b06ca20133f5:0xb8e5325871588433!2m2!1d-112.4466328!2d41.7138145!1m5!1m1!1s0x875285898dabc993:0xf566008fdec9b355!2m2!1d-111.929658!2d40.5621704!3e0)
 
 ### ABC for strategic analysis rather than to replace absorption costing:
 
