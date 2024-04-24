@@ -24,6 +24,7 @@ title: "Activity-Based Costing (ABC)"
     - Bad outsourcing choices
 2. Incentive to overproduce.
     - Earnings manipulation.
+
 ### Alternatives have problems too:
 
 - Ignoring (i.e. not allocating) fixed costs leads to incentives to over invest.
