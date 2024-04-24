@@ -400,7 +400,7 @@ _Notice that we aren't estimating or deriving this rate, we are __observing__ it
 (Motivation versus Accuracy)
 
 - Cost allocations are an internal tax system that motivate mangers to use less of resources with high cost allocations. (Chapter 7).
-- Cycle time: Zytec uses total time to manufacture the product as its allocation base to motivate managers to reduce cycle time. 
+- Cycle time: [Zytec](https://zytecgermbuster.ca) uses total time to manufacture the product as its allocation base to motivate managers to reduce cycle time. 
 - Direct labor: Hitachi allocates overhead on direct labor hours so that managers improve automation as a way to eliminate costly direct labor.
 
 <!-- ### How does ABC relate to the cost functions we were writing in the beginning of the course? -->
