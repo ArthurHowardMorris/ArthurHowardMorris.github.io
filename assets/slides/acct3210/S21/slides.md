@@ -283,6 +283,7 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 | Net profit                   | \$ 13,571,028 | \$ 15,080,787 | \$ 28,651,815 |
 
 _Note: We will do these allocations on the following slides._ 
+
 ### Kiddo batch costs
 
 |                       | Runner       | Pump         |
