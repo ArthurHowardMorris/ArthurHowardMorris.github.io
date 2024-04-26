@@ -649,7 +649,8 @@ The static and flexible budgets will be used in the next lecture to decompose va
 ### Basic data:
 
 Basic Data for Budgeting Example for Fiscal Year Beginning 10/1/19:
-|                       | Cases  | Cost/Case |
+
+|                       | Cases  | Cost/Case |           |
 |-----------------------|--------|-----------|-----------|
 | Beginning Inventory   | 13,500 | \$57.96   | \$782,460 |
 | Sauce                 | 2,300  | \$48.81   | \$112,263 |
