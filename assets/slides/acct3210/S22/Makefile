@@ -1,5 +1,5 @@
 ## all                             : makes slides and handouts from slides.md
-output =  slides.html slides_handouts.pdf 
+output =  slides.pdf slides_handouts.pdf 
 input = slides.md styles.html
 
 .PHONY : all
