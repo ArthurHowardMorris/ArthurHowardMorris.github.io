@@ -414,6 +414,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 ### Logical flow
 
 ![Logical flow](apples.png){ height=75% }
+
 <!-- ![Logical flow](apples.png){ width=15% } -->
 <!-- ![ABC](elevenone.png){ width=75% } -->
 
