@@ -65,7 +65,7 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
 - Decision rights:    
   - Lower levels prepare initial budgets.
   - Higher levels review and ratify budget.
-  - _This process passes knowledge up the organization._ 
+  - _This process passes knowledge upward through the organization._ 
   
 ### Example: Private University
 
@@ -86,7 +86,7 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
 ### Example: Large Corporation
 
 - Knowledge:  
-  - Vertical transfers (lower to higher levels)
+  - Vertical transfers (upward from lower to higher levels)
   - Horizontal transfers (marketing to manufacturing)
   - Identify potential bottlenecks in production
   - Identify financing needs
@@ -230,6 +230,9 @@ _Modern firms use a mix of all of these types._
   - Key Solution:  Use a single standardized web page for data entry and
     automatic roll up to the company-wide budget.
 
+_Note: Similar to ABC, this is hard for companies with poor information systems
+and very natural for firms with modern information systems._
+
 ### Budget Lapsing
 
 __Budget lapsing is a requirement that funds allocated for a particular year
@@ -318,11 +321,11 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 | Loan Rate | Loan Demand  | Savings Rate | Savings Supply |
 |-----------|--------------|--------------|----------------|
-| 6%        | \$12,100,000 | 2            | \$ 4,700,000%  |
-| 7%        | 10,000,000   | 3            | 5,420,000      |
-| 8%        | 8,070,000    | 4            | 8,630,000      |
-| 9%        | 6,030,000    | 5            | 9,830,000      |
-| 10%       | 4,420,000    | 6            | 11,800,000     |
+| 6%        | \$12,100,000 | 2%           | \$ 4,700,000   |
+| 7%        | 10,000,000   | 3%           | 5,420,000      |
+| 8%        | 8,070,000    | 4%           | 8,630,000      |
+| 9%        | 6,030,000    | 5%           | 9,830,000      |
+| 10%       | 4,420,000    | 6%           | 11,800,000     |
 
 - There are no loans from previous years. Note that the department maintains a
   4 percent spread between loan and savings rates to cover processing, loan
@@ -397,7 +400,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses | Default Exp | Overhead Expenses |
 |-----------|-------------|--------------|----------------|-----------|---------------------|-------------|-------------------|
-| 6%        | \$12.1 M    | 2%           | \$ 4.7 M       | \$ 4.7 M  | \$70,500            | \$47,000    | \$30,000          |
+| 6%        | \$12.1M     | 2%           | \$ 4.7M        | \$ 4.7M   | \$70,500            | \$47,000    | \$30,000          |
 | 7%        | 10          | 3%           | 5.42           | 5.42      | 81,300              | 54,200      | 30,000            |
 | 8%        | 8.07        | 4%           | 8.63           | 8.07      | 121,050             | 80,700      | 30,000            |
 | 9%        | 6.03        | 5%           | 9.83           | 6.03      | 90,450              | 60,300      | 30,000            |
@@ -410,7 +413,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
   
 ### Logical flow
 
-![Logical flow](apples.png)
+![Logical flow](apples.png){ width=50% }
 
 ### SCB Question 2
 
