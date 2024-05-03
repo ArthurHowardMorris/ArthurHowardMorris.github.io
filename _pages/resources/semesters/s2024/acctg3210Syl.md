@@ -173,10 +173,13 @@ Exams will be conducted in-person and will be closed book.
       Please let the TA know if you have a conflict and we will make arrangements.
 
 - __Final Exam:__ <!-- The comprehensive final examination is scheduled from-->
-    The exam is closed book and communication with
-    others is cheating and not allowed. All students are required to take the final
-    exam at this pre-scheduled time, and there will be no make-up exam for it.
-    Students absent from the final exam will receive zero mark for this component. 
+   The exam is closed book and communication with others is cheating and not
+   allowed. All students are required to take the final exam at this pre-scheduled
+   time, and there will be no make-up exam for it. Students absent from the final
+   exam will receive zero mark for this component. The final exam is scheduled
+   from 8:30 AM to 11:30 AM on 29 May 2024 in the S H Ho Sports Hall. You will need
+   to present your student ID to take your exam.
+   
 
 ### Grading Scale:
 
@@ -289,11 +292,12 @@ in Section 2, and as an application of the tools presented in Section 1.
 | _Read:_         | Zimmerman, Chapter 6                                  |
 | __22. 29 Apr.__ | __Standard Costs and Variances__                      |
 | _Read:_         | Zimmerman, Chapters 12 and 13                         |
-|                 | _No Class on May 1_
+|                 | _No Class on May 1_ |
 | __23. 6 May.__  | _TBA_                                                 |
 | __24. 8 May.__  | __Final Review__ _in class_                           |
 | _Survey:_       | _Submit review topics for in-class discussion_        |
 | _TBA_           | __Final Exam__                                        |
+| 29 May 2024 | 8:30 AM to 11:30 AM in the S H Ho Sports Hall. |
 
 <!-- | _Case:_         | __C9:__ LSP Capsules                                         | -->
 <!-- | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         | -->
