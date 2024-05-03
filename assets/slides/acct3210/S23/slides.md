@@ -9,9 +9,9 @@ title: "Standard Costs and Variances"
 
 ### Logical flow
 
-<img src="apples.png" alt="Logical Flow" height="350" />
+<!-- <img src="apples.png" alt="Logical Flow" height="350" /> -->
 
-<!-- ![Logical flow](apples.png) -->
+![Logical flow](apples.png){ height=75% }
 
 ## Example: Sandy Cove Bank
 
@@ -297,7 +297,7 @@ _Note: I'll give you the relationship above, and you can either memorize or deri
 
 ### The algebra:
 
-- $TV = [(Q_a \times P_a)-(P_s \times Q_a)] +  [(P_s \times Q_a)-(Q_s \times P_s)$ 
+- $TV = [(Q_a \times P_a)-(P_s \times Q_a)] +  [(P_s \times Q_a)-(Q_s \times P_s)]$ 
 - $TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$
 
 ## The Price and Quantity Variances
