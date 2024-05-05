@@ -348,10 +348,10 @@ __We have other terms for the price and quantity of labor!:__
 
 ### Direct Labor Variance
 
-| Total Variance                      | Wage Variance                     | Efficiency Variance               |
-|-------------------------------------|-----------------------------------|-----------------------------------|
+|            Total Variance           | Wage Variance                     | Efficiency Variance               |
+|:-----------------------------------:|-----------------------------------|-----------------------------------|
 | $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a - W_s \times H_a$ | $W_s \times H_a - W_s \times H_s$ |
-| $[H_a(W_a-W_s)] +  [W_s(H_a-H_s)]$  | $H_a(W_a-W_s)$                    | $W_s(H_a-H_s)$                    |
+|  $[H_a(W_a-W_s)] +  [W_s(H_a-H_s)]$ | $H_a(W_a-W_s)$                    | $W_s(H_a-H_s)$                    |
 
 Why is the "Volume Variance" called the "Efficiency Variance" when we are talking about labor?
 
