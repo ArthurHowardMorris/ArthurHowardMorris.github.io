@@ -1,6 +1,6 @@
 ## all                             : makes slides and handouts from slides.md
 output =  slides.pdf slides_handouts.pdf 
-input = slides.md styles.pdf
+input = slides.md
 
 .PHONY : all
 all: $(output) $(input) push
