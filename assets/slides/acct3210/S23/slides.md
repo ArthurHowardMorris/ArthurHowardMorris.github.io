@@ -589,3 +589,13 @@ __Total Overhead Variance = Actual Overhead - Overhead Absorbed__
 | OVV | = |     |   |                     |   | FOH+(VOH$\times$SV) | - | $OHR \times SV$ |
 
 _FOH = Fixed Overhead, VOH = Variable Overhead __Rate___
+
+## Reminder: The Final Exam 
+
+__Location: S H Ho Sports Hall__ 
+
+__Date: 29 May 2024__ 
+
+__Time: 8:30 AM to 11:30 AM__ 
+
+Exam is comprehensive, and closed book. We will review for the exam on Wednesday.
