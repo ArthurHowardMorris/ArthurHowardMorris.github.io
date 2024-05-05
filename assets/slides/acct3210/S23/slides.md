@@ -555,6 +555,7 @@ $$AOH - (OHR \times SV) = AOH - (OHR \times SV)
 $$\$2,300,000 - \$2,291,600 = \$8,400
 
 __Interpretation:__
+
 - Overhead is 'Underabsorbed', if actual > absorbed
 - Overhead is 'Overabsorbed', if actual < absorbed
 
