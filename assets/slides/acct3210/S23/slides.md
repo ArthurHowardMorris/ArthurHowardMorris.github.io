@@ -588,3 +588,4 @@ __Total Overhead Variance = Actual Overhead - Overhead Absorbed__
 | OEV | = |     |   | FOH+(VOH$\times$AV) | - | FOH+(VOH$\times$SV) |   |                 |
 | OVV | = |     |   |                     |   | FOH+(VOH$\times$SV) | - | $OHR \times SV$ |
 
+_FOH = Fixed Overhead, VOH = Variable Overhead __Rate___
