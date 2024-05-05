@@ -495,7 +495,7 @@ _Remember that Flexible Budgets are always formulas._
 - Overhead rate is the total budgeted overhead dollars for the year divided by the budgeted volume for the year.
 
 $$OHR = (BOH  / BV) = (FOH / BV) + VOH$$
-$$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 67,000 hours + \$14
+$$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 67,000 hours + \$14$$
 $$OHR = 34$$
 
 ### The Overhead Rate Consists of Estimated:
