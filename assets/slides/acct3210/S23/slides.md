@@ -542,9 +542,7 @@ __Budgeted Volume (Using Expected Volume)-Toronto Engine Plant's Cylinder Boring
 - Overhead absorbed = Overhead rate $\times$ Standard volume = OHR $\times$ SV
   - Overhead absorbed = $34 $\times$ 67,400 machine hours = \$2,291,600
 
-### Actual Overhead Cost:
-
-__\$2,300,000__
+__Actual Overhead Cost Incurred: \$2,300,000__
 
 ## Total Overhead Variance
 
