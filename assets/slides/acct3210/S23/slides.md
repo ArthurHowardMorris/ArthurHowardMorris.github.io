@@ -125,7 +125,7 @@ title: "Standard Costs and Variances"
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses | Default Exp | Overhead Expenses |
 |-----------|-------------|--------------|----------------|-----------|---------------------|-------------|-------------------|
-| 6%        | \$12.1 M    | 2%           | \$ 4.7 M       | \$ 4.7 M  | \$70,500            | \$47,000    | \$30,000          |
+| 6%        | \$12.1M     | 2%           | \$ 4.7M        | \$4.7M    | \$70,500            | \$47,000    | \$30,000          |
 | 7%        | 10          | 3%           | 5.42           | 5.42      | 81,300              | 54,200      | 30,000            |
 | 8%        | 8.07        | 4%           | 8.63           | 8.07      | 121,050             | 80,700      | 30,000            |
 | 9%        | 6.03        | 5%           | 9.83           | 6.03      | 90,450              | 60,300      | 30,000            |
@@ -348,10 +348,11 @@ __We have other terms for the price and quantity of labor!:__
 
 ### Direct Labor Variance
 
-| Total Variance                      | Wage Variance                     | Efficiency Variance               |
-|-------------------------------------|-----------------------------------|-----------------------------------|
+|            Total Variance           | Wage Variance                     | Efficiency Variance               |
+|:-----------------------------------:|-----------------------------------|-----------------------------------|
 | $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a - W_s \times H_a$ | $W_s \times H_a - W_s \times H_s$ |
-| $[H_a(W_a-W_s)] +  [W_s(H_a-H_s)]$  | $H_a(W_a-W_s)$                    | $W_s(H_a-H_s)$                    |
+|          $[H_a(W_a-W_s)]+$          | $H_a(W_a-W_s)$                    | $W_s(H_a-H_s)$                    |
+|           $[W_s(H_a-H_s)]$          |                                   |                                   |
 
 Why is the "Volume Variance" called the "Efficiency Variance" when we are talking about labor?
 
@@ -494,7 +495,7 @@ _Remember that Flexible Budgets are always formulas._
 - Overhead rate is the total budgeted overhead dollars for the year divided by the budgeted volume for the year.
 
 $$OHR = (BOH  / BV) = (FOH / BV) + VOH$$
-$$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 67,000 hours + \$14
+$$OHR = (\$2,295,000 / 67,000 hours) = \$1,350,000 / 67,000 hours + \$14$$
 $$OHR = 34$$
 
 ### The Overhead Rate Consists of Estimated:
@@ -541,9 +542,7 @@ __Budgeted Volume (Using Expected Volume)-Toronto Engine Plant's Cylinder Boring
 - Overhead absorbed = Overhead rate $\times$ Standard volume = OHR $\times$ SV
   - Overhead absorbed = $34 $\times$ 67,400 machine hours = \$2,291,600
 
-### Actual Overhead Cost:
-
-__\$2,300,000__
+__Actual Overhead Cost Incurred: \$2,300,000__
 
 ## Total Overhead Variance
 
@@ -556,6 +555,7 @@ $$AOH - (OHR \times SV) = AOH - (OHR \times SV)
 $$\$2,300,000 - \$2,291,600 = \$8,400
 
 __Interpretation:__
+
 - Overhead is 'Underabsorbed', if actual > absorbed
 - Overhead is 'Overabsorbed', if actual < absorbed
 
@@ -588,3 +588,14 @@ __Total Overhead Variance = Actual Overhead - Overhead Absorbed__
 | OEV | = |     |   | FOH+(VOH$\times$AV) | - | FOH+(VOH$\times$SV) |   |                 |
 | OVV | = |     |   |                     |   | FOH+(VOH$\times$SV) | - | $OHR \times SV$ |
 
+_FOH = Fixed Overhead, VOH = Variable Overhead __Rate___
+
+## Reminder: The Final Exam 
+
+__Location: S H Ho Sports Hall__ 
+
+__Date: 29 May 2024__ 
+
+__Time: 8:30 AM to 11:30 AM__ 
+
+Exam is comprehensive, and closed book. We will review for the exam on Wednesday.
