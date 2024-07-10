@@ -16,7 +16,7 @@ __Safe__ fixed effect indication in Stata.
 
 My concept of a "safe" empirical workflow is based on Andrew Gellman's
 philosophy that "I don't trust anything until it runs twice." And my continuing
-observation that most high-profile rejections are cases where the __authors
+observation that most high-profile retractions are cases where the __authors
 themselves__ failed to replicate the results in the paper, not because _other
 researchers_ failed to replicate the results. To me a workflow is safe to the
 extent that it eliminates the chances for unintentional differences between the
@@ -64,7 +64,12 @@ eststo:reghdfe price mpg rep78 , absorb(foreign 		  ) // est2
 eststo:reghdfe price mpg rep78 , absorb(foreign gear_ratio)         // est3
 ```
 
-At this point simply passing `est1`, `est2`, and `est3` to `esttab` will fail to document the fixed effects that you included! You might be tempted to add this later by hand, which is unsafe because you may forget or you may update the fixed effect structure and forget to update your annotations. I recommend using `estfe`, a function included with `reghdfe` and `esttab`'s indicate option to automate this.
+At this point simply passing `est1`, `est2`, and `est3` to `esttab` will fail
+to document the fixed effects that you included! You might be tempted to add
+this later by hand, which is unsafe because you may forget or you may update
+the fixed effect structure and forget to update your annotations. I recommend
+using `estfe`, a function included with `reghdfe` and `esttab`'s indicate
+option to automate this.
 
 ### Indicate:
 
@@ -78,5 +83,10 @@ esttab est* , ///
 	indicate(`r(indicate_fe)') /// `r(indicate_fe)' puts in the label and 'yes/no'
 ```
 
-Now the indication of fixed effects is driven completely by their actual inclusion. This limits the possibility of unreported changes to the fixed-effect structure as `esttab` will either throw an error (if you never reference a FE that you labeled in `estfe`), or will just toss an unformatted fixed effect parameter into your tables so that you are reminded to add the new variable to the `estfe` call.
+Now the indication of fixed effects is driven completely by their actual
+inclusion. This limits the possibility of unreported changes to the
+fixed-effect structure as `esttab` will either throw an error (if you never
+reference a FE that you labeled in `estfe`), or will just toss an unformatted
+fixed effect indication into your tables so that you are reminded to add the new
+variable to the `estfe` call.
 
