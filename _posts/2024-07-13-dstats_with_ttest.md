@@ -1,3 +1,13 @@
+---
+title: '2024-07-13'
+categories:
+  - coding
+tags: 
+  - estout
+  - stata
+published: true
+---
+Easy subsample comparisons with esttab.
 
 It's often the case that we want to display summary statistics for two samples
 along with a t-test comparing the two samples. The `ttest` command with
