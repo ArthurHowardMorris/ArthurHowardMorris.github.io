@@ -7,13 +7,15 @@ tags:
 published: true
 ---
 
-Simple approach to setting a consistent sample in Stata. New Ph.D. students
-(including me when I was) tend to hoard data, using all the possible data for
-each model. This isn't wrong on it's face, but it's also useful to establish a
-sample which the reader can follow through the paper with minimal deviations.
-This also makes your job as a writer easier as you can address the sample once
-and move on. I end up explaining this once to each student that I work with, so
-I'm writing this up here. As always, feel free to email with questions!
+Simple approach to setting a consistent sample in Stata. 
+
+New Ph.D. students (including me when I was) tend to hoard data, using all the
+possible data for each model. This isn't wrong on it's face, but it's also
+useful to establish a sample which the reader can follow through the paper with
+minimal deviations. This also makes your job as a writer easier as you can
+address the sample once and move on. I end up explaining this once to each
+student that I work with, so I'm writing this up here. As always, feel free to
+email with questions!
 
 Consider a dataset of random numbers, some of them missing.
 ```Stata
@@ -56,13 +58,10 @@ see that this generates several samples.
 ```Stata
 . // fit a series of models
 . quietly:eststo:regress y x2 x4
-
 . quietly:eststo:regress y x2 x4 i.x1
-
 . quietly:eststo:regress y x2 x4 i.x1 x3
 
-.
-. // tabulate and note missing samples
+. // tabulate and note sample sizes
 . esttab
 
 ------------------------------------------------------------
@@ -107,11 +106,11 @@ a variable and use that to define our sample as follows:
 Now we can use `mainsample` to run all the models in the same sample:
 
 ``` Stata 
-. quietly:eststo:regress y x2 x4 if mainsample == 1
-. quietly:eststo:regress y x2 x4 x1  if mainsample == 1
+. quietly:eststo:regress y x2 x4       if mainsample == 1
+. quietly:eststo:regress y x2 x4 x1    if mainsample == 1
 . quietly:eststo:regress y x2 x4 x1 x3 if mainsample == 1
 
-. // tabulate and note samples
+. // tabulate and note sample sizes
 . esttab
 
 ------------------------------------------------------------
