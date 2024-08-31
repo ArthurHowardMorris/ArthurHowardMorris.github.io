@@ -14,7 +14,7 @@ things that Stata does by default that you probably don't want it to do!
 
 ## Sorts are unstable BY DEFAULT!
 
-This might be the biggest threat to reproduceability in the Stata using
+This might be the biggest threat to reproducability in the Stata using
 population, as it almost guarantees that running the same code twice will not
 yield the same results.
 

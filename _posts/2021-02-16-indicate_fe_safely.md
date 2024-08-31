@@ -31,7 +31,8 @@ it, and no matter where.
 
 ## Safe fixed-effect indication.
 
-Safe fixed-effect indication is driven by the estimation command. I'll use
+Safe fixed-effect indication is driven by the estimation command, rather than
+something it do by hand after the fact or something you hard code. I'll use
 `reghdfe` to illustrate. I recommend using `reghdfe` for models with fixed
 effects and/or clustered standard errors as it does things like adjusting the
 degrees of freedom and dropping singletons correctly by default.
