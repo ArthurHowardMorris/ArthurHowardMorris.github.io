@@ -5,27 +5,25 @@ permalink: /courses.html
 published: true
 ---
 
-# HKUST:
+## HKUST
 
-## Advanced Managerial Accounting (ACCTG3210)
-  <!-- - [Spring 2023]({{< ref "/semesters/s2023/ACCTG3210.html">}}) -->
-- [Spring 2024](/resources/semesters/s2024/ACCTG3210.html)
-- [Spring 2023](/resources/semesters/s2023/ACCTG3210.html)
-- Spring 2022 
+### Advanced Managerial Accounting (ACCTG3210)
 
-## Managerial Accounting (ACCTG2200)
-- [Syllabus, Spring 2021](https://github.com/ArthurHowardMorris/ACCT2200_Spr2021_Syllabus)  
-- Spring 2020  
+- Spring 2025: Syllabus coming Jan. 2025.
+- Spring 2024, Spring 2023, Spring 2022
 
----  
-# NYU - Shanghai:
+### Managerial Accounting (ACCTG2200)
 
-## Mangerial Accounting
-  - Spring 2019
-  - Fall 2018
+- Spring 2021, Spring 2020
 
----
-# The University of Utah:
-  - Managerial Accounting
-  - Intro to Stata (Ph.D. Bootcamp)
-  - Intro to Python (Ph.D. Bootcamp)
+## NYU - Shanghai
+
+### Mangerial Accounting
+
+- Spring 2019, Fall 2018
+
+## The University of Utah
+
+- Managerial Accounting
+- Intro to Stata (Ph.D. Bootcamp)
+- Intro to Python (Ph.D. Bootcamp)
