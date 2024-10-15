@@ -10,7 +10,7 @@ tags:
 
 Times New Roman in Latex and Markdown. Someone is making you do this. 
 
-> "I wish I could see more Times New Roman" - Noone. Ever.
+> "I wish I could see more Times New Roman" - No one. Ever.
 
 This week I got back a grant application with the specific request that I use
 Times New Roman. Turns out it's easy! 
