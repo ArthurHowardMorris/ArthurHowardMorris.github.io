@@ -28,6 +28,11 @@ Washington Post's endorsement of Kamala Harris and Tim Walz, is teaching the
 second Trump administration about it's power over the media and over the
 billionaire class.[^many]
 
+So order [_On Tyranny_](https://timothysnyder.org/on-tyranny). Jeff Bezos might
+be too scared to let his paper endorse Kamala Harris for President, but Amazon
+will certainly get you a copy of [_On
+Tyranny_](https://timothysnyder.org/on-tyranny) by tomorrow.
+
 I happen to have the book in three formats: The pocket-sized version (you can
 put it next to your pocket Constitution), the comic/graphic novel version
 (which I sent to everyone in my family in 2022 in preparation for just this
