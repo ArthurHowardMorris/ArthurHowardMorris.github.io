@@ -1,7 +1,7 @@
 ---
 title: '2024-03-27'
 categories:
-  - code
+  - coding
 tags: 
   - estout
   - stata
@@ -11,7 +11,10 @@ published: true
 
 Adding regex to `estout`/`esttab`. 
 
-I often find that I need to tweak tables produced by `esttab`, I assume that this is often because just haven't [read the friendly docs (btw, Ben Jann's docs are very friendly)](http://repec.org/bocode/e/estout/esttab.html) as well as I should.
+I often find that I need to tweak tables produced by `esttab`, I assume that
+this is often because just haven't [read the friendly docs (btw, Ben Jann's
+docs are very friendly)](http://repec.org/bocode/e/estout/esttab.html) as well
+as I should.
 
 Here's a quick example:
 ```
@@ -20,7 +23,9 @@ eststo: quietly regress price mpg foreign
 eststo: xi: quietly regress price mpg foreign i.rep78
 esttab using example.tex, wide indicate(rep dummies = _Irep78*) title(Example using sysuse auto)
 ```
+
 Yields the following table:
+
 ```LaTeX
 \begin{table}[htbp]\centering
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}

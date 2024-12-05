@@ -17,19 +17,32 @@ use clustered standard errors when there are only a few clusters? Examples:
 2. Clustering by year in a shortish panel where t=10.
 3. Clustering by industry when only 20 industries are represented in the data.
 
-The second of these is quite common; but to me they just don't seem like the right thing to do. Let me walk through why I think this.
+The second of these is quite common; but to me they just don't seem like the
+right thing to do. Let me walk through why I think this.
 
 ## Sandwich Size Matters
 
 My intuition starts with White-Huber standard errors:
 
-> "In microeconometrics applications the model errors are often conditionally heteroskedastic. ... Microeconometric analysis uses robust standard errors [(White 1980)](https://www.jstor.org/stable/1912934) wherever possible." Cameron & Trivedi (2005) p. 74-75
+> "In microeconometrics applications the model errors are often conditionally
+> heteroskedastic. ... Microeconometric analysis uses robust standard errors
+> [(White 1980)](https://www.jstor.org/stable/1912934) wherever possible."
+> Cameron & Trivedi (2005) p. 74-75
 
-"Robust standard errors"[^rob] colloquially refer to standard errors calculated using the heteroskedasticity-consistent covariance matrix estimator presented in [White (1980)](https://www.jstor.org/stable/1912934). Sometimes called the "sandwich estimator", because it looks exactly like a sandwich:
+"Robust standard errors"[^rob] colloquially refer to standard errors calculated
+using the heteroskedasticity-consistent covariance matrix estimator presented
+in [White (1980)](https://www.jstor.org/stable/1912934). Sometimes called the
+"sandwich estimator", because it looks exactly like a sandwich:
 
   <img src="https://arthurhowardmorris.github.io/assets/img/EHW.png" width="400">  
 
-[^rob]: These standard errors are available in most statistical packages as "robust" standard errors. For example, the following from the Stata documentation of the `regress` command `regress gpmw foreign, vce(robust)`.
+[^rob]: These standard errors are available in most statistical packages as
+    "robust" standard errors. For example, the following from the Stata
+  documentation of the `regress` command `regress gpmw foreign, vce(robust)`.
+
+- TODO: note the dims of the matrix.
+- TODO: note the dfs.
+- TODO: the assumption from CAM and TRIV 
 
 
 
