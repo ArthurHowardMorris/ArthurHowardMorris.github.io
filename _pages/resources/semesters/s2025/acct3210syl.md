@@ -9,7 +9,7 @@ published: true
 
 ### Spring 2025 Syllabus
 
-_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow __[this link](https://arthurhowardmorris.github.io/resources/semesters/s2024/ACCTG3210Syl.html)__ for the current version._
+_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow __[this link](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210Syl.html)__ for the current version._
 
 ## Instructor
 
@@ -17,8 +17,8 @@ __Dr. Arthur Morris__
 Email: <acarthur@ust.hk>  
 Office Hours:  
 
-- Wednesday 10:00-11:00 [via Zoom](https://hkust.zoom.us/j/99060532374?pwd=VndJc2tEVFFxVnc3VGExOGZaVlFPdz09)  
-- Wednesday 14:00-15:00 [via Zoom](https://hkust.zoom.us/j/94917363902?pwd=Ym1ldTV4WDJHOVYxbFRUY2ljMjZrZz09)
+- Wednesday 10:00-11:00 [via Zoom](https://hkust.zoom.us/j/99274748327?pwd=5hATO7nD3nk9Bi2ca8xVy7OycCtyNJ.1)  
+- Wednesday 14:00-15:00 [via Zoom](https://hkust.zoom.us/j/99274748327?pwd=5hATO7nD3nk9Bi2ca8xVy7OycCtyNJ.1)
 
 ## Teaching Assistant  
 
@@ -50,24 +50,26 @@ By the end of this course, you should be able to:
 
 <!--TODO: add control systems language here-->
 
-1. Use real data to make business decisions.
-2. Understand both the importance of management accounting for companies’
+1. Understand both the importance of management accounting for companies’
    strategic and operational decisions and the pitfalls of misusing management
    accounting information and techniques.  
-2. Solve problems arising in business planning, with the aid of mathematical
+2. Understand the resource bargain that arises in organizations, and how
+   accounting information can be used to manage this bargain.
+3. Solve problems arising in business planning, with the aid of mathematical
    and statistical tools.  
-3. Evaluate various techniques for control and performance evaluation in a
+4. Evaluate various techniques for control and performance evaluation in a
    decentralized environment, and provide recommendations for an effective
    control system.  
-4. Understand how managerial and financial accounting relate to data analytics,
+5. Understand how managerial and financial accounting relate to data analytics,
    data science, and business intelligence.  
 
 The course will also provide you with opportunities to:
 
-5. Think through a variety of business problems.  
-6. Demonstrate team-work and leadership skills in solving operational and
-   strategic planning problems.  
-7. Demonstrate communication skills through class participation and case
+6. Use data to make business decisions.
+7. Think through a variety of business problems.  
+<!-- 6. Demonstrate team-work and leadership skills in solving operational and -->
+   <!-- strategic planning problems.   -->
+8. Demonstrate communication skills through class participation and case
    discussions.  
 
 ## Course Materials
@@ -179,13 +181,13 @@ Exams will be conducted in-person and will be closed book.
 
 - __Final Exam:__ <!-- The comprehensive final examination is scheduled from-->
 
-  - The exam is closed book and communication with others is cheating and not
-  allowed. All students are required to take the final exam at this pre-scheduled
-  time, and there will be no make-up exam for it. Students absent from the final
-  exam will receive zero mark for this component.
-  - You will need to present your student ID to take your exam.
-  <!-- - The final exam is scheduled from 8:30 AM to 11:30 AM on 29 May 2024 in the S -->
-  <!-- H Ho Sports Hall. -->
+  - The exam is closed book. Communication with others, use of any resources not provided in the exam is cheating and not allowed.
+  - All students are required to take the final exam at this pre-scheduled time, and there will be no make-up exam.
+  - Students absent from the final exam will receive zero mark for this component.
+
+- You will need to present your student ID to take your exam. <!-- - The final
+exam is scheduled from 8:30 AM to 11:30 AM on 29 May 2024 in the S --> <!-- H
+Ho Sports Hall. -->
 
 ### Grading Scale
 
@@ -306,11 +308,46 @@ in Section 2, and as an application of the tools presented in Section 1.
 <!-- | _Case:_         | __C9:__ LSP Capsules                                         | -->
 <!-- | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         | -->
 
+### Compliance Section
+
+#### Mandated Policy on "Artificial Intelligence"
+
+The use of any of the tools commonly referred to as "AI" in the graded
+assessments of this course is covered by the prohibition on the use of outside
+resources. In order to comply with the HKUST CEI policy on Generative
+Artificial Intelligence this should be interpreted as a prohibition on the use
+of these tools in the exams.
+
+Students are encouraged to use whatever tools they find most effective in
+preparation for the exams and for completion of the assignments. As the
+assignments are graded only on completion no further restrictions apply.
+
+#### Mapping "Assessment Tasks" to "Intended Learning Outcomes"
+
+The [HKUST CTLQ](https://registry.hkust.edu.hk/resource-library/undergraduate-course-syllabus-template?check_logged_in=1) has helpfully advised that:
+
+> _"With a clearly stated criterion-referenced model that includes the CILOs,
+> assessment components and the rubrics on the syllabus, it is expected that
+> misunderstanding about the assessment model would be minimized where both
+> instructors and students may enjoy the transparency of the necessary course
+> information."_
+
+The "Assessment Tasks" listed in the "Grading Scheme" section above map to the
+course objectives, which I will refer to as "ILOs" to match the usage in the
+syllabus template approved by CTLQ, as follows:
+
+| Assessment Task | ILO | Explanation |
+| ------------------- | ------- | --------------------------------------------------- |
+| Class Participation | ILO 6-8 | Class participation offers students the opportunity to demonstrate communication skills, and to think through a variety of business problems. |
+| Cases & Problems    | ILO 1-7 | The content of the cases and problems is designed to cover the content of the course while addressing ILOs 1-7. |
+| Midterm             | ILO 1-7 | The midterm exam will cover the content of the course, and will be designed to test the students' understanding of the material with respect to ILOs 1-7. |
+| Final Exam          | ILO 1-7 |  The midterm exam will cover the content of the course, and will be designed to test the students' understanding of the material with respect to ILOs 1-7. |
+
 ### Acknowledgements
 
 Like Bob Dylan, this course was born a long way away from where it's from, but
 the starting point was reading Joel Demski's _Managerial Uses of Accounting
 Information_, Zimmerman's _Accounting for Decision Making and Control_, and
-reviewing Steve Huddart's excellent Accounting 440 taught at Penn State.
+reviewing Steve Huddart's excellent Accounting 440 taught at Penn State. The course has
 Similarities to those approaches are absolutely intentional, and any
 shortcomings are my attempts at innovation.
