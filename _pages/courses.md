@@ -9,18 +9,25 @@ published: true
 
 ### Advanced Managerial Accounting (ACCTG3210)
 
-- Spring 2025: Syllabus coming Jan. 2025.
-- Spring 2024, Spring 2023, Spring 2022
+- Spring 2025:
+  - [Syllabus](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210syl.html) ([_PDF_](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210syl.pdf))
+  - [Lecture Notes and Slides](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210.html)
+  - [Canvas Site](https://canvas.ust.hk/courses/60833) _Requires HKUST login._
+
+#### Past Offerings
+
+- In-person: Spring 2024, Spring 2023
+- Hybrid: Spring 2022
 
 ### Managerial Accounting (ACCTG2200)
 
-- Spring 2021, Spring 2020
+- Online: Spring 2021, Spring 2020
 
 ## NYU - Shanghai
 
 ### Mangerial Accounting
 
-- Spring 2019, Fall 2018
+- In-person: Spring 2019, Fall 2018
 
 ## The University of Utah
 
