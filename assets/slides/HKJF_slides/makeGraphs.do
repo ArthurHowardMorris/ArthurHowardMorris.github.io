@@ -27,7 +27,7 @@ reghdfe approved ACLPOST $Xct $Xit , cluster( $CL ) absorb( $FEfull ) timeit
 // timer list 1
 
 generate mmswSample = e(sample)
-count if e(sample)==1 // TODO: add this test to the sample things
+count if e(sample)==1 // IDEA: add this test to the sample things
 keep if mmswSample == 1 // CRITICAL SO THAT WE CAN DO ANALYSIS WITH THE DEMEANED SAMPLE
 
 // create the interacted indicator
