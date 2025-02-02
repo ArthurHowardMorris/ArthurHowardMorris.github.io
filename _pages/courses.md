@@ -9,10 +9,7 @@ published: true
 
 ### Advanced Managerial Accounting (ACCTG3210)
 
-- Spring 2025: 
-  - [Syllabus]() 
-  - [Website]()
-  - [Canvas]()
+- Spring 2025: Syllabus coming Jan. 2025.
 - Spring 2024, Spring 2023, Spring 2022
 
 ### Managerial Accounting (ACCTG2200)

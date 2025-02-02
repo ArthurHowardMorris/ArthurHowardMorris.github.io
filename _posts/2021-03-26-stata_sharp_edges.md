@@ -6,29 +6,28 @@ tags:
   - stata
   - sharps
   - missings
-mathjax: true
 published: true
 ---
 
-Stata has some sharp edges.
+Stata has some sharp edges. 
 
 There are a lot of things that Stata does really well. That's not what this is
 about. Today is about the little sharp edges in Stata, that will cut you if you
-bump them.
+bump them. 
 
-## Missing numbers aren't missing at all, they are INFINITY
+## Missing numbers aren't missing at all, they are INFINITY.
 
 Stata indicates missing numeric values with '.' You'll see this being used in
 something like `subinstr("This old string", "!", .)` where the `.` is being
 used to mean INFINITY! This seems to be behavior that is deeply integrated into
 programming practice, commonly to allow unspecified upper limits (see `help
 rangejoin` for an example) and to move all missing data to the bottom of the
-data set.
+data set. 
 
 However, this is a very sharp edge for folks using inequalities to subset their
 data. For example here is a random variable with one missing value:
 
-```stata
+```stata 
 set obs 10
 set seed 1 
 generate id = _n 
@@ -57,7 +56,7 @@ Here is the result:
 
 And now lets generate a variable equal to one if $x>\mu$:
 
-```stata
+```stata 
 su x, meanonly 
 generate d = x > r(mean)
 ```
@@ -70,7 +69,7 @@ created above, and `r(mean)` is the mean of `x` calculated by `su x,meanonly`.
 In Stata expressions like this return 1 if true and 0 if false, generate
 applies this expression to each observation. Here is the result:
 
-```stata
+```stata 
      +---------------+
      |        x    d |
      |---------------|
@@ -88,7 +87,7 @@ applies this expression to each observation. Here is the result:
      +---------------+
 ```
 
-__Stata does not have missing numbers! It has INFINITY.__
+__Stata does not have missing numbers! It has INFINITY.__ 
 
 ```stata
 sort x 
@@ -122,7 +121,6 @@ generate d1 = x > r(mean) if !mi(x)
 ```
 
 Gives you what you really obviously wanted:
-
 ```
      +--------------------+
      |         x   d   d1 |
@@ -141,7 +139,7 @@ Gives you what you really obviously wanted:
      +--------------------+
 ```
 
-## Sorts are unstable BY DEFAULT
+## Sorts are unstable BY DEFAULT!
 
 This might be the biggest threat to reproduceability in the Stata using
 population, as it almost guarantees that running the same code twice will not
@@ -268,6 +266,7 @@ This is because Stata chooses a __random__ tiebreaker each time it sorts!
 
 There are two solutions:
 
+
 2. Only sort by unique identifiers. This is a good practice, even when
    arbitrarily breaking ties so that you can be explicit about how you are
    doing it.
@@ -277,7 +276,7 @@ There are two solutions:
 
 One way to do this:
 
-```stata
+```stata 
 local sort_vars group individual 
 isid `sort_vars' // confirms that these identify unique obs  
 sort `sort_vars', stable
@@ -285,7 +284,7 @@ sort `sort_vars', stable
 
 The `isid` line makes the `, stable` redundant. But, getting in the habit of
 using `sort, stable` is a good way to remind yourself that this in not the
-default.
+default. 
 
 As an extra special bonus, this leads to `duplicates, drop` dropping different
 observations each time you run your code, because `duplicates, drop` has an
