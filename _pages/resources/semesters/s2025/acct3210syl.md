@@ -96,7 +96,7 @@ course canvas site.
 | _Lectures and Cases:_    | Class discussions will involve both lectures and cases. Case discussions will occur on days when the cases are assigned in the course schedule below.                                                                                                                                |
 | _Preparation for Class:_ | Students should prepare for class by completing the assigned reading and problems or case. All assignments and cases are due at 18:00 (6:00 PM) the evening before class.                                                                                                                                           |
 | _Video Recordings:_      | No recordings of this class will be distributed. This is to facilitate class participation.                                                                                                                                                                                          |
-| _Canvas:_                | Assignments will be turned in via Canvas, and I will use canvas to send updates. Please note that the course website, and _not Canvas_ will host the slides and syllabus. Also note that the Canvas gradebook will only track assignments turned in via Canvas and not your final grade.  |
+| _Canvas:_                | Assignments will be turned in via Canvas, and I will use canvas to send updates. Please note that the course website, and _not Canvas_ will host the slides and syllabus. Also note that canvas will track the _unweighted_ points for the course.  |
 | _Communication:_         | All questions about lecture content should be submitted in the canvas forum for the lecture, and will be addressed either in review sessions or in the forum posts. Other questions should be addressed to the T.A. via email with "ACCT 3210" and your section in the subject line. |
 
 ## Grading
@@ -144,7 +144,7 @@ _Note on the use of LLM/GPT output for this assignment: You may prepare this ass
 
 ### Cases & Problems
 
-Cases and problems will be due at 2200 the night before the class in which they
+Cases and problems will be due at 1800 the night before the class in which they
 are discussed. All assignments should be submitted in the formats specified in
 Canvas, and are graded on completion only. Students who miss assignments
 because they add the course after the start of the semester may turn in any of
