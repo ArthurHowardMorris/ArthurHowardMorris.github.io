@@ -30,7 +30,7 @@ Email: <actaychloe@ust.hk>
 | Section | Days      | Time        | Location |
 |---------|-----------|-------------|----------|
 | L1      | Tue & Thur | 12:00-13:20 | 2404     |
-| L3      | Tue & Thur | 13:40-14:50  | 2404     |
+| L3      | Tue & Thur | 13:30-14:50  | 2404     |
 | L2      | Tue & Thur | 16:30-17:50 | LSK1014     |
 
 ## Course description
