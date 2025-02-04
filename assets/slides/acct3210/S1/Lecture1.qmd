@@ -1,0 +1,334 @@
+---
+title: "ACCT 3210: Advanced Management Accounting"
+author: "Dr. Arthur Morris"
+institute: "HKUST School of Business and Management"
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+    code-fold: true
+jupyter: python3
+---
+
+# Roadmap for Lecture 1
+
+  1. Review Resources and Policies 
+  2. Why are we here? What is 'Management Accounting'?
+
+# Review Resources and Policies 
+
+  - [Syllabus](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210syl.html)
+  - [Canvas](https://canvas.ust.hk/courses/60833)
+  - [Lecture Slides and Examples](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210.html)
+
+# Why are we here? 
+
+## To Study _ADVANCED_ Management Accounting...
+
+- But what is management accounting?
+- And how will we make this 'advanced'?
+
+## Simple Definition
+
+__Management accounting is _internal_ accounting.__ 
+
+This definition separates managerial accounting from other forms of _external_
+accounting in helpful ways:
+
+1. __Financial or Public Accounting__: External accounting for compliance with IFRS, GAAP, etc.
+2. __Tax Accounting:__ External accounting for compliance with tax laws.
+
+
+## In the external=financial/tax and internal=management distinction enough?
+
+- On one hand, this is a helpful framing because it emphasizes that the
+  accounting activity in the external domains is determined by accounting rules. 
+- On the other hand, this is not a helpful framing, because it does not
+  actually tell us what management accounting _is_.
+
+## This is not just a problem for this class...
+
+<!-- TODO: we could dig into the history of management accounting here. etc  -->
+
+Inability to clearly define the accounting activity beyond compliance is the
+root of two current problems in the accounting field:
+
+  1. The role of accounting as the 'language of business' has been largely
+     ceded to data science and business intelligence functions.
+  2. Focus on compliance with formal regulatory requirements has created a
+     profession specialized in tasks which are at high risk of automation.
+
+# What is Management Accounting? Four Answers
+
+1. Accounting for Decision Making (Business Intelligence/Data Science). 
+2. Accounting for Control (Internal Audit/Performance-Evaluation).
+3. A collection of topics related to how information, incentives, and resources
+   move through an organization.
+4. Facilitators of the resource bargains within the organization, critical to
+   its survival as a viable system.
+
+## Zimmerman's Answer (1 & 2)
+
+> "_The controller, the firm's chief management accountant, has responsibility
+> for data collection and reporting. The controller compiles the data to
+> prepare the firm's balance sheet, income statement, and tax returns. In
+> addition, this person prepares the internal reports for the various divisions
+> and departments within the firm and helps other managers by providing them
+> with the data to make decisions-as well as the data to evaluate these
+> managers' performance."_
+> 
+> ... 
+>
+> _"The controllership function at the corporate,
+> division, and plant levels involves assisting decision-making and control.
+> The controller must balance providing information to other managers for
+> decision making against providing monitoring information to top executives
+> for use in controlling the behavior of lower-level managers."_
+>
+> ... 
+>
+> _"The importance of the internal control system cannot be stressed enough.
+> Throughout this book, we use the term control to mean aligning the interests
+> of employees with maximizing the value of the firm. The most basic conflict
+> of interest between employees and owners is employee theft."_
+
+ (Zimmerman 10e p.9-11)
+
+
+## Accounting for decision making 
+
+> "___The controller, the firm's chief management accountant, has responsibility
+> for data collection and reporting__. The controller __compiles the data__ to
+> prepare the firm's balance sheet, income statement, and tax returns. In
+> addition, this person __prepares the internal reports__ for the various divisions
+> and departments within the firm and __helps other managers by providing them
+> with the data to make decisions__-as well as the __data to evaluate these
+> managers' performance.___" (Zimmerman 10e p.9)
+
+## Accounting for decision making is ground that our profession has lost
+
+- We can either give up this ground, or learn the tools we need to win this ground back.
+- We will do the latter in this class.
+
+## [What is a Data Scientist?](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
+
+![Conway's Data Scientist](./Data_Science_VD.png)
+
+## [What is a Data Scientist?](https://flatironschool.com/blog/data-analyst-vs-data-scientist/)
+
+![These skills are within our reach](./newdsvd.png)
+
+## Accounting for Control
+
+> _"The importance of the internal control system cannot be stressed enough.
+> Throughout this book, we use the term control to mean aligning the interests
+> of employees with __maximizing the value of the firm__. The most basic conflict
+> of interest between employees and owners is employee theft."_
+
+## Accounting for Control 
+
+This has three aspects: 
+
+1. Catching fraud. (Internal audit)
+2. "Managing costs and profitability." (Increase profits by means we control)
+3. Measuring performance. (Incentive alignment)
+
+## Summary of 1 & 2
+
+This is a solid way to think about management accounting. It has a few weaknesses:
+
+1. These are still just collections of tasks, hence why so much of it has been
+   sliced off into data science or automated. We still lack a compelling
+framework for the fundamental function of management accounting.
+3. max(Firm Value)--see [Friedman
+   (1970)](https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html)--comes
+close to this, but it may not be consistent with stable (viable) systems as it
+leaves no level of the firm without the incentives control is concerned with.
+it unclear whether this is consistent with the existence of firms as viable
+systems. 
+1. There is a fundamental disconnect between the use of information for control
+   and for decisions. 
+   - If you pay me based on a number, I will only make that number go up. 
+
+
+## A collection of topics 
+### Here is a real list of topics from a past version of this course:
+
+1. Understand how management accountants affect strategic decisions.
+2. Understand the set of business functions in the value chain.
+3. Understand what professional ethics mean to management accountants.
+4. Understand that managers make decisions in an uncertain environment and describe ways to measure uncertainty.
+5. Use the five-step decision-making process to make decisions.
+6. Describe the five steps to perform quantitative analysis in a decision model.
+7. Use decision tables and decision trees to make decisions under uncertainty.
+8. Understand how information helps to resolve uncertainty and determine the value of information.
+9. Perform CVP analysis for problems that explicitly incorporate uncertainties.
+10. Explain how conflicts can arise between the decision model used by a manager and the performance-evaluation model used to evaluate the manager.
+11. Explain the two assumptions frequently used in cost-behavior estimation.
+12. Describe linear cost function and three common ways in which they behave.
+13. Understand various methods of cost estimation.
+14. Outline six steps in estimating a cost function using quantitative analysis.
+15. Describe three criteria used to evaluate and choose cost drives.
+16. Explain and give examples of nonlinear cost functions.
+17. Distinguish the cumulative average-time learning model from the incremental unit-time learning model.
+18. Be aware of data problems encountered in estimating cost functions.
+19. Understand the usefulness of the linear programming (LP) technique for business managers.
+20. Formulate business planning problems as LP models that are subject to one or multiple constraints.
+21. Solve LP problems by the graphic and the trial-and-error approach.
+22. Perform sensitivity analysis in LP problems to aid business decisions.
+23. Recognize which of two generic strategies a company is using.
+24. Analyze changes in operating income to evaluate strategy.
+25. Distinguish engineered costs from discretionary costs.
+26. Identify unused capacity and explain how to manage it.
+27. Identify four purposes for allocating costs to cost objects.
+28. Understand criteria to guide cost-allocation decisions.
+29. Discuss decisions faced when collecting costs in indirect-cost pools.
+30. Discuss why a company’s revenues can differ across customers purchasing the same product.
+31. Apply the concept of cost hierarchy to customer costing.
+32. Discuss why customer-level costs differ across customers.
+33. Understand how an ABC system with a customer focus is important for managing customers.
+34. Subdivide the sales-volume variance into the sales-mix variance and the sales-quantity variance.
+35. Subdivide the sales-quantity variance into the market-share variance and the market-size variance.
+36. Distinguish the single-rate method from the dual-rate method.
+37. Understand how the uncertainty users face is affected by the choice between budgeted and actual cost-allocation rates.
+38. Allocate support-department costs using the direct method, the step-down method, and the reciprocal method.
+39. Allocate common costs using the stand-alone method and the incremental method.
+40. Identity the split-off point in a joint-cost situation.
+41. Distinguish joint products from byproducts.
+42. Explain why joint costs are allocated to individual products.
+43. Allocate joint costs using four methods.
+44. Explain why the sales value at split-off method is preferred when allocating joint costs.
+45. Explain why joint costs are irrelevant in a sell-or-process-further decision.
+46. Describe the benefits and costs of decentralization.
+47. Explain transfer prices and four criteria used to evaluate them.
+48. Calculate transfer prices using three methods.
+49. Illustrate how market-based transfer prices promote goal congruence in perfectly competitive markets.
+50. Understand how to avoid making suboptimal decisions when transfer prices are based on full cost plus a markup.
+51. Describe the range over which two divisions negotiate the transfer price when there is unused capacity.
+52. Apply a general guideline for determining a minimum transfer price.
+53. Incorporate income tax considerations in multinational transfer pricing.
+54. Select financial and non-financial performance measures to use in a balanced scorecard.
+55. Design an accounting-based performance measure.
+56. Use segment reporting to evaluate the performance of a profit center.
+57. Analyze return on investment (ROI) using the DuPont method.
+58. Use the residual-income (RI) measure and understand its advantages.
+59. Describe the economic value added (EVA) method.
+60. Indicate the difficulties that occur when the performance of divisions operating in different countries is compared.
+
+## A collection of topics 
+
+- These are good topics. We will cover most, if not all, of them.
+- The flow of resources, information, and incentives through an organization is
+  a good way to think about what management accounting is.
+- But a list of topics is not a definition, and it's not a justification for a
+  profession, and it's not a reason for us to not be automated out of jobs, and
+  it's not enough of a reason for us to be here. 
+- We need a unifying theory of management accounting.
+
+# Resource Bargains in a Viable System
+
+## The Viable System Model
+
+- Comes from the study of complex systems in nature. Stafford Beer and other
+management scientists took observations about how complex systems in nature
+survive and applied them to organizations.
+- The model identifies 5 systems that function in a viable system. 
+
+## The Viable System Model
+
+- Note that this model is recursive, with systems nesting within systems.
+- It is natural to think of a firm as a whole as a system, but we could also
+  zoom in to a department, or zoom out to an industry, or zoom out further to a
+  global economy. Our focus will be the firm as a whole.
+
+## The Viable System Model
+
+### Immediate and internal systems:
+
+- __System 1:__ Operational units that perform primary activities
+- __System 2:__ Coordination mechanisms that resolve conflicts between operational units
+- __System 3:__ Internal regulation, resources allocation, performance monitoring
+
+### Future-oriented and external systems:
+
+- __System 4:__ Intelligence functions dealing with the external environment and future planning
+- __System 5:__ Policy and identity, setting overall direction and purpose
+
+### Management accounting is the interface between the immediate and future-oriented systems
+
+## The resource bargain 
+
+<!-- Zimmerman is focused on incentive alignment, this is good. -->
+<!-- But to him all incentives are monetary. -->
+
+  In the viable systems model, resources flow through
+the firm based on ongoing negotiations between the business units. The
+'resource bargain' is the active negotiation and agreement process whereby: 
+
+- System 3 allocates resources and sets targets for operational units
+- System 1 units commit to delivering specific outcomes
+- Both sides agree on performance metrics and accountability system 2 coordinates the process.
+
+## The resource bargain 
+
+System 3 is responsible for facilitating a negotiation and agreement process
+that meets the strategic goals and plans set at the higher levels of the firm.
+The framing of this process as a negotiation subsumes Zimmerman's focus on
+monetary incentives and pay for performance. This is one of many ways to
+achieve resource bargain.
+
+## Management accounting as a facilitator of the resource bargain 
+
+In the VSM version of the firm the management accounting function (Comptroller)
+is located in system 3 and is critical to the establishment and function of the
+resource bargain.
+
+1. Responsible for measurement of System 1 & 2 operations.
+2. This allows system 1 & 2 to fine-tune without interfering with higher levels.
+3. Translate strategic goals into operational targets to inform the resource bargain.
+
+# Example: A Manufacturing Firm
+
+## System 1: Operations
+
+- Production lines and assembly
+- Warehousing operations
+- Distribution centers
+
+## System 2: Coordination
+
+- Production scheduling
+- Quality control standards
+- Enterprise Resource Planning (ERP)
+
+## System 3: Internal Management
+
+- The Comptroller (management accountant)
+- Operations management
+- Resource allocation (optimization)
+- Performance monitoring
+
+## System 4: Intelligence & Development
+
+- Research & Development
+- Market research
+- Strategic planning
+
+## System 5: Policy & Identity
+
+- Board governance
+- Corporate strategy
+- Mission and values
+
+CEO is often here, though in many cases (especially in 'founder mode') the CEO
+may be involved in system 3. In startups one person may do many of these jobs,
+or groups may do them at different times.
+
+# How will we make this 'advanced'?
+
+1. The 'Tools' section of the course is intended to give you a starting point
+   for winning back some of the ground lost to other fields.
+2. In addition to introducing traditional management accounting topics, we will
+   also evaluate them in terms of their contribution to the viability of the
+  firm. We will think carefully both about how a firm succeeds (is viable) and
+  fails.
