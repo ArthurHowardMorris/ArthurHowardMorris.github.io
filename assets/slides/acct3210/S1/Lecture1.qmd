@@ -105,6 +105,9 @@ root of two current problems in the accounting field:
 > with the data to make decisions__-as well as the __data to evaluate these
 > managers' performance.___" (Zimmerman 10e p.9)
 
+- In the modern firm these activities require skills outside the scope of
+traditional accounting problem sets. These are data science skills.
+
 ## Accounting for decision making is ground that our profession has lost
 
 - We can either give up this ground, or learn the tools we need to win this ground back.
@@ -247,7 +250,7 @@ survive and applied them to organizations.
 
 - __System 1:__ Operational units that perform primary activities
 - __System 2:__ Coordination mechanisms that resolve conflicts between operational units
-- __System 3:__ Internal regulation, resources allocation, performance monitoring
+- __System 3:__ Internal regulation, resource allocation, performance monitoring
 
 ### Future-oriented and external systems:
 
