@@ -268,7 +268,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __12. 13 Mar.__ | __Mid-term Review__                                          |
 |                 | in class.                                                    |
 | __18 Mar.__     | __Midterm__  _No class_                                      |
-|                 | 1800-1900, location TBA                                   |
+|                 | 2000-2100, in LTC and LTD
 |                 | See Canvas for room assignments.                             |
 
 |                 | __Section 3: Cost Allocation__                        |
