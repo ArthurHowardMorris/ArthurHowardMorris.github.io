@@ -1,0 +1,637 @@
+---
+title: "Lecture 6: Review of the 'Tools' portion of the course."
+author: "Dr. Arthur Morris"
+institute: "HKUST School of Business and Management"
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+    code-fold: true
+jupyter: python3
+---
+
+# Roadmap for Lecture 6 
+
+1. Exam Details and Format. 
+2. Lecture Overviews (1-5). 
+3. Specific Questions. 
+4. Open Questions. 
+
+# Exam Details and Format 
+
+## Exam Details 
+
+- Time: 8:00 PM to 9:00 PM (2000-2100) 
+- Date: Tuesday, 18 March 2025 
+- Location: LTC and LTD (room assignments will be posted on Canvas) 
+- We will arrange a separate room for students with conflicting exams. Please
+contact us if you have a conflict.
+- The midterm is only 18\% of your grade, and is intended to be a preparation
+exercise for the final exam.
+
+## Exam Format 
+
+- You have up to one hour for this exam. (~45 minutes average)
+- This exam has __five__ numbered sections worth 30 points per section.
+- __We will only consider your best four sections__, and the maximum number of
+points possible will be 120.
+- __You may skip one section without penalty__.
+- Read each question carefully. These questions come from the homework and
+lectures, please review them carefully as the questions have been modified to
+the constraints of the exam.
+- Closed book (means no external support beyond writing materials) 
+
+## Question Format: 
+
+- One section is multiple choice. 
+  - i.e. 'MC' can be 25\% if you choose.
+- The remainder of the exam will be short answer questions. __For example__:
+  - "What is the marginal cost function for product $q_1$ at firm 3? _A simple
+  formula, or “does not exist” is sufficient._"
+  - "The terms marginal cost and incremental cost are often used
+  interchangeably, please briefly explain how these terms differ, and when this
+  difference is likely to matter. _Two or three sentences will suffice_."
+  - "Explain to Trevor how to create a plot of this data using the tool of your
+  choosing (i.e. the tool you used for this assignment–Python, Excel, R, etc.).
+  Please outline the steps he needs take in the space provided. The names of
+  the commands do not have to be precise, and you can assume that he has this
+  tool installed and has a basic understanding of how to use it."
+- __I will not ask you open-ended questions__.
+
+# Lecture Overviews 
+
+- Lecture 1: Introduction to the Course 
+- Lecture 2: The Nature of Costs (Cost Functions)
+- Lecture 3: Cost Estimation 
+- Lecture 4: Non-linear Programs (Optimization I)
+- Lecture 5: Linear Programs (Optimization II)
+
+## Lecture 1: Introduction to the Course 
+
+This lecture serves as motivation for the course as a whole, and underpins my
+approach to the course. There are two key points that you should retain.
+
+## Lecture 1: Key Point 1 - The Role of Data in Management Accounting 
+
+- Review Zimmerman's view of management accounting with attention to the role
+of data collection, management, and analysis. (esp. the quoted sections)
+
+## Lecture 1: Key Point 2 - The Location of Management Accounting within the VSM 
+
+- Review the viable systems model (basic idea of the 5 systems), the concept of
+a resource bargin, and the location of the management accountant within the
+VSM. 
+
+## Lecture 1: Key Point 2 - The Location of Management Accounting within the VSM 
+
+### Immediate and internal systems:
+
+- __System 1:__ Operational units that perform primary activities
+- __System 2:__ Coordination mechanisms that resolve conflicts between operational units
+- __System 3:__ Internal regulation, resource allocation, performance monitoring
+
+### Future-oriented and external systems:
+
+- __System 4:__ Intelligence functions dealing with the external environment and future planning
+- __System 5:__ Policy and identity, setting overall direction and purpose
+
+### Management accounting is the interface between the immediate and future-oriented systems
+
+[_Please review this section of the slides for Lecture 1_](https://arthurhowardmorris.github.io/assets/slides/acct3210/S1/Lecture1.pdf)
+
+# Lecture 2: 
+
+## The Nature of Costs (Cost Functions)
+
+Are you comfortable manipulating cost functions? 
+
+1. Can you derive an average cost function from a total cost function?
+2. Can you derive a marginal cost function from a total cost function?
+3. Can you deive an incremental cost function from a total cost function?
+4. Can you explain when 2 & 3 are different, and when that matters?
+5. Do you understand how real operations are likely to differ from the simple
+linear approximations used in introductory textbooks?
+
+## Quick Review of Derivatives 
+
+#### 1. The derivative of $x^n$ is $nx^{n-1}$ 
+
+- Remember that $x^1$ is $x$ and $x^0$ is 1.
+
+#### 2. The other variables are constants
+
+- So,  the derivative of $yx^n$ is $nyx^{n-1}$ 
+
+#### 3. The derivative of a constant is 0. 
+
+### Videos:
+
+- [Power Rule (4 minutes)](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-5/v/power-rule),
+- [Constants (first ~4 minutes)](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-6a/v/derivative-properties-and-polynomial-derivatives)
+
+## Lecture 2: Manipulating Cost Functions 
+
+- [Lecture notes.](https://arthurhowardmorris.github.io/resources/semesters/s2024/ACCTG3210.html#lecture-2-the-nature-of-costs)
+- [MC, IC, AC defined](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Session2Slides.slides.html#/3/2)
+- [The Total Cost Functions from the Assignment](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Session2Slides.slides.html#/7)
+- [Formula for AC](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Session2Slides.slides.html#/12)
+- [Formula for MC](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Session2Slides.slides.html#/15)
+- [Formula for IC](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Session2Slides.slides.html#/17)
+- [Excel Example](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Problem1.xlsx)
+
+
+
+
+## Marginal Cost and Incremental Cost:
+
+- _These terms are equivalent_
+    1. When the cost curve is linear, 
+    2. When a linear approximation is appropriate (i.e. useful),
+- _and the terms are often used interchangeably._ 
+- _You should clarify in cases where the difference matters (i.e. if the two are meaningfully different)._
+- The exam question will be a version of P1.1 and will not treat the two as interchangeable. __I.e. on the exam MC $\neq$ IC__.
+
+## Why am I emphasizing this?
+
+**Supplemental Slide** 
+
+In _introductory_ microeconomics marginal cost is often defined as the
+incremental cost, but in advanced classes this difference is important. For
+example:
+
+- _Microeconomics_ (6e) Perloff, page 190: "A firm's marginal cost (MC) is the amount by which a firm's cost changes if the firm produces one more unit of output."[^well]
+- _Microeconomics_ (8e) Pindyck & Rubinfeld, page 237: "Marginal cost, sometimes called incremental cost, is the increase in cost that results from producing one extra unit of output."
+- _Principles of Economics_ (4e) Mankiw, page 276: "Marginal cost tells us the increase in total cost that arises from producing an additional unit of output."
+- _Economics_ (14e) Samuelson & Nordhaus, page 733: "The extra cost (or the increase in total cost) required to produce 1 extra unit of output (or the reduction in total cost from producing 1 unit less)."
+
+[^well]: In a footnote Perloff mentions the precise definition referencing infinitesimals, but does not discuss when these two definitions are interchangeable and when they are not.
+
+## Why am I emphasizing this?
+
+The role of marginal cost in microeconomic theory depends on the mathematical attributes of the __derivative of the cost function__, attributes which the incremental cost only shares when the two are interchangeable.
+
+- Price theory.
+- Aggregation to macroeconomic theory.
+- Monopoly definition and pricing.
+
+Particularly important when 'increments' are large (e.g. aircraft) or hard to define (e.g. social media).
+
+## Average Cost (AC):
+
+Total Cost of producing the output over the number of units of output. 
+
+- This is a simple average for single-product firms. 
+- Average cost is only defined in multi-product firms when the cost function is separable. That is when there is no interaction between the production of products within the firm. The production processes cannot: 
+    1. Interfere with each other,
+    2. Share capital,
+    3. Exhibit any synergy.
+
+## Average Cost (AC):
+
+- Synergy is the reason why products are grouped within firms, and grouping products within firms is costly so it is unlikely that AC is ever useful in practice.
+- This is at odds with the common use of the concept of average total cost in microeconomic theory, where the decision to enter or exit a product market is made based on expected average total cost.
+
+# The Real World vs. the Linear World
+
+- Do you understand how real operations are likely to differ from the simple
+linear approximations used in introductory textbooks?
+
+## A simple example where everything is linear:
+
+![Linear Approximation](F2-6.png)
+
+<!-- <center><img src="F2-6.png"  width="1500" height="1500"> -->
+
+### Can you see anything unrealistic in this graph?
+
+## Most firms' costs are non-linear
+
+![Non-linear Version](F2-1.png)
+
+<!-- <center><img src="../S2/F2-1.png"  width="1500" height="1500"> -->
+
+## Economic Significance: i.e. what does the graph _represent_? 
+
+1. What is the economic significance of the area to the left of the line from X to A?
+
+- Production __below__ the intended/efficient scale of the firm.
+
+2. What is the economic significance of the area between X->A and Y->B?
+
+- Production __at__ the intended/efficient scale of the firm.
+
+3. What is the economic significance of the area to the right of Y->B?
+
+- Production __above__ the intended/efficient scale of the firm.
+
+# Lecture 3: Cost Estimation 
+
+## Lecture 3 Topics:
+
+- Data Analysis Workflow.
+- Bad (esp. Missing) Data.
+- How to plot, estimate, and interpret. (basic steps) 
+
+## Data Analysis Workflow.
+
+1. Obtain data.
+2. Plot data.
+3. Model data and evaluate.
+4. Interpret data.
+
+## 1. Obtain data.
+
+- The data you gather should be informed by the question you are asking, if you are modeling cost then you should consider the input of those who designed the products as processes as well as those who conduct them.
+- The model you intend to fit is implicit in this step. If you think _x_ causes _y_ you will collect measures of _x_ and _y_.
+
+## 2. Plot data.
+
+- This should be a test of your intuition, and the quality of the data.
+
+## 3. Model data and evaluate.
+
+- Start with simple functional forms (i.e. linear regression).
+- Evaluate fit by plotting data and the model, as well as formal statistical tests.
+
+## 4. Interpret data.
+
+- What does the estimated relationship mean?
+- Does it make sense? Is it physically possible?
+- What is the level of uncertainty inherent in the data? This is both what you see in the graph and what you know about the data generating process.
+
+## Bad (esp. Missing) Data.
+
+- The handling of missing data is critical. Always ask whether a missing value is a 0 (e.g. R\&D is not reported if none occurred) or should be thrown out.
+- More generally, it is important to think through how the data are translated from the real world into rows in your dataset. 
+
+## How to plot, estimate, and interpret. (basic steps) 
+
+- Can you explain the steps to create a plot of a dataset using Excel or Python (or something else)?
+- The names of the commands do not need to be precise, you can assume that the tool has been set up and that the person you are explaining it to has a general knowledge of the tools.
+
+## Links to Relevant Slides and Examples:
+
+- [Data Workflow (Data Science)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/1/1)
+- [Data Workflow (Statistics)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/1/4)
+- [Data Workflow (Accountant)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/1/5)
+- [Python Example](https://arthurhowardmorris.github.io/assets/slides/acct3210/S3/Lecture3CostEstimation.slides.html#/3/2)
+- [Excel Example (Videos posted on Canvas).](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Problem1.xlsx)
+
+# Lecture 4: Non-linear Programs - Optimization I)
+
+## Lecture 4 Topics
+
+- Optimization Workflow. 
+- What does it mean for a constraint to 'bind'?
+
+## Optimization Workflow 
+
+1. Identify the choice variables.
+    - Keep in mind that the constraints may limit the choice variables.
+    - Be explicit about any natural constraints (e.g. $q>0$).
+    - Include initial values (guesses) if required.
+2. Write out the objective function.
+    - Make any substitutions.
+    - Note whether the objective is to maximize or minimize the function.
+3. Write out the constraints.
+    - These will be equations with more than one variable.
+    - Single variable constraints will be reported with the choice variables.
+4. Solve.
+    - This will be done with a solver (gekko, excel) in practice.
+    - You will not be asked to take this final step on the exam.
+
+## Optimization workflow:
+
+- Can you explain the steps solve an optimization problem using Excel or Python (or something else)?
+- The names of the commands do not need to be precise, you can assume that the tool has been set up and that the person you are explaining it to has a general knowledge of the tools.
+
+## What does it mean for a constraint to 'bind'?
+
+- In the case of a profit function a binding constraint prevents the firm from earning more profit.
+- When a constraint binds, the optimal production plan will include choices equal to the constraint.
+
+## Links to slides and examples.
+
+_Note that lectures 4 \& 5 both have examples of the optimization workflow._ 
+
+- [Step 1. Choice Variables (linear
+example)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S5/SolvingLPs.slides.html#/2/1/0)
+- [Step 1. Choice Variables (non-linear
+example)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S4/lecture4nonlinearProgramming.slides.html#/2/4)
+- [Step 2. Objective Function (linear
+example)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S5/SolvingLPs.slides.html#/2/2)
+- [Step 2. Objective Function (non-linear
+example)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S4/lecture4nonlinearProgramming.slides.html#/3)
+- [Step 3. Constraints (Linear
+example)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S5/SolvingLPs.slides.html#/2/3)
+- Step 3. Constraints (non-linear example): Note that there are no remaining
+multivariate constraints!
+- [Step 4. Solve (Linear
+example)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S5/SolvingLPs.slides.html#/2/4)
+    - Again, you do not have to do this by hand.
+    - Can you explain the steps to solve this problem in Excel or Python? 
+    - ...like seriously, can you explain this to someone else? If you are not
+    sure, find someone to explain it to. Did they get the output you expected?
+- [Excel
+Examples](https://arthurhowardmorris.github.io/resources/semesters/s2024/ACCTG3210.html#lecture-5-linear-programs)
+
+## Lecture 5: Linear Programs (Optimization II)
+
+# Lecture 5:
+
+- Shadow prices.
+- Framing of the marginal cost.
+
+## Shadow prices.
+
+For a given objective function and constraint, the shadow price on the constraint is the rate at which the value of the objective function changes as the constraint is relaxed. You may have heard this referred to as a Legrange multiplier ($\Lambda$) in math and econ where we are interested in it's infinitesimal properties; however, in our case we are most interested in it's value over specific intervals. I.e. what is the predicted benefit of purchasing 1500 more machines? Increasing a budget by \$100,000,000?
+
+- [Python Example](https://arthurhowardmorris.github.io/assets/slides/acct3210/S5/SolvingLPs.slides.html#/3)
+- [Excel Examples](https://arthurhowardmorris.github.io/resources/semesters/s2024/ACCTG3210.html#lecture-5-linear-programs)
+
+## Framing of the marginal cost.
+
+In P5 we have:
+
+- Revenue: $R=40x+42y$
+- Cost: $C=30x+30y$ 
+- Profit: $\Pi = 10x + 12y$
+
+What is the marginal cost of $x$ based on this information?
+
+$\frac{\delta C}{\delta x}=30$
+
+This the marginal cost in the direct sense that you will have to obtain \$30 of resources that you do not have in order to produce 1 unit of $x$
+
+### Is \$30 all you give up to produce one more unit of $x$?
+
+No. Because the amount of $y$ you produce depends on $x$, so we are also giving up \$2 per unit of $y$ that is displaced.
+
+# Specific Questions:
+
+## Question 1: 
+
+> I want to ask how I can better prepare for the upcoming mid-term and final
+> exam. You have spent time to talk about coding and calculation during
+> lectures, but you have also mentioned that we have to focus on
+> interpretation in the exam. If coding will not be assessed, how can I
+> better prepare for the exam and will there be some materials for us?
+
+Great questions! 
+
+- On the exam you will be asked to set up and interpret problems as discussed
+above (more detail on the next two slides), but will not need to write code.
+- I've written up a brief overview of the role of coding in the course
+[here](https://arthurhowardmorris.github.io/resources/semesters/s2025/note_on_code.html).
+
+
+> Additionally, may I know in what format, like long q/ MC, or what question
+> types, like short case study, will be on the exam as well?
+
+Great question! This outlined in the first section of these slides. Short
+answer, or short lists, with one MC section.
+
+## Question 2: Part 1 - What does 'set up' mean? 
+
+1. Can you explain the basic steps in the data analysis workflow, and
+   optimization workflow?
+2. Can you explain to someone how to plot data and add a trend line in your
+   tool of choice?
+3. Can you explain to someone how to optimize an objective function subject to
+   constraints in your tool of choice?
+
+This is what I mean by 'set up'.
+
+## Question 2: Part 2 - What does 'interpret' mean? 
+
+1. Looking at the plot and trend line can you explain what the relationship
+   implies in the real world? Does the relationship make sense?
+2. Given the output from an optimizer, can you explain what the constraints are
+   doing and what relaxing them would mean in the real world?
+
+This is what I mean by 'interpret'.
+
+## Question 3
+
+> Is it possible to provide suggested written answers for the assignment? This
+> can help us to understand how to get scores in exams. Thanks!!
+
+I've covered all of the types of questions that will be on the exam, and how to
+answer them. If you still have this question after this presentation, then you
+may be anticipating questions that are not on the exam... or asking for a level
+of detail that would require me to show you the key to the exam :)
+
+## Question 4
+
+- What is the economic significance of nonlinearities in the cost functions? 
+- What is the economic significance of interactions in a cost function? 
+- How do you get the marginal costs (I am not good at derivatives)?
+
+I've added individual slides for each of these questions above. Please let me
+know in the forum if you have followup questions.
+
+## Question 5 
+
+> I would like to have more practice questions to help us familiar with it. As
+> most assignments we done before is using Excel or Python, I want to know howl
+> will it be tested in midterm. 
+
+I recommend reviewing the slides and examples linked above, as these are
+__excruciatingly__ representative of the exam. The Zimmerman textbook has some
+similar problems which you might also use for practice if you like.
+
+## Question 6 
+
+> Example questions of midterm exam
+
+See my previous answer... I'm trying to tell you something here. Okay, here it
+is: the exam will be simplified versions of the problems that we work through
+in the lectures.
+
+## Question 7 
+
+> Would you test us the steps of using excel e.g. using a particular function?
+
+Yes, 'steps' but not the _names_ of particular functions. 
+
+> Do we need to memorise the definitions like O.S.E.M.I and statistician's workflow?
+
+You should be able to explain the steps in the workflow, but the precise names
+are not necessary. I am looking for evidence that you understand the steps that
+I listed in these slides. 
+
+> Could you explain more on Problem 4 Q6 (i need to answer the relationship
+> between MC of q1 and q2 fixed in certain situations respectively?)
+
+[In this question I am hoping the you notice that the marginal cost of $q_1$
+depends on the level of $q_2$
+produced](https://arthurhowardmorris.github.io/assets/slides/acct3210/S4/lecture4nonlinearProgramming.slides.html#/11/8)
+([and $q_2$ depends on
+$q_1$](https://arthurhowardmorris.github.io/assets/slides/acct3210/S4/lecture4nonlinearProgramming.slides.html#/11/9))
+through the level of capital. This sort of question is a life skill, but I will
+not ask anything so open-ended on the exam.
+
+> and Problem 5 Q5? 
+
+I added a slide on this above!
+
+## Question 8 
+
+> i want to know more about the sharp price 
+
+[I think this is an autocorrect of 'shadow
+price'.](https://arthurhowardmorris.github.io/assets/slides/acct3210/S5/SolvingLPs.slides.html#/3),
+which we have a slide for above. Feel free to ask follow up questions, or
+clarify, in the forum.
+
+## Question 9 
+
+> No. 
+
+... thanks for filling out the form. 
+
+## Question 10
+
+> Is the setup only involve general method like when we analyze  data we need
+> to choose model and plot the data but not details on the setup during
+> analysis for example how to use the solver in excel? Or both are needed?
+
+This is related to the "what is set up" question above. I recommend preparing
+for both data analysis and optimization problems as outlined above. Let me know
+if there are any follow up questions.
+
+## Question 11 
+
+> Linear programming 
+
+You got it! (See above) 
+
+## Question 12 
+
+> non-linear programming and questions 6-7 
+
+I've uploaded (or will upload soon ... depending on when you ask) videos on
+each of these. __UPDATE: These should go up by Friday__
+
+## Question 13 
+
+> May you tell more detailed about excel application on linear regression 
+
+I've uploaded an excel plotting video, which may help here (it's the level of
+detail you need for the exam). If you have more specific questions, please let
+me know in the discussion forum.
+
+## Question 14 
+
+> the detail steps to write out in words for Excel demonstrate (midterm marking
+> scheme keyword)
+
+It is possible (though I don't want to assume) that the intent of this question
+is to elicit a list of words that if used in an answer would lead to a
+guaranteed mark on the exam. While I am sympathetic to such a request, this
+completely misapprehends the purpose of the exercise. I am looking for evidence
+that students have familiarized themselves with the tools, and can communicate
+the steps to others. That said, I know that this is asking a lot and we will be
+_very_ lenient in our grading of this portion of the midterm.
+
+I do not use a keyword system for grading. If you use a correct word in a
+sentence that is impossible to parse you will not get credit. If you use a word
+that is not on my list, but the sentence is clear evidence that you understand
+the concept, you will get credit. Again, this will be less of a problem than
+some of you seem to expect as the questions are short and focused, and we will
+be generous in our grading of the midterm.
+
+## Question 15 
+
+> Leture 1 - 4, because missed the class due to add/drop period
+
+Can I recommend the videos that I have posted on canvas? 
+
+## Question 16 
+
+> Doctor Morris, could you please suggest how do we focus on the setup and
+> interpretation of python linear system in midterm? Which part should we be
+> focusing on for revision? Thanks. 
+
+I tried to cover this above, please follow up with me in the forum if you still have
+questions. I know that I focused on Excel in this session, so I'd be happy to
+follow up with you on this.
+
+## Question 17 
+
+> can you explain about what will be tested in Midterm and how? If Python will
+> not be tested, do we need to know about Excel?
+
+I tried to cover this above, please follow up with me if you still have questions. 
+
+## Question 18 
+
+> Actually, I'm not very sure on the main points in each lecture. There is a
+> huge bunch of information about Python and Excel yet it won't be tested in
+> exam. I'm confused that which kind of questions will the exam cover and how
+> should we prepare for it? For example, are there any places that we need to
+> memorize or work out? I'm not very sure that specifically what kind of parts
+> should we focus on.
+
+This question is a great summary of the questions above, and closely related to
+question 1. Please post in the forum with specific questions if they remain
+after this session.
+
+Please do note, that the statement "There is a huge bunch of information about
+Python and Excel yet it won't be tested in exam." would be productively
+classified as... well, false IMHO :)
+
+I've attempted to outline the role that these tools will play in the exam above
+(and of 'coding'
+[here](https://arthurhowardmorris.github.io/resources/semesters/s2025/note_on_code.html)),
+but please let me know if questions remain. I do want to make sure that you
+feel comfortable with the material.
+
+## Question 19
+
+> do we need python/ excel skills in exams?
+
+> the question type
+
+> do we need to write long paragraphs or just a few sentences
+
+I had these in mind as I prepared the slides, so I hope that I have answered
+them. Please post in the forum if you have any follow up questions.
+
+## Question 20
+
+> Problem 4(cost in a multiproduct firm part 2 )<the non-linear one>,how to use
+> excel solver to solve for q1 and q2
+
+[We can run through this again if there is time. The video for the lecture, and
+the excel example should help
+you.](https://arthurhowardmorris.github.io/assets/slides/acct3210/S4/nonlinearexample.xlsx)
+If you still have doubts here, please let me know in the forum.
+
+## Question 21
+
+> topics of economic significance and potential type of questions that might appear in exam  
+
+- "economic significance" refers to the effect in the real world, as opposed to
+statistical significance. I've added a slide about this. Let me know if you have any follow up questions after
+reviewing the slides.
+
+## Question 22 
+
+> Midterm prep strategies, e.g. common midterm topics or question types. Thanks!
+
+The midterm questions will be simplified versions of the homework and lecture
+questions... but I've covered this above. Please let me know if you have any
+follow up questions.
+
+## Question 23 
+
+> Linearity Assumption in Lecture 1 Note
+
+We talk about this in lecture 2 (see the graphs above in this slide deck), and
+at the end of lecture 3. If I didn't cover this to your satisfaction, please
+let me know in the forum.
+
+## Question 24 
+
+iPRS :) 
