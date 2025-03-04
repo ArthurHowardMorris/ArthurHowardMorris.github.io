@@ -282,8 +282,10 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __16. 8 Apr.__  | __Cost Allocation: Theory__                           |
 | _Read:_         | Zimmerman, Chapter 7                                  |
 | _Read:_         | Zimmerman, Chapter 8                                  |
-| __17. 10 Apr__  | __Modern Cost Allocation__                            |
 | _Read:_         | Chapter 8 Appendix A                                  |
+| __17. 10 Apr__  | __Course Feedback Day__                            |
+| | _No lecture or attendance today!_ |
+| | Please complete the survey posted in Canvas, and then watch and critique one of the videos if you have not yet. |
 | __18. 15 Apr.__ | __Absorption Costing Systems__                        |
 | _Read:_         | Zimmerman, Chapter 9                                  |
 | _Problems:_     | __P11:__ 9–9 DeJure Scents                            |
