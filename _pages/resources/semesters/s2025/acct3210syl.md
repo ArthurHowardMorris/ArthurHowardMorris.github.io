@@ -247,28 +247,28 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __6. 20 Feb.__ | __Comprehensive review__                                    |
 | _Survey:_      | _Submit review topics for in-class discussion_              |
 
-|                 | __Section 2: Theory__                                        |
+|                 | __Section 2: Theory__                                     |
 |-----------------|--------------------------------------------------------------|
-| __7. 25 Feb.__  | __Time Value of Money and Capital Budgeting__                |
-| _Read:_         | Zimmerman, Chapter 3                                         |
+| __7. 25 Feb.__  | __Time Value of Money and Capital Budgeting__              |
+| _Read:_         | Zimmerman, Chapter 3                                      |
 | _Case:_         | __Case:__ Special Electric Case _read before class_          |
-| __8. 27 Feb.__  | __Taxation of returns__                                      |
-| _Read:_         | Before- and After-tax Returns (class note)                   |
-|                 | Taxable versus Tax-exempt Bonds (class note)                 |
-| _Problem:_      | __P8:__ Alternative Savings Vehicles                         |
-| __9. 4 Mar.__   | __Tax Shields and Real and Financial Assets__                |
+| __8. 27 Feb.__  | __Taxation of returns__                                   |
+| _Read:_         | Before- and After-tax Returns (class note)                |
+|                 | Taxable versus Tax-exempt Bonds (class note)              |
+| _Problem:_      | __P8:__ Alternative Savings Vehicles                      |
+| __9. 4 Mar.__   | __Tax Shields and Real and Financial Assets__             |
 | _Read:_         | Net-of-tax returns on real and financial assets (class note) |
-|                 | _Note: No problems are due today_                            |
-| __10. 6 Mar.__  | __Economics of Agency__                                      |
-| _Read:_         | Zimmerman, Chapter 4                                         |
+|                 | _Note: No problems are due today_                         |
+| __10. 6 Mar.__  | __Economics of Agency__                                   |
+| _Read:_         | Zimmerman, Chapter 4                                      |
 |                 | Incentives and Managerial Compensation (class note)          |
-| __11. 11 Mar.__ | __Organizational Architecture__                              |
-| _Problems:_     | __P10:__ 4–18 Rothwell                                        |
+| __11. 11 Mar.__ | __Economics of Agency: Examples__                           |
+| _Problems:_     | __P10:__ 4–18 Rothwell                                     |
 | _Survey:_       | _Submit review topics for in-class discussion_               |
-| __12. 13 Mar.__ | __Mid-term Review__                                          |
-|                 | in class.                                                    |
+| __12. 13 Mar.__ | __Mid-term Review__                                       |
+|                 | in class.                                                 |
 | __18 Mar.__     | __Midterm__  _No class_                                      |
-|                 | 2000-2100, in LTC and LTD
+|                 | 2000-2100, in LTC and LTD |
 |                 | See Canvas for room assignments.                             |
 
 |                 | __Section 3: Cost Allocation__                        |
