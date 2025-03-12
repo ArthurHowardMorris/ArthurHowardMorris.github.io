@@ -1,5 +1,5 @@
 ---
-title: "Lecture 12: Review of the 'Tools' portion of the course."
+title: "Lecture 12: Midterm"
 author: "Dr. Arthur Morris"
 institute: "HKUST School of Business and Management"
 format: 
