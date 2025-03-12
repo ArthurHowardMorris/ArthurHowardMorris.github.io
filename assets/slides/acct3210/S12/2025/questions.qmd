@@ -1,0 +1,230 @@
+---
+title: "Lecture 12: Midterm Review - Questions"
+author: "Dr. Arthur Morris"
+institute: "HKUST School of Business and Management"
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+    code-fold: true
+jupyter: python3
+---
+
+## Question 1 
+
+> "Could you please provide more details about the structure of the exam?"
+
+Thanks for the specific follow up questions! 
+
+> "I understand there are five sections, and one of them is multiple choice. Could
+> you tell me how many multiple-choice questions there will be?" 
+
+Either zero (if you choose not to use this section), or eight.
+
+> "Additionally, for the section with longer questions, will there be multiple sub-questions?"
+
+Yes. 
+
+> "Will these questions be exactly the same as those we've seen in our homework
+> assignments?" 
+
+Yes. Though the questions will be modified to simplify and focus them. For
+example, rather than ask you to calculate marginal costs for all products and
+firms, I might ask one sub question per firm asking for marginal costs for one
+product for each of the firms.
+
+> And just to confirm, is the midterm only covering Lectures 1 to 9?
+
+Yes. P1-7, Special Electric, and the key tax concepts.
+
+> "Thanks a lot : )))"
+ 
+My pleasure!
+
+## Question 2 
+
+> "Will there be questions on calculating exact implicit tax or present value?" 
+
+This has two parts. 
+
+1. Implicit tax: No. This will be a multiple choice question, and it will focus
+   on the definition. Note that there was no question in the homework on this
+  calculation. 
+2. Present value: Yes. You should know how to calculate present value of a
+   stream of cash flows as covered in the Special Electric case.
+
+## Question 3 
+
+> 1. Explain again P5 Question 6 and what is the meaning of "depend on the decision frame"?
+
+> 2. Explain again Question 2 & 3 of Special Electric Case
+
+I don't plan to cover these two questions in the midterm. They are the intended
+as a transition to the next part of the course.
+
+## Question 4 
+
+> "Are we required to calculate the after tax return of the financial assets?
+> Will the formula be provided?"
+
+No. This will be a multiple choice question.
+
+> "Also, for the tax shield, are we required to remember the exact formula and
+> do some calculations on it. Or we just need to remember the relationship of
+> tax shield and tax rate & depreciation rate?"
+
+No. This will be a multiple choice question.
+
+## Question 5 
+
+> "Is there any sample questions?"
+
+The homework questions are the actual questions that I will be asking you on
+the exam. I have literally written the questions and the answers to everything
+on the exam on the slides that I have posted. 
+
+## Question 6 
+
+> "Maybe one sample question with the model answer please.
+
+When you take the exam you'll notice that I've done this repeatedly. See the
+"Question Format" slide (which I'm now showing for the third time), and Lecture
+2 slides in the review slides (Note this discussion is in lectures 2, 6, and 12).
+
+> "I know the question is similar to the problem set, but we just dicuss the
+> problem set in class but not having an explicit marking scheme, the part
+> giving the score." 
+
+You can consider the outlines in lectures 6 and 12 to be the information that
+correct answers will contain. Please see the example question slides to get a
+sense of the question format, you'll notice that the questions can be answered
+with a couple of sentances stating facts or with lists of steps. Though, the
+ideas must be coherantly expressed. 
+
+> "It will be very appreciated, thank you Doctor Morris"
+
+## Question 7 
+
+> Tax rate progressivity 
+
+This is when the tax rate increases with income (or wealth). This is not going
+to be on the midterm. 
+
+## Question 8 
+
+> "Do we need to memorize these equations and use them in the exam?"
+
+The survey didn't give me the image that was attached here. But, I do not think
+that you have to "memorize" and "use" formulas for the exam. Though, the
+marginal cost, average cost, and incremental cost functions are important to
+understand, I am not sure that I would call them "equations" that you need to memorize.
+
+## Question 9 
+
+> tax
+
+See the tax terms section of the review session slides.
+
+## Question 10 
+
+> Returns before and after taxes 
+
+See the tax terms section of the review session slides.
+
+## Question 11 
+
+> "I am confused about everything on reading 8. I don't understand how the
+> equation from point 1 translates into the examples in point 2.
+
+> "Also I am curious how we could study for our upcoming midterm. Do we mainly
+> focus on the questions (problem sets)
+
+Yes! P1-7, Special Electric, and the key tax concepts.
+
+> and is there any way we could get a
+> hand of the recording for the lectures up until now? 
+> It is really hard to
+> understand the concepts without any recordings and just through text +
+> problems."
+
+I have posted recordings of all of the lectures through the end of the add/drop period.
+
+## Question 12 
+
+> "Will we get a lecture overview sheet like we did for lecture 6 that contains
+> the important parts of each lecture?
+
+The lecture 12 (today's) overview sheet is posted on the course website.
+
+> "Also, are the concepts presented on the lecture overview sheet all the
+> content that will be on the exam or will we have to know things that wont be
+> on the lecture overview?"
+
+The review sheet from today is complete, though note that there are a few links
+to particular sections of the slides that you should review.
+
+## Question 13 
+
+> Hi I’m just wondering if it is possible to upload the answers of the
+> homework, like the excel file and answers for the in text question. Thank
+> you!
+
+Most of those questions are too open ended for the exam. I recommend that you
+focus on what is covered in these review slides.
+
+## Question 14 
+
+> How does tax shields work exactly?
+
+To answer this we'll need to look at the formula. But please remember that you
+do not have to memorize the formula for the exam.
+
+> Do we have to explain how pensions and
+> life insurance work for the organizational form arbitrage in the midterm?
+
+Nope, just understand the definitions reviewed in the lecture today.
+
+> Would there be any short questions for the tax session? Or would it be all
+> MCs?
+
+All MC.
+
+## Question 15
+
+> Can you go through the special case and the homework assignment again~ 
+
+Can you give me a more specific question? This seems like you're asking me to
+do nine lectures in one go!
+
+## Question 16 
+
+> Do i need to know the formulas for deprecation tax shield?
+
+No. 
+
+## Question 17 
+
+> "Are there any practices we could do in order to prepare for the midterm?"
+
+I would focus on P1-7, Special Electric, and the key tax concepts. Since that
+is where the questions will come from.
+
+## Question 18 
+
+> "How do we focus on the setup and interpretation of python coding during our
+> revision? Thanks." 
+
+- Setup: I would focus on the data analysis steps. Can you explain them to
+someone else who is comfortable with python (or excel)?
+- Interpretation: This is not specific to python. This is about being able to
+explain the real-world meaning of the numbers or graphs that we produce. 
+
+## Question 19 
+
+> Which part is the most important and takes the larger proportion of mark,
+> phase I or II and what specific of items of that phase?
+
+To the extent that I understand this question, the midterm will focus on P1-7,
+special electric, and the key tax concepts. The only way that I can be more
+specific than that is to tell you the questions that will be on the exam, which
+I can't do.
