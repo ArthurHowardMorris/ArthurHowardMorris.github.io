@@ -9,7 +9,8 @@ published: true
 
 ### Spring 2025 Syllabus
 
-_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow __[this link](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210Syl.html)__ for the current version._
+_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow __[this link](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210syl.html)__ for the current version._
+<!--_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow __[this link](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210Syl.html)__ for the current version._-->
 
 ## Instructor
 
