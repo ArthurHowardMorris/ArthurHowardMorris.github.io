@@ -9,7 +9,7 @@ published: true
 
 ### Spring 2025 Syllabus
 
-_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow __[this link](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210Syl.html)__ for the current version._
+_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow [__this link__](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210Syl.html) for the current version._
 
 ## Instructor
 
@@ -277,7 +277,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 | _Read:_         | Zimmerman, Chapter 5                                  |
 | __14. 25 Mar.__ | __Transfer Pricing: Additional Considerations__       |
 | _Case:_         | __Case:__ Vik-Giger Corporation   _read before class_ |
-| __15. 27 Mar.__ | __Exam paper review__  _In class only.                |
+| __15. 27 Mar.__ | __Exam paper review__  _In class only_.                |
 |                 | __Mid-Term Break__ _No class Monday and Wednesday._   |
 | __16. 8 Apr.__  | __Cost Allocation: Theory__                           |
 | _Read:_         | Zimmerman, Chapter 7                                  |
