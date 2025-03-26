@@ -305,7 +305,8 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __23. 6 May.__  | _TBA_                                                 |
 | __24. 8 May.__  | __Final Review__ _in class_                           |
 | _Survey:_       | _Submit review topics for in-class discussion_        |
-| _TBA_           | __Final Exam__                                        |
+| __29 May__           | __Final Exam__                                        |
+|    | __8:30-11:30__ in __SH Ho Sports Hall__ |
 
 <!-- | _Case:_         | __C9:__ LSP Capsules                                         | -->
 <!-- | _Case:_         | __C8:__ Seligram Inc.: Electronic Testing Operations         | -->
