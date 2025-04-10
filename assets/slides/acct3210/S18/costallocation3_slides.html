@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Proper cost allocation of support departments.</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+  <style>
+  h3 {
+    font-size: 30px;
+  }
+  tbody {
+    font-size: 20px;
+  }
+  thead {
+    font-size: 25px;
+  }
+  </style>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Proper cost allocation of support departments.</h1>
+</section>
+
+<section>
+<section id="step-down-method-does-the-order-matter"
+class="title-slide slide level2">
+<h2>Step-down method: Does the order matter?</h2>
+
+</section>
+<section id="does-the-order-matter" class="slide level3">
+<h3>Does the order matter?</h3>
+<ul>
+<li>The costs allocated to Cars and Trucks differ by only $27,000
+depending on whether telecommunications or IT is chosen first.<br />
+</li>
+<li>The difference of $27,000 is less than 1 percent of the total costs
+allocated.</li>
+</ul>
+</section>
+<section id="does-the-order-matter-1" class="slide level3">
+<h3>Does the order matter?</h3>
+<ul>
+<li>However, very different incentives result depending on which method
+is used.</li>
+<li>Allocated costs are taxes, and taxes effect behavior.</li>
+<li>And these can lead to the <strong>Death Spiral</strong> if the tax
+is too high!</li>
+</ul>
+</section>
+<section id="illustration" class="slide level3">
+<h3>Illustration:</h3>
+<ul>
+<li>To illustrate lets expand the telecommunications and IT
+example.</li>
+<li>Suppose the allocation base in telecommunications is the number of
+telephones in each department, and</li>
+<li>in IT the allocation base is the number of gigabytes of disk space
+used.</li>
+</ul>
+</section>
+<section id="illustration-1" class="slide level3">
+<h3>Illustration:</h3>
+<ul>
+<li>Transfer prices are to be established for telephones and
+gigabytes.</li>
+<li>Allocated costs will be used to compute the transfer prices.</li>
+</ul>
+</section>
+<section id="the-allocation-bases" class="slide level3">
+<h3>The allocation bases:</h3>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Allocation base</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Telecomm</td>
+<td>3,000 Telephones</td>
+</tr>
+<tr class="even">
+<td>IT</td>
+<td>12 million gigabytes</td>
+</tr>
+</tbody>
+</table>
+<!-- if there was more appitite for data analysis we sould spend a lot more time on teh critical question of how best to actually choose allocation bases. -->
+</section>
+<section id="cost-allocated-per-phone" class="slide level3">
+<h3>Cost allocated per phone</h3>
+<h4 id="number-of-phones">Number of phones</h4>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 29%" />
+<col style="width: 29%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Direct</th>
+<th>Step, Telecomm first</th>
+<th>Step, IT first</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Telecoms</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>IT</td>
+<td>–</td>
+<td>20% <span class="math inline">×</span> 3,000 = 600</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>Cars</td>
+<td>40% <span class="math inline">×</span> 3,000 = 1,200</td>
+<td>40% <span class="math inline">×</span> 3,000 = 1,200</td>
+<td>40% <span class="math inline">×</span> 3,000 = 1,200</td>
+</tr>
+<tr class="even">
+<td>Trucks</td>
+<td>30% <span class="math inline">×</span> 3,000 = 900</td>
+<td>30% <span class="math inline">×</span> 3,000 = 900</td>
+<td>30% <span class="math inline">×</span> 3,000 = 900</td>
+</tr>
+<tr class="odd">
+<td>Phones</td>
+<td>2,100</td>
+<td>2,700</td>
+<td>2,100</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><em>Note: that telecom is always ‘–’ here because we are considering
+how to allocate it’s costs. The in the ‘IT first’ column the telecom
+costs already include IT costs.</em></li>
+</ul>
+</section>
+<section id="cost-allocated-per-phone-1" class="slide level3">
+<h3>Cost allocated per phone</h3>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 22%" />
+<col style="width: 23%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Direct</th>
+<th>Step, Telecomm first</th>
+<th>Step, IT first</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cost per phone</td>
+<td>$2M/2,100 = $ 952</td>
+<td>$2M/2,700 = $ 741</td>
+<td>$3.765M/2,100 = $1,793</td>
+</tr>
+<tr class="even">
+<td>Number of phones: Cars</td>
+<td>1,200</td>
+<td>1,200</td>
+<td>1,200</td>
+</tr>
+<tr class="odd">
+<td>Telecoms charged to Cars</td>
+<td>$1.143</td>
+<td>$0.889</td>
+<td>$ 2.151</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="does-the-order-matter-2" class="slide level3">
+<h3>Does the order matter?</h3>
+<p>The order can lead to large changes in the ‘tax’ on the allocation
+base!</p>
+</section>
+<section id="cost-allocated-per-gigabyte-of-storage"
+class="slide level3">
+<h3>Cost allocated per Gigabyte of Storage</h3>
+<h4 id="number-of-gigabytes-of-storage">Number of Gigabytes of
+Storage</h4>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 29%" />
+<col style="width: 29%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Direct</th>
+<th>Step, Telecomm first</th>
+<th>Step, IT first</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Telecoms</td>
+<td>–</td>
+<td>–</td>
+<td>25% <span class="math inline">×</span> 12 = 3.0</td>
+</tr>
+<tr class="even">
+<td>IT</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>Cars</td>
+<td>35% <span class="math inline">×</span> 12 = 4.2</td>
+<td>35% <span class="math inline">×</span> 12 = 4.2</td>
+<td>35% <span class="math inline">×</span> 12 = 4.2</td>
+</tr>
+<tr class="even">
+<td>Trucks</td>
+<td>25% <span class="math inline">×</span> 12 = 3.0</td>
+<td>25% <span class="math inline">×</span> 12 = 3.0</td>
+<td>25% <span class="math inline">×</span> 12 = 3.0</td>
+</tr>
+<tr class="odd">
+<td>Gigs</td>
+<td>7.2</td>
+<td>7.2</td>
+<td>10.2</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><em>Note: that IT is always ‘–’ here because we are considering how
+to allocate it’s costs. The in the ‘Telecom first’ column the IT costs
+already include Telecom costs.</em></li>
+</ul>
+</section>
+<section id="cost-allocated-per-gigabyte-of-storage-1"
+class="slide level3">
+<h3>Cost allocated per Gigabyte of Storage</h3>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 20%" />
+<col style="width: 27%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Direct</th>
+<th>Step, Telecomm first</th>
+<th>Step, IT first</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cost per gig</td>
+<td>$6/7.2 = $0.833</td>
+<td>$6.44/7.2 = $0.895</td>
+<td>$6/10.2 = $0.588</td>
+</tr>
+<tr class="even">
+<td>Number of gigs in Cars</td>
+<td>4.2</td>
+<td>4.2</td>
+<td>4.2</td>
+</tr>
+<tr class="odd">
+<td>IT charged to Cars</td>
+<td>$3.5</td>
+<td>$3.759</td>
+<td>$2.470</td>
+</tr>
+</tbody>
+</table>
+<h5
+id="cost-allocated-per-giga-of-storage-millions-except-cost-per-gb">Cost
+allocated per Giga of storage (Millions except cost per Gb)</h5>
+</section>
+<section id="consider-the-impact-on-behavior" class="slide level3">
+<h3>Consider the impact on behavior:</h3>
+<ul>
+<li>The sequence of service departments in the step-down method changes
+the costs of each service.</li>
+<li>Because the cost per phone (which represents the transfer price)
+varies depending whether or not it includes IT costs,</li>
+<li>the cost allocation scheme affects the decision of each department
+to add or drop phones.</li>
+<li>The same conclusions hold for the information technology
+department.</li>
+</ul>
+</section>
+<section id="does-the-order-matter-3" class="slide level3">
+<h3>Does the order matter?</h3>
+<ul>
+<li>Note the wide variation in cost per gigabyte.</li>
+<li>The cost varies from $0.588 per gigabyte under the step-down method
+with IT chosen first</li>
+<li>to $0.895 under the step-down method with telecommunications chosen
+first.</li>
+<li><strong>The step-down method is an example of a sub-optimal status
+quo.</strong></li>
+</ul>
+</section>
+<section id="the-central-issues-with-the-step-down-method"
+class="slide level3">
+<h3>The central issues with the step-down method:</h3>
+<ul>
+<li>The sequence used is arbitrary and large differences can result in
+the cost per unit of service using different sequences.</li>
+<li>This creates an artificially low tax on the first department and an
+artificially high tax on the second department.</li>
+<li>Get this wrong and risk the death spiral.</li>
+<li>If you see the step-down method, find out why.</li>
+</ul>
+</section></section>
+<section>
+<section id="the-reciprocal-method" class="title-slide slide level2">
+<h2>The reciprocal method:</h2>
+<ul>
+<li><strong>Solves the problem by making the allocation
+simultaneously</strong></li>
+</ul>
+<p>Start by setting up the equations</p>
+</section>
+<section id="costs-before-allocation" class="slide level3">
+<h3>Costs before allocation:</h3>
+<table>
+<thead>
+<tr class="header">
+<th><em>Consumer:</em></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Provider:</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Telecoms</td>
+<td>10%</td>
+<td>20%</td>
+<td>40%</td>
+<td>30%</td>
+<td>100%</td>
+</tr>
+<tr class="odd">
+<td>IT</td>
+<td>25%</td>
+<td>15%</td>
+<td>35%</td>
+<td>25%</td>
+<td>100%</td>
+</tr>
+<tr class="even">
+<td>Cost incurred</td>
+<td>$2M</td>
+<td>$6M</td>
+<td></td>
+<td></td>
+<td>8M</td>
+</tr>
+<tr class="odd">
+<td><strong>Total to allocate:</strong></td>
+<td><span class="math inline"><em>T</em></span></td>
+<td><span class="math inline"><em>I</em></span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><span class="math inline"><em>I</em></span> and <span
+class="math inline"><em>T</em></span> are unknown because they include
+unallocated costs. We need to set up a system of equations and solve it
+to get these numbers.</p>
+</section>
+<section id="telecoms-equation" class="slide level3">
+<h3>Telecoms equation:</h3>
+<ul>
+<li><span class="math inline"><em>T</em></span> = Telecom Cost incurred,
+plus the portion of those costs that Telecom incurred, and the portion
+of IT that Telecom incurred.</li>
+<li>The equation is:</li>
+</ul>
+<p><span
+class="math display"><em>T</em> = $2<em>M</em> + 0.10 × <em>T</em> + 0.25 × <em>I</em></span></p>
+<ul>
+<li>Notice that the <span class="math inline">0.10 × <em>T</em></span>
+term is decreasing the amount of <span
+class="math inline"><em>T</em></span> to allocate, and <span
+class="math inline">0.25 × <em>I</em></span> is increasing it.</li>
+</ul>
+</section>
+<section id="now-we-algebra-a-little" class="slide level3">
+<h3>Now we algebra a little:</h3>
+<ul>
+<li>The equation simplifies to: <span
+class="math display">0.9 × <em>T</em> = $2<em>M</em> + 0.25 × <em>I</em></span>
+<span
+class="math display"><em>T</em> = $2<em>M</em>/.9 + 0.25/.9 × <em>I</em></span></li>
+</ul>
+</section>
+<section id="it-equation" class="slide level3">
+<h3>IT equation:</h3>
+<ul>
+<li><span class="math inline"><em>I</em></span> = IT cost incurred, plus
+the portion of those costs that IT itself incurred, and the portion of
+Telecom that IT incurred.</li>
+<li>The equation is: <span
+class="math display"><em>I</em> = $6.0 + .20 × <em>T</em> + .15 × <em>I</em></span>
+<span
+class="math display">.85<em>I</em> = $6.0 + .20 × <em>T</em></span></li>
+<li>Notice that the <span class="math inline">.15 × <em>I</em></span>
+term is decreasing the amount of I to allocate.</li>
+</ul>
+</section>
+<section id="now-algebra-a-little-more" class="slide level3">
+<h3>Now algebra a little more:</h3>
+<ul>
+<li>Now we have two equations and two unknowns and we can solve by
+hand.</li>
+<li>As a proof of concept now we will use <a
+href="https://colab.research.google.com/">Google’s Colab</a> platform to
+solve this</li>
+</ul>
+</section>
+<section id="pass-the-following-to-the-colab-notebook"
+class="slide level3">
+<h3>Pass the following to the colab notebook:</h3>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load symbolic python</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sympy <span class="im">as</span> sp</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># initialize I and T</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>I, T <span class="op">=</span> sp.symbols(<span class="st">&#39;I, T&#39;</span>)</span></code></pre></div>
+</section>
+<section id="now-define-the-equations" class="slide level3">
+<h3>Now define the equations</h3>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># - use the comma for &#39;=&#39;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># - and simplify as little as you like </span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>tel_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span> <span class="op">+</span> <span class="fl">.25</span> <span class="op">*</span> I , <span class="fl">.9</span> <span class="op">*</span> T</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>it_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span> <span class="op">+</span> <span class="fl">.2</span> <span class="op">*</span> T , <span class="fl">.85</span> <span class="op">*</span> I</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</section>
+<section id="now-ask-for-a-solution" class="slide level3">
+<h3>Now ask for a solution</h3>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>solution <span class="op">=</span> sp.solve((tel_eq, it_eq),(I,T))</span></code></pre></div>
+<p>yields:</p>
+<p><code>{I: 8.11188811188811, T: 4.47552447552448}</code></p>
+</section>
+<section id="this-approach-is-massively-scalable" class="slide level3">
+<h3>This approach is massively scalable</h3>
+<ul>
+<li>This approach scales until google starts charging you! And after
+that until you run out of cash :)</li>
+<li>If we really wanted to have fun we could load weights and costs from
+a spreadsheet and do the calculation with matrix notation for hundreds
+of departments.</li>
+<li>Whatever the practice at a company, not knowing the reciprocal
+allocation is unwise.</li>
+</ul>
+</section>
+<section id="add-an-equation-to-illustrate" class="slide level3">
+<h3>add an equation to illustrate:</h3>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>I,T,J <span class="op">=</span> sp.symbols(<span class="st">&#39;I,T,J&#39;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>tel_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span> <span class="op">+</span> <span class="fl">.25</span> <span class="op">*</span> I <span class="op">+</span> <span class="fl">.12</span> <span class="op">*</span> J , <span class="fl">.9</span> <span class="op">*</span> T</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>it_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span> <span class="op">+</span> <span class="fl">.2</span> <span class="op">*</span> T <span class="op">+</span> <span class="fl">.38</span> <span class="op">*</span> J , <span class="fl">.85</span> <span class="op">*</span> I</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>jt_eq <span class="op">=</span> sp.Eq(</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="fl">.1</span> <span class="op">+</span> <span class="fl">.05</span> <span class="op">*</span> I <span class="op">+</span> <span class="fl">.01</span> <span class="op">*</span> T ,   J</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>solution <span class="op">=</span> sp.solve((tel_eq, it_eq, jt_eq),(I,T,J))</span></code></pre></div>
+</section>
+<section id="numpy-version-that-scales" class="slide level3">
+<h3><code>numpy</code> version that scales</h3>
+<p><em>for this we need a little more organization:</em></p>
+<p><span
+class="math display">.25 × <em>I</em> + .12 × <em>J</em> − .9 × <em>T</em> =  − 2</span>
+<span
+class="math display"> − .85 × <em>I</em> + .38 × <em>J</em> + .2 × <em>T</em> =  − 6</span>
+<span
+class="math display">.05 × <em>I</em> − <em>J</em> + .01 × <em>T</em> =  − .1</span></p>
+</section>
+<section id="then-we-can-load-this-from-a-csv-or-type-the-following"
+class="slide level3">
+<h3>then we can load this from a csv, or type the following</h3>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>lhs <span class="op">=</span> np.array([</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    [<span class="fl">.25</span>,<span class="fl">.12</span>,<span class="op">-</span><span class="fl">.9</span>],</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    [<span class="op">-</span><span class="fl">.85</span>,<span class="fl">.38</span>,<span class="fl">.2</span>],</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    [<span class="fl">.05</span>,<span class="op">-</span><span class="dv">1</span>,<span class="fl">.01</span>]</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>               ])</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>rhs <span class="op">=</span> np.array(</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    [<span class="op">-</span><span class="dv">2</span>,<span class="op">-</span><span class="dv">6</span>,<span class="op">-</span><span class="fl">.1</span>]</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>np.linalg.solve(lhs,rhs)</span></code></pre></div>
+</section>
+<section id="service-department-cost-allocation" class="slide level3">
+<h3>Service department cost allocation:</h3>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Consumer:</em></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Provider:</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Costs before allocation</td>
+<td>$2M</td>
+<td>$6M</td>
+<td></td>
+<td></td>
+<td>$8M</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="service-department-cost-allocation-1" class="slide level3">
+<h3>Service department cost allocation:</h3>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Consumer:</em></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Provider:</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Costs before allocation</td>
+<td>$2M</td>
+<td>$6M</td>
+<td></td>
+<td></td>
+<td>$8M</td>
+</tr>
+<tr class="odd">
+<td>Telecoms tot. to alloc.</td>
+<td>$(4.475)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>$(4.475)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="service-department-cost-allocation-2" class="slide level3">
+<h3>Service department cost allocation:</h3>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Consumer:</em></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Provider:</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Costs before allocation</td>
+<td>$2M</td>
+<td>$6M</td>
+<td></td>
+<td></td>
+<td>$8M</td>
+</tr>
+<tr class="odd">
+<td>Telecoms tot. to alloc.</td>
+<td>$(4.475)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>$(4.475)</td>
+</tr>
+<tr class="even">
+<td>Amount allocated from Telecoms:</td>
+<td><span class="math inline">$4.475 × .10 = $.448</span></td>
+<td><span class="math inline">$4.475 × .20 = $.895</span></td>
+<td><span class="math inline">$4.475 × .40 = $1.790</span></td>
+<td><span class="math inline">$4.475 × .30 = $1.34.</span></td>
+<td>$4.475</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="service-department-cost-allocation-3" class="slide level3">
+<h3>Service department cost allocation:</h3>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Consumer:</em></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Provider:</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Costs before allocation</td>
+<td>$2M</td>
+<td>$6M</td>
+<td></td>
+<td></td>
+<td>$8M</td>
+</tr>
+<tr class="odd">
+<td>Telecoms tot. to alloc.</td>
+<td>$(4.475)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>$(4.475)</td>
+</tr>
+<tr class="even">
+<td>Amount allocated from Telecoms:</td>
+<td><span class="math inline">$4.475 × .10 = $.448</span></td>
+<td><span class="math inline">$4.475 × .20 = $.895</span></td>
+<td><span class="math inline">$4.475 × .40 = $1.790</span></td>
+<td><span class="math inline">$4.475 × .30 = $1.34.</span></td>
+<td>$4.475</td>
+</tr>
+<tr class="odd">
+<td>IT tot. to alloc</td>
+<td></td>
+<td>$(8.112)</td>
+<td></td>
+<td></td>
+<td>$(8.112)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="service-department-cost-allocation-4" class="slide level3">
+<h3>Service department cost allocation:</h3>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Consumer:</em></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Provider:</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Costs before allocation</td>
+<td>$2M</td>
+<td>$6M</td>
+<td></td>
+<td></td>
+<td>$8M</td>
+</tr>
+<tr class="odd">
+<td>Telecoms tot. to alloc.</td>
+<td>$(4.475)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>$(4.475)</td>
+</tr>
+<tr class="even">
+<td>Amount allocated from Telecoms:</td>
+<td><span class="math inline">$4.475 × .10 = $.448</span></td>
+<td><span class="math inline">$4.475 × .20 = $.895</span></td>
+<td><span class="math inline">$4.475 × .40 = $1.790</span></td>
+<td><span class="math inline">$4.475 × .30 = $1.34.</span></td>
+<td>$4.475</td>
+</tr>
+<tr class="odd">
+<td>IT tot. to alloc</td>
+<td></td>
+<td>$(8.112)</td>
+<td></td>
+<td></td>
+<td>$(8.112)</td>
+</tr>
+<tr class="even">
+<td>Amount allocated from IT:</td>
+<td><span class="math inline">$8.112 × .25 = $2.028</span></td>
+<td><span class="math inline">$8.112 × .15 = $1.217</span></td>
+<td><span class="math inline">$8.112 × .35 = $2.839</span></td>
+<td><span class="math inline">$8.112 × .25 = $2.028</span></td>
+<td>$8.112</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="service-department-cost-allocation-5" class="slide level3">
+<h3>Service department cost allocation:</h3>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Consumer:</em></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Provider:</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Costs before allocation</td>
+<td>$2M</td>
+<td>$6M</td>
+<td></td>
+<td></td>
+<td>$8M</td>
+</tr>
+<tr class="odd">
+<td>Telecoms tot. to alloc.</td>
+<td>$(4.475)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>$(4.475)</td>
+</tr>
+<tr class="even">
+<td>Amount allocated from Telecoms:</td>
+<td><span class="math inline">$4.475 × .10 = $.448</span></td>
+<td><span class="math inline">$4.475 × .20 = $.895</span></td>
+<td><span class="math inline">$4.475 × .40 = $1.790</span></td>
+<td><span class="math inline">$4.475 × .30 = $1.34.</span></td>
+<td>$4.475</td>
+</tr>
+<tr class="odd">
+<td>IT tot. to alloc</td>
+<td></td>
+<td>$(8.112)</td>
+<td></td>
+<td></td>
+<td>$(8.112)</td>
+</tr>
+<tr class="even">
+<td>Amount allocated from IT:</td>
+<td><span class="math inline">$8.112 × .25 = $2.028</span></td>
+<td><span class="math inline">$8.112 × .15 = $1.217</span></td>
+<td><span class="math inline">$8.112 × .35 = $2.839</span></td>
+<td><span class="math inline">$8.112 × .25 = $2.028</span></td>
+<td>$8.112</td>
+</tr>
+<tr class="odd">
+<td>Total overhead allocated</td>
+<td>0.000</td>
+<td>0.000</td>
+<td>$4.629</td>
+<td>$3.371</td>
+<td>$8.000</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cost-per-phone" class="slide level3">
+<h3>Cost per phone:</h3>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Allocated Telecoms costs (M)</td>
+<td>$ 0.448</td>
+<td>$ 0.895</td>
+<td>$1.790</td>
+<td>$1.343</td>
+<td>$ 4.475</td>
+</tr>
+<tr class="even">
+<td>÷ Number of phones</td>
+<td>300</td>
+<td>600</td>
+<td>1,200</td>
+<td>900</td>
+<td>3,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Cost per phone (M)</strong></td>
+<td><strong>$ 1,492</strong></td>
+<td><strong>$ 1,492</strong></td>
+<td><strong>$1,492</strong></td>
+<td><strong>$1,492</strong></td>
+<td><strong>$ 1,492</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cost-per-gig" class="slide level3">
+<h3>Cost per gig:</h3>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Telecoms</th>
+<th>IT</th>
+<th>Cars</th>
+<th>Trucks</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Allocated IT costs</td>
+<td>$ 2.028</td>
+<td>$ 1.217</td>
+<td>$2.839</td>
+<td>$2.028</td>
+<td>$ 8.111</td>
+</tr>
+<tr class="even">
+<td>÷ Number of gigabytes (M)</td>
+<td>3.0</td>
+<td>1.8</td>
+<td>4.2</td>
+<td>3.0</td>
+<td>12.0</td>
+</tr>
+<tr class="odd">
+<td>Cost per gigabyte</td>
+<td><strong>$ 0.676</strong></td>
+<td><strong>$ 0.676</strong></td>
+<td><strong>$0.676</strong></td>
+<td><strong>$0.676</strong></td>
+<td><strong>$ 0.676</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ask-why" class="slide level3">
+<h3>Ask why!</h3>
+<blockquote>
+<p>_The fact that we observe infrequent use of the reciprocal method
+suggests that accounting’s primary focus is not decision making, but
+rather some other purpose such as decision control, financial reporting,
+or taxes.</p>
+</blockquote>
+</section></section>
+<section>
+<section id="joint-costs" class="title-slide slide level1">
+<h1>Joint costs</h1>
+
+</section>
+<section id="joint-costs-1" class="slide level3">
+<h3>Joint costs</h3>
+<figure>
+<img data-src="joint.png" alt="Joint costs" />
+<figcaption aria-hidden="true">Joint costs</figcaption>
+</figure>
+</section>
+<section id="joint-costs-and-the-death-spiral"
+class="title-slide slide level2">
+<h2>Joint costs and the death spiral</h2>
+
+</section>
+<section id="chickens-in-the-death-spiral" class="slide level3">
+<h3>Chickens in the death spiral</h3>
+<ul>
+<li>a chicken processor who buys live chickens and disassembles them
+into fillets, wings, and drumsticks.</li>
+<li>chickens cost $1.60 each.</li>
+<li>variable cost to process the chicken into parts is $0.40 per
+chicken.</li>
+<li>The joint cost per chicken is then $2.</li>
+</ul>
+</section>
+<section id="chickens-in-the-death-spiral-1" class="slide level3">
+<h3>Chickens in the death spiral</h3>
+<ul>
+<li>separate processing is necessary to obtain marketable fillets,
+drumsticks, and wings.</li>
+<li>cost of $0.80 for fillets, $0.16 for wings, and $0.04 for
+drumsticks.</li>
+<li>the split-off point occurs where all joint costs have been
+incurred.</li>
+</ul>
+</section>
+<section id="chickens-in-the-death-spiral-2" class="slide level3">
+<h3>Chickens in the death spiral</h3>
+<table>
+<colgroup>
+<col style="width: 43%" />
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 17%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Total</th>
+<th>Fillets</th>
+<th>Drumsticks</th>
+<th>Wings</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cost alloc. on weight</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Weight</td>
+<td>32 oz</td>
+<td>16 oz</td>
+<td>12 oz</td>
+<td>4 oz</td>
+</tr>
+<tr class="odd">
+<td>%</td>
+<td>100%</td>
+<td>50%</td>
+<td>37.5%</td>
+<td>12.5%</td>
+</tr>
+<tr class="even">
+<td>Alloc’d cost</td>
+<td>$2.00</td>
+<td>$1.00</td>
+<td>$0.75</td>
+<td>$ 0.25</td>
+</tr>
+<tr class="odd">
+<td><em>Profit</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sales</td>
+<td>$3.50</td>
+<td>$2.40</td>
+<td>$0.80</td>
+<td>$ 0.30</td>
+</tr>
+<tr class="odd">
+<td>Costs beyond split-off point</td>
+<td>(1.00)</td>
+<td>(0.80)</td>
+<td>(0.04)</td>
+<td>(0.16)</td>
+</tr>
+<tr class="even">
+<td>Joint costs (from above)</td>
+<td>(2.00)</td>
+<td>(1.00)</td>
+<td>(0.75)</td>
+<td>(0.25)</td>
+</tr>
+<tr class="odd">
+<td>Profit (loss) per chicken</td>
+<td>$0.50</td>
+<td>$0.60</td>
+<td>$0.01</td>
+<td>$(0.11)</td>
+</tr>
+</tbody>
+</table>
+<p>Management decides to drop chicken wings.</p>
+</section>
+<section id="chickens-in-the-death-spiral-3" class="slide level3">
+<h3>Chickens in the death spiral</h3>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Total</th>
+<th>Fillets</th>
+<th>Drumsticks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cost alloc. on weight</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Weight</td>
+<td>28 oz</td>
+<td>16 oz</td>
+<td>12 oz</td>
+</tr>
+<tr class="odd">
+<td>%</td>
+<td>100%</td>
+<td>57.14%</td>
+<td>42.9%</td>
+</tr>
+<tr class="even">
+<td>Alloc’d cost</td>
+<td>$2.00</td>
+<td>$1.14</td>
+<td>$0.86</td>
+</tr>
+<tr class="odd">
+<td><em>Profit</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sales</td>
+<td>$3.20</td>
+<td>$2.40</td>
+<td>$0.80</td>
+</tr>
+<tr class="odd">
+<td>Costs beyond split-off point</td>
+<td>(0.84)</td>
+<td>(0.80)</td>
+<td>(0.04)</td>
+</tr>
+<tr class="even">
+<td>Joint costs (from above)</td>
+<td>(2.00)</td>
+<td>(1.14)</td>
+<td>(0.86)</td>
+</tr>
+<tr class="odd">
+<td>Profit (loss) per chicken</td>
+<td>$0.36</td>
+<td>$0.46</td>
+<td>$(0.10)</td>
+</tr>
+</tbody>
+</table>
+<p>Management decides to drop chicken drumsticks.</p>
+</section>
+<section id="chickens-in-the-death-spiral-4" class="slide level3">
+<h3>Chickens in the death spiral</h3>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Fillets</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Weight</td>
+<td>16 oz</td>
+</tr>
+<tr class="even">
+<td>%</td>
+<td>100%</td>
+</tr>
+<tr class="odd">
+<td>Alloc’d cost</td>
+<td>$2.00</td>
+</tr>
+<tr class="even">
+<td><em>Profit</em></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Sales</td>
+<td>$2.40</td>
+</tr>
+<tr class="even">
+<td>Costs beyond split-off point</td>
+<td>(0.80)</td>
+</tr>
+<tr class="odd">
+<td>Joint costs (from above)</td>
+<td>(2.00)</td>
+</tr>
+<tr class="even">
+<td>Profit (loss) per chicken</td>
+<td>$(0.40)</td>
+</tr>
+</tbody>
+</table>
+<p>Management decides that they were vegan all along and start selling
+cans of air from exotic locations.</p>
+</section>
+<section id="so-whats-wrong" class="slide level3">
+<h3>So what’s wrong?</h3>
+<ul>
+<li>the transfer of 25 cents to wings makes us think that we can avoid
+these costs if we stop making wings but we cannot</li>
+<li>the only costs and benefits considered in the decision to process
+further should be the actual costs and benefits that occur after we
+process further.</li>
+<li>consider the opportunity costs! What are the benefits foregone?</li>
+</ul>
+</section>
+
+<section id="net-realizable-value" class="title-slide slide level2">
+<h2>Net realizable value</h2>
+<ul>
+<li>the benefit foregone if we do no process further</li>
+<li>this is the only metric we should use <strong>when considering
+elimination of joint products</strong>.</li>
+<li>other transfer prices may be used to align decisions with company
+goals.</li>
+</ul>
+</section>
+<section id="net-realizable-value-1" class="slide level3">
+<h3>Net realizable value</h3>
+<figure>
+<img data-src="nrv.png" alt="Cost flow around the split-off point" />
+<figcaption aria-hidden="true">Cost flow around the split-off
+point</figcaption>
+</figure>
+<p>The NRV of chicken wings is <span
+class="math inline">$0.30 − $0.16 = $0.14</span></p>
+</section>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
