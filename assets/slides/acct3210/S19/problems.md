@@ -265,6 +265,13 @@ _What information do we have to help us fill in this table?_
 - Classic example is shipbuilding.
 - Products are produced in batches which each require different raw materials
    and classes of labor.
+- These will be cases where individual use of materials and labor will be very
+natural to track. You might imagine a worker checking in when they start work on
+a unit and carefully tracking the materials that they use. _Note: Service
+professionals like lawyers and accountants often use a form of job order
+costing._
+- Units are often large and expensive, and the production process is often
+   complicated.
 
 ### Kitchen Rite
 
