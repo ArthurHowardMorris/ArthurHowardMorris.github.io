@@ -33,6 +33,10 @@ reporting, it is_ __often misleading for internal decision making.__ The
 following problems should highlight which costs should __not__ be allocated as
 much as which costs should be allocated.
 
+## Brief review
+
+### Brief review
+
 ## DeJure Scents
 
 ### Problem details
