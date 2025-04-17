@@ -61,6 +61,19 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 
 - Useful when production is a _process_ that produces identical units.
 - Liquids like petrol, aftershave, perfume, and orange juice are classic examples.
+  - Note that all of these examples do not have _natural_ units.
+  - Process costing may also be appropriate when the unit of production is small
+    relative to the unit of sale, e.g. tooth picks, chopsticks, pencils.
+- The lack of natural units (or the small relative size of each unit) makes it
+difficult to directly allocate costs to each unit.
+  - It is not obvious how to know which litre of orange juice an individual
+  worked on, or which orange ended up in which bottle.
+
+In _process costing_ no costs are direct, we allocate all costs based on cost
+drivers (allocation bases).
+
+### Process costing
+
 - We track product in three places:
 
 1. beginning work-in-process inventory,
