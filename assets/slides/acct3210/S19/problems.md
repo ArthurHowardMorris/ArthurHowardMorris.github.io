@@ -33,9 +33,82 @@ reporting, it is_ __often misleading for internal decision making.__ The
 following problems should highlight which costs should __not__ be allocated as
 much as which costs should be allocated.
 
-## Brief review
+## Brief review of cost concepts
 
-### Brief review
+### Brief review: Topics
+
+1. Direct vs. Indirect Costs.
+1. Fixed vs. Variable Costs.
+3. The managerial use of accounting information.
+
+### Brief Review: Direct vs. Indirect Costs
+
+The easiest way to think about the difference between direct and indirect costs
+is to think about whether it makes sense (i.e. is easy/cost effective) to track
+the consumption of costs for each unit of output (each unit of the final
+product, or any particular production step--i.e. any 'activity').
+
+Direct costs are usually the components of the final product (direct materials)
+and the labor to produce the final product (direct labor). The physical things
+in the product and the time of the people who touch them.
+
+Indirect costs are most often things that support the direct activities. All
+costs in support departments, and any costs that don't neatly track to
+individual units of output or activities. For example: line workers' clean room
+suits, clean room maintenance, cleaning supplies. __Anything else that we decide
+not to directly track__.
+
+### Brief Review: Direct vs. Indirect Costs
+
+Example: Laptop computer.
+
+- Direct Materials: CPU, RAM, motherboard, power supply, case, hard drive.
+- Indirect Materials: gloves, clean room suit, hairnet, solder, thermal paste,
+cleaning solution for floors, and etc.
+
+### Brief Review: Direct vs. Indirect Costs
+
+The distinction is whether it makes sense to track the actual consumption of the
+cost for each unit of output (or activity). If it does, then the cost is direct,
+if not the cost is indirect.
+
+| Cost Type | Easy to track? |
+| --- | --------------- |
+| Direct | Yes             |
+| Indirect | No              |
+
+### Brief Review: Fixed vs. Variable Costs
+
+| Cost Type | Changes with Output/Activity |
+| --- | --- |
+| Fixed | No |
+| Variable | Yes |
+
+### Brief Review: The managerial use of accounting information
+
+You might have some questions at this point in the course:
+
+1. Why don't we do journal entries?
+2. Why are we allowed to just __not allocate__ some costs?
+3. Don't we have to keep track of everything?
+
+### Brief Review: The managerial use of accounting information
+
+Absorption costing (and financial accounting) is about tracking the flow of
+value through a firm. In managerial accounting we are interested in (1) aligning
+incentives, (2) making decisions, and (3) controlling costs. In each case, we
+are interested in understanding the impact of our choices on costs. This means
+that we will often __ignore costs that are irrelevant to the decision we are
+considering__.
+
+- Full absorption costing is __almost never__ an accurate model of how costs
+respond to decisions.
+- When you include costs in a number prepared to inform decision you are claiming that your decision will change the cost.
+- Thus, cost numbers used for decision making can only contain costs which
+__vary__ with the decision.
+
+_Note that all three uses of managerial accounting have implicit or explicit
+decisions._
 
 ## DeJure Scents
 
