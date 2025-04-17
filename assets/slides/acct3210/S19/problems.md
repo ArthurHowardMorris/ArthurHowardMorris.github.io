@@ -147,7 +147,9 @@ difficult to directly allocate costs to each unit.
   worked on, or which orange ended up in which bottle.
 
 In _process costing_ no costs are direct, we allocate all costs based on cost
-drivers (allocation bases).
+drivers (allocation bases). The choice to use process costing implies that it is
+not feasible to track the consumption of costs for each unit of output, or it's
+simply not worth the time.
 
 ### Process costing
 
