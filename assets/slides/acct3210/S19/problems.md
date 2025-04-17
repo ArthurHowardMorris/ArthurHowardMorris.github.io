@@ -16,7 +16,8 @@ We allocate costs for several reasons:
 
 If you take one thing from this course it is the following:
 
-- __Do not assume that numbers produced for external reporting are useful for internal decisions.__
+- __Do not assume that numbers produced for external reporting are useful for
+internal decisions.__
 <!-- note for the future, we need to emphasize that the point of this course is to get people to stop using external numbers for internal decisions. -->
 
 ### Absorption costing: key features
@@ -27,10 +28,14 @@ If you take one thing from this course it is the following:
 - useful (and required) for financial accounting
 - inclusion of fixed costs requires care if used for decision making
 
+_While absorption costing (the allocation of all costs) is useful for financial
+reporting, it is_ __often misleading for internal decision making.__ The
+following problems should highlight which costs should __not__ be allocated as
+much as which costs should be allocated.
+
 ## DeJure Scents
 
-
-### Problem details:
+### Problem details
 
 DeJure Scents manufactures an aftershave and uses __process costing__. All
 materials are added at the beginning of the process, and __conversion costs__ are
@@ -39,27 +44,27 @@ no beginning inventory. May's ending inventory of work-in-process was 2,000
 gallons, which were 50 percent complete with respect to conversion costs. In
 May, conversion costs were \$28,000 and materials costs were \$45,000.
 
-### Questions:
+### Questions
 
 1. Calculate the equivalent units of conversion and materials.
 2. Calculate the cost per equivalent unit of conversion and materials.
 3. Calculate the cost of the ending inventory and the cost transferred to
    finished goods inventory.
 
-### Concepts:
+### Concepts
 
-1. Process costing 
+1. Process costing
 2. Conversion costs
 3. Equivalent units
 
-
-### Process costing 
+### Process costing
 
 - Useful when production is a _process_ that produces identical units.
 - Liquids like petrol, aftershave, perfume, and orange juice are classic examples.
 - We track product in three places:
-1. beginning work-in-process inventory, 
-2. units started and finished this period, and 
+
+1. beginning work-in-process inventory,
+2. units started and finished this period, and
 3. ending work-in-process inventory.
 
 ### Conversion costs
@@ -73,7 +78,7 @@ May, conversion costs were \$28,000 and materials costs were \$45,000.
 - we use equivalent units to state the amount of completed work in terms of finished units
 - e.g. if three units are one third complete then we have one equivalent unit
 
-### Setup:
+### Setup
 
 | Physical flow:       | Gallons | E.U Conversion | E.U. Materials |
 |----------------------|---------|----------------|----------------|
@@ -97,7 +102,7 @@ _What information do we have to help us fill in this table?_
 |-------------------------------|---------|----------------|----------------|
 | Work-In-Process, ending (50%) | 2,000   | ?              | 2,000          |
 
-> All materials are added at the beginning of the process. 
+> All materials are added at the beginning of the process.
 
 ### WIP-Effective Units
 
@@ -107,8 +112,7 @@ _What information do we have to help us fill in this table?_
 
 > Conversion costs are incurred uniformly over time.
 
-
-### Units accounted for 
+### Units accounted for
 
 |                               | Gallons | E.U Conversion | E.U. Materials |
 |-------------------------------|---------|----------------|----------------|
@@ -124,13 +128,13 @@ _What information do we have to help us fill in this table?_
 | Costs          | \$73,000 | \$28,000        | \$45,000       |
 | per equi. unit |          | \$2.00          | \$3.00         |
 
-### Overhead rate:
+### Overhead rate
 
 - The conversion cost per equivalent unit is where the overhead allocation
    occurs.
 - Adjusting this rate in response to short-term changes in production can cause
-   a death spiral! 
-   - For example: Imagine that your machinery breaks and you end up incurring
+   a death spiral!
+  - For example: Imagine that your machinery breaks and you end up incurring
       that same conversion costs (labor and overhead) such that only 7,000
       effective units have been converted, but for the same cost. Now the
       conversion cost is \$4.00 per unit. Should you use this number for future
@@ -161,7 +165,6 @@ _What information do we have to help us fill in this table?_
 - Can we use these numbers to align incentives?
 - What does a cost number communicate if you use it internally?
 - _It should capture the marginal cost of the decision to produce._ Does it?
-
 
 ## Kitchen Rite: Outsourcing and job order costing
 
@@ -227,13 +230,15 @@ the high demand for welders, these reassignments will occur within a few weeks
 of outsourcing the chassis.
 
 ### Taxes
+
 Kitchen Rite has a tax loss for the current and the previous two years.
 
 ### Questions
+
 Should Kitchen Rite outsource the chassis? Support your recommendation with a
 clear financial analysis of the facts.
 
-### Consider:
+### Consider
 
 This problem illustrates that not all direct labor costs are incremental and not all fixed overhead costs are sunk.
 
@@ -252,7 +257,6 @@ The current cash outflows of manufacturing the chassis per unit are:
 | Welding (\$4,300 ÷ 2,000) | 2.15    |
 | Total                     | \$11.00 |
 
-
 ### Cash outflows if we outsource
 
 |                                                   |          |
@@ -262,7 +266,7 @@ The current cash outflows of manufacturing the chassis per unit are:
 | Welding lease early termination (\$1,800 ÷ 2,000) | .90      |
 | Total                                             | \$12.00  |
 
-### Recommendation:
+### Recommendation
 
 __Do not outsource because the net cash flows of outsourcing are lower than
 continuing to manufacture the chassis internally.__
@@ -273,7 +277,6 @@ continuing to manufacture the chassis internally.__
 - For the outsourcing decision: NO!
 - Absorption costing (i.e. financial accounting) does not capture the effect of production choices on cost.
 - In general absorption costing is _inappropriate_ for the following decisions:
-   - Choice to process further.
-   - Discontinuing a product line (closing a division).
-   - Outsourcing a process.
-
+  - Choice to process further.
+  - Discontinuing a product line (closing a division).
+  - Outsourcing a process.
