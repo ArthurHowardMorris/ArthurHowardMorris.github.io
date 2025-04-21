@@ -7,7 +7,7 @@ published: true
 
 ### HKUST Department of Accounting
 
-_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow [__this link__](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210Syl.html) for the current version._
+_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow [__this link__](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210syl.html) for the current version._
 
 ### Spring 2025 Syllabus
 
