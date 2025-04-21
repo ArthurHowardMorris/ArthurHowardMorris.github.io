@@ -1,0 +1,16 @@
+S23/slides.md:296:<!-- TODO: rewrite this whole section using the +/- the flexible budget notion -->
+S9/session9realvsfinan.md:293:# TODO: add a slide for the value of a tax shield in hong kong
+S9/session9realvsfinan.ipynb:676:    "# TODO: add a slide for the value of a tax shield in hong kong"
+S22/slides.md:285:<!-- TODO: this is an embarassingly out of date version of the book. -->
+S10/session10incentives.ipynb:545:    "# TODO: add a little simulation here."
+S16/costallocation1_slides.md:150:<!-- TODO: concrete examples here -->
+S1/Lecture1.qmd:51:<!-- TODO: we could dig into the history of management accounting here. etc  -->
+S21/slides.md:334:<!-- TODO: add the insteel industries example here -->
+S21/slides.md:354:<!-- TODO: consider modernizing this discussion in both the literature and the text. This is the sort of paper that would be fun to run and gun with Matt, possibly a PhD student as well. -->
+s16_alt/costallocation1_slides.md:150:<!-- TODO: concrete examples here -->
+s16_alt/costallocation_slides.quarto_ipynb:165:        "<!-- TODO: concrete examples here -->\n",
+s16_alt/costallocation_slides.qmd:167:<!-- TODO: concrete examples here -->
+S1/Lecture1.quarto_ipynb:58:        "<!-- TODO: we could dig into the history of management accounting here. etc  -->\n",
+S18/notes.md:1:- [ ] point out that contribution margin works in much the same way that NRV does, but for other situations.
+S18/notes.md:2:- [ ] add the regular solution to the algebra part. 
+S18/notes.md:3:- [ ] do the algebra on the board.  

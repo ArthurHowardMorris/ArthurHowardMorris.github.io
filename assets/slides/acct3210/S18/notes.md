@@ -1,0 +1,3 @@
+- [ ] point out that contribution margin works in much the same way that NRV does, but for other situations.
+- [ ] add the regular solution to the algebra part. 
+- [ ] do the algebra on the board.  
