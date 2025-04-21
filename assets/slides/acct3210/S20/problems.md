@@ -9,7 +9,6 @@ new model of sunglasses, the Peak 32. It produced 5,300 pairs and sold 4,900
 pairs. The following table summarizes the fixed and variable costs of producing
 Peak 32 sunglasses. Aspen View uses variable costing to value its ending inventory.
 
-
 |                        | Fixed Cost | Variable Cost | Total Cost |
 |------------------------|------------|---------------|------------|
 | Direct labor           |            | \$ 3.50       | \$ 3.50    |
@@ -20,18 +19,18 @@ Peak 32 sunglasses. Aspen View uses variable costing to value its ending invento
 | Selling                | 1.20       | 0.90          | 2.10       |
 | Total cost             | \$6.30     | \$18.35       | \$24.65    |
 
-### Variable costing overview:
+### Variable costing overview
 
 - _Motivation:_ Solve some of the problems with full absorption costing.
 - Problem 1: Death Spiral (effective)
 - Problem 2: Incentive to overproduce (effective,  if we correctly separate fixed and variable costs).
 
-### Variable costing overview:
+### Variable costing overview
 
 - All fixed costs hit income in the year that they are incurred.
 - Fixed costs do not get absorbed into inventory.
 
-### Q1:
+### Q1
 
 What is Aspen View's ending inventory value of Peak 32 sunglasses?
 
@@ -51,20 +50,20 @@ Ending inventory value using variable costing:
 | $\times$  Unit manufacturing cost | \$15.50 |
 | Ending inventory value            | \$6,200 |
 
-### Q2:
+### Q2
 
 Aspen View is considering switching from variable costing to absorption
 costing. Would this year's net income from Peak 32 sunglasses be higher or
-lower using absorption costing? Explain. 
+lower using absorption costing? Explain.
 
 ### Q2: Solution
 
-- Income would have been __higher__ had Aspen View used absorption costing. 
+- Income would have been __higher__ had Aspen View used absorption costing.
 - Under absorption costing, some of the fixed manufacturing costs would have
   been allocated to the ending inventory rather than all of them being written
   off to cost of goods sold.
 
-### Q3:
+### Q3
 
 Suppose Aspen View uses absorption costing. If, instead of producing 5,300
 pairs of Peak 32s it produced only 5,000, would net income from Peak 32
@@ -75,9 +74,9 @@ larger production? Explain.
 
 - Assuming constant variable cost per unit, income would have been lower.
 - With fewer units produced, less fixed cost would have been allocated to the
-  ending inventory under absorption costing. 
+  ending inventory under absorption costing.
 
-### Q4:
+### Q4
 
 Aspen View has an opportunity cost of capital of 20 percent. What is the cost
 of producing 5,300 pairs of Peak 32s instead of 4,900 pairs?
@@ -90,15 +89,15 @@ of producing 5,300 pairs of Peak 32s instead of 4,900 pairs?
   2. $400 \times  \$15.50 \times 20\% \times \xi$ where $\xi$ is the fraction
   of the year the glasses are held until being sold.
 
-### Q4: Solution 
+### Q4: Solution
 
 - This calculation assumes that all of the variable advertising, distribution,
   and selling expenses are incurred when the sunglasses are sold, not
-  manufactured. 
+  manufactured.
 - This illustrates both the overproduction incentive from full absorption
   costing and the improvement from variable costing.
 
-## Kothari Inc.
+## Kothari Inc
 
 The telecom division of Kothari Inc. produces and sells 100,000
 line modulators. Half of the modulators are sold externally at $150 per unit,
@@ -106,7 +105,7 @@ and the other half are sold internally at __variable manufacturing costs plus 10
 percent__. Kothari uses variable costing to evaluate the telecom division. The
 following summarizes the cost structure of the telecom division.
 
-## Kothari Inc.
+## Kothari Inc
 
 |                                   | Var. Cost   |
 |-----------------------------------|-------------|
@@ -120,12 +119,12 @@ following summarizes the cost structure of the telecom division.
 
 - Period costs are paid periodically (i.e. monthly), but can be fixed or variable.
 
-### Q1:
+### Q1
 
 - Calculate the net income of the telecom division (before taxes) using
   variable costing.
 
-### Q1 Solution (Revenue):
+### Q1 Solution (Revenue)
 
 |                                                 |             |
 |-------------------------------------------------|-------------|
@@ -134,7 +133,7 @@ following summarizes the cost structure of the telecom division.
 | External sales $(50,000 \times  \$150)$         | 7,500,000   |
 | Total revenue                                   | \$9,865,000 |
 
-### Q1 Solution (Cost):
+### Q1 Solution (Cost)
 
 |                              |               |
 |------------------------------|---------------|
@@ -146,9 +145,9 @@ following summarizes the cost structure of the telecom division.
 | Fixed period cost            | 1,900,000     |
 | Net income                   | __\$165,000__ |
 
-Notice that we are tracking fixed cost, but not on a unit basis. 
-	
-### Q2:
+Notice that we are tracking fixed cost, but not on a unit basis.
+ 
+### Q2
 
 - Telcom can outsource the final assembly of all 100,000 modulators for \$9.00
   per modulator. If it does this, it can reduce variable manufacturing cost by
@@ -185,7 +184,7 @@ Notice that we are tracking fixed cost, but not on a unit basis.
 The Telecom managers face a strong incentive to outsource because their net
 income increases from $165,000 to $505,000.
 
-### Q3:
+### Q3
 
 - What happens to the net cash flows of Kothari Inc. if the final assembly of
   the modulators is outsourced?
@@ -205,8 +204,8 @@ income increases from $165,000 to $505,000.
 - What creates the problem here?
   - The division is able to pass off through internal sales (make sure that you can see this transfer).
 - Simply centralize outsourcing decisions!
-- Contract allocation of costs internally. 
-  - Managers must forecast and pay no matter what happens in the future. 
+- Contract allocation of costs internally.
+  - Managers must forecast and pay no matter what happens in the future.
   - Managers only get to pass off planned costs.
 - Other alternatives?
 
@@ -236,11 +235,11 @@ conglomerate.
 
 ### Navisky: Incentives
 
-- Andreas Hoffman, president of Navisky, expects to retire next year. 
-- He receives a fixed salary and a bonus based on reported accounting earnings. 
+- Andreas Hoffman, president of Navisky, expects to retire next year.
+- He receives a fixed salary and a bonus based on reported accounting earnings.
 - The bonus is 5 percent of earnings in excess of €850,000 for actual earnings
   between €850,000 and €1,400,000.
-- If actual earnings exceed €1,400,000, the bonus is capped at: 
+- If actual earnings exceed €1,400,000, the bonus is capped at:
 
 $$27,500 = [5\% \times  (1,400,000 - 850,000)]$$
 
@@ -276,7 +275,7 @@ for internal compensation purposes as well as external reporting. At the
 beginning of the current fiscal year, there was no beginning inventory of the
 environmental GPS devices.
 
-### Q1:
+### Q1
 
 How many units of the environmental GPS device would Mr. Hoffman like to see
 Navisky produce if he expects to sell 1,200 devices this year?
@@ -315,7 +314,7 @@ produce about 1,360 units.  At 1,360 units, expected earnings are about
 bonus, Mr. Hoffman will want to produce 1,360 units, or 160 more than he
 expects to sell.
 
-### Q2:
+### Q2
 
 Suppose Mr. Hoffman's bonus calculation was __based on net income after including
 a charge for inventory holding__ costs at 20 percent of the ending inventory
@@ -364,31 +363,31 @@ like to see produced if he expects to sell 1,200 devices this year?
 With an inventory holding cost of 20 percent deducted from earnings, Mr.
 Hoffman will prefer to produce 1,420 units because at this production level
 (and given sales of 1,200 units) Mr. Hoffman will reach the bonus cap of
-€27,500. 
+€27,500.
 
-### Q3:
+### Q3
 
 Explain why your answers in parts (a) and (b) differ, if they do.
 
 ### Q3: Solution
 
 - Interestingly, charging Mr. Hoffman an inventory holding cost of 20 percent
-  actually causes him to over produce even more. 
+  actually causes him to over produce even more.
 - Without the 20 percent inventory charge Mr. Hoffman only has to produce about
   1,360 units (or 160 more than he expects to sell) to reach the €1.4 million
-  earnings cap. 
+  earnings cap.
 - But with the 20 percent inventory charge, Mr. Hoffman needs to produce about
-  1,420 (or 220 more than he expects to sell) to reach the cap. 
+  1,420 (or 220 more than he expects to sell) to reach the cap.
 
 ### Q3: Solution
 
 - Hence, including the inventory holding charge has the perverse incentive of
-  actually causing Mr. Hoffman to over produce even more. 
+  actually causing Mr. Hoffman to over produce even more.
 - The reason for this is the existence of the bonus cap, and the fact that the
   20 percent charge on inventory is less than the reduction in average fixed
   costs charged to cost of goods sold.
 
-### Q4:
+### Q4
 
 How many units of the environmental GPS device would Mr. Hoffman like to see
 produced, assuming he expects to sell 1,200 devices this year if Navisky's net
@@ -438,80 +437,3 @@ Under variable costing and a 20 percent inventory holding cost, Mr. Hoffman
 will not over produce.  He will produce exactly what he intends to sell, 1,200
 devices.  If he over produces under variable costing, earnings falls, and hence
 his bonus is lower.
-
-## Looking backward, looking forward.
-
-- We are in the final push to the end of the semester now.
-- There are just four lectures with content and one in-class review session
-  left.
-
-## Looking backward, looking forward.
-- We may look back on this period as an inflection point in the history of education for two reasons:
-
-1. Post-COVID return to in-person teaching.
-2. Beginning the A.I. Conversation.
-
-- So I want to start the talk today by looking back at what I think is important.
-
-## First, Simplicity.
-
-A topic that we have not covered explicitly in this course.
-
-1. Simple systems, that you can clearly introspect and explain are critical for
-   decision making.
-2. Complexity is not a virtue, but it is a good way to hide from
-   responsibility!
-3. Our task is to find simple expression of complex systems.
-
-- Note that simplicity need not be reductive; the sufficient number of dimensions of controls for a train is one, two for a car, three for an airplane. 
-
-## Second, Transparency.
-
-1. Being able to show your work is, at this stage, a form of communication. To
-   your future self and to others who may consume your analyses after the fact. 
-2. If you understand the system you will have some understanding of what
-   happens when you change the inputs.
-3. Mistrust opaque systems (this is my most devastating critique of AI)
-   understanding why a decision process came to the conclusion that it did is
-   as important as understanding the conclusion. <!-- This is, again, the key
-   weakness of AI, and complex systems in general.  -->
-4. If you want to find a bad decision, just look for the ones that are least
-   well understood.
-
-## Third, Doubt.
-
-This we have talked about at every turn.
-
-Always ask:
-1. how is the decision process tricking us? 
-2. How are the data tricking us? 
-3. What is the real goal, what are the data trying to tell us? 
-4. What is the goal of the people who made the data?
-
-## Third, Doubt.
-- Are we inheriting the system that gives us this answer form another process
-  that has different needs and thus might trick us?
-- This is the point of the current discussion of decision making.
-
-## Fourth, The answers are easy, it's the questions that are hard.
-
-- You've been trained to answer questions, but that is the easy part, the part
-  that can be automated. 
-- Programming easy things is often about as hard as programming hard things.
-  Remember systems of equations in Python!
-- Deciding what information to use and how to structure your question has
-  always been the most important issue. Even more so now, as we can often
-  trivially solve any well structured problem.
-
-
-## Fourth, The answers are easy, it's the questions that are hard.
--  We have inherited an education system from a world where computers were
-   people (and not nearly as well paid as they should have been).
-- We (educators) used ability to solve complex problems as a measure of
-  ability.
-- You will need to unlearn complexity, this is something that we all get
-  trained for incorrectly.
-
-_The minds that did that work and that will do the work you need to do are not
-different, but the training, and habits of mind that that you need in order to
-succeed at it are very different._
