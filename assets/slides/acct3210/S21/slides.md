@@ -4,20 +4,20 @@ title: "Activity-Based Costing (ABC)"
 
 ## Addressing the Criticisms of Absorption Cost Systems with Activity Based Costing (ABC)
 
-### Outline of our discussion of absorption costing:
+### Outline of our discussion of absorption costing
 
 - In this lecture we will introduce activity-based costing (ABC) and compare it
   to traditional absorption costing.
 - The last several lectures began the discussion of absorption costing, and
   it's discontents.
 
-### Outline of our discussion of absorption costing:
+### Outline of our discussion of absorption costing
 
 - We also discussed how changes in performance measurement require changes in
   other parts of organizational architecture (performance measurement and
   decision rights partitioning).
 
-### Problems with absorption costing:
+### Problems with absorption costing
 
 1. Allocating fixed costs on a unit basis makes the seem variable.
     - The death spiral
@@ -25,7 +25,7 @@ title: "Activity-Based Costing (ABC)"
 2. Incentive to overproduce.
     - Earnings manipulation.
 
-### Alternatives have problems too:
+### Alternatives have problems too
 
 - Ignoring (i.e. not allocating) fixed costs leads to incentives to over invest.
   - Not allocating makes the fixed costs seem free (_gratis_ not _libre_). May need to centralize investment decisions with this method as well.
@@ -34,7 +34,6 @@ title: "Activity-Based Costing (ABC)"
   - Off-setting the reputation effects of reduced earnings may be hard.
   - This leads to specialist managers (i.e. who specialize in executing large investments/restructuring).
   - Also leads to direct incentives to invest. Executive compensation plans often specifically mention investments. This is a hybrid approach to centralizing the investment decision.
-
 
 ### One more problem: Inaccurate Product Costs
 
@@ -53,9 +52,13 @@ title: "Activity-Based Costing (ABC)"
 ### ABC’s Major Features
 
 - Better identifies activities that drive costs
+  - Remember: fixed costs are costs that do not vary with the number of units produced.
+  - ABC's trick is to identify the activities that drive costs, or identifying
+  the level at which 'fixed' costs are variable (or the level at which indirect
+  costs are direct).
 - Tracks set-up costs associated with each batch and product line
 - Analyzes activities rather than input resources
-- Allows cost drivers to vary across the firm. 
+- Allows cost drivers to vary across the firm.
 
 ### ABC’s Major Features
 
@@ -73,17 +76,15 @@ Classify cost drivers into one of four categories:
 3. Product-level
 4. Production-sustaining
 
+### ABC isn't really anything new
 
-### ABC isn't really anything new:
-
-- Indirect costs are classified as 'indirect' not because they are __impossible__ to directly track, but because they are __difficult__ to directly track. 
+- Indirect costs are classified as 'indirect' not because they are __impossible__ to directly track, but because they are __difficult__ to directly track.
 - ABC is essentially the decision to track costs _more_ directly.
 - This has several effects:
   - Some fixed overheads are not truely fixed (or overheads).
   - Can reduce the portion of fixed costs in any one allocation, diffusing the perverse incentives we've been discussing.
   - Most importantly, ABC can help isolate costs from production decisions.
 
-  
 ### ABC allows us to isolate costs from production decisions
 
 - This is core to overproduction, death spirals, and incorrect outsourcing
@@ -93,10 +94,9 @@ Classify cost drivers into one of four categories:
 
 ![ABC](elevenone.png){ width=75% }
 
-
 ### ABC allows us to isolate costs from production decisions
 
-- _Notice the separation of unit-level costs (and decisions) from batch, and product level decisions._ 
+- _Notice the separation of unit-level costs (and decisions) from batch, and product level decisions._
 - More detailed cost allocation allows us to ignore fixed costs when we make _unit-level_ decisions and then consider them when we make decisions at other levels.
 - This allows us to consider the costs of investment decisions (i.e. fixed costs) when we make them, and set them aside when we do not.
 - Can help avoid the death spiral, and outsourcing mistakes.
@@ -113,12 +113,12 @@ Examples:
 - _Direct_ labor and _direct_ material
 - Machine servicing related to number of units produced
 
-### Unit-level Costs 
+### Unit-level Costs
 
 - Very little fixed-cost is allocated to each unit!
 - What are the implications for:
   - the death spiral?
-  - the overproduction (earnings manipulation) problem. 
+  - the overproduction (earnings manipulation) problem.
 
 ### Batch-level Costs
 
@@ -127,7 +127,7 @@ Examples:
 
 Examples:
 
-- Indirect labor, such as production supervisors 
+- Indirect labor, such as production supervisors
 - Machine set-ups
 - Moving batches
 
@@ -167,12 +167,12 @@ Examples:
 
 ![ABC](eleventhree.png){ width=50% }
 
-### Two questions:
+### Two questions
 
 - Is this simple?
 - Is this transparent?
 
-### Two questions:
+### Two questions
 
 When we answer these questions, we also have to make sure that we are
 accurately comparing the two methods. We want to achieve our goals with methods
@@ -195,7 +195,7 @@ volume products.
 | ABC cost per unit        | \$157    | \$162   | \$164 | \$234 | \$242 |
 | Difference               | -3%      | -4%     | -5%   | +14%  | +12%  |
 
-### Kiddo Inc Example <!-- from ch 10 --> 
+### Kiddo Inc Example <!-- from ch 10 -->
 
 Kiddo Incorporated manufactures running shoes. Recently, it added a new line of
 pump sneakers. Over the past two years, sales of both the Runner and the Pump
@@ -212,7 +212,7 @@ variable overhead costs are \$6.60 and \$7.30 for the Runner and the Pump,
 respectively. Fixed overhead costs are \$50 million and are allocated based on
 direct labor cost. Kiddo uses LIFO.
 
-### Kiddo Inc Example: Year 1 Absorption Income statement 
+### Kiddo Inc Example: Year 1 Absorption Income statement
 
 |                          | Runner        | Pump          | Total         |
 |--------------------------|---------------|---------------|---------------|
@@ -226,9 +226,9 @@ direct labor cost. Kiddo uses LIFO.
 
 _Note: We will allocate FOH on the next few slides._
 
-### Kiddo Inc Example: Year 1 Fixed Overhead rate 
+### Kiddo Inc Example: Year 1 Fixed Overhead rate
 
-First, find the fixed overhead rate per unit of the allocation base (direct labor dollars): 
+First, find the fixed overhead rate per unit of the allocation base (direct labor dollars):
 
 |                       | Runner       | Pump         | Total            |
 |-----------------------|--------------|--------------|------------------|
@@ -236,12 +236,11 @@ First, find the fixed overhead rate per unit of the allocation base (direct labo
 | × Units produced      | 5,140,000    | 3,000,000    |                  |
 | Direct labor cost     | \$23,644,000 | \$15,000,000 | __\$38,644,000__ |
 
-- Fixed overhead: 
+- Fixed overhead:
 $$50,000,000 / \$38,644,000 =\$1.29$$
 <!-- $$\frac{50,000,000}{\$38,644,000}=\$1.29$$ -->
 
 ### Kiddo Inc Example: Year 1 FOH allocation
-
 
 |                               | Runner       | Pump         | Total        |
 |-------------------------------|--------------|--------------|--------------|
@@ -250,7 +249,6 @@ $$50,000,000 / \$38,644,000 =\$1.29$$
 | FOH per pair                  | \$5.93       | \$6.45       |              |
 | $\times$ Number of pairs sold | 5,000,000    | 2,400,000    |              |
 | FOH Allocated                 | \$29,650,000 | \$15,480,000 | \$45,130,000 |
-
 
 ### Kiddo Inc Example
 <!-- from ch 11 -->
@@ -282,7 +280,7 @@ for the Runner is 1,000 pairs of sneakers. The batch size for the Pump in year
 | __Fixed overhead$^{*}$__     | \$3,065,159   | \$1,599,213   | \$4,664,372   |
 | Net profit                   | \$ 13,571,028 | \$ 15,080,787 | \$ 28,651,815 |
 
-_Note: We will do these allocations on the following slides._ 
+_Note: We will do these allocations on the following slides._
 
 ### Kiddo batch costs
 
@@ -293,7 +291,7 @@ _Note: We will do these allocations on the following slides._
 | ÷ Units per batch     | 1,000        | 500          |
 | Allocated batch costs | \$12,500,000 | \$12,000,000 |
 
-_Notice that we aren't estimating or deriving this rate, we are __observing__ it._ 
+_Notice that we aren't estimating or deriving this rate, we are __observing__ it._
 
 ### Kiddo product-line costs
 
@@ -304,10 +302,10 @@ _Notice that we aren't estimating or deriving this rate, we are __observing__ it
  | × Units sold             | 3,000,000    | 2,400,000    |
  | Allocated line costs     | \$ 4,863,813 | \$ 9,600,000 |
 
-_Notice that we aren't estimating or deriving this rate, we are __observing__ it._ 
+_Notice that we aren't estimating or deriving this rate, we are __observing__ it._
 
-### Kiddo Fixed Overhead Costs 
- 
+### Kiddo Fixed Overhead Costs
+
 |                                    | Runner       | Pump         | Total        |
 |------------------------------------|--------------|--------------|--------------|
 | Remaining fixed overhead           |              |              | \$ 5,150,000 |
@@ -322,7 +320,7 @@ _Notice that we aren't estimating or deriving this rate, we are __observing__ it
 ### ABC and Decision Making
 
 - ABC improves pricing decisions because product costs are presumably more
-  accurate estimates of opportunity cost. 
+  accurate estimates of opportunity cost.
 - Low-volume high-complexity products should get higher prices or be dropped.
   The benefit here is that this decision will be based on the actual __avoidable
   costs__.
@@ -385,7 +383,7 @@ _Notice that we aren't estimating or deriving this rate, we are __observing__ it
 - Today, implementing ABC requires management and analysis of data generated throughout the organization.
 - Much of the writing in textbooks and on the internet references old information systems. [__ Consider ATK (link).__](https://www.google.com/maps/dir/Northrop+Grumman+Innovation+Systems,+9160+UT-83,+Corinne,+UT+84307,+United+States/Thiokol+Airport,+Howell,+UT,+USA/South+Jordan,+UT,+USA/@41.1309497,-113.4849556,8z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x8753600f58990353:0x7fe5d3fd145c71bd!2m2!1d-112.4410895!2d41.6595695!1m5!1m1!1s0x8754b06ca20133f5:0xb8e5325871588433!2m2!1d-112.4466328!2d41.7138145!1m5!1m1!1s0x875285898dabc993:0xf566008fdec9b355!2m2!1d-111.929658!2d40.5621704!3e0)
 
-### ABC for strategic analysis rather than to replace absorption costing:
+### ABC for strategic analysis rather than to replace absorption costing
 
 - Absorption required for external reporting
 - ABC for strategic analysis and special studies
@@ -399,10 +397,11 @@ _Notice that we aren't estimating or deriving this rate, we are __observing__ it
 - Automation improves efficiency and eliminates bottlenecks so that less indirect labor is needed for moving, inspecting, and expediting products.
 
 ### Cost Allocation as a Tax System  
+
 (Motivation versus Accuracy)
 
 - Cost allocations are an internal tax system that motivate mangers to use less of resources with high cost allocations. (Chapter 7).
-- Cycle time: [Zytec](https://zytecgermbuster.ca) uses total time to manufacture the product as its allocation base to motivate managers to reduce cycle time. 
+- Cycle time: [Zytec](https://zytecgermbuster.ca) uses total time to manufacture the product as its allocation base to motivate managers to reduce cycle time.
 - Direct labor: Hitachi allocates overhead on direct labor hours so that managers improve automation as a way to eliminate costly direct labor.
 
 <!-- ### How does ABC relate to the cost functions we were writing in the beginning of the course? -->
