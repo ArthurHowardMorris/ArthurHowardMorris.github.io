@@ -100,6 +100,11 @@ Classify cost drivers into one of four categories:
 - More detailed cost allocation allows us to ignore fixed costs when we make _unit-level_ decisions and then consider them when we make decisions at other levels.
 - This allows us to consider the costs of investment decisions (i.e. fixed costs) when we make them, and set them aside when we do not.
 - Can help avoid the death spiral, and outsourcing mistakes.
+  - These are both problems that come from cost numbers _miscommunicating_ the
+  nature of costs. I.e. suggesting that a decision changes costs that it does
+  not.
+  - Focusing on the activities that drive costs allows us to connect costs to
+  the choices that drive them.
 
 ### Unit-level Costs
 
