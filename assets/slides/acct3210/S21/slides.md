@@ -125,6 +125,17 @@ Examples:
   - the death spiral?
   - the overproduction (earnings manipulation) problem.
 
+### Unit-level Costs (Answer)
+
+- Very little fixed-cost is allocated to each unit!
+- What are the implications for:
+  - the death spiral? __Less likely, because choice of production volume drives
+    less allocation of fixed costs.__
+  - the overproduction (earnings manipulation) problem. __Still exists, because
+    we are still eventually assigning fixed costs to finished goods. Improved
+  accuracy and cost transparency helps, but absorption costing will always have
+  this problem.__
+
 ### Batch-level Costs
 
 - __Batch-level costs__: activities that are performed once for each batch of products.
@@ -186,6 +197,19 @@ _actually achieve our goals_.
 
 - The minimum number of dimensions of control required to operate a system, __is determined by the system itself__.
 - Remember, planes, trains, and automobiles!
+
+### Remember, planes, trains, and automobiles
+
+The number of controls is determined by the system itself.
+
+- __Train:__ One dimension of control (i.e. speed)
+  - Speed control: throttle, break
+- __Automobile:__ Two dimensions of control (i.e. speed and direction)
+  - Speed control: throttle, break
+  - Direction control: steering wheel
+- __Plane:__ Three dimensions of control (i.e. speed, direction, and altitude)
+  - Speed control: throttle, flaps (...kinda)
+  - Direction control: Stick (nose up/down, roll left/right), rudder (yaw left/right, rotates the plane around the vertical axis), trim controls (adjust elevators), flaps (increase lift and drag for take off and landing)
 
 ### Example: ABC vs. Absorption
 
