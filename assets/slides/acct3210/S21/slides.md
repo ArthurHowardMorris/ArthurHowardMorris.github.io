@@ -410,7 +410,7 @@ _Notice that we aren't estimating or deriving this rate, we are __observing__ it
 - So, although many controllers were interested in ABC, adoption was slow.
 - Now, however, most companies already gather much of the needed information as a part of other systems.
 - Today, implementing ABC requires management and analysis of data generated throughout the organization.
-- Much of the writing in textbooks and on the internet references old information systems. [__ Consider ATK (link).__](https://www.google.com/maps/dir/Northrop+Grumman+Innovation+Systems,+9160+UT-83,+Corinne,+UT+84307,+United+States/Thiokol+Airport,+Howell,+UT,+USA/South+Jordan,+UT,+USA/@41.1309497,-113.4849556,8z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x8753600f58990353:0x7fe5d3fd145c71bd!2m2!1d-112.4410895!2d41.6595695!1m5!1m1!1s0x8754b06ca20133f5:0xb8e5325871588433!2m2!1d-112.4466328!2d41.7138145!1m5!1m1!1s0x875285898dabc993:0xf566008fdec9b355!2m2!1d-111.929658!2d40.5621704!3e0)
+- Much of the writing in textbooks and on the internet references old information systems. [__Consider ATK (link).__](https://www.google.com/maps/dir/Northrop+Grumman+Innovation+Systems,+9160+UT-83,+Corinne,+UT+84307,+United+States/Thiokol+Airport,+Howell,+UT,+USA/South+Jordan,+UT,+USA/@41.1309497,-113.4849556,8z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x8753600f58990353:0x7fe5d3fd145c71bd!2m2!1d-112.4410895!2d41.6595695!1m5!1m1!1s0x8754b06ca20133f5:0xb8e5325871588433!2m2!1d-112.4466328!2d41.7138145!1m5!1m1!1s0x875285898dabc993:0xf566008fdec9b355!2m2!1d-111.929658!2d40.5621704!3e0)
 
 ### ABC for strategic analysis rather than to replace absorption costing
 
