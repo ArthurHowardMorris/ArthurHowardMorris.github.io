@@ -286,23 +286,23 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __17. 10 Apr__  | __Course Feedback Day__                            |
 | | _No lecture or attendance today!_ |
 | | Please complete the survey posted in Canvas, and then watch and critique one of the videos if you have not yet. |
-| __18. 15 Apr.__ | __Absorption Costing Systems__                        |
+| __18. 15 Apr.__ | __Cost Allocation: Practice__                        |
+| __19. 17 Apr.__ | __Absorption Costing Systems__                        |
 | _Read:_         | Zimmerman, Chapter 9                                  |
 | _Problems:_     | __P11:__ 9–9 DeJure Scents                            |
 |                 | __P12:__ 9–24 Kitchen Rite                            |
-| __19. 17 Apr.__ | __Absorption Costing Problems__                       |
+| __20. 22 Apr.__ | __Absorption Costing Problems__                       |
 | _Read:_         | Zimmerman, Chapter 10                                 |
 | _Problems:_     | __P13:__ 10–8 Aspen View                              |
 |                 | __P14:__ 10–11 Kothari Inc.                           |
 |                 | __P15:__ 10–17 Navisky                                |
-| __20. 22 Apr.__ | __ABC__                                               |
+| __21. 24 Apr.__ | __ABC__                                               |
 | _Read:_         | Zimmerman, Chapter 11                                 |
-| __21. 24 Apr.__ | __Budgeting__                                         |
+| __22. 29 Apr.__ | __Budgeting__                                         |
 | _Read:_         | Zimmerman, Chapter 6                                  |
-| __22. 29 Apr.__ | __Standard Costs and Variances__                      |
-| _Read:_         | Zimmerman, Chapters 12 and 13                         |
 |                 | _No Class on May 1_ |
-| __23. 6 May.__  | _TBA_                                                 |
+| __23. 6 May__ | __Standard Costs and Variances__                      |
+| _Read:_         | Zimmerman, Chapters 12 and 13                         |
 | __24. 8 May.__  | __Final Review__ _in class_                           |
 | _Survey:_       | _Submit review topics for in-class discussion_        |
 | __21 May__           | __Final Exam__                                        |
