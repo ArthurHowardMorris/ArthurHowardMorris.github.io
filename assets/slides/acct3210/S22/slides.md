@@ -661,14 +661,16 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 Basic Data for Budgeting Example for Fiscal Year Beginning 10/1/19:
 
-|                       | Cases  | Cost/Case |           |
+|                       | Cases  | Cost/Case |     Total      |
 |-----------------------|--------|-----------|-----------|
 | Beginning Inventory   | 13,500 | \$57.96   | \$782,460 |
 | Sauce                 | 2,300  | \$48.81   | \$112,263 |
-| Pie filling           | McCoun | Granny    |           |
-| Pounds of Apples/Case |        |           |           |
-| Sauce                 | 60     | 40        |           |
-| Pie filling           | 50     | 30        |           |
+
+| Pie filling           | McIntosh | Granny  Smith  |
+|--------------------|-----------|-----------|
+| Pounds of Apples/Case |        |           |  
+| Sauce                 | 60     | 40        |
+| Pie filling           | 50     | 30        |
 
 ### Departmental budgets
 
