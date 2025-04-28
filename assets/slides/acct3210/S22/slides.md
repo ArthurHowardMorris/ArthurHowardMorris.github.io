@@ -26,7 +26,7 @@ planning framework.
 - Knowledge: Budgets communicate key planning assumptions such as product
   prices, units sales, and input prices.
 - Partition Decision Rights:  Budget sets guidelines on resources available for
-  each segment.
+  each segment, and what decisions can/should be made by managers of those segments.
 - Performance Evaluation: Responsibility center’s actual performance is
   compared to budget.
 
@@ -48,10 +48,12 @@ planning framework.
 
 ### Variances
 
-- Favorable (F) variance:  actual revenue > budgeted revenue actual expense <
-  budgeted expense
-- Unfavorable (U) variance: actual revenue < budgeted revenue actual expense >
-  budgeted expense
+- Favorable (F) variance:  
+  - actual revenue > budgeted revenue
+  - actual expense < budgeted expense
+- Unfavorable (U) variance:
+  - actual revenue < budgeted revenue
+  - actual expense > budgeted expense
 
 ## Examples
 
