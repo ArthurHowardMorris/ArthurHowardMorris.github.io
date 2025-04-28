@@ -521,7 +521,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 - NaturApples is an upstate New York apple processor with two products: applesauce and apple pie filling.
 - The applesauce is eaten as is, and the pie filling is used to make apple pies.
-- Two types of apples are purchased from local growers, McCouns and Grannys.
+- Two types of apples are purchased from local growers, McIntosh and Granny Smith.
 - They are processed and packed in tin cans as either applesauce or pie filling.
 - Principal markets are institutional buyers, such as hospitals, public schools, Page 236 military bases, and universities.
 - NaturApples is a small processor.
@@ -559,7 +559,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 ### NaturApples data
 
-- Each of the two products (applesauce and pie filling) uses a combination of the two types of apples (McCouns and Grannys).
+- Each of the two products (applesauce and pie filling) uses a combination of the two types of apples (McIntosh and Granny Smith).
 - The production process consists of inspection, washing, peeling, and coring.
 - The apples are either mashed for applesauce or diced for pie filling and then are combined with other ingredients such as spices and chemical stabilizers and cooked in vats.
 - Both products are immediately canned on a single canning line in five-pound tins and packed in cases of 12 cans per case.
