@@ -517,79 +517,79 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 ## Master Budget
 
-### NaturApples data
+### How 'Bout Them Apples data
 
-- NaturApples is an upstate New York apple processor with two products: applesauce and apple pie filling.
+- How 'Bout Them Apples is an upstate New York apple processor with two products: applesauce and apple pie filling.
 - The applesauce is eaten as is, and the pie filling is used to make apple pies.
 - Two types of apples are purchased from local growers, McIntosh and Granny Smith.
 - They are processed and packed in tin cans as either applesauce or pie filling.
-- Principal markets are institutional buyers, such as hospitals, public schools, Page 236 military bases, and universities.
-- NaturApples is a small processor.
+- Principal markets are institutional buyers, such as hospitals, ublic schools,
+- How 'Bout Them Apples is a small processor.
 - Its market is regional and is serviced by four sales reps who call on customers in a four-state area.
 - A fifth salesperson markets the products to food distributors, who then sell them directly to restaurants.
 
-### NaturApples data
+### How 'Bout Them Apples data
 
 - The firm is organized into two departments: processing and marketing.
 - Each is headed by a vice president who reports directly to the president.
 - The vice president of finance is responsible for all financial aspects of the firm, including preparing budgets.
-- The three vice presidents and the president make up NaturApples's executive committee, which oversees the budgeting process.
+- The three vice presidents and the president make up How 'Bout Them Apples's executive committee, which oversees the budgeting process.
 
-### NaturApples data
+### How 'Bout Them Apples data
 
 - Apples are harvested in the fall of each year.
 - The firm has long-term contracts with a number of local apple growers for their crops.
 - If the local harvest is smaller than expected, additional apples can be purchased in the spot market.
-- Likewise, if more apples are delivered than NaturApples wants to process, the extra apples can be sold in the spot market.
+- Likewise, if more apples are delivered than How 'Bout Them Apples wants to process, the extra apples can be sold in the spot market.
 - Long-term contracts with local farmers and spot-market purchases and sales are the responsibility of the president and the vice president of finance.
 
-### NaturApples data
+### How 'Bout Them Apples data
 
-- Once harvested, the apples are stored either in coolers at NaturApples or in third-party warehouses until NaturApples processes them.
+- Once harvested, the apples are stored either in coolers at How 'Bout Them Apples or in third-party warehouses until How 'Bout Them Apples processes them.
 - Processing takes nine months.
 - In October, the plant starts up after a three-month shutdown.
 - Workers first thoroughly clean and inspect all equipment.
 
-### NaturApples data
+### How 'Bout Them Apples data
 
 - The apples begin arriving in the middle of October.
 - By the end of November, the apple harvest is in warehouses or started in production.
 - By June, all of the apples have been processed and the plant shuts down for July, August, and September.
-- NaturApples has a fiscal year starting October 1 and ending September 30.
+- How 'Bout Them Apples has a fiscal year starting October 1 and ending September 30.
 
-### NaturApples data
+### How 'Bout Them Apples data
 
 - Each of the two products (applesauce and pie filling) uses a combination of the two types of apples (McIntosh and Granny Smith).
 - The production process consists of inspection, washing, peeling, and coring.
 - The apples are either mashed for applesauce or diced for pie filling and then are combined with other ingredients such as spices and chemical stabilizers and cooked in vats.
 - Both products are immediately canned on a single canning line in five-pound tins and packed in cases of 12 cans per case.
 - The product has a two-year shelf life and is inventoried until ordered by the customer.
-- Independent truckers deliver apples to NaturApples and deliver finished product to customers.
+- Independent truckers deliver apples to How 'Bout Them Apples and deliver finished product to customers.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - The budgeting process begins in August for the next fiscal year's budget, which will begin in 14 months.
 - That is, even though the current fiscal year beginning in October has not yet started, the preparation of next year's budget begins in August.
 - In August, the coming fall harvest is reasonably well known.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - The president and the vice president of finance forecast the following year's crop harvest under long-term contract.
 - The vice president of marketing begins forecasting sales that will be made from the harvest a year from this fall.
 - Likewise, the processing vice president forecasts production costs and capacity.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - Every 2 months for the next 14 months, these budgets are revised with regard to marketing, processing, and apple procurement in light of any new information, and all three vice presidents and the president meet for a morning to discuss their revisions.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - In June of each year, the final master budget for the next fiscal year, which begins October 1, is adopted by the executive committee and approved by the board of directors.
 - The executive committee also meets weekly to review current-year operations as compared with budget and to discuss other operational issues.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
-- The figure on the next slide is a schematic that illustrates the relations among component budgets and the NaturApples master budget.
+- The figure on the next slide is a schematic that illustrates the relations among component budgets and the How 'Bout Them Apples master budget.
 - The master budget encompasses the budgeted income statement, budgeted balance sheet, and budgeted cash flows at the bottom of the figure.
 - All the other budgets provide the supporting detail, including the various key planning assumptions underlying the master budget.
 
@@ -623,36 +623,36 @@ The static and flexible budgets will be used in the next lecture to decompose va
 - These must all be internally consistent so that the volumes produced match the volumes procured and sold.
 - These also determine ending inventory, and flow through the rest of the system.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - Given the production budget, the direct labor and factory overhead budgets can be generated.
 - These last two budgets and the direct materials budget (from the apple procurement estimates) determine the cost-of-goods-sold budget.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - The budgeted income statement can then be prepared using these budgets and the budget for administration, which includes senior officer salaries and other administrative expenses not included elsewhere.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - Toward the bottom of the figure is the capital investment budget, which is based on an analysis of investment proposals.
 - All profitable projects are in the capital investment budget, including those projects started in previous years but not yet completed.
-- The capital investment budget and budgeted income statement are used to prepare NaturApples's budgeted balance sheet and then the cash flow budget.
+- The capital investment budget and budgeted income statement are used to prepare How 'Bout Them Apples's budgeted balance sheet and then the cash flow budget.
 - The remainder of this appendix illustrates the preparation of these various component budgets.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
-- NaturApples uses the following accounting conventions:
+- How 'Bout Them Apples uses the following accounting conventions:
 
 1. FIFO is used for inventory accounting.
 2. Factory overhead is estimated using a flexible budget.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - Variable overhead varies with the number of direct labor hours in the plant.
 - Total overhead is then assigned to product costs using the number of hours of direct labor in the product.
 - The table on the next slide provides the basic data for the budgeting illustration.
 
-### NaturApples budgeting process
+### How 'Bout Them Apples budgeting process
 
 - This table contains some primary operating data, such as the beginning inventory figures.
 - The bottom half of the table also shows the amount of each type of apple required to make a case of applesauce and a case of pie filling.
