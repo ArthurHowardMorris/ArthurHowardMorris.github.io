@@ -2,10 +2,22 @@
 title: "Budgeting"
 ---
 
+### What comes after cost allocation?
+
+- We have thought a lot about how to correctly track the  consumption of
+resources in order to:
+
+  - provide incentives and
+  - make decisions.
+
+Those discussions have been 'one off': One manager's incentives. One outsourcing
+decision. One volume decision. Today we will try to build those ideas into a
+planning framework.
+
 ### Budgets and Organizational Architecture
 
 - A budget is management’s forecast of revenues, expenses, or profits in a
-  future time period.
+  future time period based on a production plan.
 - Budgets are plans not aspirations.
 - Deviations, even income-increasing ones, are not innocuous.
 
@@ -18,7 +30,7 @@ title: "Budgeting"
 - Performance Evaluation: Responsibility center’s actual performance is
   compared to budget.
 
-### Variances:
+### Variances
 
 - In statistics: [A measure of the differences between the observations and the
   predictions.](https://en.wikipedia.org/wiki/Variance)
@@ -27,15 +39,14 @@ title: "Budgeting"
 - Related, but distinct. Managerial accounting variances are more closely
   related to 'errors' in statistics, this makes sense as they are errors in prediction.
 
-
-### Variances:
+### Variances
 
 - Variances are termed 'favorable' and 'unfavorable' based on their impact on
   income.
 - Keep in mind that budgets are plans, so any variance is evidence that things
   did not go according to plan.
 
-### Variances:
+### Variances
 
 - Favorable (F) variance:  actual revenue > budgeted revenue actual expense <
   budgeted expense
@@ -48,7 +59,7 @@ title: "Budgeting"
 
 - Responsibility Centers: 1 profit center and 2 cost centers
 - Measurement: Monthly reports compare actual revenues and expenses to budget.
-- Budget process separates decision rights. 
+- Budget process separates decision rights.
   - Initiation and implementation by professional managers.
   - Ratification and monitoring by Board of Directors and members.
 
@@ -56,16 +67,16 @@ title: "Budgeting"
 
 __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
 
-- Knowledge: 
+- Knowledge:
   - Number of students drives revenue forecasts.
   - Faculty market drives faculty salary expense.
 
 ### Example: Private University
 
-- Decision rights:    
+- Decision rights:
   - Lower levels prepare initial budgets.
   - Higher levels review and ratify budget.
-  - _This process passes knowledge upward through the organization._ 
+  - _This process passes knowledge upward through the organization._
   
 ### Example: Private University
 
@@ -75,7 +86,6 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
     than profit centers.
 
 <!-- _Is Auxiliary Services a responsibility center? How should it be evaluated?_ -->
-
 
 ### Example: Large Corporation
 
@@ -93,7 +103,7 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
 
 ### Example: Large Corporation
 
-- Contracting: 
+- Contracting:
   - Budgets are internal contracts between operating segments
   - Divisional managers negotiate budgets
   - Executive managers negotiate disputes and review budgets for consistency
@@ -131,7 +141,6 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
 
 - Summary: While the ratchet effect creates dysfunctional behavior, the
   alternatives might produce even greater problems.
-
 
 ### Trade-off: Bottom-up vs. Top-down
 
@@ -183,7 +192,7 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
 - No simple “one-size-fits-all” panacea exists for resolving the conflict
   between decision management versus decision control when it comes to
   budgeting.
-- Nor is such a solution ever likely to be found. 
+- Nor is such a solution ever likely to be found.
 
 ## Horizon
 
@@ -198,6 +207,7 @@ __Responsibility centers in 4 colleges: 2 cost centers, 2 profit centers.__
   as part of the periodic budget review.
 
 ## Budget Types/Terms/Policies
+
 _Modern firms use a mix of all of these types._
 
 ### Line-Item Budgets
@@ -276,7 +286,7 @@ cannot be carried over to the following year.__
 - Evaluate performance after adjusting for volume effects
 - Manager is not held responsible for volume changes
 
-### Note:
+### Note
 
 The static and flexible budgets will be used in the next lecture to decompose variances!
 
@@ -286,7 +296,6 @@ The static and flexible budgets will be used in the next lecture to decompose va
 <!-- GAMESS Inc. develops, markets, packages, and distributes multimedia computer games. GAMES has outsourced production because it does not believe it can manufacture the games competitively. Its most recent development is an interactive adventure game. Because its multimedia games are different from other computer games in both the physical size of the package and price, GAMESS established a new profit center for the adventure game and future Blu-ray computer games. -->
 <!-- GAMESS is in the process of selecting the profit-maximizing price for the new adventure game. Management estimates demand for the new game at various wholesale prices. The retail stores then set the retail price of the same sold to the public. Estimated demand is shown in L Table I. -->
 <!-- __See Self-Study Problems.__ -->
-
 
 ## Example: Sandy Cove Bank
 
@@ -312,7 +321,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
   for the coming year. (_Note: 'Given' in this sentence embeds a critical
   management accounting activity: forecasting._)
 - The savings rate is the rate paid on CD savings accounts.
-- The loan rate is the rate charged on auto and boat loans. 
+- The loan rate is the rate charged on auto and boat loans.
 
 ### Sandy Cove Bank
 
@@ -350,7 +359,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 - The first two expenses vary, depending on the dollar amount of the accounts.
 - The annual processing expense is budgeted to be 1.5 percent of the loan
-  accounts. 
+  accounts.
 - Default expense is budgeted at 1 percent of the amount loaned per year.
 
 ### Sandy Cove Bank
@@ -396,7 +405,6 @@ The static and flexible budgets will be used in the next lecture to decompose va
 - Default expense is budgeted at 1 percent of the amount loaned per year.
 
 ### SCB Solution 1
-
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses | Default Exp | Overhead Expenses |
 |-----------|-------------|--------------|----------------|-----------|---------------------|-------------|-------------------|
@@ -497,7 +505,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 ### SCB Solution 3
 
-- The increase in the interest rate on loans can be attributed only to an 
+- The increase in the interest rate on loans can be attributed only to an
   increase in the demand for loans, which resulted in the department charging a
   slightly higher average interest rate.
 - The higher processing expense could be related to the higher number of
@@ -571,21 +579,20 @@ The static and flexible budgets will be used in the next lecture to decompose va
 ### NaturApples budgeting process
 
 - Every 2 months for the next 14 months, these budgets are revised with regard to marketing, processing, and apple procurement in light of any new information, and all three vice presidents and the president meet for a morning to discuss their revisions.
- 
 
 ### NaturApples budgeting process
 
 - In June of each year, the final master budget for the next fiscal year, which begins October 1, is adopted by the executive committee and approved by the board of directors.
 - The executive committee also meets weekly to review current-year operations as compared with budget and to discuss other operational issues.
- 
 
 ### NaturApples budgeting process
 
 - The figure on the next slide is a schematic that illustrates the relations among component budgets and the NaturApples master budget.
-- The master budget encompasses the budgeted income statement, budgeted balance sheet, and budgeted cash flows at the bottom of the figure. 
+- The master budget encompasses the budgeted income statement, budgeted balance sheet, and budgeted cash flows at the bottom of the figure.
 - All the other budgets provide the supporting detail, including the various key planning assumptions underlying the master budget.
 
 ## Logical flow
+
 ### Logical flow
 
 <!-- ![Logical flow](apples.png) -->
@@ -605,7 +612,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
   - Budgeted balance sheet
   - Budgeted cash flows
 
-### Three key processes:
+### Three key processes
 
 1. procurement
 2. sales
@@ -618,7 +625,6 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 - Given the production budget, the direct labor and factory overhead budgets can be generated.
 - These last two budgets and the direct materials budget (from the apple procurement estimates) determine the cost-of-goods-sold budget.
- 
 
 ### NaturApples budgeting process
 
@@ -634,6 +640,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 ### NaturApples budgeting process
 
 - NaturApples uses the following accounting conventions:
+
 1. FIFO is used for inventory accounting.
 2. Factory overhead is estimated using a flexible budget.
 
@@ -648,7 +655,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 - This table contains some primary operating data, such as the beginning inventory figures.
 - The bottom half of the table also shows the amount of each type of apple required to make a case of applesauce and a case of pie filling.
 
-### Basic data:
+### Basic data
 
 Basic Data for Budgeting Example for Fiscal Year Beginning 10/1/19:
 
@@ -661,18 +668,17 @@ Basic Data for Budgeting Example for Fiscal Year Beginning 10/1/19:
 | Sauce                 | 60     | 40        |           |
 | Pie filling           | 50     | 30        |           |
 
-### Departmental budgets:
+### Departmental budgets
 
 - By June, the executive committee has agreed on next year's volumes.
 - The sales budget for the next fiscal year is given in the next table.
 
-### Departmental budgets:
+### Departmental budgets
 
 - The executive committee agrees that the firm should be able to sell 140,000 cases of sauce at $68.95 per case and 60,000 cases of pie filling at $53.95 per case.
 - These quantities and prices were derived after exploring alternative price-quantity combinations.
 
-
-### Departmental budgets (sales):
+### Departmental budgets (sales)
 
 - In particular, these price-quantity points represent the managers' best judgment of where profits are maximized.
 - Presumably, higher prices (and thus lower sales) or lower prices (and higher sales) would both result in lower profits than the combinations in the next table.
@@ -682,4 +688,3 @@ Basic Data for Budgeting Example for Fiscal Year Beginning 10/1/19:
 | Sauce       | 140,000        | \$68.95             | \$ 9,653,000     |
 | Pie filling | 60,000         | 53.95               | 3,237,000        |
 | Total       |                |                     | \$12,890,000     |
-
