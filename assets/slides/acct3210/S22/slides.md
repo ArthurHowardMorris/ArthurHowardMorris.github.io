@@ -299,7 +299,7 @@ The static and flexible budgets will be used in the next lecture to decompose va
 <!-- GAMESS is in the process of selecting the profit-maximizing price for the new adventure game. Management estimates demand for the new game at various wholesale prices. The retail stores then set the retail price of the same sold to the public. Estimated demand is shown in L Table I. -->
 <!-- __See Self-Study Problems.__ -->
 
-## Example: Sandy Cove Bank
+<!-- ## Example: Sandy Cove Bank -->
 
 ### Sandy Cove Bank
 
@@ -514,6 +514,8 @@ The static and flexible budgets will be used in the next lecture to decompose va
   accounts processed and improvements in the default rate.
 - That is, the favorable default expense could be attributed to an improved
   screening process-related to spending more on processing.
+
+## Stop here, pick up in variance lecture
 
 ## Master Budget
 
