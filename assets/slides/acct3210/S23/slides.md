@@ -68,9 +68,6 @@ performance (cost, revenue, volume, etc.) and actual performance.
   loan supply.
 - For simplicity, this bank may lend 100 percent of deposits.
 - In practice, this rate is set by policy makers and regulators not the bank itself.
-
-### Sandy Cove Bank
-
 - Although rates are set nationally, the bank may pay or charge slightly
   different rates to limit demand or boost supply as needed in its local
   market.
@@ -83,9 +80,6 @@ performance (cost, revenue, volume, etc.) and actual performance.
 - The annual processing expense is budgeted to be 1.5 percent of the loan
   accounts.
 - Default expense is budgeted at 1 percent of the amount loaned per year.
-
-### Sandy Cove Bank
-
 - Again, loans and savings would ideally be the same.
 - Overhead expenses are estimated to be \$30,000 for the year, regardless of the
   amount loaned.
