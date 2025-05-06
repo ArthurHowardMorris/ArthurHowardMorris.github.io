@@ -16,11 +16,11 @@ performance (cost, revenue, volume, etc.) and actual performance.
 - We can use decomposition of variances to isolate the causes.
 - This tells us which parts of our forecasts were wrong.
 
-### Logical flow
+<!-- ### Logical flow -->
 
 <!-- <img src="apples.png" alt="Logical Flow" height="350" /> -->
 
-![Logical flow](apples.png){ height=75% }
+<!--![Logical flow](apples.png){ height=75% }-->
 
 ## Example: Sandy Cove Bank
 
@@ -31,9 +31,6 @@ performance (cost, revenue, volume, etc.) and actual performance.
   the maturity of its liabilities.
 - By maintaining a spread between interest rates charged and interest rates
   paid, the bank plans to earn a small income.
-
-### Sandy Cove Bank
-
 - Management establishes a flexible budget based on interest rates for each
   department.
 - The Boat and Car Loan Department offers five-year loans.
@@ -105,7 +102,7 @@ performance (cost, revenue, volume, etc.) and actual performance.
 | 9%        | 6.03        | 5%           | 9.83           | 6.03      |
 | 10%       | 4.42        | 6%           | 11.8           | 4.42      |
 
-### SCB Solution 1
+### SCB Solution 1: Processing
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses |
 |-----------|-------------|--------------|----------------|-----------|---------------------|
@@ -117,7 +114,7 @@ performance (cost, revenue, volume, etc.) and actual performance.
 
 - Processing is 1.5% of loan accounts
 
-### SCB Solution 1
+### SCB Solution 1: Defaults
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses | Default Exp |
 |-----------|-------------|--------------|----------------|-----------|---------------------|-------------|
@@ -129,7 +126,7 @@ performance (cost, revenue, volume, etc.) and actual performance.
 
 - Default expense is budgeted at 1 percent of the amount loaned per year.
 
-### SCB Solution 1
+### SCB Solution 1: Overhead
 
 | Loan Rate | Loan Demand | Savings Rate | Savings Supply | New Loans | Processing Expenses | Default Exp | Overhead Expenses |
 |-----------|-------------|--------------|----------------|-----------|---------------------|-------------|-------------------|
@@ -160,6 +157,9 @@ performance (cost, revenue, volume, etc.) and actual performance.
 | Default expense     |                   | 80,700    |
 | Net income          |                   | \$ 91,050 |
 
+- This information comes from the previous table, we just select the numbers
+for the relevant interest rate.
+
 ### SCB Question 3
 
 3. Table 2 shows the actual income statement for the Boat and Car Loan
@@ -178,7 +178,7 @@ performance (cost, revenue, volume, etc.) and actual performance.
 | Loans               | 8,070,000 | \$8,062,000 |
 | Deposits            | 8,070,000 | \$8,123,000 |
 
-### SCB Solution 3
+### SCB Solution 3: Calculation
 
 |                     | Budget    | Actual      | Fav. (Unfav.) Variance |
 |---------------------|-----------|-------------|------------------------|
@@ -192,20 +192,22 @@ performance (cost, revenue, volume, etc.) and actual performance.
 | Loans               | 8,070,000 | \$8,062,000 | \$ (8,000)             |
 | Deposits            | 8,070,000 | \$8,123,000 | \$(53,000)             |
 
-### SCB Solution 3
+- _The rest of the lecture is going to focus on decomposing these variances._
+- I am providing a discussion of the results of this example for your reference.
+
+## SCB Solution 3: Discussion
+
+### SCB Solution 3: Discussion
 
 - Even though loans were lower and deposits were higher than expected, interest
   income was higher and interest expense was lower than expected.
 - The answer can be obtained by calculating the average interest rates earned
   and paid.
-
-### SCB Solution 3
-
 - On \$8,062,000 worth of loans, Sandy Cove earned \$645,766 interest, or 8.01
   percent (0.01 percent more than expected).
 - Similarly, it paid only 3.87 percent (0.13 percent less) on deposits.
 
-### SCB Solution 3
+### SCB Solution 3: Discussion
 
 - Therefore, the net interest income variance of \$8,606 is a combination of
   two effects: the variance in the actual loans and deposits (quantity) and the
@@ -213,11 +215,8 @@ performance (cost, revenue, volume, etc.) and actual performance.
 - The combined effects are a favorable interest income variance, a favorable
   interest expense variance, and an overall favorable net interest income
   variance.
-
-### SCB Solution 3
-
 - At a savings interest rate of 4 percent, there is an excess supply of
-  deposits over demand for loans.
+  deposits relative to demand for loans.
 - The Boat and Car Loan Department lowered the interest rate on deposits to
   stem additional deposits.
 
@@ -241,6 +240,8 @@ Before we dig into understanding variances, we need to define a couple of terms.
 - You can think of a 'budget' as the entire financial and operational plan.
 - You can think of the 'standards' as all of the individual forecasts that go into the budget.
 - Though the words are used interchangeably.
+- __The terms: budgeting, planning, and forecasting can be used to refer to the
+process of setting standards and creating a budget.__
 
 ### Standards vs. Actuals
 
@@ -272,6 +273,8 @@ Total Variance = Actual Cost - Standard Cost
 | Price          | $P$    |          |           |
 
 - _This is all we need to decompose any variance into it's price and volume components._
+- Note: 'Price' here is the cost per unit of the budgeted resource. We could
+also call this "Cost per Unit".
 
 ### Total Var. into Price & Quantity Vars
 
@@ -289,7 +292,7 @@ _Note: I'll give you the relationship above, and you can either memorize or deri
 
 ### The algebra
 
-- Goal: Write the rhs. so that one term includes the change error in $P$ and the other includes the error in $Q$.
+- Goal: Write the rhs. so that one term includes the error in $P$ and the other includes the error in $Q$.
   - $TV = (Q_a \times P_a) - (Q_s \times P_s)$
 - Start by adding and subtracting $(P_s \times Q_a)$
   - $TV = (Q_a \times P_a) + [(P_s \times Q_a)-(P_s \times Q_a)] + (Q_s \times P_s)$
@@ -304,6 +307,8 @@ _Note: I'll give you the relationship above, and you can either memorize or deri
 
 ### The algebra
 
+- $TV = (Q_a \times P_a) - (Q_s \times P_s)$
+- $TV = (Q_a \times P_a) + [(P_s \times Q_a)-(P_s \times Q_a)] + (Q_s \times P_s)$
 - $TV = [(Q_a \times P_a)-(P_s \times Q_a)] +  [(P_s \times Q_a)-(Q_s \times P_s)]$
 - $TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$
 
@@ -313,7 +318,7 @@ _Note: I'll give you the relationship above, and you can either memorize or deri
 
 $$TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$$
 
-- Now we have TV as a function of the error in P $(P_a-P_s)$ and the error in Q $(Q_a-Q_s)$.
+- Now we have TV as a function of the error in P: $(P_a-P_s)$ and the error in Q: $(Q_a-Q_s)$.
 - Multiplying the error in $P$ by the actual quantity gives us the portion of TV that is due to the error in $P$.
 
 ### The Price and Quantity Variances
@@ -336,7 +341,7 @@ This is the general form: $TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$ now we'll cons
 
 ### Direct Labor Variance
 
-|              | Actual DL Cost   | Flexible Budget  | Standard DL Cost |
+|              | Actual DL Cost   | Flexible DL Budget  | Standard DL Cost |
 |--------------|------------------|------------------|------------------|
 | General Form | $P_a \times Q_a$ | $P_s \times Q_a$ | $P_s \times Q_s$ |
 
@@ -347,7 +352,7 @@ __We have other terms for the price and quantity of labor!:__
 
 ### Direct Labor Variance
 
-| Total Variance                      | Actual DL Cost   | Flexible Budget  | Standard DL Cost |
+| Total Variance                      | Actual DL Cost   | Flexible DL Budget  | Standard DL Cost |
 |-------------------------------------|------------------|------------------|------------------|
 | $(H_a\times W_a) - (W_s\times H_s)$ | $W_a \times H_a$ | $W_s \times H_a$ | $W_s \times H_s$ |
 
@@ -394,34 +399,47 @@ __For materials we stick with the term "Price" and "Quantity"__
 | $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a - P_s \times Q_a$ | $P_s \times Q_a- P_s \times Q_s$ |
 | $[Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$  | $Q_a(P_a-P_s)$                    | $P_s(Q_a-Q_s)$                    |
 
-### Incentive Effects of Variances
-
-- Rewarding purchasing managers for favorable direct materials price variances
-  creates an incentive for them to buy large quantities when price discounts
-  are offered for high-volume purchases.
-- Penalizing production managers for unfavorable labor efficiency variances
-  encourages keeping labor busy producing more.
-
-### Incentive Effects of Variances
-
-- Mitigation of inventory building incentive
-  - Charge purchasing department for cost of holding inventory.
-  - Just-in-time (JIT) purchasing and production policies
-
-### A note on JIT
-
-- Mangerial accountants and consultants love JIT
-- Toyota (and the whole Japanese Auto industry) is an often cited example.
-- The 2011 Tohoku and Miyagi Earthquakes disrupted supply chains which lead to
-  careful restructuring, and decreased reliance on pure just-in-time
-  production.
-
-### A note on JIT
-
-- Nonetheless, JIT was still widely used and COVID 2019 disrupted these supply
-  chains.
-- The Invasion of Ukraine by the Russian military also disrupted supply chains.
-- In all of these cases excess inventory proved immensely valuable.
+<!-- ### Incentive Effects of Variances -->
+<!---->
+<!-- - Rewarding purchasing managers for favorable direct materials price variances -->
+<!--   creates an incentive for them to buy large quantities when price discounts -->
+<!--   are offered for high-volume purchases. -->
+<!--   - This can lead to other problems if the inputs are of low quality or -->
+<!--   inventory and financing problems. -->
+<!-- - Penalizing production managers for unfavorable labor efficiency variances -->
+<!--   encourages keeping labor busy producing more. -->
+<!--   - This can also lead to inventory problems. -->
+<!--   - This was famously a problem in for the Soviet Union. -->
+<!---->
+<!-- ### Incentive Effects of Variances -->
+<!---->
+<!-- - Mitigation of inventory building incentive -->
+<!--   - Charge purchasing department for cost of holding inventory. -->
+<!--   - Just-in-time (JIT) purchasing and production policies. -->
+<!---->
+<!-- ### A note on JIT -->
+<!---->
+<!-- The practice of reducing all inventories as close to zero as possible. Finished -->
+<!-- goods are only produced when they are ordered, inputs arrive in response to -->
+<!-- those orders, intermediate goods are only produced when they are needed. -->
+<!---->
+<!-- Everything in the supply chain arrives 'just-in-time'. This requires __perfect__ -->
+<!-- forecasting! -->
+<!---->
+<!-- ### A note on JIT -->
+<!---->
+<!-- - Mangerial accountants and consultants love JIT -->
+<!-- - Toyota (and the whole Japanese Auto industry) is an often cited example. -->
+<!-- - The 2011 Tohoku and Miyagi Earthquakes disrupted supply chains which lead to -->
+<!--   careful restructuring, and decreased reliance on pure just-in-time -->
+<!--   production. -->
+<!---->
+<!-- ### A note on JIT -->
+<!---->
+<!-- - Nonetheless, JIT was still widely used and COVID 2019 disrupted these supply -->
+<!--   chains. -->
+<!-- - The Invasion of Ukraine by the Russian military also disrupted supply chains. -->
+<!-- - In all of these cases excess inventory proved immensely valuable. JIT is great -->
 
 ## Overhead Variance
 
