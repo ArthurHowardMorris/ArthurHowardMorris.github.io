@@ -517,6 +517,9 @@ The static and flexible budgets will be used in the next lecture to decompose va
 
 ## Stop here, pick up in variance lecture
 
+TODO: cut an absorption costing lecture and give this topic more time.
+TODO: edit this lecture so that it is shorter and gets to the example faster.
+
 ## Master Budget
 
 ### How 'Bout Them Apples data
