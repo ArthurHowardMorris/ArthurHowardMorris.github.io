@@ -5,7 +5,9 @@ title: "Review Session"
 ### Overview
 
 - Comprehensive
+  - The questions from the mid-term will be included, but slightly edited.
 - 3 hours
+  - You can expect the exam to be about three times as long as the midterm.
 - The exam is closed book and notes.
 <!-- ### PUT THE NOTE HERE -->
 
