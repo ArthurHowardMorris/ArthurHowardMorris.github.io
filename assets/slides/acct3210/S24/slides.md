@@ -2,25 +2,14 @@
 title: "Review Session"
 ---
 
-### Overview:
+### Overview
 
 - Comprehensive
 - 3 hours
-- 2 sections
-- Each section will have 8 numbered parts, of which you may skip one. This means that we will drop the worst part from each of the two sections.
-
-### Overview:
-
-- Each part will include information you will use to answer the questions in
-  that part, if you need information from a previous part, that will be indicated.
-- These questions will be indicated with letters: (a) if there is one, (b) if
-  there is a second, and so forth.
 - The exam is closed book and notes.
-
 <!-- ### PUT THE NOTE HERE -->
 
 ## Section 2 - What we've covered since the midterm
-
 
 ### Economics of agency
 
@@ -32,8 +21,9 @@ title: "Review Session"
 ### Economics of agency
 
 - These will be questions about the concepts from:
-  - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html) and 
+  - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html) and
   - [Examples](https://arthurhowardmorris.github.io/assets/slides/acct3210/S11/MoreIncentives.slides.html)
+<!--TODO: make pdf versions of these-->
 
   <!-- Note that the details of the Rothwell problem will not be tested. -->
 
@@ -50,11 +40,20 @@ title: "Review Session"
   - Taxes reduce the taxed activity
   - Negative taxes are subsidies, and increase the subsidised activity
 
+### Cost Allocation
+
+- __Step-down method:__ I will not ask you about the step-down method. Beyond
+asking you what is wrong with it.
+- __Reciprocal Method:__ I won't ask you to calculate the allocations, but I may
+ask you about how to set it up and interpret it.
+  - If given a table of costs, you should be able to set up the equations and
+  describe how to solve them.
+
 ### Absorption Costing
 
 - Navisky, Aspen, Kothari problems (don't worry, I won't ask all of them)
 
-### Navisky notes:
+### Navisky notes
 
 - [Application of fixed overhead](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.pdf)  <!-- html#/q1-solution-1) -->
 
@@ -66,13 +65,21 @@ $$FMO=OHR \times Q_{sold}$$
 - OH is the total overhead, 2.7 million in this case
 - $Q_{made}$ is the number of units produced, and $Q_{sold}$ is the number of units sold.
 
-### Navisky notes:
+### Navisky notes
 
 - [The cost per unit of inventory](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.pdf) <!-- html#/q2-solution-4) --> is the sum of the overhead applied to the inventory and the [variable manufacturing costs](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.pdf) <!-- .html#/navisky-data) -->
 
 - $VC/unit=380$
 - The fixed overhead applied to each unit of inventory is just the overhead rate: $OHR=TOH/Q_{made}$
- 
+
+### Navisky: Think about the structure of the incentives
+
+- What roles in determining incentives could the size of the factory play?
+- What roles in determining incentives is the bonus cap playing?
+- What role is the bonus itself playing?
+- What role is the accounting method playing?
+- How do these things interact and what would happen if they were relaxed?
+
 ### Activity Based Costing
 
 Conceptual understanding of how activity based costing improves on simple absorption costing.
@@ -83,9 +90,14 @@ Conceptual understanding of how activity based costing improves on simple absorp
 
 ### Budgets/Standard Costs/Variances
 
-The only terms you need are the ones used in the following slides. I will cover these with multiple choice questions.
+There will be a section of multiple choice question based on these.
 
-### Variance:
+- A few students asked for the who test to be MC, I'm not allowed to do that.
+I'm sorry. Also, writing MC questions is so absolutely apocalyptically
+stultifyingly soul crushingly boring that I can't possibly write any more of
+these than I have.
+
+### Variance
 
 Total Variance = Actual Cost - Standard Cost
 
@@ -95,11 +107,9 @@ Direct cost (labor and materials) can be disaggregated into Price and Quantity v
 
 ### Disaggregation of direct cost variances
 
-
 | Total Variance                      | Actual DM Cost   | Flexible Budget  | Standard DM Cost |
 |-------------------------------------|------------------|------------------|------------------|
 | $(Q_a\times P_a) - (P_s\times Q_s)$ | $P_a \times Q_a$ | $P_s \times Q_a$ | $P_s \times Q_s$ |
-
 
 | Total Variance                      | Price Variance                    | Quantity Variance                |
 |-------------------------------------|-----------------------------------|----------------------------------|
