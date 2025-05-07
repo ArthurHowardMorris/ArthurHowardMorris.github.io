@@ -282,14 +282,14 @@ _Note: I'll give you the relationship above, and you can either memorize or deri
 
 ### Decomposition
 
-<img src="dmv.png" alt="Composition" width="350"/>
+<img src="./dmv.png" alt="Composition" width="350"/>
 
 ### The algebra
 
 - Goal: Write the rhs. so that one term includes the error in $P$ and the other includes the error in $Q$.
   - $TV = (Q_a \times P_a) - (Q_s \times P_s)$
 - Start by adding and subtracting $(P_s \times Q_a)$
-  - $TV = (Q_a \times P_a) + [(P_s \times Q_a)-(P_s \times Q_a)] + (Q_s \times P_s)$
+  - $TV = (Q_a \times P_a) + [(P_s \times Q_a)-(P_s \times Q_a)] - (Q_s \times P_s)$
 
 ### Does $(P_s \times Q_a)$ have real world meaning?
 
@@ -302,7 +302,7 @@ _Note: I'll give you the relationship above, and you can either memorize or deri
 ### The algebra
 
 - $TV = (Q_a \times P_a) - (Q_s \times P_s)$
-- $TV = (Q_a \times P_a) + [(P_s \times Q_a)-(P_s \times Q_a)] + (Q_s \times P_s)$
+- $TV = (Q_a \times P_a) + [(P_s \times Q_a)-(P_s \times Q_a)] - (Q_s \times P_s)$
 - $TV = [(Q_a \times P_a)-(P_s \times Q_a)] +  [(P_s \times Q_a)-(Q_s \times P_s)]$
 - $TV = [Q_a(P_a-P_s)] +  [P_s(Q_a-Q_s)]$
 
