@@ -282,7 +282,9 @@ _Note: I'll give you the relationship above, and you can either memorize or deri
 
 ### Decomposition
 
-<img src="dmv.png" alt="Composition" width="350"/>
+![Decomposition](./dmv.png){ height=75% }
+
+<!-- <img src="dmv.png" alt="Composition" width="350"/> -->
 <!-- <img src="apples.png" alt="Logical Flow" height="350" /> -->
 
 ### The algebra
