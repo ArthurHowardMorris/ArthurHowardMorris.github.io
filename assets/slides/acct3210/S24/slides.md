@@ -40,6 +40,7 @@ similar.
 <!--TODO: make pdf versions of these-->
 
   <!-- Note that the details of the Rothwell problem will not be tested. -->
+
 ## Section 3: Cost Allocation
 
 ### Lectures 13 & 14: Transfer Pricing
