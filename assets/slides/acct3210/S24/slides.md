@@ -9,6 +9,8 @@ title: "Review Session"
 - 3 hours
   - You can expect the exam to be about three times as long as the midterm.
 - The exam is closed book and notes.
+<!-- - I am in the process of rewriting the exam so I cannot answer specifics about -->
+<!--the number of questions.-->
 <!-- ### PUT THE NOTE HERE -->
 
 ## Content Outline
@@ -64,7 +66,7 @@ decisions in question 3? [__(Starting on Slide 18)__](https://arthurhowardmorris
 
 - __Step-down method:__ I will not ask you about the step-down method. Beyond
 asking you what is wrong with it.
-  - This method is 'unstable', 'indeterminate' or 'inaccurate', because the same
+  - This method is 'unstable', 'indeterminate' or 'imprecise', because the same
   underlying economics can produce very different numbers depending on the order
   in which you allocate the costs. There is no theoretical reason to prefer one
   order over the other.
