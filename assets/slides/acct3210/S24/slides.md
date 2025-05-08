@@ -9,6 +9,7 @@ title: "Review Session"
 - 3 hours
   - You can expect the exam to be about three times as long as the midterm.
 - The exam is closed book and notes.
+- Calculators are neither needed nor allowed.
 <!-- - I am in the process of rewriting the exam so I cannot answer specifics about -->
 <!--the number of questions.-->
 <!-- ### PUT THE NOTE HERE -->
