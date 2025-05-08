@@ -36,9 +36,9 @@ similar.
 
 - These will be questions about the concepts from:
   - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/2)
-  - [Examples]()
-    - [Risk Aversion](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/10)
-    - [Controlability/Informativeness](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/10/9)
+  - Examples
+    - [Risk Aversion (__Link to Slides__)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/10)
+    - [Controlability/Informativeness (__Link to Slides__)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/10/9)
 <!--TODO: make pdf versions of these-->
 
   <!-- Note that the details of the Rothwell problem will not be tested. -->
