@@ -81,7 +81,7 @@ ask you about how to set it up and interpret it.
 
 Review the slides ([__Posted here__](https://arthurhowardmorris.github.io/assets/slides/acct3210/S18/costallocation3_slides.pdf)) starting with the "reciprocal method" slide. Focus on how to assemble the information and the steps, rather than the calculation. (_If you need a calculator, you will not need to do it!_)
 
-### Lectures 19 & 20: Absorption Costing
+### Lectures 19 & 20 & 21: Absorption Costing
 
 - I will not ask you about the examples in lecture 19. I will focus on the
 examples from lecture 20.
@@ -170,7 +170,7 @@ at a time or all together)?
   think about how the optimal choice would change if the parameters were to
   change.
 
-### Activity Based Costing
+### Lecture 21: Activity Based Costing
 
 Conceptual understanding of how activity based costing improves on simple absorption costing.
 
@@ -178,14 +178,15 @@ Conceptual understanding of how activity based costing improves on simple absorp
 2. More accurate allocations provide better information via transfer prices.
 3. More accurate allocations connect incentives (a la Pigou) to the actual costs that the firm incurs.
 
-### Budgets/Standard Costs/Variances
+### Lectures 22 & 23: Budgets/Standard Costs/Variances
 
-There will be a section of multiple choice question based on these.
+There will be at least a section of multiple choice question based on these.
 
 - A few students asked for the who test to be MC, I'm not allowed to do that.
 I'm sorry. Also, writing MC questions is so absolutely apocalyptically
 stultifyingly soul crushingly boring that I can't possibly write any more of
 these than I have. But there will be a bunch of them and they will be easy.
+- The MC questions will cover topics from the following slides.
 
 ### Variance
 
