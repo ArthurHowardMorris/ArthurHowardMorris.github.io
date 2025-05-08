@@ -125,7 +125,7 @@ __If we produce and sell 1200 units (the first column):__
 - MO allocation to COGS:
 - $1,200 \times 2,250 = 2,700,000$
 
-__If we produce 1200 and sell 1300 (the second column):__
+__If we sell 1200 and produce 1300 (the second column):__
 
 - MO allocation rate:
 - $2,700,000/1300=2,076.923$
