@@ -11,7 +11,17 @@ title: "Review Session"
 - The exam is closed book and notes.
 <!-- ### PUT THE NOTE HERE -->
 
-## Section 2 - What we've covered since the midterm
+## Content Outline
+
+- __Section 1: Tools__ Covered in Midterm. Final Exam questions will be _very_
+similar.
+- __Section 2:__ Theory.
+  - Part 1: Time Value of Money and Taxes. Covered in Midterm. Final Exam
+  questions will be _very_ similar.
+  - Part 2: Economics of Agency. Not Covered in Midterm. Will be on Final Exam.
+- __Section 3:__ Cost Allocation. Not Covered in Midterm. Will be on Final Exam.
+
+## Section 2 Part 2: The Economics of Agency
 
 ### Economics of agency
 
@@ -23,36 +33,57 @@ title: "Review Session"
 ### Economics of agency
 
 - These will be questions about the concepts from:
-  - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html) and
-  - [Examples](https://arthurhowardmorris.github.io/assets/slides/acct3210/S11/MoreIncentives.slides.html)
+  - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/2)
+  - [Examples]()
+    - [Risk Aversion](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/10)
+    - [Controlability/Informativeness](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/10/9)
 <!--TODO: make pdf versions of these-->
 
   <!-- Note that the details of the Rothwell problem will not be tested. -->
+## Section 3: Cost Allocation
 
-### Section 2 Part 2: Transfer Pricing
+### Lectures 13 & 14: Transfer Pricing
 
 - Vik-Giger
 - Why do we need transfer prices?
   - Overconsumption of common resources.
   - Transmit information and incentives within a decentralized firm.
+- Do you understand why the transfer price is useful for decentralized decisions
+  in questions 1 & 2? [__(Starting on Slide 6)__](https://arthurhowardmorris.github.io/assets/slides/acct3210/S14/vik_solution_slides.pdf)
+- Do you understand why the transfer price is not useful for decentralized
+decisions in question 3? [__(Starting on Slide 18)__](https://arthurhowardmorris.github.io/assets/slides/acct3210/S14/vik_solution_slides.pdf)
 
-### Cost Allocation
+### Lectures 13 & 14: Cost Allocation
 
-- The key concept here is that cost allocations (including transfer prices) function as 'Pigouvian' taxes
-  - Taxes reduce the taxed activity
-  - Negative taxes are subsidies, and increase the subsidised activity
+- The key concept here is that cost allocations (including transfer prices) function as 'Pigouvian' taxes.
+  - Taxes reduce the taxed activity.
+  - Negative taxes are subsidies, and increase the subsidised activity.
 
-### Cost Allocation
+### Lecture 16: Cost Allocation
 
 - __Step-down method:__ I will not ask you about the step-down method. Beyond
 asking you what is wrong with it.
+  - This method is 'unstable', 'indeterminate' or 'inaccurate', because the same
+  underlying economics can produce very different numbers depending on the order
+  in which you allocate the costs. There is no theoretical reason to prefer one
+  order over the other.
+  - Inaccurate, if the interdepartmental support consumption is large and
+  unbalanced (i.e. consumption varies widely across all departments), then this
+  method can missallocate costs by a large amount.
+
+### Lecture 18: Cost Allocation
+
 - __Reciprocal Method:__ I won't ask you to calculate the allocations, but I may
 ask you about how to set it up and interpret it.
   - If given a table of costs, you should be able to set up the equations and
   describe how to solve them.
 
-### Absorption Costing
+Review the slides ([__Posted here__](https://arthurhowardmorris.github.io/assets/slides/acct3210/S18/costallocation3_slides.pdf)) starting with the "reciprocal method" slide. Focus on how to assemble the information and the steps, rather than the calculation. (_If you need a calculator, you will not need to do it!_)
 
+### Lectures 19 & 20: Absorption Costing
+
+- I will not ask you about the examples in lecture 19. I will focus on the
+examples from lecture 20.
 - Navisky, Aspen, Kothari problems (don't worry, I won't ask all of them)
 
 ### Navisky notes
@@ -77,7 +108,11 @@ $$FMO=OHR \times Q_{sold}$$
 ### Navisky: Think about the structure of the incentives
 
 - What roles in determining incentives could the size of the factory play?
+  - Limits overproduction to 1500 units. If we assume that the manager does not have the ability to unilaterally expand the factory, if they do then we do not have enough information to determine the costs and benefits from the company and manager perspectives.
+
 - What roles in determining incentives is the bonus cap playing?
+  - Limiting the bonus to &euro;27,000
+
 - What role is the bonus itself playing?
 - What role is the accounting method playing?
 - How do these things interact and what would happen if they were relaxed?
