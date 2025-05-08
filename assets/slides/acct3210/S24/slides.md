@@ -89,6 +89,48 @@ examples from lecture 20.
 
 ### Navisky notes
 
+- Several students have asked about this problem.
+- Please keep in mind that I will not ask you to calculate this on the final exam.
+- The most common question is "Where does the Fixed Manufacturing Overhead in
+question 1 come from?"
+  - We'll look at this on the next slide.
+- The second is where are the production numbers coming from?
+  - These are various scenarios, chosen to illustrate the range of options
+  available to the manager in each question. You __will not__ need to calculate
+  these. I will give them to you and ask you to interpret them.
+
+### Navisky notes: Manufacturing overheads
+
+- Manufacturing overhead: 2.7 million
+
+|                                        |             |             |             |             |
+|----------------------------------------|-------------|-------------|-------------|-------------|
+| Production                             | 1200        | 1300        | 1350        | 1360        |
+| Revenue (assuming sales of 1200 units) | €6,600,000  | €6,600,000  | €6,600,000  | €6,600,000  |
+| Cost of goods sold:                    |             |             |             |             |
+| Variable mfg cost                      | (456,000)   | (456,000)   | (456,000)   | (456,000)   |
+| Fixed mfg overhead                     | __(2,700,000)__ | __(2,492,308)__ | __(2,400,000)__ | __(2,382,353)__ |
+
+_Where did the last row come from?_
+
+### Navisky notes: Overhead application
+
+__If we produce and sell 1200 units (the first column):__
+
+- MO allocation rate:
+- $2,700,000/1200 = 2,250$
+- MO allocation to COGS:
+- $1,200 \times 2,250 = 2,700,000$
+
+__If we produce 1200 and sell 1300 (the second column):__
+
+- MO allocation rate:
+- $2,700,000/1300=2,076.923$
+- MO allocation to COGS:
+- $1,200 \times 2,076.923=2,492,307.6$
+
+### Navisky notes: General approach
+
 - [Application of fixed overhead](https://arthurhowardmorris.github.io/assets/slides/acct3210/S20/problems.pdf)  <!-- html#/q1-solution-1) -->
 
 - You can think of the formula for fixed manufacturing overhead applied to cost of goods sold as:
@@ -110,13 +152,23 @@ $$FMO=OHR \times Q_{sold}$$
 
 - What roles in determining incentives could the size of the factory play?
   - Limits overproduction to 1500 units. If we assume that the manager does not have the ability to unilaterally expand the factory, if they do then we do not have enough information to determine the costs and benefits from the company and manager perspectives.
-
 - What roles in determining incentives is the bonus cap playing?
   - Limiting the bonus to &euro;27,000
-
 - What role is the bonus itself playing?
+  - In general, an incentive to increase net income.
+  - So, first: produce and sell 1200 units.
+  - Then, second: overproduce until the bonus cap, or factory limit, is reached.
+
+### Navisky: Think about the structure of the incentives
+
 - What role is the accounting method playing?
-- How do these things interact and what would happen if they were relaxed?
+  - Absorption costing allows managers to increase income by reducing cost of
+  goods sold.
+- How do these things interact and what would happen if they were relaxed (one
+at a time or all together)?
+  - Think about each of the answers, and choices that the manager makes and
+  think about how the optimal choice would change if the parameters were to
+  change.
 
 ### Activity Based Costing
 
@@ -133,7 +185,7 @@ There will be a section of multiple choice question based on these.
 - A few students asked for the who test to be MC, I'm not allowed to do that.
 I'm sorry. Also, writing MC questions is so absolutely apocalyptically
 stultifyingly soul crushingly boring that I can't possibly write any more of
-these than I have.
+these than I have. But there will be a bunch of them and they will be easy.
 
 ### Variance
 
