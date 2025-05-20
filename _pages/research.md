@@ -7,6 +7,11 @@ published: true
 
 ## Publications
 
+[__Renegotiation Costs and Debt Contract Design__](https://dx.doi.org/10.2139/ssrn.2981069)  
+(with [Scott Dyreng](https://sites.google.com/site/scottdyreng/),
+and [Elia Ferracuti](https://sites.google.com/view/eliaferracuti/))  
+Conditionally accepted at the _Accounting Review_  
+
 [__Pay for Prudence__](https://doi.org/10.1016/j.jacceco.2023.101619)
 (with [Salman Arif](https://sites.google.com/view/salmanarif),
 [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan),
@@ -26,11 +31,6 @@ and [Laura Wellman](https://directory.smeal.psu.edu/law613))
 _Review of Accounting Studies, 2022_  
 
 ## Working Papers
-
-[__Renegotiation Costs and Debt Contract Design__](https://dx.doi.org/10.2139/ssrn.2981069)  
-(with [Scott Dyreng](https://sites.google.com/site/scottdyreng/),
-and [Elia Ferracuti](https://sites.google.com/view/eliaferracuti/))  
-R&R at the _Accounting Review_  
 
 __Pollution and Environmental Covenants in Debt Contracts__  
 (with Ting Dai (Ph.D. Student, HKUST) and Daniele Macciocchi).  
