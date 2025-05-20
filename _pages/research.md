@@ -14,7 +14,7 @@ Conditionally accepted at the _Accounting Review_
 
 [__Pay for Prudence__](https://doi.org/10.1016/j.jacceco.2023.101619)
 (with [Salman Arif](https://sites.google.com/view/salmanarif),
-[John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan),
+[John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/?slug=john-donovan), and
 [Yadav Gopalan](https://sites.google.com/site/ykgopalan/))  
 _Journal of Accounting and Economics, 2023_
 
@@ -32,11 +32,11 @@ _Review of Accounting Studies, 2022_
 
 ## Working Papers
 
-__Pollution and Environmental Covenants in Debt Contracts__  
+[__Environmental Covenants and Lenders Economic Incentives__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5007113)
 (with Ting Dai (Ph.D. Student, HKUST) and Daniele Macciocchi).  
 Under Review.
 
-__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__  
+__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__
 (with Junqiang Ke, Zhiming Ma, and Derrald Stice)  
 Under Review.
 
