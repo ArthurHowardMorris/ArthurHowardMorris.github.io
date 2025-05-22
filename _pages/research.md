@@ -32,13 +32,14 @@ _Review of Accounting Studies, 2022_
 
 ## Working Papers
 
-[__Environmental Covenants and Lenders Economic Incentives__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5007113)
+[__Pollution, Specialization, and Uncertainty: The Use and Design of
+Environmental Covenants in Debt Contracts__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5007113)
 (with Ting Dai (Ph.D. Student, HKUST) and Daniele Macciocchi).  
 Under Review.
 
 __Regulatory Exposure, Debt Contract Terms, and Bank Specialization__
 (with Junqiang Ke, Zhiming Ma, and Derrald Stice)  
-Under Review.
+<!--Under Review.-->
 
 [__Individual Mortgage Lending, Public Corruption, Race and Gender: Evidence from Local Corruption Crack-Downs__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
 (with [Albert Mensah](https://sites.google.com/site/albertmensahkwame/home),
