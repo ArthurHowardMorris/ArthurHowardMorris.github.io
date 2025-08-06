@@ -1,6 +1,6 @@
 ---
 title: "Discussion of: Rolling back Dodd-Frank: Investors’ and banks’ responses to financial market deregulation"
-Author: "Arthur Morris, HKUST"
+author: "Arthur Morris, HKUST"
 ---
 
 ## Why this study deserves our attention
