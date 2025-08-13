@@ -37,7 +37,7 @@ Environmental Covenants in Debt Contracts__](https://papers.ssrn.com/sol3/papers
 (with Ting Dai (Ph.D. Student, HKUST) and Daniele Macciocchi).  
 Under Review.
 
-__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__
+[__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__](https://dx.doi.org/10.2139/ssrn.5388175)
 (with Junqiang Ke, Zhiming Ma, and Derrald Stice)  
 <!--Under Review.-->
 
