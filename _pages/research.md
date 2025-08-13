@@ -39,6 +39,9 @@ Under Review.
 
 [__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__](https://dx.doi.org/10.2139/ssrn.5388175)
 (with Junqiang Ke, Zhiming Ma, and Derrald Stice)  
+
+[__The LIBOR-SOFR Transition and the Use of Financial Covenants__](https://dx.doi.org/10.2139/ssrn.5389579)
+(with Fred Asante and John Donovan)
 <!--Under Review.-->
 
 [__Individual Mortgage Lending, Public Corruption, Race and Gender: Evidence from Local Corruption Crack-Downs__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
