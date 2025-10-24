@@ -84,6 +84,20 @@ file that gets saved). So, not only is Marimo a more capable data viewer than
 anything widely used in our field, Marimo also makes improved data
 workflows---those that integrate plotting early and often---natural and obvious. 
 
+## Resources: 
+
+The [marimo website](https://marimo.io) does a good job of getting out of the way and getting you
+started. Here are a couple of notes:
+
+1. `uv add marimo\[recommended\]` to install marimo with the recommended
+   dependencies (including polars, pandas, matplotlib, seaborn, etc.). Note the
+   `\` included to escape the `[` character in the shell. This matters on Mac
+and Arch Linux (using zsh and bash respectively), but I didn't see if mentioned
+in the resources when I was getting started. 
+
+2. The built in tutorials are great, but they want to show you that you can make
+   web apps. I recommend flipping through it, and then just loading a dataset,
+and pushing buttons. 
 
 
 [^emo]: Nothing else comes close to Stata for parsimony if you want to load a
