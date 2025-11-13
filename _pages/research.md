@@ -35,16 +35,17 @@ _Review of Accounting Studies_, 2022.
 [__Pollution, Specialization, and Uncertainty: The Use and Design of
 Environmental Covenants in Debt Contracts__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5007113)
 (with Ting Dai (Ph.D. Student, HKUST) and Daniele Macciocchi).  
-Under Review.
+Revise and Resubmit, _Journal of Accounting Research_.
 
 [__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__](https://dx.doi.org/10.2139/ssrn.5388175)
-(with Junqiang Ke, Zhiming Ma, and Derrald Stice)  
+(with Junqiang Ke, Zhiming Ma, and Derrald Stice). 
+Under Review.
 
 [__The LIBOR-SOFR Transition and the Use of Financial Covenants__](https://dx.doi.org/10.2139/ssrn.5389579)
 (with Fred Asante and John Donovan)
 <!--Under Review.-->
 
-[__Individual Mortgage Lending, Public Corruption, Race and Gender: Evidence from Local Corruption Crack-Downs__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
+[__Money in Local Politics, Mortgage Fraud and Subprime Lending__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
 (with [Albert Mensah](https://sites.google.com/site/albertmensahkwame/home),
 [Han Stice](https://www.bschool.cuhk.edu.hk/staff/stice-han/),
 and [Roger White](https://wpcarey.asu.edu/people/profile/1308641))  
