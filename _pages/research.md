@@ -42,7 +42,7 @@ Revise and Resubmit, _Journal of Accounting Research_.
 Under Review.
 
 [__The LIBOR-SOFR Transition and the Use of Financial Covenants__](https://dx.doi.org/10.2139/ssrn.5389579)
-(with Fred Asante and John Donovan)
+(with Fred Asante, John Donovan, and Mike Iselin)
 <!--Under Review.-->
 
 [__Money in Local Politics, Mortgage Fraud and Subprime Lending__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
