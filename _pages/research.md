@@ -50,16 +50,16 @@ Under Review.
 [Han Stice](https://www.bschool.cuhk.edu.hk/staff/stice-han/),
 and [Roger White](https://wpcarey.asu.edu/people/profile/1308641))  
 
-__Option Grants and Risky Projects: A Reputation-Based Perspective__  
+[__Option Grants and Risky Projects: A Reputation-Based Perspective__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5896102)
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_  
+Under Review
 
 
 ## Media and Etc.
 
 ### Quoted in:
 
-- [“Hong Kong Property Concerns Deepen Among Bankers and Regulators”](https://www.bloomberg.com/news/articles/2025-11-17/hong-kong-property-concerns-deepen-among-bankers-and-regulators?embedded-checkout=true)
-
+- [Bloomberg: “Hong Kong Property Concerns Deepen Among Bankers and Regulators”](https://www.bloomberg.com/news/articles/2025-11-17/hong-kong-property-concerns-deepen-among-bankers-and-regulators?embedded-checkout=true)
 ### Research Coverage:
 
 __Pay for Prudence__ 
