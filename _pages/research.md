@@ -38,8 +38,12 @@ Environmental Covenants in Debt Contracts__](https://papers.ssrn.com/sol3/papers
 Revise and Resubmit, _Journal of Accounting Research_.
 
 [__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__](https://dx.doi.org/10.2139/ssrn.5388175)
-(with Junqiang Ke, Zhiming Ma, and Derrald Stice). 
+(with Junqiang Ke, Zhiming Ma, and Derrald Stice).  
 Under Review.
+
+[__Option Grants and Risky Projects: A Reputation-Based Perspective__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5896102)
+_Best Management Accounting Paper AAA Annual Meeting, August, 2018_.  
+Under Review
 
 [__The LIBOR-SOFR Transition and the Use of Financial Covenants__](https://dx.doi.org/10.2139/ssrn.5389579)
 (with Fred Asante, John Donovan, and Mike Iselin)
@@ -50,9 +54,6 @@ Under Review.
 [Han Stice](https://www.bschool.cuhk.edu.hk/staff/stice-han/),
 and [Roger White](https://wpcarey.asu.edu/people/profile/1308641))  
 
-[__Option Grants and Risky Projects: A Reputation-Based Perspective__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5896102)
-_Best Management Accounting Paper AAA Annual Meeting, August, 2018_  
-Under Review
 
 
 ## Media and Etc.
