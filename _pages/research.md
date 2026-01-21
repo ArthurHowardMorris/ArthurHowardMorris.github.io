@@ -40,7 +40,7 @@ _Best Management Accounting Paper AAA Annual Meeting, August, 2018_.
 Under Review
 
 [__Loan Pricing Uncertainty and the Use of Financial Covenants__](https://dx.doi.org/10.2139/ssrn.5389579)
-(with Fred Asante, John Donovan, and Mike Iselin)
+(with Fred Asante, John Donovan, and Mike Iselin).  
 Under Review.
 
 [__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__](https://dx.doi.org/10.2139/ssrn.5388175)
