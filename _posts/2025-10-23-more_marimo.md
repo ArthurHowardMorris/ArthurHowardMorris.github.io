@@ -15,7 +15,7 @@ Back when people used to tell[^never] me why they preferred using SAS to using S
 folks would tell me that they liked being able to look at their data. Honestly,
 I see the point. SAS made it easy to look at all the datasets that you had
 loaded. Stata was also fine for this, but since you could only load one dataset
-at a time[^frame] the interaction was clunkier. This was especially true if you
+at a time the interaction was clunkier. This was especially true if you
 were working on a merge, and wanted to look at both datasets side by side.
  While `frame` now allows you to have multiple datasets loaded in
     memory, the ergonomics of the experience are still not as nice as what SAS
@@ -105,46 +105,7 @@ and pushing buttons.
 anything ever will. It's also enough of a _lingua franca_ for econometrics, that
 I don't think I'll ever completely remove it from my workflow. If you want to
 work through Wooldridge (2010), Stata is the way to go.
+
 [^never]: These conversations were never initiated by me _asking_ why someone
     preferred SAS to Stata.
 
-Switching from [Jupyter Notebook](https://jupyter.org/) to
-[Marimo](https://marimo.readthedocs.io/en/latest/).
-
-With `uv` install `marimo`:
-```
-uv add marimo\[recommended\] 
-```
-Then fire up a notebook for a python file:
-```
-marimo edit notebook.py
-```
-
-There are a ton of cool features, far beyond what Jupyter Notebooks offer, but
-I'm making the jump because marimo doesn't have the two dealbreakers that kept
-me from using Jupyter Notebooks in my workflow.
-
-Jupyter Notebooks are very nice for exploring datasets, but:
-
-1. My workflow is based on everything being a text file. Jupyter Notebooks are
-   not. This means that all my version control and task management tricks ([wtfd](https://github.com/ArthurHowardMorris/wtfd)) get fall apart.[^json]
-
-2. Jupyter Notebooks don't integrate well into workflows where you want
-   everything to run in order! (i.e. be reproducible)           g
-
-Marimo solves both of these. First, the files that are saved are just .py files (state
-is saved separately), so you can track them in version control and grep them as
-you would any other code file. This addresses both of my issues, since I can
-also script against the notebook.py file as I would against any other .py file.
-With the benefit of being able to run cells interactively, and inspect the data
-throughout the pipeline. Second, marimo tracks the state of the cells, and will
-warn you if you are using stale data. This prevents the problem where someone
-gives you a notebook that has cell output that you cannot replicate. Marimo
-defaults to guaranteeing that your results are reproducible (overstated, but
-more or less true).
-
-Oh, also Jupyter 6 broke all of my slides. 
-
-[^json]: What I mean by this is that I manipulate the file that holds the code
-    directly. Jupyter Notebooks generate JSON files which preserve the state of
-the notebook, including your code cells, but a ton of other things. 
