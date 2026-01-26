@@ -10,6 +10,8 @@ format:
 jupyter: python3
 ---
 
+<!-- NB: Launch this with `:QuartoPreview` -->
+
 # Roadmap for Lecture 1
 
   1. Review Resources and Policies 
