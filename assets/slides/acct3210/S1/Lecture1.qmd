@@ -17,9 +17,9 @@ jupyter: python3
 
 # Review Resources and Policies 
 
-  - [Syllabus](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210syl.html)
-  - [Canvas](https://canvas.ust.hk/courses/60833)
-  - [Lecture Slides and Examples](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210.html)
+  - [Syllabus](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210syl.html)
+  - [Canvas](https://canvas.ust.hk/courses/67704)
+  - [Lecture Slides and Examples](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210.html)
 
 # Why are we here? 
 
