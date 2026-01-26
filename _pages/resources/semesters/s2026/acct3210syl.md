@@ -8,7 +8,9 @@ published: true
 ### HKUST Department of Accounting
 
 <!--TODO: remove this from the final version-->
-_Preliminary until the semester begins, and the registrar confirms exam dates and locations. Please follow [__this link__](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210syl.html) for the current version._
+_Preliminary until the semester begins, and the registrar confirms exam dates and locations._
+
+<!-- Please follow [__this link__](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210syl.html) for the current version._ -->
 
 ### Spring 2025 Syllabus
 
@@ -16,17 +18,16 @@ _Preliminary until the semester begins, and the registrar confirms exam dates an
 
 __Dr. Arthur Morris__  
 Email: <acarthur@ust.hk>  
-Course Website: [__LINK
-HERE__](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210.html)
+Course Website: [__LINK HERE__](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210.html)  
 Office Hours:  
 
-- Wednesday 10:00-11:00 [via Zoom](https://hkust.zoom.us/j/93642501314?pwd=jO8UwQS6iwLGwOWQvkLBybkIYwikBq.1)
-- Wednesday 14:00-15:00 [via Zoom](https://hkust.zoom.us/j/93642501314?pwd=jO8UwQS6iwLGwOWQvkLBybkIYwikBq.1)
+- Wednesday 10:00-11:00 [via Zoom](https://hkust.zoom.us/j/93642501314?pwd=jO8UwQS6iwLGwOWQvkLBybkIYwikBq.1)  
+- Wednesday 14:00-15:00 [via Zoom](https://hkust.zoom.us/j/93642501314?pwd=jO8UwQS6iwLGwOWQvkLBybkIYwikBq.1)  
 
 ## Teaching Assistant  
 
 __Ms. Mandy Cheung__  
-Email: <acmandy@ust.hk>
+Email: <acmandy@ust.hk>  
 
 ## Class sessions
 
@@ -280,6 +281,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 |                 | in class.                                                 |
 | __24 Mar.__     | __Midterm__  _No class_                                      |
 | | Time and Location TBA. |
+
 <!-- |                 | 2000-2100, in LTC and LTD | -->
 <!--|                 | See Canvas for room assignments.                             |-->
 
