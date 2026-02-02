@@ -280,7 +280,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 | __12. 19 Mar.__ | __Mid-term Review__                                       |
 |                 | in class.                                                 |
 | __24 Mar.__     | __Midterm__  _No class_                                      |
-| | Time and Location TBA. |
+| | 2000-2100 in LTA of the main academic building. |
 
 <!-- |                 | 2000-2100, in LTC and LTD | -->
 <!--|                 | See Canvas for room assignments.                             |-->
