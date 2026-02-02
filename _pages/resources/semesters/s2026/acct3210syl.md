@@ -12,7 +12,7 @@ _Preliminary until the semester begins, and the registrar confirms exam dates an
 
 <!-- Please follow [__this link__](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210syl.html) for the current version._ -->
 
-### Spring 2025 Syllabus
+### Spring 2026 Syllabus
 
 ## Instructor
 
