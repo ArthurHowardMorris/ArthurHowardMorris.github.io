@@ -321,6 +321,7 @@ in Section 2, and as an application of the tools presented in Section 1.
 | _Survey:_       | _Submit review topics for in-class discussion_        |
 |             | __Final Exam__                                        |
 |             | Time and Location TBA.                                        |
+
 <!-- | __21 May__           | __Final Exam__                                        | -->
 <!--|    | __8:30-11:30__ in __LG4 Multi-purpose Room, Lift 6__ |-->
 
