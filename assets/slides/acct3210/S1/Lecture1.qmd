@@ -7,23 +7,23 @@ format:
     css: custom-styles.css
     scrollable: true
     code-fold: true
-jupyter: python3
+# jupyter: acct3210
 ---
 
 <!-- NB: Launch this with `:QuartoPreview` -->
 
-# Roadmap for Lecture 1
+## Roadmap for Lecture 1
 
   1. Review Resources and Policies 
   2. Why are we here? What is 'Management Accounting'?
 
-# Review Resources and Policies 
+## Review Resources and Policies 
 
   - [Syllabus](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210syl.html)
   - [Canvas](https://canvas.ust.hk/courses/67704)
   - [Lecture Slides and Examples](https://arthurhowardmorris.github.io/resources/semesters/s2026/acct3210.html)
 
-# Why are we here? 
+## Why are we here? 
 
 ## To Study _ADVANCED_ Management Accounting...
 
@@ -41,7 +41,7 @@ accounting in helpful ways:
 2. __Tax Accounting:__ External accounting for compliance with tax laws.
 
 
-## In the external=financial/tax and internal=management distinction enough?
+## Is the external=financial/tax and internal=management distinction enough?
 
 - On one hand, this is a helpful framing because it emphasizes that the
   accounting activity in the external domains is determined by accounting rules. 
@@ -60,7 +60,7 @@ root of two current problems in the accounting field:
   2. Focus on compliance with formal regulatory requirements has created a
      profession specialized in tasks which are at high risk of automation.
 
-# What is Management Accounting? Four Answers
+## What is Management Accounting? Four Answers
 
 1. Accounting for Decision Making (Business Intelligence/Data Science). 
 2. Accounting for Control (Internal Audit/Performance-Evaluation).
@@ -230,7 +230,7 @@ systems.
   it's not enough of a reason for us to be here. 
 - We need a unifying theory of management accounting.
 
-# Resource Bargains in a Viable System
+## Resource Bargains in a Viable System
 
 ## The Viable System Model
 
@@ -292,7 +292,7 @@ resource bargain.
 2. This allows system 1 & 2 to fine-tune without interfering with higher levels.
 3. Translate strategic goals into operational targets to inform the resource bargain.
 
-# Example: A Manufacturing Firm
+## Example: A Manufacturing Firm
 
 ## System 1: Operations
 
@@ -329,7 +329,7 @@ CEO is often here, though in many cases (especially in 'founder mode') the CEO
 may be involved in system 3. In startups one person may do many of these jobs,
 or groups may do them at different times.
 
-# How will we make this 'advanced'?
+## How will we make this 'advanced'?
 
 1. The 'Tools' section of the course is intended to give you a starting point
    for winning back some of the ground lost to other fields.
