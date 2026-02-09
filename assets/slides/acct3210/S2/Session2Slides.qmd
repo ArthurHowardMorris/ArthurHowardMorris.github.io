@@ -1,7 +1,7 @@
 ---
 title: "Lecture 2: The Nature of Costs"
 author: "Dr. Morris"
-jupyter: acct3210
+jupyter: "acct3210"
 format: 
   revealjs:
     css: custom-styles.css
@@ -11,7 +11,9 @@ format:
 
 # What are we doing here?
 
-We are interested in how costs respond to business decisions? Why?
+We are interested in how costs respond to business decisions? 
+
+## Why?
 
 - Costs are resources. Business decisions that have costs require resources so we need to make sure we have the resources when required.
 
@@ -20,6 +22,7 @@ We are interested in how costs respond to business decisions? Why?
 - We have to know where the resources are and where they need to them to be in order to understand the resource bargins that need to be negotiated. 
 
 ## Why do we care about costs?
+
 Profit = Revenue - Total Cost 
 
 Total Cost = Fixed Cost + $\sum$ (Cost Per Unit $\times$ \# Units) 
@@ -42,7 +45,7 @@ _$\sum$: Summed across all products._
 
 ![Zimmerman and Friedman's vision of the firm](./numbergoup.png)
 
-# Cost Functions
+## Cost Functions
 
 Models of the firm that we use to predict how cost will respond to various actions, which we express as variables in the model.
 

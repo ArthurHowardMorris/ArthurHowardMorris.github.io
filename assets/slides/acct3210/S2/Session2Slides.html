@@ -6,8 +6,8 @@
 <script src="Session2Slides_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="Session2Slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="Session2Slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="Session2Slides_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.27">
+<link href="Session2Slides_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Dr.&nbsp;Morris">
   <title>Lecture 2: The Nature of Costs</title>
@@ -212,7 +212,10 @@ Dr.&nbsp;Morris
 <section>
 <section id="what-are-we-doing-here" class="title-slide slide level1 center">
 <h1>What are we doing here?</h1>
-<p>We are interested in how costs respond to business decisions? Why?</p>
+<p>We are interested in how costs respond to business decisions?</p>
+</section>
+<section id="why" class="slide level2">
+<h2>Why?</h2>
 <ul>
 <li><p>Costs are resources. Business decisions that have costs require resources so we need to make sure we have the resources when required.</p></li>
 <li><p>Cost, Volume, Profit analysis. Which we will talk about in the following lectures, is based on the relationship between a key decision—the volume decision (how much to produce)—and costs.</p></li>
@@ -241,10 +244,9 @@ Dr.&nbsp;Morris
 <section id="why-do-we-care-about-profit" class="slide level2">
 <h2>Why do we care about profit?</h2>
 
-<img data-src="./numbergoup.png" class="r-stretch quarto-figure-center"><p class="caption">Zimmerman and Friedman’s vision of the firm</p></section></section>
-<section>
-<section id="cost-functions" class="title-slide slide level1 center">
-<h1>Cost Functions</h1>
+<img data-src="./numbergoup.png" class="r-stretch quarto-figure-center"><p class="caption">Zimmerman and Friedman’s vision of the firm</p></section>
+<section id="cost-functions" class="slide level2">
+<h2>Cost Functions</h2>
 <p>Models of the firm that we use to predict how cost will respond to various actions, which we express as variables in the model.</p>
 </section>
 <section id="a-simple-example-where-everything-is-linear" class="slide level2">
@@ -424,7 +426,7 @@ Dr.&nbsp;Morris
 <section id="set-up-load-libraries-and-data" class="slide level2">
 <h2>Set up: load libraries and data</h2>
 <p>First we need to load some data science libraries:</p>
-<div id="a5f42f86" class="cell" data-execution_count="1">
+<div id="63e19280" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href=""></a><span class="co"># import pandas so we can put everything into a nice friendly data frame</span></span>
 <span id="cb1-2"><a href=""></a><span class="im">import</span> pandas <span class="im">as</span> pd </span>
 <span id="cb1-3"><a href=""></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -434,20 +436,20 @@ Dr.&nbsp;Morris
 <span id="cb1-7"><a href=""></a>    <span class="st">"q2"</span> : [<span class="dv">50</span>, <span class="dv">50</span>, <span class="dv">50</span>, <span class="dv">10</span>, <span class="dv">50</span>, <span class="dv">70</span>],</span>
 <span id="cb1-8"><a href=""></a>}</span>
 <span id="cb1-9"><a href=""></a>outputs</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="523">
+<div class="cell-output cell-output-display" data-execution_count="88">
 <pre><code>{'q1': [100, 60, 40, 30, 30, 30], 'q2': [50, 50, 50, 10, 50, 70]}</code></pre>
 </div>
 </div>
 </section>
 <section id="firm-1-table" class="slide level2">
 <h2>Firm 1 Table</h2>
-<div id="7085b9db" class="cell" data-execution_count="2">
+<div id="e31bd601" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href=""></a><span class="co"># use pandas to make that into a dataframe</span></span>
 <span id="cb3-2"><a href=""></a>cost_frame_1 <span class="op">=</span> pd.DataFrame(outputs) </span>
 <span id="cb3-3"><a href=""></a>cost_frame_2 <span class="op">=</span> pd.DataFrame(outputs) </span>
 <span id="cb3-4"><a href=""></a>cost_frame_3 <span class="op">=</span> pd.DataFrame(outputs) </span>
 <span id="cb3-5"><a href=""></a>cost_frame_1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="524">
+<div class="cell-output cell-output-display" data-execution_count="89">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -511,7 +513,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="next-write-down-our-cost-functions-as-well-functions" class="slide level2">
 <h2>Next write down our cost functions as… well… functions</h2>
-<div id="66f5cea1" class="cell" data-execution_count="3">
+<div id="62754fac" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href=""></a><span class="co"># write down our cost functions</span></span>
 <span id="cb4-2"><a href=""></a><span class="co">## total cost</span></span>
 <span id="cb4-3"><a href=""></a><span class="kw">def</span> cost_1(q1,q2):</span>
@@ -523,7 +525,7 @@ Dr.&nbsp;Morris
 <span id="cb4-9"><a href=""></a>  <span class="cf">return</span> <span class="dv">7</span> <span class="op">*</span> q1 <span class="op">+</span> <span class="dv">9</span> <span class="op">*</span> q2 <span class="op">+</span> q1 <span class="op">*</span> q2   </span>
 <span id="cb4-10"><a href=""></a></span>
 <span id="cb4-11"><a href=""></a>cost_1(<span class="dv">1</span>,<span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="525">
+<div class="cell-output cell-output-display" data-execution_count="90">
 <pre><code>20</code></pre>
 </div>
 </div>
@@ -534,21 +536,21 @@ Dr.&nbsp;Morris
 <ul>
 <li>We can just pass q1,q2 as arguments to the cost functions</li>
 </ul>
-<div id="1430dc53" class="cell" data-execution_count="4">
+<div id="4f603236" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href=""></a>cost_1(<span class="dv">100</span>,<span class="dv">50</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="526">
+<div class="cell-output cell-output-display" data-execution_count="91">
 <pre><code>1250</code></pre>
 </div>
 </div>
-<div id="45bd0c4b" class="cell" data-execution_count="5">
+<div id="7ad89373" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href=""></a>cost_2(<span class="dv">100</span>,<span class="dv">50</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="527">
+<div class="cell-output cell-output-display" data-execution_count="92">
 <pre><code>13500</code></pre>
 </div>
 </div>
-<div id="d76e58ae" class="cell" data-execution_count="6">
+<div id="e62fae2d" class="cell" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href=""></a>cost_3(<span class="dv">100</span>,<span class="dv">50</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="528">
+<div class="cell-output cell-output-display" data-execution_count="93">
 <pre><code>6150</code></pre>
 </div>
 </div>
@@ -556,7 +558,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="slow-simple-way" class="slide level2">
 <h2>slow simple way:</h2>
-<div id="432845d6" class="cell" data-execution_count="7">
+<div id="fefb053d" class="cell" data-execution_count="7">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href=""></a>TotalCost1 <span class="op">=</span> []</span>
 <span id="cb12-2"><a href=""></a><span class="cf">for</span> q1,q2 <span class="kw">in</span> <span class="bu">zip</span>(outputs[<span class="st">'q1'</span>],outputs[<span class="st">'q2'</span>]):</span>
 <span id="cb12-3"><a href=""></a>    TotalCost1.append(cost_1(q1,q2))</span>
@@ -565,20 +567,20 @@ Dr.&nbsp;Morris
 <div class="cell-output cell-output-stdout">
 <pre><code>[1250, 850, 650, 350, 550, 650]</code></pre>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="529">
+<div class="cell-output cell-output-display" data-execution_count="94">
 <pre><code>{'q1': [100, 60, 40, 30, 30, 30], 'q2': [50, 50, 50, 10, 50, 70]}</code></pre>
 </div>
 </div>
-<div id="115f4321" class="cell" data-execution_count="8">
+<div id="5ea420c7" class="cell" data-execution_count="8">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href=""></a>cost_1(<span class="dv">100</span>,<span class="dv">50</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="530">
+<div class="cell-output cell-output-display" data-execution_count="95">
 <pre><code>1250</code></pre>
 </div>
 </div>
 </section>
 <section id="less-simple-but-faster-way" class="slide level2">
 <h2>less simple but faster way</h2>
-<div id="8b17f7e2" class="cell" data-execution_count="9">
+<div id="639139a5" class="cell" data-execution_count="9">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href=""></a>TotalCost1 <span class="op">=</span> [cost_1(q1,q2) <span class="cf">for</span> q1,q2 <span class="kw">in</span> <span class="bu">zip</span>(outputs[<span class="st">'q1'</span>],outputs[<span class="st">'q2'</span>])]</span>
 <span id="cb17-2"><a href=""></a><span class="bu">print</span>(TotalCost1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -588,10 +590,10 @@ Dr.&nbsp;Morris
 </section>
 <section id="super-fast-way-that-scales-to-large-datasets" class="slide level2">
 <h2>super fast way that scales to large datasets</h2>
-<div id="d37e5473" class="cell" data-execution_count="10">
+<div id="c977403a" class="cell" data-execution_count="10">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href=""></a>cost_frame_1[<span class="st">"Total Cost"</span>] <span class="op">=</span> np.vectorize(cost_1)(cost_frame_1[<span class="st">'q1'</span>],cost_frame_1[<span class="st">'q2'</span>])</span>
 <span id="cb19-2"><a href=""></a>cost_frame_1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="532">
+<div class="cell-output cell-output-display" data-execution_count="97">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -659,12 +661,12 @@ Dr.&nbsp;Morris
 </div>
 </div>
 </div>
-<div id="aba15645" class="cell" data-execution_count="11">
+<div id="57f8ce0e" class="cell" data-execution_count="11">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href=""></a><span class="co"># we can do this for the other to firms:</span></span>
 <span id="cb20-2"><a href=""></a>cost_frame_2[<span class="st">"Total Cost"</span>] <span class="op">=</span> np.vectorize(cost_2)(cost_frame_2[<span class="st">'q1'</span>],cost_frame_2[<span class="st">'q2'</span>])</span>
 <span id="cb20-3"><a href=""></a>cost_frame_3[<span class="st">"Total Cost"</span>] <span class="op">=</span> np.vectorize(cost_3)(cost_frame_3[<span class="st">'q1'</span>],cost_frame_3[<span class="st">'q2'</span>])</span>
 <span id="cb20-4"><a href=""></a>cost_frame_2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="533">
+<div class="cell-output cell-output-display" data-execution_count="98">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -761,7 +763,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="one-way-to-do-this-in-python-is-to-write-a-function" class="slide level2">
 <h2>One way to do this in python is to write a function</h2>
-<div id="717ff0e2" class="cell" data-execution_count="12">
+<div id="ed23fcd2" class="cell" data-execution_count="12">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href=""></a><span class="co"># avg cost by product</span></span>
 <span id="cb21-2"><a href=""></a><span class="kw">def</span> avg_cost(cost_function,q1<span class="op">=</span><span class="dv">0</span>,q2<span class="op">=</span><span class="dv">0</span>):</span>
 <span id="cb21-3"><a href=""></a>    <span class="co">"""</span></span>
@@ -777,12 +779,12 @@ Dr.&nbsp;Morris
 </section>
 <section id="firm-1" class="slide level2">
 <h2>Firm 1</h2>
-<div id="a450f3d0" class="cell" data-execution_count="13">
+<div id="545780d3" class="cell" data-execution_count="13">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href=""></a><span class="co"># average cost the fast way</span></span>
 <span id="cb22-2"><a href=""></a>cost_frame_1[<span class="st">"AC q1"</span>] <span class="op">=</span> np.vectorize(avg_cost)(cost_1,q1<span class="op">=</span>cost_frame_1[<span class="st">'q1'</span>])</span>
 <span id="cb22-3"><a href=""></a>cost_frame_1[<span class="st">"AC q2"</span>] <span class="op">=</span> np.vectorize(avg_cost)(cost_1,q2<span class="op">=</span>cost_frame_1[<span class="st">'q2'</span>])</span>
 <span id="cb22-4"><a href=""></a>cost_frame_1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="535">
+<div class="cell-output cell-output-display" data-execution_count="100">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -867,12 +869,12 @@ Dr.&nbsp;Morris
 </section>
 <section id="firm-2" class="slide level2">
 <h2>Firm 2</h2>
-<div id="08a27cb8" class="cell" data-execution_count="14">
+<div id="b44988f1" class="cell" data-execution_count="14">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href=""></a><span class="co"># average cost the fast way</span></span>
 <span id="cb23-2"><a href=""></a>cost_frame_2[<span class="st">"AC q1"</span>] <span class="op">=</span> np.vectorize(avg_cost)(cost_2,q1<span class="op">=</span>cost_frame_2[<span class="st">'q1'</span>])</span>
 <span id="cb23-3"><a href=""></a>cost_frame_2[<span class="st">"AC q2"</span>] <span class="op">=</span> np.vectorize(avg_cost)(cost_2,q2<span class="op">=</span>cost_frame_2[<span class="st">'q2'</span>])</span>
 <span id="cb23-4"><a href=""></a>cost_frame_2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="536">
+<div class="cell-output cell-output-display" data-execution_count="101">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -968,17 +970,17 @@ Dr.&nbsp;Morris
 <section id="hate-calculus" class="slide level2">
 <h2>Hate Calculus?</h2>
 <p><em>let’s make python do the work</em></p>
-<div id="dfc03b95" class="cell" data-execution_count="15">
+<div id="f5df10fb" class="cell" data-execution_count="15">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href=""></a><span class="co"># we'll use symbolic python</span></span>
 <span id="cb24-2"><a href=""></a><span class="im">import</span> sympy <span class="im">as</span> sp</span>
 <span id="cb24-3"><a href=""></a><span class="co"># we need to tell it which symbols to use</span></span>
 <span id="cb24-4"><a href=""></a>q1,q2 <span class="op">=</span> sp.symbols(<span class="st">'q1 q2'</span>)</span>
 <span id="cb24-5"><a href=""></a>q1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="537">
+<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="102">
 <p><span class="math inline">\(\displaystyle q_{1}\)</span></p>
 </div>
 </div>
-<div id="4c2f9205" class="cell" data-execution_count="16">
+<div id="e007fe77" class="cell" data-execution_count="16">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href=""></a><span class="co"># sympy can take the derivative for us</span></span>
 <span id="cb25-2"><a href=""></a>c1 <span class="op">=</span> <span class="st">"10 * q1 + 5 * q2"</span></span>
 <span id="cb25-3"><a href=""></a>s_mcost_1_q1 <span class="op">=</span> sp.diff(c1 , q1)</span>
@@ -988,24 +990,24 @@ Dr.&nbsp;Morris
 <pre><code>10 5</code></pre>
 </div>
 </div>
-<div id="447716c6" class="cell" data-execution_count="17">
+<div id="2e903311" class="cell" data-execution_count="17">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href=""></a><span class="co"># and we can convert that to a function</span></span>
 <span id="cb27-2"><a href=""></a>mcost_1_q1 <span class="op">=</span> sp.lambdify(q1,s_mcost_1_q1)</span>
 <span id="cb27-3"><a href=""></a>mcost_1_q2 <span class="op">=</span> sp.lambdify(q2,s_mcost_1_q2)</span>
 <span id="cb27-4"><a href=""></a>mcost_1_q1(<span class="dv">100</span>),mcost_1_q2(<span class="dv">100</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="539">
+<div class="cell-output cell-output-display" data-execution_count="104">
 <pre><code>(10, 5)</code></pre>
 </div>
 </div>
 </section>
 <section id="firm-1-1" class="slide level2">
 <h2>Firm 1</h2>
-<div id="d6d13fd0" class="cell" data-execution_count="18">
+<div id="d9a6ed32" class="cell" data-execution_count="18">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href=""></a><span class="co"># marginal cost </span></span>
 <span id="cb29-2"><a href=""></a>cost_frame_1[<span class="st">"MC q1"</span>] <span class="op">=</span> np.vectorize(mcost_1_q1)(cost_frame_1[<span class="st">'q1'</span>])</span>
 <span id="cb29-3"><a href=""></a>cost_frame_1[<span class="st">"MC q2"</span>] <span class="op">=</span> np.vectorize(mcost_1_q2)(cost_frame_1[<span class="st">'q2'</span>])</span>
 <span id="cb29-4"><a href=""></a>cost_frame_1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="540">
+<div class="cell-output cell-output-display" data-execution_count="105">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1104,7 +1106,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="firm-2-1" class="slide level2">
 <h2>Firm 2</h2>
-<div id="fd66433e" class="cell" data-execution_count="19">
+<div id="1964d10a" class="cell" data-execution_count="19">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href=""></a>q1,q2 <span class="op">=</span> sp.symbols(<span class="st">'q1 q2'</span>)</span>
 <span id="cb30-2"><a href=""></a><span class="co"># sympy can take the derivative for us</span></span>
 <span id="cb30-3"><a href=""></a>c2 <span class="op">=</span> <span class="st">"6 * q1 + q1**2 + 8 * q2 + q2**2"</span></span>
@@ -1118,19 +1120,19 @@ Dr.&nbsp;Morris
 <div class="cell-output cell-output-stdout">
 <pre><code>2*q1 + 6 2*q2 + 8</code></pre>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="541">
+<div class="cell-output cell-output-display" data-execution_count="106">
 <pre><code>(206, 108)</code></pre>
 </div>
 </div>
 </section>
 <section id="firm-2-table" class="slide level2">
 <h2>Firm 2 Table</h2>
-<div id="eba42108" class="cell" data-execution_count="20">
+<div id="e04de3d4" class="cell" data-execution_count="20">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href=""></a><span class="co"># marginal cost </span></span>
 <span id="cb33-2"><a href=""></a>cost_frame_2[<span class="st">"MC q1"</span>] <span class="op">=</span> np.vectorize(mcost_2_q1)(cost_frame_2[<span class="st">'q1'</span>])</span>
 <span id="cb33-3"><a href=""></a>cost_frame_2[<span class="st">"MC q2"</span>] <span class="op">=</span> np.vectorize(mcost_2_q2)(cost_frame_2[<span class="st">'q2'</span>])</span>
 <span id="cb33-4"><a href=""></a>cost_frame_2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="542">
+<div class="cell-output cell-output-display" data-execution_count="107">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1229,7 +1231,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="firm-3" class="slide level2">
 <h2>Firm 3</h2>
-<div id="ddb79342" class="cell" data-execution_count="21">
+<div id="1bfe002f" class="cell" data-execution_count="21">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href=""></a>q1,q2 <span class="op">=</span> sp.symbols(<span class="st">'q1 q2'</span>)</span>
 <span id="cb34-2"><a href=""></a><span class="co"># sympy can take the derivative for us</span></span>
 <span id="cb34-3"><a href=""></a>c3 <span class="op">=</span> <span class="st">"7*q1 + 9*q2 + q1*q2"</span></span>
@@ -1244,19 +1246,19 @@ Dr.&nbsp;Morris
 <div class="cell-output cell-output-stdout">
 <pre><code>q2 + 7 q1 + 9</code></pre>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="543">
+<div class="cell-output cell-output-display" data-execution_count="108">
 <pre><code>(57, 109)</code></pre>
 </div>
 </div>
 </section>
 <section id="firm-3-table" class="slide level2">
 <h2>Firm 3 Table</h2>
-<div id="8eaf7e91" class="cell" data-execution_count="22">
+<div id="d56538ae" class="cell" data-execution_count="22">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href=""></a><span class="co"># marginal cost </span></span>
 <span id="cb37-2"><a href=""></a>cost_frame_3[<span class="st">"MC q1"</span>] <span class="op">=</span> np.vectorize(mcost_3_q1)(cost_frame_3[<span class="st">'q2'</span>])</span>
 <span id="cb37-3"><a href=""></a>cost_frame_3[<span class="st">"MC q2"</span>] <span class="op">=</span> np.vectorize(mcost_3_q2)(cost_frame_3[<span class="st">'q1'</span>])</span>
 <span id="cb37-4"><a href=""></a>cost_frame_3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="544">
+<div class="cell-output cell-output-display" data-execution_count="109">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1346,7 +1348,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="in-python-well-just-write-a-little-function-for-this" class="slide level2">
 <h2>In python we’ll just write a little function for this</h2>
-<div id="070deb16" class="cell" data-execution_count="23">
+<div id="d8b4c2d1" class="cell" data-execution_count="23">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href=""></a><span class="co"># incremental cost if the cost of making the next unit by product</span></span>
 <span id="cb38-2"><a href=""></a><span class="kw">def</span> inc_cost(cost_function,q1<span class="op">=</span>q1,q2<span class="op">=</span>q2,increment<span class="op">=</span><span class="bu">str</span>):</span>
 <span id="cb38-3"><a href=""></a>    <span class="co">'''</span></span>
@@ -1369,7 +1371,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="firm-1-2" class="slide level2">
 <h2>Firm 1</h2>
-<div id="f81bcc0d" class="cell" data-execution_count="24">
+<div id="c26f21d9" class="cell" data-execution_count="24">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href=""></a><span class="co"># Incremental cost</span></span>
 <span id="cb39-2"><a href=""></a>cost_frame_1[<span class="st">"IC q1"</span>] <span class="op">=</span> np.vectorize(inc_cost)(</span>
 <span id="cb39-3"><a href=""></a>                                    cost_1,</span>
@@ -1384,7 +1386,7 @@ Dr.&nbsp;Morris
 <span id="cb39-12"><a href=""></a>                                    increment<span class="op">=</span><span class="st">"q2"</span></span>
 <span id="cb39-13"><a href=""></a>                                    )</span>
 <span id="cb39-14"><a href=""></a>cost_frame_1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="546">
+<div class="cell-output cell-output-display" data-execution_count="111">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1497,7 +1499,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="firm-2-2" class="slide level2">
 <h2>Firm 2</h2>
-<div id="8ded9ecb" class="cell" data-execution_count="25">
+<div id="a00b991a" class="cell" data-execution_count="25">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href=""></a><span class="co"># Incremental cost</span></span>
 <span id="cb40-2"><a href=""></a>cost_frame_2[<span class="st">"IC q1"</span>] <span class="op">=</span> np.vectorize(inc_cost)(</span>
 <span id="cb40-3"><a href=""></a>                                    cost_2,</span>
@@ -1512,7 +1514,7 @@ Dr.&nbsp;Morris
 <span id="cb40-12"><a href=""></a>                                    increment<span class="op">=</span><span class="st">"q2"</span></span>
 <span id="cb40-13"><a href=""></a>                                    )</span>
 <span id="cb40-14"><a href=""></a>cost_frame_2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="547">
+<div class="cell-output cell-output-display" data-execution_count="112">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1625,7 +1627,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="firm-3-1" class="slide level2">
 <h2>Firm 3</h2>
-<div id="036d71e9" class="cell" data-execution_count="26">
+<div id="60c52ca3" class="cell" data-execution_count="26">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href=""></a><span class="co"># Incremental cost</span></span>
 <span id="cb41-2"><a href=""></a>cost_frame_3[<span class="st">"IC q1"</span>] <span class="op">=</span> np.vectorize(inc_cost)(</span>
 <span id="cb41-3"><a href=""></a>                                    cost_3,</span>
@@ -1640,7 +1642,7 @@ Dr.&nbsp;Morris
 <span id="cb41-12"><a href=""></a>                                    increment<span class="op">=</span><span class="st">"q2"</span></span>
 <span id="cb41-13"><a href=""></a>                                    )</span>
 <span id="cb41-14"><a href=""></a>cost_frame_3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="548">
+<div class="cell-output cell-output-display" data-execution_count="113">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1744,7 +1746,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="first-load-libraries-and-make-the-data" class="slide level2">
 <h2>First load libraries and make the data</h2>
-<div id="d9c985fd" class="cell" data-execution_count="27">
+<div id="60144715" class="cell" data-execution_count="27">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb42"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href=""></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb42-2"><a href=""></a><span class="im">from</span> mpl_toolkits.mplot3d <span class="im">import</span> Axes3D</span>
 <span id="cb42-3"><a href=""></a><span class="im">import</span> numpy <span class="im">as</span> np <span class="co"># we already have np </span></span>
@@ -1761,7 +1763,7 @@ Dr.&nbsp;Morris
 </section>
 <section id="lets-look-at-what-is-in-these-variables" class="slide level2">
 <h2>Let’s look at what is in these variables:</h2>
-<div id="164cdba0" class="cell" data-execution_count="28">
+<div id="78f744ca" class="cell" data-execution_count="28">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href=""></a><span class="bu">print</span>(<span class="st">"q1"</span>)</span>
 <span id="cb43-2"><a href=""></a><span class="bu">print</span>(q1)</span>
 <span id="cb43-3"><a href=""></a><span class="bu">print</span>(<span class="st">"q2"</span>)</span>
@@ -2206,7 +2208,7 @@ Q2
 </section>
 <section id="make-the-plot" class="slide level2">
 <h2>Make the plot:</h2>
-<div id="97436631" class="cell" data-execution_count="29">
+<div id="37a221e6" class="cell" data-execution_count="29">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href=""></a><span class="co"># Create the figure and add a 3D axis</span></span>
 <span id="cb45-2"><a href=""></a>fig <span class="op">=</span> plt.figure()</span>
 <span id="cb45-3"><a href=""></a>ax <span class="op">=</span> fig.add_subplot(<span class="dv">111</span>, projection<span class="op">=</span><span class="st">'3d'</span>)</span>
