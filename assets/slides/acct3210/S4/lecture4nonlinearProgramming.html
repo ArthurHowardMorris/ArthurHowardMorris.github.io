@@ -327,7 +327,7 @@
 <ul>
 <li>Set up by loading the libraries and creating the framework for our plot.</li>
 </ul>
-<div id="40e4e40f" class="cell" data-execution_count="1">
+<div id="485e714a" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href=""></a><span class="co"># quick set up for our plot</span></span>
 <span id="cb1-2"><a href=""></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-3"><a href=""></a><span class="im">from</span> mpl_toolkits.mplot3d <span class="im">import</span> Axes3D</span>
@@ -345,7 +345,7 @@
 </section>
 <section id="exploring-production-functions-2" class="slide level2">
 <h2>Exploring Production Functions:</h2>
-<div id="113611df" class="cell" data-execution_count="2">
+<div id="6c795869" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href=""></a><span class="co"># Create the figure and add a 3D axis</span></span>
 <span id="cb2-2"><a href=""></a>fig <span class="op">=</span> plt.figure()</span>
 <span id="cb2-3"><a href=""></a>ax <span class="op">=</span> fig.add_subplot(<span class="dv">111</span>, projection<span class="op">=</span><span class="st">'3d'</span>)</span>
@@ -369,7 +369,7 @@
 <h2>Capital Contraints:</h2>
 <h3 id="what-if-we-hold-k-fixed-what-will-the-graph-look-like">What if we hold K fixed? What will the graph look like?</h3>
 <p>In <code>Q1 = np.sqrt(L1*K)</code> we will plug in values for <code>K</code> and let <code>L1</code> vary.</p>
-<div id="327a211a" class="cell" data-execution_count="3">
+<div id="878bb473" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href=""></a>l1 <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">300</span>, <span class="dv">300</span>)</span>
 <span id="cb3-2"><a href=""></a>Q1_10 <span class="op">=</span> np.sqrt(L1<span class="op">*</span><span class="dv">10</span>)    <span class="co"># k = 10</span></span>
 <span id="cb3-3"><a href=""></a>Q1_100 <span class="op">=</span> np.sqrt(L1<span class="op">*</span><span class="dv">100</span>)  <span class="co"># k = 100</span></span>
@@ -379,7 +379,7 @@
 <section id="capital-contraints-1" class="slide level2">
 <h2>Capital Contraints:</h2>
 <h3 id="what-if-we-hold-k-fixed-what-will-the-graph-look-like-1">What if we hold K fixed? What will the graph look like?</h3>
-<div id="f2e84fdb" class="cell" data-execution_count="4">
+<div id="19efb940" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href=""></a>fig <span class="op">=</span> plt.figure()</span>
 <span id="cb4-2"><a href=""></a>ax <span class="op">=</span> fig.add_subplot(<span class="dv">111</span>, projection<span class="op">=</span><span class="st">'3d'</span>)</span>
 <span id="cb4-3"><a href=""></a>ax.plot_surface(L1, K, Q1_10)</span>
@@ -431,7 +431,7 @@
 <section id="since-this-is-not-a-linear-problem-lets-use-gekko" class="slide level2">
 <h2>Since this is not a linear problem let’s use <a href="https://gekko.readthedocs.io/en/latest/">GEKKO</a></h2>
 <p>(don’t worry… we will do this in Excel as well, and the exam will focus on setup and interpretation)</p>
-<div id="bfca347f" class="cell" data-execution_count="5">
+<div id="2af31824" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href=""></a><span class="co"># set up the solver</span></span>
 <span id="cb5-2"><a href=""></a><span class="im">from</span> gekko <span class="im">import</span> GEKKO <span class="co"># pip install gekko... I posted a video about this</span></span>
 <span id="cb5-3"><a href=""></a>m <span class="op">=</span> GEKKO(remote<span class="op">=</span><span class="va">False</span>) <span class="co"># here we create a gekko object called 'm'</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -439,7 +439,7 @@
 </section>
 <section id="step-1-specify-the-choice-variables-and-their-constraints" class="slide level2">
 <h2>Step 1: Specify the ‘Choice Variables’ and their constraints</h2>
-<div id="90b61a1c" class="cell" data-execution_count="6">
+<div id="3bd46013" class="cell" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href=""></a><span class="co"># Initialize the decision variables</span></span>
 <span id="cb6-2"><a href=""></a>q1 <span class="op">=</span> m.Var(</span>
 <span id="cb6-3"><a href=""></a>    name<span class="op">=</span><span class="st">"q1"</span>, </span>
@@ -458,7 +458,7 @@
 <section id="step-2-write-down-the-objective-function-what-we-want-to-maximize-any-remaining-constraints-and-solve." class="slide level2">
 <h2>Step 2: Write down the objective function (what we want to maximize), any remaining constraints, and solve.</h2>
 <p><span class="math display">\[ \Pi(P,C) \equiv 275 \times q_1 - 140 \times \frac{q_1^2}{K} - 100 \times K \]</span> <em>What happened to <span class="math inline">\(K \leq \bar{K} = 200\)</span>?</em> (hint: it is a constraint on a <em>choice variable</em> look for it on the previous slide!)</p>
-<div id="212f6eb1" class="cell" data-execution_count="7">
+<div id="6dd080ca" class="cell" data-execution_count="7">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href=""></a>m.Maximize(</span>
 <span id="cb7-2"><a href=""></a>    <span class="dv">275</span><span class="op">*</span>q1 <span class="op">-</span> <span class="dv">140</span><span class="op">*</span>((q1<span class="op">**</span><span class="dv">2</span>)<span class="op">/</span>k) <span class="op">-</span> <span class="dv">100</span><span class="op">*</span>k</span>
 <span id="cb7-3"><a href=""></a>)</span>
@@ -468,9 +468,9 @@
 <section id="step-2-continued" class="slide level2">
 <h2>Step 2 continued:</h2>
 <p>The output from the model is just the choice variables: we need to calculate profit and labor:</p>
-<div id="8d42862e" class="cell" data-execution_count="8">
+<div id="9826f12e" class="cell" data-execution_count="8">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href=""></a>q1, k</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="116">
+<div class="cell-output cell-output-display" data-execution_count="8">
 <pre><code>([196.42857143], [200.0])</code></pre>
 </div>
 </div>
@@ -480,7 +480,7 @@
 <section id="step-2-continued-1" class="slide level2">
 <h2>Step 2 continued:</h2>
 <p>Use the production function to calculate <span class="math inline">\(l_1=q_1^2/K\)</span></p>
-<div id="6114098b" class="cell" data-execution_count="9">
+<div id="64d7f7b5" class="cell" data-execution_count="9">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href=""></a>profit <span class="op">=</span> (</span>
 <span id="cb10-2"><a href=""></a>  <span class="dv">275</span><span class="op">*</span>q1.value[<span class="dv">0</span>] <span class="op">-</span> <span class="dv">140</span><span class="op">*</span>((q1.value[<span class="dv">0</span>]<span class="op">**</span><span class="dv">2</span>)<span class="op">/</span>k.value[<span class="dv">0</span>]) <span class="op">-</span> <span class="dv">100</span><span class="op">*</span>k.value[<span class="dv">0</span>]</span>
 <span id="cb10-3"><a href=""></a>)</span>
@@ -490,7 +490,7 @@
 <section id="step-2-continued-2" class="slide level2">
 <h2>Step 2 continued:</h2>
 <p>This gives us the following solutions (note that I’m rounding here):</p>
-<div id="8ea27369" class="cell" data-execution_count="10">
+<div id="11119a25" class="cell" data-execution_count="10">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href=""></a><span class="bu">print</span>(<span class="st">'q1     '</span>, <span class="bu">int</span>(q1.value[<span class="dv">0</span>])) <span class="co"># q1 is a list q1[0] is the first element of the list.</span></span>
 <span id="cb11-2"><a href=""></a><span class="bu">print</span>(<span class="st">'l1     '</span>, <span class="bu">int</span>(l1))</span>
 <span id="cb11-3"><a href=""></a><span class="bu">print</span>(<span class="st">'K      '</span>, <span class="bu">int</span>(k.value[<span class="dv">0</span>]))</span>
@@ -509,7 +509,7 @@ profit  7008</code></pre>
 <p><span class="math display">\[ \Pi(P,C) \equiv  300 \times q_2  - 175 \times L_2 - 100 \times K \]</span> <span class="math display">\[ q_2 \leq \sqrt{L_2 \times K} \]</span> <span class="math display">\[ K \leq \bar{K} = 200 \]</span></p>
 <p>We make a similar substitution here:</p>
 <p><span class="math display">\[ \Pi(P,C) \equiv  300 \times q_2  - 175 \times \frac{q_2^2}{K} - 100 \times K \]</span> <span class="math display">\[ K \leq \bar{K} = 200 \]</span></p>
-<div id="5e25b03a" class="cell" data-execution_count="11">
+<div id="84c21ba9" class="cell" data-execution_count="11">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href=""></a><span class="co"># same set up repeated to clean out 'm'</span></span>
 <span id="cb13-2"><a href=""></a>m <span class="op">=</span> GEKKO(remote<span class="op">=</span><span class="va">False</span>)</span>
 <span id="cb13-3"><a href=""></a>q2 <span class="op">=</span> m.Var(name<span class="op">=</span><span class="st">"q2"</span>, lb<span class="op">=</span><span class="dv">0</span>)</span>
@@ -525,7 +525,7 @@ profit  7008</code></pre>
 <section id="this-gives-us-the-following-solutions" class="slide level2">
 <h2>This gives us the following solutions</h2>
 <p>(note that I’m rounding here)</p>
-<div id="e9c149f9" class="cell" data-execution_count="13">
+<div id="07c6a50a" class="cell" data-execution_count="13">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href=""></a><span class="bu">print</span>(<span class="st">'q2     '</span>, <span class="bu">int</span>(q2.value[<span class="dv">0</span>]))</span>
 <span id="cb14-2"><a href=""></a><span class="bu">print</span>(<span class="st">'l2     '</span>,<span class="bu">int</span>(l2))</span>
 <span id="cb14-3"><a href=""></a><span class="bu">print</span>(<span class="st">'K      '</span>, <span class="bu">int</span>(k.value[<span class="dv">0</span>]))</span>
@@ -542,7 +542,7 @@ profit  5714</code></pre>
 <h2>Optimal production plan for both:</h2>
 <p>Let’s refer to the prices as “P”, and the labor and capital costs as “C” <span class="math display">\[ \Pi(P,C) \equiv 275 \times q_1 + 300 \times q_2 - 140 \times L_1 - 175 \times L_2 - 100 \times K \]</span> <span class="math display">\[ q_1 \leq \sqrt{L_1 \times K} \]</span> <span class="math display">\[ q_2 \leq \sqrt{L_2 \times K} \]</span> <span class="math display">\[ K \leq \bar{K} = 200 \]</span></p>
 <p>Again both constraints allow us to eliminate <span class="math inline">\(L\)</span>: <span class="math display">\[ \Pi(P,C) \equiv 275 \times q_1 + 300 \times q_2 - 140 \times \frac{q_1^2}{K} - 175 \times \frac{q_2^2}{K} - 100 \times K \]</span> <span class="math display">\[ K \leq \bar{K} = 200 \]</span></p>
-<div id="e719eb81" class="cell" data-execution_count="14">
+<div id="3871c17a" class="cell" data-execution_count="14">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href=""></a><span class="co"># reset gekko</span></span>
 <span id="cb16-2"><a href=""></a>m <span class="op">=</span> GEKKO(remote<span class="op">=</span><span class="va">False</span>)</span>
 <span id="cb16-3"><a href=""></a><span class="co"># Initialize the decision variables with guesses for the optimizer</span></span>
@@ -553,7 +553,7 @@ profit  5714</code></pre>
 <span id="cb16-8"><a href=""></a>k <span class="op">=</span>  m.Var(name<span class="op">=</span><span class="st">"k"</span>, lb<span class="op">=</span><span class="dv">0</span>, ub<span class="op">=</span><span class="dv">200</span>) </span>
 <span id="cb16-9"><a href=""></a>k.value<span class="op">=</span><span class="dv">200</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="e19bfbf6" class="cell" data-execution_count="15">
+<div id="46949775" class="cell" data-execution_count="15">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href=""></a><span class="co"># write the objective function  and solve</span></span>
 <span id="cb17-2"><a href=""></a>m.Maximize(</span>
 <span id="cb17-3"><a href=""></a>    <span class="dv">275</span><span class="op">*</span>q1 <span class="op">-</span> <span class="dv">140</span><span class="op">*</span>((q1<span class="op">**</span><span class="dv">2</span>)<span class="op">/</span>k)</span>
@@ -562,7 +562,7 @@ profit  5714</code></pre>
 <span id="cb17-6"><a href=""></a>)</span>
 <span id="cb17-7"><a href=""></a>m.solve(disp<span class="op">=</span><span class="va">False</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="c2469aab" class="cell" data-execution_count="16">
+<div id="eec34abb" class="cell" data-execution_count="16">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href=""></a><span class="co"># quick calcs to clean things up</span></span>
 <span id="cb18-2"><a href=""></a>profit <span class="op">=</span> (</span>
 <span id="cb18-3"><a href=""></a>    <span class="dv">275</span><span class="op">*</span>q1.value[<span class="dv">0</span>] <span class="op">-</span> <span class="dv">140</span><span class="op">*</span>((q1.value[<span class="dv">0</span>]<span class="op">**</span><span class="dv">2</span>)<span class="op">/</span>k.value[<span class="dv">0</span>]) </span>
@@ -576,7 +576,7 @@ profit  5714</code></pre>
 <section id="this-gives-us-the-following-solutions-1" class="slide level2">
 <h2>This gives us the following solutions</h2>
 <p>(note that I’m rounding here)</p>
-<div id="67b6d410" class="cell" data-execution_count="17">
+<div id="97414403" class="cell" data-execution_count="17">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href=""></a><span class="bu">print</span>(<span class="st">'q1     '</span>, <span class="bu">int</span>(q1.value[<span class="dv">0</span>]))</span>
 <span id="cb19-2"><a href=""></a><span class="bu">print</span>(<span class="st">'l1     '</span>,<span class="bu">int</span>(l1))</span>
 <span id="cb19-3"><a href=""></a><span class="bu">print</span>(<span class="st">'q2     '</span>, <span class="bu">int</span>(q2.value[<span class="dv">0</span>]))</span>
@@ -606,7 +606,7 @@ profit  32723</code></pre>
 </section>
 <section id="repeat-all-three-steps-with-p_1200" class="slide level2">
 <h2>Repeat all three steps with <span class="math inline">\(P_1=200\)</span></h2>
-<div id="120216c1" class="cell" data-execution_count="18">
+<div id="c8098602" class="cell" data-execution_count="18">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href=""></a>m <span class="op">=</span> GEKKO(remote<span class="op">=</span><span class="va">False</span>)</span>
 <span id="cb21-2"><a href=""></a>q1 <span class="op">=</span> m.Var(name<span class="op">=</span><span class="st">"q1"</span>, lb<span class="op">=</span><span class="dv">0</span>)</span>
 <span id="cb21-3"><a href=""></a>q1.value<span class="op">=</span><span class="dv">1</span></span>
@@ -628,7 +628,7 @@ profit  32723</code></pre>
 </section>
 <section id="q_1-when-p_1200" class="slide level2">
 <h2><span class="math inline">\(Q_1\)</span> when <span class="math inline">\(P_1=200\)</span></h2>
-<div id="ac8789b3" class="cell" data-execution_count="19">
+<div id="e579115c" class="cell" data-execution_count="19">
 <div class="cell-output cell-output-stdout">
 <pre><code>q1      0
 l1      0
@@ -653,7 +653,7 @@ profit  0</code></pre>
 </section>
 <section id="plots-of-two-single-product-firms-with-k200" class="slide level2">
 <h2>Plots of two single product firms with k=200</h2>
-<div id="2e9fe7eb" class="cell" data-execution_count="21">
+<div id="5bed53b8" class="cell" data-execution_count="21">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href=""></a><span class="co"># plot so we can see what is going on</span></span>
 <span id="cb23-2"><a href=""></a>plt.plot(q1,Pq1,label<span class="op">=</span><span class="st">'Profit (q1)'</span>)</span>
 <span id="cb23-3"><a href=""></a>plt.plot(q1,Pq2,label<span class="op">=</span><span class="st">'Profit (q2)'</span>)</span>
@@ -675,7 +675,7 @@ profit  0</code></pre>
 <section id="q_1-and-q_2-when-p_1200" class="slide level2">
 <h2><span class="math inline">\(Q_1\)</span> and <span class="math inline">\(Q_2\)</span> when <span class="math inline">\(P_1=200\)</span></h2>
 <p>Now we are back to the multiproduct firm</p>
-<div id="abcd4535" class="cell" data-execution_count="22">
+<div id="6d32cd9f" class="cell" data-execution_count="22">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href=""></a><span class="co"># Let's look at the two together</span></span>
 <span id="cb24-2"><a href=""></a><span class="co"># reset gekko</span></span>
 <span id="cb24-3"><a href=""></a>m <span class="op">=</span> GEKKO(remote<span class="op">=</span><span class="va">False</span>)</span>
@@ -703,7 +703,7 @@ profit  0</code></pre>
 </section>
 <section id="q_1-and-q_2-when-p_1200-1" class="slide level2">
 <h2><span class="math inline">\(Q_1\)</span> and <span class="math inline">\(Q_2\)</span> when <span class="math inline">\(P_1=200\)</span></h2>
-<div id="015de354" class="cell" data-execution_count="23">
+<div id="2264b5b6" class="cell" data-execution_count="23">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href=""></a><span class="bu">print</span>(<span class="st">'q1     '</span>, <span class="bu">int</span>(q1.value[<span class="dv">0</span>]))</span>
 <span id="cb25-2"><a href=""></a><span class="bu">print</span>(<span class="st">'l1     '</span>, <span class="bu">int</span>(l1))</span>
 <span id="cb25-3"><a href=""></a><span class="bu">print</span>(<span class="st">'q2     '</span>, <span class="bu">int</span>(q2.value[<span class="dv">0</span>]))</span>
@@ -720,7 +720,7 @@ profit  20000</code></pre>
 </div>
 </div>
 <h3 id="lets-plot-this-and-see-what-its-telling-us.">Lets plot this and see what it’s telling us.</h3>
-<div id="0842fd21" class="cell" data-execution_count="25">
+<div id="955e076f" class="cell" data-execution_count="25">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href=""></a><span class="co"># Create the figure and add a 3D axis</span></span>
 <span id="cb27-2"><a href=""></a>fig <span class="op">=</span> plt.figure()</span>
 <span id="cb27-3"><a href=""></a>ax <span class="op">=</span> fig.add_subplot(<span class="dv">111</span>, projection<span class="op">=</span><span class="st">'3d'</span>)</span>
@@ -743,7 +743,7 @@ profit  20000</code></pre>
 </section>
 <section id="lets-zoom-to-the-zero-lower-bound" class="slide level2">
 <h2>Let’s zoom to the zero lower bound</h2>
-<div id="ad8cc1d6" class="cell" data-execution_count="26">
+<div id="5a7f0035" class="cell" data-execution_count="26">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -865,7 +865,7 @@ profit  20000</code></pre>
 </section>
 <section id="first-put-the-data-into-a-dictionary" class="slide level2">
 <h2>First, put the data into a dictionary</h2>
-<div id="245c4e2e" class="cell" data-execution_count="27">
+<div id="020fa8a4" class="cell" data-execution_count="27">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href=""></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb28-2"><a href=""></a>dd <span class="op">=</span> {</span>
 <span id="cb28-3"><a href=""></a>    <span class="st">'q1'</span>: [<span class="dv">50</span>, <span class="dv">50</span>, <span class="dv">50</span>,<span class="dv">100</span>,<span class="dv">100</span>,<span class="dv">100</span>,<span class="dv">150</span>,<span class="dv">150</span>],</span>
@@ -875,7 +875,7 @@ profit  20000</code></pre>
 </section>
 <section id="second-write-down-the-functions" class="slide level2">
 <h2>Second, write down the functions</h2>
-<div id="56c1858e" class="cell" data-execution_count="28">
+<div id="b8802d45" class="cell" data-execution_count="28">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href=""></a><span class="kw">def</span> findK(q1,q2):</span>
 <span id="cb29-2"><a href=""></a>    m <span class="op">=</span> GEKKO(remote<span class="op">=</span><span class="va">False</span>)</span>
 <span id="cb29-3"><a href=""></a>    <span class="co"># Initialize the decision variablesc</span></span>
@@ -892,37 +892,37 @@ profit  20000</code></pre>
 </section>
 <section id="second-write-down-the-functions-1" class="slide level2">
 <h2>Second, write down the functions</h2>
-<div id="22d5ce21" class="cell" data-execution_count="29">
+<div id="51e44d64" class="cell" data-execution_count="29">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href=""></a><span class="kw">def</span> labor(q,K):</span>
 <span id="cb30-2"><a href=""></a>    <span class="cf">return</span> (q<span class="op">**</span><span class="dv">2</span>)<span class="op">/</span>K</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="second-write-down-the-functions-2" class="slide level2">
 <h2>Second, write down the functions</h2>
-<div id="85eb2c01" class="cell" data-execution_count="30">
+<div id="0aa6f1df" class="cell" data-execution_count="30">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href=""></a><span class="kw">def</span> cost(L1,L2,K):</span>
 <span id="cb31-2"><a href=""></a>    <span class="cf">return</span> <span class="dv">140</span><span class="op">*</span>L1 <span class="op">+</span> <span class="dv">175</span><span class="op">*</span>L2 <span class="op">+</span> <span class="dv">100</span><span class="op">*</span>K</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="second-write-down-the-functions-3" class="slide level2">
 <h2>Second, write down the functions</h2>
-<div id="4df04ead" class="cell" data-execution_count="31">
+<div id="a7e4401d" class="cell" data-execution_count="31">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href=""></a>findK(<span class="dv">50</span>,<span class="dv">50</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="139">
+<div class="cell-output cell-output-display" data-execution_count="31">
 <pre><code>88.741196671</code></pre>
 </div>
 </div>
 </section>
 <section id="fill-in-the-optimal-production-plan-for-each-set-of-points" class="slide level2">
 <h2>Fill in the optimal production plan for each set of points</h2>
-<div id="fee698ae" class="cell" data-execution_count="32">
+<div id="8a75faed" class="cell" data-execution_count="32">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href=""></a>df <span class="op">=</span> pd.DataFrame(dd)</span>
 <span id="cb34-2"><a href=""></a>df[<span class="st">'K'</span>]<span class="op">=</span>np.vectorize(findK)(df[<span class="st">'q1'</span>],df[<span class="st">'q2'</span>])</span>
 <span id="cb34-3"><a href=""></a>df[<span class="st">'L1'</span>] <span class="op">=</span> np.vectorize(labor)(df[<span class="st">'q1'</span>],df[<span class="st">'K'</span>])</span>
 <span id="cb34-4"><a href=""></a>df[<span class="st">'L2'</span>] <span class="op">=</span> np.vectorize(labor)(df[<span class="st">'q2'</span>],df[<span class="st">'K'</span>])</span>
 <span id="cb34-5"><a href=""></a>df[<span class="st">'Cost'</span>] <span class="op">=</span> np.vectorize(cost)(df[<span class="st">'L1'</span>],df[<span class="st">'L2'</span>],df[<span class="st">'K'</span>])</span>
 <span id="cb34-6"><a href=""></a>df</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="140">
+<div class="cell-output cell-output-display" data-execution_count="32">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1032,7 +1032,7 @@ profit  20000</code></pre>
 </section>
 <section id="now-increment-q1-by-1" class="slide level2">
 <h2>Now increment q1 by 1</h2>
-<div id="b484d816" class="cell" data-execution_count="33">
+<div id="c4f2a830" class="cell" data-execution_count="33">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href=""></a>df_i_q1 <span class="op">=</span> pd.DataFrame(dd)</span>
 <span id="cb35-2"><a href=""></a>df_i_q1[<span class="st">'q1'</span>]<span class="op">=</span>df_i_q1[<span class="st">'q1'</span>]<span class="op">+</span><span class="dv">1</span></span>
 <span id="cb35-3"><a href=""></a>df_i_q1[<span class="st">'K'</span>]<span class="op">=</span>np.vectorize(findK)(df_i_q1[<span class="st">'q1'</span>],df_i_q1[<span class="st">'q2'</span>])</span>
@@ -1040,7 +1040,7 @@ profit  20000</code></pre>
 <span id="cb35-5"><a href=""></a>df_i_q1[<span class="st">'L2'</span>] <span class="op">=</span> np.vectorize(labor)(df_i_q1[<span class="st">'q2'</span>],df_i_q1[<span class="st">'K'</span>])</span>
 <span id="cb35-6"><a href=""></a>df_i_q1[<span class="st">'Cost'</span>] <span class="op">=</span> np.vectorize(cost)(df_i_q1[<span class="st">'L1'</span>],df_i_q1[<span class="st">'L2'</span>],df_i_q1[<span class="st">'K'</span>])</span>
 <span id="cb35-7"><a href=""></a>df_i_q1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="141">
+<div class="cell-output cell-output-display" data-execution_count="33">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1150,7 +1150,7 @@ profit  20000</code></pre>
 </section>
 <section id="now-increment-q2-by-1" class="slide level2">
 <h2>Now increment q2 by 1</h2>
-<div id="d3228e34" class="cell" data-execution_count="34">
+<div id="9c6f2be9" class="cell" data-execution_count="34">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href=""></a>df_i_q2 <span class="op">=</span> pd.DataFrame(dd)</span>
 <span id="cb36-2"><a href=""></a>df_i_q2[<span class="st">'q2'</span>]<span class="op">=</span>df_i_q2[<span class="st">'q2'</span>]<span class="op">+</span><span class="dv">1</span></span>
 <span id="cb36-3"><a href=""></a>df_i_q2[<span class="st">'K'</span>]<span class="op">=</span>np.vectorize(findK)(df_i_q2[<span class="st">'q1'</span>],df_i_q2[<span class="st">'q2'</span>])</span>
@@ -1158,7 +1158,7 @@ profit  20000</code></pre>
 <span id="cb36-5"><a href=""></a>df_i_q2[<span class="st">'L2'</span>] <span class="op">=</span> np.vectorize(labor)(df_i_q2[<span class="st">'q2'</span>],df_i_q2[<span class="st">'K'</span>])</span>
 <span id="cb36-6"><a href=""></a>df_i_q2[<span class="st">'Cost'</span>] <span class="op">=</span> np.vectorize(cost)(df_i_q2[<span class="st">'L1'</span>],df_i_q2[<span class="st">'L2'</span>],df_i_q2[<span class="st">'K'</span>])</span>
 <span id="cb36-7"><a href=""></a>df_i_q2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="142">
+<div class="cell-output cell-output-display" data-execution_count="34">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1268,8 +1268,8 @@ profit  20000</code></pre>
 </section>
 <section id="marginal-cost-of-q1-at-each-point" class="slide level2">
 <h2>Marginal cost of q1 at each point</h2>
-<div id="a53a3ccf" class="cell" data-execution_count="35">
-<div class="cell-output cell-output-display" data-execution_count="143">
+<div id="1f779841" class="cell" data-execution_count="35">
+<div class="cell-output cell-output-display" data-execution_count="35">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -1388,8 +1388,8 @@ profit  20000</code></pre>
 </section>
 <section id="marginal-cost-of-q2-at-each-point" class="slide level2">
 <h2>Marginal cost of q2 at each point</h2>
-<div id="43dde124" class="cell" data-execution_count="36">
-<div class="cell-output cell-output-display" data-execution_count="144">
+<div id="af0b4488" class="cell" data-execution_count="36">
+<div class="cell-output cell-output-display" data-execution_count="36">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
