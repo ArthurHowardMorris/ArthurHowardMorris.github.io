@@ -1,20 +1,24 @@
 ---
 title: 'Lecture 4: Non-linear Programing, Constrained Maximization'
-jupyter: python3
+jupyter:
+  kernelspec:
+    display_name: acct3210
+    language: python
+    name: acct3210
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
 ---
 
-```{python}
-#| slideshow: {slide_type: skip}
-import pandas as pd
-import numpy as np
-```
 
 
 
-### Items for reiteration:
+
+## Items for reiteration:
 
 1. The lecture notes are posted on my website. I've added link to the location at the top of the canvas page.
-2. The lectures are not recorded. _New in 2025: I am recording supplemental versions for the add drop period, if these are useful (and time allows) I will continue to make them._
+2. The lectures are not recorded. _I am recording supplemental versions for the add drop period, if these are useful (and time allows) I will continue to make them._
 2. Please post your questions about course content on the canvas discussions for each lecture (they go live after the lecture).
 3. __Thanks to those of you that have reached out with questions! I enjoy answering them, and it helps me a lot to see what is working and what is not.__
 4. The review lectures will address everyone's favorite question: "Dr. Morris, please tell me exactly what will be on the exam."
@@ -47,8 +51,9 @@ product sells for 275 per unit, and the second sells for 300 per unit.
 2. Next suppose only the second product is present. Determine and interpret your optimal production plan.
 3. Now assume both products are present. Determine and interpret your optimal production plan.
 4. Repeat the three parts above assuming the first product sells for 200 per unit.
-
 5. Fill in the following table:
+
+<!-- TODO: fill this in with excel -->
 
 | $q_1$ | $q_2$ | MC of $q_1$ with $q_2$ fixed. | MC of $q_2$ with $q_1$ fixed. |
 |:-----:|:-----:|:-----------------------------:|:-----------------------------:|
@@ -65,8 +70,9 @@ product sells for 275 per unit, and the second sells for 300 per unit.
 
 <!-- ### Three quick points based on common questions:  -->
 <!-- 1. The cost of capital is 100 per unit, so if the constraint binds total cost of capital is 100 $\times$ 200 = 20,000 -->
-### Q 1: Determine and interpret your optimal production plan.
-#### Start by thinking about what $q_{1} \leq \sqrt{KL_{1}}$ and $q_2 \leq\sqrt{KL_2}$ are?
+## Q 1: Determine and interpret your optimal production plan.
+
+### Start by thinking about what $q_{1} \leq \sqrt{KL_{1}}$ and $q_2 \leq\sqrt{KL_2}$ are?
 
 - A name for this sort of function is a "__production function__"
 
@@ -75,14 +81,22 @@ product sells for 275 per unit, and the second sells for 300 per unit.
 - Notice that this even though there is a $\leq$ sign, that this is not a constraint _per se_ because we get to choose $K$ and $L_1$, and it is only that choice that constrains the amount of $q_1$ that we produce.
 - Also notice that if we are trying to optimize we will never produce less than $q_1=\sqrt{KL_{1}}$
 
+## Exploring Production Functions:
+
 Let's look at some plots to see the implications of this.
+
 __Note that I'll use python for the examples today, this is because it makes 3-d plotting easy, and I want you to think of these as list of steps.__
 
+## Exploring Production Functions:
+
+- Set up by loading the libraries and creating the framework for our plot.
+
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 # quick set up for our plot
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+import pandas as pd
 import numpy as np
 
 # create the framework for our plot
@@ -94,18 +108,10 @@ L1, K = np.meshgrid(l1, k)
 Q1 = np.sqrt(L1*K)
 ```
 
-```{python}
-#| slideshow: {slide_type: skip}
-# Lets look at the objects we created:
-l1[0:10] # first 10 elements of l1
-# k[0:10] 
-# K
-# L1
-Q1
-```
+## Exploring Production Functions:
 
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 # Create the figure and add a 3D axis
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -118,29 +124,27 @@ ax.set_zlabel('Q1')
 plt.show()
 ```
 
+## Capital Contraints: 
+
 ### What if we hold K fixed? What will the graph look like?
 
 In `Q1 = np.sqrt(L1*K)` we will plug in values for `K` and let `L1` vary.
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 l1 = np.linspace(0, 300, 300)
 Q1_10 = np.sqrt(L1*10)    # k = 10
 Q1_100 = np.sqrt(L1*100)  # k = 100
 Q1_200 = np.sqrt(L1*200)  # k = 200
 ```
 
-```{python}
-#| slideshow: {slide_type: skip}
-# Lets look inside Q1 and Q1_10
-Q1[0:5]
-Q1_10[0:5]
-```
+
+## Capital Contraints: 
 
 ### What if we hold K fixed? What will the graph look like?
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.plot_surface(L1, K, Q1_10)
@@ -160,9 +164,9 @@ plt.show()
 - Subject to constraints. 
 - So the optimal production plan is the ones that maximizes $R-C$ subject to the constraints in the problem.
 
-### Optimal production plan for $q_1$ alone:
+## Optimal production plan for $q_1$ alone:
 
-Maximize: $ \Pi = R - C $
+Maximize: $$\Pi = R - C$$
 
 Let's refer to the prices as "P", and the labor and capital costs as "C"
 
@@ -180,14 +184,15 @@ This makes it seem like we have more choices than we actually have. The constrai
 $$ \Pi(P,C) \equiv 275 \times q_1 - 140 \times \frac{q_1^2}{K} - 100 \times K $$
 $$ K \leq \bar{K} = 200 $$
 
-### So what do we do with this?
+## So what do we do with this?
+
 $$ \Pi(P,C) \equiv 275 \times q_1 - 140 \times \frac{q_1^2}{K} - 100 \times K $$
 $$ K \leq \bar{K} = 200 $$
 
 How do we choose the optimal production plan?
 
 - Guess and check? 
-- Set up and solve a Legrangian :) I am not going to ask you to do this... you can do it with Excel and Python!
+- Set up and solve a Legrangian :) I am not going to ask you to _actually_ solve this by hand... you can do it with Excel and Python!
 - Note that you can apply the steps we do here to any similar solver.
 
 __iPRS: How did you solve this?__
@@ -197,16 +202,16 @@ __iPRS: How did you solve this?__
 (don't worry... we will do this in Excel as well, and the exam will focus on setup and interpretation)
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 # set up the solver
 from gekko import GEKKO # pip install gekko... I posted a video about this
 m = GEKKO(remote=False) # here we create a gekko object called 'm'
 ```
 
-### Step 1: Specify the 'Choice Variables' and their constraints
+## Step 1: Specify the 'Choice Variables' and their constraints
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 # Initialize the decision variables
 q1 = m.Var(
     name="q1", 
@@ -222,50 +227,60 @@ k =  m.Var(
 k.value=200 # this is our first guess to speed up the solution
 ```
 
-### Step 2: Write down the objective function (what we want to maximize), any remaining constraints, and solve.
+## Step 2: Write down the objective function (what we want to maximize), any remaining constraints, and solve.
 $$ \Pi(P,C) \equiv 275 \times q_1 - 140 \times \frac{q_1^2}{K} - 100 \times K $$
-_What happened to $ K \leq \bar{K} = 200 $?_ (hint: it is a constraint on a _choice variable_ look for it on the previous slide!)
+_What happened to $K \leq \bar{K} = 200$?_ (hint: it is a constraint on a _choice variable_ look for it on the previous slide!)
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 m.Maximize(
     275*q1 - 140*((q1**2)/k) - 100*k
 )
 m.solve(disp=False) # silencing the output because it is diagnostic
 ```
 
+## Step 2 continued:
+
 The output from the model is just the choice variables: we need to calculate profit and labor:
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 q1, k
-```
+```  
 
 We need to calculate profit and labor:
 
-Plug $q_1 = 196.43$ and $K=200$ into $\Pi(P,C) \equiv 275 \times q_1 - 140 \times \frac{q_1^2}{K} - 100 \times K $
+Plug $q_1 = 196.43$ and $K=200$ into: 
+$$\Pi(P,C) \equiv 275 \times q_1 - 140 \times \frac{q_1^2}{K} - 100 \times K $$
+
+## Step 2 continued:
 
 Use the production function to calculate $l_1=q_1^2/K$
 
 ```{python}
-#| slideshow: {slide_type: fragment}
-profit = (275*q1.value[0] - 140*((q1.value[0]**2)/k.value[0]) - 100*k.value[0])
-l1 = q1.value[0]**2/k.value[0]
+#| echo: true
+profit = (
+  275*q1.value[0] - 140*((q1.value[0]**2)/k.value[0]) - 100*k.value[0]
+)
+l1 = (q1.value[0]**2 / k.value[0])
 ```
 
-### This gives us the following solutions 
-(note that I'm rounding here)
+## Step 2 continued:
+
+This gives us the following solutions (note that I'm rounding here):
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 print('q1     ', int(q1.value[0])) # q1 is a list q1[0] is the first element of the list.
 print('l1     ', int(l1))
 print('K      ', int(k.value[0]))
 print('profit ', int(profit))
 ```
 
-### Optimal production plan for $q_2$ alone:
+## Optimal production plan for $q_2$ alone:
+
 Let's refer to the prices as "P", and the labor and capital costs as "C"
+
 $$ \Pi(P,C) \equiv  300 \times q_2  - 175 \times L_2 - 100 \times K $$
 $$ q_2 \leq \sqrt{L_2 \times K} $$
 $$ K \leq \bar{K} = 200 $$
@@ -276,7 +291,7 @@ $$ \Pi(P,C) \equiv  300 \times q_2  - 175 \times \frac{q_2^2}{K} - 100 \times K 
 $$ K \leq \bar{K} = 200 $$
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 # same set up repeated to clean out 'm'
 m = GEKKO(remote=False)
 q2 = m.Var(name="q2", lb=0)
@@ -285,7 +300,8 @@ k =  m.Var(name="k", lb=0, ub=200)
 k.value=200 
 ```
 
-### Write down the objective function again and solve:
+## Write down the objective function again and solve:
+
 $$ \Pi(P,C) \equiv + 300 \times q_2  - 175 \times \frac{q_2^2}{K} - 100 \times K $$
 
 ```{python}
@@ -297,18 +313,20 @@ profit = (300*q2.value[0] - 175*((q2.value[0]**2)/k.value[0]) - 100*k.value[0])
 l2 = q2.value[0]**2/k.value[0]
 ```
 
-### This gives us the following solutions 
+## This gives us the following solutions 
+
 (note that I'm rounding here)
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 print('q2     ', int(q2.value[0]))
 print('l2     ',int(l2))
 print('K      ', int(k.value[0]))
 print('profit ', int(profit))
 ```
 
-### Optimal production plan for both:
+## Optimal production plan for both:
+
 Let's refer to the prices as "P", and the labor and capital costs as "C"
 $$ \Pi(P,C) \equiv 275 \times q_1 + 300 \times q_2 - 140 \times L_1 - 175 \times L_2 - 100 \times K $$
 $$ q_1 \leq \sqrt{L_1 \times K} $$
@@ -320,7 +338,7 @@ $$ \Pi(P,C) \equiv 275 \times q_1 + 300 \times q_2 - 140 \times \frac{q_1^2}{K} 
 $$ K \leq \bar{K} = 200 $$
 
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 # reset gekko
 m = GEKKO(remote=False)
 # Initialize the decision variables with guesses for the optimizer
@@ -333,7 +351,7 @@ k.value=200
 ```
 
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 # write the objective function  and solve
 m.Maximize(
     275*q1 - 140*((q1**2)/k)
@@ -344,7 +362,7 @@ m.solve(disp=False)
 ```
 
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 # quick calcs to clean things up
 profit = (
     275*q1.value[0] - 140*((q1.value[0]**2)/k.value[0]) 
@@ -355,11 +373,11 @@ l1 = q1.value[0]**2/k.value[0]
 l2 = q2.value[0]**2/k.value[0]
 ```
 
-### This gives us the following solutions 
+## This gives us the following solutions 
 (note that I'm rounding here)
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 print('q1     ', int(q1.value[0]))
 print('l1     ',int(l1))
 print('q2     ', int(q2.value[0]))
@@ -368,7 +386,7 @@ print('K      ', int(k.value[0]))
 print('profit ', int(profit))
 ```
 
-### We always pick k=200. What does this mean?
+## We always pick k=200. What does this mean?
 
 - This means that the capital constraint is preventing us from making the next unit of output.
 - When a constraint does this we often call it a 'binding constraint'.
@@ -377,10 +395,10 @@ print('profit ', int(profit))
 
 - It means that the profit function is __separable__ when the capital constraint is binding.
 
-### Repeat all three steps with $P_1=200$
+## Repeat all three steps with $P_1=200$
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 m = GEKKO(remote=False)
 q1 = m.Var(name="q1", lb=0)
 q1.value=1
@@ -400,7 +418,7 @@ profit = (
 l1 = q1.value[0]**2/k.value[0]
 ```
 
-###  $Q_1$ when $P_1=200$
+##  $Q_1$ when $P_1=200$
 
 ```{python}
 print('q1     ', int(q1.value[0]))
@@ -409,16 +427,16 @@ print('K      ', int(k.value[0]))
 print('profit ', int(profit))
 ```
 
-### The optimal amount of Q1 to produce is 0.
+## The optimal amount of Q1 to produce is 0.
 
-What does this mean?
+- What does this mean?
 
-What does this mean?
-This means that a firm that only produces Q1 should not produce it at this price, given this cost structure.
-What does this mean for a firm that produces Q2? 
-What should they do? enter the market for Q1 or not?
+  - This means that a firm that only produces Q1 should not produce it at this price, given this cost structure.
 
-### Lets look at the profit functions for the two single product firms with k=200
+- What does this mean for a firm that produces Q2? 
+- What should they do? enter the market for Q1 or not?
+
+## Lets look at the profit functions for the two single product firms with k=200
 
 ```{python}
 # set up
@@ -433,8 +451,10 @@ Pq1=Pi1(q1)- 100*200
 Pq2=Pi2(q2)- 100*200
 ```
 
+## Plots of two single product firms with k=200 
+
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 # plot so we can see what is going on
 plt.plot(q1,Pq1,label='Profit (q1)')
 plt.plot(q1,Pq2,label='Profit (q2)')
@@ -446,11 +466,12 @@ plt.title('Profit with k=200 and P1=200')
 plt.show()
 ```
 
-###  $Q_1$ and $Q_2$ when $P_1=200$ 
+##  $Q_1$ and $Q_2$ when $P_1=200$ 
+
 Now we are back to the multiproduct firm
 
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 # Let's look at the two together
 # reset gekko
 m = GEKKO(remote=False)
@@ -476,8 +497,10 @@ l1 = q1.value[0]**2/k.value[0]
 l2 = q2.value[0]**2/k.value[0]
 ```
 
+##  $Q_1$ and $Q_2$ when $P_1=200$ 
+
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 print('q1     ', int(q1.value[0]))
 print('l1     ', int(l1))
 print('q2     ', int(q2.value[0]))
@@ -500,7 +523,7 @@ Pi12 = bigPi(Q1,Q2)
 ```
 
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 # Create the figure and add a 3D axis
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -515,7 +538,7 @@ plt.show()
 
 __Notice that alot of this profit graph is below zero!__
 
-### Let's zoom to the zero lower bound
+## Let's zoom to the zero lower bound
 
 ```{python}
 Profit =  np.where(Pi12>0,Pi12,np.nan)
@@ -530,7 +553,7 @@ plt.show()
 
 - These are the profitable production plans, and the one at the top is the optimal plan.
 
- ### What interesting insights or questions jump out from these facts?
+ ## What interesting insights or questions jump out from these facts?
 
 - Now there is some synergy!
 - The functions are no longer separable
@@ -564,10 +587,22 @@ _BTW, we are going to use a one unit increment here, but something less is fine 
 
 We are going to take the q as given and then calculate the optimal K for each and then increment.
 
+## Quick notes:
+
+- __Steps:__
+
+1. Find the optimal production plan for each combination.
+2. Increment and find the optimal production plan for the incremented combinations. 
+3.  Take difference to get marginal cost. 
+
+- Note 1: This is VERY time consuming to do in excel, and relatively easy to do in python (or similar tools)
+- Note 2: We are using incremental cost in place of the marginal cost to avoid some difficult math.
+- Note 3: The key insight is that the marginal cost of the two products depend on each other. 
+
 ## First, put the data into a dictionary
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 import pandas as pd
 dd = {
     'q1': [50, 50, 50,100,100,100,150,150],
@@ -575,10 +610,10 @@ dd = {
 }
 ```
 
-### Second, write down the functions
+## Second, write down the functions
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 def findK(q1,q2):
     m = GEKKO(remote=False)
     # Initialize the decision variablesc
@@ -593,39 +628,45 @@ def findK(q1,q2):
     return k.value[0]
 ```
 
+## Second, write down the functions
+
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 def labor(q,K):
     return (q**2)/K
 ```
 
+## Second, write down the functions
+
 ```{python}
-#| slideshow: {slide_type: subslide}
+#| echo: true
 def cost(L1,L2,K):
     return 140*L1 + 175*L2 + 100*K
 ```
 
+## Second, write down the functions
+
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 findK(50,50)
 ```
 
-### Fill in the baseline table for each set of points
+## Fill in the optimal production plan for each set of points
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 df = pd.DataFrame(dd)
 df['K']=np.vectorize(findK)(df['q1'],df['q2'])
 df['L1'] = np.vectorize(labor)(df['q1'],df['K'])
 df['L2'] = np.vectorize(labor)(df['q2'],df['K'])
 df['Cost'] = np.vectorize(cost)(df['L1'],df['L2'],df['K'])
 df
-```
+``` 
 
-### Now increment q1 by 1
+## Now increment q1 by 1
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 df_i_q1 = pd.DataFrame(dd)
 df_i_q1['q1']=df_i_q1['q1']+1
 df_i_q1['K']=np.vectorize(findK)(df_i_q1['q1'],df_i_q1['q2'])
@@ -635,10 +676,10 @@ df_i_q1['Cost'] = np.vectorize(cost)(df_i_q1['L1'],df_i_q1['L2'],df_i_q1['K'])
 df_i_q1
 ```
 
-### Now increment q2 by 1
+## Now increment q2 by 1
 
 ```{python}
-#| slideshow: {slide_type: fragment}
+#| echo: true
 df_i_q2 = pd.DataFrame(dd)
 df_i_q2['q2']=df_i_q2['q2']+1
 df_i_q2['K']=np.vectorize(findK)(df_i_q2['q1'],df_i_q2['q2'])
@@ -648,19 +689,21 @@ df_i_q2['Cost'] = np.vectorize(cost)(df_i_q2['L1'],df_i_q2['L2'],df_i_q2['K'])
 df_i_q2
 ```
 
-# Marginal cost of q1 at each point
+## Marginal cost of q1 at each point
 
 ```{python}
 df_i_q1['mc_q1'] = df_i_q1['Cost']-df['Cost']
 df_i_q1
 ```
 
-# Marginal cost of q2 at each point
+## Marginal cost of q2 at each point
 
 ```{python}
 df_i_q2['mc_q2'] = df_i_q2['Cost']-df['Cost']
 df_i_q2
 ```
+
+# Yikes!
 
 __BUT WAIT! Dr. Morris this last one is really hard in Excel! :(__
 
