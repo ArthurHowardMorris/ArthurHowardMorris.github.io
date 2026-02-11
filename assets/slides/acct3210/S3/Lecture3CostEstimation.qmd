@@ -17,7 +17,7 @@ format:
 
 In this course, and in your careers, you will be faced with questions and with data. Your data workflow is how you apply the data to those questions. 
 
-- Please keep in mind that there is no perfect approach here, we have a set of tools that we use to find answers and make reccomendations.
+- Please keep in mind that there is no perfect approach here, we have a set of tools that we use to find answers and make recommendations.
 - Every approach has strengths and limitations, so the best approach will change with each question and with the data that you face. 
 - A good workflow will generate answers, and more questions.
 - A good workflow will help you express what you know, how well you know it, and what you do not know.
@@ -409,9 +409,9 @@ p3df #.dtypes
  + pn.geom_point(
     data=p3df, mapping = pn.aes(x='Month_n', y='Maintenance Costs'), 
     color='blue')
- + pn.geom_point(
-    data=p3df, mapping = pn.aes(x='Month_n', y='Miles'), 
-    color='black')
+ # + pn.geom_point(
+ #    data=p3df, mapping = pn.aes(x='Month_n', y='Miles'), 
+ #    color='black')
    )
 ```
 

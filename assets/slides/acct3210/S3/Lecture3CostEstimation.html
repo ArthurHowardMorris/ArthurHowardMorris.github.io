@@ -207,7 +207,7 @@
 <h2>Workflow:</h2>
 <p>In this course, and in your careers, you will be faced with questions and with data. Your data workflow is how you apply the data to those questions.</p>
 <ul>
-<li>Please keep in mind that there is no perfect approach here, we have a set of tools that we use to find answers and make reccomendations.</li>
+<li>Please keep in mind that there is no perfect approach here, we have a set of tools that we use to find answers and make recommendations.</li>
 <li>Every approach has strengths and limitations, so the best approach will change with each question and with the data that you face.</li>
 <li>A good workflow will generate answers, and more questions.</li>
 <li>A good workflow will help you express what you know, how well you know it, and what you do not know.</li>
@@ -472,7 +472,7 @@
 </section>
 <section id="python-example-set-up." class="slide level2">
 <h2>Python Example: Set up.</h2>
-<div id="a86f33e9" class="cell" data-execution_count="1">
+<div id="d7bd98e6" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href=""></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href=""></a><span class="co"># from plotnine import * # import * because YOLO!</span></span>
 <span id="cb1-3"><a href=""></a><span class="im">import</span> plotnine <span class="im">as</span> pn</span>
@@ -481,7 +481,7 @@
 <span id="cb1-6"><a href=""></a><span class="co"># calculate total cost (note how we are selecting columns)</span></span>
 <span id="cb1-7"><a href=""></a>p2df[<span class="st">'Total Cost'</span>] <span class="op">=</span> p2df[<span class="st">'Labor'</span>] <span class="op">+</span> p2df[<span class="st">'Materials'</span>]</span>
 <span id="cb1-8"><a href=""></a>p2df</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="61">
+<div class="cell-output cell-output-display" data-execution_count="1">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -590,7 +590,7 @@
 </section>
 <section id="python-example-plot-labor" class="slide level2">
 <h2>Python Example: Plot Labor</h2>
-<div id="befda1ba" class="cell" data-execution_count="2">
+<div id="b15bcca1" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href=""></a>(pn.ggplot(</span>
 <span id="cb2-2"><a href=""></a>    p2df, <span class="co"># this is the dataset</span></span>
 <span id="cb2-3"><a href=""></a>    <span class="co"># aes allows us to specify the vars/axis</span></span>
@@ -609,7 +609,7 @@
 </section>
 <section id="python-example-plot-materials" class="slide level2">
 <h2>Python Example: Plot Materials</h2>
-<div id="09ffff4a" class="cell" data-execution_count="3">
+<div id="850cd4a9" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href=""></a>(pn.ggplot(</span>
 <span id="cb3-2"><a href=""></a>    p2df, <span class="co"># dataset</span></span>
 <span id="cb3-3"><a href=""></a>    pn.aes(x<span class="op">=</span><span class="st">'Machine Hours'</span>, y<span class="op">=</span><span class="st">'Materials'</span>)) <span class="co"># axis </span></span>
@@ -627,7 +627,7 @@
 </section>
 <section id="python-example-plot-total-cost" class="slide level2">
 <h2>Python Example: Plot Total Cost</h2>
-<div id="bf65bf32" class="cell" data-execution_count="4">
+<div id="f1ddfcc9" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href=""></a>(pn.ggplot(</span>
 <span id="cb4-2"><a href=""></a>    p2df, pn.aes(x<span class="op">=</span><span class="st">'Machine Hours'</span>, y<span class="op">=</span><span class="st">'Total Cost'</span>)) </span>
 <span id="cb4-3"><a href=""></a>     <span class="op">+</span> pn.geom_point(colour<span class="op">=</span><span class="st">"red"</span>) <span class="co"># </span></span>
@@ -654,7 +654,7 @@
 <section id="python-example-linear-regression" class="slide level2">
 <h2>Python Example: Linear Regression</h2>
 <p><em>This is one of <strong>many</strong> ways to do this.</em></p>
-<div id="4b10459c" class="cell" data-execution_count="5">
+<div id="e7b3b71b" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href=""></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
 <span id="cb5-2"><a href=""></a>beta, alpha, r_2, p_value, std_err <span class="op">=</span> (</span>
 <span id="cb5-3"><a href=""></a>    stats.linregress(p2df[<span class="st">'Total Cost'</span>],p2df[<span class="st">'Machine Hours'</span>])</span>
@@ -681,7 +681,7 @@ R^2: -0.6583768837496257</code></pre>
 </section>
 <section id="what-does-this-plot-tell-you-about-the-answer-to-3" class="slide level2">
 <h2>What does this plot tell you about the answer to 3?</h2>
-<div id="21dcd220" class="cell" data-execution_count="6">
+<div id="c36d32ab" class="cell" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href=""></a>(pn.ggplot(</span>
 <span id="cb7-2"><a href=""></a>    <span class="co"># p2df, # dataset</span></span>
 <span id="cb7-3"><a href=""></a>    p2df[p2df[<span class="st">'Materials'</span>]<span class="op">!=</span><span class="dv">0</span>],</span>
@@ -701,7 +701,7 @@ R^2: -0.6583768837496257</code></pre>
 </section>
 <section id="what-does-this-plot-tell-you-about-the-answer-to-3-1" class="slide level2">
 <h2>What does this plot tell you about the answer to 3?</h2>
-<div id="ee6e3108" class="cell" data-execution_count="7">
+<div id="eca46fc2" class="cell" data-execution_count="7">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href=""></a>(pn.ggplot()</span>
 <span id="cb8-2"><a href=""></a>    <span class="op">+</span> pn.geom_point(</span>
 <span id="cb8-3"><a href=""></a>      data<span class="op">=</span>p2df, </span>
@@ -855,12 +855,12 @@ R^2: -0.6583768837496257</code></pre>
 </section>
 <section id="python-example-set-up" class="slide level2">
 <h2>Python Example: Set up</h2>
-<div id="6d512650" class="cell" data-execution_count="8">
+<div id="dd013403" class="cell" data-execution_count="8">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href=""></a>p3df <span class="op">=</span> pd.read_csv(<span class="st">'data3p.csv'</span>)</span>
 <span id="cb9-2"><a href=""></a>p3df[<span class="st">'Month_n'</span>] <span class="op">=</span> p3df.index <span class="op">+</span> <span class="dv">1</span> </span>
 <span id="cb9-3"><a href=""></a><span class="co"># print(p3df.columns)</span></span>
 <span id="cb9-4"><a href=""></a>p3df <span class="co">#.dtypes</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="68">
+<div class="cell-output cell-output-display" data-execution_count="8">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -993,7 +993,7 @@ R^2: -0.6583768837496257</code></pre>
 </section>
 <section id="python-example-plot-the-data-miles" class="slide level2">
 <h2>Python Example: Plot the data (miles)</h2>
-<div id="2a6e6dfb" class="cell" data-execution_count="9">
+<div id="1ab06b28" class="cell" data-execution_count="9">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href=""></a>(pn.ggplot() </span>
 <span id="cb10-2"><a href=""></a> <span class="op">+</span> pn.geom_point(</span>
 <span id="cb10-3"><a href=""></a>    data<span class="op">=</span>p3df, mapping <span class="op">=</span> pn.aes(x<span class="op">=</span><span class="st">'Miles'</span>, y<span class="op">=</span><span class="st">'Operating Costs'</span>), </span>
@@ -1019,7 +1019,7 @@ R^2: -0.6583768837496257</code></pre>
 </section>
 <section id="plot-the-data-months" class="slide level2">
 <h2>Plot the data (months)</h2>
-<div id="c638b17e" class="cell" data-execution_count="10">
+<div id="e885794b" class="cell" data-execution_count="10">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href=""></a>(pn.ggplot() </span>
 <span id="cb11-2"><a href=""></a> <span class="op">+</span> pn.scale_x_continuous(breaks<span class="op">=</span><span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">13</span>, <span class="dv">1</span>))</span>
 <span id="cb11-3"><a href=""></a> <span class="op">+</span> pn.geom_point(</span>
@@ -1028,9 +1028,9 @@ R^2: -0.6583768837496257</code></pre>
 <span id="cb11-6"><a href=""></a> <span class="op">+</span> pn.geom_point(</span>
 <span id="cb11-7"><a href=""></a>    data<span class="op">=</span>p3df, mapping <span class="op">=</span> pn.aes(x<span class="op">=</span><span class="st">'Month_n'</span>, y<span class="op">=</span><span class="st">'Maintenance Costs'</span>), </span>
 <span id="cb11-8"><a href=""></a>    color<span class="op">=</span><span class="st">'blue'</span>)</span>
-<span id="cb11-9"><a href=""></a> <span class="op">+</span> pn.geom_point(</span>
-<span id="cb11-10"><a href=""></a>    data<span class="op">=</span>p3df, mapping <span class="op">=</span> pn.aes(x<span class="op">=</span><span class="st">'Month_n'</span>, y<span class="op">=</span><span class="st">'Miles'</span>), </span>
-<span id="cb11-11"><a href=""></a>    color<span class="op">=</span><span class="st">'black'</span>)</span>
+<span id="cb11-9"><a href=""></a> <span class="co"># + pn.geom_point(</span></span>
+<span id="cb11-10"><a href=""></a> <span class="co">#    data=p3df, mapping = pn.aes(x='Month_n', y='Miles'), </span></span>
+<span id="cb11-11"><a href=""></a> <span class="co">#    color='black')</span></span>
 <span id="cb11-12"><a href=""></a>   )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
