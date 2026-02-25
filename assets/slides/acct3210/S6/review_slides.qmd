@@ -415,7 +415,6 @@ submit your question.
 ## Economic significance of interactions.
 
 - This topic comes up in the discussion of cost functions with interactions between two products. 
-  - LINK 
   - In general, if $y = f(x_1,x_2)$ if there is an interaction then the effect of each of the interacted variables (the 'x' variables) on the value of the function depends on the level of the other variable. 
   - i.e. if $y = x_1\times x_2$ then the effect of $x_1$ on $y$ depends on the level of $x_2$.
   - This means that the function is not _separable_. We cannot separate the effects of the two variables from each other. 
@@ -448,5 +447,6 @@ __Interactions are non-linearities.__
 - Synergy is a broad term for beneficial interactions between products or business units. 
 - Shared capital is one example. 
 - In the example we did in class we had shared capital the meant that we could purchase capital for one product and then use it to make another product without having to repurchase it. 
-- This is a source of non-linearity.
+- This is a source of non-linearity. Notice the effect of substituting the
+constraint into the objective function in both lectures 4 and 5. 
 
