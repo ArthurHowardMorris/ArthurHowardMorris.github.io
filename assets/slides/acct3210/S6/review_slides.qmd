@@ -22,10 +22,10 @@ jupyter: python3
 ## Exam Details 
 
 - Time: 8:00 PM to 9:00 PM (2000-2100) 
-- Date: Tuesday, 18 March 2025 
-- Location: LTC and LTD (room assignments will be posted on Canvas) 
-- We will arrange a separate room for students with conflicting exams. Please
-contact us if you have a conflict.
+- Date: Tuesday, 24 March 2026 
+- Location: LTA (room assignments will be posted on Canvas) 
+- We will arrange a separate room for students with conflicting exams and SEN
+students. Please contact us if you have a conflict.
 - The midterm is only 18\% of your grade, and is intended to be a preparation
 exercise for the final exam.
 
@@ -56,7 +56,9 @@ the constraints of the exam.
   Please outline the steps he needs take in the space provided. The names of
   the commands do not have to be precise, and you can assume that he has this
   tool installed and has a basic understanding of how to use it."
-- __I will not ask you open-ended questions__.
+- __I will not ask you open-ended questions__, and the questions will come from
+the homework (this means that the homework questions _are_ practice exam
+questions.
 
 # Lecture Overviews 
 
@@ -78,8 +80,7 @@ of data collection, management, and analysis. (esp. the quoted sections)
 
 ## Lecture 1: Key Point 2 - The Location of Management Accounting within the VSM 
 
-- Review the viable systems model (basic idea of the 5 systems), the concept of
-a resource bargin, and the location of the management accountant within the
+- Review the viable systems model (VSM). Especially: the basic idea of the 5 systems, the concept of a resource bargin, and the location of the management accountant within the
 VSM. 
 
 ## Lecture 1: Key Point 2 - The Location of Management Accounting within the VSM 
@@ -107,7 +108,7 @@ Are you comfortable manipulating cost functions?
 
 1. Can you derive an average cost function from a total cost function?
 2. Can you derive a marginal cost function from a total cost function?
-3. Can you deive an incremental cost function from a total cost function?
+3. Can you derive an incremental cost function from a total cost function?
 4. Can you explain when 2 & 3 are different, and when that matters?
 5. Do you understand how real operations are likely to differ from the simple
 linear approximations used in introductory textbooks?
@@ -131,6 +132,7 @@ linear approximations used in introductory textbooks?
 
 ## Lecture 2: Manipulating Cost Functions 
 
+TODO: update links.
 - [Lecture notes.](https://arthurhowardmorris.github.io/resources/semesters/s2024/ACCTG3210.html#lecture-2-the-nature-of-costs)
 - [MC, IC, AC defined](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Session2Slides.slides.html#/3/2)
 - [The Total Cost Functions from the Assignment](https://arthurhowardmorris.github.io/assets/slides/acct3210/S2/Session2Slides.slides.html#/7)
