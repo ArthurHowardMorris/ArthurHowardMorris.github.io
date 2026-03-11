@@ -1,0 +1,429 @@
+---
+title: Incentives and managerial compensation
+jupyter:
+  kernelspec:
+    display_name: acct3210
+    language: python
+    name: acct3210
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+---
+
+
+<!-- ## The mid-term will cover:
+
+- P1-P7, Special Electric Case (focus on set up and interpretation )
+- The key concepts about taxes -->
+
+<!-- ## Key tax concepts:
+
+1. Assets, investments, and projects all have different pre-tax returns ($r$).
+2. Tax rates $t$ vary across individuals, jurisdictions, organizations, and assets.
+3. pre-tax returns $r$ correspond to post tax returns $r(1-t)$ 
+4. When preferential tax treatment increases demand for a tax favored asset it's price increases. This price change is an _implicit_ tax.
+5. When tax payers use organizational forms like pensions and insurance policies to avoid taxes it is called _organizational form arbitrage_.
+6. When high-tax tax payers issue taxable debt to finance the purchase of tax free debt (e.g. municipal bonds in the US) issued by low-tax tax payers (e.g. US non-profit universities) it is called _clientele arbitrage_.
+7. The depreciation tax shield is the present value of the reduction in tax payments afforded by the depreciation deduction.
+8. The value of the tax shield $TS$ is a function of the investment $x$, the risk-free rate of return $r$, the tax rate $t$, and the depreciation rate $d$.
+$$TS=f(x,t,d,r)$$
+9.  $TS$ is increasing in both  $d$ and $t$. -->
+
+<!--# Incentives and managerial compensation
+
+ - This lecture and the next are the beginning of the topics that we will move on to after the mid-term exam. This material will not be on the mid-term, but will be on the final exam. -->
+
+## The separation of ownership and control
+
+Consider an entrepreneur who starts a small restaurant.
+
+First, she works alone, cooking the food and serving customers. Then she hires a few employees to work with her, and they move into a larger space. The business grows and eventually the entrepreneur decides to open more locations and hire a manager to run the individual restaurants' day-to-day operations for her while she focuses on running the business.   
+
+#### Now the business has the following structure:
+
+```
+└── Terri (Owner of Terri's Amazing Restaurant)
+    ├── Jackson (Manages Location 1)
+    └── Jason (Manages Location 2)
+```
+
+Jackson and Jason now control the restaurants that Terri owns. She has hired them to run the restaurants while she focuses on other things. 
+
+## The separation of ownership and control
+
+#### How does she want them to make choices?
+
+Let's say that each manager has responsibility for:
+
+1. Planning the menu, which should balance cost, difficulty, predicability, and innovation.
+2. Buying the food, which should balance cost, quality, and reliability.
+3. Hiring the staff, which should also balance cost, quality, and reliability.
+
+```
+└── Terri (Owner of Terri's Amazing Restaurant)
+    ├── Jackson (Manages Location 1)
+    │   ├── Food
+    │   ├── Menu
+    │   └── Staff
+    └── Jason (Manages Location 2)
+        ├── Food
+        ├── Menu
+        └── Staff
+```
+
+## The separation of ownership and control
+
+#### How might Jason's and Jackson's priorities differ from Terri's?
+
+#### What if Jason is interested in moving from Terri's restaurant, located in Sai Kung, to Lung King Heen. A restaurant in central with three Michelin stars.
+
+#### What if Jackson is nearing retirement age?
+
+## Separating ownership and control leads to conflicts of interest
+
+- These situations may lead Jason and Jackson to make different choices than Terri would, had she retained control of the restaurants. 
+- When owners and managers have different interests, priorities, or incentives we refer to these as _conflicts of interest_.
+- These are natural, and as long as we know about them we can account for them.
+
+## More general terms: Principals and Agents
+
+- Conflicts of interest can occur at any level of an organization so we need slightly broader language to refer to what is going on here. 
+- We refer to _people who are hired to act on behalf of others_ as __agents__ and _those on whose behalf they act_ as __principals__. 
+- We refer to the _conflicts of interest_ that arise in these cases as "__principal-agent problems__"
+
+To illustrate lets consider the case that arises when the restaurants begin to operate separate services for lunch and dinner.
+
+   
+```
+└── Terri (Owner of Terri's Amazing Restaurant)
+    ├── Jackson (Manages Location 1)
+    │   ├── Annalee (Dinner)
+    │   │   ├── Food
+    │   │   ├── Menu
+    │   │   └── Staff
+    │   └── Caleb (Lunch)
+    │       ├── Food
+    │       ├── Menu
+    │       └── Staff
+    └── Jason (Manages Location 2)
+        ├── Robin (Dinner)
+        │   ├── Food
+        │   ├── Menu
+        │   └── Staff
+        └── Seth (Lunch)
+            ├── Food
+            ├── Menu
+            └── Staff
+```
+
+## Principal-Agent problems in large companies
+
+ ```bash
+└── Shareholders
+    └── CEO
+        ├── African Division Manager
+        │   ├── Distribution Manager
+        │   ├── Plant Manager
+        │   └── Sales Manager
+        ├── Asia-Pacific Division Manager
+        │   ├── Distribution Manager
+        │   ├── Plant Manager
+        │   └── Sales Manager
+        ├── European Division Manager
+        │   ├── Distribution Manager
+        │   ├── Plant Manager
+        │   └── Sales Manager
+        ├── North American Division Manager
+        │   ├── Distribution Manager
+        │   ├── Plant Manager
+        │   └── Sales Manager
+        └── South American Division Manager
+            ├── Distribution Manager
+            ├── Plant Manager
+            └── Sales Manager  
+```
+
+## Principal-Agent problems in large companies
+
+Each link involves a principal and an agent, with the former delegating
+substantial authority for making decisions to the latter. At every level conflicts of interest arise. 
+
+## Effort and costs
+
+#### Owners generally want effort and to avoid unnecessary expenses.
+
+- Why? 
+
+$$\Pi=R-C$$
+
+Because they get to keep the profits.
+
+
+## How might the manager's interests differ?
+
+#### If the manager doesn't get any of the profits:
+- Might pursue less productive, but more interesting work.
+- Might focus on external visibility in hope of getting a better job elsewhere.
+- Might use company resources for buying expensive office furniture, club memberships, and luxury travel.
+
+#### What are some things that we can do to address this?
+
+#### An incentive scheme is a payment or promotion plan to address a principal-agent problem.
+
+- What are potential incentive schemes?
+- Can be explicit or implicit.
+- Can be internal to the firm or external.
+
+## 1. Owners can make the CEO’s compensation a function of company profit
+
+$$\mathit{Bonus}=f(\pi)$$
+
+- Sometimes this is a step function, i.e. $\textit{Bonus} = \$10,000 \text{ if } \pi\geq \$100,000$ 
+- Sometimes this is a cut of the profits, i.e. $\mathit{Bonus}=\pi \times .01$
+- Often it's both.
+
+## 2. Owners can make the CEO an owner by granting shares of the company. 
+
+- In it's pure form the grant of shares is not related to performance, but the change in the value of the shares is intended to act as performance pay. 
+
+The CEO can then choose an incentive scheme for every divisional
+manager, based on company profits or performance evaluation of the division
+(which may in turn be based on output, costs, divisional profits, ROI, etc.).
+
+## Evaluation and incentives: Basic principles 
+
+Consider the manager of a factory. An owner’s return on investment in the
+factory depends on many factors. For example, the market price of raw materials
+and finished goods, and the number of equipment breakdowns will affect the
+factory’s profit and the owner’s return. These factors will cause the
+performance of the firm to be uncertain. The owner’s return will also depend to
+some extent on how hard-working and/or talented the manager is. If the manager
+works hard (i.e., if he can keep the machinery in good condition, react quickly
+to breakdowns, treat workers well and maintain discipline, etc.), his effort
+will be productive in the sense that it will increase the overall _probability_
+of good performance. Outstanding effort on the manager’s part, however, will
+not necessarily result in good performance, because factors beyond the
+manager’s control (such as external price fluctuations or deficient raw
+material supply) may make bad performance inevitable.
+
+#### In this situation, how should the manager be paid by the owner?
+
+## The controlability principal
+
+- One principle, to which many firms have traditionally adhered, is that the manager should be responsible only for those dimensions of performance that she can _control_.
+- Since the firm's good performance cannot be completely guaranteed by the manager, she should not be held responsible for, nor should her pay depend upon, factors she cannot control. 
+- We refer to this as the _controllability principle_.
+
+## Cases where we try to get Huckelberry Finn to work
+
+> Well, then, says I what's the use you learning to do right when it's
+> troublesome to do right and ain't no trouble to do wrong, and the wages is
+> just the same? I was stuck. I couldn't answer that. So I reckoned I wouldn't
+> bother no more about it, but after this always do whichever come handiest at
+> the time.
+
+> The Adventures of Huckleberry Finn
+> Mark Twain, 1884
+
+## The baseline: Effort aversion
+
+Beyond a certain point, Huck does not like to work. If every week Huck put in
+just forty hours, did not work too hard during any one of those hours, and took
+a reasonable paycheck home every Friday, Huck would be a happy guy. Sadly, Huck
+must do some things he finds unpleasant and hard in order to maintain his
+standard of living. Huck will not do these things unless he thinks the rewards
+outweigh his distaste for those activities.
+
+This shouldn't be confused with being "lazy", effort aversion also comes, in the limit, from the basic diversity of human needs. 
+
+## Scenario 1: Risk-Aversion
+
+Huck makes widgets in Miss Watson’s factory. The number of widgets produced
+depends partly on Huck’s effort and partly on random events. Huck can work
+hard, experience bad luck and widget output will be low. Or, Huck could shirk
+his duties, but with good luck, widget output is high. Ideally, Huck always
+works diligently. On average, if Huck is diligent, widget output is
+satisfactory.
+
+## A definition of risk aversion:
+
+#### Risk averse folks prefer sure things to risky bets
+
+Informal interpretation of risk aversion: __Holding the expected amount of pay constant, risk averse individuals get less value from pay plans that are more risky.__ 
+
+But, Huck may prefer a high variance/high mean pay plan to a low variance/low mean pay plan, depending on just how risk averse he is.
+
+<!-- TODO: add a little simulation here. -->
+
+## Case 1:
+
+#### Assume:
+- Miss Watson observes exactly how hard Huck works.
+- Miss Watson also observes Huck's production of Widgets.
+
+#### __Question:__ How should Miss Watson compensate Huck?
+- Scenario A: Huck is risk neutral
+- Scenario B: Huck is risk averse
+  
+#### Consider:
+- a salary;
+- a bonus based on the effort Huck exerts;
+- a bonus based on the number of widgets produced.
+
+## Insights:
+
+- _Salary_: we can always do better (make Huck more diligent) with a bonus. 
+- If Huck is risk neutral both performance measures are equally effective at motivating effort.
+    - i.e. we can get "on average satisfactory widget output" by putting the same weight on either performance measure.
+    - if the bonus plan is "\\$10 per widget", then \\$10 is the weight on widgets.
+- If Huck is risk averse then the widget-based performance measure will be less efficient because we will have to compensate Huck for risk as well as effort.
+    - We will have to pay more to get the same amount of effort i.e. put more weight on widgets.
+
+## Case 2:
+
+#### Assume:
+- Miss Watson cannot observe what Huck does.
+
+#### __Question:__ How should Miss Watson compensate Huck?
+- Scenario A: Huck is risk neutral
+- Scenario B: Huck is risk averse
+  
+#### Consider:
+- a salary;
+- a bonus based on the number of widgets produced.
+
+## Insights:
+
+- _Salary_ neither the risk-averse, nor the risk-neutral Huck will be diligent (same as above) 
+    - His payoff is the same whether he is diligent or not.
+- We will use a widget-based bonus in both cases
+- The effort of the risk averse agent will always be more expensive!
+
+## Some follow-up questions:
+- Why do we observe a mix of salary and bonus?
+- What is the maximum possible bonus?
+- What does it mean if the bonus per widget is equal to the selling price of widgets and the salary is negative? 
+- Can you give a realistic example that corresponds closely to Case 1B and the "salary" is negative?
+
+## Some follow-up questions:
+- Why do we observe a mix of salary and bonus?
+    - Risk aversion is decreasing in wealth, so the salary makes folks less risk averse.
+- What is the maximum possible bonus?
+    - The value of the output!
+- What does it mean if the bonus per widget is equal to the selling price of widgets and the salary is negative? 
+    - This is equivalent to selling the inputs to the employee and letting the employee keep the sales.
+- Can you give a realistic example that corresponds closely to Case 1B and the "salary" is negative?
+    - This is how _most_ retail businesses work.
+    - Many products are sold through networks of independent distributers, and integrated retail operations (like the apple store) are exceptions. 
+
+## Additional considerations
+
+- Consider how output and associated risks are shared between Miss Watson and Huck in each of these examples. 
+- Do pay plans exist that make Miss Watson and Huck both better off than others? 
+- What is the source of such improvements in Miss Watson’s and Huck’s welfare?
+
+## Scenario 2: Controllability/Informativeness
+
+#### Assume:
+
+1. Huck is risk-averse.
+2. Miss Watson does not know exactly what Huck does.
+3. In addition to the number of widgets produced, Miss Watson has some other
+   data that is informative of Huck’s effort. 
+#### __Question:__ How should Miss Watson compensate Huck?
+
+#### Consider:
+- a salary;
+- a bonus based on the number of widgets produced;
+- a bonus based on the aggregation of data generated in the production process;
+- a bonus based on the price of Milk Tea in Tai Po.
+
+## A new use for accounting information!
+
+-  What is the internal value of this information about the production process?
+- One interpretation of this 'other information' could be that it is an accounting report.
+-  In and of itself, the accounting report has no value to either Miss Watson or Huck. It cannot be sold for cash as widgets are.
+- If the accounting information improves the contract between Huck and Miss Watson, then it has value. 
+- Would Miss Watson pay some money to acquire such a report?
+- Would Huck?
+
+
+## What do we learn from this silly example?
+
+##### __General result:__ Whenever signals are informative of Huck’s actions, the joint surplus available to Huck and Miss Watson can be increased by modifying the contract to incorporate these components.
+
+- These signals are 'System 2' in the viable systems model. 
+- This is information that helps coordinate effort across operational units (System 1).
+- These signals, and the compensation plans based on them are one way how System 3 (the internal control system/Managerial Accountants) transmit goals and future plans from management to operations.
+
+## What do we learn from this silly example?
+
+##### __Observation 1:__ If the firm’s performance does not depend at all on the manager’s action, he should be paid a fixed salary.
+
+##### __Observation 2:__ If the firm’s performance depends upon the manager’s actions, and if these actions can be monitored perfectly by the principal, the incentive problem can be solved perfectly.
+
+##### __Observation 3:__ If the firm’s performance depends upon manager’s action, and this action is not directly observable by the principal, then observable measures of performance can be used as measures of the manager's action. 
+
+- This is because the performance variable permits the principal to partly infer the manager’s action. 
+- Making compensation depend on performance can influence the manager’s action in a mutually desirable way.
+- There are also drawbacks to this approach. 
+    - Risk averse managers will demand a risk premium.
+    - Simple performance measures may lead to surprising, and counter productive actions!
+
+##### __Observation 4 :__ If the firm’s performance depends upon the manager’s action, and this action is not directly observable by the principal, the manager may end up with a low rather than a high bonus, even if he chooses the action that the principal wants. 
+
+- That is, he may be held responsible for factors outside his control.
+- Thus, the _controllability principle_ need not be valid in all situations. 
+- To see another illustration of this, consider whether the manager ought to be evaluated on the basis of the performance of other firms in a similar situation.
+
+##### __Observation 5 :__ Relative performance evaluation 
+
+— Consider several firms operating in the same industry. 
+- In such cases, we often find a significant correlation between the performances of the different firms that is due to the commonality of the non-controllable factors (like market fluctuations in input and output prices). 
+- At times, the correlation with a given competitor might be particularly high; e.g., the other firm might purchase its raw material from the same source. 
+- In this case, the principal will often find it advantageous to base the salary of the manager not only on the performance of her own firm, but also on the performance of the other firms (which is completely beyond the manager’s control).
+
+
+## Note on risk and control:
+
+- Incentive schemes for managers base pay on the performance of the firm (or division or plant) to which they are assigned. 
+- Since performance depends on a large number of variables beyond managers’ control, these managers may end up bearing a lot of risk.
+
+- In other situations—where the firm’s performance is totally independent of their actions, or where their actions can be directly observed by the principal—there is no need to impose so much responsibility on managers.  
+- Because the principal can usually absorb risk more easily than managers, it is more efficient to offer managers a fixed salary (and fire the manager if he deviates from the course of action expected by the principal). _Gig work, arguably shifts risk to workers._
+
+
+## Concluding caveat
+
+- Basing pay on the firm’s performance is sensible only if this performance is influenced by the manager’s actions, and these actions are not directly observed by the principal. 
+- Then the manager must be induced indirectly to choose desirable actions: 
+- this is achieved by basing the manager’s pay on whatever variables permit some inference about the manager’s actions. 
+- While this may impose risk on the managers, some risk/responsibility is necessary to provide managers with appropriate incentives to work hard. 
+- In these situations, the manager may be evaluated on the basis of variables beyond his control.
+
+### __Question:__ How were you evaluated in your last employment?
+- $Actual_{t}$ to $Actual_{t−1}$
+- $Actual_{t}$ to $Budget_{t}$
+- $Actual_{t}$ to $Standard_{t}$
+
+Keep this in mind when we get to budgets and standards later in the semester.
+
+## Responsibility Accounting 
+
+- To implement incentive schemes, organizational performance must be decomposed into components that reflect, as nearly as possible, individual contributions.
+- Responsibility accounting is a system of accounting that recognizes various responsibility centers throughout the organization.
+- Such an accounting system reflects the plans and actions of each of these centers by allocating particular revenues and costs to those having the pertinent responsibilities (also called profitability accounting and activity accounting). 
+
+## The most common types of responsibility centers are:
+
+- Cost center:
+- Profit center:
+- Revenue center:
+- Investment center:
+
+## Desirable features of responsibility accounting
+- strong link between performance and compensation
+- clear distinction between controllable versus non-controllable budget items
+- timeliness
+

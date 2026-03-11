@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="lecture8taxes_files/libs/clipboard/clipboard.min.js"></script>
+<script src="lecture8taxes_files/libs/quarto-html/tabby.min.js"></script>
+<script src="lecture8taxes_files/libs/quarto-html/popper.min.js"></script>
+<script src="lecture8taxes_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="lecture8taxes_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="lecture8taxes_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="lecture8taxes_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <title>Taxation of returns</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="lecture8taxes_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="lecture8taxes_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="lecture8taxes_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="custom-styles.css">
+  <link href="lecture8taxes_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="lecture8taxes_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="lecture8taxes_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="lecture8taxes_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Taxation of returns</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="three-things-that-id-like-to-acknowledge" class="slide level2 scrollable">
+<h2>Three things that I’d like to acknowledge:</h2>
+<ol type="1">
+<li>The assignment focuses on personal finance examples with relatively complex formulae that are not the point of the exercise.</li>
+<li>The examples are U.S. focused.</li>
+<li>More interesting examples would also include jurisdiction choices, like the choice to operate in Hong Kong rather than the U.S. or Europe. (We will do a case like this soon)</li>
+</ol>
+</section>
+<section id="why-think-about-non-hong-kong-tax-rates" class="slide level2">
+<h2>Why think about non-Hong Kong tax rates?</h2>
+<p><em>Hong Kong is a low tax rate jurisdiction, so this foreign tax rates will be very relevant… <strong>especially</strong> if you plan to work in Hong Kong.</em></p>
+<p>Taxes shape behavior <em>explicitly</em> by decreasing demand for investments that are taxed relative to those that are not, and <em>implicitly</em> by increasing the cost (lowering yield) of those investments that are not taxed.</p>
+<p>In addition to investment choices, <strong>organizational form arbitrage</strong> and <strong>clientele-based arbitrage</strong> are ways that taxes shape behavior.</p>
+</section>
+<section id="high-level-insights-from-the-lecture" class="slide level2 scrollable">
+<h2>High-level insights from the lecture:</h2>
+<ol type="1">
+<li>Tax rates impact returns.
+<ul>
+<li>Not just net-of-tax returns, but <strong>returns themselves</strong>.</li>
+</ul></li>
+<li>Tax rates vary across individuals, jurisdictions, and investments. These differences change choices, and demand for assets.</li>
+<li>This creates variation in demand, and yield, for investments and jurisdictions. These are implicit taxes.</li>
+</ol>
+</section>
+<section id="tax-rates-and-implicit-taxes" class="slide level2">
+<h2>1. Tax rates and implicit taxes</h2>
+<p>Let’s think about the following situation:</p>
+<ul>
+<li>Companies issue bonds to raise capital, the interest rate (<span class="math inline">\(r_B\)</span>) (base rate + credit spread) on these bonds is called ‘bond yield’. Bond yield is income for the holder of the bond (the ‘lender’).
+<ul>
+<li>This income is taxed by U.S. States (<span class="math inline">\(t_{S}\)</span>) and the U.S. Federal Government (<span class="math inline">\(t_{F}\)</span>).</li>
+</ul></li>
+<li>The U.S. Treasury issues bonds to raise capital, the yield on these bonds (<span class="math inline">\(r_{T}\)</span>) is also income for the holder of the bond.
+<ul>
+<li>This income is <em>only</em> taxed by the U.S. Federal Government (<span class="math inline">\(t_{F}\)</span>) but not by U.S. States.</li>
+</ul></li>
+</ul>
+</section>
+<section id="an-aside-on-tax-rates" class="slide level2">
+<h2>An aside on tax rates</h2>
+<p>Yes, you read that right. If you lend money to the U.S. Government, they tax the interest that they pay you, but they do not let the states tax you (that makes sense, you didn’t earn that money <em>in</em> the state where you live).</p>
+<p>The reverse is also true, so:</p>
+<ul>
+<li>State and Local Bonds only pay state tax: <span class="math inline">\(t_{S}\)</span></li>
+<li>Federal Bonds only pay Federal Tax: <span class="math inline">\(t_{F}\)</span></li>
+</ul>
+<p>Now, what is important here is that we have a real example with different tax rates on similar investments. <em>Not the details of the U.S. tax system, which is <strong>insane</strong>.</em> Examples like this are harder to come by in more sensible tax regimes like Hong Kong :)</p>
+</section>
+<section id="tax-rates-and-implicit-taxes-1" class="slide level2">
+<h2>1. Tax rates and implicit taxes</h2>
+<p>So we have two bonds (corporate, and US Federal) with two yields, taxed at two rates.</p>
+<ul>
+<li>Corp.&nbsp;Bond Pretax Yield: <span class="math inline">\(r_{B}\)</span> Taxed at <span class="math inline">\(t_{F}\)</span> then <span class="math inline">\(t_{S}\)</span>.
+<ul>
+<li>Corp.&nbsp;After Tax Yield: <span class="math display">\[r_{B'}=r_{B}(1-t_{F}-t_{S}(1-t_{F}))\]</span> <span class="math display">\[r_{B'}=r_{B}(1 - t_{F})(1 - t_{S})\]</span></li>
+</ul></li>
+<li>US Treas. Bond Pretax Yield: <span class="math inline">\(r_{T}\)</span>. Taxed at <span class="math inline">\(t_{F}\)</span>.
+<ul>
+<li>US Treas. After Tax Yield: <span class="math display">\[r_{T'}=r_{T}(1 - t_{F})\]</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="tax-rates-and-implicit-taxes-2" class="slide level2">
+<h2>1. Tax rates and implicit taxes</h2>
+<h3 id="so-if-r_br_t-which-do-you-prefer">So if <span class="math inline">\(r_B=r_T\)</span> which do you prefer?</h3>
+<ul>
+<li><span class="math inline">\(r_{B'}=r_{B}(1 - t_{F})(1 - t_{S})\)</span></li>
+<li><span class="math inline">\(r_{T'}=r_{T}(1 - t_{F})\)</span></li>
+</ul>
+<p><strong>It depends on <span class="math inline">\(t_S\)</span>.</strong></p>
+</section>
+<section id="us-tax-rates-by-state" class="slide level2">
+<h2><a href="https://en.wikipedia.org/wiki/State_income_tax#/media/File:Top_Marginal_State_Income_Tax_Rate.svg">US Tax Rates by State</a></h2>
+</section>
+<section id="tax-rates-and-implicit-taxes-3" class="slide level2">
+<h2>1. Tax rates and implicit taxes</h2>
+<p>If <span class="math inline">\(r_B=r_T\)</span> and <span class="math inline">\(t_S=0\)</span> then <span class="math inline">\(r_{B'}=r_{T'}\)</span></p>
+<p>So for investors that are located in Alaska, Florida, Nevada, South Dakota, Tennessee, Texas, Washington, and Wyoming there is no difference between the two.</p>
+<p>But for most of the population of the US <span class="math inline">\(t_S&gt;0\)</span> so <span class="math inline">\(r_{B'}&lt;r_{T'}\)</span>!</p>
+<ul>
+<li>Given what we know about markets, what does this suggest about the relationship between corporate bond yields (<span class="math inline">\(r_B\)</span>) and US Treasury yields (<span class="math inline">\(r_T\)</span>) on average? I.e. which is higher on average?</li>
+</ul>
+</section>
+<section id="tax-rates-and-implicit-taxes-4" class="slide level2">
+<h2>1. Tax rates and implicit taxes</h2>
+<ul>
+<li>Tax favored status increases demand for assets, increased demand decreases yields.</li>
+<li>So on average <span class="math inline">\(r_B&gt;r_T\)</span> because there is more demand for Treasury bonds.</li>
+<li>You can think of this as companies having to pay higher rates to get people to lend to them (i.e.&nbsp;buy their bonds).</li>
+</ul>
+<p>This difference in yields caused by the impact of tax-favored status is called an <strong>implicit tax</strong>.</p>
+</section>
+<section id="tax-rates-and-implicit-taxes-5" class="slide level2">
+<h2>1. Tax rates and implicit taxes</h2>
+<ul>
+<li><strong>Explicit Taxes</strong> reduce after tax yields directly.</li>
+<li><strong>Implicit Taxes</strong> reduce pre-tax yields through demand pressure.</li>
+</ul>
+<p><span class="math display">\[ Implicit\;Tax\;Rate = \frac{Benchmark\;Return - Asset\;Return}{Benchmark\;Return}\]</span></p>
+<p>where the benchmark is an investment with the same risk.</p>
+<p>The higher are state taxes, the more attractive Treasury securities become. Demand for Treasuries pushes their yield down. This example is an illustration of tax clienteles. It also shows that ignoring implicit taxes leads to overestimation of the risk premium applicable to corporate debt.</p>
+</section>
+<section id="bond-example" class="slide level2">
+<h2>Bond example:</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th></th>
+<th>Coupon</th>
+<th>Maturity</th>
+<th>Price</th>
+<th>Yield</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Amoco Aaa/AAA</td>
+<td>8.625</td>
+<td>12/2016</td>
+<td>105.953</td>
+<td>8.060</td>
+</tr>
+<tr class="even">
+<td>U.S. Gov</td>
+<td>7.5</td>
+<td>11/2016</td>
+<td>99.4375</td>
+<td>7.55</td>
+</tr>
+</tbody>
+</table>
+<p>Ignoring the differences in risk, the implicit tax is:</p>
+<p><span class="math display">\[\frac{8.060-7.55}{8.060}=6.3\%\]</span></p>
+<p>Questions:</p>
+<ul>
+<li>Which assets should a pension invest in? (Only proceeds from pensions are taxed)</li>
+<li>Which asset should a resident of Florida or Texas invest in? (These states have no income tax)</li>
+<li>Which asset should a resident of California, Minnesota, or New York invest in? (These states have income tax, but do not tax interest income from U.S. Government bonds.)</li>
+</ul>
+</section>
+<section>
+<section id="tax-rate-progressivity" class="title-slide slide level1 center">
+<h1>2. Tax Rate Progressivity</h1>
+<p>Progressive tax rates increase with income.</p>
+<p>How progressive are tax rates? The answer you reach depends on where you look for evidence.</p>
+</section>
+<section id="enacted-tax-rates" class="slide level2">
+<h2>2.1 Enacted Tax Rates</h2>
+<ul>
+<li>Explicit tax rates are often sharply progressive. In the United States at various times, income tax rates have ranged between zero and 70 percent, suggesting that tax rates are very progressive.</li>
+</ul>
+</section>
+<section id="tax-returns" class="slide level2">
+<h2>2.2 Tax Returns</h2>
+<ul>
+<li>For low income, low tax rate taxpayers, the amount of explicit tax paid to the taxing authority as a fraction of income may be quite large.</li>
+<li>The fraction may even be higher than the corresponding fraction for wealthy, high income individuals.</li>
+<li>For instance, a very wealthy individual may have a large investment in municipal bonds on which no tax is paid to the Treasury.</li>
+<li>This suggests that taxes are, in fact, not very progressive.</li>
+</ul>
+</section>
+<section id="combined-productivity" class="slide level2">
+<h2>2.3 Combined Productivity</h2>
+<ul>
+<li><p>By considering the sum of explicit and implicit taxes paid by each taxpayer, it becomes apparent that substantial implicit taxes are often paid by high tax rate taxpayers in place of explicit taxes that would be even greater.</p></li>
+<li><p>Thus, tax rates are more progressive than an examination of tax returns would suggest, but less progressive than enacted tax rates would suggest.</p></li>
+<li><p>The erosion of the progressivity in enacted tax rates depends upon the nature and availability of differentially taxed assets that investors facing varying marginal taxes may choose to trade.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="arbitrage" class="title-slide slide level1 center">
+<h1>3. Arbitrage</h1>
+
+</section>
+<section id="organizational-form-arbitrage" class="slide level2">
+<h2>3.1 <strong>organizational form arbitrage</strong></h2>
+<p>The process of taking a long position in an asset or activity through a <em>favorably</em> taxed organizational form, and a short position in an through an <em>unfavorably</em> taxed organizational form.</p>
+<p>If there are no limits on <strong>organizational form arbitrage</strong>, then all taxes can be eliminated.</p>
+</section>
+<section id="examples" class="slide level2">
+<h2>Examples:</h2>
+<ul>
+<li>Pensions and certain life insurance policies are organizational forms that are favorably taxed.</li>
+<li>To eliminate taxes on personal income earned outside these vehicles there are two possible strategies.</li>
+</ul>
+<p>Suppose you anticipate salary income in the future which you wish to shelter from tax.</p>
+</section>
+<section id="insurance-policy-strategy" class="slide level2 scrollable">
+<h2>Insurance policy strategy</h2>
+<ol type="1">
+<li>Issue tax-deductible debt on personal account. (i.e.&nbsp;get a student loan)</li>
+<li>Use the proceeds to buy <strong>similar</strong> taxable bonds inside the insurance policy.</li>
+<li>Borrow enough money so that the interest deductions equal taxable salary.</li>
+<li>Surrender the policy for its cash value and receive tax-free a payment equal to the principal and interest due on your borrowings.</li>
+</ol>
+<p><em>Limited by your access to deductible interest.</em></p>
+</section>
+<section id="pension-strategy" class="slide level2 scrollable">
+<h2>Pension strategy</h2>
+<ol type="1">
+<li>Contribute all of your taxable income to the pension.<br>
+</li>
+<li>Then borrow for current consumption needs.</li>
+<li>Secure your borrowings with the pension assets.</li>
+<li>Repay your borrowings when you draw on your pension.</li>
+<li>You pay no tax on the funds distributed from the pension because you have unused interest expense deductions from your borrowings.</li>
+</ol>
+<p><em>Limited by your access to deductible interest.</em></p>
+</section>
+<section id="clientele-based-arbitrage" class="slide level2">
+<h2>3.2 <strong>clientele-based arbitrage</strong></h2>
+<p>High-tax-rate organizations take long positions in tax-favored assets (these assets bear implicit taxes), and short positions in tax-disfavored assets (explicitly taxed).</p>
+<p><a href="https://www.ird.gov.hk/eng/tax/bus_qdi.htm">Low-tax-rate organizations take the opposite positions.</a></p>
+<p>If there are no limits on clientele-based arbitrage, then all taxpayers must face the same marginal rate of tax, namely zero!</p>
+</section>
+<section id="example" class="slide level2">
+<h2>Example:</h2>
+<ul>
+<li>Suppose a taxable bond yields <span class="math inline">\(R_B = 10\%\)</span> and a muni (municipal) bond yields <span class="math inline">\(R_M =7\%\)</span>.</li>
+<li>Tax exempt universities and municipalities issue munis and buy taxable bonds so long as <span class="math display">\[R_B &gt; R_M\]</span></li>
+<li><strong>This drives down the yield on corporate bonds</strong></li>
+</ul>
+<h3 id="implications">Implications:</h3>
+<ul>
+<li>Each tax-exempt organization able to issue munis wants to buy taxable bonds.</li>
+<li>So the marketplace is flooded with muni debt issued by the tax-exempt entities, so the yield offered on munis has to rise.</li>
+<li>When the pre-tax yields on munis and taxable debt equilibrate, say at 8%, then it becomes possible for all entities that face a positive explicit rate of tax to generate sufficient deductions to eliminate all tax payments.</li>
+</ul>
+</section>
+<section id="the-strategy" class="slide level2">
+<h2>The Strategy:</h2>
+<p><strong>The strategy used by taxpayers who would otherwise have taxable income is as follows:</strong></p>
+<ul>
+<li>Issue taxable bonds at 8%.</li>
+<li>Each dollar of debt issued generates 8 cents of tax deductions that can be used to reduce other taxable income.</li>
+<li>The proceeds from the debt issue are invested in tax-exempt muni bonds, so cash flows from borrowing and lending wash.</li>
+</ul>
+</section></section>
+<section>
+<section id="alternative-savings-vehicles" class="title-slide slide level1 center">
+<h1>“Alternative Savings Vehicles”</h1>
+
+</section>
+<section id="question-1" class="slide level2">
+<h2>Question 1:</h2>
+<p>Fill in the table. Notice that tasks which lend themselves to tabular comparisons, especially when we only need to consider a few outcomes, are where Excel really shines.</p>
+<p>However, we always need to be attentive to Excel’s ability to hide errors.</p>
+</section>
+<section id="question-2" class="slide level2">
+<h2>Question 2:</h2>
+<blockquote>
+<p>How do optimal investment strategies change as a function of tax rates, lengths of investment horizon, and age?</p>
+</blockquote>
+<ul>
+<li><strong>Tax rates:</strong> In general, high tax rate decision makers prefer tax exempt vehicles.</li>
+<li><strong>Horizon:</strong> As horizon increases investors prefer SPDAs. Notice that at the 20 year horizon the penalty is still preferred.</li>
+<li><strong>Age:</strong> The probability of early withdrawal is decreasing with age, thus the SPDA becomes more attractive.</li>
+</ul>
+</section>
+<section id="question-3" class="slide level2">
+<h2>Question 3:</h2>
+<p>Focus on the timing of cashflows and the payments avoided.</p>
+</section>
+<section id="question-4" class="slide level2">
+<h2>Question 4:</h2>
+<p>Now we loose the benefit of the tax deduction.</p>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="lecture8taxes_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="lecture8taxes_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="lecture8taxes_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="lecture8taxes_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="lecture8taxes_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="lecture8taxes_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="lecture8taxes_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="lecture8taxes_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="lecture8taxes_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="lecture8taxes_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
