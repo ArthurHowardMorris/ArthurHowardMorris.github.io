@@ -40,7 +40,7 @@ Consider an entrepreneur who starts a small restaurant.
 
 First, she works alone, cooking the food and serving customers. Then she hires a few employees to work with her, and they move into a larger space. The business grows and eventually the entrepreneur decides to open more locations and hire a manager to run the individual restaurants' day-to-day operations for her while she focuses on running the business.   
 
-#### Now the business has the following structure:
+## Now the business has the following structure:
 
 ```
 └── Terri (Owner of Terri's Amazing Restaurant)
