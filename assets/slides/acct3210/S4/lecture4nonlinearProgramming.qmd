@@ -305,11 +305,14 @@ k.value=200
 $$ \Pi(P,C) \equiv + 300 \times q_2  - 175 \times \frac{q_2^2}{K} - 100 \times K $$
 
 ```{python}
+#| echo: true
 m.Maximize(
     300*q2 - 175*((q2**2)/k) - 100*k
 )
 m.solve(disp=False)
-profit = (300*q2.value[0] - 175*((q2.value[0]**2)/k.value[0]) - 100*k.value[0])
+profit = (
+  300*q2.value[0] - 175*((q2.value[0]**2)/k.value[0]) - 100*k.value[0]
+)
 l2 = q2.value[0]**2/k.value[0]
 ```
 
@@ -553,7 +556,7 @@ plt.show()
 
 - These are the profitable production plans, and the one at the top is the optimal plan.
 
- ## What interesting insights or questions jump out from these facts?
+## What interesting insights or questions jump out from these facts?
 
 - Now there is some synergy!
 - The functions are no longer separable
@@ -711,3 +714,4 @@ __BUT WAIT! Dr. Morris this last one is really hard in Excel! :(__
 
 ... I won't ask you to do that part on the exam!
 
+<!-- TODO: next year add the derivative calc to the end of the slides -->

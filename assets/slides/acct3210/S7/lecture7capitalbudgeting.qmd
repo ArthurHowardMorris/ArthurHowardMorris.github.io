@@ -1,0 +1,193 @@
+---
+title: Capital budgeting, and the time value of money
+jupyter:
+  kernelspec:
+    display_name: acct3210
+    language: python
+    name: acct3210
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+---
+
+# The Time Value of Money
+
+## Opportunity cost and the time value of money
+
+- This lecture is essentially a review of the idea that when things happen matters!
+- Consumption of resources comes with opportunity costs and __time__ is an important resource.
+- Keep in mind that this course gathers ideas from several disciplines, so some of this will be review for those who have taken parts of this in other courses.
+
+## Opportunity cost and the time value of money
+
+> Calculating the opportunity cost of alternatives that involve cash flows occurring at different points in time is complicated because a dollar today is not equivalent to a dollar tomorrow. Time is money! A dollar received today can be invested and earn interest and is therefore worth more than a dollar tomorrow. 
+
+- Opportunity cost is the fundamental idea behind the time value of money. 
+- We are going to express the value of not consuming or having a resource now as an interest rate. 
+- The amount you would pay or be paid to have the resource at a different time.
+
+# Examples
+
+## Example
+
+If you have an account that earns 5% per year and \$1000 then you should never do anything with that money that earns less than \$50 per year.
+
+- Keep in mind that textbooks often refer to savings accounts that have 5% returns, this is because they were all written in the 70s and 80s when such things existed 
+- Note: I originally wrote this sentence in 2023, of course, now I have an account with 5% apr. 
+- Note: I wrote that sentence in 2024... now that account makes less.
+- We'll keep this rate, because firms will often have options that can earn returns in this range. So while we call this an "account" you can think of this as an investment opportunity.
+
+## Example
+
+Often you'll hear people say that certain assets are good investments because they hold their value. This assumes that all of your other opportunities offer negative returns! 
+
+Consider the purchase of a \$6,000 watch today which holds it's value for ten years. Basically, the proposition is to give Rolex \$6,000 today and then give the watch to someone in ten years and have them give us \$6,000 in exchange.
+
+To evaluate this we need a way to express the relationship between dollars now and dollars in the future. One way to think of the interest rate is the amount that makes you indifferent between getting the money now and at the end of the year. 
+
+## So what is that rate?
+
+Beginning-of-year dollars × (1 + Interest rate) = End-of-year dollars
+
+If we want to do this over more periods we can make the following changes:
+
+Beginning-of-term dollars $\times$ (1 + Period Interest Rate)$^{Number\;of\;Periods}$ = End-of-term dollars.
+
+This approach assumes that the interest in the account goes back into the account. This is the same as reinvesting profits.
+
+## Define a Function for Future Value:
+
+```{python}
+#| echo: true
+# only python example of the lecture
+def futureValue(r,t,p):
+    return p*(1+r)**t
+```
+
+## Calculate the Rate and Opportunity Cost of the Watch:
+
+```{python}
+#| echo: true
+initial_price = 6_000
+years_to_sell = 10
+return_in_your_account = .05
+future_value = futureValue(return_in_your_account,years_to_sell,initial_price)
+
+print("value of account in ten years: ", future_value)
+print("value of watch in ten years:   ",initial_price)
+print("the opportunity cost of having \n the watch for ten years is:   ", future_value - initial_price)
+```
+
+## What do We Learn?
+
+As you can see, the value of "holding value" is not high if you have a productive investment opportunity! 
+- However, you may choose to mix the risk profile of your investments in order to avoid embarrasing situations like FTX, or SVB. This is idea behind bank reserves, it's not easy to get right. 
+
+A second thing that we should keep in mind is that our opportunity cost of any investment is going to be the market return or our next best project. Beating the market is hard, especially over very long timelines.
+
+# Interest Rates:
+
+## Interest rate fundamentals
+
+How do we compare cash flows that happen at different times?
+
+#### Future Values
+
+$$FV=PV(1+r)^n$$
+
+- $FV=$ Value in n years, this is a payment.
+- $PV=$ Value today
+- $r=$ interest rate (or other rate of return)
+
+Everything in time value of money is just reorganizing this formula.
+
+#### Present Values
+
+$$PV=\frac{FV}{(1+r)^n}$$
+
+## Present Value of a Cash Flow Stream
+How do we think about a project that generates income each year? We can just make one present value expression for each period of income!
+
+$$PV=\frac{FV_1}{(1+r)^1}+\frac{FV_2}{(1+r)^2}+\frac{FV_3}{(1+r)^3}+...+\frac{FV_n}{(1+r)^n}$$
+
+This gives us a framework for analyzing various projects with differing cashflows.
+
+> The net present value of a cash flow stream is the change in the value of the firm from accepting the project.
+
+
+## Perpetuities
+
+This is just the case where $n\to\inf$, and $FV_1=FV_2=FV_3= ... =FV_n$ The formula becomes:
+
+$$PV=\frac{FV'}{r}$$
+
+Here $PV$ is still the equivalent amount of cash today that you would trade for the flow of payments. But notice that the $FV'$ term is now representing a stream of equal payments. While this may be useful when considering wealth management questions, very few projects are well approximated by them.
+
+## Annuities
+
+Annuities are perpetuities with end dates. This leads to a slightly different formula:
+
+$$PV=\frac{FV}{r}\Big[1-\frac{1}{(1+r^n)}\Big]$$
+
+Notice two things, 
+- the FV stayed on the right hand side of the equation. this is because that is each of the future payments from the annuity.
+- this is just a simplification of the formula in 3. that we can use when we think that payments are going to be stable.
+
+
+##### While financial assets may have characteristics of annuities and perpetuities, real investment opportunities are unlikely to, especially in the long term.
+
+## Multiple Cash Flows per Year
+
+We may need to convert annual rates to monthly (or other duration rates). If we assume that a year-long monthly contract and an annual contract should have similar values then we can make the following generalization:
+
+$$(1+r_m)^{12}=(1+r)$$
+$$r_m=(1+r)^{1/12}-1$$
+
+This relationship should hold in theory, and the practice of interest rate arbitrage is related to this insight. However it is also common for the difference between a monthly payment plan and an annual one to be higher than the firm's long-term cost of capital suggesting that the law of one interest rate may not hold in every case.
+
+Items to consider:
+1. Why cash flows __not__ accounting earnings?
+2. Risk.
+3. Inflation.
+3. Taxes and Depreciation Tax Shields.
+
+## Use cashflows __not__ accounting earnings!
+
+Accounting earnings distort the timing of operations. They are intended to give _outside_ investors a snapshot of the economic value of the firm at a point in time. If we use them we could become accidentally insolvent, and we would not be able to make clear resource decisions because we loose ability to track what we have when.
+
+## Risk.
+
+ The higher the risk you won't get paid in the future the higher $r$ you will require to not get paid until the future. Getting the right rate of return is essential, and hard. Any investment decision based on $r$ is both a bet on the investment and a bet on the rate of return.
+
+If there are risk free assets available (like some government's debt) then we can think of $r$ as:
+
+$$r=r_f+r_p$$
+
+where $r_f$ is the return on the risk free asset and $r_p$ is the risk premium.
+
+## Inflation also impacts how we think about $r$.
+
+If inflation is $i$ percent per year, and \$1 of consumption is delayed for one year, it will take \$(1 + $i$) at the end of the year to buy the same \$1 bundle of goods as could have been purchased at the beginning of the year. 
+
+If inflation is 7 percent per year, buying the same \$1 bundle costs \$1.07 at the end of the year. To compensate for delaying consumption for one year when inflation is running at $i$ percent, the nominal interest rate is:
+
+$$r_{nominal} \approx r_{real} + i$$
+$$r_{real} \approx r_{nominal} - i$$
+
+_note that this is an approximation that is referred to as the [Fisher Equation](https://en.wikipedia.org/wiki/Fisher_equation)._
+
+
+## Taxes and Depreciation Tax Shields. 
+
+The third branch of accounting! This is so important we will devote it's own set of lectures to the topic. However, for now it's enough to point out that we are not including taxes in our examples today.
+
+## We will now work through the case in Excel
+
+Please work along with the discussion so that you are ready to participate.  
+
+I will post an example for you to reference after all the lectures are done for the day.
+
+<!-- [iPRS](https://iprs.ust.hk/ars/session/index/2879) -->
+
+
