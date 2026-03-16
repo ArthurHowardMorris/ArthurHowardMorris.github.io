@@ -1,0 +1,167 @@
+---
+title: 'Incentives: Paid to Fail'
+author: "Dr. Arthur Morris"
+institute: "HKUST School of Business and Management"
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+    code-fold: true
+jupyter: python3
+---
+
+## Incentives: Paid to Fail
+
+- In the last lecture we discussed agency problems and how we can use bonuses and ownership to solve them. 
+- In this lecture we look at examples of how things can go wrong.
+- In the words of my PhD Advisor: "Don't be surprised when people do exactly what you paid them to do."
+
+## Example: Rothwell Inc. (Facts: 1)
+
+Rothwell Inc. is the leader in computer-integrated manufacturing and factory
+automation products and services. The Rothwell product offering is segmented
+into 15 product categories, based on product function and primary manufacturing
+location.
+
+## Example: Rothwell Inc. (Facts: 2)
+
+Rothwell's sales division sells all 15 product categories and is composed of 25
+district offices located throughout the United States. The company is highly
+decentralized, with district offices responsible for setting sales price,
+product mix, and other variables.
+
+## Example: Rothwell Inc. (Facts: 3)
+
+District offices are rewarded based on sales. Some large customers have plants
+in more than one of Rothwell's sales districts. In cases where sales are made
+to these customers, the district offices participate jointly and sales credits
+are shared by each district involved.
+
+## Example: Rothwell Inc. (Facts: 4)
+
+The sales division compensation plan designed by L. L. Rothwell, founder of the
+firm, was structured so that the staff would pursue sales in each of the 15
+product categories. The selling program has the following features:
+
+- Each sales representative receives a commission based on a percentage of the
+  sales revenue generated. 
+- Each district (approximately 160 sales reps) is assigned a quota for each
+  product line, defined in terms of dollar sales. 
+- In addition to commission, sales reps are eligible for an annual bonus. The
+  company calculates individual bonuses by multiplying the number of bonus
+  points earned by the individual target bonus amount. Points are credited at
+  the district level.
+- In order for all sales reps in a district to qualify for a bonus, the
+  district must achieve 50 percent of quota in all 15 product groups and 85
+  percent of quota in at least 13 groups.
+- Bonus points are awarded for sales greater than 85 percent of quota. Five
+  product groups have been identified as strategic to Rothwell. These
+  "pride-level" products are weighted more heavily in bonus point calculations.
+
+## Example: Rothwell Inc. 
+
+Over the past three years, Rothwell generated exceptionally high sales-and
+awarded record bonuses. Profits, however, were lackluster. L. L. is befuddled!
+
+Why is this incentive scheme not working?
+
+<!-- TODO: iprs -->
+
+## Question 1:
+
+1. Evaluate the compensation situation at Rothwell.
+
+## Evaluation of Rothwell's compensation scheme:
+
+- Profits are the goal, and profits are not high.
+- Means that there is a disconnect between the performance measures and profits. 
+    - $\pi = R - C$
+    - Sales are high. So it must be a cost problem.
+        - The sales team is choosing to sell high price/low contribution margin products.
+        - ...because this is what they are being paid to do.
+    - Why don't sales people get paid based on costs?
+        - Controllability must be applied with care.
+        - It is true that salespeople don't _directly_ control costs, but 
+        - salespeople do control _which_ products that they sell. 
+
+
+## Question 2:
+
+2. Identify the types of behavior the existing system promotes and explain how
+   such behavior may be contributing to the firm's declining profitability.
+   Suggest improvements.
+
+   - _Notice that you don't need 'bad' behavior to get a bad outcome here._
+   - If you are giving incentives for selling low contribution margin items (or in low CM areas) then you are causing this. 
+       - CM=R-VC
+       - A bonus based on revenue is common for sales teams, and this is a classic problem that results.
+   - You also may simply be paying too much of profits in bonuses.
+   - There are costs that sales people control.
+       - Travel costs. 
+       - "Profit sharing" with customers.
+       - The _sales costs_ in SG&A!
+
+This scheme ignores selling costs and contribution margin. While sales people cannot control the production costs of the products, they are able to control which products they sell, and the selling costs.
+
+# Example: The Great Financial Crisis
+
+## Problem 1: Mortgage origination
+
+- Originators rarely hold the mortgages. This is both a feature and a bug of the US mortgage system (and any other effort like this).
+- They originate (lend) to distribute.
+- Compensated on revenue, with no consideration for risk.
+
+Since all originations that can be packaged and sold increase the originator's revenue there is an incentive to originate as much as possible. This includes finding ways to lend to folks who can't pay.
+
+#### Subprime loans:
+
+Loans that are likely to default are called subprime loans.
+
+## Problem 2: Holding subprime mortgages generates revenue
+
+- __Lehman Brothers__
+    - Aggressive 'subprime' mortgage lender, generated a huge revenue, and huge bonuses for the trading business 
+    - Lending \\$50 billion/month in 2006
+    - And assets were 30:1 'subprime' to capital, this is a huge bet on housing continuing to go up
+    - But a slight decline in housing markets would wipe out the entire company
+    - __When risk managers pointed this out they were forced out by the CEO who was from the trading side of the business__
+    - In 2007 there was a slight decrease in housing prices
+    - Starting 12 Sept 2008 the bank was liquidated
+
+## Problem 3: Insuring subprime mortgages generates revenue
+
+- __AIG__
+    - Insured portfolios of ‘subprime’ loans (Credit Default Swaps)
+    - High revenue & high risk
+    - The trading division’s bonuses were based on revenue; risk was not their job
+    - By 2007 AIG had insured \\$500 billion (US) worth of assets and provided stability to US financial markets
+    - Another bet that the housing market would never decline
+    - BUT when the housing market declined AIG was unable to provide the insurance they had promised, and had to be bailed out
+
+<!-- here note the link through the whole system. -->
+<!-- then note two more. -->
+
+# Example: Silicon Valley Bank (2023):
+
+## Silicon Valley Bank (2023):
+
+- Huge bet that interest rates would stay low.
+- No Chief Risk Officer (CRO).
+- Interest rates were at historically low levels and had to rise at some point.
+- Taken over by regulators on March 10, 2023.
+
+# Example: California Wildfires:
+
+## California Wildfires:
+
+- Wildfires can be managed.
+- Management requires:
+    - Changes to building codes that homeowners do not like.
+    - Control burns (which people _hate_). 
+    - Reduction of greenspace (less trees and lawns and bushes than people want).
+- Local politicians who enact these unpopular policies are replaced with politicians that reverse them.
+    - Creates implicit incentives for local policy makers _not_ to control wildfires.
+
+_Note: A lot of people work very hard to do a good job keeping people safe under the current system._
+
+
