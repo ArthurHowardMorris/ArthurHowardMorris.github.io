@@ -12,12 +12,12 @@ format:
 ---
 
 
-<!-- ## The mid-term will cover:
+## The mid-term will cover: 
 
 - P1-P7, Special Electric Case (focus on set up and interpretation )
-- The key concepts about taxes -->
+- The key concepts about taxes 
 
-<!-- ## Key tax concepts:
+## Key tax concepts:
 
 1. Assets, investments, and projects all have different pre-tax returns ($r$).
 2. Tax rates $t$ vary across individuals, jurisdictions, organizations, and assets.
@@ -28,9 +28,9 @@ format:
 7. The depreciation tax shield is the present value of the reduction in tax payments afforded by the depreciation deduction.
 8. The value of the tax shield $TS$ is a function of the investment $x$, the risk-free rate of return $r$, the tax rate $t$, and the depreciation rate $d$.
 $$TS=f(x,t,d,r)$$
-9.  $TS$ is increasing in both  $d$ and $t$. -->
+9.  $TS$ is increasing in both  $d$ and $t$.
 
-<!--# Incentives and managerial compensation
+# Incentives and managerial compensation
 
  - This lecture and the next are the beginning of the topics that we will move on to after the mid-term exam. This material will not be on the mid-term, but will be on the final exam. -->
 
@@ -93,6 +93,8 @@ Let's say that each manager has responsibility for:
 - We refer to the _conflicts of interest_ that arise in these cases as "__principal-agent problems__"
 
 To illustrate lets consider the case that arises when the restaurants begin to operate separate services for lunch and dinner.
+
+## The new organization:
 
    
 ```
@@ -276,7 +278,7 @@ But, Huck may prefer a high variance/high mean pay plan to a low variance/low me
 - _Salary_: we can always do better (make Huck more diligent) with a bonus. 
 - If Huck is risk neutral both performance measures are equally effective at motivating effort.
     - i.e. we can get "on average satisfactory widget output" by putting the same weight on either performance measure.
-    - if the bonus plan is "\\$10 per widget", then \\$10 is the weight on widgets.
+    - if the bonus plan is "\$10 per widget", then \$10 is the weight on widgets.
 - If Huck is risk averse then the widget-based performance measure will be less efficient because we will have to compensate Huck for risk as well as effort.
     - We will have to pay more to get the same amount of effort i.e. put more weight on widgets.
 
@@ -286,6 +288,7 @@ But, Huck may prefer a high variance/high mean pay plan to a low variance/low me
 - Miss Watson cannot observe what Huck does.
 
 #### __Question:__ How should Miss Watson compensate Huck?
+
 - Scenario A: Huck is risk neutral
 - Scenario B: Huck is risk averse
   
@@ -331,6 +334,7 @@ But, Huck may prefer a high variance/high mean pay plan to a low variance/low me
 2. Miss Watson does not know exactly what Huck does.
 3. In addition to the number of widgets produced, Miss Watson has some other
    data that is informative of Huck’s effort. 
+
 #### __Question:__ How should Miss Watson compensate Huck?
 
 #### Consider:
