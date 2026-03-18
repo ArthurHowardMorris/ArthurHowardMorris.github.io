@@ -69,9 +69,13 @@ the constraints of the exam.
 
 - Lecture 1: Introduction to the Course 
 - Lecture 2: The Nature of Costs (Cost Functions)
+  - Video posted on canvas.
 - Lecture 3: Cost Estimation 
+  - Video posted on canvas.
 - Lecture 4: Non-linear Programs (Optimization I)
+  - Video posted on canvas.
 - Lecture 5: Linear Programs (Optimization II)
+  - Video posted on canvas.
 
 ## Lecture 1: Introduction to the Course 
 
@@ -86,7 +90,7 @@ of data collection, management, and analysis. (esp. the quoted sections)
 ## Lecture 1: Key Point 2 - The Location of Management Accounting within the VSM 
 
 - Review the viable systems model (VSM). Especially: the basic idea of the 5
-  systems, the concept of a resource bargin, and the location of the management
+  systems, the concept of a resource bargain, and the location of the management
   accountant within the VSM. 
 
 ## Lecture 1: Key Point 2 - The Location of Management Accounting within the VSM 
