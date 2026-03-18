@@ -1,0 +1,384 @@
+---
+title: "Lecture 12: Midterm Review - Questions"
+author: "Dr. Arthur Morris"
+institute: "HKUST School of Business and Management"
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+    code-fold: true
+jupyter: python3
+---
+
+# Please contact me if you asked the following question:
+
+## Question 1: 
+
+> __"I cannot see the question during class"__
+
+# Topic: Taxation, Arbitrage, and Implicit Taxes
+
+## Question 2: 
+
+> __"what are the key points and concepts to note for the tax topic? Thank you"__
+
+See review slides from today.
+
+## Question 3: 
+
+> __"1. Could you quickly go over an example of how implicit tax rates impact yields?"__ 
+
+- Step 1: An explicit tax increases demand for tax free returns (i.e. yields on
+a tax exempt bond). 
+- Step 2: Increased demand for tax exempt bonds drives up their price and lowers
+their yield.
+
+  - Consider a taxable corporate bond and a tax free municipal bond. The
+  municipal bond is more attractive to investors in higher tax brackets because
+  it offers tax-free interest income. This increase demand for municipal bonds
+  drives up their prices and lowers their yields compared to taxable corporate
+  bonds.
+
+
+> __"2. If there is time, a refresher on organization form arbitrage and clientele form arbitrage would be nice. I would appreciate another real-world example of these two items to help reinforce the concepts."__
+
+### Organizational form arbitrage
+
+- Organizational form refers to the legal structure that you use to hold the
+asset. e.g. a retirement account, a trust, an insurance policy, a pension fund,
+etc. 
+- Most tax regimes allow taxpayers to contribute __pre-tax__ incomes to pension
+funds or similar (these are tax advantaged organizational forms). 
+- __Organizational form arbitrage__ is the practice of contributing income to a
+pension or similar that grows at some rate $r$, while borrowing to cover your
+cost of living (i.e. borrower in your income) and paying interest at the same
+rate $r$.
+- Two conditions: 1. someone has to be willing to lend to you at rate $r$. You
+can get closer to this than you would expect because you are able to use your
+penion fund as collateral. Extremely wealthy people can often/probably do this.
+2. The organizational form must allow you to contribute __all__ of your pre-tax
+income. Many such programs have limits (e.g. the HK MPF and US 401k have
+limits).
+
+### Clientele arbitrage 
+
+- Clientele arbitrage is a situation where a taxpayer with a high rate (i.e. a
+corporation like 3M or Swire) borrows money which they lend to a taxpayer with a low rate (i.e. a municipality or non-profit like the Mayo Clinic, the City of St. Cloud, or the MTR). Because the interest paid on the debt that they borrow is tax deductible, the high rate tax payer can use the deduction to offset their tax liability from other income, and they can collect tax free interest income from the low rate taxpayer.
+- Requires that the interest rate on the borrowing and lending to be equal. 
+- Requires a lot of borrowing and lending for income to be wiped out by interest
+  deductions. 
+- Requires no limits on the interest deductions. 
+
+## Question 5: 
+
+> __"What is clientele arbitrage?"__
+
+See previous slide, and the tax section of today's review slides.
+
+
+## Question 6: 
+
+> __"How do we determine what values to use for the benchmark return and the asset return used to calculate the implicit tax rate?"__
+
+This is a great question, but beyond the scope of this course! We need to find a
+corporation that is similar to the municipality/country in question. For countries
+this is difficult, since there are rarely peer firms. But for municipalities and
+non-profits like airport authorities there are often often very similar
+companies.
+
+> __"Since we would determine the investment for the different type of investors based off of the yield, what is the implicit tax rate actually used for?"__
+
+The most use of the implicit tax rate is to understand the impact of taxes on
+yields, i.e. how tax advantaged bonds (like government debt) allow their issuers
+to borrower at lower rates. 
+
+> __"What does it actually mean or would it be used in any calculation?"__ 
+
+We use this to understand the impact of taxes on both government cost of debt
+and on investor behavior. It does not change how we calculate returns, rather it
+explains why particular returns are what they are.
+
+> __"As you mentioned you would be asking about the workings on excel and python, would you please provide a template or a format of how you would want the answers to be? should it include like formulas, or for example this cell should be deducted by another cell?"__
+
+Thiis is reviewed in the slides for this session and for lecture 6. 
+
+## Question 7: 
+
+> __"Could you please explain the chapter about taxation once more? Especially the arbitrate part."__
+
+Focus on the slides in this review session. 
+
+## Question 9: 
+
+> __"I'm confused about the relationship between tax shields and real vs. financial assets. What is the decision logic behind using them? I need help understanding how this affects decision-making."__
+
+- Investing in a real asset (one that depreciates) creates a tax shield.
+- Investing in a financial asset (one that does not depreciate) does not create
+a tax shield. 
+t- So, taxes combined with a depreciation deduction creates an incentive to
+invest in real assets.
+
+## Question 10: 
+
+> __"I would like to clarify more concept on tax, thank you."__
+
+See the tax section of today's review slides.
+
+## Question 11: 
+
+> __"Could you explain tax shield again?"__
+
+### From the tax section of today's review slides:
+
+The depreciation tax shield is the present value of the reduction in tax payments afforded by the depreciation deduction.
+
+
+# Topic: SPDA, Alternative Savings, and Formulas
+
+## Question 13: 
+
+> __"Do we need to memorize formula of SPDA and also the complex formula in the lecture 9 notes?"__
+
+You do not.
+
+## Question 15: 
+
+> __"I'm confused about the calculation of alternative savings, especially the SPDA part. Can you explain the formula again?"__
+
+You do not need this formula for the exam. The goal was to generate a set of
+examples with the attributes provided by the formula, but you do not need to
+use the formula to solve problems on the exam.
+
+# Topic: Cost Topics
+
+## Question 16: 
+
+> __"cost functions"__
+
+See the video the lecture on cost functions that I posted on Canvas. As well as
+the lecture 6 and 12 review slides on this topic. 
+
+## Question 17: 
+
+> __"cost estimation"__
+
+See the video the lecture on cost functions that I posted on Canvas. As well as
+the lecture 6 and 12 review slides on this topic. 
+
+## Question 18: 
+
+> __"P3"__ (This is a cost estimation homework problem)
+
+See the video lecture on cost estimation and the excel and python examples that
+are posted on Canvas. 
+
+# Requests for sample questions, practice questions, and review questions
+
+## Question 19: 
+
+> __"Are there any practice questions we can do?"__
+
+Yes. The homework problems _are_ the source for the exam questions. 
+
+## Question 20: 
+
+> __"Would it be possible to obtain more practices to better prepare for the examination?"__
+
+Yes. The homework problems _are_ the source for the exam questions. 
+
+## Question 21: 
+
+> __"Can you provide some sample questions?"__
+
+Yes. The homework problems _are_ the source for the exam questions. 
+
+## Question 22: 
+
+> __"For the midterm exam, should we focus more on understanding the theoretical concepts, or on practicing the practical problems?"__
+
+I would review the problems and the review slides for this session. 
+
+## Question 23: 
+
+> __"Can professor provide any practice questions? Please clarify the exam coverage (eg. lecture 1 to lecture ?)"__
+
+
+Yes, see the review slides from this session. The homework problems _are_ the source for the exam questions. 
+
+## Question 24: 
+
+> __"Is there any practice questions for the mid term or any examples on the format of the questions as the homework are mostly in excel format and I would want some mental preparation for what to expect for the exams. Thank you! :D "__
+
+The exam questions will be adapted from the homework problems. You will not need
+to use excel on the exam, but you should be comfortable with the process of
+using exceli in the ways outlined in the second review session and this review
+session. 
+
+## Question 25: 
+
+> __"Do we have a more detailed answer for the problems?"__
+
+I'm not sure what this question is asking. I have devoted entire lectures to
+going through the problems in detail. 
+
+## Question 26: 
+
+> __"Will there be any sample questions for mid term?"__
+
+Yes. The homework problems _are_ the source for the exam questions. 
+
+# Questions about the format of the exam and the type/format of questions
+
+## Question 27: 
+
+> __"Will there be questions as complex as the special electric case in the mid-term?"__
+
+No. 
+
+## Question 28: 
+
+> __"How many questions will be based on lectures 7 to 11?"__
+
+All the information about this is covered in the review slides. I'm not going to
+provide more specific information about the number of questions on each topic. 
+
+## Question 29: 
+
+> __"Does the midterm cover everything taught before Mar 24?"__
+
+No. The midterm will end with taxes. 
+
+> __"Will there be any questions that requires memorisation of long paragraphs?"__
+
+__Disclaimer:__ I do not understand this question. 
+
+The only exam where I would ever do such a thing is an exam where I recited
+poetry, and this is not a poetry class. 
+
+## Question 30: 
+
+> __"May I ask what is the format of the exam (ie give us a case question just like those assignment case questions)? thank you!"__
+
+See both review sessions (lecture 6 and lecture 12) for both of these.
+
+## Question 31: 
+
+> __"1. Midterm exam coverage__
+
+Through taxes. See the review slides for this session for more details.
+
+> __2. Is the number of correct answers to each multiple choice question fixed?"__
+
+Yes. But I don't understand this question. 
+
+
+## Question 32: 
+
+> __"Exam format"__
+
+See review slides for this session.
+
+## Question 33: 
+
+> __"is mt going to cover lectures 1-5 excluding review lc 6?"__
+
+No. See review slides for this session. The midterm will end with taxes.
+
+## Question 34: 
+
+> __"What is the coverage of midterm and what question type would be included?"__
+
+See review slides for this session.
+
+## Question 35: 
+
+> __"May I ask what the scope is for the mid-term, from L1 to L? thanks"__
+
+See review slides for this session.
+
+## Question 36: 
+
+> __"which chapters will be covered for mid term?"__
+
+
+See review slides for this session.
+
+## Question 37: 
+
+> __"What type of questions are gonna be asked. I mean if it will be multiple questions or short answer or maybe even long answer?"__
+
+See review slides for this session.
+
+> __"Will there any question related to equation which need to be calculated?"__
+
+I don't understand this question, but you will not need a calculator for the
+exam, so calculations will be simple enough to do by hand.
+
+## Question 38: 
+
+> __"What will be covered.Will we required to write those python code"__
+
+The mid term will cover through the lectures on taxes. Please review the slides from lecture 6 and from
+this lecture. 
+
+# Requests for sample questions, practice questions, and review questions
+
+## Question 39: 
+
+> __"Are there any practice questions we can do?"__
+
+
+Yes. The homework problems _are_ the source for the exam questions. 
+
+## Question 40: 
+
+> __"Would it be possible to obtain more practices to better prepare for the examination?"__
+
+Yes. The homework problems _are_ the source for the exam questions. 
+
+## Question 41: 
+
+> __"Can you provide some sample questions?"__
+
+Yes. The homework problems _are_ the source for the exam questions. 
+
+# Other Questions 
+
+## Question 8 
+
+> __"All topics"__
+
+Time travel?
+
+## Question 10 
+
+> __"No questions"__
+
+## Question 12 
+
+> __"no"__
+
+## Question 13 
+
+> __"Ok"__
+
+## Question 14 
+
+> __"."__
+
+## Question 17 
+
+> __"Yes any"__
+
+## Question 25 
+
+> __"yes"__
+
+## Question 38 
+
+> __"Yes"__
+
+## Question 40 
+
+> __"n/a"__
+

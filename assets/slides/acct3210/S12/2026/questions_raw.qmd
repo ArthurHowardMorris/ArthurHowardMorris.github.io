@@ -1,0 +1,184 @@
+---
+title: "Lecture 12: Midterm Review - Questions"
+author: "Dr. Arthur Morris"
+institute: "HKUST School of Business and Management"
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+    code-fold: true
+jupyter: python3
+---
+
+## Question 1 
+
+> __"What is clientele arbitrage?"__
+
+## Question 2 
+
+> __"Will there be questions as complex as the special electric case in the mid-term?"__
+
+## Question 3 
+
+> __"Do we need to memorize formula of SPDA and also the complex formula in the lecture 9 notes?"__
+
+## Question 4 
+
+> __"How many questions will be based on lectures 7 to 11?"__
+
+## Question 5
+
+> __"cost functions"__
+
+## Question 6
+
+> __"What will be covered.Will we required to write those python code"__
+
+## Question 7 
+
+> __"Are there any practice questions we can do?"__
+
+## Question 8 
+
+> __"All topics"__
+
+## Question 10 
+
+> __"No questions"__
+
+## Question 9 
+
+> __"Would it be possible to obtain more practices to better prepare for the examination?"__
+
+## Question 10 
+
+> __"Does the midterm cover everything taught before Mar 24? Will there be any questions that requires memorisation of long paragraphs?"__
+
+## Question 11 
+
+> __"what are the key points and concepts to note for the tax topic? Thank you"__
+
+## Question 12 
+
+> __"no"__
+
+## Question 13 
+
+> __"Ok"__
+
+## Question 14 
+
+> __"."__
+
+## Question 15 
+
+> __"1. Could you quickly go over an example of how implicit tax rates impact yields? 2. If there is time, a refresher on organization form arbitrage and clientele form arbitrage would be nice. I would appreciate another real-world example of these two items to help reinforce the concepts."__
+
+## Question 16 
+
+> __"May I ask what is the format of the exam (ie give us a case question just like those assignment case questions)? thank you!"__
+
+## Question 17 
+
+> __"Yes any"__
+
+## Question 18 
+
+> __"1. Midterm exam coverage 2. Is the number of correct answers to each multiple choice question fixed?"__
+
+## Question 19 
+
+> __"Exam format"__
+
+## Question 20 
+
+> __"How do we determine what values to use for the benchmark return and the asset return used to calculate the implicit tax rate? Since we would determine the investment for the different type of investors based off of the yield, what is the implicit tax rate actually used for? What does it actually mean or would it be used in any calculation? As you mentioned you would be asking about the workings on excel and python, would you please provide a template or a format of how you would want the answers to be? should it include like formulas, or for example this cell should be deducted by another cell?"__
+
+## Question 21 
+
+> __"is mt going to cover lectures 1-5 excluding review lc 6?"__
+
+## Question 22 
+
+> __"I cannot see the question during class"__
+
+## Question 23 
+
+> __"Could you please explain the chapter about taxation once more? Especially the arbitrate part."__
+
+## Question 24 
+
+> __"Can you provide some sample questions?"__
+
+## Question 25 
+
+> __"yes"__
+
+## Question 26 
+
+> __"For the midterm exam, should we focus more on understanding the theoretical concepts, or on practicing the practical problems?"__
+
+## Question 27 
+
+> __"Can professor provide any practice questions? Please clarify the exam coverage (eg. lecture 1 to lecture ?)"__
+
+## Question 28 
+
+> __"Is there any practice questions for the mid term or any examples on the format of the questions as the homework are mostly in excel format and I would want some mental preparation for what to expect for the exams. Thank you! :D "__
+
+## Question 29 
+
+> __"Do we have a more detailed answer for the problems?"__
+
+## Question 30 
+
+> __"I'm confused about the relationship between tax shields and real vs. financial assets. What is the decision logic behind using them? I need help understanding how this affects decision-making."__
+
+## Question 31 
+
+> __"P3"__
+
+## Question 32 
+
+> __"What is the coverage of midterm and what question type would be included?"__
+
+## Question 33 
+
+> __"I would like to clarify more concept on tax, thank you."__
+
+## Question 34 
+
+> __"Could you explain tax shield again?"__
+
+## Question 35 
+
+> __"May I ask what the scope is for the mid-term, from L1 to L? thanks"__
+
+## Question 36 
+
+> __"which chapters will be covered for mid term?"__
+
+## Question 37 
+
+> __"What type of questions are gonna be asked. I mean if it will be multiple questions or short answer or maybe even long answer? Will there any question related to equation which need to be calculated?"__
+
+## Question 38 
+
+> __"Yes"__
+
+## Question 39 
+
+> __"I'm confused about the calculation of alternative savings, especially the SPDA part. Can you explain the formula again?"__
+
+## Question 40 
+
+> __"n/a"__
+
+## Question 41 
+
+> __"cost estimation"__
+
+## Question 42 
+
+> __"Will there be any sample questions for mid term?"__
+
