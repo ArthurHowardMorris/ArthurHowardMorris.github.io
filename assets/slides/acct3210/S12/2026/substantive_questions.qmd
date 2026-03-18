@@ -1,0 +1,60 @@
+## Question 1 
+
+> __"What is clientele arbitrage?"__
+
+## Question 2 
+
+> __"Will there be questions as complex as the special electric case in the mid-term?"__
+
+## Question 3 
+
+> __"Do we need to memorize formula of SPDA and also the complex formula in the lecture 9 notes?"__
+
+## Question 5
+
+> __"cost functions"__
+
+## Question 6
+
+> __"What will be covered.Will we required to write those python code"__
+
+## Question 11 
+
+> __"what are the key points and concepts to note for the tax topic? Thank you"__
+
+## Question 15 
+
+> __"1. Could you quickly go over an example of how implicit tax rates impact yields? 2. If there is time, a refresher on organization form arbitrage and clientele form arbitrage would be nice. I would appreciate another real-world example of these two items to help reinforce the concepts."__
+
+## Question 20 
+
+> __"How do we determine what values to use for the benchmark return and the asset return used to calculate the implicit tax rate? Since we would determine the investment for the different type of investors based off of the yield, what is the implicit tax rate actually used for? What does it actually mean or would it be used in any calculation? As you mentioned you would be asking about the workings on excel and python, would you please provide a template or a format of how you would want the answers to be? should it include like formulas, or for example this cell should be deducted by another cell?"__
+
+## Question 23 
+
+> __"Could you please explain the chapter about taxation once more? Especially the arbitrate part."__
+
+## Question 30 
+
+> __"I'm confused about the relationship between tax shields and real vs. financial assets. What is the decision logic behind using them? I need help understanding how this affects decision-making."__
+
+## Question 31 
+
+> __"P3"__
+
+## Question 33 
+
+> __"I would like to clarify more concept on tax, thank you."__
+
+## Question 34 
+
+> __"Could you explain tax shield again?"__
+
+## Question 39 
+
+> __"I'm confused about the calculation of alternative savings, especially the SPDA part. Can you explain the formula again?"__
+
+## Question 41 
+
+> __"cost estimation"__
+

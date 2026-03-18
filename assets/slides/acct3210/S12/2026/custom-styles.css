@@ -1,0 +1,38 @@
+/* Ensure ordered list numbers are visible */
+ol {
+    padding-left: 20px; /* Adjust padding to ensure numbers are not cut off */
+    margin-left: 0;     /* Reset margin to avoid additional spacing */
+}
+
+/* Ensure list items have enough space */
+li {
+    margin-bottom: 10px; /* Add space between list items for better readability */
+}
+
+/* Adjust font size and weight if necessary */
+ol, li {
+    font-size: 1em; /* Adjust font size as needed */
+    font-weight: normal; /* Use normal weight for better clarity */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    ol {
+        padding-left: 15px; /* Slightly reduce padding on smaller screens */
+    }
+    li {
+        font-size: 0.9em; /* Reduce font size for better fit on smaller screens */
+    }
+}
+
+/* Optional: Customize the appearance of numbers */
+ol {
+    list-style-type: decimal; /* Use decimal numbers */
+}
+
+/* Additional styling for better presentation */
+body {
+    /*font-family: 'Arial', sans-serif; /* Use a clean, readable font */*/
+    font-family: 'IBM Plex Sans', Arial, sans-serif; /* Specify the IBM Plex font */
+    line-height: 1.6; /* Improve readability with increased line height */
+}

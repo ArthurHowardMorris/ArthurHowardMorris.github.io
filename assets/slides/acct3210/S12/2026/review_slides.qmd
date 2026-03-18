@@ -1,5 +1,5 @@
 ---
-title: "Lecture 6: Review of the 'Tools' portion of the course."
+title: "Lecture 12: Midterm Review"
 author: "Dr. Arthur Morris"
 institute: "HKUST School of Business and Management"
 format: 
@@ -10,7 +10,7 @@ format:
 jupyter: python3
 ---
 
-# Roadmap for Lecture 6 
+# Roadmap for Lecture 12
 
 1. Exam Details and Format. 
 2. Lecture Overviews (1-5). 
@@ -23,9 +23,9 @@ jupyter: python3
 
 - Time: 8:00 PM to 9:00 PM (2000-2100) 
 - Date: Tuesday, 24 March 2026 
-- Location: LTA (room assignments will be posted on Canvas) 
-- We will arrange a separate room for students with conflicting exams and SEN
-students. Please contact us if you have a conflict.
+- Location: LTA (room assignments posted on Canvas) 
+- We will arrange a separate room for students with conflicting exams. Please
+contact us if you have a conflict.
 - The midterm is only 18\% of your grade, and is intended to be a preparation
 exercise for the final exam.
 
@@ -36,7 +36,7 @@ exercise for the final exam.
 - __We will only consider your best four sections__, and the maximum number of
 points possible will be 120.
 - __You may skip one section without penalty__.
-- Read each question carefully. These questions come from the homework and
+- Read each question carefully. These questions __come from the homework__ and
 lectures, please review them carefully as the questions have been modified to
 the constraints of the exam.
 - Closed book (means no external support beyond writing materials) 
@@ -76,6 +76,12 @@ the constraints of the exam.
   - Video posted on canvas.
 - Lecture 5: Linear Programs (Optimization II)
   - Video posted on canvas.
+- Lecture 6: Review of the 'Tools' portion of the course.
+- _Lecture 7: Capital Budgeting/Time Value of Money_
+- _Lecture 8: Taxation of Returns_
+- _Lecture 9: Tax Shields_ 
+
+_There are only 3 new lectures for this review session._
 
 ## Lecture 1: Introduction to the Course 
 
@@ -89,9 +95,9 @@ of data collection, management, and analysis. (esp. the quoted sections)
 
 ## Lecture 1: Key Point 2 - The Location of Management Accounting within the VSM 
 
-- Review the viable systems model (VSM). Especially: the basic idea of the 5
-  systems, the concept of a resource bargain, and the location of the management
-  accountant within the VSM. 
+- Review the viable systems model (VSM) (basic idea of the 5 systems), the concept of
+a resource bargain, and the location of the management accountant within the
+VSM. 
 
 ## Lecture 1: Key Point 2 - The Location of Management Accounting within the VSM 
 
@@ -379,78 +385,65 @@ This the marginal cost in the direct sense that you will have to obtain \$30 of 
 
 No. Because the amount of $y$ you produce depends on $x$, so we are also giving up \$2 per unit of $y$ that is displaced.
 
-# Specific Questions:
+# Tax Terms 
 
-## Question 1: 
+- These will be covered with multiple choice questions.
+- The focus here is on terminology, not calculations, and this portion of the
+    exam will be easy. 
 
-> I hope Prof can review the viable system model, the economic significance of
-> non-linearities and interactions, the slight difference between incremental
-> cost and marginal cost, and synergy in sharing capital.
+## Full list of terms:
 
-> It would be better if Prof can provide sample mid-term questions for revision.
+1. Assets, investments, and projects all have different pre-tax returns ($r$).
+2. Tax rates $t$ vary across individuals, jurisdictions, organizations, and
+   assets.
+3. pre-tax returns $r$ correspond to post tax returns $r(1-t)$ 
+4. When preferential tax treatment increases demand for a tax favored asset
+   it's price increases. This price change is an _implicit_ tax.
+5. When tax payers use organizational forms like pensions and insurance
+   policies to avoid taxes it is called _organizational form arbitrage_.
+6. When high-tax tax payers issue taxable debt to finance the purchase of tax
+   free debt (e.g. municipal bonds in the US) issued by low-tax tax payers
+(e.g. US non-profit universities) it is called _clientele arbitrage_.
+7. The depreciation tax shield is the present value of the reduction in tax
+   payments afforded by the depreciation deduction.
+8. The value of the tax shield $TS$ is a function of the investment $x$, the
+   risk-free rate of return $r$, the tax rate $t$, and the depreciation rate
+$d$. $$TS=f(x,t,d,r)$$
+9.  $TS$ is increasing in both  $d$ and $t$. 
 
-- _Note: This is a very good question. The more specific detail you include, the better I can answer the question._
+## Basics of Time Value and Taxes:
 
-## Question 2: 
+1. Assets, investments, and projects all have different pre-tax returns ($r$).
+2. Tax rates $t$ vary across individuals, jurisdictions, organizations, and
+   assets.
+3. pre-tax returns $r$ correspond to post tax returns $r(1-t)$ 
 
-> All pls 
+## Implicit Taxes:
 
-## Question 3: 
+4. When preferential tax treatment increases demand for a tax favored asset
+   it's price increases. This price change is an _implicit_ tax.
 
-> Non-linear problems
+## Org. Form Arbitrage:
 
-## Note: 
+5. When tax payers use organizational forms like pensions and insurance
+   policies to avoid taxes it is called _organizational form arbitrage_.
 
-- Six students started, but did not submit, their surveys. If you think you
-asked a question, but it does not appear in this list, you may have forgotten to
-submit your question. 
+Most individuals will do this during their lifetimes, as this is what happens
+when you have debt and save for retirement. In HK retirement saving is
+mandatory, so anyone with __any debt__ and income is doing this!
 
-# Details on Student Q1:
+## Clientele Arbitrage:
 
-## Review the VSM: 
+6. When high-tax tax payers issue taxable debt to finance the purchase of tax
+   free debt (e.g. municipal bonds in the US) issued by low-tax tax payers
+   (e.g. US non-profit universities) it is called _clientele arbitrage_.
 
-- This point is largely covered in the discussion of Session 1 and the VSM above.
+## Depreciation Tax Shield:
 
-## Economic significance of non-linearities. 
-
-- This is a topic that comes up in our discussing of estimating cost curves. (See Session 2 discussion above)
-- As a general matter, non-linearity is a property of a function, so the economic significance of the non-linearity depends on the function that you are considering.
-
-## Economic significance of interactions.
-
-- This topic comes up in the discussion of cost functions with interactions between two products. 
-  - In general, if $y = f(x_1,x_2)$ if there is an interaction then the effect of each of the interacted variables (the 'x' variables) on the value of the function depends on the level of the other variable. 
-  - i.e. if $y = x_1\times x_2$ then the effect of $x_1$ on $y$ depends on the level of $x_2$.
-  - This means that the function is not _separable_. We cannot separate the effects of the two variables from each other. 
-  - In cost functions this means that we cannot calculate separate average costs for the two.
-
-## Side note: 
-
-__Interactions are non-linearities.__ 
-
-- $y=x_1\times x_2$ is non-linear.
-- $y=x_1^2$ is non-linear. 
-- Both are the product of variables: 
-  - $y=x_1\times x_2$
-  - $y=x_1\times x_1$
-
-## The difference between incremental cost and marginal cost
-
-- IC is slope between two points on the cost curve (usually one unit).
-- MC is the slope of a line tangent to a single point on the cost curve. 
-- IC=MC when the curve is linear. In this case there is no difference.
-- The difference between the two matters more when a unit is large relative to the change in marginal cost.
-- We can identify these places in the following figure from Lecture 2: 
-
-## Cost curve from Session 2: 
-
-![Non-linear cost curve, with relatively linear regions.](./F2-1.png)
-
-## Synergy in sharing capital: 
-
-- Synergy is a broad term for beneficial interactions between products or business units. 
-- Shared capital is one example. 
-- In the example we did in class we had shared capital the meant that we could purchase capital for one product and then use it to make another product without having to repurchase it. 
-- This is a source of non-linearity. Notice the effect of substituting the
-constraint into the objective function in both lectures 4 and 5. 
+7. The depreciation tax shield is the present value of the reduction in tax
+   payments afforded by the depreciation deduction.
+8. The value of the tax shield $TS$ is a function of the investment $x$, the
+   risk-free rate of return $r$, the tax rate $t$, and the depreciation rate
+$d$. $$TS=f(x,t,d,r)$$
+9.  $TS$ is increasing in both  $d$ and $t$. 
 
