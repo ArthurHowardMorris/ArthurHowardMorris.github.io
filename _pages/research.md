@@ -32,20 +32,19 @@ _Review of Accounting Studies_, 2022.
 
 ## Working Papers
 [__Environmental Covenants and Lenders' Economic Incentives__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5007113)
-(with Ting Dai (Ph.D. Student, HKUST) and Daniele Macciocchi).  
+(with Ting Dai (Ph.D. Student, HKUST) and [Daniele Macciocchi](https://www.bus.miami.edu/thought-leadership/faculty/accounting/macciocchi.html)).
 Revise and Resubmit, _Journal of Accounting Research_.
+
+[__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__](https://dx.doi.org/10.2139/ssrn.5388175)
+(with Junqiang Ke, [Zhiming Ma](https://en.gsm.pku.edu.cn/faculty/mazhiming/), and [Derrald Stice](https://www.hkubs.hku.hk/people/derrald-stice/)).  
+Revise and Resubmit, _Management Science_.
 
 [__Option Grants and Risky Projects: A Reputation-Based Perspective__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5896102)
 _Best Management Accounting Paper AAA Annual Meeting, August, 2018_.  
-Under Review
 
 [__Loan Pricing Uncertainty and the Use of Financial Covenants__](https://dx.doi.org/10.2139/ssrn.5389579)
-(with Fred Asante, John Donovan, and Mike Iselin).  
-Under Review.
+(with [Fred Asante](https://www.fred-asante.com), [John Donovan](https://mendoza.nd.edu/mendoza-directory/profile/john-donovan/), and [Mike Iselin](https://sites.google.com/umn.edu/michael-iselin/home)).  
 
-[__Regulatory Exposure, Debt Contract Terms, and Bank Specialization__](https://dx.doi.org/10.2139/ssrn.5388175)
-(with Junqiang Ke, Zhiming Ma, and Derrald Stice).  
-Under Review.
 
 [__Money in Local Politics, Mortgage Fraud and Subprime Lending__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3888069)  
 (with [Albert Mensah](https://sites.google.com/site/albertmensahkwame/home),
