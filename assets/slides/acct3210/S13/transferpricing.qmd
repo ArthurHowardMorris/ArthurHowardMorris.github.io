@@ -1,0 +1,423 @@
+---
+title: 'Lecture 12: Transfer Pricing and Responsibility Accounting'
+author: "Dr. Arthur Morris"
+institute: "HKUST School of Business and Management"
+format: 
+  revealjs:
+    css: custom-styles.css
+    scrollable: true
+    code-fold: true
+jupyter: python3
+---
+
+
+
+# Lecture 12: Transfer Pricing and Responsibility Accounting
+
+- Great work on the exam!
+- We are working to have the exams graded by next Wednesday. 
+- [Let's look at the schedule](https://arthurhowardmorris.github.io/resources/semesters/s2025/acct3210syl.html#course-schedule-and-outline)
+
+## Brief review of the [Rothwell case](https://arthurhowardmorris.github.io/assets/slides/acct3210/S11/MoreIncentives.slides.html#/):
+
+#### On the exam I might:  
+
+1. provide an edited version of the case
+2. ask you to discuss the problem that you think the incentive scheme is trying to solve
+3. ask you to discuss what is going wrong
+4. ask you to propose a new incentive scheme
+
+<!-- The questions will be focused like they were on the first exam, but the "solution" depends on your view of the problem.  -->
+
+- You should reference the incentive problems that we discussed in lecture 10
+<!-- , but how you do this is up to you.  -->
+- Clarity and logic is the priority.
+
+## Transfer Pricing and Responsibility Accounting
+
+### For context let's look back to the end of lecture 10
+
+### Concluding caveat from the previous lecture:
+
+- Basing pay on the firm’s performance is sensible only if this performance is influenced by the manager’s actions, and these actions are not directly observed by the principal. 
+- Then the manager must be induced indirectly to choose desirable actions: 
+- this is achieved by basing the manager’s pay on whatever variables permit some inference about the manager’s actions. 
+- While this may impose risk on the managers, some risk/responsibility is necessary to provide managers with appropriate incentives to work hard. 
+- In these situations, the manager may be evaluated on the basis of variables that are at least partially beyond his/her control.
+
+## Responsibility Accounting 
+
+- To implement effective (and cost effective) incentive schemes, organizational performance must be decomposed into components that reflect, as nearly as possible, individual contributions.
+- __Responsibility accounting__ is a system of accounting that recognizes various responsibility centers throughout the organization.
+- Such an accounting system reflects the plans and actions of each of these centers by allocating particular revenues and costs to those having the pertinent responsibilities (also called profitability accounting and activity accounting). 
+
+_Notice that in financial accounting we move cash through __time__ to match the economic reality of the business, while here we are using allocations to match revenues and costs to the folks that control them._
+
+## The most common types of responsibility centers are:
+
+- __Cost center__: responsible for the costs that they control.
+- __Profit center__: responsible for the profit that they control.
+- __Revenue center__: responsible for the revenue that they control.
+- __Investment center__: responsible for return on investments that they control.
+
+## Desirable features of responsibility accounting
+
+- strong link between performance and compensation
+- clear distinction between controllable versus non-controllable budget items
+- timeliness
+
+_Responsibility accounting becomes increasingly important as the firm becomes more and more decentralized._
+
+## What does "decentralized'' mean in this context?
+
+### de/centralization refers to the location of decision rights within the firm.
+
+```
+└── Terri (Owner of Terri's Amazing Restaurant)
+    ├── Jackson (Manages Location 1)
+    │   ├── Food
+    │   ├── Menu
+    │   └── Staff
+    └── Jason (Manages Location 2)
+        ├── Food
+        ├── Menu
+        └── Staff
+```
+
+## What does "decentralized'' mean in this context?
+
+### de/centralization refers to the location of decision rights within the firm.
+
+```
+└── Terri (Owner of Terri's Amazing Restaurant) <--- CENTRALIZED
+    ├── Jackson (Manages Location 1)
+    │   ├── Food
+    │   ├── Menu
+    │   └── Staff
+    └── Jason (Manages Location 2)
+        ├── Food
+        ├── Menu
+        └── Staff
+```
+
+- __If Terri makes all the decisions, then decision rights are centralized.__
+
+## What does "decentralized'' mean in this context?
+
+### de/centralization refers to the location of decision rights within the firm.
+
+```
+└── Terri (Owner of Terri's Amazing Restaurant)
+    ├── Jackson (Manages Location 1) <--- DECENTRALIZED
+    │   ├── Food
+    │   ├── Menu
+    │   └── Staff
+    └── Jason (Manages Location 2)   <--- DECENTRALIZED
+        ├── Food
+        ├── Menu
+        └── Staff
+```
+
+- __If Terri makes all the decisions, then decision rights are centralized.__
+- The extent to which she delegates authority to Jason and Jackson is the extent to which the firm is _decentralized_.
+
+## Responsibility centers are key to decentralized firms 
+
+- and responsibility accounting is critical to their management.
+- responsibility accounting is the practice of assigning revenues and costs to the responsibility centers that control them.
+- this is essentially the development of a _causal_ model of the firm.
+
+## Responsibility Accounting
+
+The performance of these responsibility centers is evaluated on the basis of
+various accounting numbers, such as:
+
+- standard cost (the cost you planned for)
+- actual cost (the cost you actually incurred)
+- divisional profit, or 
+- return on investment 
+- market share
+- retention
+- sales 
+- customer satisfaction
+
+## Responsibility Accounting
+
+Notice that each of these measures is incomplete w.r.t. to the effect of the center's impact on other parts of the firm.
+
+- standard cost 
+- actual cost
+- divisional profit
+- return on investment
+- market share
+- retention
+- sales 
+- customer satisfaction
+
+In each case there is an incentive to shift costs to other departments. If you
+are responsible for the costs that you "cause" then you have the incentive to
+cause as little cost as possible for a given level of output.
+
+## Responsibility Accounting
+
+Notice that each of these measures is incomplete w.r.t. to the effect of the center's impact on other parts of the firm.
+
+- standard cost 
+    - Incentive to lowball the estimates/budget.
+- actual cost
+    - Incentive to sacrifice other departments' performance to lower costs. 
+- divisional profit
+    - Incentive to sacrifice other divisions' performance to maximize profit.
+- return on investment
+    - Incentives for risk taking, short-term thinking.
+- market share
+    - Incentive to sacrifice profit for market share (pricing below marginal cost, etc.).
+- retention
+    - Incentive to increase costs.
+- sales 
+    - Incentive to increase costs.
+- customer satisfaction
+    - Incentive to increase costs.
+    
+_These notes are not exhaustive, the incentive is to sacrifice everything that is not the performance metric to increase the performance metric._
+
+## Examples:
+
+- Sales division, IT division, and travel division. 
+    - Sales division can cut non-travel costs by:
+        1. Never coming to office, always working from hotels.
+        2. Tricking the travel division and IT divisions into doing all of Sales's support work, since salespeople are always traveling.
+- Lunch shift and dinner shift:
+    - Convince management to buy extra dishes.
+    - Lunch shift fires dish washers.
+    - Doesn't clean restaurant at the end of the shift.
+- HKUST EMBA program stores supplies in the common stairwell blocking fire escape and fire hose.
+    - Their costs do not include the common stairwell. 
+    - They do not care what happens to people on higher floors in case of a fire.
+    - They do not care what happens to their students in case of a fire. 
+    
+
+## The Transfer Price
+
+One function of the management accounting system is to
+attach a dollar figure to 'transactions' between different responsibility
+centers. 
+
+The _transfer price_ is the price that one division of a company
+charges another division of the same company for a product transferred between
+the two divisions.
+
+Like an internal sale price.
+
+## What is a price?
+
+- In an efficient market the price should summarize all information public and private about the present value of an asset (product, service, etc.)
+- When they are working well, markets generate __prices which communicate information about value, which drive the allocation of capital.__
+- This is, incidentally, the _entire_ justification for the finance industry.
+
+## Purpose of Transfer Pricing
+
+- In a decentralized firm, transfer prices communicate information. 
+- The basic purpose of transfer pricing is to induce optimal decision making in a decentralized organization 
+    - (i.e., in most cases, to maximize the profit of the organization as a whole)
+    - 'optimal decision making' means solving agency problems (principal-agent), and inter-departmental incentive conflicts.
+    
+In the Viable Systems Model, this is a level 2 system. Transfer prices transfer information and coordinate action across operational units (system 1).
+
+## Advantages and Disadvantages of Decentralization
+
+### Advantages
+
+- Decisions are better and more timely because of the manager’s proximity to
+  local conditions.
+- Top managers are not distracted by routine, local decision problems.
+- Local managers’ motivation increases because they have more control over results.
+- Increased decision making provides better training for managers for higher
+  level positions in the future.
+
+### Disadvantages
+
+- Lack of goal congruence among managers in different parts of the
+  organization.
+- Insufficient information available to top management; increased costs of
+  obtaining detailed information.
+- Lack of coordination among managers in different parts of the organization.
+
+## Purposes of Transfer Pricing
+
+There are two main reasons for instituting a transfer pricing scheme:
+
+- _Performance measurement_: Use the transfer price to separate profit figures
+  for each division and thereby evaluate the performance of each division
+  separately. (This improves the _information_ captured by division profit.)
+
+- _Coordination_: Provide _information_ to coordinate production, sales and
+  pricing decisions of the different divisions.
+
+In both cases the price is _communicating information_, just as it does in competitive markets.
+
+## Effects of Transfer Pricing
+
+- Transfer prices make managers aware of the value that goods
+  and services have for other segments of the firm.
+- Transfer pricing allows the company to generate profit (or cost) figures for
+  each division separately.
+- The transfer price will affect, not only the reported profit of each center,
+  but will also affect the allocation of an organization’s resources.
+
+## Mechanics of Transfer Pricing
+
+- No money need change hands between the two divisions. The transfer price might only be used for internal record keeping. 
+- (Transfer Price $\times$ quantity of goods exchanged) is an expense for the purchasing center and a revenue for the selling center.
+
+## Accounting for Transfer Pricing
+
+
+If intra-company transactions are accounted for at prices in excess of cost,
+appropriate elimination entries should be made for external reporting purposes.
+Examples of items to be eliminated for consolidated financial statements
+include:
+
+- Intra-company receivables and payables.
+- Intra-company sales and costs of goods sold.
+- Intra-company profits in inventories.
+
+## Methods of Transfer Pricing
+
+- A transfer pricing policy defines rules for calculating the transfer price. 
+- In addition, a transfer price policy has to specify sourcing rules.
+    - i.e., either mandate internal transactions or allow divisions discretion in choosing whether to buy/sell externally. 
+
+# Common Transfer Pricing Methods:
+
+## Method 1: Market-based Transfer Pricing
+
+When the outside market for the good is _well-defined_, _competitive_, and _stable_,
+firms often use the market price as an upper bound for the transfer price.
+
+
+_Market-Based Transfer Pricing Terms:_
+- what is a well defined market?
+- what is a competitive market?
+- what is a stable market?
+
+
+_Market-Based Transfer Pricing Terms:_
+- what is a well defined market?
+    - it is easy to predict what customers will do if the price changes?
+    - if it is easy to define what the substitutes for a product are (or if there are none) then the market is well defined.
+- what is a competitive market?
+    - many firms are in the market
+    - none is dominant
+    - modest margins (i.e. no economic rents)
+- what is a stable market?
+    - prices are predictable enough to be useful for planning and compensation 
+
+## Why do we need these to hold for external transfer pricing to be useful?
+
+- the prices need to be informative in order to measure effort 
+    - _remember Huck Finn doesn't like risk_
+- the prices need to be informative for future planning 
+
+## Concerns with market-based Transfer Pricing
+
+__External prices may not have the information we need.__
+
+- When the outside market is neither _competitive_ nor stable, internal decision making may be distorted by reliance on market-based transfer prices (external information problem):
+    - e.g. if competitors are selling at distress prices or are engaged in any of a variety of “special” pricing strategies. 
+    - e.g., price discrimination, product tie-ins, or entry deterrence. 
+- Also, when entering a new product market the firm may opt to provide an internal subsidy to the new business segment (internal information problem).
+
+## Method 2: Negotiated Transfer Pricing 
+
+Here, the firm does not specify rules for the determination of transfer prices.
+
+- Divisional managers negotiate the transfer price. 
+- Negotiated transfer pricing can be combined with free sourcing.
+    - i.e. The consuming department has an outside option.
+- In some companies, though, headquarters reserves the right to mediate the negotiation process and impose an “arbitrated” solution.
+
+
+## Method 3: Cost-based Transfer Pricing
+
+In the absence of an established market price many companies base the transfer
+price on the production cost of the supplying division.
+
+The most common methods are:
+
+- Full Cost
+- Cost-plus
+- Variable Cost plus Lump Sum charge
+- Variable Cost plus Opportunity cost
+- Dual Transfer Prices
+
+Each of these methods is outlined below.
+
+## Cost-based Transfer Pricing Method 1: Full Cost
+
+__The transfer price is equal to the _full cost_ of producing the good or service by the supplying department.__
+- Full Cost = Variable Cost + Fixed Cost, may include lifecycle costs.
+- A popular transfer price because of its clarity and convenience.  
+- An approximation of outside market prices.
+- Full _actual costs_ can include inefficiencies; thus its usage for transfer pricing often fails to provide an incentive to control such inefficiencies.
+- Use of full _standard costs_ may minimize this problem 
+    - i.e. you get paid what you budget, if you come in under (over) budget your division gets profit (loss).
+
+## Cost-based Transfer Pricing Method 2: Cost-plus
+
+__Transfer Price = Full Cost $\times$ (1+x)__ 
+
+- When transfers are made at full cost, the buying division takes all the gains from trade while the supplying division receives none
+- To overcome this problem the supplying division is frequently allowed to add a mark-up (x=.02) in order to make a "reasonable" profit
+- The transfer price may then be viewed as an approximate market price, or rate of return.
+
+## Cost-based Transfer Pricing Method 3: Variable Cost plus a Lump Sum Charge
+
+__Transfer Price = VC + X__
+
+In order to motivate the buying division to make appropriate purchasing
+decisions, the transfer price could be set equal to (standard) variable cost
+plus a lump-sum periodical charge covering the supplying division's related
+fixed costs.
+
+_Why this is important will be a topic of a whole lecture later in the semester._
+
+## Cost-based Transfer Pricing Method 4: Variable Cost plus Opportunity Cost
+
+Also know as the Minimum Transfer Price:
+
+__Minimum Transfer Price = Incremental Cost + Opportunity Cost.__
+
+- Opportunity Cost: The next most productive activity for that department. 
+    - Could be an outside sale, could be operation in a different market.
+    
+Requires the consuming department to be at least as productive as the supplier's outside option. Uses the outside market as a lower bound on the transfer price.
+
+
+For internal decision making purposes, a transfer price should be at least as
+large as the sum of:
+
+- cash outflows that are directly associated with the production of the
+  transferred goods; and,
+- the contribution margin foregone by the firm as a whole if the goods are
+  transferred internally.
+
+## CAUTION: Transfer Costs may obscure the fixed/variable cost distinction!
+
+Sub-optimal decisions can result from the natural inclination of the manager of
+an autonomous buying division to view a _mix of variable and fixed costs_ of a
+selling division plus, possibly, a mark-up _as variable costs_ of his buying
+division. 
+
+In this case costs that are _not_ avoidable for the firm, appear avoidable to the manager.
+
+Dual transfer pricing can address this problem, although it introduces the complexity of using different prices for different managers.
+
+## Dual Transfer Prices
+
+To avoid some of the problems associated with the above schemes, some companies
+adopt a dual transfer pricing system. For example:
+
+- Charge the buyer for the variable cost. The objective is to motivate the manager of the buying division to make optimal (short-term) decisions.
+- Credit the seller at a price that allows for a normal profit margin. This facilitates a “fair” evaluation of the selling division’s performance.
+
