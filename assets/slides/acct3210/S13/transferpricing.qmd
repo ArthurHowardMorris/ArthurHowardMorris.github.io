@@ -12,7 +12,7 @@ jupyter: python3
 
 
 
-# Lecture 12: Transfer Pricing and Responsibility Accounting
+## Exam
 
 - Great work on the exam!
 - We are working to have the exams graded by next Wednesday. 
@@ -297,12 +297,14 @@ firms often use the market price as an upper bound for the transfer price.
 
 
 _Market-Based Transfer Pricing Terms:_
+
 - what is a well defined market?
 - what is a competitive market?
 - what is a stable market?
 
 
 _Market-Based Transfer Pricing Terms:_
+
 - what is a well defined market?
     - it is easy to predict what customers will do if the price changes?
     - if it is easy to define what the substitutes for a product are (or if there are none) then the market is well defined.
@@ -356,6 +358,7 @@ Each of these methods is outlined below.
 ## Cost-based Transfer Pricing Method 1: Full Cost
 
 __The transfer price is equal to the _full cost_ of producing the good or service by the supplying department.__
+
 - Full Cost = Variable Cost + Fixed Cost, may include lifecycle costs.
 - A popular transfer price because of its clarity and convenience.  
 - An approximation of outside market prices.
