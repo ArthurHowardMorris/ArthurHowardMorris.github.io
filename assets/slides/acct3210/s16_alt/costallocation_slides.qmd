@@ -392,7 +392,7 @@ It may! In this case the difference in magnitudes is relatively minor.
 
 ## Step-down allocations
 
-|          | Costs to Allocate |                IT |                 Cars |               Trucks | Total Alloc. |
+|          | Costs to Allocate |                Telecoms |                 Cars |               Trucks | Total Alloc. |
 |----------|------------------:|------------------:|---------------------:|---------------------:|--------------|
 | IT       |               \$6 | 5/17 $\times$ \$6 |    7/17 $\times$ \$6 |    5/17 $\times$ \$6 |              |
 |          |                   |         = \$1.765 |            = \$2.470 |           = \$ 1.765 | \$4.235      |
