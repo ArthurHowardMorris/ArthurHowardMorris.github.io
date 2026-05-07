@@ -36,13 +36,10 @@ similar.
 ### Economics of agency
 
 - These will be questions about the concepts from:
-  - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/2)
+  - [Incentives and Compensation](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.pdf)
   - Examples
-    - [Risk Aversion (__Link to Slides__)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/10)
-    - [Controlability/Informativeness (__Link to Slides__)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.slides.html#/10/9)
-<!--TODO: make pdf versions of these-->
-
-  <!-- Note that the details of the Rothwell problem will not be tested. -->
+    - [Risk Aversion (__Link to Slides__)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.pdf)
+    - [Controlability/Informativeness (__Link to Slides__)](https://arthurhowardmorris.github.io/assets/slides/acct3210/S10/session10incentives.pdf)
 
 ## Section 3: Cost Allocation
 
