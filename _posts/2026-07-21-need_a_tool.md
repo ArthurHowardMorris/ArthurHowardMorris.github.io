@@ -1,5 +1,5 @@
 ---
-title: '2026-07-14'
+title: '2026-07-21'
 categories:
   - writing
 tags:
